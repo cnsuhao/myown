@@ -1,54 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Object>
-<Property ID="skill101001" DamageType="1" ConsumeMP="0" CoolDownCategory="2001" CoolDownTime="1000" SelectType="0" HitTargetRelationType="2" HitTargetType="0,1" SkillFormula="PhysAttack*#SkillDamageRate+#SkillAttackAdd" HitCount="3" DamageRate="0.8" IsGrowProperty="0"></Property>
-<Property ID="skill101002" DamageType="1" ConsumeMP="0" CoolDownCategory="2002" CoolDownTime="1000" SelectType="0" HitTargetRelationType="2" HitTargetType="0,1" SkillFormula="PhysAttack*#SkillDamageRate+#SkillAttackAdd" HitCount="3" DamageRate="0.8" IsGrowProperty="0"></Property>
-<Property ID="skill101003" DamageType="1" ConsumeMP="0" CoolDownCategory="2003" CoolDownTime="1000" SelectType="0" HitTargetRelationType="2" HitTargetType="0,1" SkillFormula="PhysAttack*#SkillDamageRate+#SkillAttackAdd" HitCount="3" DamageRate="0.8" IsGrowProperty="0"></Property>
-<Property ID="skill101101" DamageType="1" ConsumeMP="10" CoolDownCategory="2004" CoolDownTime="3000" SelectType="0" HitTargetRelationType="2" HitTargetType="0,1" SkillFormula="PhysAttack*#SkillDamageRate+#SkillAttackAdd" HitCount="3" DamageRate="1" IsGrowProperty="1"></Property>
-<Property ID="skill101102" DamageType="1" ConsumeMP="10" CoolDownCategory="2005" CoolDownTime="3000" SelectType="0" HitTargetRelationType="2" HitTargetType="0,1" SkillFormula="PhysAttack*#SkillDamageRate+#SkillAttackAdd" HitCount="3" DamageRate="2" IsGrowProperty="1"></Property>
-<Property ID="skill101103" DamageType="1" ConsumeMP="10" CoolDownCategory="2006" CoolDownTime="3000" SelectType="0" HitTargetRelationType="2" HitTargetType="0,1" SkillFormula="PhysAttack*#SkillDamageRate+#SkillAttackAdd" HitCount="3" DamageRate="3" IsGrowProperty="1"></Property>
-<Property ID="skill101104" DamageType="1" ConsumeMP="10" CoolDownCategory="2007" CoolDownTime="3000" SelectType="0" HitTargetRelationType="2" HitTargetType="0,1" SkillFormula="PhysAttack*#SkillDamageRate+#SkillAttackAdd" HitCount="3" DamageRate="4" IsGrowProperty="1"></Property>
-<Property ID="skill101105" DamageType="1" ConsumeMP="10" CoolDownCategory="2008" CoolDownTime="3000" SelectType="0" HitTargetRelationType="2" HitTargetType="0,1" SkillFormula="PhysAttack*#SkillDamageRate+#SkillAttackAdd" HitCount="3" DamageRate="5" IsGrowProperty="1"></Property>
-<Property ID="skill101106" DamageType="1" ConsumeMP="10" CoolDownCategory="2009" CoolDownTime="3000" SelectType="0" HitTargetRelationType="2" HitTargetType="0,1" SkillFormula="PhysAttack*#SkillDamageRate+#SkillAttackAdd" HitCount="3" DamageRate="6" IsGrowProperty="1"></Property>
-<Property ID="skill101107" DamageType="1" ConsumeMP="10" CoolDownCategory="2010" CoolDownTime="3000" SelectType="0" HitTargetRelationType="2" HitTargetType="0,1" SkillFormula="PhysAttack*#SkillDamageRate+#SkillAttackAdd" HitCount="3" DamageRate="7" IsGrowProperty="1"></Property>
-<Property ID="skill201001" DamageType="1" ConsumeMP="0" CoolDownCategory="2011" CoolDownTime="1000" SelectType="0" HitTargetRelationType="2" HitTargetType="0,1" SkillFormula="PhysAttack*#SkillDamageRate+#SkillAttackAdd" HitCount="3" DamageRate="0.8" IsGrowProperty="0"></Property>
-<Property ID="skill201002" DamageType="1" ConsumeMP="0" CoolDownCategory="2012" CoolDownTime="1000" SelectType="0" HitTargetRelationType="2" HitTargetType="0,1" SkillFormula="PhysAttack*#SkillDamageRate+#SkillAttackAdd" HitCount="3" DamageRate="0.8" IsGrowProperty="0"></Property>
-<Property ID="skill201003" DamageType="1" ConsumeMP="0" CoolDownCategory="2013" CoolDownTime="1000" SelectType="0" HitTargetRelationType="2" HitTargetType="0,1" SkillFormula="PhysAttack*#SkillDamageRate+#SkillAttackAdd" HitCount="3" DamageRate="0.8" IsGrowProperty="0"></Property>
-<Property ID="skill201101" DamageType="1" ConsumeMP="10" CoolDownCategory="2014" CoolDownTime="3000" SelectType="0" HitTargetRelationType="2" HitTargetType="0,1" SkillFormula="PhysAttack*#SkillDamageRate+#SkillAttackAdd" HitCount="3" DamageRate="1" IsGrowProperty="1"></Property>
-<Property ID="skill201102" DamageType="1" ConsumeMP="10" CoolDownCategory="2015" CoolDownTime="3000" SelectType="0" HitTargetRelationType="2" HitTargetType="0,1" SkillFormula="PhysAttack*#SkillDamageRate+#SkillAttackAdd" HitCount="3" DamageRate="2" IsGrowProperty="1"></Property>
-<Property ID="skill201103" DamageType="1" ConsumeMP="10" CoolDownCategory="2016" CoolDownTime="3000" SelectType="0" HitTargetRelationType="2" HitTargetType="0,1" SkillFormula="PhysAttack*#SkillDamageRate+#SkillAttackAdd" HitCount="3" DamageRate="3" IsGrowProperty="1"></Property>
-<Property ID="skill201104" DamageType="1" ConsumeMP="10" CoolDownCategory="2017" CoolDownTime="3000" SelectType="0" HitTargetRelationType="2" HitTargetType="0,1" SkillFormula="PhysAttack*#SkillDamageRate+#SkillAttackAdd" HitCount="3" DamageRate="4" IsGrowProperty="1"></Property>
-<Property ID="skill201105" DamageType="1" ConsumeMP="10" CoolDownCategory="2018" CoolDownTime="3000" SelectType="0" HitTargetRelationType="2" HitTargetType="0,1" SkillFormula="PhysAttack*#SkillDamageRate+#SkillAttackAdd" HitCount="3" DamageRate="5" IsGrowProperty="1"></Property>
-<Property ID="skill201106" DamageType="1" ConsumeMP="10" CoolDownCategory="2019" CoolDownTime="3000" SelectType="0" HitTargetRelationType="2" HitTargetType="0,1" SkillFormula="PhysAttack*#SkillDamageRate+#SkillAttackAdd" HitCount="3" DamageRate="6" IsGrowProperty="1"></Property>
-<Property ID="skill201107" DamageType="1" ConsumeMP="10" CoolDownCategory="2020" CoolDownTime="3000" SelectType="0" HitTargetRelationType="2" HitTargetType="0,1" SkillFormula="PhysAttack*#SkillDamageRate+#SkillAttackAdd" HitCount="3" DamageRate="7" IsGrowProperty="1"></Property>
-<Property ID="skill301001" DamageType="1" ConsumeMP="0" CoolDownCategory="2021" CoolDownTime="1000" SelectType="0" HitTargetRelationType="2" HitTargetType="0,1" SkillFormula="PhysAttack*#SkillDamageRate+#SkillAttackAdd" HitCount="3" DamageRate="0.8" IsGrowProperty="0"></Property>
-<Property ID="skill301002" DamageType="1" ConsumeMP="0" CoolDownCategory="2022" CoolDownTime="1000" SelectType="0" HitTargetRelationType="2" HitTargetType="0,1" SkillFormula="PhysAttack*#SkillDamageRate+#SkillAttackAdd" HitCount="3" DamageRate="0.8" IsGrowProperty="0"></Property>
-<Property ID="skill301003" DamageType="1" ConsumeMP="0" CoolDownCategory="2023" CoolDownTime="1000" SelectType="0" HitTargetRelationType="2" HitTargetType="0,1" SkillFormula="PhysAttack*#SkillDamageRate+#SkillAttackAdd" HitCount="3" DamageRate="0.8" IsGrowProperty="0"></Property>
-<Property ID="skill301101" DamageType="1" ConsumeMP="10" CoolDownCategory="2024" CoolDownTime="3000" SelectType="0" HitTargetRelationType="2" HitTargetType="0,1" SkillFormula="PhysAttack*#SkillDamageRate+#SkillAttackAdd" HitCount="3" DamageRate="1" IsGrowProperty="1"></Property>
-<Property ID="skill301102" DamageType="1" ConsumeMP="10" CoolDownCategory="2025" CoolDownTime="3000" SelectType="0" HitTargetRelationType="2" HitTargetType="0,1" SkillFormula="PhysAttack*#SkillDamageRate+#SkillAttackAdd" HitCount="3" DamageRate="2" IsGrowProperty="1"></Property>
-<Property ID="skill301103" DamageType="1" ConsumeMP="10" CoolDownCategory="2026" CoolDownTime="3000" SelectType="0" HitTargetRelationType="2" HitTargetType="0,1" SkillFormula="PhysAttack*#SkillDamageRate+#SkillAttackAdd" HitCount="3" DamageRate="3" IsGrowProperty="1"></Property>
-<Property ID="skill301104" DamageType="1" ConsumeMP="10" CoolDownCategory="2027" CoolDownTime="3000" SelectType="0" HitTargetRelationType="2" HitTargetType="0,1" SkillFormula="PhysAttack*#SkillDamageRate+#SkillAttackAdd" HitCount="3" DamageRate="4" IsGrowProperty="1"></Property>
-<Property ID="skill301105" DamageType="1" ConsumeMP="10" CoolDownCategory="2028" CoolDownTime="3000" SelectType="0" HitTargetRelationType="2" HitTargetType="0,1" SkillFormula="PhysAttack*#SkillDamageRate+#SkillAttackAdd" HitCount="3" DamageRate="5" IsGrowProperty="1"></Property>
-<Property ID="skill301106" DamageType="1" ConsumeMP="10" CoolDownCategory="2029" CoolDownTime="3000" SelectType="0" HitTargetRelationType="2" HitTargetType="0,1" SkillFormula="PhysAttack*#SkillDamageRate+#SkillAttackAdd" HitCount="3" DamageRate="6" IsGrowProperty="1"></Property>
-<Property ID="skill301107" DamageType="1" ConsumeMP="10" CoolDownCategory="2030" CoolDownTime="3000" SelectType="0" HitTargetRelationType="2" HitTargetType="0,1" SkillFormula="PhysAttack*#SkillDamageRate+#SkillAttackAdd" HitCount="3" DamageRate="7" IsGrowProperty="1"></Property>
-<Property ID="skill401001" DamageType="2" ConsumeMP="0" CoolDownCategory="2031" CoolDownTime="1000" SelectType="0" HitTargetRelationType="2" HitTargetType="0,1" SkillFormula="PhysAttack*#SkillDamageRate+#SkillAttackAdd" HitCount="3" DamageRate="0.8" IsGrowProperty="0"></Property>
-<Property ID="skill401002" DamageType="2" ConsumeMP="0" CoolDownCategory="2032" CoolDownTime="1000" SelectType="0" HitTargetRelationType="2" HitTargetType="0,1" SkillFormula="PhysAttack*#SkillDamageRate+#SkillAttackAdd" HitCount="3" DamageRate="0.8" IsGrowProperty="0"></Property>
-<Property ID="skill401003" DamageType="2" ConsumeMP="0" CoolDownCategory="2033" CoolDownTime="1000" SelectType="0" HitTargetRelationType="2" HitTargetType="0,1" SkillFormula="PhysAttack*#SkillDamageRate+#SkillAttackAdd" HitCount="3" DamageRate="0.8" IsGrowProperty="0"></Property>
-<Property ID="skill401101" DamageType="0" ConsumeMP="10" CoolDownCategory="2034" CoolDownTime="3000" SelectType="0" IsHitSelf="1" HitTargetRelationType="2" HitTargetType="0,1" SkillFormula="PhysAttack*#SkillDamageRate+#SkillAttackAdd" Skill_Effect="skill401101_01" HitCount="1" DamageRate="1" IsGrowProperty="1"></Property>
-<Property ID="skill401102" DamageType="2" ConsumeMP="10" CoolDownCategory="2035" CoolDownTime="3000" SelectType="0" HitTargetRelationType="2" HitTargetType="0,1" SkillFormula="PhysAttack*#SkillDamageRate+#SkillAttackAdd" HitCount="3" DamageRate="2" IsGrowProperty="1"></Property>
-<Property ID="skill401103" DamageType="2" ConsumeMP="10" CoolDownCategory="2036" CoolDownTime="3000" SelectType="0" HitTargetRelationType="2" HitTargetType="0,1" SkillFormula="PhysAttack*#SkillDamageRate+#SkillAttackAdd" HitCount="3" DamageRate="3" IsGrowProperty="1"></Property>
-<Property ID="skill401104" DamageType="2" ConsumeMP="10" CoolDownCategory="2037" CoolDownTime="3000" SelectType="0" HitTargetRelationType="2" HitTargetType="0,1" SkillFormula="PhysAttack*#SkillDamageRate+#SkillAttackAdd" HitCount="3" DamageRate="4" IsGrowProperty="1"></Property>
-<Property ID="skill401105" DamageType="2" ConsumeMP="10" CoolDownCategory="2038" CoolDownTime="3000" SelectType="0" HitTargetRelationType="2" HitTargetType="0,1" SkillFormula="PhysAttack*#SkillDamageRate+#SkillAttackAdd" HitCount="3" DamageRate="5" IsGrowProperty="1"></Property>
-<Property ID="skill401106" DamageType="2" ConsumeMP="10" CoolDownCategory="2039" CoolDownTime="3000" SelectType="0" HitTargetRelationType="2" HitTargetType="0,1" SkillFormula="PhysAttack*#SkillDamageRate+#SkillAttackAdd" HitCount="3" DamageRate="6" IsGrowProperty="1"></Property>
-<Property ID="skill401107" DamageType="2" ConsumeMP="10" CoolDownCategory="2040" CoolDownTime="3000" SelectType="0" HitTargetRelationType="2" HitTargetType="0,1" SkillFormula="PhysAttack*#SkillDamageRate+#SkillAttackAdd" HitCount="3" DamageRate="7" IsGrowProperty="1"></Property>
-<Property ID="skill501001" DamageType="2" ConsumeMP="0" CoolDownCategory="2041" CoolDownTime="1000" SelectType="0" HitTargetRelationType="2" HitTargetType="0,1" SkillFormula="PhysAttack*#SkillDamageRate+#SkillAttackAdd" HitCount="3" DamageRate="0.8" IsGrowProperty="0"></Property>
-<Property ID="skill501002" DamageType="2" ConsumeMP="0" CoolDownCategory="2042" CoolDownTime="1000" SelectType="0" HitTargetRelationType="2" HitTargetType="0,1" SkillFormula="PhysAttack*#SkillDamageRate+#SkillAttackAdd" HitCount="3" DamageRate="0.8" IsGrowProperty="0"></Property>
-<Property ID="skill501003" DamageType="2" ConsumeMP="0" CoolDownCategory="2043" CoolDownTime="1000" SelectType="0" HitTargetRelationType="2" HitTargetType="0,1" SkillFormula="PhysAttack*#SkillDamageRate+#SkillAttackAdd" HitCount="3" DamageRate="0.8" IsGrowProperty="0"></Property>
-<Property ID="skill501101" DamageType="2" ConsumeMP="10" CoolDownCategory="2044" CoolDownTime="3000" SelectType="0" HitTargetRelationType="2" HitTargetType="0,1" SkillFormula="PhysAttack*#SkillDamageRate+#SkillAttackAdd" HitCount="3" DamageRate="1" IsGrowProperty="1"></Property>
-<Property ID="skill501102" DamageType="2" ConsumeMP="10" CoolDownCategory="2045" CoolDownTime="3000" SelectType="0" HitTargetRelationType="2" HitTargetType="0,1" SkillFormula="PhysAttack*#SkillDamageRate+#SkillAttackAdd" HitCount="3" DamageRate="2" IsGrowProperty="1"></Property>
-<Property ID="skill501103" DamageType="2" ConsumeMP="10" CoolDownCategory="2046" CoolDownTime="3000" SelectType="0" HitTargetRelationType="2" HitTargetType="0,1" SkillFormula="PhysAttack*#SkillDamageRate+#SkillAttackAdd" HitCount="3" DamageRate="3" IsGrowProperty="1"></Property>
-<Property ID="skill501104" DamageType="2" ConsumeMP="10" CoolDownCategory="2047" CoolDownTime="3000" SelectType="0" HitTargetRelationType="2" HitTargetType="0,1" SkillFormula="PhysAttack*#SkillDamageRate+#SkillAttackAdd" HitCount="3" DamageRate="4" IsGrowProperty="1"></Property>
-<Property ID="skill501105" DamageType="2" ConsumeMP="10" CoolDownCategory="2048" CoolDownTime="3000" SelectType="0" HitTargetRelationType="2" HitTargetType="0,1" SkillFormula="PhysAttack*#SkillDamageRate+#SkillAttackAdd" HitCount="3" DamageRate="5" IsGrowProperty="1"></Property>
-<Property ID="skill501106" DamageType="2" ConsumeMP="10" CoolDownCategory="2049" CoolDownTime="3000" SelectType="0" HitTargetRelationType="2" HitTargetType="0,1" SkillFormula="PhysAttack*#SkillDamageRate+#SkillAttackAdd" HitCount="3" DamageRate="6" IsGrowProperty="1"></Property>
-<Property ID="skill501107" DamageType="2" ConsumeMP="10" CoolDownCategory="2050" CoolDownTime="3000" SelectType="0" HitTargetRelationType="2" HitTargetType="0,1" SkillFormula="PhysAttack*#SkillDamageRate+#SkillAttackAdd" HitCount="3" DamageRate="7" IsGrowProperty="1"></Property>
-<Property ID="skill901001" DamageType="2" ConsumeMP="10" CoolDownCategory="3001" CoolDownTime="3000" SelectType="0" RangeDistMax="10" HitTargetRelationType="2" HitTargetType="0,1" HitRangeID="1" SkillFormula="PhysAttack*#SkillDamageRate+#SkillAttackAdd" HitCount="3" DamageRate="7" IsGrowProperty="1"></Property>
+<Property ID="skill101001"></Property>
+<Property ID="skill101002"></Property>
+<Property ID="skill101003"></Property>
+<Property ID="skill101101"></Property>
+<Property ID="skill101102"></Property>
+<Property ID="skill101103"></Property>
+<Property ID="skill101104"></Property>
+<Property ID="skill101105"></Property>
+<Property ID="skill101106"></Property>
+<Property ID="skill101107"></Property>
+<Property ID="skill201001"></Property>
+<Property ID="skill201002"></Property>
+<Property ID="skill201003"></Property>
+<Property ID="skill201101"></Property>
+<Property ID="skill201102"></Property>
+<Property ID="skill201103"></Property>
+<Property ID="skill201104"></Property>
+<Property ID="skill201105"></Property>
+<Property ID="skill201106"></Property>
+<Property ID="skill201107"></Property>
+<Property ID="skill301001"></Property>
+<Property ID="skill301002"></Property>
+<Property ID="skill301003"></Property>
+<Property ID="skill301101"></Property>
+<Property ID="skill301102"></Property>
+<Property ID="skill301103"></Property>
+<Property ID="skill301104"></Property>
+<Property ID="skill301105"></Property>
+<Property ID="skill301106"></Property>
+<Property ID="skill301107"></Property>
+<Property ID="skill401001"></Property>
+<Property ID="skill401002"></Property>
+<Property ID="skill401003"></Property>
+<Property ID="skill401101"></Property>
+<Property ID="skill401102"></Property>
+<Property ID="skill401103"></Property>
+<Property ID="skill401104"></Property>
+<Property ID="skill401105"></Property>
+<Property ID="skill401106"></Property>
+<Property ID="skill401107"></Property>
+<Property ID="skill501001"></Property>
+<Property ID="skill501002"></Property>
+<Property ID="skill501003"></Property>
+<Property ID="skill501101"></Property>
+<Property ID="skill501102"></Property>
+<Property ID="skill501103"></Property>
+<Property ID="skill501104"></Property>
+<Property ID="skill501105"></Property>
+<Property ID="skill501106"></Property>
+<Property ID="skill501107"></Property>
+<Property ID="skill901001"></Property>
 </Object>

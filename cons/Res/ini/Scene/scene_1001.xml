@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Object>
-<Property ID="properties" Resource="1001" CollidePath="Scene1001" Born="BornScene1001" VisualRange="60" Grouping="1" AttackType="3" DropLimitType="0" VisualOrient="0" VisualType="0"></Property>
+<Property ID="properties" Resource="1001" CollidePath="Scene1001" Born="BornScene1001" VisualRange="60" Grouping="1" AttackType="3" DropLimitType="0" VisualOrient="0" VisualType="0" CanShowRide="1" CanFly="0"></Property>
 </Object>

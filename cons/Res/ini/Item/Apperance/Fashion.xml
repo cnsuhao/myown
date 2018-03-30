@@ -1,70 +1,9 @@
-<?xml version="1.0" encoding="gb2312"?>
-<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<?xml version="1.0" encoding="UTF-8"?>
 <Object>
-	<Property ID="1" OldID="F1020010" ConfigID="F1101020" Package="70000001" Type="0" SexLimit="1" ClassLimit="2" CampLimit="12" Model="M1010102" UnlockItems="Item9191001:1" SpecialItem="1"/>
-	<Property ID="2" OldID="F1020060" ConfigID="F1102020" Package="70000001" Type="0" SexLimit="2" ClassLimit="2" CampLimit="12" Model="M1010202" UnlockItems="Item9191002:1" SpecialItem="1"/>
-	<Property ID="3" OldID="F1030010" ConfigID="F1201020" Package="70000001" Type="0" SexLimit="1" ClassLimit="3" CampLimit="12" Model="M1020102" UnlockItems="Item9191003:1" SpecialItem="1"/>
-	<Property ID="4" OldID="F1030060" ConfigID="F1202020" Package="70000001" Type="0" SexLimit="2" ClassLimit="3" CampLimit="12" Model="M1020202" UnlockItems="Item9191004:1" SpecialItem="1"/>
-	<Property ID="5" OldID="F1010010" ConfigID="F1301020" Package="70000001" Type="0" SexLimit="1" ClassLimit="1" CampLimit="12" Model="M1030104" UnlockItems="Item9191005:1" SpecialItem="1"/>
-	<Property ID="6" OldID="F1010060" ConfigID="F1302020" Package="70000001" Type="0" SexLimit="2" ClassLimit="1" CampLimit="12" Model="M1030204" UnlockItems="Item9191006:1" SpecialItem="1"/>
-	<Property ID="7" OldID="F1120010" ConfigID="F1111020" Package="80000001" Type="1" SexLimit="1" ClassLimit="2" CampLimit="12" Model="M1010102" UnlockItems="Item9191007:1" SpecialItem="1"/>
-	<Property ID="8" OldID="F1120020" ConfigID="F1112020" Package="80000001" Type="1" SexLimit="2" ClassLimit="2" CampLimit="12" Model="M1010202" UnlockItems="Item9191008:1" SpecialItem="1"/>
-	<Property ID="9" OldID="F1130010" ConfigID="F1211020" Package="80000001" Type="1" SexLimit="1" ClassLimit="3" CampLimit="12" Model="M1020102" UnlockItems="Item9191009:1" SpecialItem="1"/>
-	<Property ID="10" OldID="F1130020" ConfigID="F1212020" Package="80000001" Type="1" SexLimit="2" ClassLimit="3" CampLimit="12" Model="M1020202" UnlockItems="Item9191010:1" SpecialItem="1"/>
-	<Property ID="11" OldID="F1110010" ConfigID="F1311020" Package="80000001" Type="1" SexLimit="1" ClassLimit="1" CampLimit="12" Model="M1030102" UnlockItems="Item9191011:1" SpecialItem="1"/>
-	<Property ID="12" OldID="F1110020" ConfigID="F1312020" Package="80000001" Type="1" SexLimit="2" ClassLimit="1" CampLimit="12" Model="M1030202" UnlockItems="Item9191012:1" SpecialItem="1"/>
-	<Property ID="13" OldID="F1020020" ConfigID="F1101030" Package="70000002" Type="0" SexLimit="1" ClassLimit="2" CampLimit="12" Model="M1010103" UnlockItems="Item9191013:1" SpecialItem="1"/>
-	<Property ID="14" OldID="F1020070" ConfigID="F1102030" Package="70000002" Type="0" SexLimit="2" ClassLimit="2" CampLimit="12" Model="M1010203" UnlockItems="Item9191014:1" SpecialItem="1"/>
-	<Property ID="15" OldID="F1030020" ConfigID="F1201030" Package="70000002" Type="0" SexLimit="1" ClassLimit="3" CampLimit="12" Model="M1020103" UnlockItems="Item9191015:1" SpecialItem="1"/>
-	<Property ID="16" OldID="F1030070" ConfigID="F1202030" Package="70000002" Type="0" SexLimit="2" ClassLimit="3" CampLimit="12" Model="M1020203" UnlockItems="Item9191016:1" SpecialItem="1"/>
-	<Property ID="17" OldID="F1010020" ConfigID="F1301030" Package="70000002" Type="0" SexLimit="1" ClassLimit="1" CampLimit="12" Model="M1030103" UnlockItems="Item9191017:1" SpecialItem="1"/>
-	<Property ID="18" OldID="F1010070" ConfigID="F1302030" Package="70000002" Type="0" SexLimit="2" ClassLimit="1" CampLimit="12" Model="M1030203" UnlockItems="Item9191018:1" SpecialItem="1"/>
-	<Property ID="19" OldID="F1120030" ConfigID="F1111030" Package="80000002" Type="1" SexLimit="1" ClassLimit="2" CampLimit="12" Model="M1010103" UnlockItems="Item9191019:1" SpecialItem="1"/>
-	<Property ID="20" OldID="F1120040" ConfigID="F1112030" Package="80000002" Type="1" SexLimit="2" ClassLimit="2" CampLimit="12" Model="M1010203" UnlockItems="Item9191020:1" SpecialItem="1"/>
-	<Property ID="21" OldID="F1130030" ConfigID="F1211030" Package="80000002" Type="1" SexLimit="1" ClassLimit="3" CampLimit="12" Model="M1020103" UnlockItems="Item9191021:1" SpecialItem="1"/>
-	<Property ID="22" OldID="F1130040" ConfigID="F1212030" Package="80000002" Type="1" SexLimit="2" ClassLimit="3" CampLimit="12" Model="M1020203" UnlockItems="Item9191022:1" SpecialItem="1"/>
-	<Property ID="23" OldID="F1110030" ConfigID="F1311030" Package="80000002" Type="1" SexLimit="1" ClassLimit="1" CampLimit="12" Model="M1030103" UnlockItems="Item9191023:1" SpecialItem="1"/>
-	<Property ID="24" OldID="F1110040" ConfigID="F1312030" Package="80000002" Type="1" SexLimit="2" ClassLimit="1" CampLimit="12" Model="M1030203" UnlockItems="Item9191024:1" SpecialItem="1"/>
-	<Property ID="25" OldID="F1020020" ConfigID="F1101040" Package="70000002" Type="0" SexLimit="1" ClassLimit="2" CampLimit="12" Model="M1010104" UnlockItems="Item9191025:1" SpecialItem="1"/>
-	<Property ID="26" OldID="F1020080" ConfigID="F1102040" Package="70000002" Type="0" SexLimit="2" ClassLimit="2" CampLimit="12" Model="M1010204" UnlockItems="Item9191026:1" SpecialItem="1"/>
-	<Property ID="27" OldID="F1030030" ConfigID="F1201040" Package="70000002" Type="0" SexLimit="1" ClassLimit="3" CampLimit="12" Model="M1020104" UnlockItems="Item9191027:1" SpecialItem="1"/>
-	<Property ID="28" OldID="F1030080" ConfigID="F1202040" Package="70000002" Type="0" SexLimit="2" ClassLimit="3" CampLimit="12" Model="M1020212" UnlockItems="Item9191028:1" SpecialItem="1"/>
-	<Property ID="29" OldID="F1010030" ConfigID="F1301040" Package="70000002" Type="0" SexLimit="1" ClassLimit="1" CampLimit="12" Model="M1030102" UnlockItems="Item9191029:1" SpecialItem="1"/>
-	<Property ID="30" OldID="F1010080" ConfigID="F1302040" Package="70000002" Type="0" SexLimit="2" ClassLimit="1" CampLimit="12" Model="M1030202" UnlockItems="Item9191030:1" SpecialItem="1"/>
-	<Property ID="31" OldID="F1120070" ConfigID="F1111040" Package="80000002" Type="1" SexLimit="1" ClassLimit="2" CampLimit="12" Model="M1010104" UnlockItems="Item9191031:1" SpecialItem="1"/>
-	<Property ID="32" OldID="F1120080" ConfigID="F1112040" Package="80000002" Type="1" SexLimit="2" ClassLimit="2" CampLimit="12" Model="M1010204" UnlockItems="Item9191032:1" SpecialItem="1"/>
-	<Property ID="33" OldID="F1130070" ConfigID="F1211040" Package="80000002" Type="1" SexLimit="1" ClassLimit="3" CampLimit="12" Model="M1020104" UnlockItems="Item9191033:1" SpecialItem="1"/>
-	<Property ID="34" OldID="F1130080" ConfigID="F1212040" Package="80000002" Type="1" SexLimit="2" ClassLimit="3" CampLimit="12" Model="M1020204" UnlockItems="Item9191034:1" SpecialItem="1"/>
-	<Property ID="35" OldID="F1110070" ConfigID="F1311040" Package="80000002" Type="1" SexLimit="1" ClassLimit="1" CampLimit="12" Model="M1030104" UnlockItems="Item9191035:1" SpecialItem="1"/>
-	<Property ID="36" OldID="F1110080" ConfigID="F1312040" Package="80000002" Type="1" SexLimit="2" ClassLimit="1" CampLimit="12" Model="M1030204" UnlockItems="Item9191036:1" SpecialItem="1"/>
-	<Property ID="37" ConfigID="F1101110" Package="70000003" Type="0" SexLimit="1" ClassLimit="2" CampLimit="12" Model="M1010111" UnlockItems="Item9191037:1" SpecialItem="1"/>
-	<Property ID="38" ConfigID="F1102110" Package="70000003" Type="0" SexLimit="2" ClassLimit="2" CampLimit="12" Model="M1010211" UnlockItems="Item9191038:1" SpecialItem="1"/>
-	<Property ID="39" ConfigID="F1201110" Package="70000003" Type="0" SexLimit="1" ClassLimit="3" CampLimit="12" Model="M1020111" UnlockItems="Item9191039:1" SpecialItem="1"/>
-	<Property ID="40" ConfigID="F1202110" Package="70000003" Type="0" SexLimit="2" ClassLimit="3" CampLimit="12" Model="M1020211" UnlockItems="Item9191040:1" SpecialItem="1"/>
-	<Property ID="41" ConfigID="F1301110" Package="70000003" Type="0" SexLimit="1" ClassLimit="1" CampLimit="12" Model="M1030111" UnlockItems="Item9191041:1" SpecialItem="1"/>
-	<Property ID="42" ConfigID="F1302110" Package="70000003" Type="0" SexLimit="2" ClassLimit="1" CampLimit="12" Model="M1030211" UnlockItems="Item9191042:1" SpecialItem="1"/>
-	<Property ID="43" OldID="F1120090" ConfigID="F1111110" Package="80000003" Type="1" SexLimit="1" ClassLimit="2" CampLimit="12" Model="M1010111" UnlockItems="Item9191043:1" SpecialItem="1"/>
-	<Property ID="44" OldID="F1120100" ConfigID="F1112110" Package="80000003" Type="1" SexLimit="2" ClassLimit="2" CampLimit="12" Model="M1010211" UnlockItems="Item9191044:1" SpecialItem="1"/>
-	<Property ID="45" OldID="F1130090" ConfigID="F1211110" Package="80000003" Type="1" SexLimit="1" ClassLimit="3" CampLimit="12" Model="M1020111" UnlockItems="Item9191045:1" SpecialItem="1"/>
-	<Property ID="46" OldID="F1130100" ConfigID="F1212110" Package="80000003" Type="1" SexLimit="2" ClassLimit="3" CampLimit="12" Model="M1020211" UnlockItems="Item9191046:1" SpecialItem="1"/>
-	<Property ID="47" OldID="F1110090" ConfigID="F1311110" Package="80000003" Type="1" SexLimit="1" ClassLimit="1" CampLimit="12" Model="M1030111" UnlockItems="Item9191047:1" SpecialItem="1"/>
-	<Property ID="48" OldID="F1110100" ConfigID="F1312110" Package="80000003" Type="1" SexLimit="2" ClassLimit="1" CampLimit="12" Model="M1030211" UnlockItems="Item9191048:1" SpecialItem="1"/>
-	<Property ID="49" ConfigID="F1111120" Package="80000003" Type="1" SexLimit="1" ClassLimit="2" CampLimit="12" Model="M1010112" UnlockItems="Item9191049:1" SpecialItem="1"/>
-	<Property ID="50" ConfigID="F1112120" Package="80000003" Type="1" SexLimit="2" ClassLimit="2" CampLimit="12" Model="M1010212" UnlockItems="Item9191050:1" SpecialItem="1"/>
-	<Property ID="51" ConfigID="F1211120" Package="80000003" Type="1" SexLimit="1" ClassLimit="3" CampLimit="12" Model="M1020112" UnlockItems="Item9191051:1" SpecialItem="1"/>
-	<Property ID="52" ConfigID="F1212120" Package="80000003" Type="1" SexLimit="2" ClassLimit="3" CampLimit="12" Model="M1020212" UnlockItems="Item9191052:1" SpecialItem="1"/>
-	<Property ID="53" ConfigID="F1311120" Package="80000003" Type="1" SexLimit="1" ClassLimit="1" CampLimit="12" Model="M1030112" UnlockItems="Item9191053:1" SpecialItem="1"/>
-	<Property ID="54" ConfigID="F1312120" Package="80000003" Type="1" SexLimit="2" ClassLimit="1" CampLimit="12" Model="M1030212" UnlockItems="Item9191054:1" SpecialItem="1"/>
-	<Property ID="55" ConfigID="F1111130" Package="80000003" Type="1" SexLimit="1" ClassLimit="2" CampLimit="12" Model="M1010113" UnlockItems="Item9191055:1" SpecialItem="1"/>
-	<Property ID="56" ConfigID="F1112130" Package="80000003" Type="1" SexLimit="2" ClassLimit="2" CampLimit="12" Model="M1010213" UnlockItems="Item9191056:1" SpecialItem="1"/>
-	<Property ID="57" ConfigID="F1211130" Package="80000003" Type="1" SexLimit="1" ClassLimit="3" CampLimit="12" Model="M1020113" UnlockItems="Item9191057:1" SpecialItem="1"/>
-	<Property ID="58" ConfigID="F1212130" Package="80000003" Type="1" SexLimit="2" ClassLimit="3" CampLimit="12" Model="M1020213" UnlockItems="Item9191058:1" SpecialItem="1"/>
-	<Property ID="59" ConfigID="F1311130" Package="80000003" Type="1" SexLimit="1" ClassLimit="1" CampLimit="12" Model="M1030113" UnlockItems="Item9191059:1" SpecialItem="1"/>
-	<Property ID="60" ConfigID="F1312130" Package="80000003" Type="1" SexLimit="2" ClassLimit="1" CampLimit="12" Model="M1030213" UnlockItems="Item9191060:1" SpecialItem="1"/>
-	<Property ID="61" ConfigID="F1101210" Package="80000003" Type="1" SexLimit="1" ClassLimit="2" CampLimit="12" Model="M1010121" SpecialItem="1"/>
-	<Property ID="62" ConfigID="F1102210" Package="80000003" Type="1" SexLimit="2" ClassLimit="2" CampLimit="12" Model="M1010221" SpecialItem="1"/>
-	<Property ID="63" ConfigID="F1201210" Package="80000003" Type="1" SexLimit="1" ClassLimit="3" CampLimit="12" Model="M1020121" SpecialItem="1"/>
-	<Property ID="64" ConfigID="F1202210" Package="80000003" Type="1" SexLimit="2" ClassLimit="3" CampLimit="12" Model="M1020221" SpecialItem="1"/>
-	<Property ID="65" ConfigID="F1301210" Package="80000003" Type="1" SexLimit="1" ClassLimit="1" CampLimit="12" Model="M1030121" SpecialItem="1"/>
-	<Property ID="66" ConfigID="F1302210" Package="80000003" Type="1" SexLimit="2" ClassLimit="1" CampLimit="12" Model="M1030221" SpecialItem="1"/>
+<Property ID="11110" Type="2" SexLimit="12" ClassLimit="12345" UnlockFee="0:200000" UnlockItems="105010001:2" SpecialItem="0"></Property>
+<Property ID="11201" Type="2" SexLimit="12" ClassLimit="12345" UnlockFee="0:200000" UnlockItems="105010001:2" SpecialItem="0"></Property>
+<Property ID="11301" Type="2" SexLimit="12" ClassLimit="12345" UnlockFee="0:200000" UnlockItems="105010001:2" SpecialItem="0"></Property>
+<Property ID="21101" Type="1" SexLimit="12" ClassLimit="12345" UnlockFee="0:200000" UnlockItems="105010001:2" SpecialItem="1"></Property>
+<Property ID="21201" Type="1" SexLimit="12" ClassLimit="12345" UnlockFee="0:200000" UnlockItems="105010001:2" SpecialItem="2"></Property>
+<Property ID="21301" Type="1" SexLimit="12" ClassLimit="12345" UnlockFee="0:200000" UnlockItems="105010001:2" SpecialItem="2"></Property>
 </Object>

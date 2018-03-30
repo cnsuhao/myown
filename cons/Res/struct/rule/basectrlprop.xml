@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!--控制属性-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<property name="CantMove" type="byte" public="true" private="true" save="false" realtime="true" desc="是否能够移动 0:可移动 1:不能移动"/>
+		<property name="CantRotate" type="byte" public="false" private="false" save="false" desc="是否能够转向 0:可转向 1:不能转向"/>
+		<property name="CantAttack" type="byte" public="false" private="true" save="false" desc="是否能够攻击"/>
+		<property name="CantBeAttack" type="byte" public="true" private="true" save="false" desc="是否能够被攻击 0:可被攻击 1：不可被攻击"/>
+		<property name="CantUseSkill" type="byte" public="false" private="true" save="false" desc="是否能够使用技能"/>
+		<property name="ImmunoControlBuff" type="byte" public="false" private="false" save="false" desc="免疫控制类buff"/>
+		<property name="Silent" type="byte" public="false" private="true" save="false" desc="沉默(不能释放技能,不过可以普通攻击)"/>
+		<property name="FixBeDamaged" type="byte" public="false" private="false" save="false" desc="被固定数值伤害"/>
+		<property name="GaintState" type="byte" public="true" private="true" save="false" desc="霸体状态"/>
+		<property name="StiffState" type="byte" public="false" private="true" save="false" realtime="true" desc="受击硬直状态"/>
+	</properties>
+</object>

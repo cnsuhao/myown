@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--场景基础属性-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<property name="ID" type="int" public="true" private="false" save="false" desc="场景基础资源名称"/>
+		<property name="Resource" type="string" public="true" private="false" save="false" desc="场景基础资源名称"/>
+		<property name="VisualRange" type="float" public="false" private="false" save="false" desc="场景内玩家之间的可视范围"/>
+		<property name="LocallLevelLim" type="int" public="false" private="false" save="false" desc="本国进场景限制"/>
+		<property name="AttackType" type="byte" public="true" private="false" save="false" desc="场景攻击类型"/>
+		<property name="ProtoSceneID" type="int" public="true" private="false" save="false" desc="原型场景ID"/>
+		<property name="CanShowRide" type="byte" public="false" private="false" save="false" desc="可否显示坐骑 0：不显示 1：显示"/>
+		<property name="CanFly" type="byte" public="false" private="false" save="false" desc="可否飞行 0不可飞行 1可飞行"/>
+	</properties>
+	<!-- 表属性 -->
+	<records>
+		<record name="creator_id_rec" cols="2" maxrows="4096" save="false" public="false" private="false" desc="生成器和id对应表">
+			<column type="string" desc="生成器id"/>
+			<column type="object" desc="生成器对象"/>
+		</record>
+		<record name="create_group_static_flow" cols="4" maxrows="1024" save="false" public="false" private="false" desc="分组场景静态npc创建缓存">
+			<column type="word" desc="SubSceneNo"/>
+			<column type="word" desc="分组号"/>
+			<column type="word" desc="正在创建的文件编号"/>
+			<column type="word" desc="正在创建的npc索引"/>
+		</record>
+		<record name="create_group_random_flow" cols="4" maxrows="1024" save="false" public="false" private="false" desc="分组场景随机生成器创建缓存">
+			<column type="word" desc="SubSceneNo"/>
+			<column type="word" desc="分组号"/>
+			<column type="word" desc="正在创建的文件编号"/>
+			<column type="word" desc="正在创建的npc索引"/>
+		</record>
+	</records>
+	<!--从其他文件加载属性-->
+	<includes>
+	</includes>
+</object>

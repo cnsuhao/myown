@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!--ID:功能类型
+CapitalPublishRate:金币惩罚后获得百分比 0.8为80%
+ExpPublishRate:经验惩罚后获得百分比 0.8为80%-->
+<Object>
+	<Property ID="4" CapitalPublishRate="0.8" ExpPublishRate="0.8"/>
+	<Property ID="77" CapitalPublishRate="0.8" ExpPublishRate="0.8"/>
+	<Property ID="78" CapitalPublishRate="0.8" ExpPublishRate="0.8"/>
+	<Property ID="79" CapitalPublishRate="0.8" ExpPublishRate="0.8"/>
+	<Property ID="80" CapitalPublishRate="0.8" ExpPublishRate="0.8"/>
+	<Property ID="81" CapitalPublishRate="0.8" ExpPublishRate="0.8"/>
+	<Property ID="82" CapitalPublishRate="0.8" ExpPublishRate="0.8"/>
+	<Property ID="121" CapitalPublishRate="0.8" ExpPublishRate="0.8"/>
+	<Property ID="120" CapitalPublishRate="0.8" ExpPublishRate="0.8"/>
+	<Property ID="124" CapitalPublishRate="0.8" ExpPublishRate="0.8"/>
+</Object>

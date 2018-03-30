@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<!--人物基础属性-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		
+	</properties>
+	<!-- 表属性 -->
+	<records>
+		<!-- 装备强化表 -->
+		<record name="EquStrengthenRec" cols="8" maxrows="6" save="true" public="false" private="true" desc="装备格子强化等级">
+			<column type="BYTE" desc="装备格子索引(1-6)"/>
+			<column type="WORD" desc="强化等级"/>
+			<column type="STRING" desc="每件装备镶嵌的灵魂,没有用''占位表示"/>
+			<column type="WORD" desc="灵魂吞噬数量"/>
+			<column type="STRING" desc="每件装备镶嵌的宝石1,没有用''占位表示"/>
+			<column type="STRING" desc="每件装备镶嵌的宝石2,没有用''占位表示"/>
+			<column type="STRING" desc="每件装备镶嵌的宝石3,没有用''占位表示"/>
+			<column type="STRING" desc="每件装备镶嵌的宝石4,没有用''占位表示"/>
+		</record>
+		
+		<!-- 装备洗炼表 -->
+		<record name="BaptiseRec" cols="3" maxrows="6" save="true" public="false" private="true" desc="洗炼表">
+			<column type="BYTE" name="pos" desc="装备格子索引(1-6)"/>
+			<column type="STRING" name="value_info" desc="属性洗练值（json转化的字符串）"/>
+			<column type="STRING" name="lock_info" desc="属性锁定状态（json转化的字符串）"/>
+		</record>
+		
+		<!-- 保存临时洗炼数据的表 -->
+		<record name="BaptiseResultRec" cols="2" maxrows="6" save="true" public="false" private="true" desc="装备洗炼结果表">
+			<column type="BYTE" name="pos" desc="装备格子索引(1-6)"/>
+			<column type="STRING" name="result_info" desc="洗练结果（json转化的字符串）"/>
+		</record>		
+	</records>	
+</object>

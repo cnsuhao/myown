@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Object>
+<Property ID="1" ItemID="Item3110001" ColorLevel="1" Feeding="100" SumWeight="100"/>
+<Property ID="2" ItemID="Item3110002" ColorLevel="2" Feeding="200" SumWeight="100"/>
+<Property ID="3" ItemID="Item3110003" ColorLevel="3" Feeding="350" SumWeight="100"/>
+<Property ID="4" ItemID="Item3110004" ColorLevel="4" Feeding="600" SumWeight="100"/>
+</Object>

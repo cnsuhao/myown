@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Object>
+	<Property ID="1" Type="2" Desc="试炼塔用" Resource="ini\npc\npc_config\tower_npc.xml"/>
+</Object>

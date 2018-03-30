@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2010 (http://www.altova.com) by MESMERiZE (MiZE) -->
+<object>
+	<properties>
+		<property name="GaintVal" type="int" public="true" private="true" save="false" desc="当前霸体值"/>
+		<property name="MaxGaintVal" type="dword" public="true" private="true" save="false" desc="最大霸体值"/>
+		<property name="GaintValAdd" type="int" public="false" private="false" save="false" desc="霸体附加值"/>
+		<property name="GaintDecHurtRate" type="int" public="false" private="true" save="false" desc="霸体减伤"/>	
+	</properties>
+</object>

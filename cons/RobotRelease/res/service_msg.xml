@@ -1,0 +1,14 @@
+<!-- 
+name:	service_msg         自定義函數，參考
+param:  name				消息名称
+param:  msg					消息原型
+param:  example				例子
+param:  memo				描述,自定義函數，開發人員維護。說明使用方法和輸入(example)
+param:  消息格式  Msg_id;数据类型:数据;数据类型:数据 ... etc
+		数据类型：i(int),f(float),d(double),b(boolen),s(string),ws(wide string)
+		例如: 19;s:setobj;i:123;f:123.456;d:456.001;b:true
+
+-->
+<service_msg>
+	<row name="GM修改等级" msg="19;set Level xx" example="19;s:set Level 16" memo="GM命令设置等级"/>
+</service_func>

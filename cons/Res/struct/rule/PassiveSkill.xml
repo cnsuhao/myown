@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!--被动技能表-->
+<object>
+	<records>
+		<record name="passive_skill_rec" cols="3" maxrows="1000" save="true" public="false" private="true" desc="">
+			<column type="DWORD" desc="技能id"/>
+			<column type="DWORD" desc="技能等级"/>
+			<column type="DWORD" desc="被动技能来源"/>
+		</record>
+	</records>
+</object>

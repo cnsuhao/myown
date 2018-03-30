@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Object>
+<Property ID="Skill10101" Name="战士推车1" CareerID="1" SeqNo="1" LevelToUnlock="1" MaxLevel="120"></Property>
+<Property ID="Skill10102" Name="战士推车2" CareerID="1" SeqNo="2" LevelToUnlock="4" MaxLevel="120"></Property>
+<Property ID="Skill10103" Name="战士推车3" CareerID="1" SeqNo="3" LevelToUnlock="8" MaxLevel="120"></Property>
+<Property ID="Skill10104" Name="战士推车4" CareerID="1" SeqNo="4" LevelToUnlock="20" MaxLevel="120"></Property>
+<Property ID="Skill10105" Name="战士推车5" CareerID="1" SeqNo="5" LevelToUnlock="25" MaxLevel="120"></Property>
+<Property ID="Skill10106" Name="战士推车6" CareerID="1" SeqNo="6" LevelToUnlock="30" MaxLevel="120"></Property>
+<Property ID="Skill10201" Name="刺客推车1" CareerID="2" SeqNo="1" LevelToUnlock="1" MaxLevel="120"></Property>
+<Property ID="Skill10202" Name="刺客推车2" CareerID="2" SeqNo="2" LevelToUnlock="4" MaxLevel="120"></Property>
+<Property ID="Skill10203" Name="刺客推车3" CareerID="2" SeqNo="3" LevelToUnlock="8" MaxLevel="120"></Property>
+<Property ID="Skill10204" Name="刺客推车4" CareerID="2" SeqNo="4" LevelToUnlock="20" MaxLevel="120"></Property>
+<Property ID="Skill10205" Name="刺客推车5" CareerID="2" SeqNo="5" LevelToUnlock="25" MaxLevel="120"></Property>
+<Property ID="Skill10206" Name="刺客推车6" CareerID="2" SeqNo="6" LevelToUnlock="30" MaxLevel="120"></Property>
+<Property ID="Skill10301" Name="弓手推车1" CareerID="3" SeqNo="1" LevelToUnlock="1" MaxLevel="120"></Property>
+<Property ID="Skill10302" Name="弓手推车2" CareerID="3" SeqNo="2" LevelToUnlock="4" MaxLevel="120"></Property>
+<Property ID="Skill10303" Name="弓手推车3" CareerID="3" SeqNo="3" LevelToUnlock="8" MaxLevel="120"></Property>
+<Property ID="Skill10304" Name="弓手推车4" CareerID="3" SeqNo="4" LevelToUnlock="20" MaxLevel="120"></Property>
+<Property ID="Skill10305" Name="弓手推车5" CareerID="3" SeqNo="5" LevelToUnlock="25" MaxLevel="120"></Property>
+<Property ID="Skill10306" Name="弓手推车6" CareerID="3" SeqNo="6" LevelToUnlock="30" MaxLevel="120"></Property>
+<Property ID="Skill10401" Name="法师被推1" CareerID="4" SeqNo="1" LevelToUnlock="1" MaxLevel="120"></Property>
+<Property ID="Skill10402" Name="法师被推2" CareerID="4" SeqNo="2" LevelToUnlock="4" MaxLevel="120"></Property>
+<Property ID="Skill10403" Name="法师被推3" CareerID="4" SeqNo="3" LevelToUnlock="8" MaxLevel="120"></Property>
+<Property ID="Skill10404" Name="法师被推4" CareerID="4" SeqNo="4" LevelToUnlock="20" MaxLevel="120"></Property>
+<Property ID="Skill10405" Name="法师被推5" CareerID="4" SeqNo="5" LevelToUnlock="25" MaxLevel="120"></Property>
+<Property ID="Skill10406" Name="法师被推6" CareerID="4" SeqNo="6" LevelToUnlock="30" MaxLevel="120"></Property>
+<Property ID="Skill10501" Name="药师被推1" CareerID="5" SeqNo="1" LevelToUnlock="1" MaxLevel="120"></Property>
+<Property ID="Skill10502" Name="药师被推2" CareerID="5" SeqNo="2" LevelToUnlock="4" MaxLevel="120"></Property>
+<Property ID="Skill10503" Name="药师被推3" CareerID="5" SeqNo="3" LevelToUnlock="8" MaxLevel="120"></Property>
+<Property ID="Skill10504" Name="药师被推4" CareerID="5" SeqNo="4" LevelToUnlock="20" MaxLevel="120"></Property>
+<Property ID="Skill10505" Name="药师被推5" CareerID="5" SeqNo="5" LevelToUnlock="25" MaxLevel="120"></Property>
+<Property ID="Skill10506" Name="药师被推6" CareerID="5" SeqNo="6" LevelToUnlock="30" MaxLevel="120"></Property>
+</Object>

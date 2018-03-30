@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<object>
+	<internals/>
+	<properties/>
+	<records>
+		<record name="PropModifyByEquip" cols="3" maxrows="300" save="false" public="false" private="false" desc="属性刷新表">
+			<column type="string" desc="属性名"/>
+			<column type="float" desc="属性值"/>
+			<column type="string" desc="来源"/>
+		</record>
+	</records>
+	<includes/>
+</object>

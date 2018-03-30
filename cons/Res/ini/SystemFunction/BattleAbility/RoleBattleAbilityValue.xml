@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Object>
+<Property ID="HPAdd" Rate1="1" Rate2="1" Rate3="1" Rate4="1" Rate5="1"></Property>
+<Property ID="MPAdd" Rate1="1" Rate2="1" Rate3="1" Rate4="1" Rate5="1"></Property>
+<Property ID="PhysAttackAdd" Rate1="1" Rate2="1" Rate3="1" Rate4="1" Rate5="1"></Property>
+<Property ID="MagicttackAdd" Rate1="1" Rate2="1" Rate3="1" Rate4="1" Rate5="1"></Property>
+<Property ID="PhysDefendAdd" Rate1="1" Rate2="1" Rate3="1" Rate4="1" Rate5="1"></Property>
+<Property ID="MagicDefendAdd" Rate1="1" Rate2="1" Rate3="1" Rate4="1" Rate5="1"></Property>
+<Property ID="HitAdd" Rate1="1" Rate2="1" Rate3="1" Rate4="1" Rate5="1"></Property>
+<Property ID="MissAdd" Rate1="1" Rate2="1" Rate3="1" Rate4="1" Rate5="1"></Property>
+<Property ID="CritAdd" Rate1="1" Rate2="1" Rate3="1" Rate4="1" Rate5="1"></Property>
+<Property ID="TougAdd" Rate1="1" Rate2="1" Rate3="1" Rate4="1" Rate5="1"></Property>
+<Property ID="PhysPenetrateAdd" Rate1="1" Rate2="1" Rate3="1" Rate4="1" Rate5="1"></Property>
+<Property ID="MagicPenetrateAdd" Rate1="1" Rate2="1" Rate3="1" Rate4="1" Rate5="1"></Property>
+<Property ID="AddHurtRate" Rate1="1" Rate2="1" Rate3="1" Rate4="1" Rate5="1"></Property>
+<Property ID="DecHurtRate" Rate1="1" Rate2="1" Rate3="1" Rate4="1" Rate5="1"></Property>
+<Property ID="MaxGaintVal" Rate1="1" Rate2="1" Rate3="1" Rate4="1" Rate5="1"></Property>
+<Property ID="Str" Rate1="1" Rate2="0.65" Rate3="1.5" Rate4="0.04" Rate5="1"></Property>
+<Property ID="Dex" Rate1="0.65" Rate2="1.5" Rate3="1" Rate4="0.65" Rate5="0.04"></Property>
+<Property ID="Sta" Rate1="1.5" Rate2="0.25" Rate3="0.65" Rate4="0.25" Rate5="0.65"></Property>
+<Property ID="Ing" Rate1="0.04" Rate2="0.04" Rate3="0.25" Rate4="1.5" Rate5="0.25"></Property>
+<Property ID="Spi" Rate1="0.25" Rate2="1" Rate3="0.04" Rate4="1" Rate5="1.5"></Property>
+</Object>

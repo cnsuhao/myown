@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="gb2312"?>
+<object>
+		<properties>
+		<property name="AsynWait" type="int" public="false" private="false" save="false" desc="传送门异步等待类型"/>
+		<property name="AsynWaitBeginTime" type="int" public="false" false="true" save="false" desc="传送门异步等待时间"/>
+		</properties>
+    <records>
+    </records>
+</object>

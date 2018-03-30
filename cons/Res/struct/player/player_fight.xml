@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="gb2312"?>
+<object>
+	<properties>
+	</properties>
+	<records>
+    </records>
+	<includes>
+		<path name="struct\rule\commonfighter.xml" desc="战斗相关属性"/>
+		<path name="struct\rule\fight\playerfightpropdefined.xml" desc="玩家特有的战斗属性"/>
+		<path name="struct\rule\fight\fightpropdefined.xml" desc="通用战斗属性"/>
+		<path name="struct\rule\modifybase.xml" desc="属性 技能 buff修正表"/>
+		<path name="struct\rule\refreshpropcompute.xml" desc="属性影响表"/>
+		<path name="struct\rule\PassiveSkill.xml" desc="被动技能表"/>
+		<path name="struct\rule\flyskill.xml" desc="轻功属性"/>
+		<path name="struct\player\PassiveSkillProperty.xml" desc="被动技能等级属性"/>
+	</includes>
+</object>

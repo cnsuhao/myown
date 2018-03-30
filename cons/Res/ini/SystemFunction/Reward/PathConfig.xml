@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Object>
+<Property ID="1" Path="TaskReward.xml"></Property>
+<Property ID="2" Path="CampaignReward.xml"></Property>
+</Object>

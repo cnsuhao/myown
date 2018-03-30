@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Object>
+	<Property ID="1" ItemID="Item8600004" Value="1"/>
+	<Property ID="2" ItemID="Item8600005" Value="10"/>
+	<Property ID="3" ItemID="Item8600006" Value="100"/>
+	<Property ID="4" ItemID="Item8600001" Value="1"/>
+	<Property ID="5" ItemID="Item8600002" Value="10"/>
+	<Property ID="6" ItemID="Item8600003" Value="100"/>
+</Object>

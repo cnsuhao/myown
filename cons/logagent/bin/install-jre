@@ -1,0 +1,38 @@
+#!/usr/bin/env bash
+
+bin=$(which "$0")
+bin=$(dirname "$bin")
+bin=$(cd "$bin"; pwd)
+
+_fail() {
+    echo "$1"
+    exit "$2"
+}
+
+mkdir -p "$bin/../java"
+
+if [[ -f "$bin/../java/jre-8u51-linux-x64.tar.gz" ]]; then
+    JRE_MD5=$(md5sum "$bin/../java/jre-8u51-linux-x64.tar.gz" | awk '{print $1}')
+    if [[ $JRE_MD5 != "3c4e3ed6b1c61fe18b9a88ea8b2d9384" ]]; then
+        rm "$bin/../java/jre-8u51-linux-x64.tar.gz" || _fail "MD5 check failed. Remove jre package failed" 5
+    fi
+fi
+
+if [[ ! -f "$bin/../java/jre-8u51-linux-x64.tar.gz" ]]; then
+    echo "Download http://download.oracle.com/otn-pub/java/jdk/8u51-b16/jre-8u51-linux-x64.tar.gz ..."
+    wget --no-check-certificate --no-cookies --header "Cookie: oraclelicense=accept-securebackup-cookie" http://download.oracle.com/otn-pub/java/jdk/8u51-b16/jre-8u51-linux-x64.tar.gz -O "$bin/../java/jre-8u51-linux-x64.tar.gz" || _fail "Download jre failed, please retry or install by other way." 1
+    echo "Download jre-8u51-linux-x64.tar.gz successfully."
+else
+    echo "Found jre-8u51-linux-x64.tar.gz ..."
+fi
+
+echo "Extract jre-8u51-linux-x64.tar.gz ..."
+tar zxf "$bin/../java/jre-8u51-linux-x64.tar.gz" -C "$bin/../java" || _fail "Extract jre package failed, please check dir permissions and disk space." 2
+
+CURRENT_DIR=$(pwd)
+cd "$bin/../java"
+ln -f -s "jre1.8.0_51" "jre" || cd $CURRENT_DIR || _fail "Create soft link failed, please check dir permissions." 3
+
+# rm $bin/../java/jre-8u51-linux-x64.tar.gz || _fail "Remove jre package failed" 4
+
+echo "Install oracle jre8 successfully."

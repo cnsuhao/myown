@@ -1,0 +1,70 @@
+<!-- 
+name:	service_param
+param:  valid			有效，1有效，0无效
+param:	name			配置参数名
+param:  index			索引，可配置0，路径点配置为场景id
+param:	param_x			列出每项参数。
+memo：	name 取值，及说明
+		[switch] 切换场景，param_ = 场景id  暂时不支持
+		[pathlist] 寻路列表，index=场景id，param_ = 寻路点(x,y,z)
+-->
+<service_param>
+
+	<row valid="1" name="pathlist_time" index="0" param_0="1" param_1="20" memo="param_0:是否校驗行走到目標範圍;param_1:達到目標範圍有效值" />
+
+
+	<!--凌风阁第一段主线，10秒间隔,goto 355.1 210.9-->
+	<row valid="1" name="pathlist" index="403" param_0="409.9,41.3,184" param_1="311.5,42.4,248.8" param_2="351.3403,42.4,204.3456" param_3="336.5114,42.94,227.0346" param_4="228.0904,47.6,262.3826"/>
+	
+
+	<!-- 凌风阁第二段主线，小师妹，10秒间隔，goto 7.6 84.5 -->
+	<!--row valid="1" name="pathlist" index="403" param_0="326.0541,276.4165,-372.6697"  param_1="187.8928,259.6923,-401.4893" /-->
+	
+	<!-- 战斗地点，goto -130.0 119.9 -->
+	<!--row valid="1" name="pathlist" index="403" param_0="2.007491,269.13,-348.3123" param_1="-64.19183,263.31,-339.5081" param_2="-129.5669,248.02,-399.0013" /-->
+
+	<!-- 凌风阁第三段主线，徐灿、徐成。10秒间隔，goto -16.7 143.2 -->
+	<!--row valid="1" name="pathlist" index="403" param_0="335.9684,120.9,-130.6646" param_1="123.2985,150.0098,-140.6964" param_2="-39.9,90.0,132.0" param_3="158.9258,149.8,-151.1052" param_4="124.9854,149.9507,-139.3889" /-->
+
+
+	<!-- 凌风阁第四段主线，袁小棠、花道常。10秒间隔，goto 230.1 -10.9 -->
+	<!--row valid="1" name="pathlist" index="403" param_0="89.50122,200,90.93098" param_1="83.10539,199.6,127.1066" param_2="-79.02865,170,185.2458" param_3="284.0811,60,-23.51513" param_4="253.8767,60.1153,-30.02399" /-->
+
+
+	<!--剑州巡逻，goto 217.6 252.4-->
+	<!--row valid="1" name="pathlist" index="401" param_0="213.5,50,242.3" param_1="241.5,50,196.8" param_2="234.3,50,109.4" param_3="185.4,50,71.4" param_4="221.1,50,36.9" param_5="146.7,50,27.6" param_6="139.2,50,1.6" param_7="163.3,50,-78.6" param_8="108.7,50,-166.1" param_9="94.1,50,-103.2" param_10="42.1,52.2,-74.6" param_11="-4.3,50,-25.0" param_12="-59.8,50,-26.2"/-->
+
+
+	<!--押囚路线，goto -370.0 -127.9-->
+	<row valid="1" name="pathlist" index="2" param_0="-373.6,75,-56.6" param_1="-380.3,75,24.1" param_2="-392.9,75,107.8" param_3="-406.0,89.9,203.4" param_4="-399.1,75,299.2" param_5="-342.7,75,364.8" param_6="-243.4,75,389.2" param_7="-157.8,76.9,374.5" param_8="-69.5,75,376.9" param_9="24.7,75,390.0" />
+
+
+	<row valid="0" name="switch" index="0" param_0="101" param_1="102" param_2="103" />
+	<row valid="0" name="switch" index="1" param_0="201" param_1="202" />
+	<row valid="0" name="switch" index="3" param_0="301" param_1="302" />
+	
+</service_param>
+<!-- 
+name:	scene_config
+param:  valid		有效，1有效，0无效
+param:	id			场景编号
+param:	group_id	Group id
+param:  name		场景名称
+-->
+<scene_config>
+	<row valid="1" id="801" group_id="-1" name="boss场景" />
+	<row valid="1" id="403" group_id="-1" name="凌风阁" />
+	<row valid="1" id="507" group_id="-1" name="灵犀岛" />
+	<row valid="1" id="410" group_id="-1" name="新手天一城" />
+	<row valid="1" id="52" group_id="-1" name="朝廷龙城" />
+	<row valid="1" id="409" group_id="-1" name="新手葬剑谷" />
+	<row valid="1" id="2" group_id="-1" name="武林龙城" />
+	<row valid="1" id="702" group_id="-1" name="紫禁城" />
+	<row valid="1" id="510" group_id="-1" name="黄金城" />
+	<row valid="1" id="701" group_id="-1" name="紫禁决战" />
+	<row valid="1" id="401" group_id="-1" name="剑州" />
+	<row valid="1" id="965" group_id="-1" name="江湖统领" />
+	<row valid="1" id="8" group_id="-1" name="葬剑谷" />
+	<row valid="1" id="25" group_id="-1" name="天一城" />
+	<row valid="0" id="602" group_id="-1" name="组织场景" />
+</scene_config>

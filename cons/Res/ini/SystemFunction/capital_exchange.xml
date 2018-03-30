@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Object>
+	<Property ID="1" SrcCapital="CapitalSilver" DesCapital="CapitalTradeSilver" ExchangeRate="100"/>
+	<Property ID="2" SrcCapital="CapitalTradeSilver" DesCapital="CapitalCopper" ExchangeRate="100"/>
+	<Property ID="3" SrcCapital="CapitalSilver" DesCapital="CapitalCopper" ExchangeRate="10000"/>
+</Object>

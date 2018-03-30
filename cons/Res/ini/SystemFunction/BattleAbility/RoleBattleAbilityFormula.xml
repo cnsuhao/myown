@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Object>
+<Property ID="10211" CalType="1" CalFormula="3.3+3.75*#Level"></Property>
+<Property ID="10212" CalType="1" CalFormula="3.3+3.75*#Level"></Property>
+<Property ID="10213" CalType="1" CalFormula="4.95+5.625*#Level"></Property>
+<Property ID="10214" CalType="1" CalFormula="6.6+7.5*#Level"></Property>
+<Property ID="10111" CalType="1" CalFormula="3.3+3.75*#Level"></Property>
+<Property ID="10112" CalType="1" CalFormula="3.3+3.75*#Level"></Property>
+<Property ID="10113" CalType="1" CalFormula="4.95+5.625*#Level"></Property>
+<Property ID="10114" CalType="1" CalFormula="6.6+7.5*#Level"></Property>
+<Property ID="10311" CalType="1" CalFormula="3.3+3.75*#Level"></Property>
+<Property ID="10312" CalType="1" CalFormula="3.3+3.75*#Level"></Property>
+<Property ID="10313" CalType="1" CalFormula="4.95+5.625*#Level"></Property>
+<Property ID="10314" CalType="1" CalFormula="6.6+7.5*#Level"></Property>
+</Object>

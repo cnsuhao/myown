@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--Equip_Item的属性表，继承自Nim_Item，所有可装备的物品的基类-->
+<object>
+	<!-- 玉珏属性 -->
+	<properties>
+		<property name="Level" type="int" public="false" private="true" save="true" desc="玉珏等级"/>
+		<property name="Step" type="int" public="false" private="true" save="true" desc="玉珏阶级"/>
+	</properties>
+	
+	<!--表-->
+	<records>
+	</records>
+	
+	<!--从其他文件加载属性-->
+	<includes>
+	</includes>	
+</object>

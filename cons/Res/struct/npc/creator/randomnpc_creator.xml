@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!-- 随机对象生成器 -->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<property name="MaxScope" type="float" public="false" private="false" save="false" desc="环形外环半径"/>
+		<property name="MinScope" type="float" public="false" private="false" save="false" desc="环形内环半径"/>
+		<property name="SpringCount" type="int" public="false" private="false" save="false" desc="进入触发范围的数量"/>
+		<property name="CreateType" type="int" public="false" private="false" save="false" desc="0-触发后创建NPC，1-创建随机位置精英NPC，2-创建随机位置精英带波次怪物"/>
+		<property name="TotalStep" type="int" public="false" private="false" save="false" desc="怪物的波数"/>
+		<property name="CurStep" type="int" public="false" private="false" save="false" desc="当前波数"/>
+		<property name="RandRow" type="int" public="false" private="false" save="false" desc="随机的行数"/>
+		<property name="RandHelper" type="object" public="false" private="false" save="false" desc="随机的辅助创建器"/>
+		<property name="MonsterAmount" type="int" public="false" private="false" save="false" desc="怪物总数"/>
+		<property name="IsDestroy" type="int" public="false" private="false" save="false" desc="触发结束怪物是否销毁"/>
+		<property name="SceneAction" type="int" public="false" private="false" save="false" desc="关卡秘境行进步骤"/>
+	</properties>
+
+	<!-- 表属性 -->
+	<records>
+		<!-- 本生成器生成的对象列表-->
+		<record name="object_list_rec" cols="1" maxrows="256" save="false" public="false" private="false" desc="本生成器生成的对象">
+			<column type="object" desc=""/>
+		</record>
+		<record name="damage_rec" cols="3" maxrows="100" save="false" public="false" private="false" desc="伤害表">
+			<column type="widestr" name="player_name" desc="玩家名字"/>
+			<column type="byte" name="job" desc="职业"/>
+			<column type="dword" name="damage" desc="总伤害"/>
+		</record>
+	</records>
+</object>

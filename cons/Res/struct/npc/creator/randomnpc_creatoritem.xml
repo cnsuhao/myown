@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!-- 随机对象生成器 -->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<property name="NpcID" type="string" public="false" private="false" save="false" desc="生成的NPC的Id"/>
+		<property name="MaxAmount" type="int" public="false" private="false" save="false" desc="需要生成数量"/>
+		<property name="CurAmount" type="int" public="false" private="false" save="false" desc="当前数量"/>
+		<property name="RefreshPeriod" type="int" public="false" private="false" save="false" desc="刷新时间周期,单位为秒"/>
+		<property name="Step" type="int" public="false" private="false" save="false" desc="所属的波数"/>
+		<property name="Limit" type="int" public="false" private="false" save="false" desc="杀多少怪刷新下一波"/>
+	</properties>
+
+	<!-- 表属性 -->
+	<records>
+		<!-- 对象位置信息-->
+		<record name="position_info_rec" cols="7" maxrows="1024" save="false" public="false" private="false" desc="对象随机位置信息">
+			<column type="float" desc="X"/>
+			<column type="float" desc="Y"/>
+			<column type="float" desc="Z"/>			
+			<column type="float" desc="Orient"/>			
+			<column type="int" desc="used:是否已被使用"/>
+			<column type="int64" desc="上次销毁时间"/>
+			<column type="float" desc="随机刷新半径"/>
+		</record>
+	</records>
+</object>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Object>
+<Property ID="1" SkinID="Skin_M3000101" UnlockType="1" GetLinkDes="RideDesc3000101"/>
+<Property ID="2" SkinID="Skin_M3000102" UnlockType="1" GetLinkDes="RideDesc3000102"/>
+<Property ID="3" SkinID="Skin_M3000103" UnlockType="1" GetLinkDes="RideDesc3000103"/>
+<Property ID="4" SkinID="Skin_M3000104" UnlockType="1" GetLinkDes="RideDesc3000104"/>
+<Property ID="5" SkinID="Skin_M3000105" UnlockType="1" GetLinkDes="RideDesc3000105"/>
+<Property ID="6" SkinID="Skin_M3000106" UnlockType="1" GetLinkDes="RideDesc3000106"/>
+<Property ID="7" SkinID="Skin_M3000301" UnlockType="2" UnlockFee="0:200000" UnlockItems="Item8860005:1"/>
+<Property ID="8" SkinID="Skin_M3000302" UnlockType="2" UnlockFee="0:400000" UnlockItems="Item8860002:15"/>
+<Property ID="9" SkinID="Skin_M3000401" UnlockType="2" UnlockFee="0:500000" UnlockItems="Item8860002:15"/>
+<Property ID="10" SkinID="Skin_M3000402" UnlockType="2" UnlockFee="0:500000" UnlockItems="Item8860002:30"/>
+<Property ID="11" SkinID="Skin_M3000601" UnlockType="2" UnlockFee="0:100000" UnlockItems="Item8860002:10"/>
+<Property ID="12" SkinID="Skin_M3000602" UnlockType="2" UnlockFee="0:200000" UnlockItems="Item8860002:30" PreSkinID="Skin_M3000601"/>
+<Property ID="13" SkinID="Skin_M3000702" UnlockType="2" UnlockFee="0:200000" UnlockItems="Item8860002:30"/>
+<Property ID="14" SkinID="Skin_M3000801" UnlockType="2" UnlockFee="0:300000" UnlockItems="Item8860002:5"/>
+<Property ID="15" SkinID="Skin_M3000802" UnlockType="2" UnlockFee="0:700000" UnlockItems="Item8860002:30" PreSkinID="Skin_M3000801"/>
+<Property ID="16" SkinID="Skin_M3001201" UnlockType="2" UnlockFee="0:500000" UnlockItems="Item8860002:35"/>
+<Property ID="17" SkinID="Skin_M3001301" UnlockType="2" UnlockFee="0:500000" UnlockItems="Item8860002:35"/>
+<Property ID="18" SkinID="Skin_M3001001" UnlockType="2" UnlockFee="0:500000" UnlockItems="Item8860003:1"/>
+<Property ID="19" SkinID="Skin_M3001101" UnlockType="2" UnlockFee="0:800000" UnlockItems="Item8860004:20"/>
+</Object>

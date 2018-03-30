@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="protocols">
+      <UniqueIdentifier>{2b9fa371-d7a1-4d64-82ee-7e4e0fec904e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="public">
+      <UniqueIdentifier>{7ec2a2b4-3d44-4c8c-8d6a-17890bd0d39f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{77204dac-7b51-4c36-8d75-03dbb78483db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="model">
+      <UniqueIdentifier>{62dad7c9-4e83-4807-a09e-cc37d4565e56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="services">
+      <UniqueIdentifier>{a91f3654-699e-443a-8095-12a98e4cec8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="raipdxml">
+      <UniqueIdentifier>{3ab742ea-9633-4909-ba91-c8ab7ebad80f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Analytics">
+      <UniqueIdentifier>{cdd7af7a-2963-46dc-bf64-14fae197c5a8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+    <Text Include="计费登陆协议.txt">
+      <Filter>protocols</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="class\EntHttpService.h">
+      <Filter>services</Filter>
+    </ClInclude>
+    <ClInclude Include="class\EntNetManager.h">
+      <Filter>services</Filter>
+    </ClInclude>
+    <ClInclude Include="class\SoloCharge.h">
+      <Filter>services</Filter>
+    </ClInclude>
+    <ClInclude Include="class\SoloEcho.h">
+      <Filter>services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\public\EntNetBase.h">
+      <Filter>public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\public\MsgEncoder.h">
+      <Filter>public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\public\NetHandler.h">
+      <Filter>public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\public\win_string.h">
+      <Filter>public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\public\FsLogger.h">
+      <Filter>public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\public\GameLogger.h">
+      <Filter>public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\utils\util_func.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="class\model\UserModel.h">
+      <Filter>model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\protocols\NetTextAction.h">
+      <Filter>protocols</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\protocols\NetWorldAction.h">
+      <Filter>protocols</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\rapidxml\rapidxml.hpp">
+      <Filter>raipdxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\rapidxml\rapidxml_iterators.hpp">
+      <Filter>raipdxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\rapidxml\rapidxml_print.hpp">
+      <Filter>raipdxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\rapidxml\rapidxml_utils.hpp">
+      <Filter>raipdxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FsGame\Analytics\GameAnalyticsDef.h">
+      <Filter>Analytics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FsGame\Analytics\GameAnalyticsEventNames.h">
+      <Filter>Analytics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FsGame\Analytics\GameAnalyticsProperties.h">
+      <Filter>Analytics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FsGame\Analytics\IGameAnalyticsCollector.h">
+      <Filter>Analytics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FsGame\Analytics\SensorsAnalyticsCollector.h">
+      <Filter>Analytics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FsGame\Analytics\SensorsAnalyticsCollectorEx.h">
+      <Filter>Analytics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FsGame\Analytics\SensorsAnalyticsDef.h">
+      <Filter>Analytics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\utils\json.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\utils\json-forwards.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\utils\IniFile.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\utils\string_util.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FsCharge.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="class\EntHttpService.cpp">
+      <Filter>services</Filter>
+    </ClCompile>
+    <ClCompile Include="class\SoloCharge.cpp">
+      <Filter>services</Filter>
+    </ClCompile>
+    <ClCompile Include="class\SoloEcho.cpp">
+      <Filter>services</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\public\EntNetBase.cpp">
+      <Filter>public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\public\MsgEncoder.cpp">
+      <Filter>public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\utils\util_func.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\FsGame\Analytics\SensorsAnalyticsCollector.cpp">
+      <Filter>Analytics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\FsGame\Analytics\SensorsAnalyticsCollectorEx.cpp">
+      <Filter>Analytics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\utils\jsoncpp.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\utils\IniFile.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\utils\string_util.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

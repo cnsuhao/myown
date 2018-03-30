@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Object>
+	<Property ID="1" Type="NormalNpc" Path="npc_config/Npc.xml"/>
+	<Property ID="2" Type="FunctionNpc" Path="npc_config/FuncNpc.xml"/>
+	<Property ID="3" Type="TrapNpc" Path="npc_config/TrapNpcServer.xml"/>
+</Object>

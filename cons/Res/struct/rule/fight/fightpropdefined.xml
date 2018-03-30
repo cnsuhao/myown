@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<object>
+	<properties>
+		<property name="HP" type="int64" public="true" private="true" save="false" desc="当前HP值"/>
+		<property name="MaxHP" type="int64" public="true" private="true" save="false" desc="最大气血值"/>
+		<property name="MP" type="int64" public="false" private="true" save="false" desc="当前MP值"/>
+		<property name="MaxMP" type="int64" public="false" private="true" save="false" desc="最大MP值"/>
+		<property name="PhysAttack" type="int" public="false" private="true" save="false" desc="物理攻击"/>
+		<property name="MagicAttack" type="int" public="false" private="true" save="false" desc="法术攻击"/>
+		<property name="PhysDefend" type="int" public="false" private="true" save="false" desc="物理防御"/>
+		<property name="MagicDefend" type="int" public="false" private="true" save="false" desc="法术防御"/>
+		<property name="Hit" type="int" public="false" private="true" save="false" desc="命中"/>
+		<property name="Miss" type="int" public="false" private="true" save="false" desc="闪避"/>
+		<property name="Crit" type="int" public="false" private="true" save="false" desc="会心(暴击)"/>
+		<property name="CritRate" type="int" public="false" private="true" save="false" desc="会心率"/>
+		<property name="Toug" type="int" public="false" private="true" save="false" desc="最终 会心抵抗"/>
+		<property name="TougRate" type="int" public="false" private="true" save="false" desc="会心抵抗率"/>
+		<property name="PhysPenetrate" type="int" public="false" private="false" save="false" desc="物理穿透"/>
+		<property name="MagicPenetrate" type="int" public="false" private="false" save="false" desc="法术穿透"/>
+		<property name="AddHurtRate" type="int" public="false" private="false" save="false" desc="增伤"/>
+		<property name="DecHurtRate" type="int" public="false" private="false" save="false" desc="减伤"/>
+	</properties>
+</object>

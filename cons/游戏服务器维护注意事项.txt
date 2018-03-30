@@ -1,0 +1,65 @@
+1. 开服环境准备
+   1). 安装jre运行环境, 神策和达纳需要
+   2). 安装NotePad++, 以便查看修改配置 
+   3). 安装mysql client工具，执行一键布署时需要
+   4). 检查防火墙，目前游戏需要开启4000(目录服务器),2001,2002(网关服务器)和12300(与web通信的rpc服务器)端口
+
+2. 服务器全新布署，流程查看《绣春刀架服流程.docx》，需要注意以下几个方面
+   1). 服务器编号(ServerID)和分区编号(DistrictID)需要唯一，不能与原来的区服重复
+   2). 日志服务(loggingserver64.bat)需要提前启动,否则无法收集日志数据，神策(logagent)跟达纳(logagent_xy)的启动时机无所谓，日志写入文本后，随时可以导入
+   3). 神策服务配置路径需要\\分隔(windows下), 这里错了会导致无任何输出，外网数据导到project=production的项目中，url跟token不需要更改
+   4). 达纳配置分2个topic, 正式服导到snjyw的topic中， 内网用snjyw_test中，跟神策一样不能配错了
+   5). 关闭服务器脚本有时关闭不了，可等待store.exe不写日志后直接关闭world
+   6). res目录下有几个控制写日志的配置
+	game.ini 默认神策日志配置，未读到profile就会以这个为准，所以最好按web分配的配置
+	game_charge.properties: game_charge的配置，分写神策日志和文本日志的
+	game_gmcc.properties: game_gmcc文配配置
+	log4plush.properties: 游戏神策配置
+	loggingserver.properties: 日志服务器配置
+	目前使用的日志都是由loggingserver写入的，game_charge和game_gmcc的Remote配置要指向loggingserver, loggingserver绑定端口在loggingserver64.bat中，默认9000
+        这几个文件在更新的时候不要覆盖
+   7). 检查res/ini/gm.ini有没有启动，值为0则启动，正式服确认大于0值
+   8). 服务器配置，需要修改Outer Inner 和Wan, outer和inner填写内网IP, Wan填写外网ip或域名
+	lister服务端口为4000
+	entry服务端口为2000和2001
+	其它服务的inner端口唯一即可
+	可使用deploy的config_tools批量生成多个服务器配置
+	game_gmcc.ini参考原配置 只需要修改服务器域名, serverId变量和rpc端口， url修改需要跟后台确认
+	game_charge.ini参考原配置 只需要修改服务器域名和serverId(serverid以数字方式写在url中)，url修改需要跟后台确认
+
+3. 脚本化全新布署流程
+   1). 在编译服和cons/deploy下执行terminal.bat
+   2). 在命令行里执行deploy.bat开始一键打包，这里有4个文件deploy.bat,deploy_d.bat, deploy_full.bat, deploy_full_d.bat, 前面2个用于更新，后面2个全新布署用，区别就在于前面2个只打包Lua,Exe和res, 而后面2个会复制所有资源和脚本
+   3). 复制生成后的文件(在当前目录下的out下，以当天日期命名), 上传到游戏服务器version下，解压到bin目录下
+   4). 预创数据表和角色数据，执行bin\sql\onekey脚本即可，注意参数意思：
+	1: mysql用户名
+	2: mysql密码
+	3: 数据库主机名/ip
+	4: 数据库端口
+	5：创建游戏数据库的后缀，如lihl，原来的数据库名就会变成nx_base_lihl
+	6: 游戏服务器id, 如果有这个值，在创建预创角数据后，会更改角色数据的serverid值
+   5). 修改游戏配置文件，如果是分服布署要计算广播地址，网上有现成的在线工具，输入ip跟子网掩码即可
+	为了安全考虑，如非必要，所有服务器都填写127.0.0.1，对外的端口不能修改(4000,2001,2002,12300), 12300是gmcc.ini中的RPC端口，与web通信用
+   6).启动logginserver.bat  
+   7).启动start.bat
+   8).启动logagent/bin/logagent.bat
+   9). 启动logagent_xy/logagent.bat
+   10).启动完成
+
+4.脚本化更新布署流程
+   1). 在编译服和cons/deploy下执行terminal.bat
+   2). 在命令行里执行deploy.bat开始一键打包，这里有4个文件deploy.bat,deploy_d.bat, deploy_full.bat, deploy_full_d.bat, 前面2个用于更新，后面2个全新布署用，区别就在于前面2个只打包Lua,Exe和res, 而后面2个会复制所有资源和脚本
+   3). 发关服公告
+   4). 关闭服务器和扩展功能服务器
+   5). 复制生成后的文件(在当前目录下的out下，以当天日期命名), 上传到游戏服务器version下，解压到bin目录下, 
+	game_charge.properties,game_gmcc.properties, log4plush.properties,loggingserver.properties，game.ini 不要覆盖
+   6).启动logginserver.bat  
+   7).启动start.bat
+   8).启动logagent/bin/logagent.bat
+   9). 启动logagent_xy/logagent.bat
+   10).启动完成
+
+5. 服务器启动完成检测
+   1). 游戏服务器用FsDebugger连接查看world状态为opened表示成功，否则查看失败服务器的目志文件
+   2). game_gmcc检查初始化profile是否成功，查看日志出现profile init sucess字样，并后续有同步配置文件及通知
+   3). game_charge检查出现game ready字样，game_gmcc失败，这个服务器不会成功，客户端连接会提示计费连接失败

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Object>
+<Property ID="Attack_Melee" Name="普通小怪近战攻击" Condition="100" Prior="1" MaxWeighting="0" AddWeighting="0"/>
+<Property ID="Attack_Remote" Name="普通小怪远程攻击" Condition="100" Prior="1" MaxWeighting="0" AddWeighting="0"/>
+<Property ID="M4400002_A1" Name="磐石行者普攻" Condition="100" Prior="1" MaxWeighting="0" AddWeighting="0"/>
+<Property ID="M4400002_S1" Name="磐石行者技能1" Condition="99" Prior="2" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4400002_S2" Name="磐石行者技能2" Condition="99" Prior="3" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4400002_S3" Name="磐石行者技能3" Condition="70" Prior="4" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4400002_S4" Name="磐石行者技能4" Condition="60" Prior="5" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4400002_S5" Name="磐石行者技能5" Condition="90" Prior="6" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4400001_A1" Name="午夜魅姬普攻" Condition="100" Prior="1" MaxWeighting="0" AddWeighting="0"/>
+<Property ID="M4400001_S1" Name="午夜魅姬技能1" Condition="99" Prior="2" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4400001_S2" Name="午夜魅姬技能2" Condition="99" Prior="3" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4400001_S3" Name="午夜魅姬技能3" Condition="80" Prior="4" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4400001_S4" Name="午夜魅姬技能4" Condition="70" Prior="5" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4400001_S5" Name="午夜魅姬技能5" Condition="50" Prior="6" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300017_A1" Name="东厂档头普攻" Condition="100" Prior="1" MaxWeighting="0" AddWeighting="0"/>
+<Property ID="M4300017_S1" Name="东厂档头技能1" Condition="99" Prior="2" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300017_S2" Name="东厂档头技能2" Condition="99" Prior="3" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300017_S3" Name="东厂档头技能3" Condition="99" Prior="4" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300017_S4" Name="东厂档头技能4" Condition="80" Prior="5" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300009_A1" Name="慧灯普攻" Condition="100" Prior="1" MaxWeighting="0" AddWeighting="0"/>
+<Property ID="M4300009_S1" Name="慧灯技能1" Condition="99" Prior="2" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300009_S2" Name="慧灯技能2" Condition="99" Prior="3" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300009_S3" Name="慧灯技能3" Condition="99" Prior="4" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300009_S4" Name="慧灯技能4" Condition="40" Prior="5" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300003_A1" Name="苍狼部落首领普攻" Condition="100" Prior="1" MaxWeighting="0" AddWeighting="0"/>
+<Property ID="M4300003_S1" Name="苍狼部落首领技能1" Condition="99" Prior="2" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300003_S2" Name="苍狼部落首领技能2" Condition="99" Prior="3" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300003_S3" Name="苍狼部落首领技能3" Condition="80" Prior="4" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300003_S4" Name="苍狼部落首领技能4" Condition="60" Prior="5" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300013_A1" Name="蛊王普攻" Condition="100" Prior="1" MaxWeighting="0" AddWeighting="0"/>
+<Property ID="M4300013_S1" Name="蛊王技能1" Condition="99" Prior="2" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300013_S2" Name="蛊王技能2" Condition="99" Prior="3" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300013_S3" Name="蛊王技能3" Condition="80" Prior="4" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300013_S4" Name="蛊王技能4" Condition="60" Prior="5" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300014_A" Name="珠宝师白螺普攻" Condition="100" Prior="1" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300014_S1" Name="珠宝师白螺技能1" Condition="99" Prior="2" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300014_S2" Name="珠宝师白螺技能2" Condition="99" Prior="3" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300014_S3" Name="珠宝师白螺技能3" Condition="80" Prior="4" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300014_S4" Name="珠宝师白螺技能4" Condition="60" Prior="5" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300015_A1" Name="影无尘普攻" Condition="100" Prior="1" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300015_S1" Name="影无尘技能1" Condition="99" Prior="2" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300015_S2" Name="影无尘技能2" Condition="99" Prior="3" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300015_S3" Name="影无尘技能3" Condition="80" Prior="4" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300015_S4" Name="影无尘技能4" Condition="60" Prior="5" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300012_A1" Name="黄金城金乌普攻" Condition="100" Prior="1" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300012_S1" Name="黄金城金乌技能1" Condition="99" Prior="2" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300012_S2" Name="黄金城金乌技能2" Condition="99" Prior="3" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300012_S3" Name="黄金城金乌技能3" Condition="80" Prior="4" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300012_S4" Name="黄金城金乌技能4" Condition="60" Prior="5" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4200013_A1" Name="苍狼护卫队长普攻" Condition="100" Prior="1" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4200013_S1" Name="苍狼护卫队长技能" Condition="99" Prior="2" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4200015_A1" Name="侍卫普攻" Condition="100" Prior="1" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4200015_S1" Name="侍卫技能" Condition="99" Prior="2" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4200022_A1" Name="驯兽师熊童子普攻" Condition="100" Prior="1" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4200022_S1" Name="驯兽师熊童子技能" Condition="99" Prior="2" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4200011_A1" Name="潭江派堂主普攻" Condition="100" Prior="1" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4200011_S1" Name="潭江派堂主技能" Condition="99" Prior="2" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M2000700_A1" Name="石尧山普攻" Condition="100" Prior="1" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M2000700_S1" Name="石尧山技能1" Condition="99" Prior="2" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M2000700_S2" Name="石尧山技能2" Condition="100" Prior="3" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M2000300_A1" Name="九公主普攻" Condition="100" Prior="1" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M2000300_S1" Name="九公主技能1" Condition="99" Prior="2" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M2000300_S2" Name="九公主技能2" Condition="100" Prior="3" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M2001300_A1" Name="小师妹普攻1" Condition="100" Prior="1" MaxWeighting="0" AddWeighting="0" Time="0"/>
+<Property ID="M2001300_S1" Name="小师妹技能1" Condition="99" Prior="2" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M2001300_S2" Name="小师妹合体技" Condition="100" Prior="3" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M2001200_A1" Name="任平生普攻1" Condition="100" Prior="1" MaxWeighting="0" AddWeighting="0" Time="0"/>
+<Property ID="M2001200_S1" Name="任平生技能1" Condition="99" Prior="2" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M2001200_S2" Name="任平生合体技" Condition="100" Prior="3" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M2000400_A1" Name="冥火僧普攻1" Condition="100" Prior="1" MaxWeighting="0" AddWeighting="0" Time="0"/>
+<Property ID="M2000400_S1" Name="冥火僧技能1" Condition="99" Prior="2" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M2000400_S2" Name="冥火僧合体技" Condition="100" Prior="3" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M2000900_A1" Name="花道常普攻" Condition="100" Prior="1" MaxWeighting="0" AddWeighting="0" Time="0"/>
+<Property ID="M2000900_S1" Name="花道常主动" Condition="99" Prior="2" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M2000900_S2" Name="花道常合体" Condition="100" Prior="3" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M2000100_A1" Name="袁小棠普攻" Condition="100" Prior="1" MaxWeighting="0" AddWeighting="0" Time="0"/>
+<Property ID="M2000100_S1" Name="袁小棠主动" Condition="99" Prior="2" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M2000100_S2" Name="袁小棠合体" Condition="100" Prior="3" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M2000200_A1" Name="袁笑之普攻" Condition="100" Prior="1" MaxWeighting="0" AddWeighting="0" Time="0"/>
+<Property ID="M2000200_S1" Name="袁笑之主动" Condition="99" Prior="2" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M2000200_S2" Name="袁笑之合体" Condition="100" Prior="3" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M2000800_A1" Name="王通普攻" Condition="100" Prior="1" MaxWeighting="0" AddWeighting="0" Time="0"/>
+<Property ID="M2000800_S1" Name="王通主动" Condition="99" Prior="2" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M2000800_S2" Name="王通合体" Condition="100" Prior="3" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M2000500_A1" Name="段云普攻" Condition="100" Prior="1" MaxWeighting="0" AddWeighting="0" Time="0"/>
+<Property ID="M2000500_S1" Name="段云主动" Condition="99" Prior="2" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M2000500_S2" Name="段云合体" Condition="100" Prior="3" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M2000600_A1" Name="方雨婷普攻" Condition="100" Prior="1" MaxWeighting="0" AddWeighting="0" Time="0"/>
+<Property ID="M2000600_S1" Name="方雨婷主动" Condition="99" Prior="2" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M2000600_S2" Name="方雨婷合体" Condition="100" Prior="3" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M2001000_A1" Name="徐灿普攻1" Condition="100" Prior="1" MaxWeighting="0" AddWeighting="0" Time="0"/>
+<Property ID="M2001000_S1" Name="徐灿技能1" Condition="99" Prior="2" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M2001000_S2" Name="徐灿合体技" Condition="100" Prior="3" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M2001100_A1" Name="季鹰普攻1" Condition="100" Prior="1" MaxWeighting="0" AddWeighting="0" Time="0"/>
+<Property ID="M2001100_S1" Name="季鹰技能1" Condition="99" Prior="2" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M2001100_S2" Name="季鹰合体技" Condition="100" Prior="3" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="Flag_A1" Name="阵营战护卫普攻" Condition="100" Prior="1" MaxWeighting="0" AddWeighting="0" Time="0"/>
+<Property ID="Flag_A2" Name="阵营战首领普攻" Condition="100" Prior="1" MaxWeighting="0" AddWeighting="0" Time="0"/>
+<Property ID="Flag_A3" Name="阵营战铁匠普攻" Condition="100" Prior="1" MaxWeighting="0" AddWeighting="0" Time="0"/>
+<Property ID="Flag_S1" Name="阵营战护卫技能" Condition="99" Prior="2" MaxWeighting="0" AddWeighting="0" Time="0"/>
+<Property ID="Flag_S2" Name="阵营战首领技能" Condition="99" Prior="2" MaxWeighting="0" AddWeighting="0" Time="0"/>
+<Property ID="Flag_S3" Name="阵营战铁匠技能" Condition="99" Prior="2" MaxWeighting="0" AddWeighting="0" Time="0"/>
+<Property ID="M4300011_A1" Name="苗疆老妇普攻" Condition="100" Prior="1" MaxWeighting="0" AddWeighting="0"/>
+<Property ID="M4300011_S1" Name="苗疆老妇技能1" Condition="99" Prior="2" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300011_S2" Name="苗疆老妇技能2" Condition="99" Prior="3" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300011_S3" Name="苗疆老妇技能3" Condition="99" Prior="4" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300011_S4" Name="苗疆老妇技能4" Condition="60" Prior="5" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4200020_A1" Name="毒蛊罗刹普攻" Condition="100" Prior="1" MaxWeighting="0" AddWeighting="0"/>
+<Property ID="M4200020_S1" Name="毒蛊罗刹技能1" Condition="0" Prior="2" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4200002_A1" Name="流寇头目普攻" Condition="100" Prior="1" MaxWeighting="0" AddWeighting="0"/>
+<Property ID="M4200002_S1" Name="流寇头目技能1" Condition="99" Prior="2" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4200003_A1" Name="黑衣人头目普攻" Condition="100" Prior="1" MaxWeighting="0" AddWeighting="0"/>
+<Property ID="M4200003_S1" Name="黑衣人头目技能1" Condition="99" Prior="2" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4200006_A1" Name="江湖人头目普攻" Condition="100" Prior="1" MaxWeighting="0" AddWeighting="0"/>
+<Property ID="M4200006_S1" Name="江湖人头目技能1" Condition="99" Prior="2" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4200008_A1" Name="强盗头目普攻" Condition="100" Prior="1" MaxWeighting="0" AddWeighting="0"/>
+<Property ID="M4200008_S1" Name="强盗头目技能1" Condition="99" Prior="2" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4200009_A1" Name="恶霸头目普攻" Condition="100" Prior="1" MaxWeighting="0" AddWeighting="0"/>
+<Property ID="M4200009_S1" Name="恶霸头目技能1" Condition="99" Prior="2" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300008_A1" Name="鞑靼统领普攻" Condition="100" Prior="1" MaxWeighting="0" AddWeighting="0"/>
+<Property ID="M4300008_S1" Name="鞑靼统领技能1" Condition="99" Prior="2" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300008_S2" Name="鞑靼统领技能2" Condition="99" Prior="3" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300008_S3" Name="鞑靼统领技能3" Condition="80" Prior="4" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300008_S4" Name="鞑靼统领技能4" Condition="60" Prior="5" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4200005_A1" Name="火枪队长普攻" Condition="100" Prior="1" MaxWeighting="0" AddWeighting="0"/>
+<Property ID="M4200005_S1" Name="火枪队长技能1" Condition="99" Prior="2" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4400003_A1" Name="绝命者普攻" Condition="100" Prior="1" MaxWeighting="0" AddWeighting="0"/>
+<Property ID="M4400003_S1" Name="绝命者技能1" Condition="99" Prior="2" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4400003_S2" Name="绝命者技能2" Condition="99" Prior="3" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4400003_S3" Name="绝命者技能3" Condition="70" Prior="4" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4400003_S4" Name="绝命者技能4" Condition="60" Prior="5" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4400003_S5" Name="绝命者技能5" Condition="90" Prior="6" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4200030_A1" Name="冥火僧普攻" Condition="100" Prior="1" MaxWeighting="0" AddWeighting="0"/>
+<Property ID="M4200030_S1" Name="冥火僧技能1" Condition="99" Prior="2" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300002_A1" Name="冥火僧普攻" Condition="100" Prior="1" MaxWeighting="0" AddWeighting="0"/>
+<Property ID="M4300002_S1" Name="冥火僧技能1" Condition="99" Prior="2" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300002_S2" Name="冥火僧技能2" Condition="99" Prior="3" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300002_S3" Name="冥火僧技能3" Condition="99" Prior="4" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300002_S4" Name="冥火僧技能4" Condition="80" Prior="5" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4200021_A1" Name="倭寇将领普攻" Condition="100" Prior="1" MaxWeighting="0" AddWeighting="0"/>
+<Property ID="M4200021_S1" Name="倭寇将领技能1" Condition="99" Prior="2" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300004_A1" Name="无名隐士普攻" Condition="100" Prior="1" MaxWeighting="0" AddWeighting="0"/>
+<Property ID="M4300004_S1" Name="无名隐士技能1" Condition="99" Prior="2" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300004_S2" Name="无名隐士技能2" Condition="99" Prior="3" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300004_S3" Name="无名隐士技能3" Condition="99" Prior="4" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300004_S4" Name="无名隐士技能4" Condition="60" Prior="5" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4200018_A1" Name="蓝袍面具人首领普攻" Condition="100" Prior="1" MaxWeighting="0" AddWeighting="0"/>
+<Property ID="M4200018_S1" Name="蓝袍面具人首领技能1" Condition="100" Prior="2" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300018_A1" Name="诡异王妃普攻" Condition="100" Prior="1" MaxWeighting="0" AddWeighting="0"/>
+<Property ID="M4300018_S1" Name="诡异王妃技能1" Condition="99" Prior="2" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300018_S2" Name="诡异王妃技能2" Condition="99" Prior="3" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300018_S3" Name="诡异王妃技能3" Condition="99" Prior="4" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300018_S4" Name="诡异王妃技能4" Condition="80" Prior="5" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300006_A1" Name="段云" Condition="100" Prior="1" MaxWeighting="0" AddWeighting="0"/>
+<Property ID="M4300006_S1" Name="段云" Condition="99" Prior="2" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300006_S2" Name="段云" Condition="99" Prior="3" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300006_S3" Name="段云" Condition="99" Prior="4" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300006_S4" Name="段云" Condition="80" Prior="5" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300007_A1" Name="女贞首领" Condition="100" Prior="1" MaxWeighting="0" AddWeighting="0"/>
+<Property ID="M4300007_S1" Name="女贞首领" Condition="99" Prior="2" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300007_S2" Name="女贞首领" Condition="99" Prior="3" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300007_S3" Name="女贞首领" Condition="99" Prior="4" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300007_S4" Name="女贞首领" Condition="50" Prior="5" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4200004_A1" Name="锦衣卫首领普攻" Condition="100" Prior="1" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4200004_S1" Name="锦衣卫首领技能1" Condition="99" Prior="2" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300010_A1" Name="徐灿" Condition="100" Prior="1" MaxWeighting="0" AddWeighting="0"/>
+<Property ID="M4300010_S1" Name="徐灿" Condition="99" Prior="2" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300010_S2" Name="徐灿" Condition="99" Prior="3" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300010_S3" Name="徐灿" Condition="99" Prior="4" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300010_S4" Name="徐灿" Condition="80" Prior="5" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300001_A1" Name="花道常" Condition="100" Prior="1" MaxWeighting="0" AddWeighting="0"/>
+<Property ID="M4300001_S1" Name="花道常" Condition="99" Prior="2" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300001_S2" Name="花道常" Condition="99" Prior="3" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300001_S3" Name="花道常" Condition="99" Prior="4" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300001_S4" Name="花道常" Condition="80" Prior="5" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300005_A1" Name="护城元帅普攻" Condition="100" Prior="1" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300005_S1" Name="护城元帅技能1" Condition="99" Prior="2" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300005_S2" Name="护城元帅技能2" Condition="99" Prior="3" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300005_S3" Name="护城元帅技能3" Condition="99" Prior="4" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300005_S4" Name="护城元帅技能4" Condition="80" Prior="5" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300016_A1" Name="屠夫普攻" Condition="100" Prior="1" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300016_S1" Name="屠夫技能1" Condition="99" Prior="2" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300016_S2" Name="屠夫技能2" Condition="99" Prior="3" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300016_S3" Name="屠夫技能3" Condition="99" Prior="4" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300016_S4" Name="屠夫技能4" Condition="80" Prior="5" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4200014_A1" Name="武林盟主随从普攻" Condition="100" Prior="1" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4200014_S1" Name="武林盟主随从技能" Condition="99" Prior="2" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4200016_A1" Name="盗王普攻" Condition="100" Prior="1" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4200016_S1" Name="盗王技能" Condition="99" Prior="2" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4200035_A1" Name="妖异道人普攻" Condition="100" Prior="1" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4200035_S1" Name="妖异道人技能" Condition="99" Prior="2" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4200036_A1" Name="灵犀岛内门弟子普攻" Condition="100" Prior="1" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4200036_S1" Name="灵犀岛内门弟子技能" Condition="99" Prior="2" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300019_A1" Name="血傀儡普攻" Condition="100" Prior="1" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300019_S1" Name="血傀儡技能1" Condition="99" Prior="2" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300019_S2" Name="血傀儡技能2" Condition="99" Prior="3" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300019_S3" Name="血傀儡技能3" Condition="70" Prior="4" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300019_S4" Name="血傀儡技能4" Condition="80" Prior="5" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4200034_A1" Name="铁浮屠普攻" Condition="100" Prior="1" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4200034_S1" Name="铁浮屠技能" Condition="99" Prior="2" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300020_S4" Name="女花道常技能4" Condition="90" Prior="5" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4200042_S1" Name="精英袁晓棠技能" Condition="90" Prior="2" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4200043_S1" Name="精英袁笑之技能" Condition="90" Prior="2" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4200044_S1" Name="精英袁笑之技能" Condition="90" Prior="2" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4200045_S1" Name="精英段云技能" Condition="90" Prior="2" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4200046_S1" Name="精英方雨婷技能" Condition="90" Prior="2" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4200047_S1" Name="精英石尧山技能" Condition="90" Prior="2" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4200048_S1" Name="精英王通技能" Condition="90" Prior="2" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4200049_S1" Name="精英花道常技能" Condition="90" Prior="2" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4200050_S1" Name="精英徐灿技能" Condition="90" Prior="2" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4200051_S1" Name="精英季鹰技能" Condition="90" Prior="2" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4200052_S1" Name="精英任平生技能" Condition="90" Prior="2" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4200053_S1" Name="精英小师妹技能" Condition="90" Prior="2" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4200054_S1" Name="精英九公主技能" Condition="90" Prior="2" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300019_S5" Name="血傀儡技能3特殊" Condition="70" Prior="2" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300002a_A1" Name="冥火僧普攻a" Condition="100" Prior="1" MaxWeighting="0" AddWeighting="0"/>
+<Property ID="M4300002a_S1" Name="冥火僧技能1a" Condition="100" Prior="2" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300002a_S2" Name="冥火僧技能2a" Condition="100" Prior="3" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300002a_S3" Name="冥火僧技能3a" Condition="100" Prior="4" MaxWeighting="0" AddWeighting="0" Time="2"/>
+<Property ID="M4300002a_S4" Name="冥火僧技能4a" Condition="70" Prior="5" MaxWeighting="0" AddWeighting="0" Time="2"/>
+</Object>

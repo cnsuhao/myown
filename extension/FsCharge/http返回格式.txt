@@ -1,0 +1,14 @@
+<cas:serviceResponse xmlns:cas='http://www.yale.edu/tp/cas'>
+    <cas:authenticationSuccess>
+        <cas:user>2857541600</cas:user>
+        <cas:attributes>
+            <cas:uid>109</cas:uid>
+            <cas:status>1</cas:status>
+            <cas:whiteListLimit>false</cas:whiteListLimit>
+            <cas:userRoleInfo>1:0:-1</cas:userRoleInfo>
+            <cas:name>jihb001</cas:name>
+            <cas:aid>2857541600</cas:aid>
+            <cas:acc>jihb001</cas:acc>
+        </cas:attributes>
+    </cas:authenticationSuccess>
+</cas:serviceResponse>

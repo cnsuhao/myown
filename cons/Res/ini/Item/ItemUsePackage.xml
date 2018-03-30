@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Object>
+<Property ID="ceshi001_1" Package="ceshi001" EffectType="Exp" EffectValue="1000"></Property>
+<Property ID="ceshi002_1" Package="ceshi002" EffectType="Capital" EffectValue="CapitalCopper" ExtParam01="100000"></Property>
+<Property ID="ceshi003_1" Package="ceshi003" EffectType="Capital" EffectValue="CapitalSilver" ExtParam01="1000"></Property>
+<Property ID="ceshi004_1" Package="ceshi004" EffectType="Capital" EffectValue="CapitalSmelt" ExtParam01="1000"></Property>
+<Property ID="ceshi005_1" Package="ceshi005" EffectType="Gift" EffectValue="ceshi005" ExtParam02="3"></Property>
+<Property ID="ceshi006_1" Package="ceshi006" EffectType="Prop" EffectValue="HPAdd" ExtParam01="1000"></Property>
+<Property ID="ceshi007_1" Package="ceshi007" EffectType="HP" EffectValue="1000"></Property>
+<Property ID="ceshi008_1" Package="ceshi008" EffectType="CloneCoin" EffectValue="5"></Property>
+<Property ID="ceshi009_1" Package="ceshi009" EffectType="VIPCard" EffectValue="1"></Property>
+<Property ID="ceshi010_1" Package="ceshi010" EffectType="WelfareCard" EffectValue="1"></Property>
+</Object>

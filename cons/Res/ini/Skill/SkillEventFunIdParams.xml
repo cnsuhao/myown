@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- VTYPE_BOOL:1 VTYPE_INT:2 VTYPE_INT64:3 VTYPE_FLOAT:4 VTYPE_DOUBLE:5 VTYPE_STRING:6 VTYPE_WIDESTR:7 VTYPE_OBJECT:8 VTYPE_POINTER:9-->
+<Object>
+	<!--通用功能执行:1~200 -->
+	<Property ID="1" Params="BuffID,BuffTimeRatio,AddBuffRate" des="参数1:添加BUFF;参数2:buff时间比率（Boss,小怪）参数3:加buff的几率"/>
+	<!--技能独有功能执行300~500 -->
+	<Property ID="301" Params="SkillRadio" des="闪烁 参数1:闪烁距离"/>
+	<Property ID="302" Params="NPCIId,SkillRadio,Interval,LastTime" des="召唤图腾 参数1:npcid 参数2:攻击范围 参数3:攻击间隔(ms) 参数4:持续时间(ms)"/>
+	<!--buff独有功能执行600~699-->
+	<Property ID="600" Params="ChangeHP,CalType" des="buff改变HP 参数1:改变HP的值;参数2:计算类型"/>
+</Object>

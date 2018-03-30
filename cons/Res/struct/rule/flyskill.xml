@@ -1,0 +1,12 @@
+<object>
+    <internals />
+    <properties>
+		<property name="MaxFlyEnergy" type="int" public="false" private="true" save="false" realtime="" desc="最大轻功精力值" />
+		<property name="FlyEnergyRestore" type="int" public="false" private="false" save="false" realtime="" desc="轻功精力值回复速度(/s)" />
+        <property name="FlyEnergy" type="int" public="false" private="true" save="false" realtime="" desc="轻功精力值" />
+		<property name="JumpSec" type="byte" public="true" private="true" save="false" realtime="true" desc="当前轻功段数"/>	
+		<property name="JumpHeight" type="float" public="true" private="true" save="false" realtime="" desc="跳跃高度"/>
+		<property name="CantUseFlySkill" type="byte" public="flase" private="true" save="false" realtime="" desc="是否可以使用轻功"/>
+	</properties>
+	<includes />
+</object>

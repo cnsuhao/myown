@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="action">
+      <UniqueIdentifier>{632bec40-83bd-4b4e-bf22-eb8564accdd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libevent">
+      <UniqueIdentifier>{69710d20-3abe-448b-b7f0-1c25845adbd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base">
+      <UniqueIdentifier>{dbcb4d9d-bcb3-4716-bbc1-57ec7765c55c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protocols">
+      <UniqueIdentifier>{96efff21-3051-4a36-b345-841795e91877}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{639627e5-f5fb-49b6-a0e9-63b6d14bfa2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openssl">
+      <UniqueIdentifier>{b6b10fee-d127-4d97-965a-f865004a66a3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="action\ActionFactoryManager.h">
+      <Filter>action</Filter>
+    </ClInclude>
+    <ClInclude Include="action\IAction.h">
+      <Filter>action</Filter>
+    </ClInclude>
+    <ClInclude Include="action\IActionBinder.h">
+      <Filter>action</Filter>
+    </ClInclude>
+    <ClInclude Include="action\IActionFactory.h">
+      <Filter>action</Filter>
+    </ClInclude>
+    <ClInclude Include="action\IActionHandler.h">
+      <Filter>action</Filter>
+    </ClInclude>
+    <ClInclude Include="action\IActionLinkManager.h">
+      <Filter>action</Filter>
+    </ClInclude>
+    <ClInclude Include="action\IActionManager.h">
+      <Filter>action</Filter>
+    </ClInclude>
+    <ClInclude Include="action\IHttpAction.h">
+      <Filter>action</Filter>
+    </ClInclude>
+    <ClInclude Include="action\INetAction.h">
+      <Filter>action</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent\LibEventConnection.h">
+      <Filter>libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent\LibEventHttpConnection.h">
+      <Filter>libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent\LibEventHttpConnectionFactory.h">
+      <Filter>libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent\LibEventHttpService.h">
+      <Filter>libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent\LibEventService.h">
+      <Filter>libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent\LibEventServiceCreator.h">
+      <Filter>libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="base\DataBuffer.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\INetConnection.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\INetService.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\INetType.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\NetConnection.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\NetConnectionFactory.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\NetManager.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\NetService.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\Binder.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\FsLockedQueue.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\FsSingleton.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\FsSpinLock.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\FsStream.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\FsTimer.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="protocols\SysAction.h">
+      <Filter>protocols</Filter>
+    </ClInclude>
+    <ClInclude Include="base\NetCreator.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\NetServiceCreator.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent\LibEventConnectionFactory.h">
+      <Filter>libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="action\HttpJsonFormater.h">
+      <Filter>action</Filter>
+    </ClInclude>
+    <ClInclude Include="action\HttpData.h">
+      <Filter>action</Filter>
+    </ClInclude>
+    <ClInclude Include="action\HttpDataFormater.h">
+      <Filter>action</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\ssl_env.h">
+      <Filter>openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\my_ssl.h">
+      <Filter>openssl</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="libevent\LibEventHttpService.cpp">
+      <Filter>libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent\LibEventService.cpp">
+      <Filter>libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="base\NetCreator.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\NetService.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\NetConnection.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent\LibEventConnection.cpp">
+      <Filter>libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent\LibEventHttpConnection.cpp">
+      <Filter>libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl\ssl_env.cpp">
+      <Filter>openssl</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl\my_ssl.cpp">
+      <Filter>openssl</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Object>
+<Property ID="-1" HPAdd="0" MPAdd="1" Str="2" Dex="3" Sta="4" Ing="5" Spi="6" PhysAttackAdd="7" MagicttackAdd="8" PhysDefendAdd="9" MagicDefendAdd="10" HitAdd="11" MissAdd="12" CritAdd="13" TougAdd="14" PhysPenetrateAdd="15" MagicPenetrateAdd="16" AddHurtRate="17" DecHurtRate="18" MaxGaintVal="19" RunSpeedAdd="20"></Property>
+<Property ID="0" HPAdd="2" MPAdd="2" Str="2" Dex="2" Sta="2" Ing="2" Spi="2" PhysAttackAdd="2" MagicttackAdd="2" PhysDefendAdd="2" MagicDefendAdd="2" HitAdd="2" MissAdd="2" CritAdd="2" TougAdd="2" PhysPenetrateAdd="2" MagicPenetrateAdd="2" AddHurtRate="2" DecHurtRate="2" MaxGaintVal="2" RunSpeedAdd="2"></Property>
+<Property ID="114301" RunSpeedAdd="10"></Property>
+<Property ID="114302" RunSpeedAdd="11"></Property>
+<Property ID="114303" RunSpeedAdd="12"></Property>
+<Property ID="114304" RunSpeedAdd="13"></Property>
+<Property ID="114305" RunSpeedAdd="14"></Property>
+<Property ID="114306" RunSpeedAdd="15"></Property>
+<Property ID="114307" RunSpeedAdd="16"></Property>
+<Property ID="114308" RunSpeedAdd="17"></Property>
+<Property ID="114309" RunSpeedAdd="18"></Property>
+<Property ID="114310" RunSpeedAdd="19"></Property>
+<Property ID="114311" RunSpeedAdd="20"></Property>
+<Property ID="114312" RunSpeedAdd="21"></Property>
+<Property ID="114330" RunSpeedAdd="21"></Property>
+<Property ID="114331" RunSpeedAdd="22"></Property>
+<Property ID="114332" RunSpeedAdd="23"></Property>
+<Property ID="114333" RunSpeedAdd="24"></Property>
+<Property ID="114334" RunSpeedAdd="25"></Property>
+<Property ID="114335" RunSpeedAdd="26"></Property>
+<Property ID="114336" RunSpeedAdd="27"></Property>
+<Property ID="114337" RunSpeedAdd="28"></Property>
+<Property ID="114338" RunSpeedAdd="29"></Property>
+<Property ID="114339" RunSpeedAdd="30"></Property>
+<Property ID="114340" RunSpeedAdd="31"></Property>
+<Property ID="14301001" Str="10" Dex="10" Sta="10" Ing="10" Spi="10"></Property>
+<Property ID="14301002" Str="11" Dex="11" Sta="11" Ing="11" Spi="11"></Property>
+<Property ID="14301003" Str="12" Dex="12" Sta="12" Ing="12" Spi="12"></Property>
+<Property ID="14301004" Str="13" Dex="13" Sta="13" Ing="13" Spi="13"></Property>
+<Property ID="14301005" Str="14" Dex="14" Sta="14" Ing="14" Spi="14"></Property>
+<Property ID="14301006" Str="15" Dex="15" Sta="15" Ing="15" Spi="15"></Property>
+<Property ID="14301007" Str="16" Dex="16" Sta="16" Ing="16" Spi="16"></Property>
+<Property ID="14301008" Str="17" Dex="17" Sta="17" Ing="17" Spi="17"></Property>
+<Property ID="14301009" Str="18" Dex="18" Sta="18" Ing="18" Spi="18"></Property>
+<Property ID="14301010" Str="19" Dex="19" Sta="19" Ing="19" Spi="19"></Property>
+<Property ID="14301011" Str="20" Dex="20" Sta="20" Ing="20" Spi="20"></Property>
+<Property ID="14301012" Str="21" Dex="21" Sta="21" Ing="21" Spi="21"></Property>
+<Property ID="14301013" Str="22" Dex="22" Sta="22" Ing="22" Spi="22"></Property>
+<Property ID="14301014" Str="23" Dex="23" Sta="23" Ing="23" Spi="23"></Property>
+<Property ID="14301015" Str="24" Dex="24" Sta="24" Ing="24" Spi="24"></Property>
+<Property ID="14301016" Str="25" Dex="25" Sta="25" Ing="25" Spi="25"></Property>
+<Property ID="14301017" Str="26" Dex="26" Sta="26" Ing="26" Spi="26"></Property>
+<Property ID="14301018" Str="27" Dex="27" Sta="27" Ing="27" Spi="27"></Property>
+<Property ID="14301019" Str="28" Dex="28" Sta="28" Ing="28" Spi="28"></Property>
+<Property ID="14301020" Str="29" Dex="29" Sta="29" Ing="29" Spi="29"></Property>
+<Property ID="14301021" Str="30" Dex="30" Sta="30" Ing="30" Spi="30"></Property>
+<Property ID="14301022" Str="31" Dex="31" Sta="31" Ing="31" Spi="31"></Property>
+<Property ID="14301023" Str="32" Dex="32" Sta="32" Ing="32" Spi="32"></Property>
+<Property ID="14301024" Str="33" Dex="33" Sta="33" Ing="33" Spi="33"></Property>
+<Property ID="14301025" Str="34" Dex="34" Sta="34" Ing="34" Spi="34"></Property>
+<Property ID="14301026" Str="35" Dex="35" Sta="35" Ing="35" Spi="35"></Property>
+<Property ID="14301027" Str="36" Dex="36" Sta="36" Ing="36" Spi="36"></Property>
+<Property ID="14301028" Str="37" Dex="37" Sta="37" Ing="37" Spi="37"></Property>
+<Property ID="14301029" Str="38" Dex="38" Sta="38" Ing="38" Spi="38"></Property>
+<Property ID="14301030" Str="39" Dex="39" Sta="39" Ing="39" Spi="39"></Property>
+<Property ID="14301031" Str="40" Dex="40" Sta="40" Ing="40" Spi="40"></Property>
+<Property ID="14301032" Str="41" Dex="41" Sta="41" Ing="41" Spi="41"></Property>
+<Property ID="14301033" Str="42" Dex="42" Sta="42" Ing="42" Spi="42"></Property>
+<Property ID="14301034" Str="43" Dex="43" Sta="43" Ing="43" Spi="43"></Property>
+<Property ID="14301035" Str="44" Dex="44" Sta="44" Ing="44" Spi="44"></Property>
+<Property ID="14301036" Str="45" Dex="45" Sta="45" Ing="45" Spi="45"></Property>
+<Property ID="14301037" Str="46" Dex="46" Sta="46" Ing="46" Spi="46"></Property>
+<Property ID="14301038" Str="47" Dex="47" Sta="47" Ing="47" Spi="47"></Property>
+<Property ID="14301039" Str="48" Dex="48" Sta="48" Ing="48" Spi="48"></Property>
+<Property ID="14301040" Str="49" Dex="49" Sta="49" Ing="49" Spi="49"></Property>
+<Property ID="14301041" Str="50" Dex="50" Sta="50" Ing="50" Spi="50"></Property>
+<Property ID="14301042" Str="51" Dex="51" Sta="51" Ing="51" Spi="51"></Property>
+<Property ID="14301043" Str="52" Dex="52" Sta="52" Ing="52" Spi="52"></Property>
+<Property ID="14301044" Str="53" Dex="53" Sta="53" Ing="53" Spi="53"></Property>
+<Property ID="14301045" Str="54" Dex="54" Sta="54" Ing="54" Spi="54"></Property>
+<Property ID="14301046" Str="55" Dex="55" Sta="55" Ing="55" Spi="55"></Property>
+<Property ID="14301047" Str="56" Dex="56" Sta="56" Ing="56" Spi="56"></Property>
+<Property ID="14301048" Str="57" Dex="57" Sta="57" Ing="57" Spi="57"></Property>
+<Property ID="14301049" Str="58" Dex="58" Sta="58" Ing="58" Spi="58"></Property>
+<Property ID="14301050" Str="59" Dex="59" Sta="59" Ing="59" Spi="59"></Property>
+<Property ID="14301051" Str="60" Dex="60" Sta="60" Ing="60" Spi="60"></Property>
+<Property ID="14301052" Str="61" Dex="61" Sta="61" Ing="61" Spi="61"></Property>
+<Property ID="14301053" Str="62" Dex="62" Sta="62" Ing="62" Spi="62"></Property>
+<Property ID="14301054" Str="63" Dex="63" Sta="63" Ing="63" Spi="63"></Property>
+<Property ID="14301055" Str="64" Dex="64" Sta="64" Ing="64" Spi="64"></Property>
+<Property ID="14301056" Str="65" Dex="65" Sta="65" Ing="65" Spi="65"></Property>
+<Property ID="14301057" Str="66" Dex="66" Sta="66" Ing="66" Spi="66"></Property>
+<Property ID="14301058" Str="67" Dex="67" Sta="67" Ing="67" Spi="67"></Property>
+<Property ID="14301059" Str="68" Dex="68" Sta="68" Ing="68" Spi="68"></Property>
+<Property ID="14301060" Str="69" Dex="69" Sta="69" Ing="69" Spi="69"></Property>
+<Property ID="14301061" Str="70" Dex="70" Sta="70" Ing="70" Spi="70"></Property>
+<Property ID="14301062" Str="71" Dex="71" Sta="71" Ing="71" Spi="71"></Property>
+<Property ID="14301063" Str="72" Dex="72" Sta="72" Ing="72" Spi="72"></Property>
+<Property ID="14301064" Str="73" Dex="73" Sta="73" Ing="73" Spi="73"></Property>
+<Property ID="14301065" Str="74" Dex="74" Sta="74" Ing="74" Spi="74"></Property>
+<Property ID="14301066" Str="75" Dex="75" Sta="75" Ing="75" Spi="75"></Property>
+<Property ID="14301067" Str="76" Dex="76" Sta="76" Ing="76" Spi="76"></Property>
+<Property ID="14301068" Str="77" Dex="77" Sta="77" Ing="77" Spi="77"></Property>
+<Property ID="14301069" Str="78" Dex="78" Sta="78" Ing="78" Spi="78"></Property>
+<Property ID="14301070" Str="79" Dex="79" Sta="79" Ing="79" Spi="79"></Property>
+<Property ID="14301071" Str="80" Dex="80" Sta="80" Ing="80" Spi="80"></Property>
+<Property ID="14301072" Str="81" Dex="81" Sta="81" Ing="81" Spi="81"></Property>
+<Property ID="14301073" Str="82" Dex="82" Sta="82" Ing="82" Spi="82"></Property>
+<Property ID="14301074" Str="83" Dex="83" Sta="83" Ing="83" Spi="83"></Property>
+<Property ID="14301075" Str="84" Dex="84" Sta="84" Ing="84" Spi="84"></Property>
+<Property ID="14301076" Str="85" Dex="85" Sta="85" Ing="85" Spi="85"></Property>
+<Property ID="14301077" Str="86" Dex="86" Sta="86" Ing="86" Spi="86"></Property>
+<Property ID="14301078" Str="87" Dex="87" Sta="87" Ing="87" Spi="87"></Property>
+<Property ID="14301079" Str="88" Dex="88" Sta="88" Ing="88" Spi="88"></Property>
+<Property ID="14301080" Str="89" Dex="89" Sta="89" Ing="89" Spi="89"></Property>
+<Property ID="14301081" Str="90" Dex="90" Sta="90" Ing="90" Spi="90"></Property>
+<Property ID="14301082" Str="91" Dex="91" Sta="91" Ing="91" Spi="91"></Property>
+<Property ID="14301083" Str="92" Dex="92" Sta="92" Ing="92" Spi="92"></Property>
+<Property ID="14301084" Str="93" Dex="93" Sta="93" Ing="93" Spi="93"></Property>
+<Property ID="14301085" Str="94" Dex="94" Sta="94" Ing="94" Spi="94"></Property>
+<Property ID="14301086" Str="95" Dex="95" Sta="95" Ing="95" Spi="95"></Property>
+<Property ID="14301087" Str="96" Dex="96" Sta="96" Ing="96" Spi="96"></Property>
+<Property ID="14301088" Str="97" Dex="97" Sta="97" Ing="97" Spi="97"></Property>
+<Property ID="14301089" Str="98" Dex="98" Sta="98" Ing="98" Spi="98"></Property>
+<Property ID="14301090" Str="99" Dex="99" Sta="99" Ing="99" Spi="99"></Property>
+<Property ID="14301091" Str="100" Dex="100" Sta="100" Ing="100" Spi="100"></Property>
+<Property ID="14301092" Str="101" Dex="101" Sta="101" Ing="101" Spi="101"></Property>
+<Property ID="14301093" Str="102" Dex="102" Sta="102" Ing="102" Spi="102"></Property>
+<Property ID="14301094" Str="103" Dex="103" Sta="103" Ing="103" Spi="103"></Property>
+<Property ID="14301095" Str="104" Dex="104" Sta="104" Ing="104" Spi="104"></Property>
+<Property ID="14301096" Str="105" Dex="105" Sta="105" Ing="105" Spi="105"></Property>
+<Property ID="14301097" Str="106" Dex="106" Sta="106" Ing="106" Spi="106"></Property>
+<Property ID="14301098" Str="107" Dex="107" Sta="107" Ing="107" Spi="107"></Property>
+<Property ID="14301099" Str="108" Dex="108" Sta="108" Ing="108" Spi="108"></Property>
+<Property ID="14301100" Str="109" Dex="109" Sta="109" Ing="109" Spi="109"></Property>
+</Object>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Object>
+<Property ID="player_uid" PlayerProp="Uid" ValueType="str"/>
+<Property ID="player_name" PlayerProp="Name" ValueType="wstr"/>
+<Property ID="player_career" PlayerProp="Job" ValueType="int"/>
+<Property ID="player_nation" PlayerProp="Nation" ValueType="int"/>
+<Property ID="player_level" PlayerProp="Level" ValueType="int"/>
+<Property ID="player_experience" PlayerProp="PlayerExp" ValueType="int64"/>
+<Property ID="player_fight_power" PlayerProp="BattleAbility" ValueType="int"/>
+<Property ID="player_online_type" ValueType="int" InitValue="2" IsNeedInit="1"/>
+<Property ID="player_online" ValueType="int" InitValue="0"/>
+<Property ID="player_account" PlayerProp="Account" ValueType="str" IsNeedInit="1"/>
+<Property ID="player_sex" PlayerProp="Sex" ValueType="int"/>
+<Property ID="guild_name" ValueType="wstr"/>
+<Property ID="player_arena_state" ValueType="int" InitValue="0"/>
+<Property ID="player_cloth" PlayerProp="Cloth" ValueType="str"/>
+<Property ID="player_weapon" PlayerProp="Weapon" ValueType="str"/>
+<Property ID="player_wing" PlayerProp="Wing" ValueType="str"/>
+<Property ID="player_resource" PlayerProp="Resource" ValueType="str"/>
+<Property ID="player_role_flag" PlayerProp="PrepareRole" ValueType="int"/>
+<Property ID="player_vip_level" PlayerProp="VipLevel" ValueType="int"/>
+<Property ID="player_highest_fight_power" PlayerProp="HighestBattleAbility" ValueType="int"/>
+<Property ID="player_pay" ValueType="int"/>
+<Property ID="player_arena_sn" ValueType="str" IsNeedInit="1"/>
+<Property ID="player_highest_floor" PlayerProp="HighestFloor" ValueType="int"/>
+<Property ID="player_challenge_time" ValueType="int64"/>
+<Property ID="player_red_packet" PlayerProp="RPSendMoney" ValueType="int"/>
+<Property ID="player_pvpexp" PlayerProp="PVPExp" ValueType="int"/>
+<Property ID="player_win_num" PlayerProp="RevengeWinNum" ValueType="int"/>
+<Property ID="player_offer_reward_num" PlayerProp="OfferRewardNum" ValueType="int"/>
+<Property ID="player_offer_reward_capital" PlayerProp="OfferRewardCapital" ValueType="int"/>
+<Property ID="player_chase_suc_num" PlayerProp="ChaseSucNum" ValueType="int"/>
+<Property ID="player_chase_suc_capital" PlayerProp="ChaseSucCapital" ValueType="int"/>
+<Property ID="player_frontier_score" PlayerProp="FrontierScore" ValueType="int"/>
+<Property ID="player_frontier_total_score" PlayerProp="FrontierTScore" ValueType="int"/>
+<Property ID="player_frontier_mutil_kills" PlayerProp="FrontierMultiKills" ValueType="int"/>
+<Property ID="player_charm" ValueType="int"/>
+<Property ID="player_peerage" PlayerProp="PeerageLevel" ValueType="int"/>
+<Property ID="player_reward" ValueType="int"/>
+<Property ID="pet_uid" ValueType="str"/>
+<Property ID="pet_id" ValueType="str"/>
+<Property ID="pet_score" ValueType="int"/>
+<Property ID="update_time" ValueType="int64"/>
+<Property ID="guild_level" ValueType="int"/>
+<Property ID="guild_fight_power" ValueType="int"/>
+<Property ID="guild_nation" ValueType="int"/>
+<Property ID="guild_boom" ValueType="int"/>
+<Property ID="player_trade_silver" ValueType="int64"/>
+<Property ID="guild_identifying" ValueType="int"/>
+<Property ID="guild_alias" ValueType="wstr"/>
+<Property ID="player_achievement_point" PlayerProp="AchievementDstValue" ValueType="int"/>
+<Property ID="player_weeklyscore" PlayerProp="TotalWeeklyScore" ValueType="float"/>
+<Property ID="guild_weeklyscore" ValueType="float"/>
+</Object>

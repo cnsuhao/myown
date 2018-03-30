@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Object>
+<Property ID="1" PackageName="100000001" ItemType="item" ItemID="105010001" Amount="1000" Weight="100"></Property>
+<Property ID="2" PackageName="100000001" ItemType="item" ItemID="105020001" Amount="200" Weight="200"></Property>
+<Property ID="3" PackageName="100000001" ItemType="item" ItemID="105030001" Amount="300" Weight="300"></Property>
+<Property ID="4" PackageName="100000002" ItemType="sub_pck" Weight="100"></Property>
+<Property ID="5" PackageName="100000002" ItemType="sub_pck" ItemID="500000002" Weight="200"></Property>
+<Property ID="6" PackageName="100000003" ItemType="item" ItemID="10610001" Amount="1" Weight="100"></Property>
+<Property ID="7" PackageName="100000004" ItemType="item" ItemID="105010001" Amount="10" Weight="100"></Property>
+<Property ID="8" PackageName="100000005" ItemType="item" ItemID="105020001" Amount="10" Weight="100"></Property>
+<Property ID="9" PackageName="100000006" ItemType="item" ItemID="105030001" Amount="10" Weight="100"></Property>
+<Property ID="10" PackageName="100000007" ItemType="item" ItemID="105040001" Amount="10" Weight="100"></Property>
+<Property ID="11" PackageName="100000008" ItemType="item" ItemID="102010001" Amount="10" Weight="100"></Property>
+</Object>

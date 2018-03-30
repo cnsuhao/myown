@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Object>
+<Property ID="0" EffectName="Exp"></Property>
+<Property ID="1" EffectName="Capital"></Property>
+<Property ID="2" EffectName="Ride"></Property>
+<Property ID="3" EffectName="RideSkin"></Property>
+<Property ID="4" EffectName="Gift"></Property>
+<Property ID="5" EffectName="Dine"></Property>
+<Property ID="6" EffectName="BUFF"></Property>
+<Property ID="7" EffectName="Prop"></Property>
+<Property ID="8" EffectName="HP"></Property>
+<Property ID="9" EffectName="CloneCoin"></Property>
+<Property ID="10" EffectName="RemoveBuff"></Property>
+<Property ID="11" EffectName="VIPCard"></Property>
+<Property ID="12" EffectName="WelfareCard"></Property>
+<Property ID="13" EffectName="PetFriendShip"></Property>
+<Property ID="14" EffectName="MultiExpRate"></Property>
+<Property ID="15" EffectName="Fashion"></Property>
+<Property ID="16" EffectName="RewardPack"></Property>
+<Property ID="17" EffectName="AcceptRecovertTask"></Property>
+<Property ID="18" EffectName="AddSkill"></Property>
+</Object>

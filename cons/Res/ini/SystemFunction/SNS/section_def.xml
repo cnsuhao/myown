@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Object>
+<Property ID="PlayerAttribute" SectionType="attribute"/>
+<Property ID="PlayerEquipment" SectionType="record" ExtParam01="str,int,int,str,int,str,str" ExtParam02="100"/>
+<Property ID="PlayerSkill" SectionType="record" ExtParam01="str,int" ExtParam02="100"/>
+<Property ID="PlayerRide" SectionType="record" ExtParam01="str,str,int,int" ExtParam02="20"/>
+<Property ID="PlayerPet" SectionType="record" ExtParam01="str,int,int,int,int,int,str,str" ExtParam02="30"/>
+<Property ID="PlayerPassiveSkill" SectionType="record" ExtParam01="int,int,int,int" ExtParam02="100"/>
+<Property ID="PlayerEquipmentBaptise" SectionType="record" ExtParam01="int,int,int,int,int,int,int,int,int" ExtParam02="20"/>
+</Object>

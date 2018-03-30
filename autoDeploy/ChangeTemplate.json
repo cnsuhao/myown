@@ -1,0 +1,369 @@
+{
+	"ChangeFile": [
+	{
+		"FileName": "../bin/Release64/game_lister.ini",
+		"Content": [
+		{
+			"SectionName": "Outer",
+			"KeyValueGroup": [
+			{
+				"KeyName": "Addr",
+				"ValueName": "@ServerOutIP"
+			}
+			]
+		},
+		{
+			"SectionName": "Main",
+			"KeyValueGroup": [
+			{
+				"KeyName": "ServerID",
+				"ValueName": "@ServerID"
+			}
+			]
+		}
+		]
+	},
+	{
+		"FileName": "../bin/Release64/game_entry.ini",
+		"Content": [
+		{
+			"SectionName": "Outer",
+			"KeyValueGroup": [
+			{
+				"KeyName": "Addr",
+				"ValueName": "@ServerOutIP"
+			}
+			]
+		},
+		{
+			"SectionName": "WLAN",
+			"KeyValueGroup":[
+				{
+					"KeyName": "Addr",
+					"ValueName": "ServerWlanIP"
+				},
+				{
+					"KeyName": "Inuse",
+					"ValueName": "true"
+				}
+			]
+		},
+		{
+			"SectionName": "Main",
+			"KeyValueGroup": [
+			{
+				"KeyName": "ServerID",
+				"ValueName": "@ServerID"
+			}
+			]
+		}
+		]
+	},
+	{
+		"FileName": "../bin/Release64/game_entry1.ini",
+		"Content": [
+		{
+			"SectionName": "Outer",
+			"KeyValueGroup": [
+			{
+				"KeyName": "Addr",
+				"ValueName": "@ServerOutIP"
+			}
+			]
+		},
+		{
+			"SectionName": "WLAN",
+			"KeyValueGroup":[
+			{
+				"KeyName": "Addr",
+				"ValueName": "ServerWlanIP"
+			},
+			{
+				"KeyName": "Inuse",
+				"ValueName": "true"
+			}
+			]
+		},
+		{
+			"SectionName": "Main",
+			"KeyValueGroup": [
+			{
+				"KeyName": "ServerID",
+				"ValueName": "@ServerID"
+			}
+			]
+		}
+		]
+	}
+	,{
+		"FileName": "../bin/Release64/game_member.ini",
+		"Content": [
+		{
+			"SectionName":"Main",
+			"KeyValueGroup": [
+			{
+				"KeyName": "ServerID",
+				"ValueName": "@ServerID"
+			}
+			]
+		}
+		]
+	}
+	,{
+		"FileName": "../bin/Release64/game_member1.ini",
+		"Content": [
+		{
+			"SectionName":"Main",
+			"KeyValueGroup": [
+			{
+				"KeyName": "ServerID",
+				"ValueName": "@ServerID"
+			}
+			]
+		}
+		]
+	}
+	,{
+		"FileName": "../bin/Release64/game_member2.ini",
+		"Content": [
+		{
+			"SectionName":"Main",
+			"KeyValueGroup": [
+			{
+				"KeyName": "ServerID",
+				"ValueName": "@ServerID"
+			}
+			]
+		}
+		]
+	}	
+	,{
+		"FileName": "../bin/Release64/game_member3.ini",
+		"Content": [
+		{
+			"SectionName":"Main",
+			"KeyValueGroup": [
+			{
+				"KeyName": "ServerID",
+				"ValueName": "@ServerID"
+			}
+			]
+		}
+		]
+	}	
+	,{
+		"FileName": "../bin/Release64/game_member4.ini",
+		"Content": [
+		{
+			"SectionName":"Main",
+			"KeyValueGroup": [
+			{
+				"KeyName": "ServerID",
+				"ValueName": "@ServerID"
+			}
+			]
+		}
+		]
+	}
+	,{
+		"FileName": "../bin/Release64/game_member5.ini",
+		"Content": [
+		{
+			"SectionName":"Main",
+			"KeyValueGroup": [
+			{
+				"KeyName": "ServerID",
+				"ValueName": "@ServerID"
+			}
+			]
+		}
+		]
+	}
+	,{
+		"FileName": "../bin/Release64/game_member6.ini",
+		"Content": [
+		{
+			"SectionName":"Main",
+			"KeyValueGroup": [
+			{
+				"KeyName": "ServerID",
+				"ValueName": "@ServerID"
+			}
+			]
+		}
+		]
+	}
+	,{
+		"FileName": "../bin/Release64/game_member7.ini",
+		"Content": [
+		{
+			"SectionName":"Main",
+			"KeyValueGroup": [
+			{
+				"KeyName": "ServerID",
+				"ValueName": "@ServerID"
+			}
+			]
+		}
+		]
+	}
+
+
+	,{
+		"FileName": "../bin/Release64/game_public.ini",
+		"Content": [
+		{
+			"SectionName":"Main",
+			"KeyValueGroup": [
+			{
+				"KeyName": "ServerID",
+				"ValueName": "@ServerID"
+			}
+			]
+		}
+		]
+	}
+
+	,{
+		"FileName": "../bin/Release64/game_sns.ini",
+		"Content": [
+		{
+			"SectionName":"Main",
+			"KeyValueGroup": [
+			{
+				"KeyName": "ServerID",
+				"ValueName": "@ServerID"
+			}
+			]
+		},
+
+		{
+			"SectionName":"Sns",
+			"KeyValueGroup": [
+			{
+				"KeyName": "ConnectString",
+				"ValueName": "@NxbaseSqlConnect"
+			}
+			]
+		},
+		]
+	}
+	,{
+		"FileName": "../bin/Release64/game_snsmanager.ini",
+		"Content": [
+		{
+			"SectionName":"Main",
+			"KeyValueGroup": [
+			{
+				"KeyName": "ServerID",
+				"ValueName": "@ServerID"
+			}
+			]
+		}
+		]
+	}
+	,{
+		"FileName": "../bin/Release64/game_store.ini",
+		"Content": [
+		{
+			"SectionName":"Main",
+			"KeyValueGroup": [
+			{
+				"KeyName": "ServerID",
+				"ValueName": "@ServerID"
+			}
+			]
+		},
+
+		{
+			"SectionName": "Account",
+			"KeyValueGroup": [
+			{
+				"KeyName": "ConnectString",
+				"ValueName": "@NxdistrictSqlConnect"
+			}
+			]
+		},
+
+		{
+			"SectionName": "Role",
+			"KeyValueGroup": [
+			{
+				"KeyName": "ConnectString",
+				"ValueName": "@NxbaseSqlConnect"
+			}
+			]
+		},
+
+		{
+			"SectionName": "Log",
+			"KeyValueGroup": [
+			{
+				"KeyName": "ConnectString",
+				"ValueName": "@NxlogSqlConnect"
+			}
+			]
+		},
+
+		{
+			"SectionName": "Public",
+			"KeyValueGroup": [
+			{
+				"KeyName": "ConnectString",
+				"ValueName": "@NxbaseSqlConnect"
+			}
+			]
+		},
+
+		{
+			"SectionName": "Manage",
+			"KeyValueGroup": [
+			{
+				"KeyName": "ConnectString",
+				"ValueName": "@NxbaseSqlConnect"
+			}
+			]
+		},
+		]
+	}
+	,{
+		"FileName": "../bin/Release64/game_snsstore.ini",
+		"Content": [
+		{
+			"SectionName":"Main",
+			"KeyValueGroup": [
+			{
+				"KeyName": "ServerID",
+				"ValueName": "@ServerID"
+			}
+			]
+		},
+
+		{
+			"SectionName":"Sns",
+			"KeyValueGroup": [
+			{
+				"KeyName": "ConnectString",
+				"ValueName": "@NxbaseSqlConnect"
+			}
+			]
+		},
+		]
+	}
+
+	,{
+		"FileName": "../bin/Release64/game_world.ini",
+		"Content": [
+		{
+			"SectionName":"Main",
+			"KeyValueGroup": [
+			{
+				"KeyName": "ServerID",
+				"ValueName": "@ServerID"
+			}
+			]
+		}
+		]
+	}
+	]
+}

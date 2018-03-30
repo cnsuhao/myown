@@ -1,0 +1,621 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release64|Win32">
+      <Configuration>Release64</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release64|x64">
+      <Configuration>Release64</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E01224A8-CF15-4D15-A1DE-C51D5FB7DEA4}</ProjectGuid>
+    <RootNamespace>FsGame</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Release64|Win32'">
+    <PlatformToolset>v120</PlatformToolset>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Release64|x64'">
+    <PlatformToolset>v120</PlatformToolset>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>..\Cons\$(Configuration)\</OutDir>
+    <LibraryPath>$(VCInstallDir)log\lib;$(LibraryPath)</LibraryPath>
+    <IntDir>..\Middle\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release64|x64'">
+    <OutDir>..\Cons\$(Configuration)\</OutDir>
+    <IntDir>..\Middle\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release64|Win32'">
+    <OutDir>..\Cons\$(Configuration)\</OutDir>
+    <IntDir>..\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>false</SDLCheck>
+      <AdditionalIncludeDirectories>../include;./;../;../SDK/rapidxml;../SDK/FindPath/Include;../external/bin/include;../SDK/log4plus/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;FSGAME_EXPORTS;ZLIB_WINAPI;FIND_PATH_DLL;LOG4CPLUS_DISABLE_DLL_RUNTIME_WARNING</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <EnableParallelCodeGeneration>true</EnableParallelCodeGeneration>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EntryPointSymbol>
+      </EntryPointSymbol>
+      <AdditionalDependencies>winmm.lib;FindPath3D.lib;log4cplus.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\SDK\log4plus\lib\$(ConfigurationName)\$(PlatformTarget);..\SDK\FindPath\lib\staticdebug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <OutputFile>$(OutDir)\$(ProjectName).dll</OutputFile>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapFileName>../Cons/$(Configuration)/$(ProjectName).map</MapFileName>
+      <DelayLoadDLLs>
+      </DelayLoadDLLs>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+      <Profile>false</Profile>
+      <EnableCOMDATFolding>false</EnableCOMDATFolding>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>false</SDLCheck>
+      <AdditionalIncludeDirectories>./;../;../SDK/rapidxml;../SDK/FindPath/Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;FSGAME_EXPORTS;ZLIB_WINAPI;FIND_PATH_DLL</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EntryPointSymbol>
+      </EntryPointSymbol>
+      <AdditionalDependencies>winmm.lib;FindPath3D.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\SDK\FindPath\lib\staticdebug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <OutputFile>../Cons/Debug/FsGame.dll</OutputFile>
+      <Profile>true</Profile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release64|Win32'">
+    <Link>
+      <OutputFile>$(OutDir)\$(ProjectName).dll</OutputFile>
+      <AdditionalLibraryDirectories>..\SDK\log4plus\lib\$(ConfigurationName)\$(PlatformTarget);..\SDK\FindPath\lib\staticdebug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>winmm.lib;FindPath3D.lib;log4cplus.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_USRDLL;FSGAME_EXPORTS;ZLIB_WINAPI;FIND_PATH_DLL;LOG4CPLUS_DISABLE_DLL_RUNTIME_WARNING</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../include;./;../;../SDK/rapidxml;../SDK/FindPath/Include;../external/bin/include;../SDK/log4plus/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>false</SDLCheck>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release64|x64'">
+    <ClCompile>
+      <MinimalRebuild>false</MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <AdditionalIncludeDirectories>.\;$(ProjectDir);$(ProjectDir)..\include;$(ProjectDir)..\;$(ProjectDir)../SDK/FindPath/Include;$(ProjectDir)../SDK/rapidxml;$(ProjectDir)../external/bin/include;$(ProjectDir)../SDK/log4plus/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <EnableEnhancedInstructionSet>NotSet</EnableEnhancedInstructionSet>
+      <PreprocessorDefinitions>FSGAME_EXPORTS;NDEBUG;LOG4CPLUS_DISABLE_DLL_RUNTIME_WARNING;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderOutputFile />
+      <DisableSpecificWarnings>4996;4819;4099;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>..\external\bin\lib\release\x64;..\SDK\FindPath\lib\staticrelease64;..\SDK\log4plus\lib\release\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>winmm.lib;FindPath3D.lib;log4cplus.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)\$(ProjectName).dll</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapFileName>../Cons/$(Configuration)/$(ProjectName).map</MapFileName>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\utils\cache\CacheHelper.hpp" />
+    <ClInclude Include="..\utils\cache\CacheString.hpp" />
+    <ClInclude Include="..\utils\cache\CacheTimer.hpp" />
+    <ClInclude Include="..\utils\cache\ICacheString.h" />
+    <ClInclude Include="..\utils\cron\bitstring.h" />
+    <ClInclude Include="..\utils\item_helper.hpp" />
+    <ClInclude Include="Analytics\GameAnalyticsEventNames.h" />
+    <ClInclude Include="Analytics\GameAnalyticsProperties.h" />
+    <ClInclude Include="Analytics\GameAnalyticsDef.h" />
+    <ClInclude Include="Analytics\IGameAnalyticsCollector.h" />
+    <ClInclude Include="Analytics\SensorsAnalyticsCollectorEx.h" />
+    <ClInclude Include="Analytics\SensorsAnalyticsDef.h" />
+    <ClInclude Include="CommonModule\CommRuleDefine.h" />
+    <ClInclude Include="CommonModule\CommRuleModule.h" />
+    <ClInclude Include="CommonModule\FunctionEventModule.h" />
+    <ClInclude Include="CommonModule\ReLoadConfigModule.h" />
+    <ClInclude Include="CommonModule\SwitchManagerModule.h" />
+    <ClInclude Include="Define\BattleAbilityDefine.h" />
+    <ClInclude Include="Define\Classes.h" />
+    <ClInclude Include="Define\ExtraServerDefine.h" />
+    <ClInclude Include="Define\Fields.h" />
+    <ClInclude Include="Define\FriendDefine.h" />
+    <ClInclude Include="Define\FriendMsgDefine.h" />
+    <ClInclude Include="Define\FunctionEventDefine.h" />
+    <ClInclude Include="Define\GuildDefine.h" />
+    <ClInclude Include="Define\GuildMsgDefine.h" />
+    <ClInclude Include="Define\InternalFields.h" />
+    <ClInclude Include="Define\JadeDefine.h" />
+    <ClInclude Include="Define\PKModelDefine.h" />
+    <ClInclude Include="Define\PlayerBaseDefine.h" />
+    <ClInclude Include="Define\RequestDefine.h" />
+    <ClInclude Include="Define\ReviveDefine.h" />
+    <ClInclude Include="Define\RewardDefine.h" />
+    <ClInclude Include="Define\SystemInfo_Campaign.h" />
+    <ClInclude Include="Define\SystemInfo_Common.h" />
+    <ClInclude Include="Define\SystemInfo_Equipment.h" />
+    <ClInclude Include="Define\SystemInfo_Item.h" />
+    <ClInclude Include="Define\SystemInfo_Npc.h" />
+    <ClInclude Include="Define\SystemInfo_OPActivity.h" />
+    <ClInclude Include="Define\SystemInfo_Scene.h" />
+    <ClInclude Include="Define\SystemInfo_Skill.h" />
+    <ClInclude Include="Define\SystemInfo_Social.h" />
+    <ClInclude Include="Define\SystemInfo_SysFunction.h" />
+    <ClInclude Include="Define\SystemInfo_Task.h" />
+    <ClInclude Include="Define\TeamDefine.h" />
+    <ClInclude Include="Define\ClientCustomDefine.h" />
+    <ClInclude Include="Define\CommandDefine.h" />
+    <ClInclude Include="Define\GameDefine.h" />
+    <ClInclude Include="Define\PubDefine.h" />
+    <ClInclude Include="Define\ServerCustomDefine.h" />
+    <ClInclude Include="Define\SnsDefine.h" />
+    <ClInclude Include="Define\TrapEventFuncIdDefine.h" />
+    <ClInclude Include="Define\ViewDefine.h" />
+    <ClInclude Include="Define\ActionMutexDefine.h" />
+    <ClInclude Include="Define\BufferDefine.h" />
+    <ClInclude Include="Define\CapitalDefine.h" />
+    <ClInclude Include="Define\ContainerDefine.h" />
+    <ClInclude Include="Define\CoolDownDefine.h" />
+    <ClInclude Include="Define\FightDefine.h" />
+    <ClInclude Include="Define\FightPropertyDefine.h" />
+    <ClInclude Include="Define\FlowCategoryDefine.h" />
+    <ClInclude Include="Define\ItemTypeDefine.h" />
+    <ClInclude Include="Define\LogDefine.h" />
+    <ClInclude Include="Define\ModifyPackDefine.h" />
+    <ClInclude Include="Define\RankingDefine.h" />
+    <ClInclude Include="Define\ResetTimerDefine.h" />
+    <ClInclude Include="Define\Skilldefine.h" />
+    <ClInclude Include="Define\SkillEventFuncIdDefine.h" />
+    <ClInclude Include="Define\SkillEventManagerDefine.h" />
+    <ClInclude Include="Define\SnsDataDefine.h" />
+    <ClInclude Include="Define\StaticDataDefine.h" />
+    <ClInclude Include="Define\SwitchManagerDefine.h" />
+    <ClInclude Include="Define\SystemMailDefine.h" />
+    <ClInclude Include="Define\ToolBoxDefine.h" />
+    <ClInclude Include="Define\ToolItemDefine.h" />
+    <ClInclude Include="..\utils\arraypod.h" />
+    <ClInclude Include="..\utils\cau.h" />
+    <ClInclude Include="..\utils\custom_func.h" />
+    <ClInclude Include="..\utils\enum.h" />
+    <ClInclude Include="..\utils\exptree.h" />
+    <ClInclude Include="..\utils\extend_func.h" />
+    <ClInclude Include="..\utils\flexstring.h" />
+    <ClInclude Include="..\utils\geometry_func.h" />
+    <ClInclude Include="..\utils\IniFile.h" />
+    <ClInclude Include="..\utils\itemhelper.h" />
+    <ClInclude Include="..\utils\json-forwards.h" />
+    <ClInclude Include="..\utils\json.h" />
+    <ClInclude Include="..\utils\LeakChecker.h" />
+    <ClInclude Include="..\utils\pub_share.h" />
+    <ClInclude Include="..\utils\QuickHash.h" />
+    <ClInclude Include="..\utils\record.h" />
+    <ClInclude Include="..\utils\shape_collision.h" />
+    <ClInclude Include="..\utils\Singleton.h" />
+    <ClInclude Include="..\utils\string_buffer.h" />
+    <ClInclude Include="..\utils\string_util.h" />
+    <ClInclude Include="..\utils\StringPod.h" />
+    <ClInclude Include="..\utils\util.h" />
+    <ClInclude Include="..\utils\util_config.h" />
+    <ClInclude Include="..\utils\util_config_template.h" />
+    <ClInclude Include="..\utils\util_func.h" />
+    <ClInclude Include="..\utils\util_ini.h" />
+    <ClInclude Include="..\utils\util_macros.h" />
+    <ClInclude Include="..\utils\XmlFile.h" />
+    <ClInclude Include="..\SDK\tinyxml\tinystr.h" />
+    <ClInclude Include="..\SDK\tinyxml\tinyxml.h" />
+    <ClInclude Include="..\utils\math\fm_fixedpoint.h" />
+    <ClInclude Include="..\utils\math\fm_mathtable.h" />
+    <ClInclude Include="..\utils\math\math.h" />
+    <ClInclude Include="..\utils\math\matrix.h" />
+    <ClInclude Include="..\utils\math\vector.h" />
+    <ClInclude Include="..\SDK\dumpstack\DumpStack.h" />
+    <ClInclude Include="..\SDK\dumpstack\StackWalker.h" />
+    <ClInclude Include="Define\WingDefine.h" />
+    <ClInclude Include="EquipmentModule\ApperanceDefine.h" />
+    <ClInclude Include="EquipmentModule\ApperanceModule.h" />
+    <ClInclude Include="EquipmentModule\EquipBaptiseDefine.h" />
+    <ClInclude Include="EquipmentModule\EquipBaptiseModule.h" />
+    <ClInclude Include="EquipmentModule\EquipDefine.h" />
+    <ClInclude Include="EquipmentModule\EquipForgingDefine.h" />
+    <ClInclude Include="EquipmentModule\EquipForgingModule.h" />
+    <ClInclude Include="EquipmentModule\EquipmentModule.h" />
+    <ClInclude Include="EquipmentModule\EquipModifyPackModule.h" />
+    <ClInclude Include="EquipmentModule\EquipSmeltDefine.h" />
+    <ClInclude Include="EquipmentModule\EquipSmeltModule.h" />
+    <ClInclude Include="EquipmentModule\EquipStrengthenDefine.h" />
+    <ClInclude Include="EquipmentModule\EquipStrengthenModule.h" />
+    <ClInclude Include="EquipmentModule\FashionDefine.h" />
+    <ClInclude Include="EquipmentModule\FashionModule.h" />
+    <ClInclude Include="EquipmentModule\JewelDefine.h" />
+    <ClInclude Include="EquipmentModule\JewelModule.h" />
+    <ClInclude Include="ItemModule\JadeModule.h" />
+    <ClInclude Include="NpcBaseModule\AI\Rule\Escape\AIREscapeBase.h" />
+    <ClInclude Include="NpcBaseModule\AI\Template\AITNormalFight.h" />
+    <ClInclude Include="NpcBaseModule\NpcBaseModule.h" />
+    <ClInclude Include="NpcBaseModule\NpcCreatorModule.h" />
+    <ClInclude Include="NpcBaseModule\AI\AIDefine.h" />
+    <ClInclude Include="NpcBaseModule\AI\AIFunction.h" />
+    <ClInclude Include="NpcBaseModule\AI\AIHeartBeat.h" />
+    <ClInclude Include="NpcBaseModule\AI\AISystem.h" />
+    <ClInclude Include="NpcBaseModule\AI\Rule\AIRuleBase.h" />
+    <ClInclude Include="NpcBaseModule\AI\Rule\AIRuleManage.h" />
+    <ClInclude Include="NpcBaseModule\AI\Rule\Spring\AIRSpringBase.h" />
+    <ClInclude Include="NpcBaseModule\AI\Rule\Patrol\AIRPatrolBase.h" />
+    <ClInclude Include="NpcBaseModule\AI\Rule\SelTarget\AIRSelTargetBase.h" />
+    <ClInclude Include="NpcBaseModule\AI\Rule\BeginFight\AIRBeginFightBase.h" />
+    <ClInclude Include="NpcBaseModule\AI\Rule\Fight\AIRFightBase.h" />
+    <ClInclude Include="NpcBaseModule\AI\Rule\BeDamaged\AIRBeDamagedBase.h" />
+    <ClInclude Include="NpcBaseModule\AI\Rule\EndFight\AIREndFightBase.h" />
+    <ClInclude Include="NpcBaseModule\AI\Rule\OnDead\AIROnDeadBase.h" />
+    <ClInclude Include="NpcBaseModule\AI\Rule\ChaseTarget\AIRChaseTargetBase.h" />
+    <ClInclude Include="NpcBaseModule\AI\Rule\CheckAttacks\AIRCheckAttackersBase.h" />
+    <ClInclude Include="NpcBaseModule\AI\Template\AITBoss.h" />
+    <ClInclude Include="NpcBaseModule\AI\Template\AITemplateBase.h" />
+    <ClInclude Include="NpcBaseModule\DoorNpcModule.h" />
+    <ClInclude Include="NpcBaseModule\SafeAreaNpcModule.h" />
+    <ClInclude Include="CommonModule\LuaScriptModule.h" />
+    <ClInclude Include="CommonModule\AsynCtrlModule.h" />
+    <ClInclude Include="CommonModule\LuaExtModule.h" />
+    <ClInclude Include="CommonModule\GMModule.h" />
+    <ClInclude Include="CommonModule\LogicClassModule.h" />
+    <ClInclude Include="CommonModule\PathFindingModule.h" />
+    <ClInclude Include="CommonModule\ContainerModule.h" />
+    <ClInclude Include="CommonModule\LevelModule.h" />
+    <ClInclude Include="CommonModule\VirtualRecModule.h" />
+    <ClInclude Include="CommonModule\LogModule.h" />
+    <ClInclude Include="CommonModule\PropRefreshModule.h" />
+    <ClInclude Include="CommonModule\PubModule.h" />
+    <ClInclude Include="CommonModule\SnsDataModule.h" />
+    <ClInclude Include="CommonModule\LandPosModule.h" />
+    <ClInclude Include="CommonModule\ActionMutex.h" />
+    <ClInclude Include="CommonModule\EnvirValueModule.h" />
+    <ClInclude Include="NpcBaseModule\TrapEvent\TrapEventBase.h" />
+    <ClInclude Include="NpcBaseModule\TrapEvent\TrapEventFuncBuffer.h" />
+    <ClInclude Include="NpcBaseModule\TrapEvent\TrapEventFuncDestory.h" />
+    <ClInclude Include="NpcBaseModule\TrapEvent\TrapEventManagerModule.h" />
+    <ClInclude Include="NpcBaseModule\TrapNpcModule.h" />
+    <ClInclude Include="SceneBaseModule\SceneBaseModule.h" />
+    <ClInclude Include="Interface\DeclareProperty.h" />
+    <ClInclude Include="Interface\FightInterface.h" />
+    <ClInclude Include="Interface\ILuaExtModule.h" />
+    <ClInclude Include="Interface\PropertyInterface.h" />
+    <ClInclude Include="ItemModule\ItemBaseModule.h" />
+    <ClInclude Include="ItemModule\ToolItem\ItemEffectBase.h" />
+    <ClInclude Include="ItemModule\ToolItem\ToolItemModule.h" />
+    <ClInclude Include="SkillModule\CriminalSystem.h" />
+    <ClInclude Include="SkillModule\Impl\SkillConfigData.h" />
+    <ClInclude Include="SkillModule\Impl\SkillDataQueryModule.h" />
+    <ClInclude Include="SkillModule\Impl\SkillDefineDataStruct.h" />
+    <ClInclude Include="SkillModule\Impl\SkillAccess.h" />
+    <ClInclude Include="SkillModule\Impl\SkillFlow.h" />
+    <ClInclude Include="SkillModule\inner\SkillEventExecuteUtil.h" />
+    <ClInclude Include="SkillModule\inner\SkillEventFuncBuffer.h" />
+    <ClInclude Include="SkillModule\inner\SkillEventFuncCommon.h" />
+    <ClInclude Include="SkillModule\inner\SkillEventFuncSkill.h" />
+    <ClInclude Include="SkillModule\PassiveSkillModifyPack.h" />
+    <ClInclude Include="SkillModule\PassiveSkillSystem.h" />
+    <ClInclude Include="SkillModule\PKModelModule.h" />
+    <ClInclude Include="SkillModule\SceneAttackManage.h" />
+    <ClInclude Include="SkillModule\Skillmodule.h" />
+    <ClInclude Include="SkillModule\Impl\SkillStage.h" />
+    <ClInclude Include="SkillModule\SkillToSprite.h" />
+    <ClInclude Include="SkillModule\FlowModule.h" />
+    <ClInclude Include="SkillModule\inner\SkillEventBase.h" />
+    <ClInclude Include="SkillModule\inner\SkillEventManager.h" />
+    <ClInclude Include="SkillModule\FightActionControl.h" />
+    <ClInclude Include="SkillModule\Impl\FightDataAccess.h" />
+    <ClInclude Include="SkillModule\FightModule.h" />
+    <ClInclude Include="SkillModule\FightState.h" />
+    <ClInclude Include="SkillModule\Impl\Formula.h" />
+    <ClInclude Include="SkillModule\Impl\FormulaManagerModule.h" />
+    <ClInclude Include="SkillModule\Impl\FormulaPropIndex.h" />
+    <ClInclude Include="SkillModule\Impl\FormulaPropIndexDefine.h" />
+    <ClInclude Include="SkillModule\Impl\FormulaStack.h" />
+    <ClInclude Include="SkillModule\Impl\TargetFilter.h" />
+    <ClInclude Include="SkillModule\Impl\SkillUseChecker.h" />
+    <ClInclude Include="SkillModule\BufferModifyPack.h" />
+    <ClInclude Include="SkillModule\BufferModule.h" />
+    <ClInclude Include="SkillModule\SkillUpgradeModule.h" />
+    <ClInclude Include="SocialSystemModule\ChatModule.h" />
+    <ClInclude Include="SocialSystemModule\FriendModule.h" />
+    <ClInclude Include="SocialSystemModule\GuildHelper.h" />
+    <ClInclude Include="SocialSystemModule\GuildLoadResource.h" />
+    <ClInclude Include="SocialSystemModule\GuildModule.h" />
+    <ClInclude Include="SocialSystemModule\RequestModule.h" />
+    <ClInclude Include="SocialSystemModule\SystemMailModule.h" />
+    <ClInclude Include="SocialSystemModule\TeamModule.h" />
+    <ClInclude Include="SystemFunctionModule\ActivateFunctionModule.h" />
+    <ClInclude Include="SystemFunctionModule\BattleAbilityModule.h" />
+    <ClInclude Include="SystemFunctionModule\CapitalModule.h" />
+    <ClInclude Include="SystemFunctionModule\ChannelModule.h" />
+    <ClInclude Include="SystemFunctionModule\CoolDownModule.h" />
+    <ClInclude Include="SystemFunctionModule\CreateRoleModule.h" />
+    <ClInclude Include="SystemFunctionModule\DropModule.h" />
+    <ClInclude Include="SystemFunctionModule\EnergyModule.h" />
+    <ClInclude Include="SystemFunctionModule\LookDefine.h" />
+    <ClInclude Include="SystemFunctionModule\LookModule.h" />
+    <ClInclude Include="SystemFunctionModule\MotionHelper.h" />
+    <ClInclude Include="SystemFunctionModule\MotionModule.h" />
+    <ClInclude Include="SystemFunctionModule\PlayerBaseModule.h" />
+    <ClInclude Include="SystemFunctionModule\RankListModule.h" />
+    <ClInclude Include="SystemFunctionModule\ResetTimerModule.h" />
+    <ClInclude Include="SystemFunctionModule\ReviveModule.h" />
+    <ClInclude Include="SystemFunctionModule\RewardModule.h" />
+    <ClInclude Include="SystemFunctionModule\RideDefine.h" />
+    <ClInclude Include="SystemFunctionModule\RideModule.h" />
+    <ClInclude Include="SystemFunctionModule\Shop\ShopBase.h" />
+    <ClInclude Include="SystemFunctionModule\Shop\ShopGold.h" />
+    <ClInclude Include="SystemFunctionModule\Shop\ShopManagerDefine.h" />
+    <ClInclude Include="SystemFunctionModule\Shop\ShopManagerModule.h" />
+    <ClInclude Include="SystemFunctionModule\Shop\ShopUtils.h" />
+    <ClInclude Include="SystemFunctionModule\StaticDataQueryModule.h" />
+    <ClInclude Include="SystemFunctionModule\ToolBoxModule.h" />
+    <ClInclude Include="SystemFunctionModule\WingModule.h" />
+    <ClInclude Include="TaskModule\Data\TaskBaseData.h" />
+    <ClInclude Include="TaskModule\Data\TaskData_KillNpc.h" />
+    <ClInclude Include="TaskModule\Data\TaskData_Simple.h" />
+    <ClInclude Include="TaskModule\Data\TaskLoader.h" />
+    <ClInclude Include="TaskModule\Data\TaskStructDefine.h" />
+    <ClInclude Include="TaskModule\Rule\EntrySceneRule.h" />
+    <ClInclude Include="TaskModule\Rule\GatherRule.h" />
+    <ClInclude Include="TaskModule\Rule\KillNpcRule.h" />
+    <ClInclude Include="TaskModule\Rule\PathfindRule.h" />
+    <ClInclude Include="TaskModule\Rule\PlayCGRule.h" />
+    <ClInclude Include="TaskModule\Rule\TalkRule.h" />
+    <ClInclude Include="TaskModule\Rule\TaskBaseRule.h" />
+    <ClInclude Include="TaskModule\Rule\UpgradeLevelRule.h" />
+    <ClInclude Include="TaskModule\TaskDefine.h" />
+    <ClInclude Include="TaskModule\TaskManager.h" />
+    <ClInclude Include="TaskModule\TaskUtil.h" />
+    <ClInclude Include="TaskModule\Template\BranchTask.h" />
+    <ClInclude Include="TaskModule\Template\DailyTask.h" />
+    <ClInclude Include="TaskModule\Template\MainTask.h" />
+    <ClInclude Include="TaskModule\Template\TaskTemplate.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\utils\cau.cpp" />
+    <ClCompile Include="..\utils\custom_func.cpp" />
+    <ClCompile Include="..\utils\exptree.cpp" />
+    <ClCompile Include="..\utils\extend_func.cpp" />
+    <ClCompile Include="..\utils\flexstring.cpp" />
+    <ClCompile Include="..\utils\geometry_func.cpp" />
+    <ClCompile Include="..\utils\IniFile.cpp" />
+    <ClCompile Include="..\utils\jsoncpp.cpp" />
+    <ClCompile Include="..\utils\pub_share.cpp" />
+    <ClCompile Include="..\utils\record.cpp" />
+    <ClCompile Include="..\utils\shape_collision.cpp" />
+    <ClCompile Include="..\utils\string_buffer.cpp" />
+    <ClCompile Include="..\utils\string_util.cpp" />
+    <ClCompile Include="..\utils\util.cpp" />
+    <ClCompile Include="..\utils\util_func.cpp" />
+    <ClCompile Include="..\utils\util_ini.cpp" />
+    <ClCompile Include="..\utils\XmlFile.cpp" />
+    <ClCompile Include="..\SDK\tinyxml\tinystr.cpp" />
+    <ClCompile Include="..\SDK\tinyxml\tinyxml.cpp" />
+    <ClCompile Include="..\SDK\tinyxml\tinyxmlerror.cpp" />
+    <ClCompile Include="..\SDK\tinyxml\tinyxmlparser.cpp" />
+    <ClCompile Include="..\utils\math\vector.cpp" />
+    <ClCompile Include="..\SDK\dumpstack\DumpStack.cpp" />
+    <ClCompile Include="..\SDK\dumpstack\StackWalker.cpp" />
+    <ClCompile Include="Analytics\SensorsAnalyticsCollectorEx.cpp" />
+    <ClCompile Include="CommonModule\CommRuleModule.cpp" />
+    <ClCompile Include="CommonModule\FunctionEventModule.cpp" />
+    <ClCompile Include="CommonModule\ReLoadConfigModule.cpp" />
+    <ClCompile Include="CommonModule\SwitchManagerModule.cpp" />
+    <ClCompile Include="EquipmentModule\ApperanceModule.cpp" />
+    <ClCompile Include="EquipmentModule\EquipBaptiseModule.cpp" />
+    <ClCompile Include="EquipmentModule\EquipForgingModule.cpp" />
+    <ClCompile Include="EquipmentModule\EquipmentModule.cpp" />
+    <ClCompile Include="EquipmentModule\EquipModifyPackModule.cpp" />
+    <ClCompile Include="EquipmentModule\EquipModifyPackModuleCallBack.cpp" />
+    <ClCompile Include="EquipmentModule\EquipSmeltModule.cpp" />
+    <ClCompile Include="EquipmentModule\EquipStrengthenModule.cpp" />
+    <ClCompile Include="EquipmentModule\FashionModule.cpp" />
+    <ClCompile Include="EquipmentModule\JewelModule.cpp" />
+    <ClCompile Include="ItemModule\JadeModule.cpp" />
+    <ClCompile Include="NpcBaseModule\AI\Rule\Escape\AIREscapeBase.cpp" />
+    <ClCompile Include="NpcBaseModule\AI\Template\AITNormalFight.cpp" />
+    <ClCompile Include="NpcBaseModule\NpcBaseModule.cpp" />
+    <ClCompile Include="NpcBaseModule\NpcCreatorModule.cpp" />
+    <ClCompile Include="NpcBaseModule\AI\AIFunction.cpp" />
+    <ClCompile Include="NpcBaseModule\AI\AIHeartBeat.cpp" />
+    <ClCompile Include="NpcBaseModule\AI\AILoadResource.cpp" />
+    <ClCompile Include="NpcBaseModule\AI\AIOnCreateArgs.cpp" />
+    <ClCompile Include="NpcBaseModule\AI\AISystem.cpp" />
+    <ClCompile Include="NpcBaseModule\AI\Rule\AIRuleBase.cpp" />
+    <ClCompile Include="NpcBaseModule\AI\Rule\AIRuleManage.cpp" />
+    <ClCompile Include="NpcBaseModule\AI\Rule\Spring\AIRSpringBase.cpp" />
+    <ClCompile Include="NpcBaseModule\AI\Rule\Patrol\AIRPatrolBase.cpp" />
+    <ClCompile Include="NpcBaseModule\AI\Rule\SelTarget\AIRSelTargetBase.cpp" />
+    <ClCompile Include="NpcBaseModule\AI\Rule\BeginFight\AIRBeginFightBase.cpp" />
+    <ClCompile Include="NpcBaseModule\AI\Rule\Fight\AIRFightBase.cpp" />
+    <ClCompile Include="NpcBaseModule\AI\Rule\BeDamaged\AIRBeDamagedBase.cpp" />
+    <ClCompile Include="NpcBaseModule\AI\Rule\EndFight\AIREndFightBase.cpp" />
+    <ClCompile Include="NpcBaseModule\AI\Rule\OnDead\AIROnDeadBase.cpp" />
+    <ClCompile Include="NpcBaseModule\AI\Rule\ChaseTarget\AIRChaseTargetBase.cpp" />
+    <ClCompile Include="NpcBaseModule\AI\Rule\CheckAttacks\AIRCheckAttackersBase.cpp" />
+    <ClCompile Include="NpcBaseModule\AI\Template\AITBoss.cpp" />
+    <ClCompile Include="NpcBaseModule\AI\Template\AITemplateBase.cpp" />
+    <ClCompile Include="NpcBaseModule\DoorNpcModule.cpp" />
+    <ClCompile Include="NpcBaseModule\SafeAreaNpcModule.cpp" />
+    <ClCompile Include="CommonModule\LuaScriptModule.cpp" />
+    <ClCompile Include="CommonModule\AsynCtrlModule.cpp" />
+    <ClCompile Include="CommonModule\LuaExtModule.cpp" />
+    <ClCompile Include="CommonModule\GMModule.cpp" />
+    <ClCompile Include="CommonModule\LogicClassModule.cpp" />
+    <ClCompile Include="CommonModule\PathFindingModule.cpp" />
+    <ClCompile Include="CommonModule\ContainerModule.cpp" />
+    <ClCompile Include="CommonModule\LevelModule.cpp" />
+    <ClCompile Include="CommonModule\VirtualRecModule.cpp" />
+    <ClCompile Include="CommonModule\LogModule.cpp" />
+    <ClCompile Include="CommonModule\PropRefresh.cpp" />
+    <ClCompile Include="CommonModule\PropRefreshModule.cpp" />
+    <ClCompile Include="CommonModule\PubModule.cpp" />
+    <ClCompile Include="CommonModule\SnsDataModule.cpp" />
+    <ClCompile Include="CommonModule\LandPosModule.cpp" />
+    <ClCompile Include="CommonModule\ActionMutex.cpp" />
+    <ClCompile Include="CommonModule\EnvirValueModule.cpp" />
+    <ClCompile Include="NpcBaseModule\TrapEvent\TrapEventBase.cpp" />
+    <ClCompile Include="NpcBaseModule\TrapEvent\TrapEventFuncBuffer.cpp" />
+    <ClCompile Include="NpcBaseModule\TrapEvent\TrapEventFuncDestory.cpp" />
+    <ClCompile Include="NpcBaseModule\TrapEvent\TrapEventManagerModule.cpp" />
+    <ClCompile Include="NpcBaseModule\TrapNpcModule.cpp" />
+    <ClCompile Include="SceneBaseModule\SceneBaseModule.cpp" />
+    <ClCompile Include="Interface\buffer.cpp" />
+    <ClCompile Include="Interface\fight_damage.cpp" />
+    <ClCompile Include="Interface\Property_impl.cpp" />
+    <ClCompile Include="Interface\skill.cpp" />
+    <ClCompile Include="ItemModule\ItemBaseModule.cpp" />
+    <ClCompile Include="ItemModule\ToolItem\ItemEffectBase.cpp" />
+    <ClCompile Include="ItemModule\ToolItem\ToolItemModule.cpp" />
+    <ClCompile Include="SkillModule\CriminalSystem.cpp" />
+    <ClCompile Include="SkillModule\Impl\SkillConfigData.cpp" />
+    <ClCompile Include="SkillModule\Impl\SkillDataQueryModule.cpp" />
+    <ClCompile Include="SkillModule\Impl\SkillLuaExt.cpp" />
+    <ClCompile Include="SkillModule\Impl\SkillAccess.cpp" />
+    <ClCompile Include="SkillModule\Impl\SkillFlow.cpp" />
+    <ClCompile Include="SkillModule\Impl\SkillFlowFun.cpp" />
+    <ClCompile Include="SkillModule\inner\SkillEventExecuteUtil.cpp" />
+    <ClCompile Include="SkillModule\inner\SkillEventFuncBuffer.cpp" />
+    <ClCompile Include="SkillModule\inner\SkillEventFuncCommon.cpp" />
+    <ClCompile Include="SkillModule\inner\SkillEventFuncSkill.cpp" />
+    <ClCompile Include="SkillModule\PassiveSkillModifyPack.cpp" />
+    <ClCompile Include="SkillModule\PassiveSkillSystem.cpp" />
+    <ClCompile Include="SkillModule\PKModelModule.cpp" />
+    <ClCompile Include="SkillModule\SceneAttackManage.cpp" />
+    <ClCompile Include="SkillModule\Skillmodule.cpp" />
+    <ClCompile Include="SkillModule\Impl\SkillStage.cpp" />
+    <ClCompile Include="SkillModule\SkillToSprite.cpp" />
+    <ClCompile Include="SkillModule\FlowModule.cpp" />
+    <ClCompile Include="SkillModule\inner\SkillEventBase.cpp" />
+    <ClCompile Include="SkillModule\inner\SkillEventManager.cpp" />
+    <ClCompile Include="SkillModule\FightActionControl.cpp" />
+    <ClCompile Include="SkillModule\Impl\FightDataAccess.cpp" />
+    <ClCompile Include="SkillModule\FightModule.cpp" />
+    <ClCompile Include="SkillModule\FightModuleFuns.cpp" />
+    <ClCompile Include="SkillModule\FightState.cpp" />
+    <ClCompile Include="SkillModule\Impl\Formula.cpp" />
+    <ClCompile Include="SkillModule\Impl\FormulaManagerModule.cpp" />
+    <ClCompile Include="SkillModule\Impl\FormulaPropIndex.cpp" />
+    <ClCompile Include="SkillModule\Impl\TargetFilter.cpp" />
+    <ClCompile Include="SkillModule\Impl\SkillUseChecker.cpp" />
+    <ClCompile Include="SkillModule\BufferModifyPack.cpp" />
+    <ClCompile Include="SkillModule\BufferModule.cpp" />
+    <ClCompile Include="SkillModule\BufferModuleFunction.cpp" />
+    <ClCompile Include="FsGame.cpp" />
+    <ClCompile Include="SkillModule\SkillUpgradeModule.cpp" />
+    <ClCompile Include="SocialSystemModule\ChatModule.cpp" />
+    <ClCompile Include="SocialSystemModule\FriendCommandHook.cpp" />
+    <ClCompile Include="SocialSystemModule\FriendCustomHook.cpp" />
+    <ClCompile Include="SocialSystemModule\FriendModule.cpp" />
+    <ClCompile Include="SocialSystemModule\GuildCommandHook.cpp" />
+    <ClCompile Include="SocialSystemModule\GuildCustomHook.cpp" />
+    <ClCompile Include="SocialSystemModule\GuildHelper.cpp" />
+    <ClCompile Include="SocialSystemModule\GuildInterface.cpp" />
+    <ClCompile Include="SocialSystemModule\GuildLoadResource.cpp" />
+    <ClCompile Include="SocialSystemModule\GuildModule.cpp" />
+    <ClCompile Include="SocialSystemModule\GuildPubMessageHook.cpp" />
+    <ClCompile Include="SocialSystemModule\RequestModule.cpp" />
+    <ClCompile Include="SocialSystemModule\SystemMailModule.cpp" />
+    <ClCompile Include="SocialSystemModule\TeamModule.cpp" />
+    <ClCompile Include="SystemFunctionModule\ActivateFunctionModule.cpp" />
+    <ClCompile Include="SystemFunctionModule\BattleAbilityModule.cpp" />
+    <ClCompile Include="SystemFunctionModule\CapitalModule.cpp" />
+    <ClCompile Include="SystemFunctionModule\ChannelModule.cpp" />
+    <ClCompile Include="SystemFunctionModule\CoolDownModule.cpp" />
+    <ClCompile Include="SystemFunctionModule\CreateRoleModule.cpp" />
+    <ClCompile Include="SystemFunctionModule\DropModule.cpp" />
+    <ClCompile Include="SystemFunctionModule\EnergyModule.cpp" />
+    <ClCompile Include="SystemFunctionModule\LookModule.cpp" />
+    <ClCompile Include="SystemFunctionModule\MotionHelper.cpp" />
+    <ClCompile Include="SystemFunctionModule\MotionModule.cpp" />
+    <ClCompile Include="SystemFunctionModule\MotionModuleFunc.cpp" />
+    <ClCompile Include="SystemFunctionModule\PlayerBaseModule.cpp" />
+    <ClCompile Include="SystemFunctionModule\RankListModule.cpp" />
+    <ClCompile Include="SystemFunctionModule\ResetTimerModule.cpp" />
+    <ClCompile Include="SystemFunctionModule\ReviveModule.cpp" />
+    <ClCompile Include="SystemFunctionModule\RewardModule.cpp" />
+    <ClCompile Include="SystemFunctionModule\RideCallBack.cpp" />
+    <ClCompile Include="SystemFunctionModule\RideModifyPack.cpp" />
+    <ClCompile Include="SystemFunctionModule\RideModule.cpp" />
+    <ClCompile Include="SystemFunctionModule\Shop\ShopBase.cpp" />
+    <ClCompile Include="SystemFunctionModule\Shop\ShopGold.cpp" />
+    <ClCompile Include="SystemFunctionModule\Shop\ShopManagerModule.cpp" />
+    <ClCompile Include="SystemFunctionModule\Shop\ShopUtils.cpp" />
+    <ClCompile Include="SystemFunctionModule\StaticDataQueryModule.cpp" />
+    <ClCompile Include="SystemFunctionModule\ToolBoxModule.cpp" />
+    <ClCompile Include="SystemFunctionModule\WingModule.cpp" />
+    <ClCompile Include="TaskModule\Data\TaskLoader.cpp" />
+    <ClCompile Include="TaskModule\Rule\EntrySceneRule.cpp" />
+    <ClCompile Include="TaskModule\Rule\GatherRule.cpp" />
+    <ClCompile Include="TaskModule\Rule\KillNpcRule.cpp" />
+    <ClCompile Include="TaskModule\Rule\PathfindRule.cpp" />
+    <ClCompile Include="TaskModule\Rule\PlayCGRule.cpp" />
+    <ClCompile Include="TaskModule\Rule\TalkRule.cpp" />
+    <ClCompile Include="TaskModule\Rule\TaskBaseRule.cpp" />
+    <ClCompile Include="TaskModule\Rule\UpgradeLevelRule.cpp" />
+    <ClCompile Include="TaskModule\TaskManager.cpp" />
+    <ClCompile Include="TaskModule\TaskUtil.cpp" />
+    <ClCompile Include="TaskModule\Template\BranchTask.cpp" />
+    <ClCompile Include="TaskModule\Template\DailyTask.cpp" />
+    <ClCompile Include="TaskModule\Template\MainTask.cpp" />
+    <ClCompile Include="TaskModule\Template\TaskTemplate.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

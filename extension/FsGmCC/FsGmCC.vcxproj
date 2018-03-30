@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B558D05A-58C2-4344-BC9E-0D019DC9154B}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>FsGmCC</RootNamespace>
+    <ProjectName>FsGmCC</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(ProjectDir)bin\$(Configuration)\$(PlatformTarget)\</OutDir>
+    <IntDir>$(Configuration)\$(PlatformTarget)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(ProjectDir)bin\$(Configuration)\$(PlatformTarget)\</OutDir>
+    <IntDir>$(Configuration)\$(PlatformTarget)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(ProjectDir)bin\$(Configuration)\$(PlatformTarget)\</OutDir>
+    <IntDir>$(Configuration)\$(PlatformTarget)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(ProjectDir)bin\$(Configuration)\$(PlatformTarget)\</OutDir>
+    <IntDir>$(Configuration)\$(PlatformTarget)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;USE_LOG4CPLUS;_DEBUG;_WINDOWS;_USRDLL;GMCC_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>.;..\..\;..\..\SDK;$(LIB_EVENT_HOME)\include;../../SDK/log4plus/include;..\common\net;..\common\public;..\common\protocols;..\common\thrdparty;.\services;.\protocols;$(BOOST_HOME);$(THRIFT_HOME)\src;.\handler;.\model;..\..\..\tools\external\vld\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)\common\libs\$(Configuration)\$(PlatformTarget);$(THRIFT_HOME)\bin\$(Configuration)\$(PlatformTarget);..\..\SDK\log4plus\lib\$(ConfigurationName)\$(PlatformTarget);$(OPEN_SSL_HOME)\lib\$(PlatformTarget)\$(Configuration)\;$(BOOST_HOME)\stage\$(PlatformTarget)\lib;..\..\..\tools\external\vld\lib\Win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>FsUtility.lib;libnet.lib;libthriftnb.lib;libthrift.lib;log4cplus.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateMapFile>true</GenerateMapFile>
+    </Link>
+    <PreBuildEvent>
+      <Command>copy $(LIB_EVENT_HOME)\libs\$(PlatformTarget)\$(Configuration)\*.pdb $(TargetDir) /y
+copy $(SolutionDir)\common\libs\$(Configuration)\$(PlatformTarget)\*.pdb $(TargetDir) /y</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;USE_LOG4CPLUS;_DEBUG;_WINDOWS;_USRDLL;GMCC_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>.;..\..\;..\..\SDK;$(LIB_EVENT_HOME)\include;../../SDK/log4plus/include;..\common\net;..\common\public;..\common\protocols;..\common\thrdparty;.\services;.\protocols;$(BOOST_HOME);$(THRIFT_HOME)\src;.\handler;.\model;..\..\..\tools\external\vld\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)\common\libs\$(Configuration)\$(PlatformTarget);$(THRIFT_HOME)\bin\$(Configuration)\$(PlatformTarget);..\..\SDK\log4plus\lib\$(ConfigurationName)\$(PlatformTarget);$(OPEN_SSL_HOME)\lib\$(PlatformTarget)\$(Configuration)\;$(BOOST_HOME)\stage\$(PlatformTarget)\lib;..\..\..\tools\external\vld\lib\Win64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>FsUtility.lib;libnet.lib;libthriftnb.lib;libthrift.lib;log4cplus.lib;log4cplus.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateMapFile>true</GenerateMapFile>
+    </Link>
+    <PreBuildEvent>
+      <Command>copy $(LIB_EVENT_HOME)\libs\$(PlatformTarget)\$(Configuration)\*.pdb $(TargetDir) /y
+copy $(SolutionDir)\common\libs\$(Configuration)\$(PlatformTarget)\*.pdb $(TargetDir) /y</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;USE_LOG4CPLUS;NDEBUG;_WINDOWS;_USRDLL;GMCC_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>.;..\..\;..\..\SDK;$(LIB_EVENT_HOME)\include;../../SDK/log4plus/include;..\common\net;..\common\public;..\common\protocols;..\common\thrdparty;.\services;.\protocols;$(BOOST_HOME);$(THRIFT_HOME)\src;.\handler;.\model;..\..\..\tools\external\vld\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(SolutionDir)\common\libs\$(Configuration)\$(PlatformTarget);$(THRIFT_HOME)\bin\$(Configuration)\$(PlatformTarget);..\..\SDK\log4plus\lib\$(ConfigurationName)\$(PlatformTarget);$(OPEN_SSL_HOME)\lib\$(PlatformTarget)\$(Configuration)\;$(BOOST_HOME)\stage\$(PlatformTarget)\lib;..\..\..\tools\external\vld\lib\Win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>FsUtility.lib;libnet.lib;libthriftnb.lib;libthrift.lib;log4cplus.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateMapFile>true</GenerateMapFile>
+    </Link>
+    <PreBuildEvent>
+      <Command>copy $(LIB_EVENT_HOME)\libs\$(PlatformTarget)\$(Configuration)\*.pdb $(TargetDir) /y
+copy $(SolutionDir)\common\libs\$(Configuration)\$(PlatformTarget)\*.pdb $(TargetDir) /y</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;USE_LOG4CPLUS;NDEBUG;_WINDOWS;_USRDLL;GMCC_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>.;..\..\;..\..\SDK;$(LIB_EVENT_HOME)\include;../../SDK/log4plus/include;..\common\net;..\common\public;..\common\protocols;..\common\thrdparty;.\services;.\protocols;$(BOOST_HOME);$(THRIFT_HOME)\src;.\handler;.\model;..\..\..\tools\external\vld\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(SolutionDir)\common\libs\$(Configuration)\$(PlatformTarget);$(THRIFT_HOME)\bin\$(Configuration)\$(PlatformTarget);..\..\SDK\log4plus\lib\$(ConfigurationName)\$(PlatformTarget);$(OPEN_SSL_HOME)\lib\$(PlatformTarget)\$(Configuration)\;$(BOOST_HOME)\stage\$(PlatformTarget)\lib;..\..\..\tools\external\vld\lib\Win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>FsUtility.lib;libnet.lib;libthriftnb.lib;libthrift.lib;log4cplus.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateMapFile>true</GenerateMapFile>
+    </Link>
+    <PreBuildEvent>
+      <Command>copy $(LIB_EVENT_HOME)\libs\$(PlatformTarget)\$(Configuration)\*.pdb $(TargetDir) /y
+copy $(SolutionDir)\common\libs\$(Configuration)\$(PlatformTarget)\*.pdb $(TargetDir) /y</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\SDK\rapidxml\rapidxml.hpp" />
+    <ClInclude Include="..\..\SDK\rapidxml\rapidxml_iterators.hpp" />
+    <ClInclude Include="..\..\SDK\rapidxml\rapidxml_print.hpp" />
+    <ClInclude Include="..\..\SDK\rapidxml\rapidxml_utils.hpp" />
+    <ClInclude Include="..\..\utils\json-forwards.h" />
+    <ClInclude Include="..\..\utils\json.h" />
+    <ClInclude Include="..\..\utils\string_util.h" />
+    <ClInclude Include="..\..\utils\util_func.h" />
+    <ClInclude Include="..\common\protocols\NetVarListAction.h" />
+    <ClInclude Include="..\common\protocols\NetTextAction.h" />
+    <ClInclude Include="..\common\protocols\NetWorldAction.h" />
+    <ClInclude Include="..\common\public\base64.h" />
+    <ClInclude Include="..\common\public\EntNetBase.h" />
+    <ClInclude Include="..\common\public\FsDelayQueue.h" />
+    <ClInclude Include="..\common\public\FsThreadQueue.h" />
+    <ClInclude Include="..\common\public\FsLogger.h" />
+    <ClInclude Include="..\common\public\GameLogger.h" />
+    <ClInclude Include="..\common\public\MsgEncoder.h" />
+    <ClInclude Include="..\common\public\NetHandler.h" />
+    <ClInclude Include="..\common\public\OuterDefine.h" />
+    <ClInclude Include="..\common\public\ServerManager.h" />
+    <ClInclude Include="..\common\public\url_encode.h" />
+    <ClInclude Include="..\common\public\win_string.h" />
+    <ClInclude Include="gen-cpp\exception_constants.h" />
+    <ClInclude Include="gen-cpp\exception_types.h" />
+    <ClInclude Include="gen-cpp\GMCCServer.h" />
+    <ClInclude Include="gen-cpp\model_constants.h" />
+    <ClInclude Include="gen-cpp\model_types.h" />
+    <ClInclude Include="gen-cpp\service_constants.h" />
+    <ClInclude Include="gen-cpp\service_types.h" />
+    <ClInclude Include="handler\RpcHandler.h" />
+    <ClInclude Include="handler\RpcServer.h" />
+    <ClInclude Include="model\CmdInfo.h" />
+    <ClInclude Include="model\ExchGiftInfo.h" />
+    <ClInclude Include="model\GameInfo.h" />
+    <ClInclude Include="model\MailData.h" />
+    <ClInclude Include="model\NoticeInfo.h" />
+    <ClInclude Include="model\PayedOrder.h" />
+    <ClInclude Include="model\PlayerData.h" />
+    <ClInclude Include="model\PushData.h" />
+    <ClInclude Include="model\PushDef.h" />
+    <ClInclude Include="model\ServerInfo.h" />
+    <ClInclude Include="model\ShopItem.h" />
+    <ClInclude Include="protocols\NetGmccMessagePacker.h" />
+    <ClInclude Include="protocols\NetWorkPayed.h" />
+    <ClInclude Include="protocols\NetWorldActivity.h" />
+    <ClInclude Include="protocols\NetWorldGmcc.h" />
+    <ClInclude Include="protocols\NetWorldPush.h" />
+    <ClInclude Include="protocols\ProtocolsID.h" />
+    <ClInclude Include="services\EntHttp.h" />
+    <ClInclude Include="services\EntNetManager.h" />
+    <ClInclude Include="services\EntEcho.h" />
+    <ClInclude Include="services\EntRpc.h" />
+    <ClInclude Include="services\SoloGmcc.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\utils\jsoncpp.cpp" />
+    <ClCompile Include="..\..\utils\string_util.cpp" />
+    <ClCompile Include="..\..\utils\util_func.cpp" />
+    <ClCompile Include="..\common\public\base64.cpp" />
+    <ClCompile Include="..\common\public\EntNetBase.cpp" />
+    <ClCompile Include="..\common\public\MsgEncoder.cpp" />
+    <ClCompile Include="..\common\public\url_encode.cpp" />
+    <ClCompile Include="dllmain.cpp">
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</CompileAsManaged>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</CompileAsManaged>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </PrecompiledHeader>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</CompileAsManaged>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</CompileAsManaged>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="FsGmCC.cpp" />
+    <ClCompile Include="gen-cpp\exception_constants.cpp" />
+    <ClCompile Include="gen-cpp\exception_types.cpp" />
+    <ClCompile Include="gen-cpp\GMCCServer.cpp" />
+    <ClCompile Include="gen-cpp\model_constants.cpp" />
+    <ClCompile Include="gen-cpp\model_types.cpp" />
+    <ClCompile Include="gen-cpp\service_constants.cpp" />
+    <ClCompile Include="gen-cpp\service_types.cpp" />
+    <ClCompile Include="handler\RpcHandler.cpp" />
+    <ClCompile Include="handler\RpcServer.cpp" />
+    <ClCompile Include="model\GameInfo.cpp" />
+    <ClCompile Include="protocols\NetGmccMessagePacker.cpp" />
+    <ClCompile Include="services\EntHttp.cpp" />
+    <ClCompile Include="services\EntEcho.cpp" />
+    <ClCompile Include="services\EntRpc.cpp" />
+    <ClCompile Include="services\SoloGmcc.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

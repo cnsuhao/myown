@@ -1,0 +1,2506 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Object>
+<Property ID="11001000"/>
+<Property ID="11001001" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,AttackAdd,60"/>
+<Property ID="11001002" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,AttackAdd,120"/>
+<Property ID="11001003" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,AttackAdd,180"/>
+<Property ID="11002000"/>
+<Property ID="11002001" SkillNeedTerm="11001,3" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,DefendAdd,48"/>
+<Property ID="11002002" SkillNeedTerm="11001,3" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,DefendAdd,96"/>
+<Property ID="11002003" SkillNeedTerm="11001,3" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,DefendAdd,144"/>
+<Property ID="11003000"/>
+<Property ID="11003001" SkillNeedTerm="11002,3" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,HPAdd,750"/>
+<Property ID="11003002" SkillNeedTerm="11002,3" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,HPAdd,1500"/>
+<Property ID="11003003" SkillNeedTerm="11002,3" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,HPAdd,2250"/>
+<Property ID="11004000"/>
+<Property ID="11004001" SkillNeedTerm="11003,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillEffectAdd,10113,1010;PlayerPropAdd,PS_Buff_11004,1000"/>
+<Property ID="11004002" SkillNeedTerm="11003,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillEffectAdd,10113,1010;PlayerPropAdd,PS_Buff_11004,2000"/>
+<Property ID="11004003" SkillNeedTerm="11003,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillEffectAdd,10113,1010;PlayerPropAdd,PS_Buff_11004,3000"/>
+<Property ID="11005000"/>
+<Property ID="11005001" SkillNeedTerm="11004,3" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,AttackAdd,90"/>
+<Property ID="11005002" SkillNeedTerm="11004,3" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,AttackAdd,180"/>
+<Property ID="11005003" SkillNeedTerm="11004,3" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,AttackAdd,270"/>
+<Property ID="11006000"/>
+<Property ID="11006001" SkillNeedTerm="11005,3" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,DefendAdd,72"/>
+<Property ID="11006002" SkillNeedTerm="11005,3" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,DefendAdd,144"/>
+<Property ID="11006003" SkillNeedTerm="11005,3" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,DefendAdd,216"/>
+<Property ID="11007000"/>
+<Property ID="11007001" SkillNeedTerm="11006,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillEffectAdd,10111,1011;PlayerPropAdd,PS_Buff_11007,-4"/>
+<Property ID="11007002" SkillNeedTerm="11006,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillEffectAdd,10111,1011;PlayerPropAdd,PS_Buff_11007,-8"/>
+<Property ID="11007003" SkillNeedTerm="11006,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillEffectAdd,10111,1011;PlayerPropAdd,PS_Buff_11007,-13"/>
+<Property ID="11008000"/>
+<Property ID="11008001" SkillNeedTerm="11007,3" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,HPAdd,1125"/>
+<Property ID="11008002" SkillNeedTerm="11007,3" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,HPAdd,2250"/>
+<Property ID="11008003" SkillNeedTerm="11007,3" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,HPAdd,3375"/>
+<Property ID="11009000"/>
+<Property ID="11009001" SkillNeedTerm="11008,3" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,Str,48"/>
+<Property ID="11009002" SkillNeedTerm="11008,3" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,Str,96"/>
+<Property ID="11009003" SkillNeedTerm="11008,3" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,Str,143"/>
+<Property ID="11010000"/>
+<Property ID="11010001" SkillNeedTerm="11009,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillEffectAdd,10112,1012;PlayerPropAdd,PS_Buff_11010,-1"/>
+<Property ID="11010002" SkillNeedTerm="11009,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillEffectAdd,10112,1012;PlayerPropAdd,PS_Buff_11010,-2"/>
+<Property ID="11010003" SkillNeedTerm="11009,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillEffectAdd,10112,1012;PlayerPropAdd,PS_Buff_11010,-3"/>
+<Property ID="11011000"/>
+<Property ID="11011001" SkillNeedTerm="11010,3" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,Dex,48"/>
+<Property ID="11011002" SkillNeedTerm="11010,3" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,Dex,96"/>
+<Property ID="11011003" SkillNeedTerm="11010,3" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,Dex,143"/>
+<Property ID="11012000"/>
+<Property ID="11012001" SkillNeedTerm="11011,3" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,Sta,48"/>
+<Property ID="11012002" SkillNeedTerm="11011,3" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,Sta,96"/>
+<Property ID="11012003" SkillNeedTerm="11011,3" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,Sta,143"/>
+<Property ID="11013000"/>
+<Property ID="11013001" SkillNeedTerm="11012,3" CostSkillPoint="10" MoneyType="0" CostMoney="30000" PropList="SkillPropAdd,10114,SkillDamageRate,46"/>
+<Property ID="12001000"/>
+<Property ID="12001001" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,AttackAdd,60"/>
+<Property ID="12001002" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,AttackAdd,120"/>
+<Property ID="12001003" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,AttackAdd,180"/>
+<Property ID="12002000"/>
+<Property ID="12002001" SkillNeedTerm="12001,3" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,DefendAdd,48"/>
+<Property ID="12002002" SkillNeedTerm="12001,3" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,DefendAdd,96"/>
+<Property ID="12002003" SkillNeedTerm="12001,3" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,DefendAdd,144"/>
+<Property ID="12003000"/>
+<Property ID="12003001" SkillNeedTerm="12002,3" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,HPAdd,750"/>
+<Property ID="12003002" SkillNeedTerm="12002,3" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,HPAdd,1500"/>
+<Property ID="12003003" SkillNeedTerm="12002,3" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,HPAdd,2250"/>
+<Property ID="12004000"/>
+<Property ID="12004001" SkillNeedTerm="12003,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillEffectAdd,10111,1013;PlayerPropAdd,PS_Buff_12004,1000"/>
+<Property ID="12004002" SkillNeedTerm="12003,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillEffectAdd,10111,1013;PlayerPropAdd,PS_Buff_12004,2000"/>
+<Property ID="12004003" SkillNeedTerm="12003,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillEffectAdd,10111,1013;PlayerPropAdd,PS_Buff_12004,3000"/>
+<Property ID="12005000"/>
+<Property ID="12005001" SkillNeedTerm="12004,3" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,AttackAdd,90"/>
+<Property ID="12005002" SkillNeedTerm="12004,3" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,AttackAdd,180"/>
+<Property ID="12005003" SkillNeedTerm="12004,3" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,AttackAdd,270"/>
+<Property ID="12006000"/>
+<Property ID="12006001" SkillNeedTerm="12005,3" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,DefendAdd,72"/>
+<Property ID="12006002" SkillNeedTerm="12005,3" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,DefendAdd,144"/>
+<Property ID="12006003" SkillNeedTerm="12005,3" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,DefendAdd,216"/>
+<Property ID="12007000"/>
+<Property ID="12007001" SkillNeedTerm="12006,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillEffectAdd,10112,1014"/>
+<Property ID="12007002" SkillNeedTerm="12006,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillEffectAdd,10112,1031"/>
+<Property ID="12007003" SkillNeedTerm="12006,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillEffectAdd,10112,1032"/>
+<Property ID="12008000"/>
+<Property ID="12008001" SkillNeedTerm="12007,3" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,HPAdd,1125"/>
+<Property ID="12008002" SkillNeedTerm="12007,3" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,HPAdd,2250"/>
+<Property ID="12008003" SkillNeedTerm="12007,3" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,HPAdd,3375"/>
+<Property ID="12009000"/>
+<Property ID="12009001" SkillNeedTerm="12008,3" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,Str,48"/>
+<Property ID="12009002" SkillNeedTerm="12008,3" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,Str,96"/>
+<Property ID="12009003" SkillNeedTerm="12008,3" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,Str,143"/>
+<Property ID="12010000"/>
+<Property ID="12010001" SkillNeedTerm="12009,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillEffectAdd,10113,1015"/>
+<Property ID="12010002" SkillNeedTerm="12009,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillEffectAdd,10113,1033"/>
+<Property ID="12010003" SkillNeedTerm="12009,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillEffectAdd,10113,1034"/>
+<Property ID="12011000"/>
+<Property ID="12011001" SkillNeedTerm="12010,3" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,Dex,48"/>
+<Property ID="12011002" SkillNeedTerm="12010,3" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,Dex,96"/>
+<Property ID="12011003" SkillNeedTerm="12010,3" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,Dex,143"/>
+<Property ID="12012000"/>
+<Property ID="12012001" SkillNeedTerm="12011,3" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,Sta,48"/>
+<Property ID="12012002" SkillNeedTerm="12011,3" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,Sta,96"/>
+<Property ID="12012003" SkillNeedTerm="12011,3" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,Sta,143"/>
+<Property ID="12013000"/>
+<Property ID="12013001" SkillNeedTerm="12012,3" CostSkillPoint="10" MoneyType="0" CostMoney="30000" PropList="SkillEffectAdd,10114,1016"/>
+<Property ID="13001000"/>
+<Property ID="13001001" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,AttackAdd,60"/>
+<Property ID="13001002" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,AttackAdd,120"/>
+<Property ID="13001003" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,AttackAdd,180"/>
+<Property ID="13002000"/>
+<Property ID="13002001" SkillNeedTerm="13001,3" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,DefendAdd,48"/>
+<Property ID="13002002" SkillNeedTerm="13001,3" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,DefendAdd,96"/>
+<Property ID="13002003" SkillNeedTerm="13001,3" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,DefendAdd,144"/>
+<Property ID="13003000"/>
+<Property ID="13003001" SkillNeedTerm="13002,3" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,HPAdd,750"/>
+<Property ID="13003002" SkillNeedTerm="13002,3" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,HPAdd,1500"/>
+<Property ID="13003003" SkillNeedTerm="13002,3" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,HPAdd,2250"/>
+<Property ID="13004000"/>
+<Property ID="13004001" SkillNeedTerm="13003,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillEffectAdd,10112,1017"/>
+<Property ID="13004002" SkillNeedTerm="13003,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillEffectAdd,10112,1035"/>
+<Property ID="13004003" SkillNeedTerm="13003,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillEffectAdd,10112,1036"/>
+<Property ID="13005000"/>
+<Property ID="13005001" SkillNeedTerm="13004,3" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,AttackAdd,90"/>
+<Property ID="13005002" SkillNeedTerm="13004,3" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,AttackAdd,180"/>
+<Property ID="13005003" SkillNeedTerm="13004,3" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,AttackAdd,270"/>
+<Property ID="13006000"/>
+<Property ID="13006001" SkillNeedTerm="13005,3" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,DefendAdd,72"/>
+<Property ID="13006002" SkillNeedTerm="13005,3" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,DefendAdd,144"/>
+<Property ID="13006003" SkillNeedTerm="13005,3" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,DefendAdd,216"/>
+<Property ID="13007000"/>
+<Property ID="13007001" SkillNeedTerm="13006,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillEffectAdd,10113,1018;PlayerPropAdd,PS_Buff_13007,476"/>
+<Property ID="13007002" SkillNeedTerm="13006,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillEffectAdd,10113,1018;PlayerPropAdd,PS_Buff_13007,909"/>
+<Property ID="13007003" SkillNeedTerm="13006,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillEffectAdd,10113,1018;PlayerPropAdd,PS_Buff_13007,1304"/>
+<Property ID="13008000"/>
+<Property ID="13008001" SkillNeedTerm="13007,3" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,HPAdd,1125"/>
+<Property ID="13008002" SkillNeedTerm="13007,3" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,HPAdd,2250"/>
+<Property ID="13008003" SkillNeedTerm="13007,3" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,HPAdd,3375"/>
+<Property ID="13009000"/>
+<Property ID="13009001" SkillNeedTerm="13008,3" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,Str,48"/>
+<Property ID="13009002" SkillNeedTerm="13008,3" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,Str,96"/>
+<Property ID="13009003" SkillNeedTerm="13008,3" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,Str,143"/>
+<Property ID="13010000"/>
+<Property ID="13010001" SkillNeedTerm="13009,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillEffectAdd,10111,1019;PlayerPropAdd,PS_Buff_13010,750"/>
+<Property ID="13010002" SkillNeedTerm="13009,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillEffectAdd,10111,1019;PlayerPropAdd,PS_Buff_13010,1430"/>
+<Property ID="13010003" SkillNeedTerm="13009,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillEffectAdd,10111,1019;PlayerPropAdd,PS_Buff_13010,2050"/>
+<Property ID="13011000"/>
+<Property ID="13011001" SkillNeedTerm="13010,3" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,Dex,48"/>
+<Property ID="13011002" SkillNeedTerm="13010,3" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,Dex,96"/>
+<Property ID="13011003" SkillNeedTerm="13010,3" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,Dex,143"/>
+<Property ID="13012000"/>
+<Property ID="13012001" SkillNeedTerm="13011,3" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,Sta,48"/>
+<Property ID="13012002" SkillNeedTerm="13011,3" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,Sta,96"/>
+<Property ID="13012003" SkillNeedTerm="13011,3" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,Sta,143"/>
+<Property ID="13013000"/>
+<Property ID="13013001" SkillNeedTerm="13012,3" CostSkillPoint="10" MoneyType="0" CostMoney="30000" PropList="SkillEffectAdd,10114,1020"/>
+<Property ID="21001000"/>
+<Property ID="21001001" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,AttackAdd,60"/>
+<Property ID="21001002" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,AttackAdd,120"/>
+<Property ID="21001003" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,AttackAdd,180"/>
+<Property ID="21002000"/>
+<Property ID="21002001" SkillNeedTerm="21001,3" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,DefendAdd,48"/>
+<Property ID="21002002" SkillNeedTerm="21001,3" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,DefendAdd,96"/>
+<Property ID="21002003" SkillNeedTerm="21001,3" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,DefendAdd,144"/>
+<Property ID="21003000"/>
+<Property ID="21003001" SkillNeedTerm="21002,3" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,HPAdd,750"/>
+<Property ID="21003002" SkillNeedTerm="21002,3" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,HPAdd,1500"/>
+<Property ID="21003003" SkillNeedTerm="21002,3" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,HPAdd,2250"/>
+<Property ID="21004000"/>
+<Property ID="21004001" SkillNeedTerm="21003,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillEffectAdd,10212,1001;PlayerPropAdd,PS_Buff_21004,1"/>
+<Property ID="21004002" SkillNeedTerm="21003,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillEffectAdd,10212,1001;PlayerPropAdd,PS_Buff_21004,2"/>
+<Property ID="21004003" SkillNeedTerm="21003,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillEffectAdd,10212,1001;PlayerPropAdd,PS_Buff_21004,3"/>
+<Property ID="21005000"/>
+<Property ID="21005001" SkillNeedTerm="21004,3" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,AttackAdd,90"/>
+<Property ID="21005002" SkillNeedTerm="21004,3" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,AttackAdd,180"/>
+<Property ID="21005003" SkillNeedTerm="21004,3" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,AttackAdd,270"/>
+<Property ID="21006000"/>
+<Property ID="21006001" SkillNeedTerm="21005,3" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,DefendAdd,72"/>
+<Property ID="21006002" SkillNeedTerm="21005,3" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,DefendAdd,144"/>
+<Property ID="21006003" SkillNeedTerm="21005,3" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,DefendAdd,216"/>
+<Property ID="21007000"/>
+<Property ID="21007001" SkillNeedTerm="21006,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillEffectAdd,10211,1002;PlayerPropAdd,PS_Buff_21007,300"/>
+<Property ID="21007002" SkillNeedTerm="21006,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillEffectAdd,10211,1002;PlayerPropAdd,PS_Buff_21007,600"/>
+<Property ID="21007003" SkillNeedTerm="21006,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillEffectAdd,10211,1002;PlayerPropAdd,PS_Buff_21007,900"/>
+<Property ID="21008000"/>
+<Property ID="21008001" SkillNeedTerm="21007,3" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,HPAdd,1125"/>
+<Property ID="21008002" SkillNeedTerm="21007,3" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,HPAdd,2250"/>
+<Property ID="21008003" SkillNeedTerm="21007,3" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,HPAdd,3375"/>
+<Property ID="21009000"/>
+<Property ID="21009001" SkillNeedTerm="21008,3" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,Str,48"/>
+<Property ID="21009002" SkillNeedTerm="21008,3" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,Str,96"/>
+<Property ID="21009003" SkillNeedTerm="21008,3" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,Str,143"/>
+<Property ID="21010000"/>
+<Property ID="21010001" SkillNeedTerm="21009,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillPropAdd,10213,SkillDamageRate,9"/>
+<Property ID="21010002" SkillNeedTerm="21009,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillPropAdd,10213,SkillDamageRate,18"/>
+<Property ID="21010003" SkillNeedTerm="21009,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillPropAdd,10213,SkillDamageRate,27"/>
+<Property ID="21011000"/>
+<Property ID="21011001" SkillNeedTerm="21010,3" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,Dex,48"/>
+<Property ID="21011002" SkillNeedTerm="21010,3" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,Dex,96"/>
+<Property ID="21011003" SkillNeedTerm="21010,3" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,Dex,143"/>
+<Property ID="21012000"/>
+<Property ID="21012001" SkillNeedTerm="21011,3" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,Sta,48"/>
+<Property ID="21012002" SkillNeedTerm="21011,3" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,Sta,96"/>
+<Property ID="21012003" SkillNeedTerm="21011,3" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,Sta,143"/>
+<Property ID="21013000"/>
+<Property ID="21013001" SkillNeedTerm="21012,3" CostSkillPoint="10" MoneyType="0" CostMoney="30000" PropList="SkillEffectAdd,10214,1003"/>
+<Property ID="22001000"/>
+<Property ID="22001001" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,AttackAdd,60"/>
+<Property ID="22001002" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,AttackAdd,120"/>
+<Property ID="22001003" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,AttackAdd,180"/>
+<Property ID="22002000"/>
+<Property ID="22002001" SkillNeedTerm="22001,3" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,DefendAdd,48"/>
+<Property ID="22002002" SkillNeedTerm="22001,3" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,DefendAdd,96"/>
+<Property ID="22002003" SkillNeedTerm="22001,3" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,DefendAdd,144"/>
+<Property ID="22003000"/>
+<Property ID="22003001" SkillNeedTerm="22002,3" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,HPAdd,750"/>
+<Property ID="22003002" SkillNeedTerm="22002,3" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,HPAdd,1500"/>
+<Property ID="22003003" SkillNeedTerm="22002,3" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,HPAdd,2250"/>
+<Property ID="22004000"/>
+<Property ID="22004001" SkillNeedTerm="22003,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillEffectAdd,10211,1004;PlayerPropAdd,PS_Buff_22004,1000"/>
+<Property ID="22004002" SkillNeedTerm="22003,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillEffectAdd,10211,1004;PlayerPropAdd,PS_Buff_22004,2000"/>
+<Property ID="22004003" SkillNeedTerm="22003,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillEffectAdd,10211,1004;PlayerPropAdd,PS_Buff_22004,3000"/>
+<Property ID="22005000"/>
+<Property ID="22005001" SkillNeedTerm="22004,3" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,AttackAdd,90"/>
+<Property ID="22005002" SkillNeedTerm="22004,3" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,AttackAdd,180"/>
+<Property ID="22005003" SkillNeedTerm="22004,3" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,AttackAdd,270"/>
+<Property ID="22006000"/>
+<Property ID="22006001" SkillNeedTerm="22005,3" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,DefendAdd,72"/>
+<Property ID="22006002" SkillNeedTerm="22005,3" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,DefendAdd,144"/>
+<Property ID="22006003" SkillNeedTerm="22005,3" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,DefendAdd,216"/>
+<Property ID="22007000"/>
+<Property ID="22007001" SkillNeedTerm="22006,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillEffectAdd,10211,88;SkillEffectAdd,10212,89;SkillEffectAdd,10214,90"/>
+<Property ID="22007002" SkillNeedTerm="22006,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillEffectAdd,10211,91;SkillEffectAdd,10212,92;SkillEffectAdd,10214,93"/>
+<Property ID="22007003" SkillNeedTerm="22006,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillEffectAdd,10211,94;SkillEffectAdd,10212,95;SkillEffectAdd,10214,96"/>
+<Property ID="22008000"/>
+<Property ID="22008001" SkillNeedTerm="22007,3" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,HPAdd,1125"/>
+<Property ID="22008002" SkillNeedTerm="22007,3" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,HPAdd,2250"/>
+<Property ID="22008003" SkillNeedTerm="22007,3" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,HPAdd,3375"/>
+<Property ID="22009000"/>
+<Property ID="22009001" SkillNeedTerm="22008,3" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,Str,48"/>
+<Property ID="22009002" SkillNeedTerm="22008,3" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,Str,96"/>
+<Property ID="22009003" SkillNeedTerm="22008,3" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,Str,143"/>
+<Property ID="22010000"/>
+<Property ID="22010001" SkillNeedTerm="22009,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillPropAdd,10212,SkillDamageRate,15"/>
+<Property ID="22010002" SkillNeedTerm="22009,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillPropAdd,10212,SkillDamageRate,32"/>
+<Property ID="22010003" SkillNeedTerm="22009,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillPropAdd,10212,SkillDamageRate,46"/>
+<Property ID="22011000"/>
+<Property ID="22011001" SkillNeedTerm="22010,3" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,Dex,48"/>
+<Property ID="22011002" SkillNeedTerm="22010,3" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,Dex,96"/>
+<Property ID="22011003" SkillNeedTerm="22010,3" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,Dex,143"/>
+<Property ID="22012000"/>
+<Property ID="22012001" SkillNeedTerm="22011,3" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,Sta,48"/>
+<Property ID="22012002" SkillNeedTerm="22011,3" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,Sta,96"/>
+<Property ID="22012003" SkillNeedTerm="22011,3" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,Sta,143"/>
+<Property ID="22013000"/>
+<Property ID="22013001" SkillNeedTerm="22012,3" CostSkillPoint="10" MoneyType="0" CostMoney="30000" PropList="SkillEffectAdd,10214,1005"/>
+<Property ID="23001000"/>
+<Property ID="23001001" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,AttackAdd,60"/>
+<Property ID="23001002" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,AttackAdd,120"/>
+<Property ID="23001003" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,AttackAdd,180"/>
+<Property ID="23002000"/>
+<Property ID="23002001" SkillNeedTerm="23001,3" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,DefendAdd,48"/>
+<Property ID="23002002" SkillNeedTerm="23001,3" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,DefendAdd,96"/>
+<Property ID="23002003" SkillNeedTerm="23001,3" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,DefendAdd,144"/>
+<Property ID="23003000"/>
+<Property ID="23003001" SkillNeedTerm="23002,3" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,HPAdd,750"/>
+<Property ID="23003002" SkillNeedTerm="23002,3" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,HPAdd,1500"/>
+<Property ID="23003003" SkillNeedTerm="23002,3" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,HPAdd,2250"/>
+<Property ID="23004000"/>
+<Property ID="23004001" SkillNeedTerm="23003,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillEffectAdd,10213,1006;PlayerPropAdd,PS_Buff_23004,476"/>
+<Property ID="23004002" SkillNeedTerm="23003,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillEffectAdd,10213,1006;PlayerPropAdd,PS_Buff_23004,909"/>
+<Property ID="23004003" SkillNeedTerm="23003,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillEffectAdd,10213,1006;PlayerPropAdd,PS_Buff_23004,1304"/>
+<Property ID="23005000"/>
+<Property ID="23005001" SkillNeedTerm="23004,3" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,AttackAdd,90"/>
+<Property ID="23005002" SkillNeedTerm="23004,3" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,AttackAdd,180"/>
+<Property ID="23005003" SkillNeedTerm="23004,3" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,AttackAdd,270"/>
+<Property ID="23006000"/>
+<Property ID="23006001" SkillNeedTerm="23005,3" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,DefendAdd,72"/>
+<Property ID="23006002" SkillNeedTerm="23005,3" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,DefendAdd,144"/>
+<Property ID="23006003" SkillNeedTerm="23005,3" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,DefendAdd,216"/>
+<Property ID="23007000"/>
+<Property ID="23007001" SkillNeedTerm="23006,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillEffectAdd,10212,1007;PlayerPropAdd,PS_Buff_23007,800"/>
+<Property ID="23007002" SkillNeedTerm="23006,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillEffectAdd,10212,1007;PlayerPropAdd,PS_Buff_23007,1600"/>
+<Property ID="23007003" SkillNeedTerm="23006,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillEffectAdd,10212,1007;PlayerPropAdd,PS_Buff_23007,2400"/>
+<Property ID="23008000"/>
+<Property ID="23008001" SkillNeedTerm="23007,3" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,HPAdd,1125"/>
+<Property ID="23008002" SkillNeedTerm="23007,3" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,HPAdd,2250"/>
+<Property ID="23008003" SkillNeedTerm="23007,3" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,HPAdd,3375"/>
+<Property ID="23009000"/>
+<Property ID="23009001" SkillNeedTerm="23008,3" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,Str,48"/>
+<Property ID="23009002" SkillNeedTerm="23008,3" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,Str,96"/>
+<Property ID="23009003" SkillNeedTerm="23008,3" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,Str,143"/>
+<Property ID="23010000"/>
+<Property ID="23010001" SkillNeedTerm="23009,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillEffectAdd,10211,1008;PlayerPropAdd,PS_Buff_23010,-1"/>
+<Property ID="23010002" SkillNeedTerm="23009,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillEffectAdd,10211,1008;PlayerPropAdd,PS_Buff_23010,-2"/>
+<Property ID="23010003" SkillNeedTerm="23009,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillEffectAdd,10211,1008;PlayerPropAdd,PS_Buff_23010,-3"/>
+<Property ID="23011000"/>
+<Property ID="23011001" SkillNeedTerm="23010,3" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,Dex,48"/>
+<Property ID="23011002" SkillNeedTerm="23010,3" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,Dex,96"/>
+<Property ID="23011003" SkillNeedTerm="23010,3" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,Dex,143"/>
+<Property ID="23012000"/>
+<Property ID="23012001" SkillNeedTerm="23011,3" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,Sta,48"/>
+<Property ID="23012002" SkillNeedTerm="23011,3" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,Sta,96"/>
+<Property ID="23012003" SkillNeedTerm="23011,3" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,Sta,143"/>
+<Property ID="23013000"/>
+<Property ID="23013001" SkillNeedTerm="23012,3" CostSkillPoint="10" MoneyType="0" CostMoney="30000" PropList="SkillEffectAdd,10214,1009"/>
+<Property ID="90001000"/>
+<Property ID="90001001" PropList="PlayerPropAdd,HPRate,50;PlayerPropAdd,MountDefendDown,1"/>
+<Property ID="90001002" PropList="PlayerPropAdd,HPRate,100;PlayerPropAdd,MountDefendDown,2"/>
+<Property ID="90001003" PropList="PlayerPropAdd,HPRate,150;PlayerPropAdd,MountDefendDown,3"/>
+<Property ID="90001004" PropList="PlayerPropAdd,HPRate,200;PlayerPropAdd,MountDefendDown,4"/>
+<Property ID="90001005" PropList="PlayerPropAdd,HPRate,250;PlayerPropAdd,MountDefendDown,5"/>
+<Property ID="90001006" PropList="PlayerPropAdd,HPRate,300;PlayerPropAdd,MountDefendDown,6"/>
+<Property ID="90001007" PropList="PlayerPropAdd,HPRate,350;PlayerPropAdd,MountDefendDown,7"/>
+<Property ID="90001008" PropList="PlayerPropAdd,HPRate,400;PlayerPropAdd,MountDefendDown,8"/>
+<Property ID="90001009" PropList="PlayerPropAdd,HPRate,450;PlayerPropAdd,MountDefendDown,9"/>
+<Property ID="90001010" PropList="PlayerPropAdd,HPRate,500;PlayerPropAdd,MountDefendDown,10"/>
+<Property ID="90001011" PropList="PlayerPropAdd,HPRate,550;PlayerPropAdd,MountDefendDown,11"/>
+<Property ID="90001012" PropList="PlayerPropAdd,HPRate,600;PlayerPropAdd,MountDefendDown,12"/>
+<Property ID="90001013" PropList="PlayerPropAdd,HPRate,650;PlayerPropAdd,MountDefendDown,13"/>
+<Property ID="90001014" PropList="PlayerPropAdd,HPRate,700;PlayerPropAdd,MountDefendDown,14"/>
+<Property ID="90001015" PropList="PlayerPropAdd,HPRate,750;PlayerPropAdd,MountDefendDown,15"/>
+<Property ID="90001016" PropList="PlayerPropAdd,HPRate,800;PlayerPropAdd,MountDefendDown,16"/>
+<Property ID="90001017" PropList="PlayerPropAdd,HPRate,850;PlayerPropAdd,MountDefendDown,17"/>
+<Property ID="90001018" PropList="PlayerPropAdd,HPRate,900;PlayerPropAdd,MountDefendDown,18"/>
+<Property ID="90001019" PropList="PlayerPropAdd,HPRate,950;PlayerPropAdd,MountDefendDown,19"/>
+<Property ID="90001020" PropList="PlayerPropAdd,HPRate,1000;PlayerPropAdd,MountDefendDown,20"/>
+<Property ID="90002000"/>
+<Property ID="90002001" PropList="PlayerPropAdd,AttackRate,50;PlayerPropAdd,MountDamageUp,1"/>
+<Property ID="90002002" PropList="PlayerPropAdd,AttackRate,100;PlayerPropAdd,MountDamageUp,2"/>
+<Property ID="90002003" PropList="PlayerPropAdd,AttackRate,150;PlayerPropAdd,MountDamageUp,3"/>
+<Property ID="90002004" PropList="PlayerPropAdd,AttackRate,200;PlayerPropAdd,MountDamageUp,4"/>
+<Property ID="90002005" PropList="PlayerPropAdd,AttackRate,250;PlayerPropAdd,MountDamageUp,5"/>
+<Property ID="90002006" PropList="PlayerPropAdd,AttackRate,300;PlayerPropAdd,MountDamageUp,6"/>
+<Property ID="90002007" PropList="PlayerPropAdd,AttackRate,350;PlayerPropAdd,MountDamageUp,7"/>
+<Property ID="90002008" PropList="PlayerPropAdd,AttackRate,400;PlayerPropAdd,MountDamageUp,8"/>
+<Property ID="90002009" PropList="PlayerPropAdd,AttackRate,450;PlayerPropAdd,MountDamageUp,9"/>
+<Property ID="90002010" PropList="PlayerPropAdd,AttackRate,500;PlayerPropAdd,MountDamageUp,10"/>
+<Property ID="90002011" PropList="PlayerPropAdd,AttackRate,550;PlayerPropAdd,MountDamageUp,11"/>
+<Property ID="90002012" PropList="PlayerPropAdd,AttackRate,600;PlayerPropAdd,MountDamageUp,12"/>
+<Property ID="90002013" PropList="PlayerPropAdd,AttackRate,650;PlayerPropAdd,MountDamageUp,13"/>
+<Property ID="90002014" PropList="PlayerPropAdd,AttackRate,700;PlayerPropAdd,MountDamageUp,14"/>
+<Property ID="90002015" PropList="PlayerPropAdd,AttackRate,750;PlayerPropAdd,MountDamageUp,15"/>
+<Property ID="90002016" PropList="PlayerPropAdd,AttackRate,800;PlayerPropAdd,MountDamageUp,16"/>
+<Property ID="90002017" PropList="PlayerPropAdd,AttackRate,850;PlayerPropAdd,MountDamageUp,17"/>
+<Property ID="90002018" PropList="PlayerPropAdd,AttackRate,900;PlayerPropAdd,MountDamageUp,18"/>
+<Property ID="90002019" PropList="PlayerPropAdd,AttackRate,950;PlayerPropAdd,MountDamageUp,19"/>
+<Property ID="90002020" PropList="PlayerPropAdd,AttackRate,1000;PlayerPropAdd,MountDamageUp,20"/>
+<Property ID="90003000"/>
+<Property ID="90003001" PropList="PlayerPropAdd,DefendRate,50;PlayerPropAdd,MountDamageDown,1"/>
+<Property ID="90003002" PropList="PlayerPropAdd,DefendRate,100;PlayerPropAdd,MountDamageDown,2"/>
+<Property ID="90003003" PropList="PlayerPropAdd,DefendRate,150;PlayerPropAdd,MountDamageDown,3"/>
+<Property ID="90003004" PropList="PlayerPropAdd,DefendRate,200;PlayerPropAdd,MountDamageDown,4"/>
+<Property ID="90003005" PropList="PlayerPropAdd,DefendRate,250;PlayerPropAdd,MountDamageDown,5"/>
+<Property ID="90003006" PropList="PlayerPropAdd,DefendRate,300;PlayerPropAdd,MountDamageDown,6"/>
+<Property ID="90003007" PropList="PlayerPropAdd,DefendRate,350;PlayerPropAdd,MountDamageDown,7"/>
+<Property ID="90003008" PropList="PlayerPropAdd,DefendRate,400;PlayerPropAdd,MountDamageDown,8"/>
+<Property ID="90003009" PropList="PlayerPropAdd,DefendRate,450;PlayerPropAdd,MountDamageDown,9"/>
+<Property ID="90003010" PropList="PlayerPropAdd,DefendRate,500;PlayerPropAdd,MountDamageDown,10"/>
+<Property ID="90003011" PropList="PlayerPropAdd,DefendRate,550;PlayerPropAdd,MountDamageDown,11"/>
+<Property ID="90003012" PropList="PlayerPropAdd,DefendRate,600;PlayerPropAdd,MountDamageDown,12"/>
+<Property ID="90003013" PropList="PlayerPropAdd,DefendRate,650;PlayerPropAdd,MountDamageDown,13"/>
+<Property ID="90003014" PropList="PlayerPropAdd,DefendRate,700;PlayerPropAdd,MountDamageDown,14"/>
+<Property ID="90003015" PropList="PlayerPropAdd,DefendRate,750;PlayerPropAdd,MountDamageDown,15"/>
+<Property ID="90003016" PropList="PlayerPropAdd,DefendRate,800;PlayerPropAdd,MountDamageDown,16"/>
+<Property ID="90003017" PropList="PlayerPropAdd,DefendRate,850;PlayerPropAdd,MountDamageDown,17"/>
+<Property ID="90003018" PropList="PlayerPropAdd,DefendRate,900;PlayerPropAdd,MountDamageDown,18"/>
+<Property ID="90003019" PropList="PlayerPropAdd,DefendRate,950;PlayerPropAdd,MountDamageDown,19"/>
+<Property ID="90003020" PropList="PlayerPropAdd,DefendRate,1000;PlayerPropAdd,MountDamageDown,20"/>
+<Property ID="90004000"/>
+<Property ID="90004001" PropList="PlayerPropAdd,BreakDefendRate,50;PlayerPropAdd,MountCrit,1"/>
+<Property ID="90004002" PropList="PlayerPropAdd,BreakDefendRate,100;PlayerPropAdd,MountCrit,2"/>
+<Property ID="90004003" PropList="PlayerPropAdd,BreakDefendRate,150;PlayerPropAdd,MountCrit,3"/>
+<Property ID="90004004" PropList="PlayerPropAdd,BreakDefendRate,200;PlayerPropAdd,MountCrit,4"/>
+<Property ID="90004005" PropList="PlayerPropAdd,BreakDefendRate,250;PlayerPropAdd,MountCrit,5"/>
+<Property ID="90004006" PropList="PlayerPropAdd,BreakDefendRate,300;PlayerPropAdd,MountCrit,6"/>
+<Property ID="90004007" PropList="PlayerPropAdd,BreakDefendRate,350;PlayerPropAdd,MountCrit,7"/>
+<Property ID="90004008" PropList="PlayerPropAdd,BreakDefendRate,400;PlayerPropAdd,MountCrit,8"/>
+<Property ID="90004009" PropList="PlayerPropAdd,BreakDefendRate,450;PlayerPropAdd,MountCrit,9"/>
+<Property ID="90004010" PropList="PlayerPropAdd,BreakDefendRate,500;PlayerPropAdd,MountCrit,10"/>
+<Property ID="90004011" PropList="PlayerPropAdd,BreakDefendRate,550;PlayerPropAdd,MountCrit,11"/>
+<Property ID="90004012" PropList="PlayerPropAdd,BreakDefendRate,600;PlayerPropAdd,MountCrit,12"/>
+<Property ID="90004013" PropList="PlayerPropAdd,BreakDefendRate,650;PlayerPropAdd,MountCrit,13"/>
+<Property ID="90004014" PropList="PlayerPropAdd,BreakDefendRate,700;PlayerPropAdd,MountCrit,14"/>
+<Property ID="90004015" PropList="PlayerPropAdd,BreakDefendRate,750;PlayerPropAdd,MountCrit,15"/>
+<Property ID="90004016" PropList="PlayerPropAdd,BreakDefendRate,800;PlayerPropAdd,MountCrit,16"/>
+<Property ID="90004017" PropList="PlayerPropAdd,BreakDefendRate,850;PlayerPropAdd,MountCrit,17"/>
+<Property ID="90004018" PropList="PlayerPropAdd,BreakDefendRate,900;PlayerPropAdd,MountCrit,18"/>
+<Property ID="90004019" PropList="PlayerPropAdd,BreakDefendRate,950;PlayerPropAdd,MountCrit,19"/>
+<Property ID="90004020" PropList="PlayerPropAdd,BreakDefendRate,1000;PlayerPropAdd,MountCrit,20"/>
+<Property ID="80001000"/>
+<Property ID="80001001" PropList="PlayerPropAdd,HPAdd,280"/>
+<Property ID="80001002" PropList="PlayerPropAdd,HPAdd,560"/>
+<Property ID="80001003" PropList="PlayerPropAdd,HPAdd,840"/>
+<Property ID="80001004" PropList="PlayerPropAdd,HPAdd,1120"/>
+<Property ID="80001005" PropList="PlayerPropAdd,HPAdd,1400"/>
+<Property ID="80001006" PropList="PlayerPropAdd,HPAdd,1680"/>
+<Property ID="80001007" PropList="PlayerPropAdd,HPAdd,1960"/>
+<Property ID="80001008" PropList="PlayerPropAdd,HPAdd,2240"/>
+<Property ID="80001009" PropList="PlayerPropAdd,HPAdd,2520"/>
+<Property ID="80001010" PropList="PlayerPropAdd,HPAdd,2800"/>
+<Property ID="80001011" PropList="PlayerPropAdd,HPAdd,3080"/>
+<Property ID="80001012" PropList="PlayerPropAdd,HPAdd,3360"/>
+<Property ID="80001013" PropList="PlayerPropAdd,HPAdd,3640"/>
+<Property ID="80001014" PropList="PlayerPropAdd,HPAdd,3920"/>
+<Property ID="80001015" PropList="PlayerPropAdd,HPAdd,4200"/>
+<Property ID="80001016" PropList="PlayerPropAdd,HPAdd,4480"/>
+<Property ID="80001017" PropList="PlayerPropAdd,HPAdd,4760"/>
+<Property ID="80001018" PropList="PlayerPropAdd,HPAdd,5040"/>
+<Property ID="80001019" PropList="PlayerPropAdd,HPAdd,5320"/>
+<Property ID="80001020" PropList="PlayerPropAdd,HPAdd,5600"/>
+<Property ID="80001021" PropList="PlayerPropAdd,HPAdd,5880"/>
+<Property ID="80001022" PropList="PlayerPropAdd,HPAdd,6160"/>
+<Property ID="80001023" PropList="PlayerPropAdd,HPAdd,6440"/>
+<Property ID="80001024" PropList="PlayerPropAdd,HPAdd,6720"/>
+<Property ID="80001025" PropList="PlayerPropAdd,HPAdd,7000"/>
+<Property ID="80001026" PropList="PlayerPropAdd,HPAdd,7280"/>
+<Property ID="80001027" PropList="PlayerPropAdd,HPAdd,7560"/>
+<Property ID="80001028" PropList="PlayerPropAdd,HPAdd,7840"/>
+<Property ID="80001029" PropList="PlayerPropAdd,HPAdd,8120"/>
+<Property ID="80001030" PropList="PlayerPropAdd,HPAdd,8400"/>
+<Property ID="80001031" PropList="PlayerPropAdd,HPAdd,8680"/>
+<Property ID="80001032" PropList="PlayerPropAdd,HPAdd,8960"/>
+<Property ID="80001033" PropList="PlayerPropAdd,HPAdd,9240"/>
+<Property ID="80001034" PropList="PlayerPropAdd,HPAdd,9520"/>
+<Property ID="80001035" PropList="PlayerPropAdd,HPAdd,9800"/>
+<Property ID="80001036" PropList="PlayerPropAdd,HPAdd,10080"/>
+<Property ID="80001037" PropList="PlayerPropAdd,HPAdd,10360"/>
+<Property ID="80001038" PropList="PlayerPropAdd,HPAdd,10640"/>
+<Property ID="80001039" PropList="PlayerPropAdd,HPAdd,10920"/>
+<Property ID="80001040" PropList="PlayerPropAdd,HPAdd,11200"/>
+<Property ID="80001041" PropList="PlayerPropAdd,HPAdd,11480"/>
+<Property ID="80001042" PropList="PlayerPropAdd,HPAdd,11760"/>
+<Property ID="80001043" PropList="PlayerPropAdd,HPAdd,12040"/>
+<Property ID="80001044" PropList="PlayerPropAdd,HPAdd,12320"/>
+<Property ID="80001045" PropList="PlayerPropAdd,HPAdd,12600"/>
+<Property ID="80001046" PropList="PlayerPropAdd,HPAdd,12880"/>
+<Property ID="80001047" PropList="PlayerPropAdd,HPAdd,13160"/>
+<Property ID="80001048" PropList="PlayerPropAdd,HPAdd,13440"/>
+<Property ID="80001049" PropList="PlayerPropAdd,HPAdd,13720"/>
+<Property ID="80001050" PropList="PlayerPropAdd,HPAdd,14000"/>
+<Property ID="80001051" PropList="PlayerPropAdd,HPAdd,14280"/>
+<Property ID="80001052" PropList="PlayerPropAdd,HPAdd,14560"/>
+<Property ID="80001053" PropList="PlayerPropAdd,HPAdd,14840"/>
+<Property ID="80001054" PropList="PlayerPropAdd,HPAdd,15120"/>
+<Property ID="80001055" PropList="PlayerPropAdd,HPAdd,15400"/>
+<Property ID="80001056" PropList="PlayerPropAdd,HPAdd,15680"/>
+<Property ID="80001057" PropList="PlayerPropAdd,HPAdd,15960"/>
+<Property ID="80001058" PropList="PlayerPropAdd,HPAdd,16240"/>
+<Property ID="80001059" PropList="PlayerPropAdd,HPAdd,16520"/>
+<Property ID="80001060" PropList="PlayerPropAdd,HPAdd,16800"/>
+<Property ID="80001061" PropList="PlayerPropAdd,HPAdd,17080"/>
+<Property ID="80001062" PropList="PlayerPropAdd,HPAdd,17360"/>
+<Property ID="80001063" PropList="PlayerPropAdd,HPAdd,17640"/>
+<Property ID="80001064" PropList="PlayerPropAdd,HPAdd,17920"/>
+<Property ID="80001065" PropList="PlayerPropAdd,HPAdd,18200"/>
+<Property ID="80001066" PropList="PlayerPropAdd,HPAdd,18480"/>
+<Property ID="80001067" PropList="PlayerPropAdd,HPAdd,18760"/>
+<Property ID="80001068" PropList="PlayerPropAdd,HPAdd,19040"/>
+<Property ID="80001069" PropList="PlayerPropAdd,HPAdd,19320"/>
+<Property ID="80001070" PropList="PlayerPropAdd,HPAdd,19600"/>
+<Property ID="80001071" PropList="PlayerPropAdd,HPAdd,19880"/>
+<Property ID="80001072" PropList="PlayerPropAdd,HPAdd,20160"/>
+<Property ID="80001073" PropList="PlayerPropAdd,HPAdd,20440"/>
+<Property ID="80001074" PropList="PlayerPropAdd,HPAdd,20720"/>
+<Property ID="80001075" PropList="PlayerPropAdd,HPAdd,21000"/>
+<Property ID="80001076" PropList="PlayerPropAdd,HPAdd,21280"/>
+<Property ID="80001077" PropList="PlayerPropAdd,HPAdd,21560"/>
+<Property ID="80001078" PropList="PlayerPropAdd,HPAdd,21840"/>
+<Property ID="80001079" PropList="PlayerPropAdd,HPAdd,22120"/>
+<Property ID="80001080" PropList="PlayerPropAdd,HPAdd,22400"/>
+<Property ID="80001081" PropList="PlayerPropAdd,HPAdd,22680"/>
+<Property ID="80001082" PropList="PlayerPropAdd,HPAdd,22960"/>
+<Property ID="80001083" PropList="PlayerPropAdd,HPAdd,23240"/>
+<Property ID="80001084" PropList="PlayerPropAdd,HPAdd,23520"/>
+<Property ID="80001085" PropList="PlayerPropAdd,HPAdd,23800"/>
+<Property ID="80001086" PropList="PlayerPropAdd,HPAdd,24080"/>
+<Property ID="80001087" PropList="PlayerPropAdd,HPAdd,24360"/>
+<Property ID="80001088" PropList="PlayerPropAdd,HPAdd,24640"/>
+<Property ID="80001089" PropList="PlayerPropAdd,HPAdd,24920"/>
+<Property ID="80001090" PropList="PlayerPropAdd,HPAdd,25200"/>
+<Property ID="80001091" PropList="PlayerPropAdd,HPAdd,25480"/>
+<Property ID="80001092" PropList="PlayerPropAdd,HPAdd,25760"/>
+<Property ID="80001093" PropList="PlayerPropAdd,HPAdd,26040"/>
+<Property ID="80001094" PropList="PlayerPropAdd,HPAdd,26320"/>
+<Property ID="80001095" PropList="PlayerPropAdd,HPAdd,26600"/>
+<Property ID="80001096" PropList="PlayerPropAdd,HPAdd,26880"/>
+<Property ID="80001097" PropList="PlayerPropAdd,HPAdd,27160"/>
+<Property ID="80001098" PropList="PlayerPropAdd,HPAdd,27440"/>
+<Property ID="80001099" PropList="PlayerPropAdd,HPAdd,27720"/>
+<Property ID="80001100" PropList="PlayerPropAdd,HPAdd,28000"/>
+<Property ID="80002000"/>
+<Property ID="80002001" PropList="PlayerPropAdd,DefendAdd,18"/>
+<Property ID="80002002" PropList="PlayerPropAdd,DefendAdd,36"/>
+<Property ID="80002003" PropList="PlayerPropAdd,DefendAdd,54"/>
+<Property ID="80002004" PropList="PlayerPropAdd,DefendAdd,72"/>
+<Property ID="80002005" PropList="PlayerPropAdd,DefendAdd,90"/>
+<Property ID="80002006" PropList="PlayerPropAdd,DefendAdd,108"/>
+<Property ID="80002007" PropList="PlayerPropAdd,DefendAdd,126"/>
+<Property ID="80002008" PropList="PlayerPropAdd,DefendAdd,144"/>
+<Property ID="80002009" PropList="PlayerPropAdd,DefendAdd,162"/>
+<Property ID="80002010" PropList="PlayerPropAdd,DefendAdd,180"/>
+<Property ID="80002011" PropList="PlayerPropAdd,DefendAdd,198"/>
+<Property ID="80002012" PropList="PlayerPropAdd,DefendAdd,216"/>
+<Property ID="80002013" PropList="PlayerPropAdd,DefendAdd,234"/>
+<Property ID="80002014" PropList="PlayerPropAdd,DefendAdd,252"/>
+<Property ID="80002015" PropList="PlayerPropAdd,DefendAdd,270"/>
+<Property ID="80002016" PropList="PlayerPropAdd,DefendAdd,288"/>
+<Property ID="80002017" PropList="PlayerPropAdd,DefendAdd,306"/>
+<Property ID="80002018" PropList="PlayerPropAdd,DefendAdd,324"/>
+<Property ID="80002019" PropList="PlayerPropAdd,DefendAdd,342"/>
+<Property ID="80002020" PropList="PlayerPropAdd,DefendAdd,360"/>
+<Property ID="80002021" PropList="PlayerPropAdd,DefendAdd,378"/>
+<Property ID="80002022" PropList="PlayerPropAdd,DefendAdd,396"/>
+<Property ID="80002023" PropList="PlayerPropAdd,DefendAdd,414"/>
+<Property ID="80002024" PropList="PlayerPropAdd,DefendAdd,432"/>
+<Property ID="80002025" PropList="PlayerPropAdd,DefendAdd,450"/>
+<Property ID="80002026" PropList="PlayerPropAdd,DefendAdd,468"/>
+<Property ID="80002027" PropList="PlayerPropAdd,DefendAdd,486"/>
+<Property ID="80002028" PropList="PlayerPropAdd,DefendAdd,504"/>
+<Property ID="80002029" PropList="PlayerPropAdd,DefendAdd,522"/>
+<Property ID="80002030" PropList="PlayerPropAdd,DefendAdd,540"/>
+<Property ID="80002031" PropList="PlayerPropAdd,DefendAdd,558"/>
+<Property ID="80002032" PropList="PlayerPropAdd,DefendAdd,576"/>
+<Property ID="80002033" PropList="PlayerPropAdd,DefendAdd,594"/>
+<Property ID="80002034" PropList="PlayerPropAdd,DefendAdd,612"/>
+<Property ID="80002035" PropList="PlayerPropAdd,DefendAdd,630"/>
+<Property ID="80002036" PropList="PlayerPropAdd,DefendAdd,648"/>
+<Property ID="80002037" PropList="PlayerPropAdd,DefendAdd,666"/>
+<Property ID="80002038" PropList="PlayerPropAdd,DefendAdd,684"/>
+<Property ID="80002039" PropList="PlayerPropAdd,DefendAdd,702"/>
+<Property ID="80002040" PropList="PlayerPropAdd,DefendAdd,720"/>
+<Property ID="80002041" PropList="PlayerPropAdd,DefendAdd,738"/>
+<Property ID="80002042" PropList="PlayerPropAdd,DefendAdd,756"/>
+<Property ID="80002043" PropList="PlayerPropAdd,DefendAdd,774"/>
+<Property ID="80002044" PropList="PlayerPropAdd,DefendAdd,792"/>
+<Property ID="80002045" PropList="PlayerPropAdd,DefendAdd,810"/>
+<Property ID="80002046" PropList="PlayerPropAdd,DefendAdd,828"/>
+<Property ID="80002047" PropList="PlayerPropAdd,DefendAdd,846"/>
+<Property ID="80002048" PropList="PlayerPropAdd,DefendAdd,864"/>
+<Property ID="80002049" PropList="PlayerPropAdd,DefendAdd,882"/>
+<Property ID="80002050" PropList="PlayerPropAdd,DefendAdd,900"/>
+<Property ID="80002051" PropList="PlayerPropAdd,DefendAdd,918"/>
+<Property ID="80002052" PropList="PlayerPropAdd,DefendAdd,936"/>
+<Property ID="80002053" PropList="PlayerPropAdd,DefendAdd,954"/>
+<Property ID="80002054" PropList="PlayerPropAdd,DefendAdd,972"/>
+<Property ID="80002055" PropList="PlayerPropAdd,DefendAdd,990"/>
+<Property ID="80002056" PropList="PlayerPropAdd,DefendAdd,1008"/>
+<Property ID="80002057" PropList="PlayerPropAdd,DefendAdd,1026"/>
+<Property ID="80002058" PropList="PlayerPropAdd,DefendAdd,1044"/>
+<Property ID="80002059" PropList="PlayerPropAdd,DefendAdd,1062"/>
+<Property ID="80002060" PropList="PlayerPropAdd,DefendAdd,1080"/>
+<Property ID="80002061" PropList="PlayerPropAdd,DefendAdd,1098"/>
+<Property ID="80002062" PropList="PlayerPropAdd,DefendAdd,1116"/>
+<Property ID="80002063" PropList="PlayerPropAdd,DefendAdd,1134"/>
+<Property ID="80002064" PropList="PlayerPropAdd,DefendAdd,1152"/>
+<Property ID="80002065" PropList="PlayerPropAdd,DefendAdd,1170"/>
+<Property ID="80002066" PropList="PlayerPropAdd,DefendAdd,1188"/>
+<Property ID="80002067" PropList="PlayerPropAdd,DefendAdd,1206"/>
+<Property ID="80002068" PropList="PlayerPropAdd,DefendAdd,1224"/>
+<Property ID="80002069" PropList="PlayerPropAdd,DefendAdd,1242"/>
+<Property ID="80002070" PropList="PlayerPropAdd,DefendAdd,1260"/>
+<Property ID="80002071" PropList="PlayerPropAdd,DefendAdd,1278"/>
+<Property ID="80002072" PropList="PlayerPropAdd,DefendAdd,1296"/>
+<Property ID="80002073" PropList="PlayerPropAdd,DefendAdd,1314"/>
+<Property ID="80002074" PropList="PlayerPropAdd,DefendAdd,1332"/>
+<Property ID="80002075" PropList="PlayerPropAdd,DefendAdd,1350"/>
+<Property ID="80002076" PropList="PlayerPropAdd,DefendAdd,1368"/>
+<Property ID="80002077" PropList="PlayerPropAdd,DefendAdd,1386"/>
+<Property ID="80002078" PropList="PlayerPropAdd,DefendAdd,1404"/>
+<Property ID="80002079" PropList="PlayerPropAdd,DefendAdd,1422"/>
+<Property ID="80002080" PropList="PlayerPropAdd,DefendAdd,1440"/>
+<Property ID="80002081" PropList="PlayerPropAdd,DefendAdd,1458"/>
+<Property ID="80002082" PropList="PlayerPropAdd,DefendAdd,1476"/>
+<Property ID="80002083" PropList="PlayerPropAdd,DefendAdd,1494"/>
+<Property ID="80002084" PropList="PlayerPropAdd,DefendAdd,1512"/>
+<Property ID="80002085" PropList="PlayerPropAdd,DefendAdd,1530"/>
+<Property ID="80002086" PropList="PlayerPropAdd,DefendAdd,1548"/>
+<Property ID="80002087" PropList="PlayerPropAdd,DefendAdd,1566"/>
+<Property ID="80002088" PropList="PlayerPropAdd,DefendAdd,1584"/>
+<Property ID="80002089" PropList="PlayerPropAdd,DefendAdd,1602"/>
+<Property ID="80002090" PropList="PlayerPropAdd,DefendAdd,1620"/>
+<Property ID="80002091" PropList="PlayerPropAdd,DefendAdd,1638"/>
+<Property ID="80002092" PropList="PlayerPropAdd,DefendAdd,1656"/>
+<Property ID="80002093" PropList="PlayerPropAdd,DefendAdd,1674"/>
+<Property ID="80002094" PropList="PlayerPropAdd,DefendAdd,1692"/>
+<Property ID="80002095" PropList="PlayerPropAdd,DefendAdd,1710"/>
+<Property ID="80002096" PropList="PlayerPropAdd,DefendAdd,1728"/>
+<Property ID="80002097" PropList="PlayerPropAdd,DefendAdd,1746"/>
+<Property ID="80002098" PropList="PlayerPropAdd,DefendAdd,1764"/>
+<Property ID="80002099" PropList="PlayerPropAdd,DefendAdd,1782"/>
+<Property ID="80002100" PropList="PlayerPropAdd,DefendAdd,1800"/>
+<Property ID="80003000"/>
+<Property ID="80003001" PropList="PlayerPropAdd,Str,9"/>
+<Property ID="80003002" PropList="PlayerPropAdd,Str,19"/>
+<Property ID="80003003" PropList="PlayerPropAdd,Str,28"/>
+<Property ID="80003004" PropList="PlayerPropAdd,Str,38"/>
+<Property ID="80003005" PropList="PlayerPropAdd,Str,47"/>
+<Property ID="80003006" PropList="PlayerPropAdd,Str,57"/>
+<Property ID="80003007" PropList="PlayerPropAdd,Str,66"/>
+<Property ID="80003008" PropList="PlayerPropAdd,Str,76"/>
+<Property ID="80003009" PropList="PlayerPropAdd,Str,85"/>
+<Property ID="80003010" PropList="PlayerPropAdd,Str,95"/>
+<Property ID="80003011" PropList="PlayerPropAdd,Str,104"/>
+<Property ID="80003012" PropList="PlayerPropAdd,Str,114"/>
+<Property ID="80003013" PropList="PlayerPropAdd,Str,123"/>
+<Property ID="80003014" PropList="PlayerPropAdd,Str,133"/>
+<Property ID="80003015" PropList="PlayerPropAdd,Str,142"/>
+<Property ID="80003016" PropList="PlayerPropAdd,Str,152"/>
+<Property ID="80003017" PropList="PlayerPropAdd,Str,161"/>
+<Property ID="80003018" PropList="PlayerPropAdd,Str,171"/>
+<Property ID="80003019" PropList="PlayerPropAdd,Str,180"/>
+<Property ID="80003020" PropList="PlayerPropAdd,Str,190"/>
+<Property ID="80003021" PropList="PlayerPropAdd,Str,199"/>
+<Property ID="80003022" PropList="PlayerPropAdd,Str,209"/>
+<Property ID="80003023" PropList="PlayerPropAdd,Str,218"/>
+<Property ID="80003024" PropList="PlayerPropAdd,Str,228"/>
+<Property ID="80003025" PropList="PlayerPropAdd,Str,237"/>
+<Property ID="80003026" PropList="PlayerPropAdd,Str,247"/>
+<Property ID="80003027" PropList="PlayerPropAdd,Str,256"/>
+<Property ID="80003028" PropList="PlayerPropAdd,Str,266"/>
+<Property ID="80003029" PropList="PlayerPropAdd,Str,275"/>
+<Property ID="80003030" PropList="PlayerPropAdd,Str,285"/>
+<Property ID="80003031" PropList="PlayerPropAdd,Str,294"/>
+<Property ID="80003032" PropList="PlayerPropAdd,Str,304"/>
+<Property ID="80003033" PropList="PlayerPropAdd,Str,313"/>
+<Property ID="80003034" PropList="PlayerPropAdd,Str,323"/>
+<Property ID="80003035" PropList="PlayerPropAdd,Str,332"/>
+<Property ID="80003036" PropList="PlayerPropAdd,Str,342"/>
+<Property ID="80003037" PropList="PlayerPropAdd,Str,351"/>
+<Property ID="80003038" PropList="PlayerPropAdd,Str,361"/>
+<Property ID="80003039" PropList="PlayerPropAdd,Str,370"/>
+<Property ID="80003040" PropList="PlayerPropAdd,Str,380"/>
+<Property ID="80003041" PropList="PlayerPropAdd,Str,389"/>
+<Property ID="80003042" PropList="PlayerPropAdd,Str,399"/>
+<Property ID="80003043" PropList="PlayerPropAdd,Str,408"/>
+<Property ID="80003044" PropList="PlayerPropAdd,Str,418"/>
+<Property ID="80003045" PropList="PlayerPropAdd,Str,427"/>
+<Property ID="80003046" PropList="PlayerPropAdd,Str,437"/>
+<Property ID="80003047" PropList="PlayerPropAdd,Str,446"/>
+<Property ID="80003048" PropList="PlayerPropAdd,Str,456"/>
+<Property ID="80003049" PropList="PlayerPropAdd,Str,465"/>
+<Property ID="80003050" PropList="PlayerPropAdd,Str,475"/>
+<Property ID="80003051" PropList="PlayerPropAdd,Str,484"/>
+<Property ID="80003052" PropList="PlayerPropAdd,Str,494"/>
+<Property ID="80003053" PropList="PlayerPropAdd,Str,503"/>
+<Property ID="80003054" PropList="PlayerPropAdd,Str,513"/>
+<Property ID="80003055" PropList="PlayerPropAdd,Str,522"/>
+<Property ID="80003056" PropList="PlayerPropAdd,Str,532"/>
+<Property ID="80003057" PropList="PlayerPropAdd,Str,541"/>
+<Property ID="80003058" PropList="PlayerPropAdd,Str,551"/>
+<Property ID="80003059" PropList="PlayerPropAdd,Str,560"/>
+<Property ID="80003060" PropList="PlayerPropAdd,Str,570"/>
+<Property ID="80003061" PropList="PlayerPropAdd,Str,579"/>
+<Property ID="80003062" PropList="PlayerPropAdd,Str,589"/>
+<Property ID="80003063" PropList="PlayerPropAdd,Str,598"/>
+<Property ID="80003064" PropList="PlayerPropAdd,Str,608"/>
+<Property ID="80003065" PropList="PlayerPropAdd,Str,617"/>
+<Property ID="80003066" PropList="PlayerPropAdd,Str,627"/>
+<Property ID="80003067" PropList="PlayerPropAdd,Str,636"/>
+<Property ID="80003068" PropList="PlayerPropAdd,Str,646"/>
+<Property ID="80003069" PropList="PlayerPropAdd,Str,655"/>
+<Property ID="80003070" PropList="PlayerPropAdd,Str,665"/>
+<Property ID="80003071" PropList="PlayerPropAdd,Str,674"/>
+<Property ID="80003072" PropList="PlayerPropAdd,Str,684"/>
+<Property ID="80003073" PropList="PlayerPropAdd,Str,693"/>
+<Property ID="80003074" PropList="PlayerPropAdd,Str,703"/>
+<Property ID="80003075" PropList="PlayerPropAdd,Str,712"/>
+<Property ID="80003076" PropList="PlayerPropAdd,Str,722"/>
+<Property ID="80003077" PropList="PlayerPropAdd,Str,731"/>
+<Property ID="80003078" PropList="PlayerPropAdd,Str,741"/>
+<Property ID="80003079" PropList="PlayerPropAdd,Str,750"/>
+<Property ID="80003080" PropList="PlayerPropAdd,Str,760"/>
+<Property ID="80003081" PropList="PlayerPropAdd,Str,769"/>
+<Property ID="80003082" PropList="PlayerPropAdd,Str,779"/>
+<Property ID="80003083" PropList="PlayerPropAdd,Str,788"/>
+<Property ID="80003084" PropList="PlayerPropAdd,Str,798"/>
+<Property ID="80003085" PropList="PlayerPropAdd,Str,807"/>
+<Property ID="80003086" PropList="PlayerPropAdd,Str,817"/>
+<Property ID="80003087" PropList="PlayerPropAdd,Str,826"/>
+<Property ID="80003088" PropList="PlayerPropAdd,Str,836"/>
+<Property ID="80003089" PropList="PlayerPropAdd,Str,845"/>
+<Property ID="80003090" PropList="PlayerPropAdd,Str,855"/>
+<Property ID="80003091" PropList="PlayerPropAdd,Str,864"/>
+<Property ID="80003092" PropList="PlayerPropAdd,Str,874"/>
+<Property ID="80003093" PropList="PlayerPropAdd,Str,883"/>
+<Property ID="80003094" PropList="PlayerPropAdd,Str,893"/>
+<Property ID="80003095" PropList="PlayerPropAdd,Str,902"/>
+<Property ID="80003096" PropList="PlayerPropAdd,Str,912"/>
+<Property ID="80003097" PropList="PlayerPropAdd,Str,921"/>
+<Property ID="80003098" PropList="PlayerPropAdd,Str,931"/>
+<Property ID="80003099" PropList="PlayerPropAdd,Str,940"/>
+<Property ID="80003100" PropList="PlayerPropAdd,Str,950"/>
+<Property ID="80004000"/>
+<Property ID="80004001" PropList="PlayerPropAdd,Dex,9"/>
+<Property ID="80004002" PropList="PlayerPropAdd,Dex,19"/>
+<Property ID="80004003" PropList="PlayerPropAdd,Dex,28"/>
+<Property ID="80004004" PropList="PlayerPropAdd,Dex,38"/>
+<Property ID="80004005" PropList="PlayerPropAdd,Dex,47"/>
+<Property ID="80004006" PropList="PlayerPropAdd,Dex,57"/>
+<Property ID="80004007" PropList="PlayerPropAdd,Dex,66"/>
+<Property ID="80004008" PropList="PlayerPropAdd,Dex,76"/>
+<Property ID="80004009" PropList="PlayerPropAdd,Dex,85"/>
+<Property ID="80004010" PropList="PlayerPropAdd,Dex,95"/>
+<Property ID="80004011" PropList="PlayerPropAdd,Dex,104"/>
+<Property ID="80004012" PropList="PlayerPropAdd,Dex,114"/>
+<Property ID="80004013" PropList="PlayerPropAdd,Dex,123"/>
+<Property ID="80004014" PropList="PlayerPropAdd,Dex,133"/>
+<Property ID="80004015" PropList="PlayerPropAdd,Dex,142"/>
+<Property ID="80004016" PropList="PlayerPropAdd,Dex,152"/>
+<Property ID="80004017" PropList="PlayerPropAdd,Dex,161"/>
+<Property ID="80004018" PropList="PlayerPropAdd,Dex,171"/>
+<Property ID="80004019" PropList="PlayerPropAdd,Dex,180"/>
+<Property ID="80004020" PropList="PlayerPropAdd,Dex,190"/>
+<Property ID="80004021" PropList="PlayerPropAdd,Dex,199"/>
+<Property ID="80004022" PropList="PlayerPropAdd,Dex,209"/>
+<Property ID="80004023" PropList="PlayerPropAdd,Dex,218"/>
+<Property ID="80004024" PropList="PlayerPropAdd,Dex,228"/>
+<Property ID="80004025" PropList="PlayerPropAdd,Dex,237"/>
+<Property ID="80004026" PropList="PlayerPropAdd,Dex,247"/>
+<Property ID="80004027" PropList="PlayerPropAdd,Dex,256"/>
+<Property ID="80004028" PropList="PlayerPropAdd,Dex,266"/>
+<Property ID="80004029" PropList="PlayerPropAdd,Dex,275"/>
+<Property ID="80004030" PropList="PlayerPropAdd,Dex,285"/>
+<Property ID="80004031" PropList="PlayerPropAdd,Dex,294"/>
+<Property ID="80004032" PropList="PlayerPropAdd,Dex,304"/>
+<Property ID="80004033" PropList="PlayerPropAdd,Dex,313"/>
+<Property ID="80004034" PropList="PlayerPropAdd,Dex,323"/>
+<Property ID="80004035" PropList="PlayerPropAdd,Dex,332"/>
+<Property ID="80004036" PropList="PlayerPropAdd,Dex,342"/>
+<Property ID="80004037" PropList="PlayerPropAdd,Dex,351"/>
+<Property ID="80004038" PropList="PlayerPropAdd,Dex,361"/>
+<Property ID="80004039" PropList="PlayerPropAdd,Dex,370"/>
+<Property ID="80004040" PropList="PlayerPropAdd,Dex,380"/>
+<Property ID="80004041" PropList="PlayerPropAdd,Dex,389"/>
+<Property ID="80004042" PropList="PlayerPropAdd,Dex,399"/>
+<Property ID="80004043" PropList="PlayerPropAdd,Dex,408"/>
+<Property ID="80004044" PropList="PlayerPropAdd,Dex,418"/>
+<Property ID="80004045" PropList="PlayerPropAdd,Dex,427"/>
+<Property ID="80004046" PropList="PlayerPropAdd,Dex,437"/>
+<Property ID="80004047" PropList="PlayerPropAdd,Dex,446"/>
+<Property ID="80004048" PropList="PlayerPropAdd,Dex,456"/>
+<Property ID="80004049" PropList="PlayerPropAdd,Dex,465"/>
+<Property ID="80004050" PropList="PlayerPropAdd,Dex,475"/>
+<Property ID="80004051" PropList="PlayerPropAdd,Dex,484"/>
+<Property ID="80004052" PropList="PlayerPropAdd,Dex,494"/>
+<Property ID="80004053" PropList="PlayerPropAdd,Dex,503"/>
+<Property ID="80004054" PropList="PlayerPropAdd,Dex,513"/>
+<Property ID="80004055" PropList="PlayerPropAdd,Dex,522"/>
+<Property ID="80004056" PropList="PlayerPropAdd,Dex,532"/>
+<Property ID="80004057" PropList="PlayerPropAdd,Dex,541"/>
+<Property ID="80004058" PropList="PlayerPropAdd,Dex,551"/>
+<Property ID="80004059" PropList="PlayerPropAdd,Dex,560"/>
+<Property ID="80004060" PropList="PlayerPropAdd,Dex,570"/>
+<Property ID="80004061" PropList="PlayerPropAdd,Dex,579"/>
+<Property ID="80004062" PropList="PlayerPropAdd,Dex,589"/>
+<Property ID="80004063" PropList="PlayerPropAdd,Dex,598"/>
+<Property ID="80004064" PropList="PlayerPropAdd,Dex,608"/>
+<Property ID="80004065" PropList="PlayerPropAdd,Dex,617"/>
+<Property ID="80004066" PropList="PlayerPropAdd,Dex,627"/>
+<Property ID="80004067" PropList="PlayerPropAdd,Dex,636"/>
+<Property ID="80004068" PropList="PlayerPropAdd,Dex,646"/>
+<Property ID="80004069" PropList="PlayerPropAdd,Dex,655"/>
+<Property ID="80004070" PropList="PlayerPropAdd,Dex,665"/>
+<Property ID="80004071" PropList="PlayerPropAdd,Dex,674"/>
+<Property ID="80004072" PropList="PlayerPropAdd,Dex,684"/>
+<Property ID="80004073" PropList="PlayerPropAdd,Dex,693"/>
+<Property ID="80004074" PropList="PlayerPropAdd,Dex,703"/>
+<Property ID="80004075" PropList="PlayerPropAdd,Dex,712"/>
+<Property ID="80004076" PropList="PlayerPropAdd,Dex,722"/>
+<Property ID="80004077" PropList="PlayerPropAdd,Dex,731"/>
+<Property ID="80004078" PropList="PlayerPropAdd,Dex,741"/>
+<Property ID="80004079" PropList="PlayerPropAdd,Dex,750"/>
+<Property ID="80004080" PropList="PlayerPropAdd,Dex,760"/>
+<Property ID="80004081" PropList="PlayerPropAdd,Dex,769"/>
+<Property ID="80004082" PropList="PlayerPropAdd,Dex,779"/>
+<Property ID="80004083" PropList="PlayerPropAdd,Dex,788"/>
+<Property ID="80004084" PropList="PlayerPropAdd,Dex,798"/>
+<Property ID="80004085" PropList="PlayerPropAdd,Dex,807"/>
+<Property ID="80004086" PropList="PlayerPropAdd,Dex,817"/>
+<Property ID="80004087" PropList="PlayerPropAdd,Dex,826"/>
+<Property ID="80004088" PropList="PlayerPropAdd,Dex,836"/>
+<Property ID="80004089" PropList="PlayerPropAdd,Dex,845"/>
+<Property ID="80004090" PropList="PlayerPropAdd,Dex,855"/>
+<Property ID="80004091" PropList="PlayerPropAdd,Dex,864"/>
+<Property ID="80004092" PropList="PlayerPropAdd,Dex,874"/>
+<Property ID="80004093" PropList="PlayerPropAdd,Dex,883"/>
+<Property ID="80004094" PropList="PlayerPropAdd,Dex,893"/>
+<Property ID="80004095" PropList="PlayerPropAdd,Dex,902"/>
+<Property ID="80004096" PropList="PlayerPropAdd,Dex,912"/>
+<Property ID="80004097" PropList="PlayerPropAdd,Dex,921"/>
+<Property ID="80004098" PropList="PlayerPropAdd,Dex,931"/>
+<Property ID="80004099" PropList="PlayerPropAdd,Dex,940"/>
+<Property ID="80004100" PropList="PlayerPropAdd,Dex,950"/>
+<Property ID="80005000"/>
+<Property ID="80005001" PropList="PlayerPropAdd,Sta,9"/>
+<Property ID="80005002" PropList="PlayerPropAdd,Sta,19"/>
+<Property ID="80005003" PropList="PlayerPropAdd,Sta,28"/>
+<Property ID="80005004" PropList="PlayerPropAdd,Sta,38"/>
+<Property ID="80005005" PropList="PlayerPropAdd,Sta,47"/>
+<Property ID="80005006" PropList="PlayerPropAdd,Sta,57"/>
+<Property ID="80005007" PropList="PlayerPropAdd,Sta,66"/>
+<Property ID="80005008" PropList="PlayerPropAdd,Sta,76"/>
+<Property ID="80005009" PropList="PlayerPropAdd,Sta,85"/>
+<Property ID="80005010" PropList="PlayerPropAdd,Sta,95"/>
+<Property ID="80005011" PropList="PlayerPropAdd,Sta,104"/>
+<Property ID="80005012" PropList="PlayerPropAdd,Sta,114"/>
+<Property ID="80005013" PropList="PlayerPropAdd,Sta,123"/>
+<Property ID="80005014" PropList="PlayerPropAdd,Sta,133"/>
+<Property ID="80005015" PropList="PlayerPropAdd,Sta,142"/>
+<Property ID="80005016" PropList="PlayerPropAdd,Sta,152"/>
+<Property ID="80005017" PropList="PlayerPropAdd,Sta,161"/>
+<Property ID="80005018" PropList="PlayerPropAdd,Sta,171"/>
+<Property ID="80005019" PropList="PlayerPropAdd,Sta,180"/>
+<Property ID="80005020" PropList="PlayerPropAdd,Sta,190"/>
+<Property ID="80005021" PropList="PlayerPropAdd,Sta,199"/>
+<Property ID="80005022" PropList="PlayerPropAdd,Sta,209"/>
+<Property ID="80005023" PropList="PlayerPropAdd,Sta,218"/>
+<Property ID="80005024" PropList="PlayerPropAdd,Sta,228"/>
+<Property ID="80005025" PropList="PlayerPropAdd,Sta,237"/>
+<Property ID="80005026" PropList="PlayerPropAdd,Sta,247"/>
+<Property ID="80005027" PropList="PlayerPropAdd,Sta,256"/>
+<Property ID="80005028" PropList="PlayerPropAdd,Sta,266"/>
+<Property ID="80005029" PropList="PlayerPropAdd,Sta,275"/>
+<Property ID="80005030" PropList="PlayerPropAdd,Sta,285"/>
+<Property ID="80005031" PropList="PlayerPropAdd,Sta,294"/>
+<Property ID="80005032" PropList="PlayerPropAdd,Sta,304"/>
+<Property ID="80005033" PropList="PlayerPropAdd,Sta,313"/>
+<Property ID="80005034" PropList="PlayerPropAdd,Sta,323"/>
+<Property ID="80005035" PropList="PlayerPropAdd,Sta,332"/>
+<Property ID="80005036" PropList="PlayerPropAdd,Sta,342"/>
+<Property ID="80005037" PropList="PlayerPropAdd,Sta,351"/>
+<Property ID="80005038" PropList="PlayerPropAdd,Sta,361"/>
+<Property ID="80005039" PropList="PlayerPropAdd,Sta,370"/>
+<Property ID="80005040" PropList="PlayerPropAdd,Sta,380"/>
+<Property ID="80005041" PropList="PlayerPropAdd,Sta,389"/>
+<Property ID="80005042" PropList="PlayerPropAdd,Sta,399"/>
+<Property ID="80005043" PropList="PlayerPropAdd,Sta,408"/>
+<Property ID="80005044" PropList="PlayerPropAdd,Sta,418"/>
+<Property ID="80005045" PropList="PlayerPropAdd,Sta,427"/>
+<Property ID="80005046" PropList="PlayerPropAdd,Sta,437"/>
+<Property ID="80005047" PropList="PlayerPropAdd,Sta,446"/>
+<Property ID="80005048" PropList="PlayerPropAdd,Sta,456"/>
+<Property ID="80005049" PropList="PlayerPropAdd,Sta,465"/>
+<Property ID="80005050" PropList="PlayerPropAdd,Sta,475"/>
+<Property ID="80005051" PropList="PlayerPropAdd,Sta,484"/>
+<Property ID="80005052" PropList="PlayerPropAdd,Sta,494"/>
+<Property ID="80005053" PropList="PlayerPropAdd,Sta,503"/>
+<Property ID="80005054" PropList="PlayerPropAdd,Sta,513"/>
+<Property ID="80005055" PropList="PlayerPropAdd,Sta,522"/>
+<Property ID="80005056" PropList="PlayerPropAdd,Sta,532"/>
+<Property ID="80005057" PropList="PlayerPropAdd,Sta,541"/>
+<Property ID="80005058" PropList="PlayerPropAdd,Sta,551"/>
+<Property ID="80005059" PropList="PlayerPropAdd,Sta,560"/>
+<Property ID="80005060" PropList="PlayerPropAdd,Sta,570"/>
+<Property ID="80005061" PropList="PlayerPropAdd,Sta,579"/>
+<Property ID="80005062" PropList="PlayerPropAdd,Sta,589"/>
+<Property ID="80005063" PropList="PlayerPropAdd,Sta,598"/>
+<Property ID="80005064" PropList="PlayerPropAdd,Sta,608"/>
+<Property ID="80005065" PropList="PlayerPropAdd,Sta,617"/>
+<Property ID="80005066" PropList="PlayerPropAdd,Sta,627"/>
+<Property ID="80005067" PropList="PlayerPropAdd,Sta,636"/>
+<Property ID="80005068" PropList="PlayerPropAdd,Sta,646"/>
+<Property ID="80005069" PropList="PlayerPropAdd,Sta,655"/>
+<Property ID="80005070" PropList="PlayerPropAdd,Sta,665"/>
+<Property ID="80005071" PropList="PlayerPropAdd,Sta,674"/>
+<Property ID="80005072" PropList="PlayerPropAdd,Sta,684"/>
+<Property ID="80005073" PropList="PlayerPropAdd,Sta,693"/>
+<Property ID="80005074" PropList="PlayerPropAdd,Sta,703"/>
+<Property ID="80005075" PropList="PlayerPropAdd,Sta,712"/>
+<Property ID="80005076" PropList="PlayerPropAdd,Sta,722"/>
+<Property ID="80005077" PropList="PlayerPropAdd,Sta,731"/>
+<Property ID="80005078" PropList="PlayerPropAdd,Sta,741"/>
+<Property ID="80005079" PropList="PlayerPropAdd,Sta,750"/>
+<Property ID="80005080" PropList="PlayerPropAdd,Sta,760"/>
+<Property ID="80005081" PropList="PlayerPropAdd,Sta,769"/>
+<Property ID="80005082" PropList="PlayerPropAdd,Sta,779"/>
+<Property ID="80005083" PropList="PlayerPropAdd,Sta,788"/>
+<Property ID="80005084" PropList="PlayerPropAdd,Sta,798"/>
+<Property ID="80005085" PropList="PlayerPropAdd,Sta,807"/>
+<Property ID="80005086" PropList="PlayerPropAdd,Sta,817"/>
+<Property ID="80005087" PropList="PlayerPropAdd,Sta,826"/>
+<Property ID="80005088" PropList="PlayerPropAdd,Sta,836"/>
+<Property ID="80005089" PropList="PlayerPropAdd,Sta,845"/>
+<Property ID="80005090" PropList="PlayerPropAdd,Sta,855"/>
+<Property ID="80005091" PropList="PlayerPropAdd,Sta,864"/>
+<Property ID="80005092" PropList="PlayerPropAdd,Sta,874"/>
+<Property ID="80005093" PropList="PlayerPropAdd,Sta,883"/>
+<Property ID="80005094" PropList="PlayerPropAdd,Sta,893"/>
+<Property ID="80005095" PropList="PlayerPropAdd,Sta,902"/>
+<Property ID="80005096" PropList="PlayerPropAdd,Sta,912"/>
+<Property ID="80005097" PropList="PlayerPropAdd,Sta,921"/>
+<Property ID="80005098" PropList="PlayerPropAdd,Sta,931"/>
+<Property ID="80005099" PropList="PlayerPropAdd,Sta,940"/>
+<Property ID="80005100" PropList="PlayerPropAdd,Sta,950"/>
+<Property ID="80006000"/>
+<Property ID="80006001" PropList="PlayerPropAdd,AttackAdd,22"/>
+<Property ID="80006002" PropList="PlayerPropAdd,AttackAdd,45"/>
+<Property ID="80006003" PropList="PlayerPropAdd,AttackAdd,67"/>
+<Property ID="80006004" PropList="PlayerPropAdd,AttackAdd,90"/>
+<Property ID="80006005" PropList="PlayerPropAdd,AttackAdd,112"/>
+<Property ID="80006006" PropList="PlayerPropAdd,AttackAdd,135"/>
+<Property ID="80006007" PropList="PlayerPropAdd,AttackAdd,157"/>
+<Property ID="80006008" PropList="PlayerPropAdd,AttackAdd,180"/>
+<Property ID="80006009" PropList="PlayerPropAdd,AttackAdd,202"/>
+<Property ID="80006010" PropList="PlayerPropAdd,AttackAdd,225"/>
+<Property ID="80006011" PropList="PlayerPropAdd,AttackAdd,247"/>
+<Property ID="80006012" PropList="PlayerPropAdd,AttackAdd,270"/>
+<Property ID="80006013" PropList="PlayerPropAdd,AttackAdd,292"/>
+<Property ID="80006014" PropList="PlayerPropAdd,AttackAdd,315"/>
+<Property ID="80006015" PropList="PlayerPropAdd,AttackAdd,337"/>
+<Property ID="80006016" PropList="PlayerPropAdd,AttackAdd,360"/>
+<Property ID="80006017" PropList="PlayerPropAdd,AttackAdd,382"/>
+<Property ID="80006018" PropList="PlayerPropAdd,AttackAdd,405"/>
+<Property ID="80006019" PropList="PlayerPropAdd,AttackAdd,427"/>
+<Property ID="80006020" PropList="PlayerPropAdd,AttackAdd,450"/>
+<Property ID="80006021" PropList="PlayerPropAdd,AttackAdd,472"/>
+<Property ID="80006022" PropList="PlayerPropAdd,AttackAdd,495"/>
+<Property ID="80006023" PropList="PlayerPropAdd,AttackAdd,517"/>
+<Property ID="80006024" PropList="PlayerPropAdd,AttackAdd,540"/>
+<Property ID="80006025" PropList="PlayerPropAdd,AttackAdd,562"/>
+<Property ID="80006026" PropList="PlayerPropAdd,AttackAdd,585"/>
+<Property ID="80006027" PropList="PlayerPropAdd,AttackAdd,607"/>
+<Property ID="80006028" PropList="PlayerPropAdd,AttackAdd,630"/>
+<Property ID="80006029" PropList="PlayerPropAdd,AttackAdd,652"/>
+<Property ID="80006030" PropList="PlayerPropAdd,AttackAdd,675"/>
+<Property ID="80006031" PropList="PlayerPropAdd,AttackAdd,697"/>
+<Property ID="80006032" PropList="PlayerPropAdd,AttackAdd,720"/>
+<Property ID="80006033" PropList="PlayerPropAdd,AttackAdd,742"/>
+<Property ID="80006034" PropList="PlayerPropAdd,AttackAdd,765"/>
+<Property ID="80006035" PropList="PlayerPropAdd,AttackAdd,787"/>
+<Property ID="80006036" PropList="PlayerPropAdd,AttackAdd,810"/>
+<Property ID="80006037" PropList="PlayerPropAdd,AttackAdd,832"/>
+<Property ID="80006038" PropList="PlayerPropAdd,AttackAdd,855"/>
+<Property ID="80006039" PropList="PlayerPropAdd,AttackAdd,877"/>
+<Property ID="80006040" PropList="PlayerPropAdd,AttackAdd,900"/>
+<Property ID="80006041" PropList="PlayerPropAdd,AttackAdd,922"/>
+<Property ID="80006042" PropList="PlayerPropAdd,AttackAdd,945"/>
+<Property ID="80006043" PropList="PlayerPropAdd,AttackAdd,967"/>
+<Property ID="80006044" PropList="PlayerPropAdd,AttackAdd,990"/>
+<Property ID="80006045" PropList="PlayerPropAdd,AttackAdd,1012"/>
+<Property ID="80006046" PropList="PlayerPropAdd,AttackAdd,1035"/>
+<Property ID="80006047" PropList="PlayerPropAdd,AttackAdd,1057"/>
+<Property ID="80006048" PropList="PlayerPropAdd,AttackAdd,1080"/>
+<Property ID="80006049" PropList="PlayerPropAdd,AttackAdd,1102"/>
+<Property ID="80006050" PropList="PlayerPropAdd,AttackAdd,1125"/>
+<Property ID="80006051" PropList="PlayerPropAdd,AttackAdd,1147"/>
+<Property ID="80006052" PropList="PlayerPropAdd,AttackAdd,1170"/>
+<Property ID="80006053" PropList="PlayerPropAdd,AttackAdd,1192"/>
+<Property ID="80006054" PropList="PlayerPropAdd,AttackAdd,1215"/>
+<Property ID="80006055" PropList="PlayerPropAdd,AttackAdd,1237"/>
+<Property ID="80006056" PropList="PlayerPropAdd,AttackAdd,1260"/>
+<Property ID="80006057" PropList="PlayerPropAdd,AttackAdd,1282"/>
+<Property ID="80006058" PropList="PlayerPropAdd,AttackAdd,1305"/>
+<Property ID="80006059" PropList="PlayerPropAdd,AttackAdd,1327"/>
+<Property ID="80006060" PropList="PlayerPropAdd,AttackAdd,1350"/>
+<Property ID="80006061" PropList="PlayerPropAdd,AttackAdd,1372"/>
+<Property ID="80006062" PropList="PlayerPropAdd,AttackAdd,1395"/>
+<Property ID="80006063" PropList="PlayerPropAdd,AttackAdd,1417"/>
+<Property ID="80006064" PropList="PlayerPropAdd,AttackAdd,1440"/>
+<Property ID="80006065" PropList="PlayerPropAdd,AttackAdd,1462"/>
+<Property ID="80006066" PropList="PlayerPropAdd,AttackAdd,1485"/>
+<Property ID="80006067" PropList="PlayerPropAdd,AttackAdd,1507"/>
+<Property ID="80006068" PropList="PlayerPropAdd,AttackAdd,1530"/>
+<Property ID="80006069" PropList="PlayerPropAdd,AttackAdd,1552"/>
+<Property ID="80006070" PropList="PlayerPropAdd,AttackAdd,1575"/>
+<Property ID="80006071" PropList="PlayerPropAdd,AttackAdd,1597"/>
+<Property ID="80006072" PropList="PlayerPropAdd,AttackAdd,1620"/>
+<Property ID="80006073" PropList="PlayerPropAdd,AttackAdd,1642"/>
+<Property ID="80006074" PropList="PlayerPropAdd,AttackAdd,1665"/>
+<Property ID="80006075" PropList="PlayerPropAdd,AttackAdd,1687"/>
+<Property ID="80006076" PropList="PlayerPropAdd,AttackAdd,1710"/>
+<Property ID="80006077" PropList="PlayerPropAdd,AttackAdd,1732"/>
+<Property ID="80006078" PropList="PlayerPropAdd,AttackAdd,1755"/>
+<Property ID="80006079" PropList="PlayerPropAdd,AttackAdd,1777"/>
+<Property ID="80006080" PropList="PlayerPropAdd,AttackAdd,1800"/>
+<Property ID="80006081" PropList="PlayerPropAdd,AttackAdd,1822"/>
+<Property ID="80006082" PropList="PlayerPropAdd,AttackAdd,1845"/>
+<Property ID="80006083" PropList="PlayerPropAdd,AttackAdd,1867"/>
+<Property ID="80006084" PropList="PlayerPropAdd,AttackAdd,1890"/>
+<Property ID="80006085" PropList="PlayerPropAdd,AttackAdd,1912"/>
+<Property ID="80006086" PropList="PlayerPropAdd,AttackAdd,1935"/>
+<Property ID="80006087" PropList="PlayerPropAdd,AttackAdd,1957"/>
+<Property ID="80006088" PropList="PlayerPropAdd,AttackAdd,1980"/>
+<Property ID="80006089" PropList="PlayerPropAdd,AttackAdd,2002"/>
+<Property ID="80006090" PropList="PlayerPropAdd,AttackAdd,2025"/>
+<Property ID="80006091" PropList="PlayerPropAdd,AttackAdd,2047"/>
+<Property ID="80006092" PropList="PlayerPropAdd,AttackAdd,2070"/>
+<Property ID="80006093" PropList="PlayerPropAdd,AttackAdd,2092"/>
+<Property ID="80006094" PropList="PlayerPropAdd,AttackAdd,2115"/>
+<Property ID="80006095" PropList="PlayerPropAdd,AttackAdd,2137"/>
+<Property ID="80006096" PropList="PlayerPropAdd,AttackAdd,2160"/>
+<Property ID="80006097" PropList="PlayerPropAdd,AttackAdd,2182"/>
+<Property ID="80006098" PropList="PlayerPropAdd,AttackAdd,2205"/>
+<Property ID="80006099" PropList="PlayerPropAdd,AttackAdd,2227"/>
+<Property ID="80006100" PropList="PlayerPropAdd,AttackAdd,2250"/>
+<Property ID="70001000"/>
+<Property ID="70001001" PropList="SkillEffectAdd,10211,214;SkillEffectAdd,10212,215;SkillEffectAdd,10213,216;SkillEffectAdd,10214,217"/>
+<Property ID="31001000"/>
+<Property ID="31001001" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,AttackAdd,60"/>
+<Property ID="31001002" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,AttackAdd,120"/>
+<Property ID="31001003" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,AttackAdd,180"/>
+<Property ID="31002000"/>
+<Property ID="31002001" SkillNeedTerm="31001,3" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,DefendAdd,48"/>
+<Property ID="31002002" SkillNeedTerm="31001,3" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,DefendAdd,96"/>
+<Property ID="31002003" SkillNeedTerm="31001,3" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,DefendAdd,144"/>
+<Property ID="31003000"/>
+<Property ID="31003001" SkillNeedTerm="31002,3" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,HPAdd,750"/>
+<Property ID="31003002" SkillNeedTerm="31002,3" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,HPAdd,1500"/>
+<Property ID="31003003" SkillNeedTerm="31002,3" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,HPAdd,2250"/>
+<Property ID="31004000"/>
+<Property ID="31004001" SkillNeedTerm="31003,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillEffectAdd,10313,1021;PlayerPropAdd,PS_Buff_31004,-2"/>
+<Property ID="31004002" SkillNeedTerm="31003,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillEffectAdd,10313,1021;PlayerPropAdd,PS_Buff_31004,-4"/>
+<Property ID="31004003" SkillNeedTerm="31003,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillEffectAdd,10313,1021;PlayerPropAdd,PS_Buff_31004,-6"/>
+<Property ID="31005000"/>
+<Property ID="31005001" SkillNeedTerm="31004,3" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,AttackAdd,90"/>
+<Property ID="31005002" SkillNeedTerm="31004,3" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,AttackAdd,180"/>
+<Property ID="31005003" SkillNeedTerm="31004,3" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,AttackAdd,270"/>
+<Property ID="31006000"/>
+<Property ID="31006001" SkillNeedTerm="31005,3" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,DefendAdd,72"/>
+<Property ID="31006002" SkillNeedTerm="31005,3" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,DefendAdd,144"/>
+<Property ID="31006003" SkillNeedTerm="31005,3" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,DefendAdd,216"/>
+<Property ID="31007000"/>
+<Property ID="31007001" SkillNeedTerm="31006,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillEffectAdd,10311,1022;PlayerPropAdd,PS_Buff_31007,-4"/>
+<Property ID="31007002" SkillNeedTerm="31006,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillEffectAdd,10311,1022;PlayerPropAdd,PS_Buff_31007,-9"/>
+<Property ID="31007003" SkillNeedTerm="31006,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillEffectAdd,10311,1022;PlayerPropAdd,PS_Buff_31007,-13"/>
+<Property ID="31008000"/>
+<Property ID="31008001" SkillNeedTerm="31007,3" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,HPAdd,1125"/>
+<Property ID="31008002" SkillNeedTerm="31007,3" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,HPAdd,2250"/>
+<Property ID="31008003" SkillNeedTerm="31007,3" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,HPAdd,3375"/>
+<Property ID="31009000"/>
+<Property ID="31009001" SkillNeedTerm="31008,3" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,Str,48"/>
+<Property ID="31009002" SkillNeedTerm="31008,3" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,Str,96"/>
+<Property ID="31009003" SkillNeedTerm="31008,3" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,Str,143"/>
+<Property ID="31010000"/>
+<Property ID="31010001" SkillNeedTerm="31009,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillEffectAdd,10312,1023"/>
+<Property ID="31010002" SkillNeedTerm="31009,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillEffectAdd,10312,1037"/>
+<Property ID="31010003" SkillNeedTerm="31009,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillEffectAdd,10312,1038"/>
+<Property ID="31011000"/>
+<Property ID="31011001" SkillNeedTerm="31010,3" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,Dex,48"/>
+<Property ID="31011002" SkillNeedTerm="31010,3" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,Dex,96"/>
+<Property ID="31011003" SkillNeedTerm="31010,3" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,Dex,143"/>
+<Property ID="31012000"/>
+<Property ID="31012001" SkillNeedTerm="31011,3" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,Sta,48"/>
+<Property ID="31012002" SkillNeedTerm="31011,3" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,Sta,96"/>
+<Property ID="31012003" SkillNeedTerm="31011,3" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,Sta,143"/>
+<Property ID="31013000"/>
+<Property ID="31013001" SkillNeedTerm="31012,3" CostSkillPoint="10" MoneyType="0" CostMoney="30000" PropList="SkillPropAdd,10314,SkillDamageRate,42"/>
+<Property ID="32001000"/>
+<Property ID="32001001" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,AttackAdd,60"/>
+<Property ID="32001002" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,AttackAdd,120"/>
+<Property ID="32001003" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,AttackAdd,180"/>
+<Property ID="32002000"/>
+<Property ID="32002001" SkillNeedTerm="32001,3" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,DefendAdd,48"/>
+<Property ID="32002002" SkillNeedTerm="32001,3" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,DefendAdd,96"/>
+<Property ID="32002003" SkillNeedTerm="32001,3" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,DefendAdd,144"/>
+<Property ID="32003000"/>
+<Property ID="32003001" SkillNeedTerm="32002,3" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,HPAdd,750"/>
+<Property ID="32003002" SkillNeedTerm="32002,3" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,HPAdd,1500"/>
+<Property ID="32003003" SkillNeedTerm="32002,3" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,HPAdd,2250"/>
+<Property ID="32004000"/>
+<Property ID="32004001" SkillNeedTerm="32003,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillEffectAdd,10311,1024"/>
+<Property ID="32004002" SkillNeedTerm="32003,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillEffectAdd,10311,1039"/>
+<Property ID="32004003" SkillNeedTerm="32003,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillEffectAdd,10311,1040"/>
+<Property ID="32005000"/>
+<Property ID="32005001" SkillNeedTerm="32004,3" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,AttackAdd,90"/>
+<Property ID="32005002" SkillNeedTerm="32004,3" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,AttackAdd,180"/>
+<Property ID="32005003" SkillNeedTerm="32004,3" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,AttackAdd,270"/>
+<Property ID="32006000"/>
+<Property ID="32006001" SkillNeedTerm="32005,3" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,DefendAdd,72"/>
+<Property ID="32006002" SkillNeedTerm="32005,3" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,DefendAdd,144"/>
+<Property ID="32006003" SkillNeedTerm="32005,3" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,DefendAdd,216"/>
+<Property ID="32007000"/>
+<Property ID="32007001" SkillNeedTerm="32006,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillEffectAdd,10312,1025;PlayerPropAdd,PS_Buff_32007,-1"/>
+<Property ID="32007002" SkillNeedTerm="32006,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillEffectAdd,10312,1025;PlayerPropAdd,PS_Buff_32007,-2"/>
+<Property ID="32007003" SkillNeedTerm="32006,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillEffectAdd,10312,1025;PlayerPropAdd,PS_Buff_32007,-3"/>
+<Property ID="32008000"/>
+<Property ID="32008001" SkillNeedTerm="32007,3" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,HPAdd,1125"/>
+<Property ID="32008002" SkillNeedTerm="32007,3" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,HPAdd,2250"/>
+<Property ID="32008003" SkillNeedTerm="32007,3" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,HPAdd,3375"/>
+<Property ID="32009000"/>
+<Property ID="32009001" SkillNeedTerm="32008,3" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,Str,48"/>
+<Property ID="32009002" SkillNeedTerm="32008,3" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,Str,96"/>
+<Property ID="32009003" SkillNeedTerm="32008,3" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,Str,143"/>
+<Property ID="32010000"/>
+<Property ID="32010001" SkillNeedTerm="32009,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillEffectAdd,10313,1026;PlayerPropAdd,PS_Buff_32010,-12"/>
+<Property ID="32010002" SkillNeedTerm="32009,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillEffectAdd,10313,1026;PlayerPropAdd,PS_Buff_32010,-25"/>
+<Property ID="32010003" SkillNeedTerm="32009,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillEffectAdd,10313,1026;PlayerPropAdd,PS_Buff_32010,-38"/>
+<Property ID="32011000"/>
+<Property ID="32011001" SkillNeedTerm="32010,3" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,Dex,48"/>
+<Property ID="32011002" SkillNeedTerm="32010,3" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,Dex,96"/>
+<Property ID="32011003" SkillNeedTerm="32010,3" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,Dex,143"/>
+<Property ID="32012000"/>
+<Property ID="32012001" SkillNeedTerm="32011,3" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,Sta,48"/>
+<Property ID="32012002" SkillNeedTerm="32011,3" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,Sta,96"/>
+<Property ID="32012003" SkillNeedTerm="32011,3" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,Sta,143"/>
+<Property ID="32013000"/>
+<Property ID="32013001" SkillNeedTerm="32012,3" CostSkillPoint="10" MoneyType="0" CostMoney="30000" PropList="SkillEffectAdd,10314,1027"/>
+<Property ID="33001000"/>
+<Property ID="33001001" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,AttackAdd,60"/>
+<Property ID="33001002" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,AttackAdd,120"/>
+<Property ID="33001003" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,AttackAdd,180"/>
+<Property ID="33002000"/>
+<Property ID="33002001" SkillNeedTerm="33001,3" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,DefendAdd,48"/>
+<Property ID="33002002" SkillNeedTerm="33001,3" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,DefendAdd,96"/>
+<Property ID="33002003" SkillNeedTerm="33001,3" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,DefendAdd,144"/>
+<Property ID="33003000"/>
+<Property ID="33003001" SkillNeedTerm="33002,3" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,HPAdd,750"/>
+<Property ID="33003002" SkillNeedTerm="33002,3" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,HPAdd,1500"/>
+<Property ID="33003003" SkillNeedTerm="33002,3" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,HPAdd,2250"/>
+<Property ID="33004000"/>
+<Property ID="33004001" SkillNeedTerm="33003,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillPropAdd,10312,SkillDamageRate,4"/>
+<Property ID="33004002" SkillNeedTerm="33003,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillPropAdd,10312,SkillDamageRate,8"/>
+<Property ID="33004003" SkillNeedTerm="33003,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillPropAdd,10312,SkillDamageRate,13"/>
+<Property ID="33005000"/>
+<Property ID="33005001" SkillNeedTerm="33004,3" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,AttackAdd,90"/>
+<Property ID="33005002" SkillNeedTerm="33004,3" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,AttackAdd,180"/>
+<Property ID="33005003" SkillNeedTerm="33004,3" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,AttackAdd,270"/>
+<Property ID="33006000"/>
+<Property ID="33006001" SkillNeedTerm="33005,3" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,DefendAdd,72"/>
+<Property ID="33006002" SkillNeedTerm="33005,3" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,DefendAdd,144"/>
+<Property ID="33006003" SkillNeedTerm="33005,3" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,DefendAdd,216"/>
+<Property ID="33007000"/>
+<Property ID="33007001" SkillNeedTerm="33006,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillEffectAdd,10313,1028;PlayerPropAdd,PS_Buff_33007,1"/>
+<Property ID="33007002" SkillNeedTerm="33006,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillEffectAdd,10313,1028;PlayerPropAdd,PS_Buff_33007,2"/>
+<Property ID="33007003" SkillNeedTerm="33006,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillEffectAdd,10313,1028;PlayerPropAdd,PS_Buff_33007,3"/>
+<Property ID="33008000"/>
+<Property ID="33008001" SkillNeedTerm="33007,3" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,HPAdd,1125"/>
+<Property ID="33008002" SkillNeedTerm="33007,3" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,HPAdd,2250"/>
+<Property ID="33008003" SkillNeedTerm="33007,3" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,HPAdd,3375"/>
+<Property ID="33009000"/>
+<Property ID="33009001" SkillNeedTerm="33008,3" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,Str,48"/>
+<Property ID="33009002" SkillNeedTerm="33008,3" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,Str,96"/>
+<Property ID="33009003" SkillNeedTerm="33008,3" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,Str,143"/>
+<Property ID="33010000"/>
+<Property ID="33010001" SkillNeedTerm="33009,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillEffectAdd,10311,1029;PlayerPropAdd,PS_Buff_33010,1"/>
+<Property ID="33010002" SkillNeedTerm="33009,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillEffectAdd,10311,1029;PlayerPropAdd,PS_Buff_33010,2"/>
+<Property ID="33010003" SkillNeedTerm="33009,3" CostSkillPoint="3" MoneyType="0" CostMoney="5000" PropList="SkillEffectAdd,10311,1029;PlayerPropAdd,PS_Buff_33010,3"/>
+<Property ID="33011000"/>
+<Property ID="33011001" SkillNeedTerm="33010,3" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,Dex,48"/>
+<Property ID="33011002" SkillNeedTerm="33010,3" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,Dex,96"/>
+<Property ID="33011003" SkillNeedTerm="33010,3" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,Dex,143"/>
+<Property ID="33012000"/>
+<Property ID="33012001" SkillNeedTerm="33011,3" CostSkillPoint="1" MoneyType="0" CostMoney="1000" PropList="PlayerPropAdd,Sta,48"/>
+<Property ID="33012002" SkillNeedTerm="33011,3" CostSkillPoint="1" MoneyType="0" CostMoney="2000" PropList="PlayerPropAdd,Sta,96"/>
+<Property ID="33012003" SkillNeedTerm="33011,3" CostSkillPoint="1" MoneyType="0" CostMoney="3000" PropList="PlayerPropAdd,Sta,143"/>
+<Property ID="33013000"/>
+<Property ID="33013001" SkillNeedTerm="33012,3" CostSkillPoint="10" MoneyType="0" CostMoney="30000" PropList="SkillEffectAdd,10314,1030"/>
+<Property ID="60002000"/>
+<Property ID="60002001" PropList="PlayerPropAdd,HitRate,200;AddNewBuff,Buff_Book_60002"/>
+<Property ID="60003000"/>
+<Property ID="60003001" PropList="PlayerPropAdd,AttackRate,200;AddNewBuff,Buff_Book_60003"/>
+<Property ID="60004000"/>
+<Property ID="60004001" PropList="PlayerPropAdd,MissRate,200;AddNewBuff,Buff_Book_60004"/>
+<Property ID="60005000"/>
+<Property ID="60005001" PropList="PlayerPropAdd,DefendRate,200;AddNewBuff,Buff_Book_60005"/>
+<Property ID="61001000"/>
+<Property ID="61001001" PropList="SkillEffectAdd,10111,5101"/>
+<Property ID="61002000"/>
+<Property ID="61002001" PropList="SkillEffectAdd,10111,5102"/>
+<Property ID="61003000"/>
+<Property ID="61003001" PropList="SkillEffectAdd,10112,5103"/>
+<Property ID="61004000"/>
+<Property ID="61004001" PropList="SkillEffectAdd,10112,5104"/>
+<Property ID="61005000"/>
+<Property ID="61005001" PropList="SkillEffectAdd,10113,5105"/>
+<Property ID="61006000"/>
+<Property ID="61006001" PropList="SkillEffectAdd,10113,5106"/>
+<Property ID="61007000"/>
+<Property ID="61007001" PropList="SkillEffectAdd,10114,5107"/>
+<Property ID="61008000"/>
+<Property ID="61008001" PropList="SkillEffectAdd,10114,5108"/>
+<Property ID="62001000"/>
+<Property ID="62001001" PropList="SkillEffectAdd,10211,5201"/>
+<Property ID="62002000"/>
+<Property ID="62002001" PropList="SkillEffectAdd,10211,5202"/>
+<Property ID="62003000"/>
+<Property ID="62003001" PropList="SkillEffectAdd,10212,5203"/>
+<Property ID="62004000"/>
+<Property ID="62004001" PropList="SkillEffectAdd,10212,5204"/>
+<Property ID="62005000"/>
+<Property ID="62005001" PropList="SkillEffectAdd,10213,5205"/>
+<Property ID="62006000"/>
+<Property ID="62006001" PropList="SkillEffectAdd,10213,5206"/>
+<Property ID="62007000"/>
+<Property ID="62007001" PropList="SkillEffectAdd,10214,5207"/>
+<Property ID="62008000"/>
+<Property ID="62008001" PropList="SkillEffectAdd,10214,5208"/>
+<Property ID="63001000"/>
+<Property ID="63001001" PropList="SkillEffectAdd,10311,5301"/>
+<Property ID="63002000"/>
+<Property ID="63002001" PropList="SkillEffectAdd,10311,5302"/>
+<Property ID="63003000"/>
+<Property ID="63003001" PropList="SkillEffectAdd,10312,5303"/>
+<Property ID="63004000"/>
+<Property ID="63004001" PropList="SkillEffectAdd,10312,5304"/>
+<Property ID="63005000"/>
+<Property ID="63005001" PropList="SkillEffectAdd,10313,5305"/>
+<Property ID="63006000"/>
+<Property ID="63006001" PropList="SkillEffectAdd,10313,5306"/>
+<Property ID="63007000"/>
+<Property ID="63007001" PropList="SkillEffectAdd,10314,5307"/>
+<Property ID="63008000"/>
+<Property ID="63008001" PropList="SkillEffectAdd,10314,5308"/>
+<Property ID="71001000"/>
+<Property ID="71001001" PropList="AddNewBuff,pet_bisha_001"/>
+<Property ID="71002000"/>
+<Property ID="71002001" PropList="AddNewBuff,pet_bisha_002"/>
+<Property ID="71003000"/>
+<Property ID="71003001" PropList="AddNewBuff,pet_zhiming_001"/>
+<Property ID="71004000"/>
+<Property ID="71004001" PropList="AddNewBuff,pet_zhiming_002"/>
+<Property ID="71005000"/>
+<Property ID="71005001" PropList="AddNewBuff,pet_canbao_001"/>
+<Property ID="71006000"/>
+<Property ID="71006001" PropList="AddNewBuff,pet_canbao_002"/>
+<Property ID="71007000"/>
+<Property ID="71007001" PropList="AddNewBuff,pet_qianzhi_001"/>
+<Property ID="71008000"/>
+<Property ID="71008001" PropList="AddNewBuff,pet_qianzhi_002"/>
+<Property ID="71009000"/>
+<Property ID="71009001" PropList="PlayerPropAdd,Str,2"/>
+<Property ID="71009002" PropList="PlayerPropAdd,Str,4"/>
+<Property ID="71009003" PropList="PlayerPropAdd,Str,6"/>
+<Property ID="71009004" PropList="PlayerPropAdd,Str,8"/>
+<Property ID="71009005" PropList="PlayerPropAdd,Str,10"/>
+<Property ID="71009006" PropList="PlayerPropAdd,Str,12"/>
+<Property ID="71009007" PropList="PlayerPropAdd,Str,14"/>
+<Property ID="71009008" PropList="PlayerPropAdd,Str,16"/>
+<Property ID="71009009" PropList="PlayerPropAdd,Str,18"/>
+<Property ID="71009010" PropList="PlayerPropAdd,Str,20"/>
+<Property ID="71009011" PropList="PlayerPropAdd,Str,22"/>
+<Property ID="71009012" PropList="PlayerPropAdd,Str,24"/>
+<Property ID="71009013" PropList="PlayerPropAdd,Str,26"/>
+<Property ID="71009014" PropList="PlayerPropAdd,Str,28"/>
+<Property ID="71009015" PropList="PlayerPropAdd,Str,30"/>
+<Property ID="71009016" PropList="PlayerPropAdd,Str,32"/>
+<Property ID="71009017" PropList="PlayerPropAdd,Str,34"/>
+<Property ID="71009018" PropList="PlayerPropAdd,Str,36"/>
+<Property ID="71009019" PropList="PlayerPropAdd,Str,38"/>
+<Property ID="71009020" PropList="PlayerPropAdd,Str,40"/>
+<Property ID="71009021" PropList="PlayerPropAdd,Str,42"/>
+<Property ID="71009022" PropList="PlayerPropAdd,Str,44"/>
+<Property ID="71009023" PropList="PlayerPropAdd,Str,46"/>
+<Property ID="71009024" PropList="PlayerPropAdd,Str,48"/>
+<Property ID="71009025" PropList="PlayerPropAdd,Str,50"/>
+<Property ID="71009026" PropList="PlayerPropAdd,Str,52"/>
+<Property ID="71009027" PropList="PlayerPropAdd,Str,54"/>
+<Property ID="71009028" PropList="PlayerPropAdd,Str,56"/>
+<Property ID="71009029" PropList="PlayerPropAdd,Str,58"/>
+<Property ID="71009030" PropList="PlayerPropAdd,Str,60"/>
+<Property ID="71009031" PropList="PlayerPropAdd,Str,62"/>
+<Property ID="71009032" PropList="PlayerPropAdd,Str,64"/>
+<Property ID="71009033" PropList="PlayerPropAdd,Str,66"/>
+<Property ID="71009034" PropList="PlayerPropAdd,Str,68"/>
+<Property ID="71009035" PropList="PlayerPropAdd,Str,70"/>
+<Property ID="71009036" PropList="PlayerPropAdd,Str,72"/>
+<Property ID="71009037" PropList="PlayerPropAdd,Str,74"/>
+<Property ID="71009038" PropList="PlayerPropAdd,Str,76"/>
+<Property ID="71009039" PropList="PlayerPropAdd,Str,78"/>
+<Property ID="71009040" PropList="PlayerPropAdd,Str,80"/>
+<Property ID="71009041" PropList="PlayerPropAdd,Str,82"/>
+<Property ID="71009042" PropList="PlayerPropAdd,Str,84"/>
+<Property ID="71009043" PropList="PlayerPropAdd,Str,86"/>
+<Property ID="71009044" PropList="PlayerPropAdd,Str,88"/>
+<Property ID="71009045" PropList="PlayerPropAdd,Str,90"/>
+<Property ID="71009046" PropList="PlayerPropAdd,Str,92"/>
+<Property ID="71009047" PropList="PlayerPropAdd,Str,94"/>
+<Property ID="71009048" PropList="PlayerPropAdd,Str,96"/>
+<Property ID="71009049" PropList="PlayerPropAdd,Str,98"/>
+<Property ID="71009050" PropList="PlayerPropAdd,Str,100"/>
+<Property ID="71009051" PropList="PlayerPropAdd,Str,102"/>
+<Property ID="71009052" PropList="PlayerPropAdd,Str,104"/>
+<Property ID="71009053" PropList="PlayerPropAdd,Str,106"/>
+<Property ID="71009054" PropList="PlayerPropAdd,Str,108"/>
+<Property ID="71009055" PropList="PlayerPropAdd,Str,110"/>
+<Property ID="71009056" PropList="PlayerPropAdd,Str,112"/>
+<Property ID="71009057" PropList="PlayerPropAdd,Str,114"/>
+<Property ID="71009058" PropList="PlayerPropAdd,Str,116"/>
+<Property ID="71009059" PropList="PlayerPropAdd,Str,118"/>
+<Property ID="71009060" PropList="PlayerPropAdd,Str,120"/>
+<Property ID="71009061" PropList="PlayerPropAdd,Str,122"/>
+<Property ID="71009062" PropList="PlayerPropAdd,Str,124"/>
+<Property ID="71009063" PropList="PlayerPropAdd,Str,126"/>
+<Property ID="71009064" PropList="PlayerPropAdd,Str,128"/>
+<Property ID="71009065" PropList="PlayerPropAdd,Str,130"/>
+<Property ID="71009066" PropList="PlayerPropAdd,Str,132"/>
+<Property ID="71009067" PropList="PlayerPropAdd,Str,134"/>
+<Property ID="71009068" PropList="PlayerPropAdd,Str,136"/>
+<Property ID="71009069" PropList="PlayerPropAdd,Str,138"/>
+<Property ID="71009070" PropList="PlayerPropAdd,Str,140"/>
+<Property ID="71009071" PropList="PlayerPropAdd,Str,142"/>
+<Property ID="71009072" PropList="PlayerPropAdd,Str,144"/>
+<Property ID="71009073" PropList="PlayerPropAdd,Str,146"/>
+<Property ID="71009074" PropList="PlayerPropAdd,Str,148"/>
+<Property ID="71009075" PropList="PlayerPropAdd,Str,150"/>
+<Property ID="71009076" PropList="PlayerPropAdd,Str,152"/>
+<Property ID="71009077" PropList="PlayerPropAdd,Str,154"/>
+<Property ID="71009078" PropList="PlayerPropAdd,Str,156"/>
+<Property ID="71009079" PropList="PlayerPropAdd,Str,158"/>
+<Property ID="71009080" PropList="PlayerPropAdd,Str,160"/>
+<Property ID="71009081" PropList="PlayerPropAdd,Str,162"/>
+<Property ID="71009082" PropList="PlayerPropAdd,Str,164"/>
+<Property ID="71009083" PropList="PlayerPropAdd,Str,166"/>
+<Property ID="71009084" PropList="PlayerPropAdd,Str,168"/>
+<Property ID="71009085" PropList="PlayerPropAdd,Str,170"/>
+<Property ID="71009086" PropList="PlayerPropAdd,Str,172"/>
+<Property ID="71009087" PropList="PlayerPropAdd,Str,174"/>
+<Property ID="71009088" PropList="PlayerPropAdd,Str,176"/>
+<Property ID="71009089" PropList="PlayerPropAdd,Str,178"/>
+<Property ID="71009090" PropList="PlayerPropAdd,Str,180"/>
+<Property ID="71009091" PropList="PlayerPropAdd,Str,182"/>
+<Property ID="71009092" PropList="PlayerPropAdd,Str,184"/>
+<Property ID="71009093" PropList="PlayerPropAdd,Str,186"/>
+<Property ID="71009094" PropList="PlayerPropAdd,Str,188"/>
+<Property ID="71009095" PropList="PlayerPropAdd,Str,190"/>
+<Property ID="71009096" PropList="PlayerPropAdd,Str,192"/>
+<Property ID="71009097" PropList="PlayerPropAdd,Str,194"/>
+<Property ID="71009098" PropList="PlayerPropAdd,Str,196"/>
+<Property ID="71009099" PropList="PlayerPropAdd,Str,198"/>
+<Property ID="71009100" PropList="PlayerPropAdd,Str,200"/>
+<Property ID="71010000"/>
+<Property ID="71010001" PropList="PlayerPropAdd,Str,4"/>
+<Property ID="71010002" PropList="PlayerPropAdd,Str,9"/>
+<Property ID="71010003" PropList="PlayerPropAdd,Str,13"/>
+<Property ID="71010004" PropList="PlayerPropAdd,Str,18"/>
+<Property ID="71010005" PropList="PlayerPropAdd,Str,22"/>
+<Property ID="71010006" PropList="PlayerPropAdd,Str,27"/>
+<Property ID="71010007" PropList="PlayerPropAdd,Str,31"/>
+<Property ID="71010008" PropList="PlayerPropAdd,Str,36"/>
+<Property ID="71010009" PropList="PlayerPropAdd,Str,40"/>
+<Property ID="71010010" PropList="PlayerPropAdd,Str,45"/>
+<Property ID="71010011" PropList="PlayerPropAdd,Str,49"/>
+<Property ID="71010012" PropList="PlayerPropAdd,Str,54"/>
+<Property ID="71010013" PropList="PlayerPropAdd,Str,58"/>
+<Property ID="71010014" PropList="PlayerPropAdd,Str,63"/>
+<Property ID="71010015" PropList="PlayerPropAdd,Str,67"/>
+<Property ID="71010016" PropList="PlayerPropAdd,Str,72"/>
+<Property ID="71010017" PropList="PlayerPropAdd,Str,76"/>
+<Property ID="71010018" PropList="PlayerPropAdd,Str,81"/>
+<Property ID="71010019" PropList="PlayerPropAdd,Str,85"/>
+<Property ID="71010020" PropList="PlayerPropAdd,Str,90"/>
+<Property ID="71010021" PropList="PlayerPropAdd,Str,94"/>
+<Property ID="71010022" PropList="PlayerPropAdd,Str,99"/>
+<Property ID="71010023" PropList="PlayerPropAdd,Str,103"/>
+<Property ID="71010024" PropList="PlayerPropAdd,Str,108"/>
+<Property ID="71010025" PropList="PlayerPropAdd,Str,112"/>
+<Property ID="71010026" PropList="PlayerPropAdd,Str,117"/>
+<Property ID="71010027" PropList="PlayerPropAdd,Str,121"/>
+<Property ID="71010028" PropList="PlayerPropAdd,Str,126"/>
+<Property ID="71010029" PropList="PlayerPropAdd,Str,130"/>
+<Property ID="71010030" PropList="PlayerPropAdd,Str,135"/>
+<Property ID="71010031" PropList="PlayerPropAdd,Str,139"/>
+<Property ID="71010032" PropList="PlayerPropAdd,Str,144"/>
+<Property ID="71010033" PropList="PlayerPropAdd,Str,148"/>
+<Property ID="71010034" PropList="PlayerPropAdd,Str,153"/>
+<Property ID="71010035" PropList="PlayerPropAdd,Str,157"/>
+<Property ID="71010036" PropList="PlayerPropAdd,Str,162"/>
+<Property ID="71010037" PropList="PlayerPropAdd,Str,166"/>
+<Property ID="71010038" PropList="PlayerPropAdd,Str,171"/>
+<Property ID="71010039" PropList="PlayerPropAdd,Str,175"/>
+<Property ID="71010040" PropList="PlayerPropAdd,Str,180"/>
+<Property ID="71010041" PropList="PlayerPropAdd,Str,184"/>
+<Property ID="71010042" PropList="PlayerPropAdd,Str,189"/>
+<Property ID="71010043" PropList="PlayerPropAdd,Str,193"/>
+<Property ID="71010044" PropList="PlayerPropAdd,Str,198"/>
+<Property ID="71010045" PropList="PlayerPropAdd,Str,202"/>
+<Property ID="71010046" PropList="PlayerPropAdd,Str,207"/>
+<Property ID="71010047" PropList="PlayerPropAdd,Str,211"/>
+<Property ID="71010048" PropList="PlayerPropAdd,Str,216"/>
+<Property ID="71010049" PropList="PlayerPropAdd,Str,220"/>
+<Property ID="71010050" PropList="PlayerPropAdd,Str,225"/>
+<Property ID="71010051" PropList="PlayerPropAdd,Str,229"/>
+<Property ID="71010052" PropList="PlayerPropAdd,Str,234"/>
+<Property ID="71010053" PropList="PlayerPropAdd,Str,238"/>
+<Property ID="71010054" PropList="PlayerPropAdd,Str,243"/>
+<Property ID="71010055" PropList="PlayerPropAdd,Str,247"/>
+<Property ID="71010056" PropList="PlayerPropAdd,Str,252"/>
+<Property ID="71010057" PropList="PlayerPropAdd,Str,256"/>
+<Property ID="71010058" PropList="PlayerPropAdd,Str,261"/>
+<Property ID="71010059" PropList="PlayerPropAdd,Str,265"/>
+<Property ID="71010060" PropList="PlayerPropAdd,Str,270"/>
+<Property ID="71010061" PropList="PlayerPropAdd,Str,274"/>
+<Property ID="71010062" PropList="PlayerPropAdd,Str,279"/>
+<Property ID="71010063" PropList="PlayerPropAdd,Str,283"/>
+<Property ID="71010064" PropList="PlayerPropAdd,Str,288"/>
+<Property ID="71010065" PropList="PlayerPropAdd,Str,292"/>
+<Property ID="71010066" PropList="PlayerPropAdd,Str,297"/>
+<Property ID="71010067" PropList="PlayerPropAdd,Str,301"/>
+<Property ID="71010068" PropList="PlayerPropAdd,Str,306"/>
+<Property ID="71010069" PropList="PlayerPropAdd,Str,310"/>
+<Property ID="71010070" PropList="PlayerPropAdd,Str,315"/>
+<Property ID="71010071" PropList="PlayerPropAdd,Str,319"/>
+<Property ID="71010072" PropList="PlayerPropAdd,Str,324"/>
+<Property ID="71010073" PropList="PlayerPropAdd,Str,328"/>
+<Property ID="71010074" PropList="PlayerPropAdd,Str,333"/>
+<Property ID="71010075" PropList="PlayerPropAdd,Str,337"/>
+<Property ID="71010076" PropList="PlayerPropAdd,Str,342"/>
+<Property ID="71010077" PropList="PlayerPropAdd,Str,346"/>
+<Property ID="71010078" PropList="PlayerPropAdd,Str,351"/>
+<Property ID="71010079" PropList="PlayerPropAdd,Str,355"/>
+<Property ID="71010080" PropList="PlayerPropAdd,Str,360"/>
+<Property ID="71010081" PropList="PlayerPropAdd,Str,364"/>
+<Property ID="71010082" PropList="PlayerPropAdd,Str,369"/>
+<Property ID="71010083" PropList="PlayerPropAdd,Str,373"/>
+<Property ID="71010084" PropList="PlayerPropAdd,Str,378"/>
+<Property ID="71010085" PropList="PlayerPropAdd,Str,382"/>
+<Property ID="71010086" PropList="PlayerPropAdd,Str,387"/>
+<Property ID="71010087" PropList="PlayerPropAdd,Str,391"/>
+<Property ID="71010088" PropList="PlayerPropAdd,Str,396"/>
+<Property ID="71010089" PropList="PlayerPropAdd,Str,400"/>
+<Property ID="71010090" PropList="PlayerPropAdd,Str,405"/>
+<Property ID="71010091" PropList="PlayerPropAdd,Str,409"/>
+<Property ID="71010092" PropList="PlayerPropAdd,Str,414"/>
+<Property ID="71010093" PropList="PlayerPropAdd,Str,418"/>
+<Property ID="71010094" PropList="PlayerPropAdd,Str,423"/>
+<Property ID="71010095" PropList="PlayerPropAdd,Str,427"/>
+<Property ID="71010096" PropList="PlayerPropAdd,Str,432"/>
+<Property ID="71010097" PropList="PlayerPropAdd,Str,436"/>
+<Property ID="71010098" PropList="PlayerPropAdd,Str,441"/>
+<Property ID="71010099" PropList="PlayerPropAdd,Str,445"/>
+<Property ID="71010100" PropList="PlayerPropAdd,Str,450"/>
+<Property ID="71011000"/>
+<Property ID="71011001" PropList="PlayerPropAdd,Dex,2"/>
+<Property ID="71011002" PropList="PlayerPropAdd,Dex,4"/>
+<Property ID="71011003" PropList="PlayerPropAdd,Dex,6"/>
+<Property ID="71011004" PropList="PlayerPropAdd,Dex,8"/>
+<Property ID="71011005" PropList="PlayerPropAdd,Dex,10"/>
+<Property ID="71011006" PropList="PlayerPropAdd,Dex,12"/>
+<Property ID="71011007" PropList="PlayerPropAdd,Dex,14"/>
+<Property ID="71011008" PropList="PlayerPropAdd,Dex,16"/>
+<Property ID="71011009" PropList="PlayerPropAdd,Dex,18"/>
+<Property ID="71011010" PropList="PlayerPropAdd,Dex,20"/>
+<Property ID="71011011" PropList="PlayerPropAdd,Dex,22"/>
+<Property ID="71011012" PropList="PlayerPropAdd,Dex,24"/>
+<Property ID="71011013" PropList="PlayerPropAdd,Dex,26"/>
+<Property ID="71011014" PropList="PlayerPropAdd,Dex,28"/>
+<Property ID="71011015" PropList="PlayerPropAdd,Dex,30"/>
+<Property ID="71011016" PropList="PlayerPropAdd,Dex,32"/>
+<Property ID="71011017" PropList="PlayerPropAdd,Dex,34"/>
+<Property ID="71011018" PropList="PlayerPropAdd,Dex,36"/>
+<Property ID="71011019" PropList="PlayerPropAdd,Dex,38"/>
+<Property ID="71011020" PropList="PlayerPropAdd,Dex,40"/>
+<Property ID="71011021" PropList="PlayerPropAdd,Dex,42"/>
+<Property ID="71011022" PropList="PlayerPropAdd,Dex,44"/>
+<Property ID="71011023" PropList="PlayerPropAdd,Dex,46"/>
+<Property ID="71011024" PropList="PlayerPropAdd,Dex,48"/>
+<Property ID="71011025" PropList="PlayerPropAdd,Dex,50"/>
+<Property ID="71011026" PropList="PlayerPropAdd,Dex,52"/>
+<Property ID="71011027" PropList="PlayerPropAdd,Dex,54"/>
+<Property ID="71011028" PropList="PlayerPropAdd,Dex,56"/>
+<Property ID="71011029" PropList="PlayerPropAdd,Dex,58"/>
+<Property ID="71011030" PropList="PlayerPropAdd,Dex,60"/>
+<Property ID="71011031" PropList="PlayerPropAdd,Dex,62"/>
+<Property ID="71011032" PropList="PlayerPropAdd,Dex,64"/>
+<Property ID="71011033" PropList="PlayerPropAdd,Dex,66"/>
+<Property ID="71011034" PropList="PlayerPropAdd,Dex,68"/>
+<Property ID="71011035" PropList="PlayerPropAdd,Dex,70"/>
+<Property ID="71011036" PropList="PlayerPropAdd,Dex,72"/>
+<Property ID="71011037" PropList="PlayerPropAdd,Dex,74"/>
+<Property ID="71011038" PropList="PlayerPropAdd,Dex,76"/>
+<Property ID="71011039" PropList="PlayerPropAdd,Dex,78"/>
+<Property ID="71011040" PropList="PlayerPropAdd,Dex,80"/>
+<Property ID="71011041" PropList="PlayerPropAdd,Dex,82"/>
+<Property ID="71011042" PropList="PlayerPropAdd,Dex,84"/>
+<Property ID="71011043" PropList="PlayerPropAdd,Dex,86"/>
+<Property ID="71011044" PropList="PlayerPropAdd,Dex,88"/>
+<Property ID="71011045" PropList="PlayerPropAdd,Dex,90"/>
+<Property ID="71011046" PropList="PlayerPropAdd,Dex,92"/>
+<Property ID="71011047" PropList="PlayerPropAdd,Dex,94"/>
+<Property ID="71011048" PropList="PlayerPropAdd,Dex,96"/>
+<Property ID="71011049" PropList="PlayerPropAdd,Dex,98"/>
+<Property ID="71011050" PropList="PlayerPropAdd,Dex,100"/>
+<Property ID="71011051" PropList="PlayerPropAdd,Dex,102"/>
+<Property ID="71011052" PropList="PlayerPropAdd,Dex,104"/>
+<Property ID="71011053" PropList="PlayerPropAdd,Dex,106"/>
+<Property ID="71011054" PropList="PlayerPropAdd,Dex,108"/>
+<Property ID="71011055" PropList="PlayerPropAdd,Dex,110"/>
+<Property ID="71011056" PropList="PlayerPropAdd,Dex,112"/>
+<Property ID="71011057" PropList="PlayerPropAdd,Dex,114"/>
+<Property ID="71011058" PropList="PlayerPropAdd,Dex,116"/>
+<Property ID="71011059" PropList="PlayerPropAdd,Dex,118"/>
+<Property ID="71011060" PropList="PlayerPropAdd,Dex,120"/>
+<Property ID="71011061" PropList="PlayerPropAdd,Dex,122"/>
+<Property ID="71011062" PropList="PlayerPropAdd,Dex,124"/>
+<Property ID="71011063" PropList="PlayerPropAdd,Dex,126"/>
+<Property ID="71011064" PropList="PlayerPropAdd,Dex,128"/>
+<Property ID="71011065" PropList="PlayerPropAdd,Dex,130"/>
+<Property ID="71011066" PropList="PlayerPropAdd,Dex,132"/>
+<Property ID="71011067" PropList="PlayerPropAdd,Dex,134"/>
+<Property ID="71011068" PropList="PlayerPropAdd,Dex,136"/>
+<Property ID="71011069" PropList="PlayerPropAdd,Dex,138"/>
+<Property ID="71011070" PropList="PlayerPropAdd,Dex,140"/>
+<Property ID="71011071" PropList="PlayerPropAdd,Dex,142"/>
+<Property ID="71011072" PropList="PlayerPropAdd,Dex,144"/>
+<Property ID="71011073" PropList="PlayerPropAdd,Dex,146"/>
+<Property ID="71011074" PropList="PlayerPropAdd,Dex,148"/>
+<Property ID="71011075" PropList="PlayerPropAdd,Dex,150"/>
+<Property ID="71011076" PropList="PlayerPropAdd,Dex,152"/>
+<Property ID="71011077" PropList="PlayerPropAdd,Dex,154"/>
+<Property ID="71011078" PropList="PlayerPropAdd,Dex,156"/>
+<Property ID="71011079" PropList="PlayerPropAdd,Dex,158"/>
+<Property ID="71011080" PropList="PlayerPropAdd,Dex,160"/>
+<Property ID="71011081" PropList="PlayerPropAdd,Dex,162"/>
+<Property ID="71011082" PropList="PlayerPropAdd,Dex,164"/>
+<Property ID="71011083" PropList="PlayerPropAdd,Dex,166"/>
+<Property ID="71011084" PropList="PlayerPropAdd,Dex,168"/>
+<Property ID="71011085" PropList="PlayerPropAdd,Dex,170"/>
+<Property ID="71011086" PropList="PlayerPropAdd,Dex,172"/>
+<Property ID="71011087" PropList="PlayerPropAdd,Dex,174"/>
+<Property ID="71011088" PropList="PlayerPropAdd,Dex,176"/>
+<Property ID="71011089" PropList="PlayerPropAdd,Dex,178"/>
+<Property ID="71011090" PropList="PlayerPropAdd,Dex,180"/>
+<Property ID="71011091" PropList="PlayerPropAdd,Dex,182"/>
+<Property ID="71011092" PropList="PlayerPropAdd,Dex,184"/>
+<Property ID="71011093" PropList="PlayerPropAdd,Dex,186"/>
+<Property ID="71011094" PropList="PlayerPropAdd,Dex,188"/>
+<Property ID="71011095" PropList="PlayerPropAdd,Dex,190"/>
+<Property ID="71011096" PropList="PlayerPropAdd,Dex,192"/>
+<Property ID="71011097" PropList="PlayerPropAdd,Dex,194"/>
+<Property ID="71011098" PropList="PlayerPropAdd,Dex,196"/>
+<Property ID="71011099" PropList="PlayerPropAdd,Dex,198"/>
+<Property ID="71011100" PropList="PlayerPropAdd,Dex,200"/>
+<Property ID="71012000"/>
+<Property ID="71012001" PropList="PlayerPropAdd,Dex,4"/>
+<Property ID="71012002" PropList="PlayerPropAdd,Dex,9"/>
+<Property ID="71012003" PropList="PlayerPropAdd,Dex,13"/>
+<Property ID="71012004" PropList="PlayerPropAdd,Dex,18"/>
+<Property ID="71012005" PropList="PlayerPropAdd,Dex,22"/>
+<Property ID="71012006" PropList="PlayerPropAdd,Dex,27"/>
+<Property ID="71012007" PropList="PlayerPropAdd,Dex,31"/>
+<Property ID="71012008" PropList="PlayerPropAdd,Dex,36"/>
+<Property ID="71012009" PropList="PlayerPropAdd,Dex,40"/>
+<Property ID="71012010" PropList="PlayerPropAdd,Dex,45"/>
+<Property ID="71012011" PropList="PlayerPropAdd,Dex,49"/>
+<Property ID="71012012" PropList="PlayerPropAdd,Dex,54"/>
+<Property ID="71012013" PropList="PlayerPropAdd,Dex,58"/>
+<Property ID="71012014" PropList="PlayerPropAdd,Dex,63"/>
+<Property ID="71012015" PropList="PlayerPropAdd,Dex,67"/>
+<Property ID="71012016" PropList="PlayerPropAdd,Dex,72"/>
+<Property ID="71012017" PropList="PlayerPropAdd,Dex,76"/>
+<Property ID="71012018" PropList="PlayerPropAdd,Dex,81"/>
+<Property ID="71012019" PropList="PlayerPropAdd,Dex,85"/>
+<Property ID="71012020" PropList="PlayerPropAdd,Dex,90"/>
+<Property ID="71012021" PropList="PlayerPropAdd,Dex,94"/>
+<Property ID="71012022" PropList="PlayerPropAdd,Dex,99"/>
+<Property ID="71012023" PropList="PlayerPropAdd,Dex,103"/>
+<Property ID="71012024" PropList="PlayerPropAdd,Dex,108"/>
+<Property ID="71012025" PropList="PlayerPropAdd,Dex,112"/>
+<Property ID="71012026" PropList="PlayerPropAdd,Dex,117"/>
+<Property ID="71012027" PropList="PlayerPropAdd,Dex,121"/>
+<Property ID="71012028" PropList="PlayerPropAdd,Dex,126"/>
+<Property ID="71012029" PropList="PlayerPropAdd,Dex,130"/>
+<Property ID="71012030" PropList="PlayerPropAdd,Dex,135"/>
+<Property ID="71012031" PropList="PlayerPropAdd,Dex,139"/>
+<Property ID="71012032" PropList="PlayerPropAdd,Dex,144"/>
+<Property ID="71012033" PropList="PlayerPropAdd,Dex,148"/>
+<Property ID="71012034" PropList="PlayerPropAdd,Dex,153"/>
+<Property ID="71012035" PropList="PlayerPropAdd,Dex,157"/>
+<Property ID="71012036" PropList="PlayerPropAdd,Dex,162"/>
+<Property ID="71012037" PropList="PlayerPropAdd,Dex,166"/>
+<Property ID="71012038" PropList="PlayerPropAdd,Dex,171"/>
+<Property ID="71012039" PropList="PlayerPropAdd,Dex,175"/>
+<Property ID="71012040" PropList="PlayerPropAdd,Dex,180"/>
+<Property ID="71012041" PropList="PlayerPropAdd,Dex,184"/>
+<Property ID="71012042" PropList="PlayerPropAdd,Dex,189"/>
+<Property ID="71012043" PropList="PlayerPropAdd,Dex,193"/>
+<Property ID="71012044" PropList="PlayerPropAdd,Dex,198"/>
+<Property ID="71012045" PropList="PlayerPropAdd,Dex,202"/>
+<Property ID="71012046" PropList="PlayerPropAdd,Dex,207"/>
+<Property ID="71012047" PropList="PlayerPropAdd,Dex,211"/>
+<Property ID="71012048" PropList="PlayerPropAdd,Dex,216"/>
+<Property ID="71012049" PropList="PlayerPropAdd,Dex,220"/>
+<Property ID="71012050" PropList="PlayerPropAdd,Dex,225"/>
+<Property ID="71012051" PropList="PlayerPropAdd,Dex,229"/>
+<Property ID="71012052" PropList="PlayerPropAdd,Dex,234"/>
+<Property ID="71012053" PropList="PlayerPropAdd,Dex,238"/>
+<Property ID="71012054" PropList="PlayerPropAdd,Dex,243"/>
+<Property ID="71012055" PropList="PlayerPropAdd,Dex,247"/>
+<Property ID="71012056" PropList="PlayerPropAdd,Dex,252"/>
+<Property ID="71012057" PropList="PlayerPropAdd,Dex,256"/>
+<Property ID="71012058" PropList="PlayerPropAdd,Dex,261"/>
+<Property ID="71012059" PropList="PlayerPropAdd,Dex,265"/>
+<Property ID="71012060" PropList="PlayerPropAdd,Dex,270"/>
+<Property ID="71012061" PropList="PlayerPropAdd,Dex,274"/>
+<Property ID="71012062" PropList="PlayerPropAdd,Dex,279"/>
+<Property ID="71012063" PropList="PlayerPropAdd,Dex,283"/>
+<Property ID="71012064" PropList="PlayerPropAdd,Dex,288"/>
+<Property ID="71012065" PropList="PlayerPropAdd,Dex,292"/>
+<Property ID="71012066" PropList="PlayerPropAdd,Dex,297"/>
+<Property ID="71012067" PropList="PlayerPropAdd,Dex,301"/>
+<Property ID="71012068" PropList="PlayerPropAdd,Dex,306"/>
+<Property ID="71012069" PropList="PlayerPropAdd,Dex,310"/>
+<Property ID="71012070" PropList="PlayerPropAdd,Dex,315"/>
+<Property ID="71012071" PropList="PlayerPropAdd,Dex,319"/>
+<Property ID="71012072" PropList="PlayerPropAdd,Dex,324"/>
+<Property ID="71012073" PropList="PlayerPropAdd,Dex,328"/>
+<Property ID="71012074" PropList="PlayerPropAdd,Dex,333"/>
+<Property ID="71012075" PropList="PlayerPropAdd,Dex,337"/>
+<Property ID="71012076" PropList="PlayerPropAdd,Dex,342"/>
+<Property ID="71012077" PropList="PlayerPropAdd,Dex,346"/>
+<Property ID="71012078" PropList="PlayerPropAdd,Dex,351"/>
+<Property ID="71012079" PropList="PlayerPropAdd,Dex,355"/>
+<Property ID="71012080" PropList="PlayerPropAdd,Dex,360"/>
+<Property ID="71012081" PropList="PlayerPropAdd,Dex,364"/>
+<Property ID="71012082" PropList="PlayerPropAdd,Dex,369"/>
+<Property ID="71012083" PropList="PlayerPropAdd,Dex,373"/>
+<Property ID="71012084" PropList="PlayerPropAdd,Dex,378"/>
+<Property ID="71012085" PropList="PlayerPropAdd,Dex,382"/>
+<Property ID="71012086" PropList="PlayerPropAdd,Dex,387"/>
+<Property ID="71012087" PropList="PlayerPropAdd,Dex,391"/>
+<Property ID="71012088" PropList="PlayerPropAdd,Dex,396"/>
+<Property ID="71012089" PropList="PlayerPropAdd,Dex,400"/>
+<Property ID="71012090" PropList="PlayerPropAdd,Dex,405"/>
+<Property ID="71012091" PropList="PlayerPropAdd,Dex,409"/>
+<Property ID="71012092" PropList="PlayerPropAdd,Dex,414"/>
+<Property ID="71012093" PropList="PlayerPropAdd,Dex,418"/>
+<Property ID="71012094" PropList="PlayerPropAdd,Dex,423"/>
+<Property ID="71012095" PropList="PlayerPropAdd,Dex,427"/>
+<Property ID="71012096" PropList="PlayerPropAdd,Dex,432"/>
+<Property ID="71012097" PropList="PlayerPropAdd,Dex,436"/>
+<Property ID="71012098" PropList="PlayerPropAdd,Dex,441"/>
+<Property ID="71012099" PropList="PlayerPropAdd,Dex,445"/>
+<Property ID="71012100" PropList="PlayerPropAdd,Dex,450"/>
+<Property ID="71013000"/>
+<Property ID="71013001" PropList="PlayerPropAdd,Sta,2"/>
+<Property ID="71013002" PropList="PlayerPropAdd,Sta,4"/>
+<Property ID="71013003" PropList="PlayerPropAdd,Sta,6"/>
+<Property ID="71013004" PropList="PlayerPropAdd,Sta,8"/>
+<Property ID="71013005" PropList="PlayerPropAdd,Sta,10"/>
+<Property ID="71013006" PropList="PlayerPropAdd,Sta,12"/>
+<Property ID="71013007" PropList="PlayerPropAdd,Sta,14"/>
+<Property ID="71013008" PropList="PlayerPropAdd,Sta,16"/>
+<Property ID="71013009" PropList="PlayerPropAdd,Sta,18"/>
+<Property ID="71013010" PropList="PlayerPropAdd,Sta,20"/>
+<Property ID="71013011" PropList="PlayerPropAdd,Sta,22"/>
+<Property ID="71013012" PropList="PlayerPropAdd,Sta,24"/>
+<Property ID="71013013" PropList="PlayerPropAdd,Sta,26"/>
+<Property ID="71013014" PropList="PlayerPropAdd,Sta,28"/>
+<Property ID="71013015" PropList="PlayerPropAdd,Sta,30"/>
+<Property ID="71013016" PropList="PlayerPropAdd,Sta,32"/>
+<Property ID="71013017" PropList="PlayerPropAdd,Sta,34"/>
+<Property ID="71013018" PropList="PlayerPropAdd,Sta,36"/>
+<Property ID="71013019" PropList="PlayerPropAdd,Sta,38"/>
+<Property ID="71013020" PropList="PlayerPropAdd,Sta,40"/>
+<Property ID="71013021" PropList="PlayerPropAdd,Sta,42"/>
+<Property ID="71013022" PropList="PlayerPropAdd,Sta,44"/>
+<Property ID="71013023" PropList="PlayerPropAdd,Sta,46"/>
+<Property ID="71013024" PropList="PlayerPropAdd,Sta,48"/>
+<Property ID="71013025" PropList="PlayerPropAdd,Sta,50"/>
+<Property ID="71013026" PropList="PlayerPropAdd,Sta,52"/>
+<Property ID="71013027" PropList="PlayerPropAdd,Sta,54"/>
+<Property ID="71013028" PropList="PlayerPropAdd,Sta,56"/>
+<Property ID="71013029" PropList="PlayerPropAdd,Sta,58"/>
+<Property ID="71013030" PropList="PlayerPropAdd,Sta,60"/>
+<Property ID="71013031" PropList="PlayerPropAdd,Sta,62"/>
+<Property ID="71013032" PropList="PlayerPropAdd,Sta,64"/>
+<Property ID="71013033" PropList="PlayerPropAdd,Sta,66"/>
+<Property ID="71013034" PropList="PlayerPropAdd,Sta,68"/>
+<Property ID="71013035" PropList="PlayerPropAdd,Sta,70"/>
+<Property ID="71013036" PropList="PlayerPropAdd,Sta,72"/>
+<Property ID="71013037" PropList="PlayerPropAdd,Sta,74"/>
+<Property ID="71013038" PropList="PlayerPropAdd,Sta,76"/>
+<Property ID="71013039" PropList="PlayerPropAdd,Sta,78"/>
+<Property ID="71013040" PropList="PlayerPropAdd,Sta,80"/>
+<Property ID="71013041" PropList="PlayerPropAdd,Sta,82"/>
+<Property ID="71013042" PropList="PlayerPropAdd,Sta,84"/>
+<Property ID="71013043" PropList="PlayerPropAdd,Sta,86"/>
+<Property ID="71013044" PropList="PlayerPropAdd,Sta,88"/>
+<Property ID="71013045" PropList="PlayerPropAdd,Sta,90"/>
+<Property ID="71013046" PropList="PlayerPropAdd,Sta,92"/>
+<Property ID="71013047" PropList="PlayerPropAdd,Sta,94"/>
+<Property ID="71013048" PropList="PlayerPropAdd,Sta,96"/>
+<Property ID="71013049" PropList="PlayerPropAdd,Sta,98"/>
+<Property ID="71013050" PropList="PlayerPropAdd,Sta,100"/>
+<Property ID="71013051" PropList="PlayerPropAdd,Sta,102"/>
+<Property ID="71013052" PropList="PlayerPropAdd,Sta,104"/>
+<Property ID="71013053" PropList="PlayerPropAdd,Sta,106"/>
+<Property ID="71013054" PropList="PlayerPropAdd,Sta,108"/>
+<Property ID="71013055" PropList="PlayerPropAdd,Sta,110"/>
+<Property ID="71013056" PropList="PlayerPropAdd,Sta,112"/>
+<Property ID="71013057" PropList="PlayerPropAdd,Sta,114"/>
+<Property ID="71013058" PropList="PlayerPropAdd,Sta,116"/>
+<Property ID="71013059" PropList="PlayerPropAdd,Sta,118"/>
+<Property ID="71013060" PropList="PlayerPropAdd,Sta,120"/>
+<Property ID="71013061" PropList="PlayerPropAdd,Sta,122"/>
+<Property ID="71013062" PropList="PlayerPropAdd,Sta,124"/>
+<Property ID="71013063" PropList="PlayerPropAdd,Sta,126"/>
+<Property ID="71013064" PropList="PlayerPropAdd,Sta,128"/>
+<Property ID="71013065" PropList="PlayerPropAdd,Sta,130"/>
+<Property ID="71013066" PropList="PlayerPropAdd,Sta,132"/>
+<Property ID="71013067" PropList="PlayerPropAdd,Sta,134"/>
+<Property ID="71013068" PropList="PlayerPropAdd,Sta,136"/>
+<Property ID="71013069" PropList="PlayerPropAdd,Sta,138"/>
+<Property ID="71013070" PropList="PlayerPropAdd,Sta,140"/>
+<Property ID="71013071" PropList="PlayerPropAdd,Sta,142"/>
+<Property ID="71013072" PropList="PlayerPropAdd,Sta,144"/>
+<Property ID="71013073" PropList="PlayerPropAdd,Sta,146"/>
+<Property ID="71013074" PropList="PlayerPropAdd,Sta,148"/>
+<Property ID="71013075" PropList="PlayerPropAdd,Sta,150"/>
+<Property ID="71013076" PropList="PlayerPropAdd,Sta,152"/>
+<Property ID="71013077" PropList="PlayerPropAdd,Sta,154"/>
+<Property ID="71013078" PropList="PlayerPropAdd,Sta,156"/>
+<Property ID="71013079" PropList="PlayerPropAdd,Sta,158"/>
+<Property ID="71013080" PropList="PlayerPropAdd,Sta,160"/>
+<Property ID="71013081" PropList="PlayerPropAdd,Sta,162"/>
+<Property ID="71013082" PropList="PlayerPropAdd,Sta,164"/>
+<Property ID="71013083" PropList="PlayerPropAdd,Sta,166"/>
+<Property ID="71013084" PropList="PlayerPropAdd,Sta,168"/>
+<Property ID="71013085" PropList="PlayerPropAdd,Sta,170"/>
+<Property ID="71013086" PropList="PlayerPropAdd,Sta,172"/>
+<Property ID="71013087" PropList="PlayerPropAdd,Sta,174"/>
+<Property ID="71013088" PropList="PlayerPropAdd,Sta,176"/>
+<Property ID="71013089" PropList="PlayerPropAdd,Sta,178"/>
+<Property ID="71013090" PropList="PlayerPropAdd,Sta,180"/>
+<Property ID="71013091" PropList="PlayerPropAdd,Sta,182"/>
+<Property ID="71013092" PropList="PlayerPropAdd,Sta,184"/>
+<Property ID="71013093" PropList="PlayerPropAdd,Sta,186"/>
+<Property ID="71013094" PropList="PlayerPropAdd,Sta,188"/>
+<Property ID="71013095" PropList="PlayerPropAdd,Sta,190"/>
+<Property ID="71013096" PropList="PlayerPropAdd,Sta,192"/>
+<Property ID="71013097" PropList="PlayerPropAdd,Sta,194"/>
+<Property ID="71013098" PropList="PlayerPropAdd,Sta,196"/>
+<Property ID="71013099" PropList="PlayerPropAdd,Sta,198"/>
+<Property ID="71013100" PropList="PlayerPropAdd,Sta,200"/>
+<Property ID="71014000"/>
+<Property ID="71014001" PropList="PlayerPropAdd,Sta,4"/>
+<Property ID="71014002" PropList="PlayerPropAdd,Sta,9"/>
+<Property ID="71014003" PropList="PlayerPropAdd,Sta,13"/>
+<Property ID="71014004" PropList="PlayerPropAdd,Sta,18"/>
+<Property ID="71014005" PropList="PlayerPropAdd,Sta,22"/>
+<Property ID="71014006" PropList="PlayerPropAdd,Sta,27"/>
+<Property ID="71014007" PropList="PlayerPropAdd,Sta,31"/>
+<Property ID="71014008" PropList="PlayerPropAdd,Sta,36"/>
+<Property ID="71014009" PropList="PlayerPropAdd,Sta,40"/>
+<Property ID="71014010" PropList="PlayerPropAdd,Sta,45"/>
+<Property ID="71014011" PropList="PlayerPropAdd,Sta,49"/>
+<Property ID="71014012" PropList="PlayerPropAdd,Sta,54"/>
+<Property ID="71014013" PropList="PlayerPropAdd,Sta,58"/>
+<Property ID="71014014" PropList="PlayerPropAdd,Sta,63"/>
+<Property ID="71014015" PropList="PlayerPropAdd,Sta,67"/>
+<Property ID="71014016" PropList="PlayerPropAdd,Sta,72"/>
+<Property ID="71014017" PropList="PlayerPropAdd,Sta,76"/>
+<Property ID="71014018" PropList="PlayerPropAdd,Sta,81"/>
+<Property ID="71014019" PropList="PlayerPropAdd,Sta,85"/>
+<Property ID="71014020" PropList="PlayerPropAdd,Sta,90"/>
+<Property ID="71014021" PropList="PlayerPropAdd,Sta,94"/>
+<Property ID="71014022" PropList="PlayerPropAdd,Sta,99"/>
+<Property ID="71014023" PropList="PlayerPropAdd,Sta,103"/>
+<Property ID="71014024" PropList="PlayerPropAdd,Sta,108"/>
+<Property ID="71014025" PropList="PlayerPropAdd,Sta,112"/>
+<Property ID="71014026" PropList="PlayerPropAdd,Sta,117"/>
+<Property ID="71014027" PropList="PlayerPropAdd,Sta,121"/>
+<Property ID="71014028" PropList="PlayerPropAdd,Sta,126"/>
+<Property ID="71014029" PropList="PlayerPropAdd,Sta,130"/>
+<Property ID="71014030" PropList="PlayerPropAdd,Sta,135"/>
+<Property ID="71014031" PropList="PlayerPropAdd,Sta,139"/>
+<Property ID="71014032" PropList="PlayerPropAdd,Sta,144"/>
+<Property ID="71014033" PropList="PlayerPropAdd,Sta,148"/>
+<Property ID="71014034" PropList="PlayerPropAdd,Sta,153"/>
+<Property ID="71014035" PropList="PlayerPropAdd,Sta,157"/>
+<Property ID="71014036" PropList="PlayerPropAdd,Sta,162"/>
+<Property ID="71014037" PropList="PlayerPropAdd,Sta,166"/>
+<Property ID="71014038" PropList="PlayerPropAdd,Sta,171"/>
+<Property ID="71014039" PropList="PlayerPropAdd,Sta,175"/>
+<Property ID="71014040" PropList="PlayerPropAdd,Sta,180"/>
+<Property ID="71014041" PropList="PlayerPropAdd,Sta,184"/>
+<Property ID="71014042" PropList="PlayerPropAdd,Sta,189"/>
+<Property ID="71014043" PropList="PlayerPropAdd,Sta,193"/>
+<Property ID="71014044" PropList="PlayerPropAdd,Sta,198"/>
+<Property ID="71014045" PropList="PlayerPropAdd,Sta,202"/>
+<Property ID="71014046" PropList="PlayerPropAdd,Sta,207"/>
+<Property ID="71014047" PropList="PlayerPropAdd,Sta,211"/>
+<Property ID="71014048" PropList="PlayerPropAdd,Sta,216"/>
+<Property ID="71014049" PropList="PlayerPropAdd,Sta,220"/>
+<Property ID="71014050" PropList="PlayerPropAdd,Sta,225"/>
+<Property ID="71014051" PropList="PlayerPropAdd,Sta,229"/>
+<Property ID="71014052" PropList="PlayerPropAdd,Sta,234"/>
+<Property ID="71014053" PropList="PlayerPropAdd,Sta,238"/>
+<Property ID="71014054" PropList="PlayerPropAdd,Sta,243"/>
+<Property ID="71014055" PropList="PlayerPropAdd,Sta,247"/>
+<Property ID="71014056" PropList="PlayerPropAdd,Sta,252"/>
+<Property ID="71014057" PropList="PlayerPropAdd,Sta,256"/>
+<Property ID="71014058" PropList="PlayerPropAdd,Sta,261"/>
+<Property ID="71014059" PropList="PlayerPropAdd,Sta,265"/>
+<Property ID="71014060" PropList="PlayerPropAdd,Sta,270"/>
+<Property ID="71014061" PropList="PlayerPropAdd,Sta,274"/>
+<Property ID="71014062" PropList="PlayerPropAdd,Sta,279"/>
+<Property ID="71014063" PropList="PlayerPropAdd,Sta,283"/>
+<Property ID="71014064" PropList="PlayerPropAdd,Sta,288"/>
+<Property ID="71014065" PropList="PlayerPropAdd,Sta,292"/>
+<Property ID="71014066" PropList="PlayerPropAdd,Sta,297"/>
+<Property ID="71014067" PropList="PlayerPropAdd,Sta,301"/>
+<Property ID="71014068" PropList="PlayerPropAdd,Sta,306"/>
+<Property ID="71014069" PropList="PlayerPropAdd,Sta,310"/>
+<Property ID="71014070" PropList="PlayerPropAdd,Sta,315"/>
+<Property ID="71014071" PropList="PlayerPropAdd,Sta,319"/>
+<Property ID="71014072" PropList="PlayerPropAdd,Sta,324"/>
+<Property ID="71014073" PropList="PlayerPropAdd,Sta,328"/>
+<Property ID="71014074" PropList="PlayerPropAdd,Sta,333"/>
+<Property ID="71014075" PropList="PlayerPropAdd,Sta,337"/>
+<Property ID="71014076" PropList="PlayerPropAdd,Sta,342"/>
+<Property ID="71014077" PropList="PlayerPropAdd,Sta,346"/>
+<Property ID="71014078" PropList="PlayerPropAdd,Sta,351"/>
+<Property ID="71014079" PropList="PlayerPropAdd,Sta,355"/>
+<Property ID="71014080" PropList="PlayerPropAdd,Sta,360"/>
+<Property ID="71014081" PropList="PlayerPropAdd,Sta,364"/>
+<Property ID="71014082" PropList="PlayerPropAdd,Sta,369"/>
+<Property ID="71014083" PropList="PlayerPropAdd,Sta,373"/>
+<Property ID="71014084" PropList="PlayerPropAdd,Sta,378"/>
+<Property ID="71014085" PropList="PlayerPropAdd,Sta,382"/>
+<Property ID="71014086" PropList="PlayerPropAdd,Sta,387"/>
+<Property ID="71014087" PropList="PlayerPropAdd,Sta,391"/>
+<Property ID="71014088" PropList="PlayerPropAdd,Sta,396"/>
+<Property ID="71014089" PropList="PlayerPropAdd,Sta,400"/>
+<Property ID="71014090" PropList="PlayerPropAdd,Sta,405"/>
+<Property ID="71014091" PropList="PlayerPropAdd,Sta,409"/>
+<Property ID="71014092" PropList="PlayerPropAdd,Sta,414"/>
+<Property ID="71014093" PropList="PlayerPropAdd,Sta,418"/>
+<Property ID="71014094" PropList="PlayerPropAdd,Sta,423"/>
+<Property ID="71014095" PropList="PlayerPropAdd,Sta,427"/>
+<Property ID="71014096" PropList="PlayerPropAdd,Sta,432"/>
+<Property ID="71014097" PropList="PlayerPropAdd,Sta,436"/>
+<Property ID="71014098" PropList="PlayerPropAdd,Sta,441"/>
+<Property ID="71014099" PropList="PlayerPropAdd,Sta,445"/>
+<Property ID="71014100" PropList="PlayerPropAdd,Sta,450"/>
+<Property ID="71015000"/>
+<Property ID="71015001" PropList="AddNewBuff,pet_bati_001"/>
+<Property ID="71016000"/>
+<Property ID="71016001" PropList="AddNewBuff,pet_bati_002"/>
+<Property ID="71017000"/>
+<Property ID="71017001" PropList="AddNewBuff,pet_qinwang_001"/>
+<Property ID="71018000"/>
+<Property ID="71018001" PropList="AddNewBuff,pet_qinwang_002"/>
+<Property ID="71019000"/>
+<Property ID="71019001" PropList="AddNewBuff,pet_jushou_001"/>
+<Property ID="71020000"/>
+<Property ID="71020001" PropList="AddNewBuff,pet_jushou_002"/>
+<Property ID="71021000"/>
+<Property ID="71021001" PropList="AddNewBuff,pet_bihu_001"/>
+<Property ID="71022000"/>
+<Property ID="71022001" PropList="AddNewBuff,pet_bihu_002"/>
+<Property ID="71023000"/>
+<Property ID="71023001" PropList="AddNewBuff,pet_ruizhi_001"/>
+<Property ID="71024000"/>
+<Property ID="71024001" PropList="AddNewBuff,pet_ruizhi_002"/>
+<Property ID="72001000" PropList=" "/>
+<Property ID="72001001" PropList="PlayerPropAdd,AttackAdd,150;PlayerPropAdd,CritAdd,1"/>
+<Property ID="72001002" PropList="PlayerPropAdd,AttackAdd,237;PlayerPropAdd,CritAdd,2"/>
+<Property ID="72001003" PropList="PlayerPropAdd,AttackAdd,333;PlayerPropAdd,CritAdd,3"/>
+<Property ID="72001004" PropList="PlayerPropAdd,AttackAdd,438;PlayerPropAdd,CritAdd,4"/>
+<Property ID="72001005" PropList="PlayerPropAdd,AttackAdd,552;PlayerPropAdd,CritAdd,5"/>
+<Property ID="72001006" PropList="PlayerPropAdd,AttackAdd,675;PlayerPropAdd,CritAdd,6"/>
+<Property ID="72001007" PropList="PlayerPropAdd,AttackAdd,807;PlayerPropAdd,CritAdd,7"/>
+<Property ID="72001008" PropList="PlayerPropAdd,AttackAdd,948;PlayerPropAdd,CritAdd,8"/>
+<Property ID="72001009" PropList="PlayerPropAdd,AttackAdd,1098;PlayerPropAdd,CritAdd,9"/>
+<Property ID="72001010" PropList="PlayerPropAdd,AttackAdd,1258;PlayerPropAdd,CritAdd,10"/>
+<Property ID="72001011" PropList="PlayerPropAdd,AttackAdd,1426;PlayerPropAdd,CritAdd,11"/>
+<Property ID="72001012" PropList="PlayerPropAdd,AttackAdd,1603;PlayerPropAdd,CritAdd,12"/>
+<Property ID="72001013" PropList="PlayerPropAdd,AttackAdd,1789;PlayerPropAdd,CritAdd,13"/>
+<Property ID="72001014" PropList="PlayerPropAdd,AttackAdd,1984;PlayerPropAdd,CritAdd,14"/>
+<Property ID="72001015" PropList="PlayerPropAdd,AttackAdd,2188;PlayerPropAdd,CritAdd,15"/>
+<Property ID="72001016" PropList="PlayerPropAdd,AttackAdd,2401;PlayerPropAdd,CritAdd,16"/>
+<Property ID="72001017" PropList="PlayerPropAdd,AttackAdd,2623;PlayerPropAdd,CritAdd,17"/>
+<Property ID="72001018" PropList="PlayerPropAdd,AttackAdd,2854;PlayerPropAdd,CritAdd,18"/>
+<Property ID="72001019" PropList="PlayerPropAdd,AttackAdd,3094;PlayerPropAdd,CritAdd,19"/>
+<Property ID="72001020" PropList="PlayerPropAdd,AttackAdd,3343;PlayerPropAdd,CritAdd,20"/>
+<Property ID="72001021" PropList="PlayerPropAdd,AttackAdd,3601;PlayerPropAdd,CritAdd,21"/>
+<Property ID="72001022" PropList="PlayerPropAdd,AttackAdd,3868;PlayerPropAdd,CritAdd,22"/>
+<Property ID="72001023" PropList="PlayerPropAdd,AttackAdd,4144;PlayerPropAdd,CritAdd,23"/>
+<Property ID="72001024" PropList="PlayerPropAdd,AttackAdd,4429;PlayerPropAdd,CritAdd,24"/>
+<Property ID="72001025" PropList="PlayerPropAdd,AttackAdd,4723;PlayerPropAdd,CritAdd,25"/>
+<Property ID="72001026" PropList="PlayerPropAdd,AttackAdd,5027;PlayerPropAdd,CritAdd,26"/>
+<Property ID="72001027" PropList="PlayerPropAdd,AttackAdd,5339;PlayerPropAdd,CritAdd,27"/>
+<Property ID="72001028" PropList="PlayerPropAdd,AttackAdd,5660;PlayerPropAdd,CritAdd,28"/>
+<Property ID="72001029" PropList="PlayerPropAdd,AttackAdd,5990;PlayerPropAdd,CritAdd,29"/>
+<Property ID="72001030" PropList="PlayerPropAdd,AttackAdd,6329;PlayerPropAdd,CritAdd,30"/>
+<Property ID="72001031" PropList="PlayerPropAdd,AttackAdd,6677;PlayerPropAdd,CritAdd,31"/>
+<Property ID="72001032" PropList="PlayerPropAdd,AttackAdd,7034;PlayerPropAdd,CritAdd,32"/>
+<Property ID="72001033" PropList="PlayerPropAdd,AttackAdd,7400;PlayerPropAdd,CritAdd,33"/>
+<Property ID="72001034" PropList="PlayerPropAdd,AttackAdd,7775;PlayerPropAdd,CritAdd,34"/>
+<Property ID="72001035" PropList="PlayerPropAdd,AttackAdd,8159;PlayerPropAdd,CritAdd,35"/>
+<Property ID="72001036" PropList="PlayerPropAdd,AttackAdd,8552;PlayerPropAdd,CritAdd,36"/>
+<Property ID="72001037" PropList="PlayerPropAdd,AttackAdd,8954;PlayerPropAdd,CritAdd,37"/>
+<Property ID="72001038" PropList="PlayerPropAdd,AttackAdd,9365;PlayerPropAdd,CritAdd,38"/>
+<Property ID="72001039" PropList="PlayerPropAdd,AttackAdd,9785;PlayerPropAdd,CritAdd,39"/>
+<Property ID="72001040" PropList="PlayerPropAdd,AttackAdd,10214;PlayerPropAdd,CritAdd,40"/>
+<Property ID="72001041" PropList="PlayerPropAdd,AttackAdd,10652;PlayerPropAdd,CritAdd,41"/>
+<Property ID="72001042" PropList="PlayerPropAdd,AttackAdd,11100;PlayerPropAdd,CritAdd,42"/>
+<Property ID="72001043" PropList="PlayerPropAdd,AttackAdd,11556;PlayerPropAdd,CritAdd,43"/>
+<Property ID="72001044" PropList="PlayerPropAdd,AttackAdd,12021;PlayerPropAdd,CritAdd,44"/>
+<Property ID="72001045" PropList="PlayerPropAdd,AttackAdd,12495;PlayerPropAdd,CritAdd,45"/>
+<Property ID="72001046" PropList="PlayerPropAdd,AttackAdd,12978;PlayerPropAdd,CritAdd,46"/>
+<Property ID="72001047" PropList="PlayerPropAdd,AttackAdd,13470;PlayerPropAdd,CritAdd,47"/>
+<Property ID="72001048" PropList="PlayerPropAdd,AttackAdd,13971;PlayerPropAdd,CritAdd,48"/>
+<Property ID="72001049" PropList="PlayerPropAdd,AttackAdd,14481;PlayerPropAdd,CritAdd,49"/>
+<Property ID="72001050" PropList="PlayerPropAdd,AttackAdd,15000;PlayerPropAdd,CritAdd,50"/>
+<Property ID="72002000" PropList=" "/>
+<Property ID="72002001" PropList="PlayerPropAdd,AttackAdd,150;PlayerPropAdd,CritAdd,1"/>
+<Property ID="72002002" PropList="PlayerPropAdd,AttackAdd,237;PlayerPropAdd,CritAdd,2"/>
+<Property ID="72002003" PropList="PlayerPropAdd,AttackAdd,333;PlayerPropAdd,CritAdd,3"/>
+<Property ID="72002004" PropList="PlayerPropAdd,AttackAdd,438;PlayerPropAdd,CritAdd,4"/>
+<Property ID="72002005" PropList="PlayerPropAdd,AttackAdd,552;PlayerPropAdd,CritAdd,5"/>
+<Property ID="72002006" PropList="PlayerPropAdd,AttackAdd,675;PlayerPropAdd,CritAdd,6"/>
+<Property ID="72002007" PropList="PlayerPropAdd,AttackAdd,807;PlayerPropAdd,CritAdd,7"/>
+<Property ID="72002008" PropList="PlayerPropAdd,AttackAdd,948;PlayerPropAdd,CritAdd,8"/>
+<Property ID="72002009" PropList="PlayerPropAdd,AttackAdd,1098;PlayerPropAdd,CritAdd,9"/>
+<Property ID="72002010" PropList="PlayerPropAdd,AttackAdd,1258;PlayerPropAdd,CritAdd,10"/>
+<Property ID="72002011" PropList="PlayerPropAdd,AttackAdd,1426;PlayerPropAdd,CritAdd,11"/>
+<Property ID="72002012" PropList="PlayerPropAdd,AttackAdd,1603;PlayerPropAdd,CritAdd,12"/>
+<Property ID="72002013" PropList="PlayerPropAdd,AttackAdd,1789;PlayerPropAdd,CritAdd,13"/>
+<Property ID="72002014" PropList="PlayerPropAdd,AttackAdd,1984;PlayerPropAdd,CritAdd,14"/>
+<Property ID="72002015" PropList="PlayerPropAdd,AttackAdd,2188;PlayerPropAdd,CritAdd,15"/>
+<Property ID="72002016" PropList="PlayerPropAdd,AttackAdd,2401;PlayerPropAdd,CritAdd,16"/>
+<Property ID="72002017" PropList="PlayerPropAdd,AttackAdd,2623;PlayerPropAdd,CritAdd,17"/>
+<Property ID="72002018" PropList="PlayerPropAdd,AttackAdd,2854;PlayerPropAdd,CritAdd,18"/>
+<Property ID="72002019" PropList="PlayerPropAdd,AttackAdd,3094;PlayerPropAdd,CritAdd,19"/>
+<Property ID="72002020" PropList="PlayerPropAdd,AttackAdd,3343;PlayerPropAdd,CritAdd,20"/>
+<Property ID="72002021" PropList="PlayerPropAdd,AttackAdd,3601;PlayerPropAdd,CritAdd,21"/>
+<Property ID="72002022" PropList="PlayerPropAdd,AttackAdd,3868;PlayerPropAdd,CritAdd,22"/>
+<Property ID="72002023" PropList="PlayerPropAdd,AttackAdd,4144;PlayerPropAdd,CritAdd,23"/>
+<Property ID="72002024" PropList="PlayerPropAdd,AttackAdd,4429;PlayerPropAdd,CritAdd,24"/>
+<Property ID="72002025" PropList="PlayerPropAdd,AttackAdd,4723;PlayerPropAdd,CritAdd,25"/>
+<Property ID="72002026" PropList="PlayerPropAdd,AttackAdd,5027;PlayerPropAdd,CritAdd,26"/>
+<Property ID="72002027" PropList="PlayerPropAdd,AttackAdd,5339;PlayerPropAdd,CritAdd,27"/>
+<Property ID="72002028" PropList="PlayerPropAdd,AttackAdd,5660;PlayerPropAdd,CritAdd,28"/>
+<Property ID="72002029" PropList="PlayerPropAdd,AttackAdd,5990;PlayerPropAdd,CritAdd,29"/>
+<Property ID="72002030" PropList="PlayerPropAdd,AttackAdd,6329;PlayerPropAdd,CritAdd,30"/>
+<Property ID="72002031" PropList="PlayerPropAdd,AttackAdd,6677;PlayerPropAdd,CritAdd,31"/>
+<Property ID="72002032" PropList="PlayerPropAdd,AttackAdd,7034;PlayerPropAdd,CritAdd,32"/>
+<Property ID="72002033" PropList="PlayerPropAdd,AttackAdd,7400;PlayerPropAdd,CritAdd,33"/>
+<Property ID="72002034" PropList="PlayerPropAdd,AttackAdd,7775;PlayerPropAdd,CritAdd,34"/>
+<Property ID="72002035" PropList="PlayerPropAdd,AttackAdd,8159;PlayerPropAdd,CritAdd,35"/>
+<Property ID="72002036" PropList="PlayerPropAdd,AttackAdd,8552;PlayerPropAdd,CritAdd,36"/>
+<Property ID="72002037" PropList="PlayerPropAdd,AttackAdd,8954;PlayerPropAdd,CritAdd,37"/>
+<Property ID="72002038" PropList="PlayerPropAdd,AttackAdd,9365;PlayerPropAdd,CritAdd,38"/>
+<Property ID="72002039" PropList="PlayerPropAdd,AttackAdd,9785;PlayerPropAdd,CritAdd,39"/>
+<Property ID="72002040" PropList="PlayerPropAdd,AttackAdd,10214;PlayerPropAdd,CritAdd,40"/>
+<Property ID="72002041" PropList="PlayerPropAdd,AttackAdd,10652;PlayerPropAdd,CritAdd,41"/>
+<Property ID="72002042" PropList="PlayerPropAdd,AttackAdd,11100;PlayerPropAdd,CritAdd,42"/>
+<Property ID="72002043" PropList="PlayerPropAdd,AttackAdd,11556;PlayerPropAdd,CritAdd,43"/>
+<Property ID="72002044" PropList="PlayerPropAdd,AttackAdd,12021;PlayerPropAdd,CritAdd,44"/>
+<Property ID="72002045" PropList="PlayerPropAdd,AttackAdd,12495;PlayerPropAdd,CritAdd,45"/>
+<Property ID="72002046" PropList="PlayerPropAdd,AttackAdd,12978;PlayerPropAdd,CritAdd,46"/>
+<Property ID="72002047" PropList="PlayerPropAdd,AttackAdd,13470;PlayerPropAdd,CritAdd,47"/>
+<Property ID="72002048" PropList="PlayerPropAdd,AttackAdd,13971;PlayerPropAdd,CritAdd,48"/>
+<Property ID="72002049" PropList="PlayerPropAdd,AttackAdd,14481;PlayerPropAdd,CritAdd,49"/>
+<Property ID="72002050" PropList="PlayerPropAdd,AttackAdd,15000;PlayerPropAdd,CritAdd,50"/>
+<Property ID="72003000" PropList=" "/>
+<Property ID="72003001" PropList="PlayerPropAdd,AttackAdd,150;PlayerPropAdd,CritAdd,1"/>
+<Property ID="72003002" PropList="PlayerPropAdd,AttackAdd,237;PlayerPropAdd,CritAdd,2"/>
+<Property ID="72003003" PropList="PlayerPropAdd,AttackAdd,333;PlayerPropAdd,CritAdd,3"/>
+<Property ID="72003004" PropList="PlayerPropAdd,AttackAdd,438;PlayerPropAdd,CritAdd,4"/>
+<Property ID="72003005" PropList="PlayerPropAdd,AttackAdd,552;PlayerPropAdd,CritAdd,5"/>
+<Property ID="72003006" PropList="PlayerPropAdd,AttackAdd,675;PlayerPropAdd,CritAdd,6"/>
+<Property ID="72003007" PropList="PlayerPropAdd,AttackAdd,807;PlayerPropAdd,CritAdd,7"/>
+<Property ID="72003008" PropList="PlayerPropAdd,AttackAdd,948;PlayerPropAdd,CritAdd,8"/>
+<Property ID="72003009" PropList="PlayerPropAdd,AttackAdd,1098;PlayerPropAdd,CritAdd,9"/>
+<Property ID="72003010" PropList="PlayerPropAdd,AttackAdd,1258;PlayerPropAdd,CritAdd,10"/>
+<Property ID="72003011" PropList="PlayerPropAdd,AttackAdd,1426;PlayerPropAdd,CritAdd,11"/>
+<Property ID="72003012" PropList="PlayerPropAdd,AttackAdd,1603;PlayerPropAdd,CritAdd,12"/>
+<Property ID="72003013" PropList="PlayerPropAdd,AttackAdd,1789;PlayerPropAdd,CritAdd,13"/>
+<Property ID="72003014" PropList="PlayerPropAdd,AttackAdd,1984;PlayerPropAdd,CritAdd,14"/>
+<Property ID="72003015" PropList="PlayerPropAdd,AttackAdd,2188;PlayerPropAdd,CritAdd,15"/>
+<Property ID="72003016" PropList="PlayerPropAdd,AttackAdd,2401;PlayerPropAdd,CritAdd,16"/>
+<Property ID="72003017" PropList="PlayerPropAdd,AttackAdd,2623;PlayerPropAdd,CritAdd,17"/>
+<Property ID="72003018" PropList="PlayerPropAdd,AttackAdd,2854;PlayerPropAdd,CritAdd,18"/>
+<Property ID="72003019" PropList="PlayerPropAdd,AttackAdd,3094;PlayerPropAdd,CritAdd,19"/>
+<Property ID="72003020" PropList="PlayerPropAdd,AttackAdd,3343;PlayerPropAdd,CritAdd,20"/>
+<Property ID="72003021" PropList="PlayerPropAdd,AttackAdd,3601;PlayerPropAdd,CritAdd,21"/>
+<Property ID="72003022" PropList="PlayerPropAdd,AttackAdd,3868;PlayerPropAdd,CritAdd,22"/>
+<Property ID="72003023" PropList="PlayerPropAdd,AttackAdd,4144;PlayerPropAdd,CritAdd,23"/>
+<Property ID="72003024" PropList="PlayerPropAdd,AttackAdd,4429;PlayerPropAdd,CritAdd,24"/>
+<Property ID="72003025" PropList="PlayerPropAdd,AttackAdd,4723;PlayerPropAdd,CritAdd,25"/>
+<Property ID="72003026" PropList="PlayerPropAdd,AttackAdd,5027;PlayerPropAdd,CritAdd,26"/>
+<Property ID="72003027" PropList="PlayerPropAdd,AttackAdd,5339;PlayerPropAdd,CritAdd,27"/>
+<Property ID="72003028" PropList="PlayerPropAdd,AttackAdd,5660;PlayerPropAdd,CritAdd,28"/>
+<Property ID="72003029" PropList="PlayerPropAdd,AttackAdd,5990;PlayerPropAdd,CritAdd,29"/>
+<Property ID="72003030" PropList="PlayerPropAdd,AttackAdd,6329;PlayerPropAdd,CritAdd,30"/>
+<Property ID="72003031" PropList="PlayerPropAdd,AttackAdd,6677;PlayerPropAdd,CritAdd,31"/>
+<Property ID="72003032" PropList="PlayerPropAdd,AttackAdd,7034;PlayerPropAdd,CritAdd,32"/>
+<Property ID="72003033" PropList="PlayerPropAdd,AttackAdd,7400;PlayerPropAdd,CritAdd,33"/>
+<Property ID="72003034" PropList="PlayerPropAdd,AttackAdd,7775;PlayerPropAdd,CritAdd,34"/>
+<Property ID="72003035" PropList="PlayerPropAdd,AttackAdd,8159;PlayerPropAdd,CritAdd,35"/>
+<Property ID="72003036" PropList="PlayerPropAdd,AttackAdd,8552;PlayerPropAdd,CritAdd,36"/>
+<Property ID="72003037" PropList="PlayerPropAdd,AttackAdd,8954;PlayerPropAdd,CritAdd,37"/>
+<Property ID="72003038" PropList="PlayerPropAdd,AttackAdd,9365;PlayerPropAdd,CritAdd,38"/>
+<Property ID="72003039" PropList="PlayerPropAdd,AttackAdd,9785;PlayerPropAdd,CritAdd,39"/>
+<Property ID="72003040" PropList="PlayerPropAdd,AttackAdd,10214;PlayerPropAdd,CritAdd,40"/>
+<Property ID="72003041" PropList="PlayerPropAdd,AttackAdd,10652;PlayerPropAdd,CritAdd,41"/>
+<Property ID="72003042" PropList="PlayerPropAdd,AttackAdd,11100;PlayerPropAdd,CritAdd,42"/>
+<Property ID="72003043" PropList="PlayerPropAdd,AttackAdd,11556;PlayerPropAdd,CritAdd,43"/>
+<Property ID="72003044" PropList="PlayerPropAdd,AttackAdd,12021;PlayerPropAdd,CritAdd,44"/>
+<Property ID="72003045" PropList="PlayerPropAdd,AttackAdd,12495;PlayerPropAdd,CritAdd,45"/>
+<Property ID="72003046" PropList="PlayerPropAdd,AttackAdd,12978;PlayerPropAdd,CritAdd,46"/>
+<Property ID="72003047" PropList="PlayerPropAdd,AttackAdd,13470;PlayerPropAdd,CritAdd,47"/>
+<Property ID="72003048" PropList="PlayerPropAdd,AttackAdd,13971;PlayerPropAdd,CritAdd,48"/>
+<Property ID="72003049" PropList="PlayerPropAdd,AttackAdd,14481;PlayerPropAdd,CritAdd,49"/>
+<Property ID="72003050" PropList="PlayerPropAdd,AttackAdd,15000;PlayerPropAdd,CritAdd,50"/>
+<Property ID="72004000" PropList=" "/>
+<Property ID="72004001" PropList="PlayerPropAdd,AttackAdd,150;PlayerPropAdd,CritAdd,1"/>
+<Property ID="72004002" PropList="PlayerPropAdd,AttackAdd,237;PlayerPropAdd,CritAdd,2"/>
+<Property ID="72004003" PropList="PlayerPropAdd,AttackAdd,333;PlayerPropAdd,CritAdd,3"/>
+<Property ID="72004004" PropList="PlayerPropAdd,AttackAdd,438;PlayerPropAdd,CritAdd,4"/>
+<Property ID="72004005" PropList="PlayerPropAdd,AttackAdd,552;PlayerPropAdd,CritAdd,5"/>
+<Property ID="72004006" PropList="PlayerPropAdd,AttackAdd,675;PlayerPropAdd,CritAdd,6"/>
+<Property ID="72004007" PropList="PlayerPropAdd,AttackAdd,807;PlayerPropAdd,CritAdd,7"/>
+<Property ID="72004008" PropList="PlayerPropAdd,AttackAdd,948;PlayerPropAdd,CritAdd,8"/>
+<Property ID="72004009" PropList="PlayerPropAdd,AttackAdd,1098;PlayerPropAdd,CritAdd,9"/>
+<Property ID="72004010" PropList="PlayerPropAdd,AttackAdd,1258;PlayerPropAdd,CritAdd,10"/>
+<Property ID="72004011" PropList="PlayerPropAdd,AttackAdd,1426;PlayerPropAdd,CritAdd,11"/>
+<Property ID="72004012" PropList="PlayerPropAdd,AttackAdd,1603;PlayerPropAdd,CritAdd,12"/>
+<Property ID="72004013" PropList="PlayerPropAdd,AttackAdd,1789;PlayerPropAdd,CritAdd,13"/>
+<Property ID="72004014" PropList="PlayerPropAdd,AttackAdd,1984;PlayerPropAdd,CritAdd,14"/>
+<Property ID="72004015" PropList="PlayerPropAdd,AttackAdd,2188;PlayerPropAdd,CritAdd,15"/>
+<Property ID="72004016" PropList="PlayerPropAdd,AttackAdd,2401;PlayerPropAdd,CritAdd,16"/>
+<Property ID="72004017" PropList="PlayerPropAdd,AttackAdd,2623;PlayerPropAdd,CritAdd,17"/>
+<Property ID="72004018" PropList="PlayerPropAdd,AttackAdd,2854;PlayerPropAdd,CritAdd,18"/>
+<Property ID="72004019" PropList="PlayerPropAdd,AttackAdd,3094;PlayerPropAdd,CritAdd,19"/>
+<Property ID="72004020" PropList="PlayerPropAdd,AttackAdd,3343;PlayerPropAdd,CritAdd,20"/>
+<Property ID="72004021" PropList="PlayerPropAdd,AttackAdd,3601;PlayerPropAdd,CritAdd,21"/>
+<Property ID="72004022" PropList="PlayerPropAdd,AttackAdd,3868;PlayerPropAdd,CritAdd,22"/>
+<Property ID="72004023" PropList="PlayerPropAdd,AttackAdd,4144;PlayerPropAdd,CritAdd,23"/>
+<Property ID="72004024" PropList="PlayerPropAdd,AttackAdd,4429;PlayerPropAdd,CritAdd,24"/>
+<Property ID="72004025" PropList="PlayerPropAdd,AttackAdd,4723;PlayerPropAdd,CritAdd,25"/>
+<Property ID="72004026" PropList="PlayerPropAdd,AttackAdd,5027;PlayerPropAdd,CritAdd,26"/>
+<Property ID="72004027" PropList="PlayerPropAdd,AttackAdd,5339;PlayerPropAdd,CritAdd,27"/>
+<Property ID="72004028" PropList="PlayerPropAdd,AttackAdd,5660;PlayerPropAdd,CritAdd,28"/>
+<Property ID="72004029" PropList="PlayerPropAdd,AttackAdd,5990;PlayerPropAdd,CritAdd,29"/>
+<Property ID="72004030" PropList="PlayerPropAdd,AttackAdd,6329;PlayerPropAdd,CritAdd,30"/>
+<Property ID="72004031" PropList="PlayerPropAdd,AttackAdd,6677;PlayerPropAdd,CritAdd,31"/>
+<Property ID="72004032" PropList="PlayerPropAdd,AttackAdd,7034;PlayerPropAdd,CritAdd,32"/>
+<Property ID="72004033" PropList="PlayerPropAdd,AttackAdd,7400;PlayerPropAdd,CritAdd,33"/>
+<Property ID="72004034" PropList="PlayerPropAdd,AttackAdd,7775;PlayerPropAdd,CritAdd,34"/>
+<Property ID="72004035" PropList="PlayerPropAdd,AttackAdd,8159;PlayerPropAdd,CritAdd,35"/>
+<Property ID="72004036" PropList="PlayerPropAdd,AttackAdd,8552;PlayerPropAdd,CritAdd,36"/>
+<Property ID="72004037" PropList="PlayerPropAdd,AttackAdd,8954;PlayerPropAdd,CritAdd,37"/>
+<Property ID="72004038" PropList="PlayerPropAdd,AttackAdd,9365;PlayerPropAdd,CritAdd,38"/>
+<Property ID="72004039" PropList="PlayerPropAdd,AttackAdd,9785;PlayerPropAdd,CritAdd,39"/>
+<Property ID="72004040" PropList="PlayerPropAdd,AttackAdd,10214;PlayerPropAdd,CritAdd,40"/>
+<Property ID="72004041" PropList="PlayerPropAdd,AttackAdd,10652;PlayerPropAdd,CritAdd,41"/>
+<Property ID="72004042" PropList="PlayerPropAdd,AttackAdd,11100;PlayerPropAdd,CritAdd,42"/>
+<Property ID="72004043" PropList="PlayerPropAdd,AttackAdd,11556;PlayerPropAdd,CritAdd,43"/>
+<Property ID="72004044" PropList="PlayerPropAdd,AttackAdd,12021;PlayerPropAdd,CritAdd,44"/>
+<Property ID="72004045" PropList="PlayerPropAdd,AttackAdd,12495;PlayerPropAdd,CritAdd,45"/>
+<Property ID="72004046" PropList="PlayerPropAdd,AttackAdd,12978;PlayerPropAdd,CritAdd,46"/>
+<Property ID="72004047" PropList="PlayerPropAdd,AttackAdd,13470;PlayerPropAdd,CritAdd,47"/>
+<Property ID="72004048" PropList="PlayerPropAdd,AttackAdd,13971;PlayerPropAdd,CritAdd,48"/>
+<Property ID="72004049" PropList="PlayerPropAdd,AttackAdd,14481;PlayerPropAdd,CritAdd,49"/>
+<Property ID="72004050" PropList="PlayerPropAdd,AttackAdd,15000;PlayerPropAdd,CritAdd,50"/>
+<Property ID="72005000" PropList=" "/>
+<Property ID="72005001" PropList="PlayerPropAdd,AttackAdd,150;PlayerPropAdd,CritAdd,1"/>
+<Property ID="72005002" PropList="PlayerPropAdd,AttackAdd,237;PlayerPropAdd,CritAdd,2"/>
+<Property ID="72005003" PropList="PlayerPropAdd,AttackAdd,333;PlayerPropAdd,CritAdd,3"/>
+<Property ID="72005004" PropList="PlayerPropAdd,AttackAdd,438;PlayerPropAdd,CritAdd,4"/>
+<Property ID="72005005" PropList="PlayerPropAdd,AttackAdd,552;PlayerPropAdd,CritAdd,5"/>
+<Property ID="72005006" PropList="PlayerPropAdd,AttackAdd,675;PlayerPropAdd,CritAdd,6"/>
+<Property ID="72005007" PropList="PlayerPropAdd,AttackAdd,807;PlayerPropAdd,CritAdd,7"/>
+<Property ID="72005008" PropList="PlayerPropAdd,AttackAdd,948;PlayerPropAdd,CritAdd,8"/>
+<Property ID="72005009" PropList="PlayerPropAdd,AttackAdd,1098;PlayerPropAdd,CritAdd,9"/>
+<Property ID="72005010" PropList="PlayerPropAdd,AttackAdd,1258;PlayerPropAdd,CritAdd,10"/>
+<Property ID="72005011" PropList="PlayerPropAdd,AttackAdd,1426;PlayerPropAdd,CritAdd,11"/>
+<Property ID="72005012" PropList="PlayerPropAdd,AttackAdd,1603;PlayerPropAdd,CritAdd,12"/>
+<Property ID="72005013" PropList="PlayerPropAdd,AttackAdd,1789;PlayerPropAdd,CritAdd,13"/>
+<Property ID="72005014" PropList="PlayerPropAdd,AttackAdd,1984;PlayerPropAdd,CritAdd,14"/>
+<Property ID="72005015" PropList="PlayerPropAdd,AttackAdd,2188;PlayerPropAdd,CritAdd,15"/>
+<Property ID="72005016" PropList="PlayerPropAdd,AttackAdd,2401;PlayerPropAdd,CritAdd,16"/>
+<Property ID="72005017" PropList="PlayerPropAdd,AttackAdd,2623;PlayerPropAdd,CritAdd,17"/>
+<Property ID="72005018" PropList="PlayerPropAdd,AttackAdd,2854;PlayerPropAdd,CritAdd,18"/>
+<Property ID="72005019" PropList="PlayerPropAdd,AttackAdd,3094;PlayerPropAdd,CritAdd,19"/>
+<Property ID="72005020" PropList="PlayerPropAdd,AttackAdd,3343;PlayerPropAdd,CritAdd,20"/>
+<Property ID="72005021" PropList="PlayerPropAdd,AttackAdd,3601;PlayerPropAdd,CritAdd,21"/>
+<Property ID="72005022" PropList="PlayerPropAdd,AttackAdd,3868;PlayerPropAdd,CritAdd,22"/>
+<Property ID="72005023" PropList="PlayerPropAdd,AttackAdd,4144;PlayerPropAdd,CritAdd,23"/>
+<Property ID="72005024" PropList="PlayerPropAdd,AttackAdd,4429;PlayerPropAdd,CritAdd,24"/>
+<Property ID="72005025" PropList="PlayerPropAdd,AttackAdd,4723;PlayerPropAdd,CritAdd,25"/>
+<Property ID="72005026" PropList="PlayerPropAdd,AttackAdd,5027;PlayerPropAdd,CritAdd,26"/>
+<Property ID="72005027" PropList="PlayerPropAdd,AttackAdd,5339;PlayerPropAdd,CritAdd,27"/>
+<Property ID="72005028" PropList="PlayerPropAdd,AttackAdd,5660;PlayerPropAdd,CritAdd,28"/>
+<Property ID="72005029" PropList="PlayerPropAdd,AttackAdd,5990;PlayerPropAdd,CritAdd,29"/>
+<Property ID="72005030" PropList="PlayerPropAdd,AttackAdd,6329;PlayerPropAdd,CritAdd,30"/>
+<Property ID="72005031" PropList="PlayerPropAdd,AttackAdd,6677;PlayerPropAdd,CritAdd,31"/>
+<Property ID="72005032" PropList="PlayerPropAdd,AttackAdd,7034;PlayerPropAdd,CritAdd,32"/>
+<Property ID="72005033" PropList="PlayerPropAdd,AttackAdd,7400;PlayerPropAdd,CritAdd,33"/>
+<Property ID="72005034" PropList="PlayerPropAdd,AttackAdd,7775;PlayerPropAdd,CritAdd,34"/>
+<Property ID="72005035" PropList="PlayerPropAdd,AttackAdd,8159;PlayerPropAdd,CritAdd,35"/>
+<Property ID="72005036" PropList="PlayerPropAdd,AttackAdd,8552;PlayerPropAdd,CritAdd,36"/>
+<Property ID="72005037" PropList="PlayerPropAdd,AttackAdd,8954;PlayerPropAdd,CritAdd,37"/>
+<Property ID="72005038" PropList="PlayerPropAdd,AttackAdd,9365;PlayerPropAdd,CritAdd,38"/>
+<Property ID="72005039" PropList="PlayerPropAdd,AttackAdd,9785;PlayerPropAdd,CritAdd,39"/>
+<Property ID="72005040" PropList="PlayerPropAdd,AttackAdd,10214;PlayerPropAdd,CritAdd,40"/>
+<Property ID="72005041" PropList="PlayerPropAdd,AttackAdd,10652;PlayerPropAdd,CritAdd,41"/>
+<Property ID="72005042" PropList="PlayerPropAdd,AttackAdd,11100;PlayerPropAdd,CritAdd,42"/>
+<Property ID="72005043" PropList="PlayerPropAdd,AttackAdd,11556;PlayerPropAdd,CritAdd,43"/>
+<Property ID="72005044" PropList="PlayerPropAdd,AttackAdd,12021;PlayerPropAdd,CritAdd,44"/>
+<Property ID="72005045" PropList="PlayerPropAdd,AttackAdd,12495;PlayerPropAdd,CritAdd,45"/>
+<Property ID="72005046" PropList="PlayerPropAdd,AttackAdd,12978;PlayerPropAdd,CritAdd,46"/>
+<Property ID="72005047" PropList="PlayerPropAdd,AttackAdd,13470;PlayerPropAdd,CritAdd,47"/>
+<Property ID="72005048" PropList="PlayerPropAdd,AttackAdd,13971;PlayerPropAdd,CritAdd,48"/>
+<Property ID="72005049" PropList="PlayerPropAdd,AttackAdd,14481;PlayerPropAdd,CritAdd,49"/>
+<Property ID="72005050" PropList="PlayerPropAdd,AttackAdd,15000;PlayerPropAdd,CritAdd,50"/>
+<Property ID="72006000" PropList=" "/>
+<Property ID="72006001" PropList="PlayerPropAdd,AttackAdd,150;PlayerPropAdd,CritAdd,1"/>
+<Property ID="72006002" PropList="PlayerPropAdd,AttackAdd,237;PlayerPropAdd,CritAdd,2"/>
+<Property ID="72006003" PropList="PlayerPropAdd,AttackAdd,333;PlayerPropAdd,CritAdd,3"/>
+<Property ID="72006004" PropList="PlayerPropAdd,AttackAdd,438;PlayerPropAdd,CritAdd,4"/>
+<Property ID="72006005" PropList="PlayerPropAdd,AttackAdd,552;PlayerPropAdd,CritAdd,5"/>
+<Property ID="72006006" PropList="PlayerPropAdd,AttackAdd,675;PlayerPropAdd,CritAdd,6"/>
+<Property ID="72006007" PropList="PlayerPropAdd,AttackAdd,807;PlayerPropAdd,CritAdd,7"/>
+<Property ID="72006008" PropList="PlayerPropAdd,AttackAdd,948;PlayerPropAdd,CritAdd,8"/>
+<Property ID="72006009" PropList="PlayerPropAdd,AttackAdd,1098;PlayerPropAdd,CritAdd,9"/>
+<Property ID="72006010" PropList="PlayerPropAdd,AttackAdd,1258;PlayerPropAdd,CritAdd,10"/>
+<Property ID="72006011" PropList="PlayerPropAdd,AttackAdd,1426;PlayerPropAdd,CritAdd,11"/>
+<Property ID="72006012" PropList="PlayerPropAdd,AttackAdd,1603;PlayerPropAdd,CritAdd,12"/>
+<Property ID="72006013" PropList="PlayerPropAdd,AttackAdd,1789;PlayerPropAdd,CritAdd,13"/>
+<Property ID="72006014" PropList="PlayerPropAdd,AttackAdd,1984;PlayerPropAdd,CritAdd,14"/>
+<Property ID="72006015" PropList="PlayerPropAdd,AttackAdd,2188;PlayerPropAdd,CritAdd,15"/>
+<Property ID="72006016" PropList="PlayerPropAdd,AttackAdd,2401;PlayerPropAdd,CritAdd,16"/>
+<Property ID="72006017" PropList="PlayerPropAdd,AttackAdd,2623;PlayerPropAdd,CritAdd,17"/>
+<Property ID="72006018" PropList="PlayerPropAdd,AttackAdd,2854;PlayerPropAdd,CritAdd,18"/>
+<Property ID="72006019" PropList="PlayerPropAdd,AttackAdd,3094;PlayerPropAdd,CritAdd,19"/>
+<Property ID="72006020" PropList="PlayerPropAdd,AttackAdd,3343;PlayerPropAdd,CritAdd,20"/>
+<Property ID="72006021" PropList="PlayerPropAdd,AttackAdd,3601;PlayerPropAdd,CritAdd,21"/>
+<Property ID="72006022" PropList="PlayerPropAdd,AttackAdd,3868;PlayerPropAdd,CritAdd,22"/>
+<Property ID="72006023" PropList="PlayerPropAdd,AttackAdd,4144;PlayerPropAdd,CritAdd,23"/>
+<Property ID="72006024" PropList="PlayerPropAdd,AttackAdd,4429;PlayerPropAdd,CritAdd,24"/>
+<Property ID="72006025" PropList="PlayerPropAdd,AttackAdd,4723;PlayerPropAdd,CritAdd,25"/>
+<Property ID="72006026" PropList="PlayerPropAdd,AttackAdd,5027;PlayerPropAdd,CritAdd,26"/>
+<Property ID="72006027" PropList="PlayerPropAdd,AttackAdd,5339;PlayerPropAdd,CritAdd,27"/>
+<Property ID="72006028" PropList="PlayerPropAdd,AttackAdd,5660;PlayerPropAdd,CritAdd,28"/>
+<Property ID="72006029" PropList="PlayerPropAdd,AttackAdd,5990;PlayerPropAdd,CritAdd,29"/>
+<Property ID="72006030" PropList="PlayerPropAdd,AttackAdd,6329;PlayerPropAdd,CritAdd,30"/>
+<Property ID="72006031" PropList="PlayerPropAdd,AttackAdd,6677;PlayerPropAdd,CritAdd,31"/>
+<Property ID="72006032" PropList="PlayerPropAdd,AttackAdd,7034;PlayerPropAdd,CritAdd,32"/>
+<Property ID="72006033" PropList="PlayerPropAdd,AttackAdd,7400;PlayerPropAdd,CritAdd,33"/>
+<Property ID="72006034" PropList="PlayerPropAdd,AttackAdd,7775;PlayerPropAdd,CritAdd,34"/>
+<Property ID="72006035" PropList="PlayerPropAdd,AttackAdd,8159;PlayerPropAdd,CritAdd,35"/>
+<Property ID="72006036" PropList="PlayerPropAdd,AttackAdd,8552;PlayerPropAdd,CritAdd,36"/>
+<Property ID="72006037" PropList="PlayerPropAdd,AttackAdd,8954;PlayerPropAdd,CritAdd,37"/>
+<Property ID="72006038" PropList="PlayerPropAdd,AttackAdd,9365;PlayerPropAdd,CritAdd,38"/>
+<Property ID="72006039" PropList="PlayerPropAdd,AttackAdd,9785;PlayerPropAdd,CritAdd,39"/>
+<Property ID="72006040" PropList="PlayerPropAdd,AttackAdd,10214;PlayerPropAdd,CritAdd,40"/>
+<Property ID="72006041" PropList="PlayerPropAdd,AttackAdd,10652;PlayerPropAdd,CritAdd,41"/>
+<Property ID="72006042" PropList="PlayerPropAdd,AttackAdd,11100;PlayerPropAdd,CritAdd,42"/>
+<Property ID="72006043" PropList="PlayerPropAdd,AttackAdd,11556;PlayerPropAdd,CritAdd,43"/>
+<Property ID="72006044" PropList="PlayerPropAdd,AttackAdd,12021;PlayerPropAdd,CritAdd,44"/>
+<Property ID="72006045" PropList="PlayerPropAdd,AttackAdd,12495;PlayerPropAdd,CritAdd,45"/>
+<Property ID="72006046" PropList="PlayerPropAdd,AttackAdd,12978;PlayerPropAdd,CritAdd,46"/>
+<Property ID="72006047" PropList="PlayerPropAdd,AttackAdd,13470;PlayerPropAdd,CritAdd,47"/>
+<Property ID="72006048" PropList="PlayerPropAdd,AttackAdd,13971;PlayerPropAdd,CritAdd,48"/>
+<Property ID="72006049" PropList="PlayerPropAdd,AttackAdd,14481;PlayerPropAdd,CritAdd,49"/>
+<Property ID="72006050" PropList="PlayerPropAdd,AttackAdd,15000;PlayerPropAdd,CritAdd,50"/>
+<Property ID="72007000" PropList=" "/>
+<Property ID="72007001" PropList="PlayerPropAdd,AttackAdd,150;PlayerPropAdd,CritAdd,1"/>
+<Property ID="72007002" PropList="PlayerPropAdd,AttackAdd,237;PlayerPropAdd,CritAdd,2"/>
+<Property ID="72007003" PropList="PlayerPropAdd,AttackAdd,333;PlayerPropAdd,CritAdd,3"/>
+<Property ID="72007004" PropList="PlayerPropAdd,AttackAdd,438;PlayerPropAdd,CritAdd,4"/>
+<Property ID="72007005" PropList="PlayerPropAdd,AttackAdd,552;PlayerPropAdd,CritAdd,5"/>
+<Property ID="72007006" PropList="PlayerPropAdd,AttackAdd,675;PlayerPropAdd,CritAdd,6"/>
+<Property ID="72007007" PropList="PlayerPropAdd,AttackAdd,807;PlayerPropAdd,CritAdd,7"/>
+<Property ID="72007008" PropList="PlayerPropAdd,AttackAdd,948;PlayerPropAdd,CritAdd,8"/>
+<Property ID="72007009" PropList="PlayerPropAdd,AttackAdd,1098;PlayerPropAdd,CritAdd,9"/>
+<Property ID="72007010" PropList="PlayerPropAdd,AttackAdd,1258;PlayerPropAdd,CritAdd,10"/>
+<Property ID="72007011" PropList="PlayerPropAdd,AttackAdd,1426;PlayerPropAdd,CritAdd,11"/>
+<Property ID="72007012" PropList="PlayerPropAdd,AttackAdd,1603;PlayerPropAdd,CritAdd,12"/>
+<Property ID="72007013" PropList="PlayerPropAdd,AttackAdd,1789;PlayerPropAdd,CritAdd,13"/>
+<Property ID="72007014" PropList="PlayerPropAdd,AttackAdd,1984;PlayerPropAdd,CritAdd,14"/>
+<Property ID="72007015" PropList="PlayerPropAdd,AttackAdd,2188;PlayerPropAdd,CritAdd,15"/>
+<Property ID="72007016" PropList="PlayerPropAdd,AttackAdd,2401;PlayerPropAdd,CritAdd,16"/>
+<Property ID="72007017" PropList="PlayerPropAdd,AttackAdd,2623;PlayerPropAdd,CritAdd,17"/>
+<Property ID="72007018" PropList="PlayerPropAdd,AttackAdd,2854;PlayerPropAdd,CritAdd,18"/>
+<Property ID="72007019" PropList="PlayerPropAdd,AttackAdd,3094;PlayerPropAdd,CritAdd,19"/>
+<Property ID="72007020" PropList="PlayerPropAdd,AttackAdd,3343;PlayerPropAdd,CritAdd,20"/>
+<Property ID="72007021" PropList="PlayerPropAdd,AttackAdd,3601;PlayerPropAdd,CritAdd,21"/>
+<Property ID="72007022" PropList="PlayerPropAdd,AttackAdd,3868;PlayerPropAdd,CritAdd,22"/>
+<Property ID="72007023" PropList="PlayerPropAdd,AttackAdd,4144;PlayerPropAdd,CritAdd,23"/>
+<Property ID="72007024" PropList="PlayerPropAdd,AttackAdd,4429;PlayerPropAdd,CritAdd,24"/>
+<Property ID="72007025" PropList="PlayerPropAdd,AttackAdd,4723;PlayerPropAdd,CritAdd,25"/>
+<Property ID="72007026" PropList="PlayerPropAdd,AttackAdd,5027;PlayerPropAdd,CritAdd,26"/>
+<Property ID="72007027" PropList="PlayerPropAdd,AttackAdd,5339;PlayerPropAdd,CritAdd,27"/>
+<Property ID="72007028" PropList="PlayerPropAdd,AttackAdd,5660;PlayerPropAdd,CritAdd,28"/>
+<Property ID="72007029" PropList="PlayerPropAdd,AttackAdd,5990;PlayerPropAdd,CritAdd,29"/>
+<Property ID="72007030" PropList="PlayerPropAdd,AttackAdd,6329;PlayerPropAdd,CritAdd,30"/>
+<Property ID="72007031" PropList="PlayerPropAdd,AttackAdd,6677;PlayerPropAdd,CritAdd,31"/>
+<Property ID="72007032" PropList="PlayerPropAdd,AttackAdd,7034;PlayerPropAdd,CritAdd,32"/>
+<Property ID="72007033" PropList="PlayerPropAdd,AttackAdd,7400;PlayerPropAdd,CritAdd,33"/>
+<Property ID="72007034" PropList="PlayerPropAdd,AttackAdd,7775;PlayerPropAdd,CritAdd,34"/>
+<Property ID="72007035" PropList="PlayerPropAdd,AttackAdd,8159;PlayerPropAdd,CritAdd,35"/>
+<Property ID="72007036" PropList="PlayerPropAdd,AttackAdd,8552;PlayerPropAdd,CritAdd,36"/>
+<Property ID="72007037" PropList="PlayerPropAdd,AttackAdd,8954;PlayerPropAdd,CritAdd,37"/>
+<Property ID="72007038" PropList="PlayerPropAdd,AttackAdd,9365;PlayerPropAdd,CritAdd,38"/>
+<Property ID="72007039" PropList="PlayerPropAdd,AttackAdd,9785;PlayerPropAdd,CritAdd,39"/>
+<Property ID="72007040" PropList="PlayerPropAdd,AttackAdd,10214;PlayerPropAdd,CritAdd,40"/>
+<Property ID="72007041" PropList="PlayerPropAdd,AttackAdd,10652;PlayerPropAdd,CritAdd,41"/>
+<Property ID="72007042" PropList="PlayerPropAdd,AttackAdd,11100;PlayerPropAdd,CritAdd,42"/>
+<Property ID="72007043" PropList="PlayerPropAdd,AttackAdd,11556;PlayerPropAdd,CritAdd,43"/>
+<Property ID="72007044" PropList="PlayerPropAdd,AttackAdd,12021;PlayerPropAdd,CritAdd,44"/>
+<Property ID="72007045" PropList="PlayerPropAdd,AttackAdd,12495;PlayerPropAdd,CritAdd,45"/>
+<Property ID="72007046" PropList="PlayerPropAdd,AttackAdd,12978;PlayerPropAdd,CritAdd,46"/>
+<Property ID="72007047" PropList="PlayerPropAdd,AttackAdd,13470;PlayerPropAdd,CritAdd,47"/>
+<Property ID="72007048" PropList="PlayerPropAdd,AttackAdd,13971;PlayerPropAdd,CritAdd,48"/>
+<Property ID="72007049" PropList="PlayerPropAdd,AttackAdd,14481;PlayerPropAdd,CritAdd,49"/>
+<Property ID="72007050" PropList="PlayerPropAdd,AttackAdd,15000;PlayerPropAdd,CritAdd,50"/>
+<Property ID="72008000" PropList=" "/>
+<Property ID="72008001" PropList="PlayerPropAdd,AttackAdd,150;PlayerPropAdd,CritAdd,1"/>
+<Property ID="72008002" PropList="PlayerPropAdd,AttackAdd,237;PlayerPropAdd,CritAdd,2"/>
+<Property ID="72008003" PropList="PlayerPropAdd,AttackAdd,333;PlayerPropAdd,CritAdd,3"/>
+<Property ID="72008004" PropList="PlayerPropAdd,AttackAdd,438;PlayerPropAdd,CritAdd,4"/>
+<Property ID="72008005" PropList="PlayerPropAdd,AttackAdd,552;PlayerPropAdd,CritAdd,5"/>
+<Property ID="72008006" PropList="PlayerPropAdd,AttackAdd,675;PlayerPropAdd,CritAdd,6"/>
+<Property ID="72008007" PropList="PlayerPropAdd,AttackAdd,807;PlayerPropAdd,CritAdd,7"/>
+<Property ID="72008008" PropList="PlayerPropAdd,AttackAdd,948;PlayerPropAdd,CritAdd,8"/>
+<Property ID="72008009" PropList="PlayerPropAdd,AttackAdd,1098;PlayerPropAdd,CritAdd,9"/>
+<Property ID="72008010" PropList="PlayerPropAdd,AttackAdd,1258;PlayerPropAdd,CritAdd,10"/>
+<Property ID="72008011" PropList="PlayerPropAdd,AttackAdd,1426;PlayerPropAdd,CritAdd,11"/>
+<Property ID="72008012" PropList="PlayerPropAdd,AttackAdd,1603;PlayerPropAdd,CritAdd,12"/>
+<Property ID="72008013" PropList="PlayerPropAdd,AttackAdd,1789;PlayerPropAdd,CritAdd,13"/>
+<Property ID="72008014" PropList="PlayerPropAdd,AttackAdd,1984;PlayerPropAdd,CritAdd,14"/>
+<Property ID="72008015" PropList="PlayerPropAdd,AttackAdd,2188;PlayerPropAdd,CritAdd,15"/>
+<Property ID="72008016" PropList="PlayerPropAdd,AttackAdd,2401;PlayerPropAdd,CritAdd,16"/>
+<Property ID="72008017" PropList="PlayerPropAdd,AttackAdd,2623;PlayerPropAdd,CritAdd,17"/>
+<Property ID="72008018" PropList="PlayerPropAdd,AttackAdd,2854;PlayerPropAdd,CritAdd,18"/>
+<Property ID="72008019" PropList="PlayerPropAdd,AttackAdd,3094;PlayerPropAdd,CritAdd,19"/>
+<Property ID="72008020" PropList="PlayerPropAdd,AttackAdd,3343;PlayerPropAdd,CritAdd,20"/>
+<Property ID="72008021" PropList="PlayerPropAdd,AttackAdd,3601;PlayerPropAdd,CritAdd,21"/>
+<Property ID="72008022" PropList="PlayerPropAdd,AttackAdd,3868;PlayerPropAdd,CritAdd,22"/>
+<Property ID="72008023" PropList="PlayerPropAdd,AttackAdd,4144;PlayerPropAdd,CritAdd,23"/>
+<Property ID="72008024" PropList="PlayerPropAdd,AttackAdd,4429;PlayerPropAdd,CritAdd,24"/>
+<Property ID="72008025" PropList="PlayerPropAdd,AttackAdd,4723;PlayerPropAdd,CritAdd,25"/>
+<Property ID="72008026" PropList="PlayerPropAdd,AttackAdd,5027;PlayerPropAdd,CritAdd,26"/>
+<Property ID="72008027" PropList="PlayerPropAdd,AttackAdd,5339;PlayerPropAdd,CritAdd,27"/>
+<Property ID="72008028" PropList="PlayerPropAdd,AttackAdd,5660;PlayerPropAdd,CritAdd,28"/>
+<Property ID="72008029" PropList="PlayerPropAdd,AttackAdd,5990;PlayerPropAdd,CritAdd,29"/>
+<Property ID="72008030" PropList="PlayerPropAdd,AttackAdd,6329;PlayerPropAdd,CritAdd,30"/>
+<Property ID="72008031" PropList="PlayerPropAdd,AttackAdd,6677;PlayerPropAdd,CritAdd,31"/>
+<Property ID="72008032" PropList="PlayerPropAdd,AttackAdd,7034;PlayerPropAdd,CritAdd,32"/>
+<Property ID="72008033" PropList="PlayerPropAdd,AttackAdd,7400;PlayerPropAdd,CritAdd,33"/>
+<Property ID="72008034" PropList="PlayerPropAdd,AttackAdd,7775;PlayerPropAdd,CritAdd,34"/>
+<Property ID="72008035" PropList="PlayerPropAdd,AttackAdd,8159;PlayerPropAdd,CritAdd,35"/>
+<Property ID="72008036" PropList="PlayerPropAdd,AttackAdd,8552;PlayerPropAdd,CritAdd,36"/>
+<Property ID="72008037" PropList="PlayerPropAdd,AttackAdd,8954;PlayerPropAdd,CritAdd,37"/>
+<Property ID="72008038" PropList="PlayerPropAdd,AttackAdd,9365;PlayerPropAdd,CritAdd,38"/>
+<Property ID="72008039" PropList="PlayerPropAdd,AttackAdd,9785;PlayerPropAdd,CritAdd,39"/>
+<Property ID="72008040" PropList="PlayerPropAdd,AttackAdd,10214;PlayerPropAdd,CritAdd,40"/>
+<Property ID="72008041" PropList="PlayerPropAdd,AttackAdd,10652;PlayerPropAdd,CritAdd,41"/>
+<Property ID="72008042" PropList="PlayerPropAdd,AttackAdd,11100;PlayerPropAdd,CritAdd,42"/>
+<Property ID="72008043" PropList="PlayerPropAdd,AttackAdd,11556;PlayerPropAdd,CritAdd,43"/>
+<Property ID="72008044" PropList="PlayerPropAdd,AttackAdd,12021;PlayerPropAdd,CritAdd,44"/>
+<Property ID="72008045" PropList="PlayerPropAdd,AttackAdd,12495;PlayerPropAdd,CritAdd,45"/>
+<Property ID="72008046" PropList="PlayerPropAdd,AttackAdd,12978;PlayerPropAdd,CritAdd,46"/>
+<Property ID="72008047" PropList="PlayerPropAdd,AttackAdd,13470;PlayerPropAdd,CritAdd,47"/>
+<Property ID="72008048" PropList="PlayerPropAdd,AttackAdd,13971;PlayerPropAdd,CritAdd,48"/>
+<Property ID="72008049" PropList="PlayerPropAdd,AttackAdd,14481;PlayerPropAdd,CritAdd,49"/>
+<Property ID="72008050" PropList="PlayerPropAdd,AttackAdd,15000;PlayerPropAdd,CritAdd,50"/>
+<Property ID="72009000" PropList=" "/>
+<Property ID="72009001" PropList="PlayerPropAdd,AttackAdd,150;PlayerPropAdd,CritAdd,1"/>
+<Property ID="72009002" PropList="PlayerPropAdd,AttackAdd,237;PlayerPropAdd,CritAdd,2"/>
+<Property ID="72009003" PropList="PlayerPropAdd,AttackAdd,333;PlayerPropAdd,CritAdd,3"/>
+<Property ID="72009004" PropList="PlayerPropAdd,AttackAdd,438;PlayerPropAdd,CritAdd,4"/>
+<Property ID="72009005" PropList="PlayerPropAdd,AttackAdd,552;PlayerPropAdd,CritAdd,5"/>
+<Property ID="72009006" PropList="PlayerPropAdd,AttackAdd,675;PlayerPropAdd,CritAdd,6"/>
+<Property ID="72009007" PropList="PlayerPropAdd,AttackAdd,807;PlayerPropAdd,CritAdd,7"/>
+<Property ID="72009008" PropList="PlayerPropAdd,AttackAdd,948;PlayerPropAdd,CritAdd,8"/>
+<Property ID="72009009" PropList="PlayerPropAdd,AttackAdd,1098;PlayerPropAdd,CritAdd,9"/>
+<Property ID="72009010" PropList="PlayerPropAdd,AttackAdd,1258;PlayerPropAdd,CritAdd,10"/>
+<Property ID="72009011" PropList="PlayerPropAdd,AttackAdd,1426;PlayerPropAdd,CritAdd,11"/>
+<Property ID="72009012" PropList="PlayerPropAdd,AttackAdd,1603;PlayerPropAdd,CritAdd,12"/>
+<Property ID="72009013" PropList="PlayerPropAdd,AttackAdd,1789;PlayerPropAdd,CritAdd,13"/>
+<Property ID="72009014" PropList="PlayerPropAdd,AttackAdd,1984;PlayerPropAdd,CritAdd,14"/>
+<Property ID="72009015" PropList="PlayerPropAdd,AttackAdd,2188;PlayerPropAdd,CritAdd,15"/>
+<Property ID="72009016" PropList="PlayerPropAdd,AttackAdd,2401;PlayerPropAdd,CritAdd,16"/>
+<Property ID="72009017" PropList="PlayerPropAdd,AttackAdd,2623;PlayerPropAdd,CritAdd,17"/>
+<Property ID="72009018" PropList="PlayerPropAdd,AttackAdd,2854;PlayerPropAdd,CritAdd,18"/>
+<Property ID="72009019" PropList="PlayerPropAdd,AttackAdd,3094;PlayerPropAdd,CritAdd,19"/>
+<Property ID="72009020" PropList="PlayerPropAdd,AttackAdd,3343;PlayerPropAdd,CritAdd,20"/>
+<Property ID="72009021" PropList="PlayerPropAdd,AttackAdd,3601;PlayerPropAdd,CritAdd,21"/>
+<Property ID="72009022" PropList="PlayerPropAdd,AttackAdd,3868;PlayerPropAdd,CritAdd,22"/>
+<Property ID="72009023" PropList="PlayerPropAdd,AttackAdd,4144;PlayerPropAdd,CritAdd,23"/>
+<Property ID="72009024" PropList="PlayerPropAdd,AttackAdd,4429;PlayerPropAdd,CritAdd,24"/>
+<Property ID="72009025" PropList="PlayerPropAdd,AttackAdd,4723;PlayerPropAdd,CritAdd,25"/>
+<Property ID="72009026" PropList="PlayerPropAdd,AttackAdd,5027;PlayerPropAdd,CritAdd,26"/>
+<Property ID="72009027" PropList="PlayerPropAdd,AttackAdd,5339;PlayerPropAdd,CritAdd,27"/>
+<Property ID="72009028" PropList="PlayerPropAdd,AttackAdd,5660;PlayerPropAdd,CritAdd,28"/>
+<Property ID="72009029" PropList="PlayerPropAdd,AttackAdd,5990;PlayerPropAdd,CritAdd,29"/>
+<Property ID="72009030" PropList="PlayerPropAdd,AttackAdd,6329;PlayerPropAdd,CritAdd,30"/>
+<Property ID="72009031" PropList="PlayerPropAdd,AttackAdd,6677;PlayerPropAdd,CritAdd,31"/>
+<Property ID="72009032" PropList="PlayerPropAdd,AttackAdd,7034;PlayerPropAdd,CritAdd,32"/>
+<Property ID="72009033" PropList="PlayerPropAdd,AttackAdd,7400;PlayerPropAdd,CritAdd,33"/>
+<Property ID="72009034" PropList="PlayerPropAdd,AttackAdd,7775;PlayerPropAdd,CritAdd,34"/>
+<Property ID="72009035" PropList="PlayerPropAdd,AttackAdd,8159;PlayerPropAdd,CritAdd,35"/>
+<Property ID="72009036" PropList="PlayerPropAdd,AttackAdd,8552;PlayerPropAdd,CritAdd,36"/>
+<Property ID="72009037" PropList="PlayerPropAdd,AttackAdd,8954;PlayerPropAdd,CritAdd,37"/>
+<Property ID="72009038" PropList="PlayerPropAdd,AttackAdd,9365;PlayerPropAdd,CritAdd,38"/>
+<Property ID="72009039" PropList="PlayerPropAdd,AttackAdd,9785;PlayerPropAdd,CritAdd,39"/>
+<Property ID="72009040" PropList="PlayerPropAdd,AttackAdd,10214;PlayerPropAdd,CritAdd,40"/>
+<Property ID="72009041" PropList="PlayerPropAdd,AttackAdd,10652;PlayerPropAdd,CritAdd,41"/>
+<Property ID="72009042" PropList="PlayerPropAdd,AttackAdd,11100;PlayerPropAdd,CritAdd,42"/>
+<Property ID="72009043" PropList="PlayerPropAdd,AttackAdd,11556;PlayerPropAdd,CritAdd,43"/>
+<Property ID="72009044" PropList="PlayerPropAdd,AttackAdd,12021;PlayerPropAdd,CritAdd,44"/>
+<Property ID="72009045" PropList="PlayerPropAdd,AttackAdd,12495;PlayerPropAdd,CritAdd,45"/>
+<Property ID="72009046" PropList="PlayerPropAdd,AttackAdd,12978;PlayerPropAdd,CritAdd,46"/>
+<Property ID="72009047" PropList="PlayerPropAdd,AttackAdd,13470;PlayerPropAdd,CritAdd,47"/>
+<Property ID="72009048" PropList="PlayerPropAdd,AttackAdd,13971;PlayerPropAdd,CritAdd,48"/>
+<Property ID="72009049" PropList="PlayerPropAdd,AttackAdd,14481;PlayerPropAdd,CritAdd,49"/>
+<Property ID="72009050" PropList="PlayerPropAdd,AttackAdd,15000;PlayerPropAdd,CritAdd,50"/>
+<Property ID="72010000" PropList=" "/>
+<Property ID="72010001" PropList="PlayerPropAdd,AttackAdd,150;PlayerPropAdd,CritAdd,1"/>
+<Property ID="72010002" PropList="PlayerPropAdd,AttackAdd,237;PlayerPropAdd,CritAdd,2"/>
+<Property ID="72010003" PropList="PlayerPropAdd,AttackAdd,333;PlayerPropAdd,CritAdd,3"/>
+<Property ID="72010004" PropList="PlayerPropAdd,AttackAdd,438;PlayerPropAdd,CritAdd,4"/>
+<Property ID="72010005" PropList="PlayerPropAdd,AttackAdd,552;PlayerPropAdd,CritAdd,5"/>
+<Property ID="72010006" PropList="PlayerPropAdd,AttackAdd,675;PlayerPropAdd,CritAdd,6"/>
+<Property ID="72010007" PropList="PlayerPropAdd,AttackAdd,807;PlayerPropAdd,CritAdd,7"/>
+<Property ID="72010008" PropList="PlayerPropAdd,AttackAdd,948;PlayerPropAdd,CritAdd,8"/>
+<Property ID="72010009" PropList="PlayerPropAdd,AttackAdd,1098;PlayerPropAdd,CritAdd,9"/>
+<Property ID="72010010" PropList="PlayerPropAdd,AttackAdd,1258;PlayerPropAdd,CritAdd,10"/>
+<Property ID="72010011" PropList="PlayerPropAdd,AttackAdd,1426;PlayerPropAdd,CritAdd,11"/>
+<Property ID="72010012" PropList="PlayerPropAdd,AttackAdd,1603;PlayerPropAdd,CritAdd,12"/>
+<Property ID="72010013" PropList="PlayerPropAdd,AttackAdd,1789;PlayerPropAdd,CritAdd,13"/>
+<Property ID="72010014" PropList="PlayerPropAdd,AttackAdd,1984;PlayerPropAdd,CritAdd,14"/>
+<Property ID="72010015" PropList="PlayerPropAdd,AttackAdd,2188;PlayerPropAdd,CritAdd,15"/>
+<Property ID="72010016" PropList="PlayerPropAdd,AttackAdd,2401;PlayerPropAdd,CritAdd,16"/>
+<Property ID="72010017" PropList="PlayerPropAdd,AttackAdd,2623;PlayerPropAdd,CritAdd,17"/>
+<Property ID="72010018" PropList="PlayerPropAdd,AttackAdd,2854;PlayerPropAdd,CritAdd,18"/>
+<Property ID="72010019" PropList="PlayerPropAdd,AttackAdd,3094;PlayerPropAdd,CritAdd,19"/>
+<Property ID="72010020" PropList="PlayerPropAdd,AttackAdd,3343;PlayerPropAdd,CritAdd,20"/>
+<Property ID="72010021" PropList="PlayerPropAdd,AttackAdd,3601;PlayerPropAdd,CritAdd,21"/>
+<Property ID="72010022" PropList="PlayerPropAdd,AttackAdd,3868;PlayerPropAdd,CritAdd,22"/>
+<Property ID="72010023" PropList="PlayerPropAdd,AttackAdd,4144;PlayerPropAdd,CritAdd,23"/>
+<Property ID="72010024" PropList="PlayerPropAdd,AttackAdd,4429;PlayerPropAdd,CritAdd,24"/>
+<Property ID="72010025" PropList="PlayerPropAdd,AttackAdd,4723;PlayerPropAdd,CritAdd,25"/>
+<Property ID="72010026" PropList="PlayerPropAdd,AttackAdd,5027;PlayerPropAdd,CritAdd,26"/>
+<Property ID="72010027" PropList="PlayerPropAdd,AttackAdd,5339;PlayerPropAdd,CritAdd,27"/>
+<Property ID="72010028" PropList="PlayerPropAdd,AttackAdd,5660;PlayerPropAdd,CritAdd,28"/>
+<Property ID="72010029" PropList="PlayerPropAdd,AttackAdd,5990;PlayerPropAdd,CritAdd,29"/>
+<Property ID="72010030" PropList="PlayerPropAdd,AttackAdd,6329;PlayerPropAdd,CritAdd,30"/>
+<Property ID="72010031" PropList="PlayerPropAdd,AttackAdd,6677;PlayerPropAdd,CritAdd,31"/>
+<Property ID="72010032" PropList="PlayerPropAdd,AttackAdd,7034;PlayerPropAdd,CritAdd,32"/>
+<Property ID="72010033" PropList="PlayerPropAdd,AttackAdd,7400;PlayerPropAdd,CritAdd,33"/>
+<Property ID="72010034" PropList="PlayerPropAdd,AttackAdd,7775;PlayerPropAdd,CritAdd,34"/>
+<Property ID="72010035" PropList="PlayerPropAdd,AttackAdd,8159;PlayerPropAdd,CritAdd,35"/>
+<Property ID="72010036" PropList="PlayerPropAdd,AttackAdd,8552;PlayerPropAdd,CritAdd,36"/>
+<Property ID="72010037" PropList="PlayerPropAdd,AttackAdd,8954;PlayerPropAdd,CritAdd,37"/>
+<Property ID="72010038" PropList="PlayerPropAdd,AttackAdd,9365;PlayerPropAdd,CritAdd,38"/>
+<Property ID="72010039" PropList="PlayerPropAdd,AttackAdd,9785;PlayerPropAdd,CritAdd,39"/>
+<Property ID="72010040" PropList="PlayerPropAdd,AttackAdd,10214;PlayerPropAdd,CritAdd,40"/>
+<Property ID="72010041" PropList="PlayerPropAdd,AttackAdd,10652;PlayerPropAdd,CritAdd,41"/>
+<Property ID="72010042" PropList="PlayerPropAdd,AttackAdd,11100;PlayerPropAdd,CritAdd,42"/>
+<Property ID="72010043" PropList="PlayerPropAdd,AttackAdd,11556;PlayerPropAdd,CritAdd,43"/>
+<Property ID="72010044" PropList="PlayerPropAdd,AttackAdd,12021;PlayerPropAdd,CritAdd,44"/>
+<Property ID="72010045" PropList="PlayerPropAdd,AttackAdd,12495;PlayerPropAdd,CritAdd,45"/>
+<Property ID="72010046" PropList="PlayerPropAdd,AttackAdd,12978;PlayerPropAdd,CritAdd,46"/>
+<Property ID="72010047" PropList="PlayerPropAdd,AttackAdd,13470;PlayerPropAdd,CritAdd,47"/>
+<Property ID="72010048" PropList="PlayerPropAdd,AttackAdd,13971;PlayerPropAdd,CritAdd,48"/>
+<Property ID="72010049" PropList="PlayerPropAdd,AttackAdd,14481;PlayerPropAdd,CritAdd,49"/>
+<Property ID="72010050" PropList="PlayerPropAdd,AttackAdd,15000;PlayerPropAdd,CritAdd,50"/>
+<Property ID="72011000" PropList=" "/>
+<Property ID="72011001" PropList="PlayerPropAdd,AttackAdd,150;PlayerPropAdd,CritAdd,1"/>
+<Property ID="72011002" PropList="PlayerPropAdd,AttackAdd,237;PlayerPropAdd,CritAdd,2"/>
+<Property ID="72011003" PropList="PlayerPropAdd,AttackAdd,333;PlayerPropAdd,CritAdd,3"/>
+<Property ID="72011004" PropList="PlayerPropAdd,AttackAdd,438;PlayerPropAdd,CritAdd,4"/>
+<Property ID="72011005" PropList="PlayerPropAdd,AttackAdd,552;PlayerPropAdd,CritAdd,5"/>
+<Property ID="72011006" PropList="PlayerPropAdd,AttackAdd,675;PlayerPropAdd,CritAdd,6"/>
+<Property ID="72011007" PropList="PlayerPropAdd,AttackAdd,807;PlayerPropAdd,CritAdd,7"/>
+<Property ID="72011008" PropList="PlayerPropAdd,AttackAdd,948;PlayerPropAdd,CritAdd,8"/>
+<Property ID="72011009" PropList="PlayerPropAdd,AttackAdd,1098;PlayerPropAdd,CritAdd,9"/>
+<Property ID="72011010" PropList="PlayerPropAdd,AttackAdd,1258;PlayerPropAdd,CritAdd,10"/>
+<Property ID="72011011" PropList="PlayerPropAdd,AttackAdd,1426;PlayerPropAdd,CritAdd,11"/>
+<Property ID="72011012" PropList="PlayerPropAdd,AttackAdd,1603;PlayerPropAdd,CritAdd,12"/>
+<Property ID="72011013" PropList="PlayerPropAdd,AttackAdd,1789;PlayerPropAdd,CritAdd,13"/>
+<Property ID="72011014" PropList="PlayerPropAdd,AttackAdd,1984;PlayerPropAdd,CritAdd,14"/>
+<Property ID="72011015" PropList="PlayerPropAdd,AttackAdd,2188;PlayerPropAdd,CritAdd,15"/>
+<Property ID="72011016" PropList="PlayerPropAdd,AttackAdd,2401;PlayerPropAdd,CritAdd,16"/>
+<Property ID="72011017" PropList="PlayerPropAdd,AttackAdd,2623;PlayerPropAdd,CritAdd,17"/>
+<Property ID="72011018" PropList="PlayerPropAdd,AttackAdd,2854;PlayerPropAdd,CritAdd,18"/>
+<Property ID="72011019" PropList="PlayerPropAdd,AttackAdd,3094;PlayerPropAdd,CritAdd,19"/>
+<Property ID="72011020" PropList="PlayerPropAdd,AttackAdd,3343;PlayerPropAdd,CritAdd,20"/>
+<Property ID="72011021" PropList="PlayerPropAdd,AttackAdd,3601;PlayerPropAdd,CritAdd,21"/>
+<Property ID="72011022" PropList="PlayerPropAdd,AttackAdd,3868;PlayerPropAdd,CritAdd,22"/>
+<Property ID="72011023" PropList="PlayerPropAdd,AttackAdd,4144;PlayerPropAdd,CritAdd,23"/>
+<Property ID="72011024" PropList="PlayerPropAdd,AttackAdd,4429;PlayerPropAdd,CritAdd,24"/>
+<Property ID="72011025" PropList="PlayerPropAdd,AttackAdd,4723;PlayerPropAdd,CritAdd,25"/>
+<Property ID="72011026" PropList="PlayerPropAdd,AttackAdd,5027;PlayerPropAdd,CritAdd,26"/>
+<Property ID="72011027" PropList="PlayerPropAdd,AttackAdd,5339;PlayerPropAdd,CritAdd,27"/>
+<Property ID="72011028" PropList="PlayerPropAdd,AttackAdd,5660;PlayerPropAdd,CritAdd,28"/>
+<Property ID="72011029" PropList="PlayerPropAdd,AttackAdd,5990;PlayerPropAdd,CritAdd,29"/>
+<Property ID="72011030" PropList="PlayerPropAdd,AttackAdd,6329;PlayerPropAdd,CritAdd,30"/>
+<Property ID="72011031" PropList="PlayerPropAdd,AttackAdd,6677;PlayerPropAdd,CritAdd,31"/>
+<Property ID="72011032" PropList="PlayerPropAdd,AttackAdd,7034;PlayerPropAdd,CritAdd,32"/>
+<Property ID="72011033" PropList="PlayerPropAdd,AttackAdd,7400;PlayerPropAdd,CritAdd,33"/>
+<Property ID="72011034" PropList="PlayerPropAdd,AttackAdd,7775;PlayerPropAdd,CritAdd,34"/>
+<Property ID="72011035" PropList="PlayerPropAdd,AttackAdd,8159;PlayerPropAdd,CritAdd,35"/>
+<Property ID="72011036" PropList="PlayerPropAdd,AttackAdd,8552;PlayerPropAdd,CritAdd,36"/>
+<Property ID="72011037" PropList="PlayerPropAdd,AttackAdd,8954;PlayerPropAdd,CritAdd,37"/>
+<Property ID="72011038" PropList="PlayerPropAdd,AttackAdd,9365;PlayerPropAdd,CritAdd,38"/>
+<Property ID="72011039" PropList="PlayerPropAdd,AttackAdd,9785;PlayerPropAdd,CritAdd,39"/>
+<Property ID="72011040" PropList="PlayerPropAdd,AttackAdd,10214;PlayerPropAdd,CritAdd,40"/>
+<Property ID="72011041" PropList="PlayerPropAdd,AttackAdd,10652;PlayerPropAdd,CritAdd,41"/>
+<Property ID="72011042" PropList="PlayerPropAdd,AttackAdd,11100;PlayerPropAdd,CritAdd,42"/>
+<Property ID="72011043" PropList="PlayerPropAdd,AttackAdd,11556;PlayerPropAdd,CritAdd,43"/>
+<Property ID="72011044" PropList="PlayerPropAdd,AttackAdd,12021;PlayerPropAdd,CritAdd,44"/>
+<Property ID="72011045" PropList="PlayerPropAdd,AttackAdd,12495;PlayerPropAdd,CritAdd,45"/>
+<Property ID="72011046" PropList="PlayerPropAdd,AttackAdd,12978;PlayerPropAdd,CritAdd,46"/>
+<Property ID="72011047" PropList="PlayerPropAdd,AttackAdd,13470;PlayerPropAdd,CritAdd,47"/>
+<Property ID="72011048" PropList="PlayerPropAdd,AttackAdd,13971;PlayerPropAdd,CritAdd,48"/>
+<Property ID="72011049" PropList="PlayerPropAdd,AttackAdd,14481;PlayerPropAdd,CritAdd,49"/>
+<Property ID="72011050" PropList="PlayerPropAdd,AttackAdd,15000;PlayerPropAdd,CritAdd,50"/>
+<Property ID="72012000" PropList=" "/>
+<Property ID="72012001" PropList="PlayerPropAdd,AttackAdd,150;PlayerPropAdd,CritAdd,1"/>
+<Property ID="72012002" PropList="PlayerPropAdd,AttackAdd,237;PlayerPropAdd,CritAdd,2"/>
+<Property ID="72012003" PropList="PlayerPropAdd,AttackAdd,333;PlayerPropAdd,CritAdd,3"/>
+<Property ID="72012004" PropList="PlayerPropAdd,AttackAdd,438;PlayerPropAdd,CritAdd,4"/>
+<Property ID="72012005" PropList="PlayerPropAdd,AttackAdd,552;PlayerPropAdd,CritAdd,5"/>
+<Property ID="72012006" PropList="PlayerPropAdd,AttackAdd,675;PlayerPropAdd,CritAdd,6"/>
+<Property ID="72012007" PropList="PlayerPropAdd,AttackAdd,807;PlayerPropAdd,CritAdd,7"/>
+<Property ID="72012008" PropList="PlayerPropAdd,AttackAdd,948;PlayerPropAdd,CritAdd,8"/>
+<Property ID="72012009" PropList="PlayerPropAdd,AttackAdd,1098;PlayerPropAdd,CritAdd,9"/>
+<Property ID="72012010" PropList="PlayerPropAdd,AttackAdd,1258;PlayerPropAdd,CritAdd,10"/>
+<Property ID="72012011" PropList="PlayerPropAdd,AttackAdd,1426;PlayerPropAdd,CritAdd,11"/>
+<Property ID="72012012" PropList="PlayerPropAdd,AttackAdd,1603;PlayerPropAdd,CritAdd,12"/>
+<Property ID="72012013" PropList="PlayerPropAdd,AttackAdd,1789;PlayerPropAdd,CritAdd,13"/>
+<Property ID="72012014" PropList="PlayerPropAdd,AttackAdd,1984;PlayerPropAdd,CritAdd,14"/>
+<Property ID="72012015" PropList="PlayerPropAdd,AttackAdd,2188;PlayerPropAdd,CritAdd,15"/>
+<Property ID="72012016" PropList="PlayerPropAdd,AttackAdd,2401;PlayerPropAdd,CritAdd,16"/>
+<Property ID="72012017" PropList="PlayerPropAdd,AttackAdd,2623;PlayerPropAdd,CritAdd,17"/>
+<Property ID="72012018" PropList="PlayerPropAdd,AttackAdd,2854;PlayerPropAdd,CritAdd,18"/>
+<Property ID="72012019" PropList="PlayerPropAdd,AttackAdd,3094;PlayerPropAdd,CritAdd,19"/>
+<Property ID="72012020" PropList="PlayerPropAdd,AttackAdd,3343;PlayerPropAdd,CritAdd,20"/>
+<Property ID="72012021" PropList="PlayerPropAdd,AttackAdd,3601;PlayerPropAdd,CritAdd,21"/>
+<Property ID="72012022" PropList="PlayerPropAdd,AttackAdd,3868;PlayerPropAdd,CritAdd,22"/>
+<Property ID="72012023" PropList="PlayerPropAdd,AttackAdd,4144;PlayerPropAdd,CritAdd,23"/>
+<Property ID="72012024" PropList="PlayerPropAdd,AttackAdd,4429;PlayerPropAdd,CritAdd,24"/>
+<Property ID="72012025" PropList="PlayerPropAdd,AttackAdd,4723;PlayerPropAdd,CritAdd,25"/>
+<Property ID="72012026" PropList="PlayerPropAdd,AttackAdd,5027;PlayerPropAdd,CritAdd,26"/>
+<Property ID="72012027" PropList="PlayerPropAdd,AttackAdd,5339;PlayerPropAdd,CritAdd,27"/>
+<Property ID="72012028" PropList="PlayerPropAdd,AttackAdd,5660;PlayerPropAdd,CritAdd,28"/>
+<Property ID="72012029" PropList="PlayerPropAdd,AttackAdd,5990;PlayerPropAdd,CritAdd,29"/>
+<Property ID="72012030" PropList="PlayerPropAdd,AttackAdd,6329;PlayerPropAdd,CritAdd,30"/>
+<Property ID="72012031" PropList="PlayerPropAdd,AttackAdd,6677;PlayerPropAdd,CritAdd,31"/>
+<Property ID="72012032" PropList="PlayerPropAdd,AttackAdd,7034;PlayerPropAdd,CritAdd,32"/>
+<Property ID="72012033" PropList="PlayerPropAdd,AttackAdd,7400;PlayerPropAdd,CritAdd,33"/>
+<Property ID="72012034" PropList="PlayerPropAdd,AttackAdd,7775;PlayerPropAdd,CritAdd,34"/>
+<Property ID="72012035" PropList="PlayerPropAdd,AttackAdd,8159;PlayerPropAdd,CritAdd,35"/>
+<Property ID="72012036" PropList="PlayerPropAdd,AttackAdd,8552;PlayerPropAdd,CritAdd,36"/>
+<Property ID="72012037" PropList="PlayerPropAdd,AttackAdd,8954;PlayerPropAdd,CritAdd,37"/>
+<Property ID="72012038" PropList="PlayerPropAdd,AttackAdd,9365;PlayerPropAdd,CritAdd,38"/>
+<Property ID="72012039" PropList="PlayerPropAdd,AttackAdd,9785;PlayerPropAdd,CritAdd,39"/>
+<Property ID="72012040" PropList="PlayerPropAdd,AttackAdd,10214;PlayerPropAdd,CritAdd,40"/>
+<Property ID="72012041" PropList="PlayerPropAdd,AttackAdd,10652;PlayerPropAdd,CritAdd,41"/>
+<Property ID="72012042" PropList="PlayerPropAdd,AttackAdd,11100;PlayerPropAdd,CritAdd,42"/>
+<Property ID="72012043" PropList="PlayerPropAdd,AttackAdd,11556;PlayerPropAdd,CritAdd,43"/>
+<Property ID="72012044" PropList="PlayerPropAdd,AttackAdd,12021;PlayerPropAdd,CritAdd,44"/>
+<Property ID="72012045" PropList="PlayerPropAdd,AttackAdd,12495;PlayerPropAdd,CritAdd,45"/>
+<Property ID="72012046" PropList="PlayerPropAdd,AttackAdd,12978;PlayerPropAdd,CritAdd,46"/>
+<Property ID="72012047" PropList="PlayerPropAdd,AttackAdd,13470;PlayerPropAdd,CritAdd,47"/>
+<Property ID="72012048" PropList="PlayerPropAdd,AttackAdd,13971;PlayerPropAdd,CritAdd,48"/>
+<Property ID="72012049" PropList="PlayerPropAdd,AttackAdd,14481;PlayerPropAdd,CritAdd,49"/>
+<Property ID="72012050" PropList="PlayerPropAdd,AttackAdd,15000;PlayerPropAdd,CritAdd,50"/>
+<Property ID="72013000" PropList=" "/>
+<Property ID="72013001" PropList="PlayerPropAdd,AttackAdd,150;PlayerPropAdd,CritAdd,1"/>
+<Property ID="72013002" PropList="PlayerPropAdd,AttackAdd,237;PlayerPropAdd,CritAdd,2"/>
+<Property ID="72013003" PropList="PlayerPropAdd,AttackAdd,333;PlayerPropAdd,CritAdd,3"/>
+<Property ID="72013004" PropList="PlayerPropAdd,AttackAdd,438;PlayerPropAdd,CritAdd,4"/>
+<Property ID="72013005" PropList="PlayerPropAdd,AttackAdd,552;PlayerPropAdd,CritAdd,5"/>
+<Property ID="72013006" PropList="PlayerPropAdd,AttackAdd,675;PlayerPropAdd,CritAdd,6"/>
+<Property ID="72013007" PropList="PlayerPropAdd,AttackAdd,807;PlayerPropAdd,CritAdd,7"/>
+<Property ID="72013008" PropList="PlayerPropAdd,AttackAdd,948;PlayerPropAdd,CritAdd,8"/>
+<Property ID="72013009" PropList="PlayerPropAdd,AttackAdd,1098;PlayerPropAdd,CritAdd,9"/>
+<Property ID="72013010" PropList="PlayerPropAdd,AttackAdd,1258;PlayerPropAdd,CritAdd,10"/>
+<Property ID="72013011" PropList="PlayerPropAdd,AttackAdd,1426;PlayerPropAdd,CritAdd,11"/>
+<Property ID="72013012" PropList="PlayerPropAdd,AttackAdd,1603;PlayerPropAdd,CritAdd,12"/>
+<Property ID="72013013" PropList="PlayerPropAdd,AttackAdd,1789;PlayerPropAdd,CritAdd,13"/>
+<Property ID="72013014" PropList="PlayerPropAdd,AttackAdd,1984;PlayerPropAdd,CritAdd,14"/>
+<Property ID="72013015" PropList="PlayerPropAdd,AttackAdd,2188;PlayerPropAdd,CritAdd,15"/>
+<Property ID="72013016" PropList="PlayerPropAdd,AttackAdd,2401;PlayerPropAdd,CritAdd,16"/>
+<Property ID="72013017" PropList="PlayerPropAdd,AttackAdd,2623;PlayerPropAdd,CritAdd,17"/>
+<Property ID="72013018" PropList="PlayerPropAdd,AttackAdd,2854;PlayerPropAdd,CritAdd,18"/>
+<Property ID="72013019" PropList="PlayerPropAdd,AttackAdd,3094;PlayerPropAdd,CritAdd,19"/>
+<Property ID="72013020" PropList="PlayerPropAdd,AttackAdd,3343;PlayerPropAdd,CritAdd,20"/>
+<Property ID="72013021" PropList="PlayerPropAdd,AttackAdd,3601;PlayerPropAdd,CritAdd,21"/>
+<Property ID="72013022" PropList="PlayerPropAdd,AttackAdd,3868;PlayerPropAdd,CritAdd,22"/>
+<Property ID="72013023" PropList="PlayerPropAdd,AttackAdd,4144;PlayerPropAdd,CritAdd,23"/>
+<Property ID="72013024" PropList="PlayerPropAdd,AttackAdd,4429;PlayerPropAdd,CritAdd,24"/>
+<Property ID="72013025" PropList="PlayerPropAdd,AttackAdd,4723;PlayerPropAdd,CritAdd,25"/>
+<Property ID="72013026" PropList="PlayerPropAdd,AttackAdd,5027;PlayerPropAdd,CritAdd,26"/>
+<Property ID="72013027" PropList="PlayerPropAdd,AttackAdd,5339;PlayerPropAdd,CritAdd,27"/>
+<Property ID="72013028" PropList="PlayerPropAdd,AttackAdd,5660;PlayerPropAdd,CritAdd,28"/>
+<Property ID="72013029" PropList="PlayerPropAdd,AttackAdd,5990;PlayerPropAdd,CritAdd,29"/>
+<Property ID="72013030" PropList="PlayerPropAdd,AttackAdd,6329;PlayerPropAdd,CritAdd,30"/>
+<Property ID="72013031" PropList="PlayerPropAdd,AttackAdd,6677;PlayerPropAdd,CritAdd,31"/>
+<Property ID="72013032" PropList="PlayerPropAdd,AttackAdd,7034;PlayerPropAdd,CritAdd,32"/>
+<Property ID="72013033" PropList="PlayerPropAdd,AttackAdd,7400;PlayerPropAdd,CritAdd,33"/>
+<Property ID="72013034" PropList="PlayerPropAdd,AttackAdd,7775;PlayerPropAdd,CritAdd,34"/>
+<Property ID="72013035" PropList="PlayerPropAdd,AttackAdd,8159;PlayerPropAdd,CritAdd,35"/>
+<Property ID="72013036" PropList="PlayerPropAdd,AttackAdd,8552;PlayerPropAdd,CritAdd,36"/>
+<Property ID="72013037" PropList="PlayerPropAdd,AttackAdd,8954;PlayerPropAdd,CritAdd,37"/>
+<Property ID="72013038" PropList="PlayerPropAdd,AttackAdd,9365;PlayerPropAdd,CritAdd,38"/>
+<Property ID="72013039" PropList="PlayerPropAdd,AttackAdd,9785;PlayerPropAdd,CritAdd,39"/>
+<Property ID="72013040" PropList="PlayerPropAdd,AttackAdd,10214;PlayerPropAdd,CritAdd,40"/>
+<Property ID="72013041" PropList="PlayerPropAdd,AttackAdd,10652;PlayerPropAdd,CritAdd,41"/>
+<Property ID="72013042" PropList="PlayerPropAdd,AttackAdd,11100;PlayerPropAdd,CritAdd,42"/>
+<Property ID="72013043" PropList="PlayerPropAdd,AttackAdd,11556;PlayerPropAdd,CritAdd,43"/>
+<Property ID="72013044" PropList="PlayerPropAdd,AttackAdd,12021;PlayerPropAdd,CritAdd,44"/>
+<Property ID="72013045" PropList="PlayerPropAdd,AttackAdd,12495;PlayerPropAdd,CritAdd,45"/>
+<Property ID="72013046" PropList="PlayerPropAdd,AttackAdd,12978;PlayerPropAdd,CritAdd,46"/>
+<Property ID="72013047" PropList="PlayerPropAdd,AttackAdd,13470;PlayerPropAdd,CritAdd,47"/>
+<Property ID="72013048" PropList="PlayerPropAdd,AttackAdd,13971;PlayerPropAdd,CritAdd,48"/>
+<Property ID="72013049" PropList="PlayerPropAdd,AttackAdd,14481;PlayerPropAdd,CritAdd,49"/>
+<Property ID="72013050" PropList="PlayerPropAdd,AttackAdd,15000;PlayerPropAdd,CritAdd,50"/>
+</Object>

@@ -1,0 +1,140 @@
+﻿1.--查询当前属性操作的对象的所有子对象
+    角色: 0898A0966F444598840CB4EC8AACBFBD
+    命令: gm_x_child 
+    返回: {"content":[{"script":"BufferContainer","config":"","uid":"Uid"},{"script":"SkillContainer","config":"","uid":"Uid"},{"script":"EquipBox","config":"","uid":"Uid"},{"script":"ItemBox","config":"","uid":"Uid"},{"script":"OffLineBox","config":"","uid":"Uid"},{"script":"RideBox","config":"","uid":"Uid"},{"script":"PetBox","config":"","uid":"Uid"},{"script":"TemporaryBagBox","config":"","uid":"Uid"},{"script":"MarkerBox","config":"","uid":"Uid"},{"script":"MeridianBox","config":"","uid":"Uid"}]}
+
+2.--查询当前属性操作的对象的创建脚本和配置文件名称
+    角色: 0898A0966F444598840CB4EC8AACBFBD
+    命令: gm_x_see
+    返回: {"content":{"config":"","script":"player","persistid":"318767182-78"}}
+
+3. --查询当前属性操作的对象的属性值
+    角色: 0898A0966F444598840CB4EC8AACBFBD
+    命令: gm_x_query
+    返回: {"content":60}
+
+4. --查询当前属性操作的对象的所有属性
+    角色: 0898A0966F444598840CB4EC8AACBFBD
+    命令: gm_x_property
+    返回: 返回值太长，网页无法显示
+
+5. --设置当前属性操作的对象的属性值
+    角色: 0898A0966F444598840CB4EC8AACBFBD
+    命令: gm_x_set Level 40
+    返回: {"content":"success"}
+
+6. -- 增加临时属性
+    角色: 0898A0966F444598840CB4EC8AACBFBD
+    命令: gm_x_adddata TestData 2
+    返回: {"content":"success"}
+
+7. -- 改写临时属性
+    角色: 0898A0966F444598840CB4EC8AACBFBD
+    命令: x_querydata __temp_refresh_plus 10
+    返回: {"content":"success"}
+
+8. --读取临时属性
+    角色: 0898A0966F444598840CB4EC8AACBFBD
+    命令: gm_x_setdata __temp_refresh_plus 10
+    返回: {"content":10}
+
+9. --查询当前属性操作的对象的所有表格名(对应gm.lua的record(gm))
+    角色: 0898A0966F444598840CB4EC8AACBFBD
+    命令: gm_x_record_list
+    返回: {"content":{"reclist":["Inner_CampVisual","item_drop_record","EquStrengthenRec","EquBaptiseRec","TempEquBaptiseRec",.......] };
+
+10.--设置当前属性操作的对象的表格值
+    角色: 0898A0966F444598840CB4EC8AACBFBD
+    命令: gm_x_record_set_value capital_rec 0 2 999999
+    返回: {"content":"success"}
+
+11.--设置当前属性操作的对象的表格值
+    角色: 0898A0966F444598840CB4EC8AACBFBD
+    命令: gm_x_record_set_value capital_rec 0 2 999999
+    返回: {"content":"success"}
+
+12.--获取当前属性操作的对象的表格值 x_record_get_value 表格名 行号 列号 值
+    角色: 0898A0966F444598840CB4EC8AACBFBD
+    命令: gm_x_record_get_value capital_rec 0 2
+    返回: {"content":"999999"}
+
+13.--查询当前属性操作的对象的表格内容 x_record_data 表格名<对应recordquery>
+    角色: 0898A0966F444598840CB4EC8AACBFBD
+    命令: gm_x_record_data capital_rec
+    返回: {"content":[["CapitalCopper","0","999999"],["CapitalSilver","1","9999999"],["CapitalSmelt","2","9999999"],["CapitalExploit","3","9999999"],"CapitalBattleSoul","4","9999999"]]}
+
+14.--查询当前属性操作的对象的特定行内容
+    角色: 0898A0966F444598840CB4EC8AACBFBD
+    命令: gm_x_record_rowdata capital_rec 0
+    返回: {"content":["CapitalCopper","0","999999"]}
+
+15. --向表格中添加一行数据
+    角色: 0898A0966F444598840CB4EC8AACBFBD
+    命令: gm_x_record_addrow capital_rec TestAdd 100 12345
+    返回: {"content":"success"}
+
+16. --删除表格的指定行的数据
+    角色: 0898A0966F444598840CB4EC8AACBFBD
+    命令: gm_x_record_removerow capital_rec 3
+    返回: {"content":"success"}
+
+17. --清除表格的数据
+    角色: 0898A0966F444598840CB4EC8AACBFBD
+    命令: gm_x_record_clear capital_rec
+    返回: {"content":"success"}
+	
+18.--公共数据表所有数据
+    命令: gm_x_pub_rec_data domain DomainGmcc_100 pub_global_mail_rec
+    返回: :{"content":[["1","209","204","","˫��","�����°�����d","","1495269508","1495874308"],["2","210","204","","aaaaa","aaaaa","Exp:11 ","1495269740","1495874540"],["3","213","204","","1","1","CapitalSilver:10 ","1495270487","1495875287"],["4","214","204","","asdad","asdasd","Exp:12313 ","1495270522","1495875322"],["5","226","204","","dasdsad","�����������",";Item2120008:10 ","1496978005","1497582805"],["6","1026","203","","��˹��1111","sdfasdf","CapitalCopper:10;","1506582052","1507186852"],["7","1026","203","","��˹��1111","sdfasdf","CapitalCopper:10;","1506582055","1507186855"],["8","1027","203","","����","��������","","1506585144","1507189944"],["9","1049","203","","2","","CapitalCopper:10;Item_Meridian_Best_3_captain:10","1507536177","1508140977"]]}
+
+19. --查询公共表数据(返回找到的行号)
+	命令: gm_x_pub_rec_findrow domain DomainGmcc_100 pub_global_mail_rec 4 aaaaa
+    返回: :{"content":1}
+	
+20. --添加一行公共表数据
+	命令: gm_x_pub_rec_addrow domain DomainGmcc_100 pub_global_mail_rec 10 111 112 2 x s xxx 1111 1111
+    返回: :{"content":"success"}
+	
+21.--删除公共数据区指定表格指定行的数据
+	命令: gm_x_pub_rec_removerow domain DomainGmcc_100 pub_global_mail_rec 1
+    返回: :{"content":"success"}
+	
+22. --设置公共数据的表格值 x_pub_rec_set_value 空间名称 表格名称 行号 列号 值
+	命令: gm_x_pub_rec_set_value domain DomainGmcc_100 pub_global_mail_rec 7 0 100
+    返回: :{"content":"success"}
+	
+23. --查询公共数据的表格值 x_pub_rec_get_value 空间名称 表格名称 行号 列号
+	命令: gm_x_pub_rec_get_value domain DomainGmcc_100 pub_global_mail_rec 7 0
+    返回: :{"content":"100"}
+
+24. --清除公共数据表
+	命令: gm_x_pub_rec_clear domain DomainGmcc_100 pub_global_mail_rec
+    返回: :{"content":"success"}		
+	
+25. --查询公共数据的属性值
+	命令: gm_x_pub_prop_query domain Domain_RankingList_100 pub_frontier_camp_period
+    返回: :{"content":1}
+	
+26.--设置公共区属性
+	命令: gm_x_pub_prop_set domain Domain_RankingList_100 pub_frontier_camp_period 3
+    返回: :{"content":"success"}
+	
+27.--新增没有的函数[支持, 先调用gm_x_reload_lua 文件名， 然后再执行函数]
+	命令: gm_x_test_new_function
+    返回: {"error":"command not exists or exception"}
+	
+28.--重新加载资源
+	命令: gm_x_reload_config LimitGiftConfig
+    返回: {"content":"success"}
+	
+29.--服务器时间查询
+    命令: gm_x_servertime
+    返回: {"content":"2017/10/25 13:50:31"}
+
+30.--重新加载lua(C++层重新加载，需要带文名)
+    命令: reload_lua gm_x.lua
+    返回: {"content":"success"}
+	
+31.--重新加载lua(lua层重新加城， 不要带文件名)
+    命令: gm_x_reload_lua gm_x_data
+    返回: {"content":{"before":["gm_x_helper","string","debug","package","gm_x_util","gm_x_game","gm_x_data","gm_x_object","io","os","table","math","_G","coroutine","define"],"after":["gm_x_helper","string","debug","gm_x_data","package","gm_x_util","gm_x_game","gm_x_object","io","os","table","math","_G","coroutine","define"]}}

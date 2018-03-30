@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Object>
+<Property ID="npcGroup001">
+	<Item ConfigID="monster1001001" CanSame="0" Weight="100"/>
+	<Item ConfigID="monster1001002" CanSame="0" Weight="100"/>
+	<Item ConfigID="monster1001003" CanSame="1" Weight="500"/>
+	<Item ConfigID="monster1001004" CanSame="0" Weight="100"/>
+	<Item ConfigID="monster1001005" CanSame="0" Weight="100"/>
+	<Item ConfigID="monster1001006" CanSame="1" Weight="200"/>
+	<Item ConfigID="monster1001007" CanSame="0" Weight="100"/>
+	<Item ConfigID="monster1001008" CanSame="0" Weight="100"/>
+	<Item ConfigID="monster1001009" CanSame="1" Weight="200"/>
+	<Item ConfigID="monster1001010" CanSame="0" Weight="100"/>
+	<Item ConfigID="monster1001011" CanSame="0" Weight="100"/>
+	<Item ConfigID="monster1001012" CanSame="0" Weight="100"/>
+	<Item ConfigID="monster1001013" CanSame="1" Weight="200"/>
+</Property>
+<Property ID="npcGroup002">
+	<Item ConfigID="monster2001001" CanSame="0" Weight="100"/>
+	<Item ConfigID="monster2001002" CanSame="0" Weight="100"/>
+	<Item ConfigID="monster2001003" CanSame="1" Weight="500"/>
+	<Item ConfigID="monster2001004" CanSame="0" Weight="100"/>
+	<Item ConfigID="monster2001005" CanSame="0" Weight="100"/>
+	<Item ConfigID="monster2001006" CanSame="1" Weight="150"/>
+	<Item ConfigID="monster2001007" CanSame="0" Weight="100"/>
+	<Item ConfigID="monster2001008" CanSame="0" Weight="100"/>
+	<Item ConfigID="monster2001009" CanSame="1" Weight="150"/>
+	<Item ConfigID="monster2001010" CanSame="0" Weight="100"/>
+	<Item ConfigID="monster2001011" CanSame="0" Weight="100"/>
+	<Item ConfigID="monster2001012" CanSame="1" Weight="150"/>
+</Property>
+<Property ID="npcGroup003">
+	<Item ConfigID="monster3001001" CanSame="0" Weight="100"/>
+	<Item ConfigID="monster3001002" CanSame="0" Weight="100"/>
+	<Item ConfigID="monster3001003" CanSame="1" Weight="500"/>
+	<Item ConfigID="monster3001004" CanSame="0" Weight="100"/>
+	<Item ConfigID="monster3001005" CanSame="0" Weight="100"/>
+	<Item ConfigID="monster3001006" CanSame="1" Weight="150"/>
+	<Item ConfigID="monster3001007" CanSame="0" Weight="100"/>
+	<Item ConfigID="monster3001008" CanSame="0" Weight="100"/>
+	<Item ConfigID="monster3001009" CanSame="1" Weight="150"/>
+	<Item ConfigID="monster3001010" CanSame="0" Weight="100"/>
+	<Item ConfigID="monster3001011" CanSame="0" Weight="100"/>
+	<Item ConfigID="monster3001012" CanSame="0" Weight="100"/>
+	<Item ConfigID="monster3001013" CanSame="1" Weight="150"/>
+</Property>
+<Property ID="npcGroup004">
+    <Item ConfigID="monster4001001" CanSame="0" Weight="100"/>
+	<Item ConfigID="monster4001002" CanSame="0" Weight="100"/>
+    <Item ConfigID="monster4001003" CanSame="1" Weight="500"/>
+	<Item ConfigID="monster4001004" CanSame="0" Weight="100"/>
+	<Item ConfigID="monster4001005" CanSame="0" Weight="100"/>
+	<Item ConfigID="monster4001006" CanSame="1" Weight="150"/>
+	<Item ConfigID="monster4001007" CanSame="0" Weight="100"/>
+	<Item ConfigID="monster4001008" CanSame="0" Weight="100"/>
+	<Item ConfigID="monster4001009" CanSame="1" Weight="150"/>
+	<Item ConfigID="monster4001010" CanSame="0" Weight="100"/>
+	<Item ConfigID="monster4001011" CanSame="0" Weight="100"/>
+	<Item ConfigID="monster4001012" CanSame="1" Weight="150"/>
+</Property>
+<Property ID="npcGroup049">
+	<Item ConfigID="monster5001001" CanSame="0" Weight="100"/>
+	<Item ConfigID="monster5001002" CanSame="0" Weight="100"/>
+	<Item ConfigID="monster5001003" CanSame="1" Weight="500"/>
+	<Item ConfigID="monster5001004" CanSame="0" Weight="100"/>
+	<Item ConfigID="monster5001005" CanSame="0" Weight="100"/>
+	<Item ConfigID="monster5001006" CanSame="0" Weight="100"/>
+	<Item ConfigID="monster5001007" CanSame="1" Weight="150"/>
+	<Item ConfigID="monster5001008" CanSame="0" Weight="100"/>
+	<Item ConfigID="monster5001009" CanSame="0" Weight="100"/>
+	<Item ConfigID="monster5001010" CanSame="1" Weight="150"/>
+	<Item ConfigID="monster5001011" CanSame="0" Weight="100"/>
+	<Item ConfigID="monster5001012" CanSame="0" Weight="100"/>
+	<Item ConfigID="monster5001013" CanSame="1" Weight="150"/>
+</Property>
+<Property ID="npcGroup005">
+	<Item ConfigID="monster03009" CanSame="0" Weight="100"/>
+</Property>
+<Property ID="npcGroup006">
+	<Item ConfigID="monster03003" CanSame="0" Weight="100"/>
+	<Item ConfigID="monster03003" CanSame="0" Weight="100"/>
+</Property>
+<Property ID="npcGroup007">
+	<Item ConfigID="monster757189" CanSame="0" Weight="200"/>
+	<Item ConfigID="monster757190" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757191" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757192" CanSame="0" Weight="200"/>
+</Property>
+<Property ID="npcGroup008">
+	<Item ConfigID="monster757289" CanSame="0" Weight="200"/>
+	<Item ConfigID="monster757290" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757291" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757292" CanSame="0" Weight="200"/>
+</Property>
+<Property ID="npcGroup009">
+	<Item ConfigID="monster757389" CanSame="0" Weight="200"/>
+	<Item ConfigID="monster757390" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757391" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757392" CanSame="0" Weight="200"/>
+</Property>
+<Property ID="npcGroup010">
+	<Item ConfigID="monster757489" CanSame="0" Weight="200"/>
+	<Item ConfigID="monster757490" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757491" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757492" CanSame="0" Weight="200"/>
+</Property>
+<Property ID="npcGroup011">
+	<Item ConfigID="monster757151" CanSame="0" Weight="200"/>
+	<Item ConfigID="monster757152" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757153" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757154" CanSame="0" Weight="200"/>
+</Property>
+<Property ID="npcGroup012">
+	<Item ConfigID="monster757155" CanSame="0" Weight="200"/>
+	<Item ConfigID="monster757156" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757157" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757158" CanSame="0" Weight="200"/>
+</Property>
+<Property ID="npcGroup013">
+	<Item ConfigID="monster757159" CanSame="0" Weight="200"/>
+	<Item ConfigID="monster757160" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757161" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757162" CanSame="0" Weight="200"/>
+</Property>
+<Property ID="npcGroup014">
+	<Item ConfigID="monster757163" CanSame="0" Weight="200"/>
+	<Item ConfigID="monster757164" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757165" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757166" CanSame="0" Weight="200"/>
+</Property>
+<Property ID="npcGroup015">
+	<Item ConfigID="monster757181" CanSame="0" Weight="200"/>
+	<Item ConfigID="monster757182" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757183" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757184" CanSame="0" Weight="200"/>
+</Property>
+<Property ID="npcGroup016">
+	<Item ConfigID="monster757251" CanSame="0" Weight="200"/>
+	<Item ConfigID="monster757252" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757253" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757254" CanSame="0" Weight="200"/>
+</Property>
+<Property ID="npcGroup017">
+	<Item ConfigID="monster757255" CanSame="0" Weight="200"/>
+	<Item ConfigID="monster757256" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757257" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757258" CanSame="0" Weight="200"/>
+</Property>
+<Property ID="npcGroup018">
+	<Item ConfigID="monster757259" CanSame="0" Weight="200"/>
+	<Item ConfigID="monster757260" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757261" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757262" CanSame="0" Weight="200"/>
+</Property>
+<Property ID="npcGroup019">
+	<Item ConfigID="monster757263" CanSame="0" Weight="200"/>
+	<Item ConfigID="monster757264" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757265" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757266" CanSame="0" Weight="200"/>
+</Property>
+<Property ID="npcGroup020">
+	<Item ConfigID="monster757281" CanSame="0" Weight="200"/>
+	<Item ConfigID="monster757282" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757283" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757284" CanSame="0" Weight="200"/>
+</Property>
+<Property ID="npcGroup021">
+	<Item ConfigID="monster757351" CanSame="0" Weight="200"/>
+	<Item ConfigID="monster757352" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757353" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757354" CanSame="0" Weight="200"/>
+</Property>
+<Property ID="npcGroup022">
+	<Item ConfigID="monster757355" CanSame="0" Weight="200"/>
+	<Item ConfigID="monster757356" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757357" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757358" CanSame="0" Weight="200"/>
+</Property>
+<Property ID="npcGroup023">
+	<Item ConfigID="monster757359" CanSame="0" Weight="200"/>
+	<Item ConfigID="monster757360" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757361" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757362" CanSame="0" Weight="200"/>
+</Property>
+<Property ID="npcGroup024">
+	<Item ConfigID="monster757363" CanSame="0" Weight="200"/>
+	<Item ConfigID="monster757364" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757365" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757366" CanSame="0" Weight="200"/>
+</Property>
+<Property ID="npcGroup025">
+	<Item ConfigID="monster757381" CanSame="0" Weight="200"/>
+	<Item ConfigID="monster757382" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757383" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757384" CanSame="0" Weight="200"/>
+</Property>
+<Property ID="npcGroup026">
+	<Item ConfigID="monster757451" CanSame="0" Weight="200"/>
+	<Item ConfigID="monster757452" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757453" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757454" CanSame="0" Weight="200"/>
+</Property>
+<Property ID="npcGroup027">
+	<Item ConfigID="monster757455" CanSame="0" Weight="200"/>
+	<Item ConfigID="monster757456" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757457" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757458" CanSame="0" Weight="200"/>
+</Property>
+<Property ID="npcGroup028">
+	<Item ConfigID="monster757459" CanSame="0" Weight="200"/>
+	<Item ConfigID="monster757460" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757461" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757462" CanSame="0" Weight="200"/>
+</Property>
+<Property ID="npcGroup029">
+	<Item ConfigID="monster757463" CanSame="0" Weight="200"/>
+	<Item ConfigID="monster757464" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757465" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757466" CanSame="0" Weight="200"/>
+</Property>
+<Property ID="npcGroup030">
+	<Item ConfigID="monster757481" CanSame="0" Weight="200"/>
+	<Item ConfigID="monster757482" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757483" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757484" CanSame="0" Weight="200"/>
+</Property>
+<Property ID="npcGroup031">
+	<Item ConfigID="monster757185" CanSame="0" Weight="200"/>
+	<Item ConfigID="monster757186" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757187" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757188" CanSame="0" Weight="200"/>
+</Property>
+<Property ID="npcGroup032">
+	<Item ConfigID="monster757285" CanSame="0" Weight="200"/>
+	<Item ConfigID="monster757286" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757287" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757288" CanSame="0" Weight="200"/>
+</Property>
+<Property ID="npcGroup033">
+	<Item ConfigID="monster757385" CanSame="0" Weight="200"/>
+	<Item ConfigID="monster757386" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757387" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757388" CanSame="0" Weight="200"/>
+</Property>
+<Property ID="npcGroup034">
+	<Item ConfigID="monster757485" CanSame="0" Weight="200"/>
+	<Item ConfigID="monster757486" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757487" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757488" CanSame="0" Weight="200"/>
+</Property>
+<Property ID="npcGroup035">
+	<Item ConfigID="monster757551" CanSame="0" Weight="200"/>
+	<Item ConfigID="monster757552" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757553" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757554" CanSame="0" Weight="200"/>
+</Property>
+<Property ID="npcGroup036">
+	<Item ConfigID="monster757555" CanSame="0" Weight="200"/>
+	<Item ConfigID="monster757556" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757557" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757558" CanSame="0" Weight="200"/>
+</Property>
+<Property ID="npcGroup037">
+	<Item ConfigID="monster757559" CanSame="0" Weight="200"/>
+	<Item ConfigID="monster757560" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757561" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757562" CanSame="0" Weight="200"/>
+</Property>
+<Property ID="npcGroup038">
+	<Item ConfigID="monster757563" CanSame="0" Weight="200"/>
+	<Item ConfigID="monster757564" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757565" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757566" CanSame="0" Weight="200"/>
+</Property>
+<Property ID="npcGroup039">
+	<Item ConfigID="monster757581" CanSame="0" Weight="200"/>
+	<Item ConfigID="monster757582" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757583" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757584" CanSame="0" Weight="200"/>
+</Property>
+<Property ID="npcGroup040">
+	<Item ConfigID="monster757585" CanSame="0" Weight="200"/>
+	<Item ConfigID="monster757586" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757587" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757588" CanSame="0" Weight="200"/>
+</Property>
+<Property ID="npcGroup041">
+	<Item ConfigID="monster757589" CanSame="0" Weight="200"/>
+	<Item ConfigID="monster757590" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757591" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757592" CanSame="0" Weight="200"/>
+</Property>
+<Property ID="npcGroup042">
+	<Item ConfigID="monster757651" CanSame="0" Weight="200"/>
+	<Item ConfigID="monster757652" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757653" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757654" CanSame="0" Weight="200"/>
+</Property>
+<Property ID="npcGroup043">
+	<Item ConfigID="monster757655" CanSame="0" Weight="200"/>
+	<Item ConfigID="monster757656" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757657" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757658" CanSame="0" Weight="200"/>
+</Property>
+<Property ID="npcGroup044">
+	<Item ConfigID="monster757659" CanSame="0" Weight="200"/>
+	<Item ConfigID="monster757660" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757661" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757662" CanSame="0" Weight="200"/>
+</Property>
+<Property ID="npcGroup045">
+	<Item ConfigID="monster757663" CanSame="0" Weight="200"/>
+	<Item ConfigID="monster757664" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757665" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757666" CanSame="0" Weight="200"/>
+</Property>
+<Property ID="npcGroup046">
+	<Item ConfigID="monster757681" CanSame="0" Weight="200"/>
+	<Item ConfigID="monster757682" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757683" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757684" CanSame="0" Weight="200"/>
+</Property>
+<Property ID="npcGroup047">
+	<Item ConfigID="monster757685" CanSame="0" Weight="200"/>
+	<Item ConfigID="monster757686" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757687" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757688" CanSame="0" Weight="200"/>
+</Property>
+<Property ID="npcGroup048">
+	<Item ConfigID="monster757689" CanSame="0" Weight="200"/>
+	<Item ConfigID="monster757690" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757691" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster757692" CanSame="0" Weight="200"/>
+</Property>
+<Property ID="npcGroup050">
+	<Item ConfigID="monster762155" CanSame="0" Weight="200"/>
+	<Item ConfigID="monster762156" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster762157" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster762158" CanSame="0" Weight="200"/>
+</Property>
+<Property ID="npcGroup051">
+	<Item ConfigID="monster762181" CanSame="0" Weight="200"/>
+	<Item ConfigID="monster762182" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster762183" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster762184" CanSame="0" Weight="200"/>
+</Property>
+<Property ID="npcGroup052">
+	<Item ConfigID="monster762189" CanSame="0" Weight="200"/>
+	<Item ConfigID="monster762190" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster762191" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster762192" CanSame="0" Weight="200"/>
+</Property>
+<Property ID="npcGroup053">
+	<Item ConfigID="monster762251" CanSame="0" Weight="200"/>
+	<Item ConfigID="monster762252" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster762253" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster762254" CanSame="0" Weight="200"/>
+</Property>
+<Property ID="npcGroup054">
+	<Item ConfigID="monster762255" CanSame="0" Weight="200"/>
+	<Item ConfigID="monster762256" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster762257" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster762258" CanSame="0" Weight="200"/>
+</Property>
+<Property ID="npcGroup055">
+	<Item ConfigID="monster762281" CanSame="0" Weight="200"/>
+	<Item ConfigID="monster762282" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster762283" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster762284" CanSame="0" Weight="200"/>
+</Property>
+<Property ID="npcGroup056">
+	<Item ConfigID="monster762289" CanSame="0" Weight="200"/>
+	<Item ConfigID="monster762290" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster762291" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster762292" CanSame="0" Weight="200"/>
+</Property>
+<Property ID="npcGroup057">
+	<Item ConfigID="monster762351" CanSame="0" Weight="200"/>
+	<Item ConfigID="monster762352" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster762353" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster762354" CanSame="0" Weight="200"/>
+</Property>
+<Property ID="npcGroup058">
+	<Item ConfigID="monster762355" CanSame="0" Weight="200"/>
+	<Item ConfigID="monster762356" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster762357" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster762358" CanSame="0" Weight="200"/>
+</Property>
+<Property ID="npcGroup059">
+	<Item ConfigID="monster762381" CanSame="0" Weight="200"/>
+	<Item ConfigID="monster762382" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster762383" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster762384" CanSame="0" Weight="200"/>
+</Property>
+<Property ID="npcGroup060">
+	<Item ConfigID="monster762389" CanSame="0" Weight="200"/>
+	<Item ConfigID="monster762390" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster762391" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster762392" CanSame="0" Weight="200"/>
+</Property>
+<Property ID="npcGroup061">
+	<Item ConfigID="monster762451" CanSame="0" Weight="200"/>
+	<Item ConfigID="monster762452" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster762453" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster762454" CanSame="0" Weight="200"/>
+</Property>
+<Property ID="npcGroup062">
+	<Item ConfigID="monster762455" CanSame="0" Weight="200"/>
+	<Item ConfigID="monster762456" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster762457" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster762458" CanSame="0" Weight="200"/>
+</Property>
+<Property ID="npcGroup063">
+	<Item ConfigID="monster762481" CanSame="0" Weight="200"/>
+	<Item ConfigID="monster762482" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster762483" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster762484" CanSame="0" Weight="200"/>
+</Property>
+<Property ID="npcGroup064">
+	<Item ConfigID="monster762489" CanSame="0" Weight="200"/>
+	<Item ConfigID="monster762490" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster762491" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster762492" CanSame="0" Weight="200"/>
+</Property>
+<Property ID="npcGroup065">
+	<Item ConfigID="monster762551" CanSame="0" Weight="200"/>
+	<Item ConfigID="monster762552" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster762553" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster762554" CanSame="0" Weight="200"/>
+</Property>
+<Property ID="npcGroup066">
+	<Item ConfigID="monster762555" CanSame="0" Weight="200"/>
+	<Item ConfigID="monster762556" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster762557" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster762558" CanSame="0" Weight="200"/>
+</Property>
+<Property ID="npcGroup067">
+	<Item ConfigID="monster762581" CanSame="0" Weight="200"/>
+	<Item ConfigID="monster762582" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster762583" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster762584" CanSame="0" Weight="200"/>
+</Property>
+<Property ID="npcGroup068">
+	<Item ConfigID="monster762589" CanSame="0" Weight="200"/>
+	<Item ConfigID="monster762590" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster762591" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster762592" CanSame="0" Weight="200"/>
+</Property>
+<Property ID="npcGroup069">
+	<Item ConfigID="monster762651" CanSame="0" Weight="200"/>
+	<Item ConfigID="monster762652" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster762653" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster762654" CanSame="0" Weight="200"/>
+</Property>
+<Property ID="npcGroup070">
+	<Item ConfigID="monster762655" CanSame="0" Weight="200"/>
+	<Item ConfigID="monster762656" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster762657" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster762658" CanSame="0" Weight="200"/>
+</Property>
+<Property ID="npcGroup071">
+	<Item ConfigID="monster762681" CanSame="0" Weight="200"/>
+	<Item ConfigID="monster762682" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster762683" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster762684" CanSame="0" Weight="200"/>
+</Property>
+<Property ID="npcGroup072">
+	<Item ConfigID="monster762689" CanSame="0" Weight="200"/>
+	<Item ConfigID="monster762690" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster762691" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster762692" CanSame="0" Weight="200"/>
+</Property>
+<Property ID="npcGroup073">
+	<Item ConfigID="monster762751" CanSame="0" Weight="200"/>
+	<Item ConfigID="monster762752" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster762753" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster762754" CanSame="0" Weight="200"/>
+</Property>
+<Property ID="npcGroup074">
+	<Item ConfigID="monster762755" CanSame="0" Weight="200"/>
+	<Item ConfigID="monster762756" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster762757" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster762758" CanSame="0" Weight="200"/>
+</Property>
+<Property ID="npcGroup075">
+	<Item ConfigID="monster762781" CanSame="0" Weight="200"/>
+	<Item ConfigID="monster762782" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster762783" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster762784" CanSame="0" Weight="200"/>
+</Property>
+<Property ID="npcGroup076">
+	<Item ConfigID="monster762789" CanSame="0" Weight="200"/>
+	<Item ConfigID="monster762790" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster762791" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster762792" CanSame="0" Weight="200"/>
+</Property>
+<Property ID="npcGroup077">
+	<Item ConfigID="monster762151" CanSame="0" Weight="200"/>
+	<Item ConfigID="monster762152" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster762153" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster762154" CanSame="0" Weight="200"/>
+</Property>
+<Property ID="npcGroup078">
+	<Item ConfigID="monster762851" CanSame="0" Weight="200"/>
+	<Item ConfigID="monster762852" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster762853" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster762854" CanSame="0" Weight="200"/>
+</Property>
+<Property ID="npcGroup079">
+	<Item ConfigID="monster762855" CanSame="0" Weight="200"/>
+	<Item ConfigID="monster762856" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster762857" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster762858" CanSame="0" Weight="200"/>
+</Property>
+<Property ID="npcGroup080">
+	<Item ConfigID="monster762881" CanSame="0" Weight="200"/>
+	<Item ConfigID="monster762882" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster762883" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster762884" CanSame="0" Weight="200"/>
+</Property>
+<Property ID="npcGroup081">
+	<Item ConfigID="monster762889" CanSame="0" Weight="200"/>
+	<Item ConfigID="monster762890" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster762891" CanSame="0" Weight="300"/>
+	<Item ConfigID="monster762892" CanSame="0" Weight="200"/>
+</Property>
+<Property ID="npcGroup082">
+	<Item ConfigID="monster6001001" CanSame="0" Weight="100"/>
+	<Item ConfigID="monster6001002" CanSame="0" Weight="100"/>
+	<Item ConfigID="monster6001003" CanSame="1" Weight="500"/>
+	<Item ConfigID="monster6001004" CanSame="0" Weight="100"/>
+	<Item ConfigID="monster6001005" CanSame="0" Weight="100"/>
+	<Item ConfigID="monster6001006" CanSame="1" Weight="150"/>
+	<Item ConfigID="monster6001007" CanSame="0" Weight="100"/>
+	<Item ConfigID="monster6001008" CanSame="0" Weight="100"/>
+	<Item ConfigID="monster6001009" CanSame="1" Weight="150"/>
+	<Item ConfigID="monster6001010" CanSame="0" Weight="100"/>
+	<Item ConfigID="monster6001011" CanSame="0" Weight="100"/>
+	<Item ConfigID="monster6001012" CanSame="1" Weight="150"/>
+	<Item ConfigID="monster6001013" CanSame="0" Weight="100"/>
+	<Item ConfigID="monster6001014" CanSame="0" Weight="100"/>
+	<Item ConfigID="monster6001015" CanSame="1" Weight="150"/>
+	<Item ConfigID="monster6001016" CanSame="0" Weight="100"/>
+	<Item ConfigID="monster6001017" CanSame="0" Weight="100"/>
+	<Item ConfigID="monster6001018" CanSame="1" Weight="150"/>
+</Property>
+</Object>

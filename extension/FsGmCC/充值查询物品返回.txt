@@ -1,0 +1,82 @@
+﻿{
+    "message": "正常",
+    "code": "10000",
+    "state": 0,
+    "obj": {
+        "orderNumber": "20170306144819",
+        "order": {
+            "nid": 265,
+            "sNumber": "20170306144819",
+            "nAccId": 7091568612,
+            "nTotal": 1,
+            "sPayStatus": "9",
+            "sDeliverStatus": "5",
+            "dCreate": 1488782899000,
+            "dUpdate": 1488782899811,
+            "sroleId": "5A52D8CC645346AEA49007B988101D26",
+            "sextInfo": null,
+            "sorderNumber": null
+        },
+        "goodsList": [
+            {
+                "nId": 14,
+                "sName": "CapitalCopper",
+                "sNumber": "CapitalCopper",
+                "nGameId": 1,
+                "nPrice": 1,
+                "nStatus": 2,
+                "dExpires": 1613824164000,
+                "dCreate": 1487593646000,
+                "dUpdate": 1488622172000,
+                "sicon": "CapitalCopper",
+                "buyDetailList": [
+                    {
+                        "nId": 13,
+                        "nGoodsId": 14,
+                        "nItemId": 19,
+                        "nNum": 1,
+                        "sTypeCode": "CapitalSilver",
+                        "nObtainType": 1,
+                        "item": {
+                            "nId": 19,
+                            "sNumber": "CapitalSilver",
+                            "sName": "CapitalSilver",
+                            "nPrice": 11,
+                            "sDesc": "",
+                            "sIcon": "CapitalSilver",
+                            "nGameId": 1,
+                            "dCreate": 1480490224000,
+                            "dUpdate": 1480490226000
+                        }
+                    }
+                ],
+                "firstPresentDetaiList": [],
+                "nomalPresentDetailList": [],
+                "guidDonatDetailList": [],
+                "detailList": [
+                    {
+                        "nId": 13,
+                        "nGoodsId": 14,
+                        "nItemId": 19,
+                        "nNum": 1,
+                        "sTypeCode": "CapitalSilver",
+                        "nObtainType": 1,
+                        "item": {
+                            "nId": 19,
+                            "sNumber": "CapitalSilver",
+                            "sName": "CapitalSilver",
+                            "nPrice": 11,
+                            "sDesc": "",
+                            "sIcon": "CapitalSilver",
+                            "nGameId": 1,
+                            "dCreate": 1480490224000,
+                            "dUpdate": 1480490226000
+                        }
+                    }
+                ],
+                "bshow": true
+            }
+        ],
+        "bundleId": ""
+    }
+}

@@ -1,0 +1,47 @@
+一、被动技能类型
+
+1. 增加玩家属性配置标识
+PlayerPropAdd
+PlayerPropAdd,[propname],[value] 
+ps: PlayerPropAdd,DefendAdd,20
+
+2. 增加技能对象属性
+SkillPropAdd
+SkillPropAdd,[skillid],[propname],[value]
+ps: SkillPropAdd,10212,SkillAttackAdd,10
+    SkillPropAdd,10212,SkillDamageRate,10  (百分比)
+
+3. 改变技能配置属性
+SkillConfigChange
+SkillConfigChange,[skillid],[propname],[value]
+ps: SkillConfigChange,10212,LeadTime,1000 
+    SkillConfigChange,10212,CoolDownTime,-1000
+
+4. 附加技能效果 SkillEffect
+SkillEffectAdd
+SkillEffectAdd,[skillid],[effectid]
+ps: SkillEffectAdd,10212,1
+
+5.// 新增加技能
+AddNewSkill
+AddNewSkill,[skillid]
+ps: AddNewSkill,10212
+
+6.// 增加buff
+AddNewBuff
+AddNewBuff,[buffid]
+ps: AddNewBuff,buff_absorb_damage
+
+7.// 删除技能
+EvolveSkill
+EvolveSkill,[skillid]
+ps: EvolveSkill,10212
+
+有多个属性的,用";"隔开
+ps: PlayerPropAdd,DefendAdd,20;SkillEffectAdd,10212,45;SkillPropAdd,10212,SkillAttackAdd,10
+
+二、属性名说明
+SkillAttackAdd		技能附加攻击力
+SkillDamageRate		技能伤害百分比
+CoolDownTime		冷却
+LeadTime		持续时间

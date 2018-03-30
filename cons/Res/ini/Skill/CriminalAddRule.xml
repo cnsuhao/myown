@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!--LevelMinDiff 最小等级差 LevelMaxDiff 最大等级差 CriminalValue 增加的罪恶值-->
+<Object>
+	<Property ID="0" LevelMinDiff="-100" LevelMaxDiff="10" CriminalValue="1"/>
+	<Property ID="1" LevelMinDiff="11" LevelMaxDiff="20" CriminalValue="2"/>
+	<Property ID="2" LevelMinDiff="21" LevelMaxDiff="100" CriminalValue="3"/>
+</Object>

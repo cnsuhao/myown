@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+
+bin=$(which "$0")
+bin=$(dirname "$bin")
+bin=$(cd "$bin"; pwd)
+
+pid_file=$bin/../logagent.pid
+if [ ! -f "$pid_file" ]; then
+    echo "LogAgent pid file not exists."
+    exit 3
+fi
+
+kill `cat $pid_file`
+
+for i in `seq 1 8`
+do
+    if [ ! -f "$pid_file" ]; then
+        echo "LogAgent stopped."
+        exit 0
+    fi
+    sleep 1
+done
+
+echo "LogAgent stop failed."
+exit 4
+

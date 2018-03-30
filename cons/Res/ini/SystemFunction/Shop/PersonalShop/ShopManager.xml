@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Object>
+<Property ID="1" StartLevel="1" ShopRuleFile="ini/SystemFunction/Shop/PersonalShop/GoldShopRule.xml" CapitalType="1"></Property>
+<Property ID="2" StartLevel="1" ShopRuleFile="ini/SystemFunction/Shop/PersonalShop/BindGoldShopRule.xml" CapitalType="3"></Property>
+<Property ID="3" StartLevel="1" ShopRuleFile="ini/SystemFunction/Shop/PersonalShop/SilverShopRule.xml" CapitalType="2"></Property>
+<Property ID="4" StartLevel="1" ShopRuleFile="ini/SystemFunction/Shop/PersonalShop/SmeltShopRule.xml" CapitalType="4"></Property>
+<Property ID="5" StartLevel="1" ShopRuleFile="ini/SystemFunction/Shop/PersonalShop/ArenaShopRule.xml" CapitalType="1"></Property>
+</Object>

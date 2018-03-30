@@ -1,0 +1,1738 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Define">
+      <UniqueIdentifier>{0e24ddd8-8bd6-4028-989c-35dd1f998508}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Define\CommonMsgDefine">
+      <UniqueIdentifier>{b02d4495-99af-430f-a603-1bbce8bbbdac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Define\ModuleDefine">
+      <UniqueIdentifier>{812e77f8-38dc-4cd0-8887-91c6b5bb249e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{30f07972-0e74-4e96-8cef-792c476ee8bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\xml">
+      <UniqueIdentifier>{fb9bdf2d-45e9-40e6-a957-779d02b203e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\math">
+      <UniqueIdentifier>{bbf7bf00-3ec3-445a-9735-695d4d6c8e6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\dumpstack">
+      <UniqueIdentifier>{ffa36462-a065-49a3-9f6f-8b76422d5e48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NpcBaseModule">
+      <UniqueIdentifier>{5e1a186b-fbde-4426-a461-c9379ac69ae4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NpcBaseModule\NpcCreator">
+      <UniqueIdentifier>{d1a5b186-e9b9-4e6d-bc3d-ebe532a0208d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NpcBaseModule\AI">
+      <UniqueIdentifier>{0a4cb116-94b6-4199-b3fd-7c740e5d55b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NpcBaseModule\AI\Rule">
+      <UniqueIdentifier>{8fa07f07-845e-4237-a9c8-ba6c4d78cc47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NpcBaseModule\AI\Rule\Spring">
+      <UniqueIdentifier>{c5951626-f26c-46dc-a540-d0fb08f928e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NpcBaseModule\AI\Rule\Patrol">
+      <UniqueIdentifier>{b728d204-af0d-463c-9aab-9c1c62b0c5a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NpcBaseModule\AI\Rule\SelTarget">
+      <UniqueIdentifier>{e09a3651-ebf3-4afa-8071-352b4e50e232}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NpcBaseModule\AI\Rule\BeginFight">
+      <UniqueIdentifier>{c45ce5fe-09e4-4bc3-889a-61cb790f38fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NpcBaseModule\AI\Rule\Fight">
+      <UniqueIdentifier>{a816f32a-0348-46a8-9a12-757ad0a59895}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NpcBaseModule\AI\Rule\BeDamaged">
+      <UniqueIdentifier>{7135c0dd-cce2-4630-ac30-d34c13cc012e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NpcBaseModule\AI\Rule\EndFight">
+      <UniqueIdentifier>{e39d3abb-6daf-4d22-95c7-cc4969798303}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NpcBaseModule\AI\Rule\OnDead">
+      <UniqueIdentifier>{086930bc-f774-4324-8afc-4d1ffa26b84f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NpcBaseModule\AI\Rule\ChaseTarget">
+      <UniqueIdentifier>{b993bf73-01d7-4b45-b315-8a75f09a4676}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NpcBaseModule\AI\Rule\CheckAttacks">
+      <UniqueIdentifier>{b48b9eca-5c89-45e2-b82c-c199c7b5d4c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NpcBaseModule\AI\Rule\Destroy">
+      <UniqueIdentifier>{269d2c51-f409-4d9a-9473-08843f2bb7b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NpcBaseModule\AI\Template">
+      <UniqueIdentifier>{dafad88c-5f7c-4f9c-bac3-4081c80b18f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NpcBaseModule\FunctionNpc">
+      <UniqueIdentifier>{691ab9be-73ba-47ab-b5ee-cca14a2a50cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CommonModule">
+      <UniqueIdentifier>{642e77e9-806f-49d7-b848-5d639e8629f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CommonModule\LuaScript">
+      <UniqueIdentifier>{1d9d2ceb-049e-4cea-a7ef-49db19acbb4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CommonModule\AsynCtr">
+      <UniqueIdentifier>{0ac13018-d9b5-473a-947a-f252b04a4417}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CommonModule\LuaExt">
+      <UniqueIdentifier>{b1770314-3e0e-4fbf-8e49-94a91378f150}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CommonModule\GM">
+      <UniqueIdentifier>{686bc0d4-d01f-4709-997b-99cdbbe460bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CommonModule\LogicClass">
+      <UniqueIdentifier>{c953ab46-4d79-4454-b5a0-73a2e83ee72b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CommonModule\PathFinding">
+      <UniqueIdentifier>{1d74bf9a-2f1b-47e5-a9ce-931963ada584}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CommonModule\Container">
+      <UniqueIdentifier>{51bdd863-3ac1-406f-be25-cef1f7a16286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CommonModule\LevelExp">
+      <UniqueIdentifier>{de466fa4-0a4d-498a-9f67-e11e69686063}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CommonModule\VirtualRec">
+      <UniqueIdentifier>{cda6c5bd-0d45-4478-b23e-f4ed27c95ff8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CommonModule\Log">
+      <UniqueIdentifier>{5950c5ef-5c6d-4838-9909-ca3b8719a350}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CommonModule\PropRefresh">
+      <UniqueIdentifier>{7691c711-e3b8-4f6f-84b1-874ad0e9e343}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CommonModule\PubModule">
+      <UniqueIdentifier>{a994f944-f54c-4323-9664-a93b96d5b187}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CommonModule\SnsData">
+      <UniqueIdentifier>{8fb510d4-1fdf-4671-8ba6-eedd81caa58d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CommonModule\LandPosi">
+      <UniqueIdentifier>{f259fab9-25b8-4440-b391-4d6a58e40d6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CommonModule\ActionMutex">
+      <UniqueIdentifier>{8f57c3d6-4eaf-412c-9b0c-beccdb8aeb41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneBaseModule">
+      <UniqueIdentifier>{573209e2-4e48-4d25-bfc5-7fa36aef8144}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface">
+      <UniqueIdentifier>{c71a89ed-f676-4c8e-910a-13f0bd1766f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\Fight">
+      <UniqueIdentifier>{216a8f3f-4d9c-43bc-b228-73a5124f34c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ItemModule">
+      <UniqueIdentifier>{c6fa9bb7-bd85-42e6-a80a-9a510eca6084}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ItemModule\ToolItem">
+      <UniqueIdentifier>{b31c3b16-700c-4869-882a-9437a35f560b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SkillModule">
+      <UniqueIdentifier>{dd588a94-f930-4a47-b811-47d04537f03e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SkillModule\ConfigDataQuery">
+      <UniqueIdentifier>{ff661e9b-ddb8-4c8b-918b-98deb1f2dfb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SkillModule\Skill">
+      <UniqueIdentifier>{7f2cccdc-a6a2-4479-a892-0b15d62491dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SkillModule\Flow">
+      <UniqueIdentifier>{4dea45ab-f1ef-415e-a9f4-c35a78d9cf20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SkillModule\SkillEvent">
+      <UniqueIdentifier>{c02734bd-aaf1-4381-bb2b-90ebda395f8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SkillModule\SkillEvent\SkillEventExecute">
+      <UniqueIdentifier>{c06e0e4e-09cd-4f87-b1ff-715445af4677}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SkillModule\Fight">
+      <UniqueIdentifier>{6659ac50-9cbf-4d60-a54a-83ad816f9bc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SkillModule\Fight\FightFormula">
+      <UniqueIdentifier>{756f605b-e0f0-4156-8e84-5e0b65ead138}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SkillModule\TargetFilter">
+      <UniqueIdentifier>{e0b37fe1-4621-4058-bca2-b584590e3290}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SkillModule\SkillUseLimit">
+      <UniqueIdentifier>{4b0a2158-b912-40c2-bbaa-93c82951182b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SkillModule\Buffer">
+      <UniqueIdentifier>{038bda8a-a5a3-4f00-bf4b-3cda3104499d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Analytics">
+      <UniqueIdentifier>{e1ed49ea-b64f-409c-92b2-a81fbb83da25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Analytics">
+      <UniqueIdentifier>{e1ed49ea-b64f-409c-92b2-a81fbb83da25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CommonModule\ReloadConfig">
+      <UniqueIdentifier>{23cce6f7-0296-4952-8488-ce82f02b6c83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NpcBaseModule\AI\Rule\Escape">
+      <UniqueIdentifier>{9ac6670c-2c23-43e0-a00d-4bf98bedbc6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CommonModule\FunctionEvent">
+      <UniqueIdentifier>{1ad4db50-7e68-4bf7-9086-dfccfb191524}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\cache">
+      <UniqueIdentifier>{c7ffcc8d-590e-4416-9656-098686fd648d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\cron">
+      <UniqueIdentifier>{aa6a241f-9090-48e8-a815-9d4eb843d532}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CommonModule\SwitchManagerModule">
+      <UniqueIdentifier>{f5e1bc10-f3b6-4828-87c8-47085d00e3ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TaskModule">
+      <UniqueIdentifier>{3dd3cdda-59ef-4b36-8ba7-e115e1aee570}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TaskModule\Data">
+      <UniqueIdentifier>{864ba745-fcd4-4e65-847c-ceb54cfada85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TaskModule\Template">
+      <UniqueIdentifier>{1266f09f-5cae-4c2a-9b69-f601b4781529}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TaskModule\Rule">
+      <UniqueIdentifier>{02b3289a-971b-4799-9ee1-06a42a0153a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CommonModule\CommRule">
+      <UniqueIdentifier>{5f83017c-e1dd-4d9f-b961-8ace1590ec5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SocialSystemModule">
+      <UniqueIdentifier>{de251c94-33fb-49d3-b51a-f899179fca4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SocialSystemModule\Mail">
+      <UniqueIdentifier>{999c23d4-4772-4c99-a059-5cd40e1ab22c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SystemFunctionModule">
+      <UniqueIdentifier>{56bbffda-5e10-4006-96ac-ceb3200e3aa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SystemFunctionModule\RankList">
+      <UniqueIdentifier>{2f79152d-785d-460a-8fc7-7de3c465dafd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SystemFunctionModule\Channel">
+      <UniqueIdentifier>{f3acd410-96a2-4780-aff0-5a408c45c450}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SystemFunctionModule\Motion">
+      <UniqueIdentifier>{47b1733f-8d96-4f86-b539-4761d20eefd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SystemFunctionModule\Capital">
+      <UniqueIdentifier>{b2cb3d12-7af5-4374-8642-22b1ba4f2477}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SystemFunctionModule\StaticData">
+      <UniqueIdentifier>{d22c1e8c-f3a5-4a6a-9ea2-06cffeea8d1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SystemFunctionModule\CoolDown">
+      <UniqueIdentifier>{e44644a1-fe1e-4ba2-8a5f-c8264895fde8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SystemFunctionModule\Drop">
+      <UniqueIdentifier>{ca55747c-e4d7-4205-831b-1303f7c7414c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SystemFunctionModule\Reward">
+      <UniqueIdentifier>{18ae7262-9b4b-43a8-8785-919b76d80da3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SystemFunctionModule\ResetTimer">
+      <UniqueIdentifier>{9560e745-8dfb-4326-b5df-d2dadefda4cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CommonModule\EnvirValue">
+      <UniqueIdentifier>{d7e5d0b5-7251-4694-ade7-a5e28ae451c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SystemFunctionModule\CreateRole">
+      <UniqueIdentifier>{79cf9770-1c34-48f7-9429-c5ff51a60524}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SystemFunctionModule\ToolBox">
+      <UniqueIdentifier>{9ac505c5-dfa8-4beb-a768-c724a69f1b2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SystemFunctionModule\PlayerBaseModule">
+      <UniqueIdentifier>{ca0a734b-fb3c-4c4f-b4a6-c74c6c1fbc8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CampaignModule">
+      <UniqueIdentifier>{a4d6deac-bfe6-4f7a-b5c1-b02dd2506215}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EquipmentModule">
+      <UniqueIdentifier>{788d08ad-be4e-415e-a125-9a6e5b6d23ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OPActivity">
+      <UniqueIdentifier>{25f9ff45-a220-4637-b728-368350b75bb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EquipmentModule\Equip">
+      <UniqueIdentifier>{6c72fd99-ce12-4ffb-99b8-5c5327f44eae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EquipmentModule\ModifyPack">
+      <UniqueIdentifier>{8815c8d6-016e-437c-a23e-b0635828846c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SystemFunctionModule\Shop">
+      <UniqueIdentifier>{5cb51ec9-41d5-4ebf-980f-ac06d16b3267}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SystemFunctionModule\Shop\PersonalShop">
+      <UniqueIdentifier>{1800cb3e-d4c5-46a8-95f9-9d2746218587}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SystemFunctionModule\Shop\PersonalShop\Category">
+      <UniqueIdentifier>{c6617f6e-3b6c-479d-9af3-db947623bb58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SystemFunctionModule\Look">
+      <UniqueIdentifier>{8d64b219-0b11-4cfc-9190-9978b5578881}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SocialSystemModule\Chat">
+      <UniqueIdentifier>{6b662251-c7b4-40dc-8eb4-3f88b32d70e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SocialSystemModule\Friend">
+      <UniqueIdentifier>{955a0447-75b9-49c2-9094-2234bd253c38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SocialSystemModule\Team">
+      <UniqueIdentifier>{3fbcb7b4-465c-4c8c-9290-b2200e440f21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EquipmentModule\Jewel">
+      <UniqueIdentifier>{43b3a04f-349d-40dd-bc3c-67a80e0eb2ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SkillModule\PassiveSkillSystem">
+      <UniqueIdentifier>{08963676-d664-4570-9360-8f0e87a9306b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SkillModule\SkillUpgrade">
+      <UniqueIdentifier>{9ecb7e57-5e30-45bb-8ede-44086efe1076}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Define\SysInfo">
+      <UniqueIdentifier>{eeb0ae21-ce95-4955-a8c9-e5ccf0378db6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EquipmentModule\Strengthen">
+      <UniqueIdentifier>{d9b0ed12-53b1-4927-b177-8c394d78c811}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EquipmentModule\Smelt">
+      <UniqueIdentifier>{94f106cb-50d3-4e7e-9bb6-35e4e5ee38c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SystemFunctionModule\EnergyModule">
+      <UniqueIdentifier>{f68f69c3-77db-4791-8dd3-1d1313ddc18c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SkillModule\PKModule">
+      <UniqueIdentifier>{8f4e4805-2907-4df0-8940-c640979fccd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EquipmentModule\Forging">
+      <UniqueIdentifier>{d076f7eb-870a-4749-8af0-122aedd0e8f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EquipmentModule\Baptise">
+      <UniqueIdentifier>{1c7b3006-5515-4398-b933-1fa4bdd63695}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SystemFunctionModule\ReviveModule">
+      <UniqueIdentifier>{e97c1979-45e0-43fe-819f-f06aae3aeaf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EquipmentModule\Apperance">
+      <UniqueIdentifier>{e2a89921-4207-42f2-a272-7d8d4b89634d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SystemFunctionModule\Wing">
+      <UniqueIdentifier>{37cd14b3-7a10-41e7-9855-e8c05324a35a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SystemFunctionModule\BattleAbility">
+      <UniqueIdentifier>{f84e47af-b1a6-45b5-aefa-b7448a574fc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SystemFunctionModule\ActivateFunction">
+      <UniqueIdentifier>{a3441d31-83d6-4924-8f13-69584f8d2935}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SystemFunctionModule\Ride">
+      <UniqueIdentifier>{42fa9e62-200f-476a-bdc5-f59e527df495}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ItemModule\Jade">
+      <UniqueIdentifier>{d44434f9-6ee5-4ff7-adb7-744fb4628947}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NpcBaseModule\FunctionNpc\TrapEvent">
+      <UniqueIdentifier>{356cc08e-31fd-45f1-9063-e69b4d1f9b74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SocialSystemModule\Guild">
+      <UniqueIdentifier>{1919ec01-e760-479f-aba8-4741c6576409}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EquipmentModule\Fashion">
+      <UniqueIdentifier>{736de304-ad50-4548-b6cf-4d7efd0ac08f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Define\Classes.h">
+      <Filter>Define</Filter>
+    </ClInclude>
+    <ClInclude Include="Define\Fields.h">
+      <Filter>Define</Filter>
+    </ClInclude>
+    <ClInclude Include="Define\InternalFields.h">
+      <Filter>Define</Filter>
+    </ClInclude>
+    <ClInclude Include="Define\ClientCustomDefine.h">
+      <Filter>Define\CommonMsgDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="Define\CommandDefine.h">
+      <Filter>Define\CommonMsgDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="Define\GameDefine.h">
+      <Filter>Define\CommonMsgDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="Define\PubDefine.h">
+      <Filter>Define\CommonMsgDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="Define\ServerCustomDefine.h">
+      <Filter>Define\CommonMsgDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="Define\SnsDefine.h">
+      <Filter>Define\CommonMsgDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="Define\ViewDefine.h">
+      <Filter>Define\CommonMsgDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="Define\ActionMutexDefine.h">
+      <Filter>Define\ModuleDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="Define\BufferDefine.h">
+      <Filter>Define\ModuleDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="Define\CapitalDefine.h">
+      <Filter>Define\ModuleDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="Define\ContainerDefine.h">
+      <Filter>Define\ModuleDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="Define\CoolDownDefine.h">
+      <Filter>Define\ModuleDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="Define\FightDefine.h">
+      <Filter>Define\ModuleDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="Define\FightPropertyDefine.h">
+      <Filter>Define\ModuleDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="Define\FlowCategoryDefine.h">
+      <Filter>Define\ModuleDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="Define\ItemTypeDefine.h">
+      <Filter>Define\ModuleDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="Define\LogDefine.h">
+      <Filter>Define\ModuleDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="Define\ModifyPackDefine.h">
+      <Filter>Define\ModuleDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="Define\RankingDefine.h">
+      <Filter>Define\ModuleDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="Define\ResetTimerDefine.h">
+      <Filter>Define\ModuleDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="Define\Skilldefine.h">
+      <Filter>Define\ModuleDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="Define\SkillEventFuncIdDefine.h">
+      <Filter>Define\ModuleDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="Define\SkillEventManagerDefine.h">
+      <Filter>Define\ModuleDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="Define\SnsDataDefine.h">
+      <Filter>Define\ModuleDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="Define\StaticDataDefine.h">
+      <Filter>Define\ModuleDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="Define\SwitchManagerDefine.h">
+      <Filter>Define\ModuleDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="Define\SystemMailDefine.h">
+      <Filter>Define\ModuleDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="Define\ToolBoxDefine.h">
+      <Filter>Define\ModuleDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="Define\ToolItemDefine.h">
+      <Filter>Define\ModuleDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\arraypod.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\cau.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\custom_func.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\enum.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\exptree.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\extend_func.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\flexstring.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\geometry_func.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\IniFile.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\itemhelper.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\json-forwards.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\json.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\LeakChecker.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\pub_share.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\QuickHash.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\record.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\shape_collision.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\Singleton.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\string_buffer.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\string_util.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\StringPod.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\util.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\util_config.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\util_config_template.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\util_func.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\util_ini.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\util_macros.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\XmlFile.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\tinyxml\tinystr.h">
+      <Filter>utils\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\tinyxml\tinyxml.h">
+      <Filter>utils\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\math\fm_fixedpoint.h">
+      <Filter>utils\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\math\fm_mathtable.h">
+      <Filter>utils\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\math\math.h">
+      <Filter>utils\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\math\matrix.h">
+      <Filter>utils\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\math\vector.h">
+      <Filter>utils\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\dumpstack\DumpStack.h">
+      <Filter>utils\dumpstack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\dumpstack\StackWalker.h">
+      <Filter>utils\dumpstack</Filter>
+    </ClInclude>
+    <ClInclude Include="NpcBaseModule\NpcBaseModule.h">
+      <Filter>NpcBaseModule</Filter>
+    </ClInclude>
+    <ClInclude Include="NpcBaseModule\NpcCreatorModule.h">
+      <Filter>NpcBaseModule\NpcCreator</Filter>
+    </ClInclude>
+    <ClInclude Include="NpcBaseModule\AI\AIDefine.h">
+      <Filter>NpcBaseModule\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="NpcBaseModule\AI\AIFunction.h">
+      <Filter>NpcBaseModule\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="NpcBaseModule\AI\AIHeartBeat.h">
+      <Filter>NpcBaseModule\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="NpcBaseModule\AI\AISystem.h">
+      <Filter>NpcBaseModule\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="NpcBaseModule\AI\Rule\AIRuleBase.h">
+      <Filter>NpcBaseModule\AI\Rule</Filter>
+    </ClInclude>
+    <ClInclude Include="NpcBaseModule\AI\Rule\AIRuleManage.h">
+      <Filter>NpcBaseModule\AI\Rule</Filter>
+    </ClInclude>
+    <ClInclude Include="NpcBaseModule\AI\Rule\Spring\AIRSpringBase.h">
+      <Filter>NpcBaseModule\AI\Rule\Spring</Filter>
+    </ClInclude>
+    <ClInclude Include="NpcBaseModule\AI\Rule\Patrol\AIRPatrolBase.h">
+      <Filter>NpcBaseModule\AI\Rule\Patrol</Filter>
+    </ClInclude>
+    <ClInclude Include="NpcBaseModule\AI\Rule\SelTarget\AIRSelTargetBase.h">
+      <Filter>NpcBaseModule\AI\Rule\SelTarget</Filter>
+    </ClInclude>
+    <ClInclude Include="NpcBaseModule\AI\Rule\BeginFight\AIRBeginFightBase.h">
+      <Filter>NpcBaseModule\AI\Rule\BeginFight</Filter>
+    </ClInclude>
+    <ClInclude Include="NpcBaseModule\AI\Rule\Fight\AIRFightBase.h">
+      <Filter>NpcBaseModule\AI\Rule\Fight</Filter>
+    </ClInclude>
+    <ClInclude Include="NpcBaseModule\AI\Rule\BeDamaged\AIRBeDamagedBase.h">
+      <Filter>NpcBaseModule\AI\Rule\BeDamaged</Filter>
+    </ClInclude>
+    <ClInclude Include="NpcBaseModule\AI\Rule\EndFight\AIREndFightBase.h">
+      <Filter>NpcBaseModule\AI\Rule\EndFight</Filter>
+    </ClInclude>
+    <ClInclude Include="NpcBaseModule\AI\Rule\OnDead\AIROnDeadBase.h">
+      <Filter>NpcBaseModule\AI\Rule\OnDead</Filter>
+    </ClInclude>
+    <ClInclude Include="NpcBaseModule\AI\Rule\ChaseTarget\AIRChaseTargetBase.h">
+      <Filter>NpcBaseModule\AI\Rule\ChaseTarget</Filter>
+    </ClInclude>
+    <ClInclude Include="NpcBaseModule\AI\Rule\CheckAttacks\AIRCheckAttackersBase.h">
+      <Filter>NpcBaseModule\AI\Rule\CheckAttacks</Filter>
+    </ClInclude>
+    <ClInclude Include="NpcBaseModule\AI\Template\AITBoss.h">
+      <Filter>NpcBaseModule\AI\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="NpcBaseModule\AI\Template\AITemplateBase.h">
+      <Filter>NpcBaseModule\AI\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="NpcBaseModule\DoorNpcModule.h">
+      <Filter>NpcBaseModule\FunctionNpc</Filter>
+    </ClInclude>
+    <ClInclude Include="NpcBaseModule\SafeAreaNpcModule.h">
+      <Filter>NpcBaseModule\FunctionNpc</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonModule\LuaScriptModule.h">
+      <Filter>CommonModule\LuaScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonModule\AsynCtrlModule.h">
+      <Filter>CommonModule\AsynCtr</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonModule\LuaExtModule.h">
+      <Filter>CommonModule\LuaExt</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonModule\GMModule.h">
+      <Filter>CommonModule\GM</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonModule\LogicClassModule.h">
+      <Filter>CommonModule\LogicClass</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonModule\PathFindingModule.h">
+      <Filter>CommonModule\PathFinding</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonModule\ContainerModule.h">
+      <Filter>CommonModule\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonModule\LevelModule.h">
+      <Filter>CommonModule\LevelExp</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonModule\VirtualRecModule.h">
+      <Filter>CommonModule\VirtualRec</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonModule\LogModule.h">
+      <Filter>CommonModule\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonModule\PropRefreshModule.h">
+      <Filter>CommonModule\PropRefresh</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonModule\PubModule.h">
+      <Filter>CommonModule\PubModule</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonModule\SnsDataModule.h">
+      <Filter>CommonModule\SnsData</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonModule\LandPosModule.h">
+      <Filter>CommonModule\LandPosi</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonModule\ActionMutex.h">
+      <Filter>CommonModule\ActionMutex</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonModule\EnvirValueModule.h">
+      <Filter>CommonModule\EnvirValue</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneBaseModule\SceneBaseModule.h">
+      <Filter>SceneBaseModule</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\DeclareProperty.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\FightInterface.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\ILuaExtModule.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\PropertyInterface.h">
+      <Filter>Interface\Fight</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemModule\ItemBaseModule.h">
+      <Filter>ItemModule</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemModule\ToolItem\ItemEffectBase.h">
+      <Filter>ItemModule\ToolItem</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemModule\ToolItem\ToolItemModule.h">
+      <Filter>ItemModule\ToolItem</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillModule\Impl\SkillConfigData.h">
+      <Filter>SkillModule\ConfigDataQuery</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillModule\Impl\SkillDataQueryModule.h">
+      <Filter>SkillModule\ConfigDataQuery</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillModule\Impl\SkillDefineDataStruct.h">
+      <Filter>SkillModule\ConfigDataQuery</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillModule\Impl\SkillAccess.h">
+      <Filter>SkillModule\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillModule\Impl\SkillFlow.h">
+      <Filter>SkillModule\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillModule\Skillmodule.h">
+      <Filter>SkillModule\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillModule\Impl\SkillStage.h">
+      <Filter>SkillModule\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillModule\SkillToSprite.h">
+      <Filter>SkillModule\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillModule\FlowModule.h">
+      <Filter>SkillModule\Flow</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillModule\inner\SkillEventBase.h">
+      <Filter>SkillModule\SkillEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillModule\inner\SkillEventManager.h">
+      <Filter>SkillModule\SkillEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillModule\FightActionControl.h">
+      <Filter>SkillModule\Fight</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillModule\Impl\FightDataAccess.h">
+      <Filter>SkillModule\Fight</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillModule\FightModule.h">
+      <Filter>SkillModule\Fight</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillModule\FightState.h">
+      <Filter>SkillModule\Fight</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillModule\Impl\Formula.h">
+      <Filter>SkillModule\Fight\FightFormula</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillModule\Impl\FormulaManagerModule.h">
+      <Filter>SkillModule\Fight\FightFormula</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillModule\Impl\FormulaPropIndex.h">
+      <Filter>SkillModule\Fight\FightFormula</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillModule\Impl\FormulaPropIndexDefine.h">
+      <Filter>SkillModule\Fight\FightFormula</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillModule\Impl\FormulaStack.h">
+      <Filter>SkillModule\Fight\FightFormula</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillModule\Impl\TargetFilter.h">
+      <Filter>SkillModule\TargetFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillModule\Impl\SkillUseChecker.h">
+      <Filter>SkillModule\SkillUseLimit</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillModule\BufferModifyPack.h">
+      <Filter>SkillModule\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillModule\BufferModule.h">
+      <Filter>SkillModule\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Analytics\IGameAnalyticsCollector.h">
+      <Filter>Analytics</Filter>
+    </ClInclude>
+    <ClInclude Include="Analytics\GameAnalyticsDef.h">
+      <Filter>Analytics</Filter>
+    </ClInclude>
+    <ClInclude Include="Analytics\GameAnalyticsEventNames.h">
+      <Filter>Analytics</Filter>
+    </ClInclude>
+    <ClInclude Include="Analytics\GameAnalyticsProperties.h">
+      <Filter>Analytics</Filter>
+    </ClInclude>
+    <ClInclude Include="Analytics\SensorsAnalyticsDef.h">
+      <Filter>Analytics</Filter>
+    </ClInclude>
+    <ClInclude Include="Analytics\SensorsAnalyticsCollectorEx.h">
+      <Filter>Analytics</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonModule\ReLoadConfigModule.h">
+      <Filter>CommonModule\ReloadConfig</Filter>
+    </ClInclude>
+    <ClInclude Include="NpcBaseModule\AI\Rule\Escape\AIREscapeBase.h">
+      <Filter>NpcBaseModule\AI\Rule\Escape</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonModule\FunctionEventModule.h">
+      <Filter>CommonModule\FunctionEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="Define\FunctionEventDefine.h">
+      <Filter>Define\ModuleDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\cache\CacheHelper.hpp">
+      <Filter>utils\cache</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\cache\CacheString.hpp">
+      <Filter>utils\cache</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\cache\CacheTimer.hpp">
+      <Filter>utils\cache</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\cache\ICacheString.h">
+      <Filter>utils\cache</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\item_helper.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\cron\bitstring.h">
+      <Filter>utils\cron</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonModule\SwitchManagerModule.h">
+      <Filter>CommonModule\SwitchManagerModule</Filter>
+    </ClInclude>
+    <ClInclude Include="Define\RewardDefine.h">
+      <Filter>Define\ModuleDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="Define\PlayerBaseDefine.h">
+      <Filter>Define\ModuleDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskModule\Data\TaskBaseData.h">
+      <Filter>TaskModule\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskModule\Data\TaskData_KillNpc.h">
+      <Filter>TaskModule\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskModule\Data\TaskLoader.h">
+      <Filter>TaskModule\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskModule\Data\TaskStructDefine.h">
+      <Filter>TaskModule\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskModule\Rule\TaskBaseRule.h">
+      <Filter>TaskModule\Rule</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskModule\Template\MainTask.h">
+      <Filter>TaskModule\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskModule\Template\TaskTemplate.h">
+      <Filter>TaskModule\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskModule\TaskDefine.h">
+      <Filter>TaskModule</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskModule\TaskManager.h">
+      <Filter>TaskModule</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskModule\TaskUtil.h">
+      <Filter>TaskModule</Filter>
+    </ClInclude>
+    <ClInclude Include="Define\ExtraServerDefine.h">
+      <Filter>Define\ModuleDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskModule\Rule\KillNpcRule.h">
+      <Filter>TaskModule\Rule</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskModule\Template\BranchTask.h">
+      <Filter>TaskModule\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskModule\Template\DailyTask.h">
+      <Filter>TaskModule\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskModule\Data\TaskData_Simple.h">
+      <Filter>TaskModule\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskModule\Rule\TalkRule.h">
+      <Filter>TaskModule\Rule</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskModule\Rule\GatherRule.h">
+      <Filter>TaskModule\Rule</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskModule\Rule\PathfindRule.h">
+      <Filter>TaskModule\Rule</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskModule\Rule\EntrySceneRule.h">
+      <Filter>TaskModule\Rule</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskModule\Rule\PlayCGRule.h">
+      <Filter>TaskModule\Rule</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonModule\CommRuleModule.h">
+      <Filter>CommonModule\CommRule</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskModule\Rule\UpgradeLevelRule.h">
+      <Filter>TaskModule\Rule</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemFunctionModule\CapitalModule.h">
+      <Filter>SystemFunctionModule\Capital</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemFunctionModule\ChannelModule.h">
+      <Filter>SystemFunctionModule\Channel</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemFunctionModule\CoolDownModule.h">
+      <Filter>SystemFunctionModule\CoolDown</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemFunctionModule\CreateRoleModule.h">
+      <Filter>SystemFunctionModule\CreateRole</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemFunctionModule\DropModule.h">
+      <Filter>SystemFunctionModule\Drop</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemFunctionModule\MotionHelper.h">
+      <Filter>SystemFunctionModule\Motion</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemFunctionModule\MotionModule.h">
+      <Filter>SystemFunctionModule\Motion</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemFunctionModule\PlayerBaseModule.h">
+      <Filter>SystemFunctionModule\PlayerBaseModule</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemFunctionModule\RankListModule.h">
+      <Filter>SystemFunctionModule\RankList</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemFunctionModule\ResetTimerModule.h">
+      <Filter>SystemFunctionModule\ResetTimer</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemFunctionModule\RewardModule.h">
+      <Filter>SystemFunctionModule\Reward</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemFunctionModule\StaticDataQueryModule.h">
+      <Filter>SystemFunctionModule\StaticData</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemFunctionModule\ToolBoxModule.h">
+      <Filter>SystemFunctionModule\ToolBox</Filter>
+    </ClInclude>
+    <ClInclude Include="SocialSystemModule\SystemMailModule.h">
+      <Filter>SocialSystemModule\Mail</Filter>
+    </ClInclude>
+    <ClInclude Include="EquipmentModule\EquipDefine.h">
+      <Filter>EquipmentModule\Equip</Filter>
+    </ClInclude>
+    <ClInclude Include="EquipmentModule\EquipmentModule.h">
+      <Filter>EquipmentModule\Equip</Filter>
+    </ClInclude>
+    <ClInclude Include="EquipmentModule\EquipModifyPackModule.h">
+      <Filter>EquipmentModule\ModifyPack</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemFunctionModule\Shop\ShopBase.h">
+      <Filter>SystemFunctionModule\Shop\PersonalShop\Category</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemFunctionModule\Shop\ShopManagerDefine.h">
+      <Filter>SystemFunctionModule\Shop\PersonalShop</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemFunctionModule\Shop\ShopManagerModule.h">
+      <Filter>SystemFunctionModule\Shop\PersonalShop</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemFunctionModule\Shop\ShopUtils.h">
+      <Filter>SystemFunctionModule\Shop\PersonalShop</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemFunctionModule\LookModule.h">
+      <Filter>SystemFunctionModule\Look</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemFunctionModule\LookDefine.h">
+      <Filter>SystemFunctionModule\Look</Filter>
+    </ClInclude>
+    <ClInclude Include="SocialSystemModule\ChatModule.h">
+      <Filter>SocialSystemModule\Chat</Filter>
+    </ClInclude>
+    <ClInclude Include="SocialSystemModule\FriendModule.h">
+      <Filter>SocialSystemModule\Friend</Filter>
+    </ClInclude>
+    <ClInclude Include="Define\FriendDefine.h">
+      <Filter>Define\ModuleDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="SocialSystemModule\TeamModule.h">
+      <Filter>SocialSystemModule\Team</Filter>
+    </ClInclude>
+    <ClInclude Include="Define\FriendMsgDefine.h">
+      <Filter>Define\ModuleDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="Define\TeamDefine.h">
+      <Filter>Define\ModuleDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="SocialSystemModule\RequestModule.h">
+      <Filter>SocialSystemModule\Team</Filter>
+    </ClInclude>
+    <ClInclude Include="Define\RequestDefine.h">
+      <Filter>Define\ModuleDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="EquipmentModule\JewelDefine.h">
+      <Filter>EquipmentModule\Jewel</Filter>
+    </ClInclude>
+    <ClInclude Include="EquipmentModule\JewelModule.h">
+      <Filter>EquipmentModule\Jewel</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillModule\PassiveSkillModifyPack.h">
+      <Filter>SkillModule\PassiveSkillSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillModule\PassiveSkillSystem.h">
+      <Filter>SkillModule\PassiveSkillSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillModule\SkillUpgradeModule.h">
+      <Filter>SkillModule\SkillUpgrade</Filter>
+    </ClInclude>
+    <ClInclude Include="Define\SystemInfo_Campaign.h">
+      <Filter>Define\SysInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Define\SystemInfo_Common.h">
+      <Filter>Define\SysInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Define\SystemInfo_Equipment.h">
+      <Filter>Define\SysInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Define\SystemInfo_Item.h">
+      <Filter>Define\SysInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Define\SystemInfo_Npc.h">
+      <Filter>Define\SysInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Define\SystemInfo_OPActivity.h">
+      <Filter>Define\SysInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Define\SystemInfo_Scene.h">
+      <Filter>Define\SysInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Define\SystemInfo_Skill.h">
+      <Filter>Define\SysInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Define\SystemInfo_Social.h">
+      <Filter>Define\SysInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Define\SystemInfo_SysFunction.h">
+      <Filter>Define\SysInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Define\SystemInfo_Task.h">
+      <Filter>Define\SysInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="EquipmentModule\EquipStrengthenModule.h">
+      <Filter>EquipmentModule\Strengthen</Filter>
+    </ClInclude>
+    <ClInclude Include="EquipmentModule\EquipStrengthenDefine.h">
+      <Filter>EquipmentModule\Strengthen</Filter>
+    </ClInclude>
+    <ClInclude Include="EquipmentModule\EquipSmeltDefine.h">
+      <Filter>EquipmentModule\Smelt</Filter>
+    </ClInclude>
+    <ClInclude Include="EquipmentModule\EquipSmeltModule.h">
+      <Filter>EquipmentModule\Smelt</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonModule\CommRuleDefine.h">
+      <Filter>CommonModule\CommRule</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillModule\CriminalSystem.h">
+      <Filter>SkillModule\PKModule</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillModule\PKModelModule.h">
+      <Filter>SkillModule\PKModule</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillModule\SceneAttackManage.h">
+      <Filter>SkillModule\PKModule</Filter>
+    </ClInclude>
+    <ClInclude Include="Define\PKModelDefine.h">
+      <Filter>Define\ModuleDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemFunctionModule\EnergyModule.h">
+      <Filter>SystemFunctionModule\EnergyModule</Filter>
+    </ClInclude>
+    <ClInclude Include="EquipmentModule\EquipForgingDefine.h">
+      <Filter>EquipmentModule\Forging</Filter>
+    </ClInclude>
+    <ClInclude Include="EquipmentModule\EquipForgingModule.h">
+      <Filter>EquipmentModule\Forging</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillModule\inner\SkillEventExecuteUtil.h">
+      <Filter>SkillModule\SkillEvent\SkillEventExecute</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillModule\inner\SkillEventFuncBuffer.h">
+      <Filter>SkillModule\SkillEvent\SkillEventExecute</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillModule\inner\SkillEventFuncCommon.h">
+      <Filter>SkillModule\SkillEvent\SkillEventExecute</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillModule\inner\SkillEventFuncSkill.h">
+      <Filter>SkillModule\SkillEvent\SkillEventExecute</Filter>
+    </ClInclude>
+    <ClInclude Include="EquipmentModule\EquipBaptiseDefine.h">
+      <Filter>EquipmentModule\Baptise</Filter>
+    </ClInclude>
+    <ClInclude Include="EquipmentModule\EquipBaptiseModule.h">
+      <Filter>EquipmentModule\Baptise</Filter>
+    </ClInclude>
+    <ClInclude Include="Define\ReviveDefine.h">
+      <Filter>Define\ModuleDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemFunctionModule\ReviveModule.h">
+      <Filter>SystemFunctionModule\ReviveModule</Filter>
+    </ClInclude>
+    <ClInclude Include="EquipmentModule\ApperanceDefine.h">
+      <Filter>EquipmentModule\Apperance</Filter>
+    </ClInclude>
+    <ClInclude Include="EquipmentModule\ApperanceModule.h">
+      <Filter>EquipmentModule\Apperance</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemFunctionModule\WingModule.h">
+      <Filter>SystemFunctionModule\Wing</Filter>
+    </ClInclude>
+    <ClInclude Include="Define\WingDefine.h">
+      <Filter>Define\ModuleDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemFunctionModule\BattleAbilityModule.h">
+      <Filter>SystemFunctionModule\BattleAbility</Filter>
+    </ClInclude>
+    <ClInclude Include="Define\BattleAbilityDefine.h">
+      <Filter>Define\ModuleDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemFunctionModule\Shop\ShopGold.h">
+      <Filter>SystemFunctionModule\Shop\PersonalShop\Category</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemFunctionModule\ActivateFunctionModule.h">
+      <Filter>SystemFunctionModule\ActivateFunction</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemFunctionModule\RideDefine.h">
+      <Filter>SystemFunctionModule\Ride</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemFunctionModule\RideModule.h">
+      <Filter>SystemFunctionModule\Ride</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemModule\JadeModule.h">
+      <Filter>ItemModule\Jade</Filter>
+    </ClInclude>
+    <ClInclude Include="Define\JadeDefine.h">
+      <Filter>Define\ModuleDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="NpcBaseModule\TrapNpcModule.h">
+      <Filter>NpcBaseModule\FunctionNpc</Filter>
+    </ClInclude>
+    <ClInclude Include="Define\TrapEventFuncIdDefine.h">
+      <Filter>Define\ModuleDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="NpcBaseModule\TrapEvent\TrapEventBase.h">
+      <Filter>NpcBaseModule\FunctionNpc\TrapEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="NpcBaseModule\TrapEvent\TrapEventFuncBuffer.h">
+      <Filter>NpcBaseModule\FunctionNpc\TrapEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="NpcBaseModule\TrapEvent\TrapEventFuncDestory.h">
+      <Filter>NpcBaseModule\FunctionNpc\TrapEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="NpcBaseModule\TrapEvent\TrapEventManagerModule.h">
+      <Filter>NpcBaseModule\FunctionNpc\TrapEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="Define\GuildDefine.h">
+      <Filter>Define\ModuleDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="SocialSystemModule\GuildLoadResource.h">
+      <Filter>SocialSystemModule\Guild</Filter>
+    </ClInclude>
+    <ClInclude Include="SocialSystemModule\GuildHelper.h">
+      <Filter>SocialSystemModule\Guild</Filter>
+    </ClInclude>
+    <ClInclude Include="NpcBaseModule\AI\Template\AITNormalFight.h">
+      <Filter>NpcBaseModule\AI\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="SocialSystemModule\GuildModule.h">
+      <Filter>SocialSystemModule\Guild</Filter>
+    </ClInclude>
+    <ClInclude Include="Define\GuildMsgDefine.h">
+      <Filter>Define</Filter>
+    </ClInclude>
+    <ClInclude Include="EquipmentModule\FashionDefine.h">
+      <Filter>EquipmentModule\Fashion</Filter>
+    </ClInclude>
+    <ClInclude Include="EquipmentModule\FashionModule.h">
+      <Filter>EquipmentModule\Fashion</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\utils\cau.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\custom_func.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\exptree.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\extend_func.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\flexstring.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\geometry_func.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\IniFile.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\jsoncpp.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\pub_share.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\record.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\shape_collision.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\string_buffer.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\string_util.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\util.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\util_func.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\util_ini.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\XmlFile.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\tinyxml\tinystr.cpp">
+      <Filter>utils\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\tinyxml\tinyxml.cpp">
+      <Filter>utils\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\tinyxml\tinyxmlerror.cpp">
+      <Filter>utils\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\tinyxml\tinyxmlparser.cpp">
+      <Filter>utils\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\math\vector.cpp">
+      <Filter>utils\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\dumpstack\DumpStack.cpp">
+      <Filter>utils\dumpstack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\dumpstack\StackWalker.cpp">
+      <Filter>utils\dumpstack</Filter>
+    </ClCompile>
+    <ClCompile Include="NpcBaseModule\NpcBaseModule.cpp">
+      <Filter>NpcBaseModule</Filter>
+    </ClCompile>
+    <ClCompile Include="NpcBaseModule\NpcCreatorModule.cpp">
+      <Filter>NpcBaseModule\NpcCreator</Filter>
+    </ClCompile>
+    <ClCompile Include="NpcBaseModule\AI\AIFunction.cpp">
+      <Filter>NpcBaseModule\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="NpcBaseModule\AI\AIHeartBeat.cpp">
+      <Filter>NpcBaseModule\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="NpcBaseModule\AI\AILoadResource.cpp">
+      <Filter>NpcBaseModule\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="NpcBaseModule\AI\AIOnCreateArgs.cpp">
+      <Filter>NpcBaseModule\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="NpcBaseModule\AI\AISystem.cpp">
+      <Filter>NpcBaseModule\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="NpcBaseModule\AI\Rule\AIRuleBase.cpp">
+      <Filter>NpcBaseModule\AI\Rule</Filter>
+    </ClCompile>
+    <ClCompile Include="NpcBaseModule\AI\Rule\AIRuleManage.cpp">
+      <Filter>NpcBaseModule\AI\Rule</Filter>
+    </ClCompile>
+    <ClCompile Include="NpcBaseModule\AI\Rule\Spring\AIRSpringBase.cpp">
+      <Filter>NpcBaseModule\AI\Rule\Spring</Filter>
+    </ClCompile>
+    <ClCompile Include="NpcBaseModule\AI\Rule\Patrol\AIRPatrolBase.cpp">
+      <Filter>NpcBaseModule\AI\Rule\Patrol</Filter>
+    </ClCompile>
+    <ClCompile Include="NpcBaseModule\AI\Rule\SelTarget\AIRSelTargetBase.cpp">
+      <Filter>NpcBaseModule\AI\Rule\SelTarget</Filter>
+    </ClCompile>
+    <ClCompile Include="NpcBaseModule\AI\Rule\BeginFight\AIRBeginFightBase.cpp">
+      <Filter>NpcBaseModule\AI\Rule\BeginFight</Filter>
+    </ClCompile>
+    <ClCompile Include="NpcBaseModule\AI\Rule\Fight\AIRFightBase.cpp">
+      <Filter>NpcBaseModule\AI\Rule\Fight</Filter>
+    </ClCompile>
+    <ClCompile Include="NpcBaseModule\AI\Rule\BeDamaged\AIRBeDamagedBase.cpp">
+      <Filter>NpcBaseModule\AI\Rule\BeDamaged</Filter>
+    </ClCompile>
+    <ClCompile Include="NpcBaseModule\AI\Rule\EndFight\AIREndFightBase.cpp">
+      <Filter>NpcBaseModule\AI\Rule\EndFight</Filter>
+    </ClCompile>
+    <ClCompile Include="NpcBaseModule\AI\Rule\OnDead\AIROnDeadBase.cpp">
+      <Filter>NpcBaseModule\AI\Rule\OnDead</Filter>
+    </ClCompile>
+    <ClCompile Include="NpcBaseModule\AI\Rule\ChaseTarget\AIRChaseTargetBase.cpp">
+      <Filter>NpcBaseModule\AI\Rule\ChaseTarget</Filter>
+    </ClCompile>
+    <ClCompile Include="NpcBaseModule\AI\Rule\CheckAttacks\AIRCheckAttackersBase.cpp">
+      <Filter>NpcBaseModule\AI\Rule\CheckAttacks</Filter>
+    </ClCompile>
+    <ClCompile Include="NpcBaseModule\AI\Template\AITBoss.cpp">
+      <Filter>NpcBaseModule\AI\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="NpcBaseModule\AI\Template\AITemplateBase.cpp">
+      <Filter>NpcBaseModule\AI\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="NpcBaseModule\DoorNpcModule.cpp">
+      <Filter>NpcBaseModule\FunctionNpc</Filter>
+    </ClCompile>
+    <ClCompile Include="NpcBaseModule\SafeAreaNpcModule.cpp">
+      <Filter>NpcBaseModule\FunctionNpc</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonModule\LuaScriptModule.cpp">
+      <Filter>CommonModule\LuaScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonModule\AsynCtrlModule.cpp">
+      <Filter>CommonModule\AsynCtr</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonModule\LuaExtModule.cpp">
+      <Filter>CommonModule\LuaExt</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonModule\GMModule.cpp">
+      <Filter>CommonModule\GM</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonModule\LogicClassModule.cpp">
+      <Filter>CommonModule\LogicClass</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonModule\PathFindingModule.cpp">
+      <Filter>CommonModule\PathFinding</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonModule\ContainerModule.cpp">
+      <Filter>CommonModule\Container</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonModule\LevelModule.cpp">
+      <Filter>CommonModule\LevelExp</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonModule\VirtualRecModule.cpp">
+      <Filter>CommonModule\VirtualRec</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonModule\LogModule.cpp">
+      <Filter>CommonModule\Log</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonModule\PropRefresh.cpp">
+      <Filter>CommonModule\PropRefresh</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonModule\PropRefreshModule.cpp">
+      <Filter>CommonModule\PropRefresh</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonModule\PubModule.cpp">
+      <Filter>CommonModule\PubModule</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonModule\SnsDataModule.cpp">
+      <Filter>CommonModule\SnsData</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonModule\LandPosModule.cpp">
+      <Filter>CommonModule\LandPosi</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonModule\ActionMutex.cpp">
+      <Filter>CommonModule\ActionMutex</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonModule\EnvirValueModule.cpp">
+      <Filter>CommonModule\EnvirValue</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneBaseModule\SceneBaseModule.cpp">
+      <Filter>SceneBaseModule</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\buffer.cpp">
+      <Filter>Interface\Fight</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\fight_damage.cpp">
+      <Filter>Interface\Fight</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\Property_impl.cpp">
+      <Filter>Interface\Fight</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\skill.cpp">
+      <Filter>Interface\Fight</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemModule\ItemBaseModule.cpp">
+      <Filter>ItemModule</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemModule\ToolItem\ItemEffectBase.cpp">
+      <Filter>ItemModule\ToolItem</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemModule\ToolItem\ToolItemModule.cpp">
+      <Filter>ItemModule\ToolItem</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillModule\Impl\SkillConfigData.cpp">
+      <Filter>SkillModule\ConfigDataQuery</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillModule\Impl\SkillDataQueryModule.cpp">
+      <Filter>SkillModule\ConfigDataQuery</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillModule\Impl\SkillLuaExt.cpp">
+      <Filter>SkillModule\ConfigDataQuery</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillModule\Impl\SkillAccess.cpp">
+      <Filter>SkillModule\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillModule\Impl\SkillFlow.cpp">
+      <Filter>SkillModule\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillModule\Impl\SkillFlowFun.cpp">
+      <Filter>SkillModule\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillModule\Skillmodule.cpp">
+      <Filter>SkillModule\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillModule\Impl\SkillStage.cpp">
+      <Filter>SkillModule\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillModule\SkillToSprite.cpp">
+      <Filter>SkillModule\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillModule\FlowModule.cpp">
+      <Filter>SkillModule\Flow</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillModule\inner\SkillEventBase.cpp">
+      <Filter>SkillModule\SkillEvent</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillModule\inner\SkillEventManager.cpp">
+      <Filter>SkillModule\SkillEvent</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillModule\FightActionControl.cpp">
+      <Filter>SkillModule\Fight</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillModule\Impl\FightDataAccess.cpp">
+      <Filter>SkillModule\Fight</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillModule\FightModule.cpp">
+      <Filter>SkillModule\Fight</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillModule\FightModuleFuns.cpp">
+      <Filter>SkillModule\Fight</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillModule\FightState.cpp">
+      <Filter>SkillModule\Fight</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillModule\Impl\Formula.cpp">
+      <Filter>SkillModule\Fight\FightFormula</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillModule\Impl\FormulaManagerModule.cpp">
+      <Filter>SkillModule\Fight\FightFormula</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillModule\Impl\FormulaPropIndex.cpp">
+      <Filter>SkillModule\Fight\FightFormula</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillModule\Impl\TargetFilter.cpp">
+      <Filter>SkillModule\TargetFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillModule\Impl\SkillUseChecker.cpp">
+      <Filter>SkillModule\SkillUseLimit</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillModule\BufferModifyPack.cpp">
+      <Filter>SkillModule\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillModule\BufferModule.cpp">
+      <Filter>SkillModule\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillModule\BufferModuleFunction.cpp">
+      <Filter>SkillModule\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="FsGame.cpp" />
+    <ClCompile Include="Analytics\SensorsAnalyticsCollectorEx.cpp">
+      <Filter>Analytics</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonModule\ReLoadConfigModule.cpp">
+      <Filter>CommonModule\ReloadConfig</Filter>
+    </ClCompile>
+    <ClCompile Include="NpcBaseModule\AI\Rule\Escape\AIREscapeBase.cpp">
+      <Filter>NpcBaseModule\AI\Rule\Escape</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonModule\FunctionEventModule.cpp">
+      <Filter>CommonModule\FunctionEvent</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonModule\SwitchManagerModule.cpp">
+      <Filter>CommonModule\SwitchManagerModule</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskModule\Data\TaskLoader.cpp">
+      <Filter>TaskModule\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskModule\Rule\TaskBaseRule.cpp">
+      <Filter>TaskModule\Rule</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskModule\Template\MainTask.cpp">
+      <Filter>TaskModule\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskModule\Template\TaskTemplate.cpp">
+      <Filter>TaskModule\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskModule\TaskManager.cpp">
+      <Filter>TaskModule</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskModule\TaskUtil.cpp">
+      <Filter>TaskModule</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskModule\Rule\KillNpcRule.cpp">
+      <Filter>TaskModule\Rule</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskModule\Template\BranchTask.cpp">
+      <Filter>TaskModule\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskModule\Template\DailyTask.cpp">
+      <Filter>TaskModule\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskModule\Rule\TalkRule.cpp">
+      <Filter>TaskModule\Rule</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskModule\Rule\GatherRule.cpp">
+      <Filter>TaskModule\Rule</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskModule\Rule\PathfindRule.cpp">
+      <Filter>TaskModule\Rule</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskModule\Rule\EntrySceneRule.cpp">
+      <Filter>TaskModule\Rule</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskModule\Rule\PlayCGRule.cpp">
+      <Filter>TaskModule\Rule</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonModule\CommRuleModule.cpp">
+      <Filter>CommonModule\CommRule</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskModule\Rule\UpgradeLevelRule.cpp">
+      <Filter>TaskModule\Rule</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemFunctionModule\CapitalModule.cpp">
+      <Filter>SystemFunctionModule\Capital</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemFunctionModule\ChannelModule.cpp">
+      <Filter>SystemFunctionModule\Channel</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemFunctionModule\CoolDownModule.cpp">
+      <Filter>SystemFunctionModule\CoolDown</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemFunctionModule\CreateRoleModule.cpp">
+      <Filter>SystemFunctionModule\CreateRole</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemFunctionModule\DropModule.cpp">
+      <Filter>SystemFunctionModule\Drop</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemFunctionModule\MotionHelper.cpp">
+      <Filter>SystemFunctionModule\Motion</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemFunctionModule\MotionModule.cpp">
+      <Filter>SystemFunctionModule\Motion</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemFunctionModule\MotionModuleFunc.cpp">
+      <Filter>SystemFunctionModule\Motion</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemFunctionModule\PlayerBaseModule.cpp">
+      <Filter>SystemFunctionModule\PlayerBaseModule</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemFunctionModule\RankListModule.cpp">
+      <Filter>SystemFunctionModule\RankList</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemFunctionModule\ResetTimerModule.cpp">
+      <Filter>SystemFunctionModule\ResetTimer</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemFunctionModule\RewardModule.cpp">
+      <Filter>SystemFunctionModule\Reward</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemFunctionModule\StaticDataQueryModule.cpp">
+      <Filter>SystemFunctionModule\StaticData</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemFunctionModule\ToolBoxModule.cpp">
+      <Filter>SystemFunctionModule\ToolBox</Filter>
+    </ClCompile>
+    <ClCompile Include="SocialSystemModule\SystemMailModule.cpp">
+      <Filter>SocialSystemModule\Mail</Filter>
+    </ClCompile>
+    <ClCompile Include="EquipmentModule\EquipmentModule.cpp">
+      <Filter>EquipmentModule\Equip</Filter>
+    </ClCompile>
+    <ClCompile Include="EquipmentModule\EquipModifyPackModule.cpp">
+      <Filter>EquipmentModule\ModifyPack</Filter>
+    </ClCompile>
+    <ClCompile Include="EquipmentModule\EquipModifyPackModuleCallBack.cpp">
+      <Filter>EquipmentModule\ModifyPack</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemFunctionModule\Shop\ShopBase.cpp">
+      <Filter>SystemFunctionModule\Shop\PersonalShop\Category</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemFunctionModule\Shop\ShopManagerModule.cpp">
+      <Filter>SystemFunctionModule\Shop\PersonalShop</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemFunctionModule\Shop\ShopUtils.cpp">
+      <Filter>SystemFunctionModule\Shop\PersonalShop</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemFunctionModule\LookModule.cpp">
+      <Filter>SystemFunctionModule\Look</Filter>
+    </ClCompile>
+    <ClCompile Include="SocialSystemModule\ChatModule.cpp">
+      <Filter>SocialSystemModule\Chat</Filter>
+    </ClCompile>
+    <ClCompile Include="SocialSystemModule\FriendCommandHook.cpp">
+      <Filter>SocialSystemModule\Friend</Filter>
+    </ClCompile>
+    <ClCompile Include="SocialSystemModule\FriendCustomHook.cpp">
+      <Filter>SocialSystemModule\Friend</Filter>
+    </ClCompile>
+    <ClCompile Include="SocialSystemModule\FriendModule.cpp">
+      <Filter>SocialSystemModule\Friend</Filter>
+    </ClCompile>
+    <ClCompile Include="SocialSystemModule\TeamModule.cpp">
+      <Filter>SocialSystemModule\Team</Filter>
+    </ClCompile>
+    <ClCompile Include="SocialSystemModule\RequestModule.cpp">
+      <Filter>SocialSystemModule\Team</Filter>
+    </ClCompile>
+    <ClCompile Include="EquipmentModule\JewelModule.cpp">
+      <Filter>EquipmentModule\Jewel</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillModule\PassiveSkillModifyPack.cpp">
+      <Filter>SkillModule\PassiveSkillSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillModule\PassiveSkillSystem.cpp">
+      <Filter>SkillModule\PassiveSkillSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillModule\SkillUpgradeModule.cpp">
+      <Filter>SkillModule\SkillUpgrade</Filter>
+    </ClCompile>
+    <ClCompile Include="EquipmentModule\EquipStrengthenModule.cpp">
+      <Filter>EquipmentModule\Strengthen</Filter>
+    </ClCompile>
+    <ClCompile Include="EquipmentModule\EquipSmeltModule.cpp">
+      <Filter>EquipmentModule\Smelt</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillModule\CriminalSystem.cpp">
+      <Filter>SkillModule\PKModule</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillModule\PKModelModule.cpp">
+      <Filter>SkillModule\PKModule</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillModule\SceneAttackManage.cpp">
+      <Filter>SkillModule\PKModule</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemFunctionModule\EnergyModule.cpp">
+      <Filter>SystemFunctionModule\EnergyModule</Filter>
+    </ClCompile>
+    <ClCompile Include="EquipmentModule\EquipForgingModule.cpp">
+      <Filter>EquipmentModule\Forging</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillModule\inner\SkillEventExecuteUtil.cpp">
+      <Filter>SkillModule\SkillEvent\SkillEventExecute</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillModule\inner\SkillEventFuncBuffer.cpp">
+      <Filter>SkillModule\SkillEvent\SkillEventExecute</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillModule\inner\SkillEventFuncCommon.cpp">
+      <Filter>SkillModule\SkillEvent\SkillEventExecute</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillModule\inner\SkillEventFuncSkill.cpp">
+      <Filter>SkillModule\SkillEvent\SkillEventExecute</Filter>
+    </ClCompile>
+    <ClCompile Include="EquipmentModule\EquipBaptiseModule.cpp">
+      <Filter>EquipmentModule\Baptise</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemFunctionModule\ReviveModule.cpp">
+      <Filter>SystemFunctionModule\ReviveModule</Filter>
+    </ClCompile>
+    <ClCompile Include="EquipmentModule\ApperanceModule.cpp">
+      <Filter>EquipmentModule\Apperance</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemFunctionModule\WingModule.cpp">
+      <Filter>SystemFunctionModule\Wing</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemFunctionModule\BattleAbilityModule.cpp">
+      <Filter>SystemFunctionModule\BattleAbility</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemFunctionModule\Shop\ShopGold.cpp">
+      <Filter>SystemFunctionModule\Shop\PersonalShop\Category</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemFunctionModule\ActivateFunctionModule.cpp">
+      <Filter>SystemFunctionModule\ActivateFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemFunctionModule\RideCallBack.cpp">
+      <Filter>SystemFunctionModule\Ride</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemFunctionModule\RideModifyPack.cpp">
+      <Filter>SystemFunctionModule\Ride</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemFunctionModule\RideModule.cpp">
+      <Filter>SystemFunctionModule\Ride</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemModule\JadeModule.cpp">
+      <Filter>ItemModule\Jade</Filter>
+    </ClCompile>
+    <ClCompile Include="NpcBaseModule\TrapNpcModule.cpp">
+      <Filter>NpcBaseModule\FunctionNpc</Filter>
+    </ClCompile>
+    <ClCompile Include="NpcBaseModule\TrapEvent\TrapEventBase.cpp">
+      <Filter>NpcBaseModule\FunctionNpc\TrapEvent</Filter>
+    </ClCompile>
+    <ClCompile Include="NpcBaseModule\TrapEvent\TrapEventFuncBuffer.cpp">
+      <Filter>NpcBaseModule\FunctionNpc\TrapEvent</Filter>
+    </ClCompile>
+    <ClCompile Include="NpcBaseModule\TrapEvent\TrapEventFuncDestory.cpp">
+      <Filter>NpcBaseModule\FunctionNpc\TrapEvent</Filter>
+    </ClCompile>
+    <ClCompile Include="NpcBaseModule\TrapEvent\TrapEventManagerModule.cpp">
+      <Filter>NpcBaseModule\FunctionNpc\TrapEvent</Filter>
+    </ClCompile>
+    <ClCompile Include="SocialSystemModule\GuildLoadResource.cpp">
+      <Filter>SocialSystemModule\Guild</Filter>
+    </ClCompile>
+    <ClCompile Include="SocialSystemModule\GuildHelper.cpp">
+      <Filter>SocialSystemModule\Guild</Filter>
+    </ClCompile>
+    <ClCompile Include="NpcBaseModule\AI\Template\AITNormalFight.cpp">
+      <Filter>NpcBaseModule\AI\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="SocialSystemModule\GuildCommandHook.cpp">
+      <Filter>SocialSystemModule\Guild</Filter>
+    </ClCompile>
+    <ClCompile Include="SocialSystemModule\GuildCustomHook.cpp">
+      <Filter>SocialSystemModule\Guild</Filter>
+    </ClCompile>
+    <ClCompile Include="SocialSystemModule\GuildInterface.cpp">
+      <Filter>SocialSystemModule\Guild</Filter>
+    </ClCompile>
+    <ClCompile Include="SocialSystemModule\GuildModule.cpp">
+      <Filter>SocialSystemModule\Guild</Filter>
+    </ClCompile>
+    <ClCompile Include="SocialSystemModule\GuildPubMessageHook.cpp">
+      <Filter>SocialSystemModule\Guild</Filter>
+    </ClCompile>
+    <ClCompile Include="EquipmentModule\FashionModule.cpp">
+      <Filter>EquipmentModule\Fashion</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

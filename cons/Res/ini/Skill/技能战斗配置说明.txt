@@ -1,0 +1,63 @@
+一、char_skill.xml
+
+(ID);//技能编号
+(Name);//技能名称
+(Description);//技能描述
+(script);//脚本类型
+(Skill_Main);//技能数据ID
+(Skill_Display);//艺术表现ID
+
+二、char_skill_main.xml
+
+(ID);//主体编号
+(CoolDownCategory);//冷却分类
+(CoolDownTime);//冷却时间
+(SelectType);//技能释放选择类型 0瞬发（无选择）
+				1对象选取辅助（目标）
+(RangeDistMax);//┏射程范围-最大有效距离
+(IsHitSelf);//是否锁定自身 1锁定自己
+(HitTargetRelationType);//┏可锁定的对象关系0自己1友方2敌人
+(HitTargetType);//┗可锁定的对象类型	0玩家1怪物
+(HitRangeID);//┏技能作用范围 char_skill_range.xml
+(HitCount);//┣范围内最大波及人数
+(IncludeDead);//┣是否包含死亡对象
+
+(IsPrepare);//是否需要吟唱
+(PrepareTime);//┣吟唱-持续时间ms
+(CantBreakPrepareAction);//┣吟唱-动作能否打断
+
+(IsLead);//是否需要引导
+(LeadTime);//┣引导-持续时间ms
+(LeadSepTime);//┣引导-间隔时间ms
+(LeadRollSpeed);//┣引导-阶段内转向速度
+(CantBreakLeadAction);//┣引导动作能否打断
+(Skill_Effect);//技能高级效果包ID char_skill_effect.xml
+(HitTime);//命中时间
+(ExtraHitTimes);//多次命中时间
+(ExtraHitDamage);//多次命中伤害比例
+(IsComboSkill);		// 是否为连击技能 普通攻击1  其余0
+(IsPetSkill);//是否是宠物携带的技能
+
+三、char_skill_effect.xml
+
+(ID);//效果编号
+(EventType);//事件号 3技能准备之后的事件 5技能命中并已伤害了对象的事件
+(TargetType);//强制目标转换 0传入对象 2自身对象
+(FuncNo);//处理功能序号
+
+其余的参数 见skill_event_funid_params.xml
+
+四、char_skill_range.xml
+
+(ID);//技能作用范围ID
+(HitRangeType);//技能作用范围类型(0,仅作用于锁定对象2,作用于圆柱范围3,作用于矩形范围)
+HitRangeCylinder	1.圆柱范围-施法者距圆柱中心线距离
+			2.圆柱范围-最大有效距离
+			3.圆柱范围-最小有效距离
+			4.圆柱范围-面向有效转角
+			5.圆柱范围-顺时针转角
+HitRangeRectangular	1.矩形范围-施法者距矩形中心距离
+			2.矩形范围-有效长度
+			3.矩形范围-有效宽度
+			4.矩形范围-有效高度
+			5.矩形范围-顺时针转角

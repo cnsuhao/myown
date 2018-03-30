@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Object>
+<Property ID = "Game.LevelRec" Cols = "6" ColType0 = "WIDESTR" ColType1 = "INT" ColType2 = "INT" ColType3 = "WIDESTR" ColType4 = "WIDESTR" ColType5 = "INT" />
+<Property ID = "Game.GuildRec" Cols = "10" ColType0 = "INT" ColType1 = "WIDESTR" ColType2 = "INT" ColType3 = "WIDESTR" ColType4 = "INT" ColType5 = "INT" ColType6 = "INT" ColType7 = "INT" ColType8 = "WIDESTR" ColType9 = "INT"/>
+</Object>

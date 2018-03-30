@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release64|Win32">
+      <Configuration>Release64</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release64|x64">
+      <Configuration>Release64</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DA0F12F3-178D-48CB-98BF-38074BFEA793}</ProjectGuid>
+    <RootNamespace>FsPubLogic</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Release64|Win32'">
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Release64|x64'">
+    <PlatformToolset>v120</PlatformToolset>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>12.0.21005.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>..\Cons\$(Configuration)\</OutDir>
+    <IntDir>..\Middle\$(Configuration)\$(ProjectName)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>.\Debug64\</OutDir>
+    <IntDir>.\Debug64\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release64|x64'">
+    <OutDir>..\Cons\$(Configuration)\</OutDir>
+    <IntDir>..\Middle\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release64|Win32'">
+    <OutDir>..\Cons\$(Configuration)\</OutDir>
+    <IntDir>..\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Debug/FsPubLogic.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>../;../SDK/rapidxml;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;FSPUBLOGIC_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeaderOutputFile>
+      </PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(IntDir)vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)\$(ProjectName).dll</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>../SDK/zlib/x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)$(TargetName).pdb</ProgramDatabaseFile>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapFileName>../Cons/$(Configuration)/$(ProjectName).map</MapFileName>
+      <ImportLibrary>$(OutDir)$(TargetName).lib</ImportLibrary>
+      <TargetMachine>MachineX86</TargetMachine>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+      <Profile>false</Profile>
+      <EnableCOMDATFolding>false</EnableCOMDATFolding>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug/FsPubLogic.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>X64</TargetEnvironment>
+      <TypeLibraryName>.\Debug/FsPubLogic.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>../;../SDK/rapidxml;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_WIN64;WIN64;_DEBUG;_WINDOWS;_USRDLL;FSPUBLOGIC_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeaderOutputFile>.\Debug64/FsPubLogic.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Debug64/</AssemblerListingLocation>
+      <ObjectFileName>.\Debug64/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug64/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+    </ResourceCompile>
+    <Link>
+      <OutputFile>../Cons/Debug64/FsPubLogic.dll</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>../Cons/Debug64/FsPubLogic.pdb</ProgramDatabaseFile>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapFileName>../Cons/Debug64/FsPubLogic.map</MapFileName>
+      <ImportLibrary>.\Debug64/FsPubLogic.lib</ImportLibrary>
+      <TargetMachine>MachineX64</TargetMachine>
+      <Profile>true</Profile>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug64/FsPubLogic.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release64|Win32'">
+    <Link>
+      <OutputFile>$(OutDir)\$(ProjectName).dll</OutputFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release64|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>../;../SDK/rapidxml;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderOutputFile />
+    </ClCompile>
+    <Link>
+      <OutputFile>$(OutDir)\$(ProjectName).dll</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapFileName>../Cons/$(Configuration)/$(ProjectName).map</MapFileName>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\FsGame\Define\PubCmdDefine.h" />
+    <ClInclude Include="..\FsGame\SocialSystemModule\GuildHelper.h" />
+    <ClInclude Include="..\FsGame\SocialSystemModule\GuildLoadResource.h" />
+    <ClInclude Include="..\utils\cache\CacheHelper.hpp" />
+    <ClInclude Include="..\utils\cache\CacheString.hpp" />
+    <ClInclude Include="..\utils\cache\CacheTimer.hpp" />
+    <ClInclude Include="..\utils\cache\ICacheString.h" />
+    <ClInclude Include="..\utils\IniFile.h" />
+    <ClInclude Include="..\utils\item_helper.hpp" />
+    <ClInclude Include="Domain\Domain_Friend.h" />
+    <ClInclude Include="Domain\Domain_Look.h" />
+    <ClInclude Include="Domain\Domain_Team.h" />
+    <ClInclude Include="FsBindLogic.h" />
+    <ClInclude Include="Guild\GuildBase.h" />
+    <ClInclude Include="Guild\GuildBaseManager.h" />
+    <ClInclude Include="Guild\GuildManager.h" />
+    <ClInclude Include="Public\IPubLogic.h" />
+    <ClInclude Include="..\utils\arraypod.h" />
+    <ClInclude Include="..\utils\custom_func.h" />
+    <ClInclude Include="..\utils\enum.h" />
+    <ClInclude Include="..\utils\EnvirDefine.h" />
+    <ClInclude Include="..\utils\extend_func.h" />
+    <ClInclude Include="..\utils\flexstring.h" />
+    <ClInclude Include="..\utils\geometry_func.h" />
+    <ClInclude Include="..\utils\json-forwards.h" />
+    <ClInclude Include="..\utils\json.h" />
+    <ClInclude Include="..\utils\LeakChecker.h" />
+    <ClInclude Include="..\utils\pub_share.h" />
+    <ClInclude Include="..\utils\QuickHash.h" />
+    <ClInclude Include="..\utils\record.h" />
+    <ClInclude Include="..\utils\string_util.h" />
+    <ClInclude Include="..\utils\util.h" />
+    <ClInclude Include="..\utils\util_func.h" />
+    <ClInclude Include="..\utils\util_ini.h" />
+    <ClInclude Include="..\utils\XmlFile.h" />
+    <ClInclude Include="..\SDK\tinyxml\tinystr.h" />
+    <ClInclude Include="..\SDK\tinyxml\tinyxml.h" />
+    <ClInclude Include="..\SDK\dumpstack\DumpStack.h" />
+    <ClInclude Include="..\SDK\dumpstack\StackWalker.h" />
+    <ClInclude Include="Domain\DomainManager.h" />
+    <ClInclude Include="Domain\IDomainData.h" />
+    <ClInclude Include="Domain\Domain_SceneList.h" />
+    <ClInclude Include="Domain\DomainRankList.h" />
+    <ClInclude Include="Domain\EnvirValue.h" />
+    <ClInclude Include="Domain\Domain_Task.h" />
+    <ClInclude Include="..\FsGame\Define\LogDefine.h" />
+    <ClInclude Include="..\FsGame\Define\PubDefine.h" />
+    <ClInclude Include="FsPubLogic.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\FsGame\SocialSystemModule\GuildHelper.cpp" />
+    <ClCompile Include="..\FsGame\SocialSystemModule\GuildLoadResource.cpp" />
+    <ClCompile Include="..\utils\custom_func.cpp" />
+    <ClCompile Include="..\utils\extend_func.cpp" />
+    <ClCompile Include="..\utils\flexstring.cpp" />
+    <ClCompile Include="..\utils\geometry_func.cpp" />
+    <ClCompile Include="..\utils\IniFile.cpp" />
+    <ClCompile Include="..\utils\jsoncpp.cpp" />
+    <ClCompile Include="..\utils\pub_share.cpp" />
+    <ClCompile Include="..\utils\record.cpp" />
+    <ClCompile Include="..\utils\string_util.cpp" />
+    <ClCompile Include="..\utils\util.cpp" />
+    <ClCompile Include="..\utils\util_func.cpp" />
+    <ClCompile Include="..\utils\util_ini.cpp" />
+    <ClCompile Include="..\utils\XmlFile.cpp" />
+    <ClCompile Include="..\SDK\tinyxml\tinystr.cpp" />
+    <ClCompile Include="..\SDK\tinyxml\tinyxml.cpp" />
+    <ClCompile Include="..\SDK\tinyxml\tinyxmlerror.cpp" />
+    <ClCompile Include="..\SDK\tinyxml\tinyxmlparser.cpp" />
+    <ClCompile Include="..\SDK\dumpstack\DumpStack.cpp" />
+    <ClCompile Include="..\SDK\dumpstack\StackWalker.cpp" />
+    <ClCompile Include="Domain\DomainManager.cpp" />
+    <ClCompile Include="Domain\Domain_Friend.cpp" />
+    <ClCompile Include="Domain\Domain_Look.cpp" />
+    <ClCompile Include="Domain\Domain_SceneList.cpp" />
+    <ClCompile Include="Domain\DomainRankList.cpp" />
+    <ClCompile Include="Domain\Domain_Team.cpp" />
+    <ClCompile Include="Domain\EnvirValue.cpp" />
+    <ClCompile Include="Domain\Domain_Task.cpp" />
+    <ClCompile Include="FsBindLogic.cpp" />
+    <ClCompile Include="FsPubLogic.cpp" />
+    <ClCompile Include="Guild\GuildBaseManager.cpp" />
+    <ClCompile Include="Guild\GuildManager.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Object>
+<Property ID="-1" HPAdd="0" MPAdd="1" Str="2" Dex="3" Sta="4" Ing="5" Spi="6" PhysAttackAdd="7" MagicttackAdd="8" PhysDefendAdd="9" MagicDefendAdd="10" HitAdd="11" MissAdd="12" CritAdd="13" TougAdd="14" PhysPenetrateAdd="15" MagicPenetrateAdd="16" AddHurtRate="17" DecHurtRate="18" MaxGaintVal="19"></Property>
+<Property ID="0" HPAdd="2" MPAdd="2" Str="2" Dex="2" Sta="2" Ing="2" Spi="2" PhysAttackAdd="2" MagicttackAdd="2" PhysDefendAdd="2" MagicDefendAdd="2" HitAdd="2" MissAdd="2" CritAdd="2" TougAdd="2" PhysPenetrateAdd="2" MagicPenetrateAdd="2" AddHurtRate="2" DecHurtRate="2" MaxGaintVal="2"></Property>
+<Property ID="10001" HPAdd="20" MPAdd="1" Str="2" Dex="1" Sta="100" Ing="0" Spi="0" PhysAttackAdd="1" MagicttackAdd="0" PhysDefendAdd="1" MagicDefendAdd="1" HitAdd="0" MissAdd="0" CritAdd="0" TougAdd="0" PhysPenetrateAdd="0" MagicPenetrateAdd="0" AddHurtRate="0" DecHurtRate="0" MaxGaintVal="0"></Property>
+</Object>

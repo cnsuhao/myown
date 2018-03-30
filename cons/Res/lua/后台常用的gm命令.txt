@@ -1,0 +1,11 @@
+1.x_query 属性名				--查询玩家对象的属性值
+2.x_property					--查询玩家的所有属性
+3.x_set	属性名 属性值				--设置玩家的属性值
+4.x_setdata 属性名 属性值			--设置玩家的临时属性值
+5.x_reload_config 模块名				--重载配置文件(模块名见 配置说明.txt)
+6.x_complete_task 任务id				--立刻完成任务
+7.x_accept_task 任务id				--接受任务
+8.x_giveup_task 任务id				--放弃任务
+9.x_clear_all_mail 				-- 清空邮件
+10.x_offline_player_login 玩家名 账号 时间  	-- 拉取玩家离线登陆
+11.x_reset_action_mutex				--重置活动互斥标识

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Object>
+<Property ID="1" StrLowerLvl="10" StrUpperLvl="19" StrActivePkg="8001001"></Property>
+<Property ID="2" StrLowerLvl="20" StrUpperLvl="29" StrActivePkg="8001002"></Property>
+<Property ID="3" StrLowerLvl="30" StrUpperLvl="39" StrActivePkg="8001003"></Property>
+<Property ID="4" StrLowerLvl="40" StrUpperLvl="49" StrActivePkg="8001004"></Property>
+<Property ID="5" StrLowerLvl="50" StrUpperLvl="59" StrActivePkg="8001005"></Property>
+<Property ID="6" StrLowerLvl="60" StrUpperLvl="69" StrActivePkg="8001006"></Property>
+<Property ID="7" StrLowerLvl="70" StrUpperLvl="79" StrActivePkg="8001007"></Property>
+<Property ID="8" StrLowerLvl="80" StrUpperLvl="89" StrActivePkg="8001008"></Property>
+<Property ID="9" StrLowerLvl="90" StrUpperLvl="99" StrActivePkg="8001009"></Property>
+<Property ID="10" StrLowerLvl="100" StrUpperLvl="100" StrActivePkg="8001010"></Property>
+</Object>

@@ -1,0 +1,1025 @@
+{
+	"Files": [
+	{
+		"FileName": "../../Release64/game_lister.ini",
+		"Content": [
+		{
+			"SectionName": "Outer",
+			"KeyValueGroup": [
+			{
+				"KeyName": "Addr",
+				"ValueName": "@ServerOutIP"
+			}
+			]
+		},
+		{
+			"SectionName": "Inner",
+			"KeyValueGroup": [
+			{
+				"KeyName": "Addr",
+				"ValueName": "@ServerIP"
+			}
+			]
+		},
+		{
+			"SectionName": "Broadcast",
+			"KeyValueGroup": [
+			{
+				"KeyName": "Addr",
+				"ValueName": "@broad_cast"
+			}
+			]
+		},
+		{
+			"SectionName": "Main",
+			"KeyValueGroup": [
+			{
+				"KeyName": "ServerID",
+				"ValueName": "@ServerID"
+			},
+			{
+				"KeyName": "DistrictID",
+				"ValueName": "@GameZoneID"
+			},
+			{
+				"KeyName": "MaxConnects",
+				"ValueName": "@max_connects"
+			},
+			{
+				"KeyName": "ClientVersion",
+				"ValueName": "@client_min_ver"
+			},
+			{
+				"KeyName": "ServerName",
+				"ValueName": "@ServerName"
+			}
+			]
+		}
+		]
+	},
+
+	{
+		"FileName": "../../Release64/game_entry.ini",
+		"Content": [
+		{
+			"SectionName": "Outer",
+			"KeyValueGroup": [
+			{
+				"KeyName": "Addr",
+				"ValueName": "@ServerOutIP"
+			}
+			]
+		},
+		{
+			"SectionName": "Inner",
+			"KeyValueGroup": [
+			{
+				"KeyName": "Addr",
+				"ValueName": "@ServerIP"
+			}
+			]
+		},
+		{
+			"SectionName": "License",
+			"KeyValueGroup": [
+			{
+				"KeyName": "Addr",
+				"ValueName": "@ServerIP"
+			}
+			]
+		},
+		{
+			"SectionName": "Broadcast",
+			"KeyValueGroup": [
+			{
+				"KeyName": "Addr",
+				"ValueName": "@broad_cast"
+			}
+			]
+		},
+		{
+			"SectionName": "WLAN",
+			"KeyValueGroup":[
+				{
+					"KeyName": "Addr",
+					"ValueName": "@ServerWlanIP"
+				},
+				{
+					"KeyName": "Inuse",
+					"ValueName": "true"
+				},
+				{
+					"KeyName": "ServerName",
+					"ValueName": "@ServerName"
+				}
+			]
+		},
+
+		{
+			"SectionName": "Main",
+			"KeyValueGroup": [
+			{
+				"KeyName": "ServerID",
+				"ValueName": "@ServerID"
+			},
+			{
+				"KeyName": "DistrictID",
+				"ValueName": "@GameZoneID"
+			},
+			{
+				"KeyName": "MaxConnects",
+				"ValueName": "@max_connects"
+			},
+			{
+				"KeyName": "MessageEncodeKey",
+				"ValueName": "@encode_key"
+			},
+			{
+				"KeyName": "ServerName",
+				"ValueName": "@ServerName"
+			}
+			]
+		}
+		]
+	},
+
+	{
+		"FileName": "../../Release64/game_entry1.ini",
+		"Content": [
+		{
+			"SectionName": "Outer",
+			"KeyValueGroup": [
+			{
+				"KeyName": "Addr",
+				"ValueName": "@ServerOutIP"
+			}
+			]
+		},
+		{
+			"SectionName": "WLAN",
+			"KeyValueGroup":[
+				{
+					"KeyName": "Addr",
+					"ValueName": "@ServerWlanIP"
+				},
+				{
+					"KeyName": "Inuse",
+					"ValueName": "true"
+				}
+			]
+		},
+		{
+			"SectionName": "Inner",
+			"KeyValueGroup": [
+			{
+				"KeyName": "Addr",
+				"ValueName": "@ServerIP"
+			}
+			]
+		},
+		{
+			"SectionName": "License",
+			"KeyValueGroup": [
+			{
+				"KeyName": "Addr",
+				"ValueName": "@ServerIP"
+			}
+			]
+		},
+		{
+			"SectionName": "Broadcast",
+			"KeyValueGroup": [
+			{
+				"KeyName": "Addr",
+				"ValueName": "@broad_cast"
+			}
+			]
+		},
+		{
+			"SectionName": "Main",
+			"KeyValueGroup": [
+			{
+				"KeyName": "ServerID",
+				"ValueName": "@ServerID"
+			},
+			{
+				"KeyName": "DistrictID",
+				"ValueName": "@GameZoneID"
+			},
+			{
+				"KeyName": "MaxConnects",
+				"ValueName": "@max_connects"
+			},
+			{
+				"KeyName": "MessageEncodeKey",
+				"ValueName": "@encode_key"
+			},
+			{
+				"KeyName": "ServerName",
+				"ValueName": "@ServerName"
+			}
+			]
+		}
+		]
+	},
+
+	{
+		"FileName": "../../Release64/game_member.ini",
+		"Content": [
+		{
+			"SectionName":"Main",
+			"KeyValueGroup": [
+			{
+				"KeyName": "DistrictID",
+				"ValueName": "@GameZoneID"
+			},
+			{
+				"KeyName": "ServerID",
+				"ValueName": "@ServerID"
+			},
+			{
+				"KeyName": "ServerName",
+				"ValueName": "@ServerName"
+			}
+			]
+		},
+		{
+			"SectionName": "Inner",
+			"KeyValueGroup": [
+			{
+				"KeyName": "Addr",
+				"ValueName": "@ServerIP"
+			}
+			]
+		},
+		{
+			"SectionName": "Broadcast",
+			"KeyValueGroup": [
+			{
+				"KeyName": "Addr",
+				"ValueName": "@broad_cast"
+			}
+			]
+		}
+		]
+	},
+
+	{
+		"FileName": "../../Release64/game_member1.ini",
+		"Content": [
+		{
+			"SectionName":"Main",
+			"KeyValueGroup": [
+			{
+				"KeyName": "DistrictID",
+				"ValueName": "@GameZoneID"
+			},
+			{
+				"KeyName": "ServerID",
+				"ValueName": "@ServerID"
+			},
+			{
+				"KeyName": "ServerName",
+				"ValueName": "@ServerName"
+			}
+			]
+		},
+		{
+			"SectionName": "Inner",
+			"KeyValueGroup": [
+			{
+				"KeyName": "Addr",
+				"ValueName": "@ServerIP"
+			}
+			]
+		},
+		{
+			"SectionName": "Broadcast",
+			"KeyValueGroup": [
+			{
+				"KeyName": "Addr",
+				"ValueName": "@broad_cast"
+			}
+			]
+		}
+		]
+	}
+
+	,{
+		"FileName": "../../Release64/game_member2.ini",
+		"Content": [
+		{
+			"SectionName":"Main",
+			"KeyValueGroup": [
+			{
+				"KeyName": "DistrictID",
+				"ValueName": "@GameZoneID"
+			},
+			{
+				"KeyName": "ServerID",
+				"ValueName": "@ServerID"
+			},
+			{
+				"KeyName": "ServerName",
+				"ValueName": "@ServerName"
+			}
+			]
+		},
+		{
+			"SectionName": "Inner",
+			"KeyValueGroup": [
+			{
+				"KeyName": "Addr",
+				"ValueName": "@ServerIP"
+			}
+			]
+		},
+		{
+			"SectionName": "Broadcast",
+			"KeyValueGroup": [
+			{
+				"KeyName": "Addr",
+				"ValueName": "@broad_cast"
+			}
+			]
+		}
+		]
+	}
+
+	,{
+		"FileName": "../../Release64/game_member3.ini",
+		"Content": [
+		{
+			"SectionName":"Main",
+			"KeyValueGroup": [
+			{
+				"KeyName": "DistrictID",
+				"ValueName": "@GameZoneID"
+			},
+			{
+				"KeyName": "ServerID",
+				"ValueName": "@ServerID"
+			},
+			{
+				"KeyName": "ServerName",
+				"ValueName": "@ServerName"
+			}
+			]
+		},
+		{
+			"SectionName": "Inner",
+			"KeyValueGroup": [
+			{
+				"KeyName": "Addr",
+				"ValueName": "@ServerIP"
+			}
+			]
+		},
+		{
+			"SectionName": "Broadcast",
+			"KeyValueGroup": [
+			{
+				"KeyName": "Addr",
+				"ValueName": "@broad_cast"
+			}
+			]
+		}
+		]
+	}
+
+	,{
+		"FileName": "../../Release64/game_member4.ini",
+		"Content": [
+		{
+			"SectionName":"Main",
+			"KeyValueGroup": [
+			{
+				"KeyName": "DistrictID",
+				"ValueName": "@GameZoneID"
+			},
+			{
+				"KeyName": "ServerID",
+				"ValueName": "@ServerID"
+			},
+			{
+				"KeyName": "ServerName",
+				"ValueName": "@ServerName"
+			}
+			]
+		},
+		{
+			"SectionName": "Inner",
+			"KeyValueGroup": [
+			{
+				"KeyName": "Addr",
+				"ValueName": "@ServerIP"
+			}
+			]
+		},
+		{
+			"SectionName": "Broadcast",
+			"KeyValueGroup": [
+			{
+				"KeyName": "Addr",
+				"ValueName": "@broad_cast"
+			}
+			]
+		}
+		]
+	}
+
+	,{
+		"FileName": "../../Release64/game_member5.ini",
+		"Content": [
+		{
+			"SectionName":"Main",
+			"KeyValueGroup": [
+			{
+				"KeyName": "DistrictID",
+				"ValueName": "@GameZoneID"
+			},
+			{
+				"KeyName": "ServerID",
+				"ValueName": "@ServerID"
+			},
+			{
+				"KeyName": "ServerName",
+				"ValueName": "@ServerName"
+			}
+			]
+		},
+		{
+			"SectionName": "Inner",
+			"KeyValueGroup": [
+			{
+				"KeyName": "Addr",
+				"ValueName": "@ServerIP"
+			}
+			]
+		},
+		{
+			"SectionName": "Broadcast",
+			"KeyValueGroup": [
+			{
+				"KeyName": "Addr",
+				"ValueName": "@broad_cast"
+			}
+			]
+		}
+		]
+	}
+
+	,{
+		"FileName": "../../Release64/game_member6.ini",
+		"Content": [
+		{
+			"SectionName":"Main",
+			"KeyValueGroup": [
+			{
+				"KeyName": "DistrictID",
+				"ValueName": "@GameZoneID"
+			},
+			{
+				"KeyName": "ServerID",
+				"ValueName": "@ServerID"
+			},
+			{
+				"KeyName": "ServerName",
+				"ValueName": "@ServerName"
+			}
+			]
+		},
+		{
+			"SectionName": "Inner",
+			"KeyValueGroup": [
+			{
+				"KeyName": "Addr",
+				"ValueName": "@ServerIP"
+			}
+			]
+		},
+		{
+			"SectionName": "Broadcast",
+			"KeyValueGroup": [
+			{
+				"KeyName": "Addr",
+				"ValueName": "@broad_cast"
+			}
+			]
+		}
+		]
+	}
+
+	,{
+		"FileName": "../../Release64/game_member7.ini",
+		"Content": [
+		{
+			"SectionName":"Main",
+			"KeyValueGroup": [
+			{
+				"KeyName": "DistrictID",
+				"ValueName": "@GameZoneID"
+			},
+			{
+				"KeyName": "ServerID",
+				"ValueName": "@ServerID"
+			},
+			{
+				"KeyName": "ServerName",
+				"ValueName": "@ServerName"
+			}
+			]
+		},
+		{
+			"SectionName": "Inner",
+			"KeyValueGroup": [
+			{
+				"KeyName": "Addr",
+				"ValueName": "@ServerIP"
+			}
+			]
+		},
+		{
+			"SectionName": "Broadcast",
+			"KeyValueGroup": [
+			{
+				"KeyName": "Addr",
+				"ValueName": "@broad_cast"
+			}
+			]
+		}
+		]
+	}
+
+
+	,{
+		"FileName": "../../Release64/game_public.ini",
+		"Content": [
+		{
+			"SectionName":"Main",
+			"KeyValueGroup": [
+			{
+				"KeyName": "DistrictID",
+				"ValueName": "@GameZoneID"
+			},
+			{
+				"KeyName": "ServerID",
+				"ValueName": "@ServerID"
+			},
+			{
+				"KeyName": "ServerName",
+				"ValueName": "@ServerName"
+			}
+			]
+		},
+		{
+			"SectionName": "Inner",
+			"KeyValueGroup": [
+			{
+				"KeyName": "Addr",
+				"ValueName": "@ServerIP"
+			}
+			]
+		},
+		{
+			"SectionName": "Broadcast",
+			"KeyValueGroup": [
+			{
+				"KeyName": "Addr",
+				"ValueName": "@broad_cast"
+			}
+			]
+		}
+		]
+	}
+
+	,{
+		"FileName": "../../Release64/game_sns.ini",
+		"Content": [
+		{
+			"SectionName":"Main",
+			"KeyValueGroup": [
+			{
+				"KeyName": "DistrictID",
+				"ValueName": "@GameZoneID"
+			},
+			{
+				"KeyName": "ServerID",
+				"ValueName": "@ServerID"
+			},
+			{
+				"KeyName": "ServerName",
+				"ValueName": "@ServerName"
+			}
+			]
+		},
+		{
+			"SectionName": "Inner",
+			"KeyValueGroup": [
+			{
+				"KeyName": "Addr",
+				"ValueName": "@ServerIP"
+			}
+			]
+		},
+		{
+			"SectionName": "Broadcast",
+			"KeyValueGroup": [
+			{
+				"KeyName": "Addr",
+				"ValueName": "@broad_cast"
+			}
+			]
+		},
+		{
+			"SectionName":"Sns",
+			"KeyValueGroup": [
+			{
+				"KeyName": "ConnectString",
+				"ValueName": "@NxbaseSqlConnect"
+			},
+			{
+				"KeyName": "ServerName",
+				"ValueName": "@ServerName"
+			}
+			]
+		}
+		]
+	}
+
+	,{
+		"FileName": "../../Release64/game_snsmanager.ini",
+		"Content": [
+		{
+			"SectionName":"Main",
+			"KeyValueGroup": [
+			{
+				"KeyName": "DistrictID",
+				"ValueName": "@GameZoneID"
+			},
+			{
+				"KeyName": "ServerID",
+				"ValueName": "@ServerID"
+			},
+			{
+				"KeyName": "ServerName",
+				"ValueName": "@ServerName"
+			}
+			]
+		},
+		{
+			"SectionName": "Inner",
+			"KeyValueGroup": [
+			{
+				"KeyName": "Addr",
+				"ValueName": "@ServerIP"
+			}
+			]
+		},
+		{
+			"SectionName": "Broadcast",
+			"KeyValueGroup": [
+			{
+				"KeyName": "Addr",
+				"ValueName": "@broad_cast"
+			}
+			]
+		}
+		]
+	}
+
+	,{
+		"FileName": "../../Release64/game_store.ini",
+		"Content": [
+		{
+			"SectionName":"Main",
+			"KeyValueGroup": [
+			{
+				"KeyName": "DistrictID",
+				"ValueName": "@GameZoneID"
+			},
+			{
+				"KeyName": "ServerID",
+				"ValueName": "@ServerID"
+			},
+			{
+				"KeyName": "ServerName",
+				"ValueName": "@ServerName"
+			}
+			]
+		},
+		{
+			"SectionName": "Account",
+			"KeyValueGroup": [
+			{
+				"KeyName": "ConnectString",
+				"ValueName": "@NxdistrictSqlConnect"
+			}
+			]
+		},
+		{
+			"SectionName": "Role",
+			"KeyValueGroup": [
+			{
+				"KeyName": "ConnectString",
+				"ValueName": "@NxbaseSqlConnect"
+			}
+			]
+		},
+		{
+			"SectionName": "Log",
+			"KeyValueGroup": [
+			{
+				"KeyName": "ConnectString",
+				"ValueName": "@NxlogSqlConnect"
+			}
+			]
+		},
+		{
+			"SectionName": "Public",
+			"KeyValueGroup": [
+			{
+				"KeyName": "ConnectString",
+				"ValueName": "@NxbaseSqlConnect"
+			}
+			]
+		},
+		{
+			"SectionName": "Manage",
+			"KeyValueGroup": [
+			{
+				"KeyName": "ConnectString",
+				"ValueName": "@NxbaseSqlConnect"
+			}
+			]
+		},
+		{
+			"SectionName": "Inner",
+			"KeyValueGroup": [
+			{
+				"KeyName": "Addr",
+				"ValueName": "@ServerIP"
+			}
+			]
+		},
+		{
+			"SectionName": "Broadcast",
+			"KeyValueGroup": [
+			{
+				"KeyName": "Addr",
+				"ValueName": "@broad_cast"
+			}
+			]
+		}
+		]
+	}
+
+	,{
+		"FileName": "../../Release64/game_snsstore.ini",
+		"Content": [
+		{
+			"SectionName":"Main",
+			"KeyValueGroup": [
+			{
+				"KeyName": "DistrictID",
+				"ValueName": "@GameZoneID"
+			},
+			{
+				"KeyName": "ServerID",
+				"ValueName": "@ServerID"
+			},
+			{
+				"KeyName": "ServerName",
+				"ValueName": "@ServerName"
+			}
+			]
+		},
+		{
+			"SectionName": "Inner",
+			"KeyValueGroup": [
+			{
+				"KeyName": "Addr",
+				"ValueName": "@ServerIP"
+			}
+			]
+		},
+		{
+			"SectionName": "Broadcast",
+			"KeyValueGroup": [
+			{
+				"KeyName": "Addr",
+				"ValueName": "@broad_cast"
+			}
+			]
+		},
+		{
+			"SectionName":"Sns",
+			"KeyValueGroup": [
+			{
+				"KeyName": "ConnectString",
+				"ValueName": "@NxbaseSqlConnect"
+			}
+			]
+		}
+		]
+	}
+
+	,{
+		"FileName": "../../Release64/game_world.ini",
+		"Content": [
+		{
+			"SectionName":"Main",
+			"KeyValueGroup": [
+			{
+				"KeyName": "DistrictID",
+				"ValueName": "@GameZoneID"
+			},
+			{
+				"KeyName": "ServerID",
+				"ValueName": "@ServerID"
+			},
+			{
+				"KeyName": "ServerName",
+				"ValueName": "@ServerName"
+			},
+			{
+				"KeyName": "MaxPlayers",
+				"ValueName": "@max_player"
+			},
+			{
+				"KeyName": "PlayerQueue",
+				"ValueName": "@enable_queue"
+			}
+			]
+		},
+		{
+			"SectionName": "Inner",
+			"KeyValueGroup": [
+			{
+				"KeyName": "Addr",
+				"ValueName": "@ServerIP"
+			}
+			]
+		},
+		{
+			"SectionName": "Broadcast",
+			"KeyValueGroup": [
+			{
+				"KeyName": "Addr",
+				"ValueName": "@broad_cast"
+			}
+			]
+		}
+		]
+	}
+
+	,{
+		"FileName": "../../Release64/game_charge.ini",
+		"Content": [
+		{
+			"SectionName":"Main",
+			"KeyValueGroup": [
+			{
+				"KeyName": "msgsize",
+				"ValueName": "@msg_size"
+			},
+			{
+				"KeyName": "log_level",
+				"ValueName": "@log_level"
+			}
+			]
+		},
+		{
+			"SectionName":"Cas",
+			"KeyValueGroup": [
+			{
+				"KeyName": "verifyUrl",
+				"ValueName": "@verify_url"
+			}
+			]
+		}
+		]
+	}
+
+
+	,{
+		"FileName": "../../Release64/game_gmcc.ini",
+		"Content": [
+		{
+			"SectionName":"Main",
+			"KeyValueGroup": [
+			{
+				"KeyName": "msgsize",
+				"ValueName": "@msg_size"
+			},
+			{
+				"KeyName": "log_level",
+				"ValueName": "@log_level"
+			}
+			]
+		},
+		{
+			"SectionName":"Http",
+			"KeyValueGroup": [
+			{
+				"KeyName": "serverId",
+				"ValueName": "@GameZoneID"
+			},
+			{
+				"KeyName": "profileUrl",
+				"ValueName": "@profile_url"
+			},
+			{
+				"KeyName": "noticeUrl",
+				"ValueName": "@notice_url"
+			},
+			{
+				"KeyName": "giftUrl",
+				"ValueName": "@gift_url"
+			},
+			{
+				"KeyName": "activityUrl",
+				"ValueName": "@activity_url"
+			},
+			{
+				"KeyName": "mallUrl",
+				"ValueName": "@mall_url"
+			},
+			{
+				"KeyName": "mailConfirmUrl",
+				"ValueName": "@mail_reply_url"
+			},
+			{
+				"KeyName": "cmdConfirmUrl",
+				"ValueName": "@cmd_reply_url"
+			},
+			{
+				"KeyName": "goodsUrl",
+				"ValueName": "@goods_url"
+			},
+			{
+				"KeyName": "preOrderUrl",
+				"ValueName": "@preorder_url"
+			},
+			{
+				"KeyName": "orderStateUrl",
+				"ValueName": "@order_state_url"
+			},
+			{
+				"KeyName": "rebateInfoUrl",
+				"ValueName": "@rebate_info_url"
+			},
+			{
+				"KeyName": "rebatePickUrl",
+				"ValueName": "@rebate_pick_url"
+			},
+
+			{
+				"KeyName": "pushUrl",
+				"ValueName": "@push_url"
+			},
+			{
+				"KeyName": "pushKey",
+				"ValueName": "@push_key"
+			},
+			{
+				"KeyName": "pushSecret",
+				"ValueName": "@push_secret"
+			},
+			{
+				"KeyName": "pushSound",
+				"ValueName": "@push_sound"
+			},
+			{
+				"KeyName": "pushBuilderId",
+				"ValueName": "@push_builder_id"
+			},
+			{
+				"KeyName": "PushTimeLive",
+				"ValueName": "@push_time_live"
+			},
+			{
+				"KeyName": "production",
+				"ValueName": "@push_production"
+			}
+			]
+		}
+		]
+	}
+	
+	,{
+		"FileName": "../../Res/game.ini",
+		"Content": [
+		{
+			"SectionName":"game_info",
+			"KeyValueGroup": [
+			{
+				"KeyName": "log_level",
+				"ValueName": "@log_level"
+			}
+			]
+		}
+		]
+	}	
+	]
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object>
+  <randomcreator>
+    <creator No="140202" x="268.38" y="63" z="16.29" MaxScope="6" MinScope="1" SpringRange="30" createtype="0" totalstep="1" IsDestroy="0" SceneAction="0">
+      <item No="1" id="Monster_140202" ay="0" amount="20" refreshtime="1000" step="1" limit="0" desc="黑衣刺客 " />
+    </creator>
+    <creator No="140203" x="-49.4" y="171.4" z="181.2" MaxScope="6" MinScope="1" SpringRange="30" createtype="0" totalstep="1" IsDestroy="0" SceneAction="0">
+      <item No="1" id="Monster_140203" ay="0" amount="20" refreshtime="1000" step="1" limit="0" desc="徐灿手下 " />
+    </creator>
+    <creator No="140204" x="64.82" y="200.7" z="107.96" MaxScope="6" MinScope="1" SpringRange="30" createtype="0" totalstep="1" IsDestroy="0" SceneAction="0">
+      <item No="1" id="Monster_140204" ay="0" amount="20" refreshtime="1000" step="1" limit="0" desc="押送锦衣卫 " />
+    </creator>
+    <creator No="140205" x="-149.2" y="152.9" z="117.9" MaxScope="6" MinScope="1" SpringRange="40" createtype="0" totalstep="1" IsDestroy="0" SceneAction="0">
+      <item No="1" id="Monster_140205" ay="0" amount="20" refreshtime="1000" step="1" limit="0" desc="潭江派弟子 " />
+    </creator>
+  </randomcreator>
+</object>

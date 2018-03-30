@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<object>
+    <internals />
+    <properties>
+        <!--property name="ResetOnCreateRule" type="int" public="false" private="false" save="true" desc="创建角色时设置时间"/-->
+    </properties>
+    <records>
+        <record name="reset_timer_rec" cols="4" maxrows="250" save="true" public="false" private="false" desc="定时刷新表">
+            <column type="dword" name="type" desc="刷新类型" />
+            <column type="word" name="weekday" desc="上次刷新weekday" />
+			<column type="word" name="hour" desc="上次刷新Hour" />
+            <column type="double" name="date" desc="上次刷新Date" />
+        </record>
+    </records>
+    <includes />
+</object>

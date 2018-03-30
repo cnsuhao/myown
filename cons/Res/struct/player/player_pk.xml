@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<object>
+		<!-- 基本属性 -->
+	<properties>
+		<property name="PKModel" type="byte" public="true" private="true" save="false" desc="PK模式"/>
+		<property name="CriminalValue" type="dword" public="false" private="true" save="true" desc="罪恶值"/>
+		<property name="CrimeState" type="byte" public="true" private="true" save="false" desc="罪恶状态"/>
+		<property name="CrimieOnlineTime" type="dword" public="false" private="true" save="true" desc="罪恶状态在线时间"/>
+		<property name="DecCrimeScore" type="dword" public="false" private="true" save="true" desc="减少罪恶值的积分"/>
+	</properties>
+	<records>
+	</records>
+</object>

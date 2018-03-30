@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{3b8818a0-cba3-4ab1-a9fe-7b5573e5416a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\tinyxml">
+      <UniqueIdentifier>{af6b2757-baec-4069-a7bd-2e367b62a2e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\dumpstack">
+      <UniqueIdentifier>{bb6d8bc9-d9d3-46fc-b050-82f093be1fb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SnsDataSync">
+      <UniqueIdentifier>{339aba2a-9df1-48e1-acfc-5084ebbac801}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\cache">
+      <UniqueIdentifier>{b54f0fec-a544-4023-8adb-2da80983fdae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SnsFriend">
+      <UniqueIdentifier>{0675f223-b8a8-47fe-a9c1-1de82fb2fbb7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\utils\arraypod.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\custom_func.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\extend_func.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\flexstring.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\geometry_func.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\json-forwards.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\json.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\LeakChecker.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\pub_share.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\record.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\StoreArchive.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\StreamWriter.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\string_util.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\StringAlias.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\StringArray.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\StringList.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\StringMap.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\StringPod.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\StringTraits.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\Thread.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\TickTimer.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\TVarList.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\util.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\util_func.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\util_ini.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\XmlFile.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\tinyxml\tinystr.h">
+      <Filter>Utility\tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\tinyxml\tinyxml.h">
+      <Filter>Utility\tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\dumpstack\DumpStack.h">
+      <Filter>Utility\dumpstack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\dumpstack\StackWalker.h">
+      <Filter>Utility\dumpstack</Filter>
+    </ClInclude>
+    <ClInclude Include="SnsDataSync\SnsDataSync.h">
+      <Filter>SnsDataSync</Filter>
+    </ClInclude>
+    <ClInclude Include="ISnsLogic.h" />
+    <ClInclude Include="SnsManager.h" />
+    <ClInclude Include="..\utils\cache\CacheHelper.hpp">
+      <Filter>Utility\cache</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\cache\CacheString.hpp">
+      <Filter>Utility\cache</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\cache\CacheTimer.hpp">
+      <Filter>Utility\cache</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\cache\ICacheString.h">
+      <Filter>Utility\cache</Filter>
+    </ClInclude>
+    <ClInclude Include="SnsFriend\Sns_Friend.h">
+      <Filter>SnsFriend</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\utils\custom_func.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\extend_func.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\flexstring.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\geometry_func.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\jsoncpp.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\pub_share.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\record.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\string_util.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\util.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\util_func.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\util_ini.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\XmlFile.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\tinyxml\tinystr.cpp">
+      <Filter>Utility\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\tinyxml\tinyxml.cpp">
+      <Filter>Utility\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\tinyxml\tinyxmlerror.cpp">
+      <Filter>Utility\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\tinyxml\tinyxmlparser.cpp">
+      <Filter>Utility\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\dumpstack\DumpStack.cpp">
+      <Filter>Utility\dumpstack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\dumpstack\StackWalker.cpp">
+      <Filter>Utility\dumpstack</Filter>
+    </ClCompile>
+    <ClCompile Include="SnsDataSync\SnsDataSync.cpp">
+      <Filter>SnsDataSync</Filter>
+    </ClCompile>
+    <ClCompile Include="FsSnsLogic.cpp" />
+    <ClCompile Include="SnsManager.cpp" />
+    <ClCompile Include="SnsFriend\Sns_Friend.cpp">
+      <Filter>SnsFriend</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

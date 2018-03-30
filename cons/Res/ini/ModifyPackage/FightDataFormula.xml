@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Object>
+<Property ID="-1" PropName="0" DataType="1" RelationFormula="2" Min="3" Max="4"></Property>
+<Property ID="0" PropName="6" DataType="6" RelationFormula="6" Min="4" Max="4"></Property>
+<Property ID="P101" PropName="对手物理防御" DataType="float" RelationFormula="$PhysDefend/($PhysDefendRate/10000+1)"></Property>
+<Property ID="P102" PropName="最终物理防御" DataType="float" RelationFormula="@P101>0"></Property>
+<Property ID="BasePhysAttackRate" PropName="物理攻防系数" DataType="float" RelationFormula="@PhysAttack/(@PhysAttack+2*@P102)"></Property>
+<Property ID="BasePhysAttackDamage" PropName="物理攻击伤害" DataType="int" RelationFormula="#SkillFormula*@BasePhysAttackRate*(1+@AddHurtRate/10000-$DecHurtRate/10000)"></Property>
+<Property ID="P103" PropName="对手法术防御" DataType="float" RelationFormula="$MagicDefend/($MagicDefendRate/10000+1)"></Property>
+<Property ID="P104" PropName="最终法术防御" DataType="float" RelationFormula="@P103>0"></Property>
+<Property ID="BaseMagicAttackRate" PropName="法术攻防系数" DataType="float" RelationFormula="@MagicAttack/(@MagicAttack+2*@P104)"></Property>
+<Property ID="BaseMagicAttackDamage" PropName="法术攻击伤害" DataType="int" RelationFormula="#SkillFormula*@BaseMagicAttackRate*(1+@AddHurtRate/10000-$DecHurtRate/10000)"></Property>
+<Property ID="TrueCritRate" PropName="暴击几率" DataType="int" RelationFormula="5+@Crit-$Toug" Min="5" Max="60"></Property>
+<Property ID="CritDamageRate" PropName="暴击伤害百分数" DataType="float" RelationFormula="0.5+@Crit/100-@CritRate/10000-$Toug/100+$TougRate/10000" Min="0.5" Max="1.5"></Property>
+<Property ID="CritPhysDamage" PropName="暴击物理伤害" DataType="float" RelationFormula="@CritDamageRate*#SkillFormula*@BasePhysAttackRate+@BasePhysAttackDamage"></Property>
+<Property ID="CritMagicDamage" PropName="暴击法术伤害" DataType="float" RelationFormula="@CritDamageRate*#SkillFormula*@BaseMagicAttackRate+@BaseMagicAttackDamage"></Property>
+<Property ID="TrueHitRate" PropName="命中率" DataType="float" RelationFormula="@Hit-$Miss" Min="20" Max="100"></Property>
+</Object>

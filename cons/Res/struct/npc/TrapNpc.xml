@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!--陷阱NPC基础属性-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<property name="SpringDestroy" type="int" public="false" private="false" save="false" desc="触发是否就摧毁"/>
+		<property name="SpringType" type="int" public="false" private="false" save="false" desc="触发对象类型"/>
+		<property name="SpringRelation" type="int" public="false" private="false" save="false" desc="触发关系类型"/>
+		<property name="SpringEvent" type="int" public="false" private="false" save="false" desc="触发事件"/>
+		<property name="EventValue" type="string" public="false" private="false" save="false" desc="伤害数值"/>
+		<property name="EventRange" type="float" public="false" private="false" save="false" desc="摧毁距离"/>
+		<property name="EventCount" type="int" public="false" private="false" save="false" desc="群体触发最大个数"/>
+		<property name="EndSpringEvent" type="int" public="false" private="false" save="false" desc="脱离事件"/>
+		<property name="DestroyEvent" type="int" public="false" private="false" save="false" desc="摧毁事件"/>
+		<property name="SpringEffect" type="string" public="false" private="false" save="false" desc="触发特效"/>
+		<property name="Master" type="object" public="false" private="false" save="false" desc="npc的施放者"/>
+		<property name="Resource" type="string" public="true" private="false" save="false" desc="触发效果"/>
+		<property name="ResourceB" type="string" public="true" private="false" save="false" desc="触发后效果"/>
+		<property name="EffectTime" type="int" public="false" private="false" save="false" desc="特效持续时间"/>
+		<property name="TrapRatio" type="float" public="false" private="false" save="false" desc="伤害值加成(与该数值相乘)"/>
+		<property name="DelayTime" type="int" public="false" private="false" save="false" desc="延迟触发"/>
+	</properties>
+	<!-- 表属性 -->
+	<records>
+		<!-- 触发玩家信息表 -->
+		<record name="SpringInfoRec" cols="2" maxrows="64" save="false" visible="false" desc="触发目标信息表">
+			<column type="object" desc="对象号"/>
+			<column type="string" desc="增加的BUFF"/>
+		</record>
+	</records>
+</object>

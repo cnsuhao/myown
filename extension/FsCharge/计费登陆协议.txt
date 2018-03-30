@@ -1,0 +1,43 @@
+文本格式: 服务器信息($s_sceneid_connid_serial_自增值_uid) + 协议名("register" or "login"....) + 参数
+服务器信息第一个参数带回
+
+// register:
+index:0 string value: s_0_0_0_1_#0
+index:1 string value: register
+index:2 int value:1
+index:3 int value:7440005
+index:4 string value:server_7440005
+index:5 string value:cb10de5f8d730ec666dde710665cf07
+index:6 int value:1
+
+// login:
+index:0 string value: s_0_1_1_3_#0			// 服务器串
+index:1 string value: login				// 协议
+index:2 int value:1					// 登陆类型
+index:3 string value:wx11				// 账号
+index:4 string value:cb10de5f8d730ec666dde710665cf07	// token
+index:5 string value:192.168.2.79			// ip
+index:6 int value:10520					// port
+index:7 string value:0					// 登陆串(需要返回)
+index:8 int value:0					// client_type
+
+// login reply
+index:0 string value: s_0_1_1_3_#0			// 服务器串
+index:1 string value: login				// 协议
+index:2 string value:0					// 登陆串
+index:3 string value:wx11				// 账号
+index:4 int value:0					// 结果(0 失败 1 有效)
+
+
+// logout:
+index:0 string value: s_0_1_1_3_#0			// 服务器串
+index:1 string value: logout				// 协议
+index:2 int value:0					// 
+index:3 string value:					// 
+index:4 int value:0					// 
+index:5 string value:wx11				// 
+
+
+// keep:
+index:0 string value: s_0_1_1_3_#0			// 服务器串
+index:1 string value: keep				// 协议

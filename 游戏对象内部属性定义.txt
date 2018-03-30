@@ -1,0 +1,153 @@
+内部对象定义类型:
+共有六类内部对象，分别是(KnlConst.h文件中定义)：
+	TYPE_SCENE	= 1,	                               // 场景
+	TYPE_PLAYER	= 2,	                               // 玩家
+	TYPE_NPC	= 4,	                               // NPC
+	TYPE_ITEM	= 8,	                               // 物品
+	TYPE_HELPER	= 16,	                               // 辅助对象
+	TYPE_WEAKBOX    = 32,	                               // 弱关联容器
+	
+其中TYPE_PLAYER对象的script名称服务器引擎内部默认为"player"
+	
+这些内部对象在服务器引擎内部已经定义了一些内部属性，这些属性皆是不可视和不可保存的，
+可以在逻辑模块中通过调IKernel接口的SetVisible和SetSaving接口改变它们的是否可视和是
+否可保存的方式。
+
+具体的内部属性定义如下：
+
+场景的内部属性定义：
+	"Name",				VTYPE_WIDESTR,		// 名字
+	"MaxPlayers",			VTYPE_INT,		// 最大玩家数量参考值
+	"CurPlayers",			VTYPE_INT,		// 当前玩家数量
+	"MaxVisuals",			VTYPE_INT,		// 最大视野内移动物体数量
+	"MaxLookers",			VTYPE_INT,		// 0号分组中可视对象的最大观察者数量
+	"CollidePath",			VTYPE_STRING,		// 场景碰撞信息文件路径
+	"MapEvent",			VTYPE_INT,		// 是否产生地图区域变化事件OnMapChanged
+	"Born",				VTYPE_STRING,		// 出生点名
+	"Grouping",			VTYPE_INT,		// 是否分组场景
+	"WorldInfo",			VTYPE_WIDESTR,		// 游戏世界信息
+	"NotSwitchStore",		VTYPE_INT,		// 不在切场景前保存玩家数据
+	"NotTimingStore",		VTYPE_INT,		// 不需要定时保存玩家数据
+	"IsNight",			VTYPE_INT,		// 
+	
+玩家角色的内部属性定义：
+	"Name",				VTYPE_WIDESTR,		// 玩家名字
+	"Uid",				VTYPE_STRING,		// 角色唯一标识
+	"RoleInfo",			VTYPE_WIDESTR,		// 角色登录信息（角色数据表里的save_para1字段）
+	"Account",			VTYPE_STRING,		// 帐号
+	"AccountID",			VTYPE_INT,		// 帐号编号
+	"IssuerID",			VTYPE_INT,		// 运营商编号
+	"LogonID",			VTYPE_STRING,		// 本次登录标识符
+	"ConnId",			VTYPE_INT,		// 本次连接编号
+	"TotalSec",			VTYPE_INT,		// 角色总在线时间（秒）
+	"Illegals",			VTYPE_INT,		// 客户端作弊次数
+	"Address",			VTYPE_STRING,		// 本次连接IP地址
+	"GameMaster",			VTYPE_INT,		// GM权限（0为普通玩家）
+	"VisualRange",			VTYPE_FLOAT,		// 视野范围	
+	"SpringRange",			VTYPE_FLOAT,		// 触发范围
+	"Invisible",			VTYPE_INT,		// 是否不可见
+	"NoCollide",			VTYPE_INT,		// 是否无碰撞
+	"Through",			VTYPE_INT,		// 是否可以穿透其他物体
+	"MapFree",			VTYPE_INT,		// 是否不受可行走范围的约束
+	"WalkCap",			VTYPE_INT,		// 行走能力掩码
+	"WalkStep",			VTYPE_FLOAT,		// 行走高度差
+	"Dummy",			VTYPE_INT,		// 是否还不在场景容器中
+	"CollideShape",			VTYPE_INT,		// 碰撞外形
+	"CollideHeight",		VTYPE_FLOAT,		// 碰撞高度
+	"CollideRadius",		VTYPE_FLOAT,		// 碰撞半径
+	"CollideVertex",		VTYPE_STRING,		// 碰撞多边形顶点
+	"GroupID",			VTYPE_INT,		// 分组编号
+	"NoSpeech",			VTYPE_INT,		// 是否禁止普通聊天
+	"Online",			VTYPE_INT,		// 是否在线
+	"AccountInfo",			VTYPE_STRING,		// 帐号信息
+	"ChargeInfo",			VTYPE_STRING,		// 计费信息
+	"LetterMax",			VTYPE_INT,		// 邮箱容量
+	"CreateTime",			VTYPE_DOUBLE,		// 角色创建时间
+	"LimitTime",			VTYPE_DOUBLE,		// 月卡截止时间
+	"VisualPlayers",		VTYPE_INT,		// 视野内可见其他玩家数量上限
+	"VisualEvent",			VTYPE_INT,		// 对象进出视野时是否触发回调
+	"LandScene",			VTYPE_INT,		// 下次登录时上线的场景编号
+	"LandPosiX",			VTYPE_DOUBLE,		// 下次登录时上线的位置
+	"LandPosiY",			VTYPE_DOUBLE,		//
+	"LandPosiZ",			VTYPE_DOUBLE,		//
+	"LandOrient",			VTYPE_DOUBLE,		//
+	"CheckSyncRange",		VTYPE_FLOAT,		// 位置校验修正最小距离范围
+	"CheckSyncBias",		VTYPE_FLOAT,		// 位置校验修正偏移百分比
+	"ServerIllegal",		VTYPE_INT,		// 是否在属于非法服务器的用户
+	"CheckDistTotal",		VTYPE_DOUBLE,		// 统计总共的修正偏移
+	"ServerMonitor",		VTYPE_INT64,		// 服务内部监控值
+
+	"Type",				VTYPE_INT,		//玩家类型
+	"Capacity",			VTYPE_INT,		//玩家容量
+	"ContainerPos",			VTYPE_INT,		//玩家位置
+	"Script",			VTYPE_STRING,		//玩家脚本
+	"Config",			VTYPE_STRING,		//玩家的配置
+	"RandSeed",			VTYPE_INT,		// 自定义 数据验证使用
+	"PathGrid",			VTYPE_INT,		// 占用路径格子数量
+	"PathThrough",			VTYPE_INT,		// 可穿越格子上对象
+	
+NPC的内部属性定义：
+	"Name",				VTYPE_WIDESTR,		// 名字
+	"VisualRange",			VTYPE_FLOAT,		// 视野范围
+	"SpringRange",			VTYPE_FLOAT,		// 触发范围
+	"Invisible",			VTYPE_INT,		// 是否不可见
+	"NoCollide",			VTYPE_INT,		// 是否无碰撞
+	"NoSpring",			VTYPE_INT,		// 是否无触发
+	"Springer",			VTYPE_INT,		// 是否可以触发其他物体
+	"Through",			VTYPE_INT,		// 是否可以穿透其他物体
+	"MapFree",			VTYPE_INT,		// 是否不受地图可行走范围的约束
+	"WalkCap",			VTYPE_INT,		// 行走能力掩码
+	"WalkStep",			VTYPE_FLOAT,		// 行走高度差
+	"LifeTime",			VTYPE_INT,		// 在场景里的生存时间（为0标识无限制）
+	"CollideShape",			VTYPE_INT,		// 碰撞外形
+	"CollideHeight",		VTYPE_FLOAT,		// 碰撞高度
+	"CollideRadius",		VTYPE_FLOAT,		// 碰撞半径
+	"CollideVertex",		VTYPE_STRING,		// 碰撞多边形顶点
+	"Fixed",			VTYPE_INT,		// 是否固定物体（可以存在于地图的不可行走区域）
+	"GroupID",			VTYPE_INT,		// 分组编号 
+
+	"Type",				VTYPE_INT,		//npc类型
+	"Capacity",			VTYPE_INT,		//npc容量
+	"ContainerPos",			VTYPE_INT,		//npc位置
+	"Script",			VTYPE_STRING,		//npc脚本
+	"Config",			VTYPE_STRING,		//npc的配置
+	"PathGrid",			VTYPE_INT,		// 占用路径格子数量
+	"PathThrough",			VTYPE_INT,		// 可穿越格子上对象
+	
+物品的内部属性定义：
+	"Name",				VTYPE_WIDESTR,		// 名字
+	"VisualRange",			VTYPE_FLOAT,		// 视野范围
+	"SpringRange",			VTYPE_FLOAT,		// 触发范围
+	"Invisible",			VTYPE_INT,		// 是否不可见
+	"NoCollide",			VTYPE_INT,		// 是否无碰撞
+	"NoSpring",			VTYPE_INT,		// 是否无触发
+	"LifeTime",			VTYPE_INT,		// 在场景里的生存时间（为0标识无限制）
+	"CollideShape",			VTYPE_INT,		// 碰撞外形
+	"CollideHeight",		VTYPE_FLOAT,		// 碰撞高度
+	"CollideRadius",		VTYPE_FLOAT,		// 碰撞半径
+	"CollideVertex",		VTYPE_STRING,		// 碰撞多边形顶点
+	"Fixed",			VTYPE_INT,		// 是否固定物体（可以存在于地图的不可行走区域）
+	"GroupID",			VTYPE_INT,		// 分组编号
+
+	"Type",				VTYPE_INT,		//物品类型
+	"Capacity",			VTYPE_INT,		//物品容量
+	"ContainerPos",			VTYPE_INT,		//物品位置
+	"Script",			VTYPE_STRING,		//物品脚本
+	"Config",			VTYPE_STRING,		//物品的配置
+	"PathGrid",			VTYPE_INT,		// 占用路径格子数量
+	"PathThrough",			VTYPE_INT,		// 可穿越格子上对象
+	
+游戏辅助对象的内部属性定义：
+	"Name",				VTYPE_WIDESTR,	        // 名字
+	"GroupID",			VTYPE_INT,		// 分组编号
+	
+弱关联容器的内部属性定义：
+	"Name",				VTYPE_WIDESTR,		// 名字
+	"GroupID",			VTYPE_INT,		// 分组编号
+
+	"Type",				VTYPE_INT,		//npc类型
+	"Capacity",			VTYPE_INT,		//npc容量
+	"ContainerPos",			VTYPE_INT,		//npc位置
+	"Script",			VTYPE_STRING,		//npc脚本
+	"Config",			VTYPE_STRING,		//npc的配置
+	

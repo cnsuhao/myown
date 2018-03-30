@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Object>
+<Property ID="FUNCTION_EVENT_ID_SYS" BindState="0" BindPriorUse="1"></Property>
+<Property ID="FUNCTION_EVENT_ID_GM_COMMAND" BindState="0" BindPriorUse="1"></Property>
+<Property ID="FUNCTION_EVENT_ID_GMCC_WEB" BindState="0" BindPriorUse="1"></Property>
+<Property ID="FUNCTION_EVENT_ID_SELL_ITEM" BindState="0" BindPriorUse="1"></Property>
+<Property ID="FUNCTION_EVENT_ID_USE_ITEM" BindState="0" BindPriorUse="1"></Property>
+<Property ID="FUNCTION_EVENT_ID_UPGRADE_PASSIVE_SKILL" BindState="0" BindPriorUse="1"></Property>
+<Property ID="FUNCTION_EVENT_ID_UPDATE_SKILL" BindState="0" BindPriorUse="1"></Property>
+<Property ID="FUNCTION_EVENT_ID_CRIME_SYSTEM" BindState="0" BindPriorUse="1"></Property>
+<Property ID="FUNCTION_EVENT_ID_FRIEND" BindState="0" BindPriorUse="1"></Property>
+<Property ID="FUNCTION_EVENT_ID_PRESENT_GIFT" BindState="0" BindPriorUse="1"></Property>
+<Property ID="FUNCTION_EVENT_ID_SYSTEM_MAIL" BindState="0" BindPriorUse="1"></Property>
+<Property ID="FUNCTION_EVENT_ID_ITEM_TO_MAIL" BindState="0" BindPriorUse="1"></Property>
+<Property ID="FUNCTION_EVENT_ID_ROLE_BORN" BindState="0" BindPriorUse="1"></Property>
+<Property ID="FUNCTION_EVENT_ID_KILL_MONSTER_PICKUP" BindState="0" BindPriorUse="1"></Property>
+<Property ID="FUNCTION_EVENT_ID_CAPITAL_EXCHANGE" BindState="0" BindPriorUse="1"></Property>
+<Property ID="FUNCTION_EVENT_ID_WING" BindState="0" BindPriorUse="1"></Property>
+<Property ID="FUNCTION_EVENT_ID_SHOP_GOLD_REFRESH" BindState="0" BindPriorUse="1"></Property>
+<Property ID="FUNCTION_EVENT_ID_SHOP_GOLD_BUY" BindState="0" BindPriorUse="1"></Property>
+<Property ID="FUNCTION_EVENT_ID_SHOPING_FAILED_RET" BindState="0" BindPriorUse="1"></Property>
+<Property ID="FUNCTION_EVENT_ID_RIDE_SKIN_UNLOCK" BindState="0" BindPriorUse="1"></Property>
+<Property ID="FUNCTION_EVENT_ID_RIDE_TRAIN" BindState="0" BindPriorUse="1"></Property>
+<Property ID="FUNCTION_EVENT_ID_JEWEL_INLAY" BindState="0" BindPriorUse="1"></Property>
+<Property ID="FUNCTION_EVENT_ID_JEWEL_COMPOSE" BindState="0" BindPriorUse="1"></Property>
+<Property ID="FUNCTION_EVENT_ID_JEWEL_DISMANTLE" BindState="0" BindPriorUse="1"></Property>
+<Property ID="FUNCTION_EVENT_ID_STRENGTHE" BindState="0" BindPriorUse="1"></Property>
+<Property ID="FUNCTION_EVENT_ID_SMELT" BindState="0" BindPriorUse="1"></Property>
+<Property ID="FUNCTION_EVENT_ID_FORGING" BindState="0" BindPriorUse="1"></Property>
+<Property ID="FUNCTION_EVENT_ID_BAPTISE" BindState="0" BindPriorUse="1"></Property>
+<Property ID="FUNCTION_EVENT_ID_BAPTISE_LOCK" BindState="0" BindPriorUse="1"></Property>
+</Object>

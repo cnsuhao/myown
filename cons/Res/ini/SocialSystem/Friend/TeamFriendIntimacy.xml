@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<Object>
+	<Property ID="0" IntimacyLv="10" BuffID="Buff_Exp_11001"/>
+	<Property ID="1" IntimacyLv="11" BuffID="Buff_Exp_11001"/>
+	<Property ID="2" IntimacyLv="12" BuffID="Buff_Exp_11001"/>
+	<Property ID="3" IntimacyLv="13" BuffID="Buff_Exp_11001"/>
+	<Property ID="4" IntimacyLv="14" BuffID="Buff_Exp_11001"/>
+	<Property ID="5" IntimacyLv="15" BuffID="Buff_Exp_11002"/>
+	<Property ID="6" IntimacyLv="16" BuffID="Buff_Exp_11002"/>
+	<Property ID="7" IntimacyLv="17" BuffID="Buff_Exp_11002"/>
+	<Property ID="8" IntimacyLv="18" BuffID="Buff_Exp_11002"/>
+	<Property ID="9" IntimacyLv="19" BuffID="Buff_Exp_11002"/>
+	<Property ID="10" IntimacyLv="20" BuffID="Buff_Exp_11003"/>
+	<Property ID="11" IntimacyLv="21" BuffID="Buff_Exp_11003"/>
+	<Property ID="12" IntimacyLv="22" BuffID="Buff_Exp_11003"/>
+	<Property ID="13" IntimacyLv="23" BuffID="Buff_Exp_11003"/>
+	<Property ID="14" IntimacyLv="24" BuffID="Buff_Exp_11003"/>
+	<Property ID="15" IntimacyLv="25" BuffID="Buff_Exp_11004"/>
+	<Property ID="16" IntimacyLv="26" BuffID="Buff_Exp_11004"/>
+	<Property ID="17" IntimacyLv="27" BuffID="Buff_Exp_11004"/>
+	<Property ID="18" IntimacyLv="28" BuffID="Buff_Exp_11004"/>
+	<Property ID="19" IntimacyLv="29" BuffID="Buff_Exp_11004"/>
+	<Property ID="20" IntimacyLv="30" BuffID="Buff_Exp_11005"/>
+</Object>

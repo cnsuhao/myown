@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- ItemType 需要提示的物品类型 会提示该类型的所有物品 逗号隔开-->
+<!-- CofingID 需要提示的物品ID 类型里有些物品需要提示而有些不需要 则需要特别的配置出来 逗号隔开-->
+<Object>
+	<Property ID="0" ItemType="305,311,321,322,323,324,361,371,384" CofingID=""/>
+</Object>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<!-- No唯一ID,xyz坐标,ay朝向,id怪物id,desc描述 -->
+<!-- item NO规则:1000+三位场景编号+二位序号  -->
+<object>
+	<staticcreator>
+		<item No="1000100101" x="-160.6" y="50" z="32.7" ay="0" id="testnpc" desc="测试NPC"/>		
+	</staticcreator>
+</object>

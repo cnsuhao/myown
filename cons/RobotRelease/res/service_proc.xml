@@ -1,0 +1,92 @@
+<!-- 
+name:	service_test 测试任务配置
+param:  task_case.valid				有效，1有效，0无效
+param:	task_case.name				任务名称,不可为空，显示在菜单上
+param:	task_case.loop_count		循環任務次數，默認1
+param:	task_case.interval_time		心跳时间间隔
+param:	task_case.interval_randrom	心跳间隔时间是否随机
+
+param:	task_case.row.step			步骤索引，从0开始，不可间断
+param:	task_case.row.loops			步骤循环执行次数，默认1
+param:	task_case.row.robot_mod			机器人编号求模，0，1表示所有机器人,其他表示部分机器人
+param:	task_case.row.robot_mod_exec_0	机器人求模等于0时执行,robot_mod=0,1时无效
+param:	task_case.row.cmd_type		命令类型： 0：Sleep,1:GM；2自定义函数,3自定义消息
+param:	task_case.row.cmd			命令内容,参数以";"分隔
+param:	task_case.row.memo			消息描述，可为空。有描述则执行时打印。
+memo:	最多支持20个任务
+		暂时不支持
+-->
+<service_proc>
+	<task_case valid="1" name="注册登陆" loop_count="1">
+		<row step="0" loops="1" robot_mod="0" robot_mod_exec_0="1" cmd_type="2" cmd="charge_register" />
+		<row step="1" loops="1" robot_mod="0" robot_mod_exec_0="1" cmd_type="0" cmd="" />
+		<row step="2" loops="1" robot_mod="0" robot_mod_exec_0="1" cmd_type="2" cmd="charge_login" />
+	</task_case>
+	<task_case valid="1" name="登陆" loop_count="1">
+		<row step="0" loops="1" robot_mod="0" robot_mod_exec_0="1" cmd_type="2" cmd="charge_register" />
+		<row step="1" loops="1" robot_mod="0" robot_mod_exec_0="1" cmd_type="0" cmd="" />
+		<row step="2" loops="1" robot_mod="0" robot_mod_exec_0="1" cmd_type="2" cmd="charge_login" />
+		<row step="3" loops="2" robot_mod="0" robot_mod_exec_0="1" cmd_type="0" cmd="" />
+		<row step="4" loops="1" robot_mod="0" robot_mod_exec_0="1" cmd_type="2" cmd="create_role" />
+		<row step="5" loops="1" robot_mod="0" robot_mod_exec_0="1" cmd_type="2" cmd="choose_role" />
+		<row step="6" loops="1" robot_mod="0" robot_mod_exec_0="1" cmd_type="1" cmd="ss 403" />
+	</task_case>
+	<task_case valid="1" name="开始押囚" loop_count="1">
+		<row step="0" loops="1" robot_mod="0" robot_mod_exec_0="1" cmd_type="1" cmd="ss 2" />
+		<row step="1" loops="1" robot_mod="0" robot_mod_exec_0="1" cmd_type="0" cmd="" />
+		<row step="2" loops="1" robot_mod="0" robot_mod_exec_0="1" cmd_type="1" cmd="goto -370.0 -127.9" />
+		<row step="2" loops="1" robot_mod="0" robot_mod_exec_0="1" cmd_type="1" cmd="setobj" />
+		<row step="2" loops="1" robot_mod="0" robot_mod_exec_0="1" cmd_type="0" cmd="" />
+		<row step="3" loops="1" robot_mod="0" robot_mod_exec_0="1" cmd_type="1" cmd="start_escort 3" />
+	</task_case>
+	<task_case valid="1" name="押囚下车" loop_count="1">
+		<row step="0" loops="1" robot_mod="0" robot_mod_exec_0="1" cmd_type="1" cmd="escort_get_off" />
+	</task_case>
+	<task_case valid="1" name="押囚上车" loop_count="1">
+		<row step="0" loops="1" robot_mod="0" robot_mod_exec_0="1" cmd_type="1" cmd="escort_get_on" />
+	</task_case>
+	<task_case valid="0" name="原地复活" loop_count="1">
+		<row step="0" loops="1" robot_mod="0" robot_mod_exec_0="1" cmd_type="1" cmd="relive" />
+	</task_case>
+	<task_case valid="1" name="分组切换" loop_count="1">
+		<row step="0" loops="1" robot_mod="0" robot_mod_exec_0="1" cmd_type="1" cmd="setobj" />
+		<row step="1" loops="1" robot_mod="0" robot_mod_exec_0="1" cmd_type="1" cmd="repeat_task 101003" />
+		<row step="2" loops="1" robot_mod="0" robot_mod_exec_0="1" cmd_type="0" cmd="" />
+		<row step="3" loops="1" robot_mod="0" robot_mod_exec_0="1" cmd_type="1" cmd="complete_task 101003" />
+	</task_case>
+	<task_case valid="1" name="禁地出入" loop_count="1">
+		<row step="0" loops="1" robot_mod="0" robot_mod_exec_0="1" cmd_type="1" cmd="setobj" />
+		<row step="1" loops="1" robot_mod="0" robot_mod_exec_0="1" cmd_type="1" cmd="OpenAll" />
+		<row step="2" loops="1" robot_mod="0" robot_mod_exec_0="1" cmd_type="3" cmd="218;i:3;i:3" />
+		<row step="3" loops="1" robot_mod="0" robot_mod_exec_0="1" cmd_type="0" cmd="" />
+		<row step="4" loops="1" robot_mod="0" robot_mod_exec_0="1" cmd_type="0" cmd="" />
+		<row step="5" loops="1" robot_mod="0" robot_mod_exec_0="1" cmd_type="3" cmd="218;i:4" />
+	</task_case>
+	<task_case valid="1" name="变身" loop_count="1">
+		<row step="0" loops="1" robot_mod="0" robot_mod_exec_0="1" cmd_type="1" cmd="setobj" />		
+		<row step="1" loops="1" robot_mod="0" robot_mod_exec_0="1" cmd_type="1" cmd="repeat_task 101027" />
+		<row step="2" loops="1" robot_mod="0" robot_mod_exec_0="1" cmd_type="3" cmd="801;i:25;i:101027" />
+		<row step="3" loops="1" robot_mod="0" robot_mod_exec_0="1" cmd_type="0" cmd="" />
+		<row step="4" loops="1" robot_mod="0" robot_mod_exec_0="1" cmd_type="1" cmd="complete_task 101027" />
+
+	</task_case>
+	<task_case valid="1" name="开始战斗" loop_count="1">
+		<row step="0" loops="2000" robot_mod="0" robot_mod_exec_0="1" cmd_type="2" cmd="use_skill" />		
+	</task_case>
+	<task_case valid="1" name="加入组织" loop_count="1">
+		<row step="0" loops="1" robot_mod="0" robot_mod_exec_0="1" cmd_type="1" cmd="setobj" />
+		<row step="0" loops="1" robot_mod="0" robot_mod_exec_0="1" cmd_type="3" cmd="203;i:3;wstring:he" />
+	</task_case>
+	<task_case valid="1" name="组织饮酒" loop_count="1">
+		<row step="0" loops="1" robot_mod="0" robot_mod_exec_0="1" cmd_type="3" cmd="209;i:0" />
+		<row step="1" loops="1" robot_mod="0" robot_mod_exec_0="1" cmd_type="0" cmd="" />
+		<row step="2" loops="1" robot_mod="0" robot_mod_exec_0="1" cmd_type="1" cmd="goto 1.5 18.2" />
+		<row step="3" loops="1" robot_mod="0" robot_mod_exec_0="1" cmd_type="1" cmd="setobj" />
+		<row step="4" loops="1" robot_mod="0" robot_mod_exec_0="1" cmd_type="1" cmd="set DailyDrinkTimes 0" />
+		<row step="5" loops="1" robot_mod="0" robot_mod_exec_0="1" cmd_type="1" cmd="set DrinkTimes 1000" />
+		<row step="6" loops="1" robot_mod="0" robot_mod_exec_0="1" cmd_type="1" cmd="set DrinkType 2" />
+		<row step="7" loops="1" robot_mod="0" robot_mod_exec_0="1" cmd_type="1" cmd="place_item Item2120008 100" />
+		<row step="8" loops="10" robot_mod="0" robot_mod_exec_0="1" cmd_type="1" cmd="use_item Item2120008 1" />
+	</task_case>
+</service_proc>
+

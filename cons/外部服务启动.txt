@@ -1,0 +1,12 @@
+
+hbase启动  /usr/jamboy/hbase2.2/sbin/start-hbase  
+memcached启动  service  memcached  start
+doss启动   /usr/jamboy/doss-new-server/apacher-tomcatxxxxx/bin/start.sh
+
+还有个usercenter-server 启动同doss一样
+还有个accauthxxxx与doss一样启 是名字不对   是identityAuthServer
+
+flume:
+D:\cons\apache-flume-1.6.0\bin>powershell.exe -NoProfile -InputFormat none -Exec
+utionPolicy unrestricted -File D:\cons\apache-flume-1.6.0\bin\flume-ng.ps1 agent
+ -name agent -c ../conf -f ../conf/flume-conf.properties

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Object>
+<Property ID="-1" HPAdd="0" MPAdd="1" Str="2" Dex="3" Sta="4" Ing="5" Spi="6" PhysAttackAdd="7" MagicttackAdd="8" PhysDefendAdd="9" MagicDefendAdd="10" HitAdd="11" MissAdd="12" CritAdd="13" TougAdd="14" PhysPenetrateAdd="15" MagicPenetrateAdd="16" AddHurtRate="17" DecHurtRate="18" MaxGaintVal="19"></Property>
+<Property ID="0" HPAdd="2" MPAdd="2" Str="2" Dex="2" Sta="2" Ing="2" Spi="2" PhysAttackAdd="2" MagicttackAdd="2" PhysDefendAdd="2" MagicDefendAdd="2" HitAdd="2" MissAdd="2" CritAdd="2" TougAdd="2" PhysPenetrateAdd="2" MagicPenetrateAdd="2" AddHurtRate="2" DecHurtRate="2" MaxGaintVal="2"></Property>
+<Property ID="80001001" HPAdd="1" MPAdd="1" Str="1" Dex="1"></Property>
+<Property ID="80001002" HPAdd="2" MPAdd="2" Str="2" Dex="2"></Property>
+<Property ID="80001003" HPAdd="3" MPAdd="3" Str="3" Dex="3"></Property>
+<Property ID="80001004" HPAdd="4" MPAdd="4" Str="4" Dex="4"></Property>
+<Property ID="80001005" HPAdd="5" MPAdd="5" Str="5" Dex="5"></Property>
+<Property ID="80001006" HPAdd="6" MPAdd="6" Str="6" Dex="6"></Property>
+<Property ID="80001007" HPAdd="7" MPAdd="7" Str="7" Dex="7"></Property>
+<Property ID="80001008" HPAdd="8" MPAdd="8" Str="8" Dex="8"></Property>
+<Property ID="80001009" HPAdd="9" MPAdd="9" Str="9" Dex="9"></Property>
+<Property ID="80001010" HPAdd="10" MPAdd="10" Str="10" Dex="10"></Property>
+<Property ID="80001011" HPAdd="11" MPAdd="11" Str="11" Dex="11"></Property>
+<Property ID="80001012" HPAdd="12" MPAdd="12" Str="12" Dex="12"></Property>
+</Object>

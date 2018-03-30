@@ -1,0 +1,28 @@
+{
+    "GameZoneList": [
+        {
+            "GameZoneID": 1,
+            "ServerIP": "123.207.6.23",
+            "ServerOutIP": "10.104.251.123",
+            "ServerWlanIP": "123.207.6.23",
+            "ServerID": 10000,
+            "NxdistrictSqlConnect": "Provider=SQLOLEDB;Password=admin;User ID=sa;Initial Catalog=nx_district;Data Source=127.0.0.1:3306",
+            "NxbaseSqlConnect": "Provider=SQLOLEDB;Password=admin;User ID=sa;Initial Catalog=nx_base;Data Source=127.0.0.1:3306",
+            "NxlogSqlConnect": "Provider=SQLOLEDB;Password=admin;User ID=sa;Initial Catalog=nx_log;Data Source=127.0.0.1:3306"
+        },
+        {
+            "GameZoneID": 1,
+            "ServerIP": "123.207.7.169",
+            "ServerOutIP": "10.104.248.25",
+            "ServerWlanIP": "123.207.7.169",
+            "ServerID": 10001
+        },
+        {
+            "GameZoneID": 1,
+            "ServerIP": "119.29.233.24",
+            "ServerOutIP": "10.104.220.145",
+            "ServerWlanIP": "119.29.233.24",
+            "ServerID": 10000
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<Object>
+	<Property ID="0" IntimacyLv="1" Award="CapitalCopper:10000,Item8600001:1,Item8600004:1"/>
+	<Property ID="1" IntimacyLv="2" Award="CapitalCopper:10000,Item8600001:1,Item8600004:1"/>
+	<Property ID="2" IntimacyLv="3" Award="CapitalCopper:15000,Item8600001:1,Item8600004:1"/>
+	<Property ID="3" IntimacyLv="4" Award="CapitalCopper:15000,Item8600001:1,Item8600004:1"/>
+	<Property ID="4" IntimacyLv="5" Award="CapitalCopper:20000,Item8600001:2,Item8600004:2"/>
+	<Property ID="5" IntimacyLv="6" Award="CapitalCopper:20000,Item8600001:2,Item8600004:2"/>
+	<Property ID="6" IntimacyLv="7" Award="CapitalCopper:25000,Item8600001:2,Item8600004:2"/>
+	<Property ID="7" IntimacyLv="8" Award="CapitalCopper:25000,Item8600001:2,Item8600004:2"/>
+	<Property ID="8" IntimacyLv="9" Award="CapitalCopper:30000,Item8600001:3,Item8600004:3"/>
+	<Property ID="9" IntimacyLv="10" Award="CapitalCopper:30000,Item8600001:3,Item8600004:3"/>
+	<Property ID="10" IntimacyLv="11" Award="CapitalCopper:35000,Item8600001:3,Item8600004:3"/>
+	<Property ID="11" IntimacyLv="12" Award="CapitalCopper:35000,Item8600001:3,Item8600004:3"/>
+	<Property ID="12" IntimacyLv="13" Award="CapitalCopper:40000,Item8600001:4,Item8600004:4"/>
+	<Property ID="13" IntimacyLv="14" Award="CapitalCopper:40000,Item8600001:4,Item8600004:4"/>
+	<Property ID="14" IntimacyLv="15" Award="CapitalCopper:45000,Item8600001:4,Item8600004:4"/>
+	<Property ID="15" IntimacyLv="16" Award="CapitalCopper:45000,Item8600001:4,Item8600004:4"/>
+	<Property ID="16" IntimacyLv="17" Award="CapitalCopper:50000,Item8600001:5,Item8600004:5"/>
+	<Property ID="17" IntimacyLv="18" Award="CapitalCopper:50000,Item8600001:5,Item8600004:5"/>
+	<Property ID="18" IntimacyLv="19" Award="CapitalCopper:55000,Item8600001:5,Item8600004:5"/>
+	<Property ID="19" IntimacyLv="20" Award="CapitalCopper:55000,Item8600001:5,Item8600004:5"/>
+	<Property ID="20" IntimacyLv="21" Award="CapitalCopper:60000,Item8600001:6,Item8600004:6"/>
+	<Property ID="21" IntimacyLv="22" Award="CapitalCopper:60000,Item8600001:6,Item8600004:6"/>
+	<Property ID="22" IntimacyLv="23" Award="CapitalCopper:65000,Item8600001:6,Item8600004:6"/>
+	<Property ID="23" IntimacyLv="24" Award="CapitalCopper:65000,Item8600001:6,Item8600004:6"/>
+	<Property ID="24" IntimacyLv="25" Award="CapitalCopper:70000,Item8600001:7,Item8600004:7"/>
+	<Property ID="25" IntimacyLv="26" Award="CapitalCopper:70000,Item8600001:7,Item8600004:7"/>
+	<Property ID="26" IntimacyLv="27" Award="CapitalCopper:75000,Item8600001:7,Item8600004:7"/>
+	<Property ID="27" IntimacyLv="28" Award="CapitalCopper:75000,Item8600001:7,Item8600004:7"/>
+	<Property ID="28" IntimacyLv="29" Award="CapitalCopper:80000,Item8600001:8,Item8600004:8"/>
+	<Property ID="29" IntimacyLv="30" Award="CapitalCopper:80000,Item8600001:8,Item8600004:8"/>
+</Object>

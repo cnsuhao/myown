@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!--CostItem:消耗的物品 CostItemNum:物品数量 MinBless:失败获得的最小祝福值 MaxBless:失败获得的最大祝福值 StepUpBlessVal:升阶需要最低祝福值 Probability:概率公式 MaxWingLevel:解锁翅膀的最大等级 WingModel:翅膀外形-->
+<Object>
+	<Property ID="1" CostItem="1540" CostItemNum="1" MinBless="1" MaxBless="5" StepUpBlessVal="70" Probability="100" MaxWingLevel="10" WingModel="10"/>
+	<Property ID="2" CostItem="5460" CostItemNum="2" MinBless="1" MaxBless="5" StepUpBlessVal="70" Probability="100" MaxWingLevel="20" WingModel="20"/>
+	<Property ID="3" CostItem="11120" CostItemNum="3" MinBless="1" MaxBless="5" StepUpBlessVal="70" Probability="100" MaxWingLevel="30" WingModel="30"/>
+	<Property ID="4" CostItem="18520" CostItemNum="4" MinBless="1" MaxBless="5" StepUpBlessVal="70" Probability="100" MaxWingLevel="40" WingModel="40"/>
+	<Property ID="5" CostItem="27290" CostItemNum="5" MinBless="1" MaxBless="5" StepUpBlessVal="70" Probability="100" MaxWingLevel="50" WingModel="50"/>
+</Object>

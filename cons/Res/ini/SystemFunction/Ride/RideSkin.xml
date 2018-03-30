@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Object>
+<Property ID="Skin_M3000101" AddPackage="85100101" ActAddPackage="85200101" RideID="Mount3000101" SkinType="0" SpecialItem="0" ColorLevel="1"/>
+<Property ID="Skin_M3000102" AddPackage="85100102" ActAddPackage="85200102" RideID="Mount3000101" SkinType="0" SpecialItem="0" ColorLevel="2"/>
+<Property ID="Skin_M3000103" AddPackage="85100103" ActAddPackage="85200103" RideID="Mount3000101" SkinType="0" SpecialItem="0" ColorLevel="2"/>
+<Property ID="Skin_M3000104" AddPackage="85100104" ActAddPackage="85200104" RideID="Mount3000101" SkinType="0" SpecialItem="1" ColorLevel="3"/>
+<Property ID="Skin_M3000105" AddPackage="85100105" ActAddPackage="85200105" RideID="Mount3000101" SkinType="0" SpecialItem="1" ColorLevel="3"/>
+<Property ID="Skin_M3000106" AddPackage="85100106" ActAddPackage="85200106" RideID="Mount3000101" SkinType="0" SpecialItem="1" ColorLevel="4"/>
+<Property ID="Skin_M3000301" AddPackage="85100301" ActAddPackage="85200301" RideID="Mount3000101" SkinType="0" SpecialItem="1" ColorLevel="3"/>
+<Property ID="Skin_M3000302" AddPackage="85100302" ActAddPackage="85200302" RideID="Mount3000101" SkinType="0" SpecialItem="1" ColorLevel="3"/>
+<Property ID="Skin_M3000401" AddPackage="85100401" ActAddPackage="85200401" RideID="Mount3000101" SkinType="0" SpecialItem="1" ColorLevel="3"/>
+<Property ID="Skin_M3000402" AddPackage="85100402" ActAddPackage="85200402" RideID="Mount3000101" SkinType="0" SpecialItem="1" ColorLevel="4"/>
+<Property ID="Skin_M3000601" AddPackage="85100601" ActAddPackage="85200601" RideID="Mount3000101" SkinType="0" SpecialItem="1" ColorLevel="3"/>
+<Property ID="Skin_M3000602" AddPackage="85100602" ActAddPackage="85200602" RideID="Mount3000101" SkinType="0" SpecialItem="1" ColorLevel="4"/>
+<Property ID="Skin_M3000702" AddPackage="85100702" ActAddPackage="85200702" RideID="Mount3000101" SkinType="0" SpecialItem="1" ColorLevel="3"/>
+<Property ID="Skin_M3000801" AddPackage="85100801" ActAddPackage="85200801" RideID="Mount3000101" SkinType="0" SpecialItem="1" ColorLevel="3"/>
+<Property ID="Skin_M3000802" AddPackage="85100802" ActAddPackage="85200802" RideID="Mount3000101" SkinType="0" SpecialItem="1" ColorLevel="4"/>
+<Property ID="Skin_M3001201" AddPackage="85101201" ActAddPackage="85201201" RideID="Mount3000101" SkinType="0" SpecialItem="1" ColorLevel="3"/>
+<Property ID="Skin_M3001301" AddPackage="85101301" ActAddPackage="85201301" RideID="Mount3000101" SkinType="0" SpecialItem="1" ColorLevel="3"/>
+<Property ID="Skin_M3001001" AddPackage="85101001" ActAddPackage="85201001" RideID="Mount3000101" SkinType="0" SpecialItem="1" ColorLevel="4"/>
+<Property ID="Skin_M3001101" AddPackage="85101101" ActAddPackage="85201101" RideID="Mount3000101" SkinType="0" SpecialItem="1" ColorLevel="4"/>
+</Object>

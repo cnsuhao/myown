@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<!--人物关系相关属性定义-->
+<!--数据类型说明：
+	布尔（VTYPE_BOOL）:BOOL
+	32位整数（VTYPE_INT）：INT、BYTE、WORD、DWORD
+	64位整数（VTYPE_INT64）：INT64
+	单精度浮点数（VTYPE_FLOAT）:FLOAT
+	双精度浮点数（VTYPE_DOUBLE）:DOUBLE
+	字符串（VTYPE_STRING）:STRING
+	宽字符串（VTYPE_WIDESTR）:WIDESTR
+	对象号（VTYPE_OBJECT）:OBJECT
+	指针（VTYPE_POINTER）:POINTER
+	用户数据（VTYPE_USERDATA）:USERDATA
+	表（VTYPE_TABLE）:TABLE
+-->
+<object>
+	<properties>
+		<property name="SumFlower" type="int" public="false" private="true" save="true" desc="历史收花"/>
+		<property name="WeekFlower" type="int" public="false" private="true" save="true" desc="本周收花"/>
+		<property name="DailyIntimacyAward" type="int" public="false" private="true" save="true" desc="亲密度领取状态"/>
+	</properties>
+	<records>
+		<record name="friend_rec" cols="21" maxrows="50" save="true" public="false" private="true" desc="好友列表">
+			<column type="string" name="UID" desc="对方UID"/>
+			<column type="widestr" name="Name" desc="对方名称"/>
+			<column type="word" name="Level" desc="对方等级"/>
+			<column type="byte" name="Job" desc="对方职业"/>
+			<column type="byte" name="Sex" desc="对方性别"/>
+			<column type="dword" name="Power" desc="战斗力"/>
+			<column type="widestr" name="GuildName" desc="帮会名称"/>
+			<column type="byte" name="Online" desc="对方在线状态"/>
+			<column type="int64" name="LastTime" desc="最后一次离线时间"/>
+			<column type="word" name="IntimacyLevel" desc="亲密度等级"/>
+			<column type="dword" name="IntimacyExp" desc="亲密度"/>
+			<column type="dword" name="SumFlower" desc="历史收花"/>
+			<column type="dword" name="WeekFlower" desc="本周收花"/>
+			<column type="dword" name="SendFlower" desc="我的送花数"/>
+			<column type="dword" name="ReceiveFlower" desc="我的收花数"/>
+			<column type="dword" name="TeamID" desc="好友teamID"/>
+			<column type="byte" name="Relation" desc="关系"/>
+			<column type="widestr" name="Title" desc="称谓"/>
+			<column type="int64" name="SeekSwornAidTime" desc="寻求援助时间"/>
+			<column type="dword" name="VipLevel" desc="vip等级"/>
+			<column type="dword" name="DailyIntimacy" desc="每日增加亲密度值"/>
+		</record>
+		<record name="blacklist_rec" cols="4" maxrows="50" save="true" public="false" private="true" desc="黑名单列表">
+			<column type="string" name="UID" desc="对方UID"/>
+			<column type="widestr" name="name" desc="对方名称"/>
+			<column type="byte" name="job" desc="对方职业"/>
+			<column type="byte" name="sex" desc="对方性别"/>
+		</record>
+		<record name="enemy_rec" cols="12" maxrows="50" save="true" public="false" private="true" desc="仇人列表">
+			<column type="string" name="UID" desc="仇人UID"/>
+			<column type="widestr" name="Name" desc="对方名称"/>
+			<column type="word" name="Level" desc="对方等级"/>
+			<column type="byte" name="Job" desc="对方职业"/>
+			<column type="byte" name="Sex" desc="对方性别"/>
+			<column type="dword" name="Power" desc="战斗力"/>
+			<column type="widestr" name="GuildName" desc="帮会名称"/>
+			<column type="string" name="Account" desc="玩家账号"/>
+			<column type="byte" name="Online" desc="对方在线状态"/>
+			<column type="dword" name="Hatred" desc="仇恨值"/>
+			<column type="int64" name="BeKillTime" desc="被杀时间"/>
+			<column type="dword" name="VipLevel" desc="vip等级"/>
+		</record>
+		<record name="friend_apply_rec" cols="9" maxrows="20" save="true" public="false" private="true" desc="好友申请未处理表">
+			<column type="string" name="UID" desc="对方UID"/>
+			<column type="widestr" name="Name" desc="对方名称"/>
+			<column type="word" name="Level" desc="对方等级"/>
+			<column type="byte" name="Job" desc="对方职业"/>
+			<column type="byte" name="Sex" desc="对方性别"/>
+			<column type="dword" name="Power" desc="战斗力"/>
+			<column type="widestr" name="GuildName" desc="帮会名称"/>
+			<column type="byte" name="ApplyType" desc="0-好友申请，1-伙伴申请"/>
+			<column type="dword" name="VipLevel" desc="vip等级"/>
+		</record>
+		<record name="friend_recommend_mid_rec" cols="8" maxrows="100" save="false" public="false" private="false" desc="符合好友推荐条件的表(不保存)">
+			<column type="string" name="UID" desc="对方UID"/>
+			<column type="widestr" name="Name" desc="对方名称"/>
+			<column type="word" name="Level" desc="对方等级"/>
+			<column type="byte" name="Job" desc="对方职业"/>
+			<column type="byte" name="Sex" desc="对方性别"/>
+			<column type="dword" name="Power" desc="战斗力"/>
+			<column type="widestr" name="GuildName" desc="帮会名称"/>
+			<column type="dword" name="VipLevel" desc="vip等级"/>
+		</record>
+		<record name="friend_invitation_send_rec" cols="1" maxrows="100" save="false" public="false" private="false" desc="已经发出的邀请(不保存)">
+			<column type="string" name="UID" desc="对方UID"/>
+		</record>
+		<record name="friend_recommend_rec" cols="8" maxrows="5" save="false" public="false" private="true" desc="好友推荐表(不保存)">
+			<column type="string" name="UID" desc="对方UID"/>
+			<column type="widestr" name="Name" desc="对方名称"/>
+			<column type="word" name="Level" desc="对方等级"/>
+			<column type="byte" name="Job" desc="对方职业"/>
+			<column type="byte" name="Sex" desc="对方性别"/>
+			<column type="dword" name="Power" desc="战斗力"/>
+			<column type="widestr" name="GuildName" desc="帮会名称"/>
+			<column type="dword" name="VipLevel" desc="vip等级"/>
+		</record>
+		<record name="nearby_recommend_rec" cols="9" maxrows="20" save="false" public="false" private="true" desc="附近推荐表(不保存)">
+			<column type="string" name="UID" desc="对方UID"/>
+			<column type="widestr" name="Name" desc="对方名称"/>
+			<column type="word" name="Level" desc="对方等级"/>
+			<column type="byte" name="Job" desc="对方职业"/>
+			<column type="byte" name="Sex" desc="对方性别"/>
+			<column type="dword" name="Power" desc="战斗力"/>
+			<column type="widestr" name="GuildName" desc="帮会名称"/>
+			<column type="dword" name="TeamID" desc="好友teamID"/>
+			<column type="dword" name="VipLevel" desc="vip等级"/>
+		</record>
+		<record name="system_recommend_rec" cols="9" maxrows="20" save="false" public="false" private="true" desc="系统推荐好友(不保存)">
+			<column type="string" name="UID" desc="对方UID"/>
+			<column type="widestr" name="Name" desc="对方名称"/>
+			<column type="word" name="Level" desc="对方等级"/>
+			<column type="byte" name="Job" desc="对方职业"/>
+			<column type="byte" name="Sex" desc="对方性别"/>
+			<column type="dword" name="Power" desc="战斗力"/>
+			<column type="widestr" name="GuildName" desc="帮会名称"/>
+			<column type="dword" name="TeamID" desc="好友teamID"/>
+			<column type="dword" name="VipLevel" desc="vip等级"/>
+		</record>
+		<record name="friend_receive_flower_rec" cols="5" maxrows="20" save="true" public="false" private="true" desc="收花记录表">
+			<column type="string" name="UID" desc="对方UID"/>
+			<column type="widestr" name="Name" desc="对方名称"/>
+			<column type="word" name="Count" desc="送花数"/>
+			<column type="byte" name="Job" desc="对方职业"/>
+			<column type="byte" name="Sex" desc="对方性别"/>
+		</record>
+		<record name="friend_send_flower_rec" cols="5" maxrows="20" save="true" public="false" private="true" desc="送花记录表">
+			<column type="string" name="UID" desc="对方UID"/>
+			<column type="widestr" name="Name" desc="对方名称"/>
+			<column type="word" name="Count" desc="送花数"/>
+			<column type="byte" name="Job" desc="对方职业"/>
+			<column type="byte" name="Sex" desc="对方性别"/>
+		</record>
+		<record name="friend_applay_sworn_rec" cols="1" maxrows="50" save="false" public="false" private="false" desc="请求结义">
+			<column type="widestr" name="Name" desc="对方Name"/>
+		</record>
+	</records>
+</object>

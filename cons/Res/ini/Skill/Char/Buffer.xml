@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Object>
+<Property ID="buff_Forever_CantMove"></Property>
+<Property ID="buff_Forever_CantAttack"></Property>
+<Property ID="buff_Forever_CantBeAttack"></Property>
+<Property ID="buff_Forever_CantUseSkill"></Property>
+<Property ID="buff_CantMove"></Property>
+<Property ID="buff_CantAttack"></Property>
+<Property ID="buff_CantBeAttack"></Property>
+<Property ID="buff_CantUseSkill"></Property>
+<Property ID="buff_401101_01"></Property>
+</Object>

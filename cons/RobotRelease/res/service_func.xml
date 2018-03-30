@@ -1,0 +1,25 @@
+<!-- 
+name:	service_func        自定義函數，參考
+param:  func				函数名
+param:  param				参数
+param:  lua_code			Lua原型
+param:  memo				描述,自定義函數，開發人員維護。說明使用方法和輸入(example)
+							自定义函数格式  函数名;数据类型:数据;数据类型:数据 ... etc
+							数据类型：i(int),f(float),d(double),b(boolen),s(string),ws(wide string)
+							例如: func_test;s:setobj;i:123;f:123.456;d:456.001;b:true
+-->
+<service_func>
+	<row func="charge_register" param="" example="charge_register" lua_code="robot_obj.ex_register(robot_obj)" memo="计费注册"/>
+	<row func="charge_login" param="" example="charge_login" lua_code="charge_login(robot_obj)" memo="计费登录"/>
+
+	<row func="normal_login" param="" example="normal_login" lua_code="robot_obj.ex_connect_entry(robot_obj)" memo="普通登录"/>
+	<row func="create_role" param="" example="create_role" lua_code="robot_obj.ex_create_role(robot_obj)" memo="创建角色"/>
+	<row func="choose_role" param="" example="choose_role" lua_code="robot_obj.ex_choose_role(robot_obj)" memo="选择角色"/>
+	
+	<row func="logout_account" param="" example="logout_account" lua_code="logout_account(robot_obj)" memo="退出账号"/>
+
+
+	<row func="use_skill" param="" example="use_skill" lua_code="robot_obj.ex_use_skill(robot_obj)" memo="使用技能"/>
+
+	<row func="func_test" param="s_value,i_value,f_value,d_value,b_value" example="func_test;s:setobj;i:123;f:123.456;d:456.001;b:true" lua_code="func_test(robot_obj,s_value,i_value,f_value,d_value,b_value)" memo="测试自定义函数传参"/>
+</service_func>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Object>
+<Property ID="21001" Name="侠隐任脉1" CareerID="2" Type="0"/>
+<Property ID="21002" Name="侠隐任脉2" CareerID="2" Type="0"/>
+<Property ID="21003" Name="侠隐任脉3" CareerID="2" Type="0"/>
+<Property ID="21004" Name="侠隐任脉4" CareerID="2" Type="0"/>
+<Property ID="21005" Name="侠隐任脉5" CareerID="2" Type="0"/>
+<Property ID="21006" Name="侠隐任脉6" CareerID="2" Type="0"/>
+<Property ID="21007" Name="侠隐任脉7" CareerID="2" Type="0"/>
+<Property ID="21008" Name="侠隐任脉8" CareerID="2" Type="0"/>
+<Property ID="21009" Name="侠隐任脉9" CareerID="2" Type="0"/>
+<Property ID="21010" Name="侠隐任脉10" CareerID="2" Type="0"/>
+<Property ID="21011" Name="侠隐任脉11" CareerID="2" Type="0"/>
+<Property ID="21012" Name="侠隐任脉12" CareerID="2" Type="0"/>
+<Property ID="21013" Name="侠隐任脉13" CareerID="2" Type="0"/>
+<Property ID="22001" Name="侠隐督脉1" CareerID="2" Type="1"/>
+<Property ID="22002" Name="侠隐督脉2" CareerID="2" Type="1"/>
+<Property ID="22003" Name="侠隐督脉3" CareerID="2" Type="1"/>
+<Property ID="22004" Name="侠隐督脉4" CareerID="2" Type="1"/>
+<Property ID="22005" Name="侠隐督脉5" CareerID="2" Type="1"/>
+<Property ID="22006" Name="侠隐督脉6" CareerID="2" Type="1"/>
+<Property ID="22007" Name="侠隐督脉7" CareerID="2" Type="1"/>
+<Property ID="22008" Name="侠隐督脉8" CareerID="2" Type="1"/>
+<Property ID="22009" Name="侠隐督脉9" CareerID="2" Type="1"/>
+<Property ID="22010" Name="侠隐督脉10" CareerID="2" Type="1"/>
+<Property ID="22011" Name="侠隐督脉11" CareerID="2" Type="1"/>
+<Property ID="22012" Name="侠隐督脉12" CareerID="2" Type="1"/>
+<Property ID="22013" Name="侠隐督脉13" CareerID="2" Type="1"/>
+<Property ID="23001" Name="侠隐带脉1" CareerID="2" Type="2"/>
+<Property ID="23002" Name="侠隐带脉2" CareerID="2" Type="2"/>
+<Property ID="23003" Name="侠隐带脉3" CareerID="2" Type="2"/>
+<Property ID="23004" Name="侠隐带脉4" CareerID="2" Type="2"/>
+<Property ID="23005" Name="侠隐带脉5" CareerID="2" Type="2"/>
+<Property ID="23006" Name="侠隐带脉6" CareerID="2" Type="2"/>
+<Property ID="23007" Name="侠隐带脉7" CareerID="2" Type="2"/>
+<Property ID="23008" Name="侠隐带脉8" CareerID="2" Type="2"/>
+<Property ID="23009" Name="侠隐带脉9" CareerID="2" Type="2"/>
+<Property ID="23010" Name="侠隐带脉10" CareerID="2" Type="2"/>
+<Property ID="23011" Name="侠隐带脉11" CareerID="2" Type="2"/>
+<Property ID="23012" Name="侠隐带脉12" CareerID="2" Type="2"/>
+<Property ID="23013" Name="侠隐带脉13" CareerID="2" Type="2"/>
+<Property ID="11001" Name="破军任脉1" CareerID="1" Type="0"/>
+<Property ID="11002" Name="破军任脉2" CareerID="1" Type="0"/>
+<Property ID="11003" Name="破军任脉3" CareerID="1" Type="0"/>
+<Property ID="11004" Name="破军任脉4" CareerID="1" Type="0"/>
+<Property ID="11005" Name="破军任脉5" CareerID="1" Type="0"/>
+<Property ID="11006" Name="破军任脉6" CareerID="1" Type="0"/>
+<Property ID="11007" Name="破军任脉7" CareerID="1" Type="0"/>
+<Property ID="11008" Name="破军任脉8" CareerID="1" Type="0"/>
+<Property ID="11009" Name="破军任脉9" CareerID="1" Type="0"/>
+<Property ID="11010" Name="破军任脉10" CareerID="1" Type="0"/>
+<Property ID="11011" Name="破军任脉11" CareerID="1" Type="0"/>
+<Property ID="11012" Name="破军任脉12" CareerID="1" Type="0"/>
+<Property ID="11013" Name="破军任脉13" CareerID="1" Type="0"/>
+<Property ID="12001" Name="破军督脉1" CareerID="1" Type="1"/>
+<Property ID="12002" Name="破军督脉2" CareerID="1" Type="1"/>
+<Property ID="12003" Name="破军督脉3" CareerID="1" Type="1"/>
+<Property ID="12004" Name="破军督脉4" CareerID="1" Type="1"/>
+<Property ID="12005" Name="破军督脉5" CareerID="1" Type="1"/>
+<Property ID="12006" Name="破军督脉6" CareerID="1" Type="1"/>
+<Property ID="12007" Name="破军督脉7" CareerID="1" Type="1"/>
+<Property ID="12008" Name="破军督脉8" CareerID="1" Type="1"/>
+<Property ID="12009" Name="破军督脉9" CareerID="1" Type="1"/>
+<Property ID="12010" Name="破军督脉10" CareerID="1" Type="1"/>
+<Property ID="12011" Name="破军督脉11" CareerID="1" Type="1"/>
+<Property ID="12012" Name="破军督脉12" CareerID="1" Type="1"/>
+<Property ID="12013" Name="破军督脉13" CareerID="1" Type="1"/>
+<Property ID="13001" Name="破军带脉1" CareerID="1" Type="2"/>
+<Property ID="13002" Name="破军带脉2" CareerID="1" Type="2"/>
+<Property ID="13003" Name="破军带脉3" CareerID="1" Type="2"/>
+<Property ID="13004" Name="破军带脉4" CareerID="1" Type="2"/>
+<Property ID="13005" Name="破军带脉5" CareerID="1" Type="2"/>
+<Property ID="13006" Name="破军带脉6" CareerID="1" Type="2"/>
+<Property ID="13007" Name="破军带脉7" CareerID="1" Type="2"/>
+<Property ID="13008" Name="破军带脉8" CareerID="1" Type="2"/>
+<Property ID="13009" Name="破军带脉9" CareerID="1" Type="2"/>
+<Property ID="13010" Name="破军带脉10" CareerID="1" Type="2"/>
+<Property ID="13011" Name="破军带脉11" CareerID="1" Type="2"/>
+<Property ID="13012" Name="破军带脉12" CareerID="1" Type="2"/>
+<Property ID="13013" Name="破军带脉13" CareerID="1" Type="2"/>
+<Property ID="31001" Name="七杀任脉1" CareerID="3" Type="0"/>
+<Property ID="31002" Name="七杀任脉2" CareerID="3" Type="0"/>
+<Property ID="31003" Name="七杀任脉3" CareerID="3" Type="0"/>
+<Property ID="31004" Name="七杀任脉4" CareerID="3" Type="0"/>
+<Property ID="31005" Name="七杀任脉5" CareerID="3" Type="0"/>
+<Property ID="31006" Name="七杀任脉6" CareerID="3" Type="0"/>
+<Property ID="31007" Name="七杀任脉7" CareerID="3" Type="0"/>
+<Property ID="31008" Name="七杀任脉8" CareerID="3" Type="0"/>
+<Property ID="31009" Name="七杀任脉9" CareerID="3" Type="0"/>
+<Property ID="31010" Name="七杀任脉10" CareerID="3" Type="0"/>
+<Property ID="31011" Name="七杀任脉11" CareerID="3" Type="0"/>
+<Property ID="31012" Name="七杀任脉12" CareerID="3" Type="0"/>
+<Property ID="31013" Name="七杀任脉13" CareerID="3" Type="0"/>
+<Property ID="32001" Name="七杀督脉1" CareerID="3" Type="1"/>
+<Property ID="32002" Name="七杀督脉2" CareerID="3" Type="1"/>
+<Property ID="32003" Name="七杀督脉3" CareerID="3" Type="1"/>
+<Property ID="32004" Name="七杀督脉4" CareerID="3" Type="1"/>
+<Property ID="32005" Name="七杀督脉5" CareerID="3" Type="1"/>
+<Property ID="32006" Name="七杀督脉6" CareerID="3" Type="1"/>
+<Property ID="32007" Name="七杀督脉7" CareerID="3" Type="1"/>
+<Property ID="32008" Name="七杀督脉8" CareerID="3" Type="1"/>
+<Property ID="32009" Name="七杀督脉9" CareerID="3" Type="1"/>
+<Property ID="32010" Name="七杀督脉10" CareerID="3" Type="1"/>
+<Property ID="32011" Name="七杀督脉11" CareerID="3" Type="1"/>
+<Property ID="32012" Name="七杀督脉12" CareerID="3" Type="1"/>
+<Property ID="32013" Name="七杀督脉13" CareerID="3" Type="1"/>
+<Property ID="33001" Name="七杀带脉1" CareerID="3" Type="2"/>
+<Property ID="33002" Name="七杀带脉2" CareerID="3" Type="2"/>
+<Property ID="33003" Name="七杀带脉3" CareerID="3" Type="2"/>
+<Property ID="33004" Name="七杀带脉4" CareerID="3" Type="2"/>
+<Property ID="33005" Name="七杀带脉5" CareerID="3" Type="2"/>
+<Property ID="33006" Name="七杀带脉6" CareerID="3" Type="2"/>
+<Property ID="33007" Name="七杀带脉7" CareerID="3" Type="2"/>
+<Property ID="33008" Name="七杀带脉8" CareerID="3" Type="2"/>
+<Property ID="33009" Name="七杀带脉9" CareerID="3" Type="2"/>
+<Property ID="33010" Name="七杀带脉10" CareerID="3" Type="2"/>
+<Property ID="33011" Name="七杀带脉11" CareerID="3" Type="2"/>
+<Property ID="33012" Name="七杀带脉12" CareerID="3" Type="2"/>
+<Property ID="33013" Name="七杀带脉13" CareerID="3" Type="2"/>
+<Property ID="90001" Name="坐骑血量被动"/>
+<Property ID="90002" Name="坐骑攻击被动"/>
+<Property ID="90003" Name="坐骑防御被动"/>
+<Property ID="90004" Name="坐骑属性被动"/>
+<Property ID="80001" Name="组织力道被动"/>
+<Property ID="80002" Name="组织身法被动"/>
+<Property ID="80003" Name="组织根骨被动"/>
+<Property ID="80004" Name="组织攻击被动"/>
+<Property ID="80005" Name="组织防御被动"/>
+<Property ID="80006" Name="组织血量被动"/>
+<Property ID="60002" Name="水之技"/>
+<Property ID="60003" Name="日之技"/>
+<Property ID="60004" Name="月之技"/>
+<Property ID="60005" Name="金之技"/>
+<Property ID="61001" Name="石破天惊破军" CareerID="1" AddEffectType="1"/>
+<Property ID="61002" Name="霸王卸甲破军" CareerID="1" AddEffectType="2"/>
+<Property ID="61003" Name="噬魂夺魄破军" CareerID="1" AddEffectType="3"/>
+<Property ID="61004" Name="势如破竹破军" CareerID="1" AddEffectType="4"/>
+<Property ID="61005" Name="气守丹田破军" CareerID="1" AddEffectType="5"/>
+<Property ID="61006" Name="金刚不败破军" CareerID="1" AddEffectType="6"/>
+<Property ID="61007" Name="如沐春风破军" CareerID="1" AddEffectType="7"/>
+<Property ID="61008" Name="凌波微步破军" CareerID="1" AddEffectType="8"/>
+<Property ID="62001" Name="石破天惊侠隐" CareerID="2" AddEffectType="1"/>
+<Property ID="62002" Name="霸王卸甲侠隐" CareerID="2" AddEffectType="2"/>
+<Property ID="62003" Name="噬魂夺魄侠隐" CareerID="2" AddEffectType="3"/>
+<Property ID="62004" Name="势如破竹侠隐" CareerID="2" AddEffectType="4"/>
+<Property ID="62005" Name="气守丹田侠隐" CareerID="2" AddEffectType="5"/>
+<Property ID="62006" Name="金刚不败侠隐" CareerID="2" AddEffectType="6"/>
+<Property ID="62007" Name="如沐春风侠隐" CareerID="2" AddEffectType="7"/>
+<Property ID="62008" Name="凌波微步侠隐" CareerID="2" AddEffectType="8"/>
+<Property ID="63001" Name="石破天惊七杀" CareerID="3" AddEffectType="1"/>
+<Property ID="63002" Name="霸王卸甲七杀" CareerID="3" AddEffectType="2"/>
+<Property ID="63003" Name="噬魂夺魄七杀" CareerID="3" AddEffectType="3"/>
+<Property ID="63004" Name="势如破竹七杀" CareerID="3" AddEffectType="4"/>
+<Property ID="63005" Name="气守丹田七杀" CareerID="3" AddEffectType="5"/>
+<Property ID="63006" Name="金刚不败七杀" CareerID="3" AddEffectType="6"/>
+<Property ID="63007" Name="如沐春风七杀" CareerID="3" AddEffectType="7"/>
+<Property ID="63008" Name="凌波微步七杀" CareerID="3" AddEffectType="8"/>
+<Property ID="70001" Name="下属段云被动"/>
+<Property ID="71001" Name="必杀"/>
+<Property ID="71002" Name="高级必杀"/>
+<Property ID="71003" Name="致命"/>
+<Property ID="71004" Name="高级致命"/>
+<Property ID="71005" Name="残暴"/>
+<Property ID="71006" Name="高级残暴"/>
+<Property ID="71007" Name="牵制"/>
+<Property ID="71008" Name="高级牵制"/>
+<Property ID="71009" Name="奋勇"/>
+<Property ID="71010" Name="高级奋勇"/>
+<Property ID="71011" Name="灵敏"/>
+<Property ID="71012" Name="高级灵敏"/>
+<Property ID="71013" Name="坚韧"/>
+<Property ID="71014" Name="高级坚韧"/>
+<Property ID="71015" Name="霸体"/>
+<Property ID="71016" Name="高级霸体"/>
+<Property ID="71017" Name="擒王"/>
+<Property ID="71018" Name="高级擒王"/>
+<Property ID="71019" Name="据守"/>
+<Property ID="71020" Name="高级据守"/>
+<Property ID="71021" Name="庇护"/>
+<Property ID="71022" Name="高级庇护"/>
+<Property ID="71023" Name="睿智"/>
+<Property ID="71024" Name="高级睿智"/>
+<Property ID="72001" Name="降魔杵"/>
+<Property ID="72002" Name="碧水剑"/>
+<Property ID="72003" Name="无相神功"/>
+<Property ID="72004" Name="花间瓷"/>
+<Property ID="72005" Name="金翅鸟"/>
+<Property ID="72006" Name="金错刀"/>
+<Property ID="72007" Name="混元功"/>
+<Property ID="72008" Name="脉门弩"/>
+<Property ID="72009" Name="云罗飞帛"/>
+<Property ID="72010" Name="三眼神铳"/>
+<Property ID="72011" Name="听风剑"/>
+<Property ID="72012" Name="黑玉绣春刀"/>
+<Property ID="72013" Name="赤霄绣春刀"/>
+</Object>

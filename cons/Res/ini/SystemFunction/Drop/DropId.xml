@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Object>
+<Property ID="1" DropID="100000001" DropPackage="100000001" DropAll="1" DropCount="2"></Property>
+<Property ID="2" DropID="100000002" DropPackage="100000002" DropAll="0" DropCount="2"></Property>
+<Property ID="3" DropID="100000003" DropPackage="100000003" DropAll="1" DropCount="1"></Property>
+<Property ID="4" DropID="100000004" DropPackage="100000004" DropAll="1" DropCount="1"></Property>
+<Property ID="5" DropID="100000005" DropPackage="100000005" DropAll="1" DropCount="1"></Property>
+<Property ID="6" DropID="100000006" DropPackage="100000006" DropAll="1" DropCount="1"></Property>
+<Property ID="7" DropID="100000007" DropPackage="100000007" DropAll="1" DropCount="1"></Property>
+<Property ID="8" DropID="100000008" DropPackage="100000008" DropAll="1" DropCount="1"></Property>
+</Object>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Object>
+	<Property ID="Mount3000101" Script="RideItem" ColorLevel="1" BaseAddPkg="85000000" RideStar="0" RideStep="0" DefaultSkin="Skin_M3000101"/>
+</Object>

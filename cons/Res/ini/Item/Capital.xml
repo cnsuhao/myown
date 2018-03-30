@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Object>
+<Property ID="CapitalType" TypeCount="5" C0="CapitalCopper,9999999999,180000000,200000000" C1="CapitalGold,99999999,79999999,99999999" C2="CapitalSilver,9999999,9999999,9999999" C3="CapitalBindGold,9999999,2900,3000" C4="CapitalSmelt,9999999,90000,100000" C5="CapitalArean,9999999,90000,100000"></Property>
+</Object>

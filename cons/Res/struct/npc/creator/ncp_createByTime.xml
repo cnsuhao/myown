@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!-- 随机对象生成器 -->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<property name="GlobalStep" type="int" public="false" private="false" save="false" desc="当前大波次进行到哪波"/>
+		<property name="LittleStepMax" type="int" public="false" private="false" save="false" desc="当前波小波次次数"/>
+		<property name="LittlestepNow" type="int" public="false" private="false" save="false" desc="当前波小波次次数"/>
+		<property name="SceneId" type="int" public="false" private="false" save="false" desc="场景id"/>	 
+	</properties>
+
+ 
+</object>

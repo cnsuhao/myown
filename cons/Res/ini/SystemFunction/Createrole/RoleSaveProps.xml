@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Object>
+	<Property ID="1" Prop="Job" desc="职业"/>
+	<Property ID="2" Prop="RoleCreateTime" desc="创建时间"/>
+	<Property ID="3" Prop="RoleLoginTime" desc="登录时间"/>
+	<Property ID="4" Prop="Sex" desc="性别"/>
+	<Property ID="5" Prop="Level" desc="等级"/>
+	<Property ID="6" Prop="Weapon" desc="武器"/>
+	<Property ID="7" Prop="Cloth" desc="衣服"/>
+	<Property ID="8" Prop="Hair" desc="头部"/>
+	<Property ID="9" Prop="Wing" desc="翅膀"/>
+</Object>

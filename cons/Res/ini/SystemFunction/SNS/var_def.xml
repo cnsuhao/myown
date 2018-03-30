@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Object>
+<Property ID="2" TypeName="int"/>
+<Property ID="3" TypeName="int64"/>
+<Property ID="4" TypeName="float"/>
+<Property ID="5" TypeName="double"/>
+<Property ID="6" TypeName="str"/>
+<Property ID="7" TypeName="wstr"/>
+</Object>

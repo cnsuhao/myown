@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!--战斗力属性-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<property name="BattleAbility" type="int" public="false" private="true" save="false" desc="战斗力"/>
+		<property name="HighestBattleAbility" type="int" public="false" private="true" save="true" desc="历史最高战斗力"/>
+		
+		<!--property name="BaseBattleAbility" type="int" public="false" private="false" save="false" desc="玩家基础战斗力"/>
+		<property name="RideBattleAbility" type="int" public="false" private="false" save="false" desc="坐骑战力"/>
+		<property name="SkillBattleAbility" type="int" public="false" private="false" save="false" desc="技能战力"/>
+		<property name="OfficeLevBattleAbility" type="int" public="false" private="false" save="false" desc="军阶战力"/>
+		<property name="EquipBattleAbility" type="int" public="false" private="false" save="false" desc="装备战力"/>
+		<property name="PetBattleAbility" type="int" public="false" private="false" save="false" desc="宠物战力"/>
+		<property name="StrSuitBattleAbility" type="int" public="false" private="false" save="false" desc="强化套装战力"/>
+		<property name="MarkerBattleAbility" type="int" public="false" private="true" save="false" desc="印记战斗力"/-->
+	</properties>
+	<records>
+		<record name="battlle_ability_rec" cols="2" maxrows="100" save="false" public="false" private="false" desc="战斗力统计表">
+			<column type="byte" name="BAType" desc="战斗力类型"/>
+			<column type="float" name="BABValue" desc="战斗力数值"/>
+		</record>
+	</records>
+</object>

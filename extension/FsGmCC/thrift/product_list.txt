@@ -1,0 +1,73 @@
+{
+    "message": "正常",
+    "code": "10000",
+    "state": 0,
+    "obj": [
+        {
+            "nId": 8,
+            "sName": "Item2020002",
+            "sNumber": "Item2020002",
+            "nChannelId": 1,
+            "nEnvId": 1,
+            "nGameId": 1,
+            "nPrice": 12,
+            "nStatus": 2,
+            "dExpires": 1480427173000,
+            "dCreate": 1480408932000,
+            "dUpdate": 1480408932000,
+            "sicon": "Item2020002",
+            "buyDetailList": [
+                {
+                    "nId": 9,
+                    "nGoodsId": 8,
+                    "nItemId": 18,
+                    "nNum": 5,
+                    "sTypeCode": "Item2020002",
+                    "nObtainType": 1,
+                    "item": {
+                        "nId": 18,
+                        "sNumber": "Item2020002",
+                        "sName": "Item2020002",
+                        "nPrice": 0,
+                        "sDesc": "",
+                        "sIcon": "Item2020002",
+                        "nGameId": 1,
+                        "dCreate": 1480407188000,
+                        "dUpdate": 1480407191000
+                    }
+                }
+            ],
+            "firstPresentDetaiList": [
+                
+            ],
+            "nomalPresentDetailList": [
+                
+            ],
+            "guidDonatDetailList": [
+                
+            ],
+            "detailList": [
+                {
+                    "nId": 9,
+                    "nGoodsId": 8,
+                    "nItemId": 18,
+                    "nNum": 5,
+                    "sTypeCode": "Item2020002",
+                    "nObtainType": 1,
+                    "item": {
+                        "nId": 18,
+                        "sNumber": "Item2020002",
+                        "sName": "Item2020002",
+                        "nPrice": 0,
+                        "sDesc": "",
+                        "sIcon": "Item2020002",
+                        "nGameId": 1,
+                        "dCreate": 1480407188000,
+                        "dUpdate": 1480407191000
+                    }
+                }
+            ],
+            "bshow": true
+        }
+    ]
+}

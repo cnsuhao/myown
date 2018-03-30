@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Object>
+<Property ID="201" UseEquipPos="1" UseJewelPos="1"></Property>
+<Property ID="202" UseEquipPos="1,2,3,4,5,6" UseJewelPos="1,1,1,1,1,1"></Property>
+<Property ID="203" UseEquipPos="1,2,3,4,5,6" UseJewelPos="1,1,1,1,1,1"></Property>
+<Property ID="204" UseEquipPos="1,2,3,4,5,6" UseJewelPos="1,1,1,1,1,1"></Property>
+<Property ID="205" UseEquipPos="1,2,3,4,5,6" UseJewelPos="1,1,1,1,1,1"></Property>
+<Property ID="206" UseEquipPos="1,2,3,4,5,6" UseJewelPos="1,1,1,1,1,1"></Property>
+<Property ID="207" UseEquipPos="1,2,3,4,5,6" UseJewelPos="1,1,1,1,1,1"></Property>
+<Property ID="208" UseEquipPos="1,2,3,4,5,6" UseJewelPos="1,1,1,1,1,1"></Property>
+<Property ID="209" UseEquipPos="1,2,3,4,5,6" UseJewelPos="1,1,1,1,1,1"></Property>
+<Property ID="210" UseEquipPos="1,2,3,4,5,6" UseJewelPos="2,2,2,2,2,2"></Property>
+<Property ID="211" UseEquipPos="1,2,3,4,5,6" UseJewelPos="2,2,2,2,2,2"></Property>
+<Property ID="212" UseEquipPos="1,2,3,4,5,6" UseJewelPos="2,2,2,2,2,2"></Property>
+<Property ID="213" UseEquipPos="1,2,3,4,5,6" UseJewelPos="2,2,2,2,2,2"></Property>
+<Property ID="214" UseEquipPos="1,2,3,4,5,6" UseJewelPos="2,2,2,2,2,2"></Property>
+<Property ID="215" UseEquipPos="1,2,3,4,5,6" UseJewelPos="2,2,2,2,2,2"></Property>
+<Property ID="216" UseEquipPos="1,2,3,4,5,6" UseJewelPos="2,2,2,2,2,2"></Property>
+<Property ID="217" UseEquipPos="1,2,3,4,5,6" UseJewelPos="2,2,2,2,2,2"></Property>
+<Property ID="218" UseEquipPos="1,2,3,4,5,6" UseJewelPos="2,2,2,2,2,2"></Property>
+<Property ID="219" UseEquipPos="1,2,3,4,5,6" UseJewelPos="2,2,2,2,2,2"></Property>
+<Property ID="220" UseEquipPos="1,2,3,4,5,6" UseJewelPos="2,2,2,2,2,2"></Property>
+</Object>

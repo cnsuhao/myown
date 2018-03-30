@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!--技能的属性数据-->
+<object>
+	<!--主动技能属性 -->
+	<properties>
+		<property name="HurtCount" type="int" public="false" private="false" save="false" desc="技能总命中打击次数,用于计算伤害"/>
+		<property name="CurHits" type="int" public="false" private="false" save="false" desc="技能当前打击次数"/>
+		<property name="CoolDownTime" type="int" public="false" private="false" save="false" desc="冷却时间,单位为ms"/>
+		<property name="SkillAttackAdd" type="int" public="false" private="false" save="false" realtime="false" desc="技能攻击力"/>
+		<property name="SkillDamageRate" type="float" public="false" private="false" save="false" realtime="false" desc="技能伤害倍率"/>
+		<property name="SkillFormula" type="float" public="false" private="false" save="false" realtime="false" desc="技能公式结算的值"/>
+	</properties>
+</object>

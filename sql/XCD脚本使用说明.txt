@@ -1,0 +1,27 @@
+脚本参数说明:
+usage: command user pwd [host] [port] [post] [district]
+command: 执行命令[install/clean/drop]
+user:mysql数据库用户名
+pwd:mysql数据库密码
+host:数据库主机，可选项，默认为localhost
+port:数据库端口，可选项，默认为3306
+post:数据库后缀，用于默认数据库名+分区号生成数据库，空直接使用默认数据库操作
+district: 服务器分区id, 导入预创建数据才有，用于替换数据库字段
+
+sample:
+-install安装脚本
+install sa abc 192.168.10.6 3306 lihl
+
+-clean清除表
+clean sa abc 192.168.10.6 3306 lihl
+
+-drop删除数据库
+drop sa abc 192.168.10.6 3306 lihl
+
+-prepare导入预创角数据
+prepare sa abc 192.168.10.6 3306 lihl 10000
+
+
+安装完数据库使用一键安装命令
+-onekey一键安装(执行install&prepare)
+onekey sa abc 192.168.10.6 3306 lihl 10000

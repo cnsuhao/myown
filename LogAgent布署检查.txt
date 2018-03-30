@@ -1,0 +1,29 @@
+1. 查看logagent.conf配置是否正确
+	1). 日志路径(字段:path)是否正确指向日志目录，并确定有读取权限，注意windows下要\\
+	2). 匹配模式: pattern=analytics.log.*
+	3). 日志分割: real_time_file_name=analytics.log
+	4). 项目名称: project=production 如果根据文件导入多项目，这行注释掉，以日志文件为准
+	5). 主机地址: host=data.jyw.xy.com
+	6). 主机端口: port=8006
+	7). 主机id: 以游戏名_host_分区id命名，logagent_id=xcd_host_10001
+	8). 处理速度: 这个根据cpu占用率调整，以不影响正常游戏为标准，目前暂定为 speed_limit=800
+2. 游戏版本配置(res/game.ini)(*游戏从gmcc读取，只需要检查数据即可)
+	1). 游戏id： xcd定义为1 game_id=1
+	2). 游戏版本: 以服务器修改版本 game_ver=1.0
+	3). 游戏名: 以logagent的项目命名 game_name=production
+	4). 分区名: district_name=天书现世
+	5). 渠道id(需要与老季那边后台确认): channelid=1
+	6). 开发环境(需要与老季那边后台确认): production=2
+3.启动logagent/bin/logagent.bat
+4.检查是否正常启动
+	1). 是否一闪就被关闭了
+	2). 检查logagent/log是否出有错误日志
+5.确认数据格式正确导入: 
+	1). 进入http://data.jyw.xy.com:8007
+	2). 选择埋点标签
+	3). 选择埋点管理->筛选参数->刷新
+	4). 查看是否有导入错误
+6.数据验证:
+	1). 进入http://data.jyw.xy.com:8007
+	2). 选择埋点标签
+	3). 选择数据接入辅助工具

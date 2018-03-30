@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<!-- DailyLimit 每日获取上线 TeamOffer 缉盗 TeamSecret组队禁地TeamInbreak组织入侵TeamEscort组队押囚TeamKillNpc野外挂机-->
+<Object>
+	<Property ID="1" DailyLimit="4500" TeamOffer="50" TeamSecret="120" TeamInbreak="25" TeamEscort="120" TeamKillNpc="1"/>
+</Object>

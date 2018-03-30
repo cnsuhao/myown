@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!--
+Type->share表示客户端与服务器都需要加载(功能会自动将ini替换为share) client表示只有客户端需要加载 server表示只有服务器需要加载
+VTYPE_BOOL = 1,		// 布尔
+VTYPE_INT = 2,		// 32位整数
+VTYPE_INT64 = 3,	// 64位整数
+VTYPE_FLOAT = 4,	// 单精度浮点数
+VTYPE_DOUBLE =5,	// 双精度浮点数
+VTYPE_STRING =6,	// 字符串
+VTYPE_WIDESTR = 7,	// 宽字符串
+-->
+<Object>
+	<!-- 角色属性相关 -->
+	<Property ID="1" Type="server" Name="等级属性" Resource="ini\ModifyPackage\LevelProp.xml"/>
+	<Property ID="2" Type="server" Name="怪物实力包" Resource="ini\ModifyPackage\NpcBasePack.xml"/>
+	<Property ID="3" Type="server" Name="buff属性包" Resource="ini\Skill\Char\BufferBasePackage.xml"/>
+	<Property ID="4" Type="server" Name="装备附加包" Resource="ini\ModifyPackage\EquipAddPack.xml"/>
+	<Property ID="5" Type="server" Name="装备随机修正包映射表" Resource="ini\ModifyPackage\EquipModifyMap.xml"/>
+	<Property ID="6" Type="server" Name="装备随机修正包" Resource="ini\ModifyPackage\EquipModifyPack.xml"/>
+	<Property ID="7" Type="server" Name="装备基础包" Resource="ini\ModifyPackage\EquipBasePack.xml"/>
+	<Property ID="8" Type="server" Name="宝石属性包" Resource="ini\ModifyPackage\JewelBasePack.xml"/>
+	<Property ID="9" Type="server" Name="装备强化包" Resource="ini\ModifyPackage\EquipStrPack.xml"/>
+	<Property ID="10" Type="server" Name="装备强化套装包" Resource="ini\ModifyPackage\EquipStrSuitPack.xml"/>
+	<Property ID="11" Type="server" Name="坐骑属性包" Resource="ini\ModifyPackage\RidePack.xml"/>
+	<Property ID="12" Type="server" Name="翅膀属性包" Resource="ini\ModifyPackage\WingAttributePack.xml"/>
+	<Property ID="13" Type="server" Name="玉珏属性包" Resource="ini\ModifyPackage\JadeAttributePack.xml"/>
+	
+</Object>

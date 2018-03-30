@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="gb2312"?>
+<object>
+		<properties>
+		<property name="ActiveJade" type="object" public="false" private="false" save="false" desc="当前激活的玉珏"/>
+		<property name="ActiveJadeId" type="string" public="false" private="true" save="true" desc="当前激活的玉珏id"/>
+		</properties>
+    <records>
+    </records>
+</object>

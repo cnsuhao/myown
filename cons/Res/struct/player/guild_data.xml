@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<object>
+	<internals/>
+	<properties>
+		<property name="GuildName" type="widestr" public="true" private="true" save="true" realtime="" desc="公会名称"/>
+		<property name="GuildPosition" type="int" public="true" private="true" save="true" realtime="" desc="帮会中的职位"/>
+		<property name="QuitGuildDate" type="int64" public="false" private="true" save="true" realtime="" desc="退出公会日期"/>
+		<property name="GuildListBeginRow" type="int" public="false" private="false" save="false" realtime="" desc="获取公会列表的起始行"/>
+		<property name="GuildLevel" type="int" public="false" private="true" save="true" realtime="" desc="帮会等级"/>
+		<property name="OneKeyJoinTime" type="int64" public="false" private="true" save="true" realtime="" desc="一键申请时间"/>
+		<property name="GuildMutualTimes" type="int" public="false" private="true" save="true" realtime="" desc="组织互助次数"/>
+		<property name="GuildLastIssueMutualTimes" type="int64" public="false" private="true" save="true" desc="上一次发布组织互助时间"/>
+		<property name="GuildShortName" type="widestr" public="true" private="true" save="true" desc="组织短名"/>
+		<property name="GuildIdentifying" type="int" public="true" private="true" save="true" desc="组织标识"/>
+		<property name="GuildDonateTimes" type="int" public="true" private="true" save="true" desc="组织捐献次数"/>
+		<property name="GuildDailyGif" type="int" public="true" private="true" save="true" desc="领取组织礼包数"/>
+	</properties>
+	<records>
+		<record name="guild_skill_rec" cols="1" maxrows="100" public="false" private="true" save="true" desc="组织技能">
+			<column type="dword" desc="互助索引"/>
+		</record>
+				
+		<!-- 传功请求表	-->
+		<record name="guild_teach_req_rec" cols="3" maxrows="1024" public="false" private="false" save="false" desc="传功请求表">
+			<column type="widestr" name="Name" desc="对方昵称"/>
+			<column type="dword" name="Type" desc="请求类型"/>
+			<column type="int64" name="Time" desc="请求时间"/>
+		</record>
+	</records>
+	<includes/>
+</object>

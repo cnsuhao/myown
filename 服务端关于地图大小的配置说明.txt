@@ -1,0 +1,26 @@
+terrain.ini
+
+ZoneScale  区块大小
+ZoneRows  区块行数
+ZoneCols 区块列数
+
+
+场景大小由 ZoneScale*ZoneRows  和 ZoneScale*ZoneCols 决定
+
+中心点(0 0 点)由 OriginRow 和 OriginCol 对应的区块中心点决定
+
+
+
+
+SceneGridSize 引擎用于管理场景对象使用的格子，影响到视野扫描，视野扫描总是把这个格子里所有对象都扫完再扫下一个。配置大省内存，效率高，表现是可能只看到某一朝向的对象，配置低精度高消耗也大。
+由member 上的 SceneGridSize 属性决定，基本不去改它
+
+
+
+PathGridSize 是a* 寻路用的格子大小，对象上有个PathGrid 属性，值 0，1，2，3 ，分别占用 1 个 PathGridSize 大小和 2*2 个PathGridSize  及 3 * 3 个 PathGridSize 
+
+PathGridSize 还有个作用是省流量，以前通知位置是 x y z 坐标，现在使用 index 格子索引，客户端再依据索引转换成坐标，是否使用这个功能在 terrain.ini 的 UseIndexMsg 开关
+
+PathGrid 还能卡位，格子里已经有对象的不可再走，除非对象身上的PathGridThrough 打开。
+
+terrain.ini  还有个配置 UseAStarFinder ,如果不用 ikernel的 findpath 接口可以配置关，能省下几十M内存（场景越大省的越多）

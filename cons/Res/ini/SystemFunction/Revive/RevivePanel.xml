@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Object>
+<Property ID="1001" SceneID="1001" RevivePanel="0"></Property>
+<Property ID="1006" SceneID="1006" RevivePanel="0,1"></Property>
+</Object>

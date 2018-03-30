@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<object>
+    <properties>
+        <property name="Master" type="object" public="false" private="false" save="false" desc="主人" />
+        <property name="Skill" type="object" public="false" private="false" save="false" desc="技能" />
+    </properties>
+</object>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--AI移动相关-->
+<object>
+    <!-- 基本属性 -->
+    <properties>
+        <property name="PathFinding" type="int" public="false" private="false" save="false" desc="是否寻路中"/>
+        <property name="FindPathX" type="float" public="false" private="false" save="false" desc="当前目标点X"/>
+        <property name="FindPathZ" type="float" public="false" private="false" save="false" desc="当前目标点Z"/>
+		<property name="DestPathX" type="float" public="false" private="false" save="false" desc="最终目标X"/>
+		<property name="DestPathZ" type="float" public="false" private="false" save="false" desc="最终目标Z"/>
+		<property name="LittleStepX" type="float" public="false" private="false" save="false" desc="碎步移动目标X"/>
+		<property name="LittleStepZ" type="float" public="false" private="false" save="false" desc="碎步移动目标Z"/>
+		<property name="LastFindPath" type="Int" public="false" private="false" save="false" desc="最终寻路"/>
+		<property name="RetryPrePath" type="Int" public="false" private="false" save="false" desc="指定次数前重试，之后偏移动态找路"/>
+		<property name="PathFindStep" type="Int" public="false" private="false" save="false" desc=""/>
+		<property name="ContinueMove" type="Int" public="false" private="false" save="false" desc="连续碎步标志,0否1是"/>
+
+		<property name="TargetX" type="float" public="false" private="false" save="false" desc="目标点X"/>
+        <property name="TargetZ" type="float" public="false" private="false" save="false" desc="目标点Z"/>
+		<property name="NearTargetGrid" type="int" public="false" private="false" save="false" desc="目标附近的点"/>
+		<property name="MotionState" type="int" public="false" private="false" save="false" desc="寻路移动状态"/>
+		<property name="RoundGrid" type="Int" public="false" private="false" save="false" desc="避让时所在格子"/>
+		<property name="PathDistanceMin" type="float" public="false" private="false" save="false" desc="离目标最小距离"/>
+		<property name="PathDistanceMax" type="float" public="false" private="false" save="false" desc="离目标最大距离"/>
+		<property name="MotionResult" type="int" public="false" private="false" save="false" desc="移动结果"/>
+		<property name="WaitTarget" type="int64" public="false" private="false" save="false" desc="等待对象走开"/>
+		<property name="WaitTargetX" type="float" public="false" private="false" save="false" desc="等待对象走开的坐标点X"/>
+		<property name="WaitTargetZ" type="float" public="false" private="false" save="false" desc="等待对象走开的坐标点Z"/>
+		<property name="RoundTotalCount" type="int" public="false" private="false" save="false" desc="避让的总次数"/>
+		<property name="SpaceGrid" type="int" public="false" private="false" save="false" desc="间隔格数"/>
+		<property name="CallBackFunction" type="string" public="false" private="false" save="false" desc="回调函数"/>
+		<property name="MotionMethod" type="int" public="false" private="false" save="false" desc="寻路方式"/>
+		<property name="SelfLastX" type="float" public="false" private="false" save="false" desc="自身上次坐标点X"/>
+		<property name="SelfLastZ" type="float" public="false" private="false" save="false" desc="自身上次坐标点Z"/>
+	
+    </properties>
+    <records>
+        <record name="AIFindPathRec" cols="2" maxrows="1024" save="false" public="false" private="false" desc="寻路表">
+        	<column type="float" desc="x"/>
+        	<column type="float" desc="z"/>
+        </record>
+	<record name="RoundPathListRec" cols="2" maxrows="128" save="false" public="false" private="false" desc="绕开障碍物所走过的格子">
+        	<column type="dword" desc="格子索引"/>
+		<column type="dword" desc="重复走过的次数"/>
+        </record>
+	<record name="FindRoundPathRec" cols="2" maxrows="128" save="false" public="false" private="false" desc="动态寻路路径">
+        	<column type="dword" desc="格子索引"/>
+		<column type="dword" desc="被访问次数"/>
+        </record>
+	<record name="CantArriveGridListRec" cols="1" maxrows="128" save="false" public="false" private="false" desc="无法到达的格子列表">
+        	<column type="dword" desc="格子索引"/>
+        </record>
+    </records>
+</object>

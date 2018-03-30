@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Object>
+<Property ID="Mount3000101" Script="RideItem" BaseAddPkg="14301001" RideStar="1" RideStep="0" DefaultSkin="14301"></Property>
+</Object>

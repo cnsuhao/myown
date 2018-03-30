@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="gb2312"?>
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<property name="OwnSkills" type="string" public="false" private="false" save="false" desc="拥有的技能（普通技能除外）"/>
+	</properties>
+</object>

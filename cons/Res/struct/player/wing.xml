@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<object>
+		<!-- 基本属性 -->
+	<properties>
+		<property name="WingLevel" type="byte" public="false" private="true" save="true" desc="翅膀等级"/>
+		<property name="WingStep" type="byte" public="false" private="true" save="true" desc="翅膀阶级"/>
+		<property name="WingStepBless" type="byte" public="false" private="true" save="true" desc="翅膀升阶祝福值"/>
+	</properties>
+	<records>
+	</records>
+</object>

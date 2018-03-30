@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<object>
+	<internals/>
+	<properties>
+		<property name="Dead" type="byte" public="true" private="true" save="true" realtime="true" desc="死亡状态0:未死亡,1:已死亡"/>
+		<property name="BuffDisplayID" type="string" public="true" private="true" save="true" realtime="" desc="buff显示的id"/>
+		<property name="FightState" type="byte" public="false" private="true" save="false" realtime="" desc="战斗状态 0否1是"/>
+		<property name="FightTime" type="int64" public="false" private="false" save="false" realtime="" desc="开始战斗时间"/>
+		<property name="FightActionState" type="byte" public="false" private="false" save="false" realtime="" desc="战斗行为状态"/>
+		<property name="Camp" type="byte" public="true" private="true" save="false" realtime="" desc="阵营"/>
+	</properties>
+	<includes>
+		<path name="struct\rule\fight\flow.xml" desc=""/>
+		<path name="struct\rule\fight\skilluse.xml" desc=""/>
+		<path name="struct\rule\fight\buffadd.xml" desc=""/>
+		<path name="struct\rule\fight\Gaint.xml" desc=""/>
+	</includes>
+</object>

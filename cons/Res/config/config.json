@@ -1,0 +1,10 @@
+[
+	{
+		"name":"通用活动配置",
+		"key":"DynamicActTime",
+		"type":1,
+		"cfgid":0,
+		"path":"../res/ini/rule/DynamicActivityTime.xml",
+		"template":"../res/config/template/dynamic_activity.xml"
+	}
+]

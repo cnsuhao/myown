@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<object>
+    <properties>
+        <property name="TranslateSceneID" type="string" public="false" private="false" save="false" desc="传送场景编号（公式）" />
+        <property name="TranslatePosX" type="float" public="false" private="false" save="false"  desc="坐标X" />
+		<property name="TranslatePosY" type="float" public="false" private="false" save="false"  desc="坐标Y" />
+		<property name="TranslatePosZ" type="float" public="false" private="false" save="false"  desc="坐标Z" />
+		<property name="TranslateAy" type="float" public="false" private="false" save="false"  desc="传送朝向" />
+    </properties>
+</object>

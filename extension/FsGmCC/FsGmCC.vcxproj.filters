@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="protocols">
+      <UniqueIdentifier>{0e095a46-c5de-43b8-babd-767c527ee2e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="public">
+      <UniqueIdentifier>{bc3d7060-9ef7-475e-a1f8-a853921ffeab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="services">
+      <UniqueIdentifier>{99c814e9-9c50-432d-bb91-9d855bfffd57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{f0bc5680-dab1-4094-9958-d60b701e5bf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="model">
+      <UniqueIdentifier>{59343592-7501-4be8-84f3-9665284a90df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="handler">
+      <UniqueIdentifier>{bf282ba1-8bb8-49f8-a150-c3fe55bb3992}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\json">
+      <UniqueIdentifier>{a1446926-5276-400c-b7df-2a93fca72470}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\rapidxml">
+      <UniqueIdentifier>{d3d4057c-c529-4428-b5ae-d652d7337937}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gen-cpp">
+      <UniqueIdentifier>{021f19e6-6df9-47d7-9a2d-ecc873330d23}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\public\EntNetBase.h">
+      <Filter>public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\public\FsLogger.h">
+      <Filter>public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\public\GameLogger.h">
+      <Filter>public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\public\MsgEncoder.h">
+      <Filter>public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\public\NetHandler.h">
+      <Filter>public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\public\win_string.h">
+      <Filter>public</Filter>
+    </ClInclude>
+    <ClInclude Include="services\EntNetManager.h">
+      <Filter>services</Filter>
+    </ClInclude>
+    <ClInclude Include="services\SoloGmcc.h">
+      <Filter>services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\protocols\NetTextAction.h">
+      <Filter>protocols</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\protocols\NetWorldAction.h">
+      <Filter>protocols</Filter>
+    </ClInclude>
+    <ClInclude Include="services\EntHttp.h">
+      <Filter>services</Filter>
+    </ClInclude>
+    <ClInclude Include="services\EntEcho.h">
+      <Filter>services</Filter>
+    </ClInclude>
+    <ClInclude Include="services\EntRpc.h">
+      <Filter>services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\public\FsThreadQueue.h">
+      <Filter>public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\public\OuterDefine.h">
+      <Filter>public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\public\ServerManager.h">
+      <Filter>public</Filter>
+    </ClInclude>
+    <ClInclude Include="model\NoticeInfo.h">
+      <Filter>model</Filter>
+    </ClInclude>
+    <ClInclude Include="protocols\NetWorldGmcc.h">
+      <Filter>protocols</Filter>
+    </ClInclude>
+    <ClInclude Include="handler\RpcHandler.h">
+      <Filter>handler</Filter>
+    </ClInclude>
+    <ClInclude Include="handler\RpcServer.h">
+      <Filter>handler</Filter>
+    </ClInclude>
+    <ClInclude Include="model\CmdInfo.h">
+      <Filter>model</Filter>
+    </ClInclude>
+    <ClInclude Include="model\MailData.h">
+      <Filter>model</Filter>
+    </ClInclude>
+    <ClInclude Include="model\ExchGiftInfo.h">
+      <Filter>model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\protocols\NetVarListAction.h">
+      <Filter>protocols</Filter>
+    </ClInclude>
+    <ClInclude Include="protocols\ProtocolsID.h">
+      <Filter>protocols</Filter>
+    </ClInclude>
+    <ClInclude Include="protocols\NetGmccMessagePacker.h">
+      <Filter>protocols</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\utils\string_util.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\utils\json.h">
+      <Filter>utils\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\utils\json-forwards.h">
+      <Filter>utils\json</Filter>
+    </ClInclude>
+    <ClInclude Include="model\PayedOrder.h">
+      <Filter>model</Filter>
+    </ClInclude>
+    <ClInclude Include="model\PlayerData.h">
+      <Filter>model</Filter>
+    </ClInclude>
+    <ClInclude Include="protocols\NetWorldPush.h">
+      <Filter>protocols</Filter>
+    </ClInclude>
+    <ClInclude Include="model\PushData.h">
+      <Filter>model</Filter>
+    </ClInclude>
+    <ClInclude Include="model\PushDef.h">
+      <Filter>model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\public\base64.h">
+      <Filter>public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\public\url_encode.h">
+      <Filter>public</Filter>
+    </ClInclude>
+    <ClInclude Include="model\ServerInfo.h">
+      <Filter>model</Filter>
+    </ClInclude>
+    <ClInclude Include="model\ShopItem.h">
+      <Filter>model</Filter>
+    </ClInclude>
+    <ClInclude Include="protocols\NetWorldActivity.h">
+      <Filter>protocols</Filter>
+    </ClInclude>
+    <ClInclude Include="protocols\NetWorkPayed.h">
+      <Filter>protocols</Filter>
+    </ClInclude>
+    <ClInclude Include="model\GameInfo.h">
+      <Filter>model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\rapidxml\rapidxml.hpp">
+      <Filter>utils\rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\rapidxml\rapidxml_iterators.hpp">
+      <Filter>utils\rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\rapidxml\rapidxml_print.hpp">
+      <Filter>utils\rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\rapidxml\rapidxml_utils.hpp">
+      <Filter>utils\rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\public\FsDelayQueue.h">
+      <Filter>public</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\model_constants.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\model_types.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\service_constants.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\service_types.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\utils\util_func.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\exception_constants.h">
+      <Filter>gen-cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\exception_types.h">
+      <Filter>gen-cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\GMCCServer.h">
+      <Filter>gen-cpp</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FsGmCC.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\public\EntNetBase.cpp">
+      <Filter>public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\public\MsgEncoder.cpp">
+      <Filter>public</Filter>
+    </ClCompile>
+    <ClCompile Include="services\SoloGmcc.cpp">
+      <Filter>services</Filter>
+    </ClCompile>
+    <ClCompile Include="services\EntHttp.cpp">
+      <Filter>services</Filter>
+    </ClCompile>
+    <ClCompile Include="services\EntEcho.cpp">
+      <Filter>services</Filter>
+    </ClCompile>
+    <ClCompile Include="services\EntRpc.cpp">
+      <Filter>services</Filter>
+    </ClCompile>
+    <ClCompile Include="handler\RpcServer.cpp">
+      <Filter>handler</Filter>
+    </ClCompile>
+    <ClCompile Include="handler\RpcHandler.cpp">
+      <Filter>handler</Filter>
+    </ClCompile>
+    <ClCompile Include="protocols\NetGmccMessagePacker.cpp">
+      <Filter>protocols</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\utils\string_util.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\utils\jsoncpp.cpp">
+      <Filter>utils\json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\public\base64.cpp">
+      <Filter>public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\public\url_encode.cpp">
+      <Filter>public</Filter>
+    </ClCompile>
+    <ClCompile Include="model\GameInfo.cpp">
+      <Filter>model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\utils\util_func.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\exception_constants.cpp">
+      <Filter>gen-cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\exception_types.cpp">
+      <Filter>gen-cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\GMCCServer.cpp">
+      <Filter>gen-cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\model_constants.cpp">
+      <Filter>gen-cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\model_types.cpp">
+      <Filter>gen-cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\service_constants.cpp">
+      <Filter>gen-cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\service_types.cpp">
+      <Filter>gen-cpp</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

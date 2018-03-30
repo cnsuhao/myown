@@ -1,0 +1,5 @@
+三、RoomLogic的struct定义：
+0.RoomLogic是与FsGame完全隔绝的模块，他们之间除了进入房间之初有数据拷贝之外（这个数据拷贝是逻辑层自己根据需要，查询属性名称一个一个赋值的）。在运行过程中没有数据交互。
+1.RoomLogic的属性定义可以和FsGame的定义完全不同。根据逻辑需要定义自己的属性，以及属性的可视性。
+2.RoomLogic中的属性定义必须严格控制可视性，因为在pvp和多人副本情况下，数据会向客户端同步。如果不是客户端(fm_game)必须的，不能设置可视。
+3.RoomLogic中的属性save=true是没有意义的，RoomLogic不会写数据库，同时RoomLogic修改后的属性也不会影响到FsGame。

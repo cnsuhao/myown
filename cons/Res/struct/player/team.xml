@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<object>
+	<internals/>
+	<properties>
+		<property name="TeamID" type="int" public="false" private="true" save="true" realtime="" desc="队伍编号"/>
+		<property name="TeamCaptain" type="widestr" public="false" private="false" save="true" realtime="" desc="队长"/>
+		<property name="AutoMatch" type="int" public="false" private="true" save="false" realtime="" desc="自动匹配"/>
+	</properties>
+	<records>
+		<record name="team_rec" cols="22" maxrows="4" save="true" public="false" private="true" desc="队伍成员列表">
+			<column type="string" desc="UID"/>
+			<column type="widestr" desc="队员名"/>
+			<column type="dword" desc="等级"/>
+			<column type="byte" desc="职业"/>
+			<column type="byte" desc="性别"/>
+			<column type="dword" desc="战斗力"/>
+			<column type="int64" desc="上次离线时间"/>
+			<column type="byte" desc="队伍的职位"/>
+			<column type="dword" desc="场景编号"/>
+			<column type="string" desc="Buffers"/>
+			<column type="int64" desc="HP"/>
+			<column type="widestr" desc="公会名称"/>
+			<column type="int64" desc="MaxHP"/>
+			<column type="byte" desc="跟随状态"/>
+			<column type="byte" desc="准备状态"/>
+			<column type="dword" desc="副本ID"/>
+			<column type="byte" desc="Online"/>
+			<column type="float" desc="x坐标"/>
+			<column type="float" desc="z坐标"/>
+			<column type="byte" desc="能否被踢出队伍"/>
+			<column type="byte" desc="战斗状态"/>
+			<column type="word" desc="vip"/>
+		</record>
+		<record name="nearby_team_rec" cols="8" maxrows="10" save="false" public="false" private="true" desc="附近队伍表">
+			<column type="byte" desc="队伍编号"/>
+			<column type="widestr" desc="队长名字"/>
+			<column type="dword" desc="队长等级"/>
+			<column type="byte" desc="队长职业"/>
+			<column type="byte" desc="队长性别"/>
+			<column type="dword" desc="队长战斗力"/>
+			<column type="dword" desc="队伍目标"/>
+			<column type="byte" desc="队伍人数"/>
+		</record>
+		<record name="request_rec" cols="9" maxrows="30" save="false" public="false" private="false" desc="添加请求者表(记录当前玩家所发送过的所有请求)">
+			<column type="byte" desc="请求索引"/>
+			<column type="widestr" desc="请求者姓名"/>
+			<column type="byte" desc="请求类型"/>
+			<column type="byte" desc="请求时间"/>
+			<column type="byte" desc="请求状态"/>
+			<column type="byte" desc="职业"/>
+			<column type="dword" desc="战斗力"/>
+			<column type="word" desc="等级"/>
+			<column type="word" desc="性别"/>
+		</record>
+	</records>
+	<includes/>
+</object>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!--技能的属性数据-->
+<object>
+	<!-- 基本属性 -->
+	<internals>
+		<property name="Config" type="string" public="false" private="true" save="false" desc="编号"/>
+	</internals>
+	<properties>
+		<property name="Level" type="int" public="false" private="true" save="true" realtime="true" desc="级别"/>
+	</properties>
+</object>

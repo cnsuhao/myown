@@ -1,0 +1,34 @@
+<!-- 
+name:	service_config
+param:  mode_sync				工作模式，0随机，1并发 ,可动态修改
+param:	param_random			参数是否随机执行,1:true,0:false ,可动态修改
+param:	param_interval_time		每次执行时间间隔，单位毫秒。默认100ms ,可动态修改
+param:  param_interval_addit	每次执行附加间隔，单位毫秒。默认0ms ,可动态修改
+param:	param_per_robot		每次执行robot数量 ,可动态修改
+
+param:	entry_ip		Entry服務器ip地址 123.207.7.169,123.207.6.23
+param:	entry_port		Entry服務器端口,默認2001
+param:	login_type		1,使用测试账号库登录; 2,使用xy计费登陆
+
+param:	prefix_account	 帐号前缀 srobot
+param:	prefix_name		 名字前缀  trob
+
+memo：	1).机器人设置随机模式下可用
+		2).robot_random=1,随机选取robot执行任务
+		3).param_random=1,param_interval_time/param_per_robot参数随机。
+-->
+<service_config>
+	<row mode_sync="1" 
+		 param_random="0" 
+		 param_interval_time="10000"
+		 param_interval_addit="5000"
+		 param_per_robot="2" 
+		 entry_ip="192.168.10.6"
+		 entry_port="2001"
+		 login_type="2"
+		 prefix_account="autotest"
+		 prefix_name="autotest"
+		 />
+</service_config>
+
+<!--内网ip：192.168.10.6   外网ip：139.199.173.139-->

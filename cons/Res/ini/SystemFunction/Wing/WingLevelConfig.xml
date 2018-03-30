@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!--ID:级别 CapitalNum:消耗的货币 CapitalType:货币类型 CostItem:消耗的物品 CostItemNum:物品数量 PropertyPak:属性包id-->
+<Object>
+	<Property ID="1" CapitalNum="1540" CapitalType="0" CostItem="0" CostItemNum="1" PropertyPak="1"/>
+	<Property ID="2" CapitalNum="5460" CapitalType="0" CostItem="0" CostItemNum="2" PropertyPak="2"/>
+	<Property ID="3" CapitalNum="11120" CapitalType="0" CostItem="0" CostItemNum="3" PropertyPak="3"/>
+	<Property ID="4" CapitalNum="18520" CapitalType="0" CostItem="0" CostItemNum="4" PropertyPak="4"/>
+	<Property ID="5" CapitalNum="27290" CapitalType="0" CostItem="0" CostItemNum="5" PropertyPak="5"/>
+</Object>

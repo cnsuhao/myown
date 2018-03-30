@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<property name="CurState" type="int" public="false" private="false" save="false" desc="当前状态"/>
+		<property name="SubState" type="int" public="false" private="false" save="false" desc="当前状态的子状态"/>
+		<property name="AITargetObejct" type="object" public="false" private="false" save="false" desc="当前AI目标对象"/>
+		<property name="AITemplate" type="int" public="false" private="false" save="false" desc="AI模块"/>
+		<property name="Initiative" type="int" public="false" private="false" save="false" desc="是否主动"/>
+		<property name="FightAttackFreq" type="int" public="false" private="false" save="false" desc="攻击频率"/>
+		<property name="LastAttackTime" type="int" public="false" private="false" save="false" desc="从上次攻击到现在过去的攻击心跳检测时间(攻击心间隔回调累加值)"/>
+		<property name="PatrolMode" type="int" public="false" private="false" save="false" desc="巡逻模式"/>
+		<property name="BornX" type="float" public="false" private="false" save="false" desc="出生点"/>
+		<property name="BornZ" type="float" public="false" private="false" save="false" desc="出生点"/>
+    	<property name="BornOrient" type="float" public="false" private="false" save="false" desc="出生点朝向"/>
+		<property name="MinAttackDist" type="float" public="false" private="false" save="false" desc="最小攻击距离"/>
+		<property name="MaxAttackDist" type="float" public="false" private="false" save="false" desc="最大攻击距离"/>
+	    <property name="PathID" type="int" public="false" private="false" save="false" desc="寻路路径ID"/>
+		<property name="Recuperate" type="int" public="false" private="false" save="false" desc="休养时间"/>
+		<property name="EscapeWarningHPRate" type="float" public="false" private="false" save="false" desc="逃跑警戒HP比例"/>
+		<property name="EscapeLastTime" type="int" public="false" private="false" save="false" desc="逃跑行为的持续时间"/>
+		<property name="EscapeCD" type="int" public="false" private="false" save="false" desc="触发逃跑的CD"/>
+	</properties>
+
+	<!-- 表属性 -->
+	<records>
+		<!-- 定点巡逻表 -->
+		<record name="PatrolPointRec" cols="3" maxrows="64" save="false" visible="false" desc="定点巡逻表">
+			<column type="float" name="X"/>
+			<column type="float" name="Z"/>
+			<column type="dword" name="StayTime" desc="停留时间，单位ms"/>
+		</record>
+		
+		<!-- 攻击对象表 -->
+		<record name="AttackerList" cols="4" maxrows="2000" save="false" visible="false" desc="攻击对象表">
+			<column type="object" desc="对象"/>
+			<column type="dword" desc="仇恨值"/>
+			<column type="int64" desc="最近攻击时间"/>
+			<column type="int64" desc="第一次攻击时间"/>
+		</record>
+		
+		<!--寻路路径点表 -->
+		<record name="FindPathPointList" cols="2" maxrows="64" save="false" visible="false" desc="寻路路径点表">
+			<column type="float" name="X" desc="X坐标"/>
+			<column type="float" name="Y" desc="Y坐标"/>
+		</record>	
+
+		<!--npc技能编号表 -->
+		<record name="boss_skill_rec" cols="2" maxrows="10" save="false" visible="false" desc="NPC技能表">			
+			<column type="string" desc="技能ID"/>
+			<column type="int" desc="当前权值"/>
+		</record>
+
+	</records>
+</object>

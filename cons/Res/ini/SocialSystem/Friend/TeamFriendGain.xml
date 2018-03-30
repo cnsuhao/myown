@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<Object>
+	<Property ID="0" FriendNum="1" BuffID="Buff_Exp_10001"/>
+	<Property ID="1" FriendNum="2" BuffID="Buff_Exp_10002"/>
+	<Property ID="2" FriendNum="3" BuffID="Buff_Exp_10003"/>
+</Object>

@@ -1,0 +1,28 @@
+/setobj
+/setobj select
+/set RunSpeed 10
+/set Defend 100
+/set MinAttack 10
+/set MaxAttack 10
+/set Level 100
+
+/query RunSpeed
+/query Miss
+
+
+/goto 10 30
+/ss 2
+
+/cobj Monster_10004
+/pos
+/goto -120 -39
+/place_item Item2010001 5	增加普通物品 (Item2090001 Item2090002 Item2090003)
+/cobjitem BianStone2080001 2    增加砭石(BianStone2080001 - BianStone2080006)
+/inccapital 1 10000 		加钱
+
+/repeat_task taskid
+/complete_task taskid
+/add_buff buffid
+
+/clearbagitem 	清理背包
+/drop ss 1  测试掉落包

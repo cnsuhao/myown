@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!--经脉属性-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<property name="SkillPoint" type="DWORD" public="false" private="true" save="true" realtime="" desc="技能点"/>
+	</properties>
+</object>

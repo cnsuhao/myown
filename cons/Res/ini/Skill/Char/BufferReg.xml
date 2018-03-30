@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Object>
+<Property ID="buff_Forever_CantMove" Script="Buffer" LifeTime="3000"></Property>
+<Property ID="buff_Forever_CantAttack" Script="Buffer" LifeTime="3000"></Property>
+<Property ID="buff_Forever_CantBeAttack" Script="Buffer" LifeTime="3000"></Property>
+<Property ID="buff_Forever_CantUseSkill" Script="Buffer" LifeTime="3000"></Property>
+<Property ID="buff_CantMove" Script="Buffer" LifeTime="3000"></Property>
+<Property ID="buff_CantAttack" Script="Buffer" LifeTime="3000"></Property>
+<Property ID="buff_CantBeAttack" Script="Buffer" LifeTime="3000"></Property>
+<Property ID="buff_CantUseSkill" Script="Buffer" LifeTime="3000"></Property>
+<Property ID="buff_401101_01" Script="Buffer" LifeTime="5000"></Property>
+</Object>

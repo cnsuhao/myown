@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="gb2312"?>
+<object>
+	<internals/>
+	<properties>
+    </properties>
+	<records>
+		<record name="activate_function_rec" cols="1" maxrows="500" save="true" public="false" private="true" desc="功能激活表">
+			<column type="byte" name="type" desc="功能类型"/>
+		</record>
+	</records>
+	<includes/>
+</object>

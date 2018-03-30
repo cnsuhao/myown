@@ -1,0 +1,14 @@
+1.no this property	查不到属性
+2.AddRowValue value	增加表格数据错误
+3.not found path	找不到寻路路径
+4.value number error	表AddRowValue时,变量个数与表列数不一致
+5.value type not	查询表数据类型错误
+6.property not found	找不到属性
+7.running exceed	某个函数超时(30ms以上)
+8.row error		查询表,行号错误
+9.[Error-Logic]		逻辑层输出的error级别日志
+10.set value failed
+11.ENGINEER-WARN	引擎层警告日志
+12.row number exceed	增加表数据时,超过表格最大行数
+13.col type not match   表列的数据类型不匹配
+14.row error		查询行号不存在

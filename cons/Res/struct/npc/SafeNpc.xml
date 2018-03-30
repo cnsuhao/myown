@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<object>
+    <properties>
+        <property name="SafeRule" type="int" public="false" private="false" save="false" desc="保护规则" />
+    </properties>
+</object>

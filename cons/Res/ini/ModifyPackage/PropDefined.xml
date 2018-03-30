@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Object>
+<Property ID="-1" Name="0" DataType="1" RelationFormula0="2" RelationFormula1="3" RelationFormula2="4" RelationFormula3="5" RelationFormula4="6"></Property>
+<Property ID="0" Name="6" DataType="6" RelationFormula0="6" RelationFormula1="6" RelationFormula2="6" RelationFormula3="6" RelationFormula4="6"></Property>
+<Property ID="Str" Name="力量" DataType="int"></Property>
+<Property ID="Dex" Name="敏捷" DataType="int"></Property>
+<Property ID="Sta" Name="体力" DataType="int"></Property>
+<Property ID="Ing" Name="智力" DataType="int"></Property>
+<Property ID="Spi" Name="精神" DataType="int"></Property>
+<Property ID="HP" Name="当前HP值" DataType="int64"></Property>
+<Property ID="MP" Name="当前MP值" DataType="int64"></Property>
+<Property ID="MaxMP" Name="最大MP值" DataType="int64" RelationFormula0="1000"></Property>
+<Property ID="MaxHP" Name="最大气血值" DataType="int64" RelationFormula0="(@Sta*2+@HPAdd)*(@HPRate/10000+1)" RelationFormula1="(@Sta*2+@HPAdd)*(@HPRate/10000+1)" RelationFormula2="(@Sta*2+@HPAdd)*(@HPRate/10000+1)" RelationFormula3="(@Sta*2+@HPAdd)*(@HPRate/10000+1)" RelationFormula4="(@Sta*2+@HPAdd)*(@HPRate/10000+1)"></Property>
+<Property ID="PhysAttack" Name="物理攻击" DataType="int" RelationFormula0="(@Dex*1+@Str*1+@PhysAttackAdd)*(@PhysAttackRate/10000+1)" RelationFormula1="(@Dex*1+@Str*1+@PhysAttackAdd)*(@PhysAttackRate/10000+1)" RelationFormula2="(@Dex*1+@Str*1+@PhysAttackAdd)*(@PhysAttackRate/10000+1)" RelationFormula3="(@Dex*1+@Str*1+@PhysAttackAdd)*(@PhysAttackRate/10000+1)" RelationFormula4="(@Dex*1+@Str*1+@PhysAttackAdd)*(@PhysAttackRate/10000+1)"></Property>
+<Property ID="MagicAttack" Name="法术攻击" DataType="int" RelationFormula0="(@Ing*1+@MagicttackAdd)*(@MagicAttackRate/10000+1)" RelationFormula1="(@Ing*1+@MagicttackAdd)*(@MagicAttackRate/10000+1)" RelationFormula2="(@Ing*1+@MagicttackAdd)*(@MagicAttackRate/10000+1)" RelationFormula3="(@Ing*1+@MagicttackAdd)*(@MagicAttackRate/10000+1)" RelationFormula4="(@Ing*1+@MagicttackAdd)*(@MagicAttackRate/10000+1)"></Property>
+<Property ID="PhysDefend" Name="物理防御" DataType="int" RelationFormula0="(@Sta*0.6+@Spi*0.4+@PhysDefendAdd)*(@PhysDefendRate/10000+1)" RelationFormula1="(@Sta*0.6+@Spi*0.4+@PhysDefendAdd)*(@PhysDefendRate/10000+1)" RelationFormula2="(@Sta*0.6+@Spi*0.4+@PhysDefendAdd)*(@PhysDefendRate/10000+1)" RelationFormula3="(@Sta*0.6+@Spi*0.4+@PhysDefendAdd)*(@PhysDefendRate/10000+1)" RelationFormula4="(@Sta*0.6+@Spi*0.4+@PhysDefendAdd)*(@PhysDefendRate/10000+1)"></Property>
+<Property ID="MagicDefend" Name="法术防御" DataType="int" RelationFormula0="(@Sta*0.6+@Spi*0.4+@MagicDefendAdd)*(@MagicDefendRate/10000+1)" RelationFormula1="(@Sta*0.6+@Spi*0.4+@MagicDefendAdd)*(@MagicDefendRate/10000+1)" RelationFormula2="(@Sta*0.6+@Spi*0.4+@MagicDefendAdd)*(@MagicDefendRate/10000+1)" RelationFormula3="(@Sta*0.6+@Spi*0.4+@MagicDefendAdd)*(@MagicDefendRate/10000+1)" RelationFormula4="(@Sta*0.6+@Spi*0.4+@MagicDefendAdd)*(@MagicDefendRate/10000+1)"></Property>
+<Property ID="Hit" Name="命中" DataType="int" RelationFormula0="(@Str*0.02+@Ing*0.02+@HitAdd)*(@HitRate/10000+1)" RelationFormula1="(@Str*0.02+@Ing*0.02+@HitAdd)*(@HitRate/10000+1)" RelationFormula2="(@Str*0.02+@Ing*0.02+@HitAdd)*(@HitRate/10000+1)" RelationFormula3="(@Str*0.02+@Ing*0.02+@HitAdd)*(@HitRate/10000+1)" RelationFormula4="(@Str*0.02+@Ing*0.02+@HitAdd)*(@HitRate/10000+1)"></Property>
+<Property ID="Miss" Name="闪避" DataType="int" RelationFormula0="(@Dex*0.02+@MissAdd)*(@MissRate/10000+1)" RelationFormula1="(@Dex*0.02+@MissAdd)*(@MissRate/10000+1)" RelationFormula2="(@Dex*0.02+@MissAdd)*(@MissRate/10000+1)" RelationFormula3="(@Dex*0.02+@MissAdd)*(@MissRate/10000+1)" RelationFormula4="(@Dex*0.02+@MissAdd)*(@MissRate/10000+1)"></Property>
+<Property ID="Crit" Name="会心(暴击)" DataType="int" RelationFormula0="(@Dex*0.02+@CritAdd)*(@CritRate/10000+1)" RelationFormula1="(@Dex*0.02+@CritAdd)*(@CritRate/10000+1)" RelationFormula2="(@Dex*0.02+@CritAdd)*(@CritRate/10000+1)" RelationFormula3="(@Dex*0.02+@CritAdd)*(@CritRate/10000+1)" RelationFormula4="(@Dex*0.02+@CritAdd)*(@CritRate/10000+1)"></Property>
+<Property ID="Toug" Name="会心防御" DataType="int" RelationFormula0="(@Spi*0.02+@TougAdd)*(@TougRate/10000+1)" RelationFormula1="(@Spi*0.02+@TougAdd)*(@TougRate/10000+1)" RelationFormula2="(@Spi*0.02+@TougAdd)*(@TougRate/10000+1)" RelationFormula3="(@Spi*0.02+@TougAdd)*(@TougRate/10000+1)" RelationFormula4="(@Spi*0.02+@TougAdd)*(@TougRate/10000+1)"></Property>
+<Property ID="PhysPenetrate" Name="物理穿透" DataType="int" RelationFormula0="(@Str*1+@PhysPenetrateAdd)*(@PhysPenetrateRate/10000+1)" RelationFormula1="(@Str*1+@PhysPenetrateAdd)*(@PhysPenetrateRate/10000+1)" RelationFormula2="(@Str*1+@PhysPenetrateAdd)*(@PhysPenetrateRate/10000+1)" RelationFormula3="(@Str*1+@PhysPenetrateAdd)*(@PhysPenetrateRate/10000+1)" RelationFormula4="(@Str*1+@PhysPenetrateAdd)*(@PhysPenetrateRate/10000+1)"></Property>
+<Property ID="MagicPenetrate" Name="法术穿透" DataType="int" RelationFormula0="(@Ing*1+@MagicPenetrateAdd)*(@MagicPenetrateRate/10000+1)" RelationFormula1="(@Ing*1+@MagicPenetrateAdd)*(@MagicPenetrateRate/10000+1)" RelationFormula2="(@Ing*1+@MagicPenetrateAdd)*(@MagicPenetrateRate/10000+1)" RelationFormula3="(@Ing*1+@MagicPenetrateAdd)*(@MagicPenetrateRate/10000+1)" RelationFormula4="(@Ing*1+@MagicPenetrateAdd)*(@MagicPenetrateRate/10000+1)"></Property>
+<Property ID="HPAdd" Name="附加气血" DataType="int"></Property>
+<Property ID="HPRate" Name="气血增幅 2级属性" DataType="int"></Property>
+<Property ID="MPAdd" Name="附加灵力" DataType="int"></Property>
+<Property ID="MPRate" Name="灵力增幅" DataType="int"></Property>
+<Property ID="PhysAttackAdd" Name="附加 物理攻击" DataType="int"></Property>
+<Property ID="MagicttackAdd" Name="附加 法术攻击" DataType="int"></Property>
+<Property ID="PhysAttackRate" Name="物理攻击强度 2级属性" DataType="int"></Property>
+<Property ID="MagicAttackRate" Name="法术攻击强度 2级属性" DataType="int"></Property>
+<Property ID="PhysDefendAdd" Name="附加 物理防御" DataType="int"></Property>
+<Property ID="MagicDefendAdd" Name="附加 法术防御" DataType="int"></Property>
+<Property ID="PhysDefendRate" Name="物理防御强度 2级属性" DataType="int"></Property>
+<Property ID="MagicDefendRate" Name="法术防御强度 2级属性" DataType="int"></Property>
+<Property ID="HitAdd" Name="附加 命中" DataType="int"></Property>
+<Property ID="HitRate" Name="命中率" DataType="int"></Property>
+<Property ID="MissAdd" Name="附加 回避" DataType="int"></Property>
+<Property ID="MissRate" Name="回避率" DataType="int"></Property>
+<Property ID="CritAdd" Name="附加 会心(暴击)" DataType="int"></Property>
+<Property ID="CritRate" Name="会心率" DataType="int"></Property>
+<Property ID="TougAdd" Name="附加 会心防御" DataType="int"></Property>
+<Property ID="TougRate" Name="会心防御率" DataType="int"></Property>
+<Property ID="PhysPenetrateAdd" Name="附加 物理穿透" DataType="int"></Property>
+<Property ID="MagicPenetrateAdd" Name="附加 法术穿透" DataType="int"></Property>
+<Property ID="PhysPenetrateRate" Name="物理穿透率" DataType="int"></Property>
+<Property ID="MagicPenetrateRate" Name="法术穿透率" DataType="int"></Property>
+<Property ID="AddHurtRate" Name="增伤" DataType="int"></Property>
+<Property ID="DecHurtRate" Name="减伤" DataType="int"></Property>
+<Property ID="MaxGaintVal" Name="定力" DataType="int"></Property>
+</Object>

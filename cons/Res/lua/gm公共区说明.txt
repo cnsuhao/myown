@@ -1,0 +1,29 @@
+1. 输出公共数据表所有数据
+格式: pubrecquery <pubname> <dataname> <recname>
+
+2. 查找公共数据表值，返回行号
+格式: pubrecfindrow <pubname> <dataname> <recname> <col> <colvalue>
+
+3. 清除公共数据表
+格式: pubrecclear <pubspace> <pubname> <recname>
+
+4. 给公共表添加一行数据
+格式: pubrecaddrow <pubspace> <pubname> <recname> ...
+
+5. 设置公共数据的表格值
+格式: pubrecset <pubspace> <pubname> <recname> <row> <col> <value>
+
+6. 删除公共数据区指定表格指定行的数据
+格式: pubrecremove <pubname> <dataname> <recname> <rowindex>
+
+7. 删除公共数据区指定表某个数据行(根据值删除)
+格式: pubrovbykey <pubname> <dataname> <recname> <col> <value>
+
+8. 查询公共区某个属性值
+格式: pubpropquery <pubname> <dataname> <propname>
+
+9. 设置公共区某个属性值
+格式: pubpropset <pubname> <dataname> <propname> <value>
+
+10. 查找模块名
+格式: findmodule modulename

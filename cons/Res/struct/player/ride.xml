@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!--坐骑属性-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<property name="ActivatedRide" type="int" public="true" private="true" save="true" desc="当前骑乘的皮肤ID"/>
+	</properties>
+	<!-- 表属性 -->
+</object>

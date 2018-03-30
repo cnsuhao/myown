@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--游戏对象属性定义模版文件-->
+<!--数据类型说明：
+	布尔（VTYPE_BOOL）:BOOL
+	32位整数（VTYPE_INT）：INT、BYTE、WORD、DWORD
+	64位整数（VTYPE_INT64）：INT64
+	单精度浮点数（VTYPE_FLOAT）:FLOAT
+	双精度浮点数（VTYPE_DOUBLE）:DOUBLE
+	字符串（VTYPE_STRING）:STRING
+	宽字符串（VTYPE_WIDESTR）:WIDESTR
+	对象号（VTYPE_OBJECT）:OBJECT
+	指针（VTYPE_POINTER）:POINTER
+	用户数据（VTYPE_USERDATA）:USERDATA
+	表（VTYPE_TABLE）:TABLE
+-->
+<object>
+	<properties>
+		<property name="BeforeGroup" type="word" public="false" private="false" save="false" desc="进入分组前的分组号"/>
+	</properties>
+	<records>					
+		<!-- 有效伤害记录表 -->
+		<record name="valid_damage_rec" cols="2" maxrows="1000" save="true" public="false" private="false" desc="有效伤害记录表">
+			<column type="string" name="uid" desc="玩家uid"/>
+			<column type="int64" name="time" desc="伤害时间"/>
+		</record>
+		<!-- 有效击杀玩家记录表 -->
+		<record name="valid_kill_rec" cols="2" maxrows="1000" save="true" public="false" private="false" desc="有效击杀玩家记录表">
+			<column type="string" name="uid" desc="玩家uid"/>
+			<column type="int64" name="time" desc="击杀时间"/>
+		</record>	
+	</records>
+</object>

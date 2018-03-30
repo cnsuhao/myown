@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Object>
+<Property ID="1" Step="0" NeedStar="3" UpgradeFeeding="50,50,100,150"/>
+<Property ID="2" Step="1" NeedStar="5" UpgradeFeeding="660,730,800,860,930,1390" SkinID="Skin_M3000102" Items="Item3120001:1"/>
+<Property ID="3" Step="2" NeedStar="7" UpgradeFeeding="930,1030,1120,1210,1310,1400,1490,2240" SkinID="Skin_M3000103" Items="Item3120002:1"/>
+<Property ID="4" Step="3" NeedStar="10" UpgradeFeeding="1240,1360,1490,1610,1730,1860,1980,2100,2230,2350,3530" Items="Item3120003:1"/>
+<Property ID="5" Step="4" NeedStar="10" UpgradeFeeding="2170,2380,2600,2820,3030,3250,3470,4020,4250,4490,6730" SkinID="Skin_M3000104"/>
+<Property ID="6" Step="5" NeedStar="10" UpgradeFeeding="5060,5570,6080,6580,7090,7590,8100,8610,9110,9620,14430" Items="Item3120004:1"/>
+<Property ID="7" Step="6" NeedStar="10" UpgradeFeeding="10130,11140,12150,13160,14180,15190,16200,17210,18230,19240,28860"/>
+<Property ID="8" Step="7" NeedStar="10" UpgradeFeeding="18280,20110,21940,23770,25600,27420,29250,31080,32910,34740,52100" SkinID="Skin_M3000105"/>
+<Property ID="9" Step="8" NeedStar="10" UpgradeFeeding="32910,36200,39490,42780,46070,49360,52650,55940,59240,62530,93790"/>
+<Property ID="10" Step="9" NeedStar="10" UpgradeFeeding="58500,64350,70200,76050,81910,87760,93610,99460,105310,111160,166740"/>
+<Property ID="11" Step="10" SkinID="Skin_M3000106"/>
+</Object>

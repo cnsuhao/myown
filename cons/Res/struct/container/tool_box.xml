@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="gb2312"?>
+
+<!-- 容器类 -->
+<object>
+
+	<internals>
+		<property name="Name" type="string" public="false" private="false" save="true" desc="名字"/>
+	</internals>
+	
+	<properties>
+		<property name="LockedSize" type="int" public="false" private="true" save="true" desc="锁定的格子数"/>
+	</properties>
+	
+	<records />
+	
+	<includes />
+</object>

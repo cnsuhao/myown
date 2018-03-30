@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!--加buff的数据表(npc,玩家角色共用)-->
+<object>
+	<!-- 表属性 -->
+	<records>
+		<record name="buff_add_rec" cols="2" maxrows="256" save="false" public="false" private="false" desc="加buff统计表">
+			<column type="int64" desc="加buff的时间"/>
+			<column type="dword" desc="debuff的类型"/>
+		</record>
+	</records>
+</object>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--Equip_Item的属性表，继承自Nim_Item，所有可装备的物品的基类-->
+<object>
+	<!-- 宝石属性 -->
+	<properties>
+        <property name="BasePackage" type="string" public="false" private="false" save="false" desc="宝石属性包"/>
+        <property name="PointValue" type="int" public="false" private="false" save="false" desc="价值点数"/>
+        <property name="UpMoney" type="int" public="false" private="false" save="false" desc="升级需要铜币"/>
+        <property name="UpLevel" type="int" public="false" private="false" save="false" desc="升级需要的玩家最低等级"/>
+        <property name="MountCost" type="int" public="false" private="false" save="false" desc="镶嵌此宝石的费用(铜币)"/>
+        <property name="ExtirpateCost" type="int" public="false" private="false" save="false" desc="摘除此宝石的费用(铜币)"/>
+		<property name="Level" type="int" public="false" private="false" save="false" desc="宝石等级"/>
+		<property name="Index" type="int" public="false" private="false" save="false" desc="宝石索引"/>
+	</properties>
+	
+	<!--表-->
+	<records>
+	</records>
+	
+	<!--从其他文件加载属性-->
+	<includes>
+	</includes>	
+</object>

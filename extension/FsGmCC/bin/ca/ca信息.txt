@@ -1,0 +1,12 @@
+Country Name (2 letter code) [AU]:cn
+State or Province Name (full name) [Some-State]:js
+Locality Name (eg, city) []:sz
+Organization Name (eg, company) [Internet Widgits Pty Ltd]:whalesgame
+Organizational Unit Name (eg, section) []:jaboy
+Common Name (e.g. server FQDN or YOUR name) []:www.whalesgame.com
+Email Address []:lihailuo@126.com
+
+Please enter the following 'extra' attributes
+to be sent with your certificate request
+A challenge password []:123456
+An optional company name []:

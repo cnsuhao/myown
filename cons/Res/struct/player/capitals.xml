@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="gb2312"?>
+<object>
+	<internals/>
+	<properties>
+    </properties>
+	<records>
+		<!-- 金钱表 -->
+		<record name="capital_rec" cols="3" maxrows="30" save="true" public="false" private="true" desc="资产表">
+			<column type="string" desc="资产名称"/>
+			<column type="byte" desc="资产类型"/>
+			<column type="int64" desc="资产数量"/>
+		</record>
+		<record name="dayToplimitCapital" cols="3" maxrows="30" save="true" public="false" private="true" desc="今日资产增加记录表">
+			<column type="string" desc="资产名称"/>
+			<column type="byte" desc="资产类型"/>
+			<column type="int64" desc="增加资产数量"/>
+		</record>
+	</records>
+	<includes/>
+</object>

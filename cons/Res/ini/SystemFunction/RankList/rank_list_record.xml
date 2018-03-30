@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Object>
+<Property ID="player_level_rank_list" AssociatedRankListStrategy="0" MaxRows="200" ColumnsName="player_uid,player_account,player_name,player_career,player_sex,player_nation,player_level,player_online_type,player_online,player_vip_level" OutputColumns="player_name,player_career,player_sex,player_nation,player_level,player_online,player_vip_level" PrimaryKey="player_uid" SortColumns="player_level" SortOrder="desc" ColumnsToResetOnStart="player_online" ClearStrategy="0" ClearAward="0"></Property>
+</Object>

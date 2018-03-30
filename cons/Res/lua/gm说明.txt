@@ -1,0 +1,605 @@
+1. 获得当前属性操作对象
+格式: get_prop_target
+
+2. 设置当前属性操作的对象 setobj [对象] [可选项]
+格式: setobj          设置自身为属性设置操作的对象
+格式: setobj gm       设置自身为属性设置操作的对象
+格式: setobj select       设置当前选中的对象为属性操作对象
+格式: setobj scene        设置当前场景为属性操作的对象
+格式: setobj child XXXXX  设置当前属性操作对象的指定名称的子对象为当前属性操作的对象
+格式: setobj index XXXXX  设置当前属性操作对象指定位置的子对象为当前属性操作的对象
+格式: setobj id XXXXX     设置当前属性操作对象为指定PERSISTID的对象
+格式: setobj config XXXXX 设置当前属性操作对象为指定CONFIGID的对象
+格式: setobj script XXXXX 设置当前属性操作对象为指定Script的对象
+格式: setobj view XXX XXXX设置当前属性操作对象为指定视窗ID的指定位置的对象
+
+3. 查询当前属性操作的对象的所有子对象
+格式: child
+
+4. 查询当前属性操作的对象的创建脚本和配置文件名称
+格式: see
+
+5. 查询当前属性操作的对象的所有属性
+格式: property
+
+6.设置当前属性操作的对象的属性值	[web]
+格式: set 属性名 属性值
+
+7. 新增对象的临时属性
+格式：adddata 属性名称 属性类型
+
+8. 移除对象的临时属性
+格式：removedata 属性名称
+
+9. 设置当前属性操作的对象的临时属性值
+格式: setdata 属性名 属性值
+
+10.查询当前属性操作的对象的属性值
+格式: query 属性名
+
+11. 查询当前属性操作的对象的属性值
+格式: querydata 属性名
+
+12. 查询当前属性操作的对象的所有表格名
+格式: record
+
+13. 设置当前属性操作的对象的表格值	[web]
+格式: recordset 表格名 行号 列号 值
+
+14.查询当前属性操作的对象的表格内容
+格式: recordquery 表格名
+
+15. 输出当前属性操作的对象的表格内容
+格式: recordshow 表格名
+
+16. 为指定表格添加一行数据	[web]
+格式:recordaddrow 表格名 ...
+
+17. 删除表格的指定行的数据	[web]
+格式: recordremoverow 表格名 行号
+
+18.清除指定表格的内容	[web]
+格式: recordclear 表格名
+
+19.选择当前属性操作对象为选中对象
+格式: select 对象名称
+
+20. 删除当前选中的对象
+格式: del
+
+21. 瞬移到某个点	[web]
+格式: goto [x] [z]
+
+22. 瞬移到某个点(指定层)	[web]
+格式: gotoex [x] [z] [floor]
+
+23. 定位到本场景的指定位置（效果和MoveTo相似，只是发送的是Moving消息）
+格式: location [x] [z] [orient]
+
+24. 查询GM当前位置信息
+格式: pos
+
+25. 查询选中对象的位置信息
+格式: posobj
+
+26. 查找对象身上是否有某心跳
+格式: findhb <hb_name>
+
+27. 给当前属性操作对象加一个心跳
+格式: addhb <function name> <interval>
+
+28. 删除当前属性操作对象的一个心跳
+格式: removehb <function name>
+
+29. 在包裹中创建一个物品	[web]
+格式: cobjitem 对象ID
+
+30. 创建一个游戏对象(当场场景中)	[web]
+格式: cobj 对象ID
+
+31. 根据配置文件在当前选中容器上创建物品
+格式: cobjchild 对象ID 数量
+
+32. 获取服务器时间
+格式: servertime
+
+33. 获取物品属性
+格式: getconfigprop configid prop
+
+34. 增加一个玩家的技能	[web]
+格式: addskill skillid
+
+35. 删除技能			[web]
+格式: delskill skillid
+
+36. 升级技能 type 0 升一级 1 升多级(一键升级)	[web]
+格式: upgradeskill skillid type
+
+37. 清空所学技能	[web]
+格式: clear_all_skill
+
+38. 切换场景 （0切到第一个编号场景) [web]
+格式: ss 场景编号
+
+39. 移到某个玩家所在坐标	[web]
+格式: goplayer [玩家名]
+
+40. 移动到某个点(ai寻路过去)	[web]
+格式: movetopoint x z
+
+41. 开始战斗指令
+格式: startfight
+
+42. 结束战斗指令
+格式: endfight
+
+43. 重做任务	[web]
+格式: repeat_task <taskid>
+
+44. 立刻完成任务	[web]
+格式: complete_task <taskid>
+
+45. 接受任务	[web]
+格式: accept_task <taskid>
+
+46. 放弃任务	[web]
+格式: giveup_task <taskid>
+
+47. 刷新任务refresh_task -1/0/1 taskid(可选)	[web]
+格式: refresg_task <type> <taskid>
+
+48. 重置重复任务次数	[web]
+格式: nx_reset_repeat_task
+
+49. 给事件拥有者添加一个buff	[web]
+格式: add_buff buffid
+
+50. 移除一指定的BUFF	[web]
+格式: remove_buff buffid
+
+51. 原地复活	[web]
+格式: relive
+
+52. 设置副本剩余次数	[web]
+格式: set_clone_times [type] [times]
+
+53.清空邮件	[web]
+格式: clear_all_mail
+
+54. 发送测试邮件
+格式: send_test_mail mailconfig
+
+55. 给玩家发奖励(name为空发给自己)
+格式: reward [name]
+
+56. 清空灵魂
+格式: nx_clear_all_soul
+
+57. 测试掉落ID, 多个id用逗号分隔
+格式: drop id[,id] 
+
+58. 清空包袱	[web]
+格式: clearbagitem
+
+59. 解锁容器格子大小	[web]
+格式: setLockSize [boxname] {value}
+
+60. 清空装备	[web]
+格式: clearequipitem
+
+61. 释放技能 	[web]
+格式: useskill id
+
+62. 给玩家增加经验	[web]
+格式：add_exp exp_amount
+
+63. 增加钱币	[web]
+格式：inccapital type Value
+
+64. 减少钱币	[web]
+格式：deccapital type Value
+
+65. 创建帮会	[web]
+格式：createguild guildName
+
+66. 解散帮会		[web]
+格式：dismissguild guildName
+
+67. 去除冷去时间 	[web]
+格式：set_no_cooldown
+
+68. 加BUFF(增加倍分)	[web]
+格式：addbuff <倍数>
+
+69. 使用物品	[web]
+格式：use_item config_id amount
+
+70. 放入物品到背包		[web]
+格式：place_item config_id amount
+
+71. 查看玩家数据(sns)
+格式：player_data <target_player_name>
+
+72. 查看附近npc对象
+格式：aroundlist
+
+73. 模拟行走
+格式：walk
+
+74. 坐骑命令
+格式: ride <add|del|on|off|show|hide> [var]
+
+75. 随机使用一个技术
+格式: random_useskill
+
+76. 日常活动重置 	[web]
+格式: reset_daily_activity
+
+77. 日常活动资源重载 [web]
+格式: reload_daily_resource
+
+78. 获取对应格子坐标
+格式: getpos index
+
+79. 获取对应格子索引
+格式: getindex posx posz
+
+80. 旋转对象	[web]
+格式: rotate angle
+
+81. 获取场景里制定怪物坐标位置
+格式: getnpcpos configid
+
+82. gm命令完成秘境, result(0 失败 1 成功)	[web]
+格式: secretfinish result
+
+83. 增加秘境次数(子类型暂未用到)		[web] 
+格式: AddSecret <秘境类型> <子类型> <值>
+
+84. 开启所有秘境	[web] 
+格式: OpenAll
+
+85. 设置副本可使军令值	[web]
+格式: setclone value
+
+86. 广播消息 type:Tips类型 msgid:消息ID		[web]
+格式: sysinfo_broadcast <type> <msgid>
+
+87. 开启国王选举提名			[web]
+格式: startnominate
+
+88. 开启国王选举报名			[web]
+格式: startsignup
+
+88.开启国王选举投票				[web]
+格式: startvote
+
+89. 结束选举，产生国王			[web]
+格式: endvote
+
+90. 被动技能升级				[web]
+格式: passive_skill_level_up skillid	
+
+91. 被动技能重置				[web]
+格式: passive_skill_reset
+
+92. 完成所有成就活动			[web]
+格式: complete_achieve
+
+93. 完成指定的成就				[web]
+格式: complete_one_achieve	achieveID
+
+94. 更新指定子类型的成就 参数：成就子类型 进度	[web]
+格式: update_achieve subtype progress
+
+95. 重置成就 参数：成就ID(不填参数重置所有成就)	[web]
+格式: reset_achieve achieve_id
+
+96. 完成任一类型成就活动 type：1、2、3、4 or 0	[web]
+格式: complete_any_achieve type
+
+97. 载入竞技场配置		[web]
+格式: reload_arena
+
+98. 进行竞技场挑战(选取猴选人列表第一人)	[web]
+格式: nx_challenge
+
+99. 获取竞技场候选挑战者(通过消息返回给游戏客户端)
+格式: get_candidate
+
+100. 发放竞技场排名奖励			[web]
+格式: arena_reward
+
+101. 世界BOSS活动重置			[web]
+格式: worldboss_reset
+
+102. 世界BOSS活动结束			[web]
+格式: worldboss_end
+
+103. 重新加载商城配置			[web]
+格式: shopReloadRes
+
+104. 购买VIP礼包			[web]
+格式: buyvipitem index
+
+105. 购买周卡/月卡/年卡/终身卡(直接新增)	[web]
+格式: buycard index
+
+106. 充值测试 amount:金额，必填(发送充值成功，只影响金额，首充，不发物品, 订单id默认TEST_ORDER_0001)				[web]
+格式: recharge <amount> [order]
+
+107. 充值购买amount:金额，必填(当作充值成功处理，走充值完整流程, 订单id默认TEST_ORDER_0001)							[web]
+格式: pay_item <amount> [订单号] [产品id] [充值奖励] [首充奖励]
+
+108. 重新加载VIP配置	[web]
+格式: vipReloadRes
+
+109. 获取运营活动奖励				[web]
+格式: getdynamicactivityaward 
+
+110. 重新加载运营配置				[web]
+格式: reloaddynamicactivity 
+
+111. 功能开启控制					[web]
+格式: set_function 功能id 状态
+
+112. 跳过功能引导步骤(id列表以:分割)				[web]
+格式: skipstep id列表
+
+113. 跳过引导步骤（所有）			[web]
+格式: skipstepall
+
+114. 修改循环最大次数				[web]
+格式: set_max_circulate_count value
+
+115. 开启秘境场景				[web]
+格式: OpenScene sceneid
+
+116. 学习所有的被动技能			[web]
+格式: nx_learn_all_passive_skill
+
+117. 通过寻路模块走到目标点
+格式: motion x z
+
+118. 清空自身的CD表				[web]
+格式: clear_cd_rec
+
+119. 禁止登陆 玩家名 分钟数		[web]
+格式: BlockPlayerMin 玩家名 时长
+
+120. 禁止登陆(指定日期)			[web]
+格式: BlockPlayerDate 玩家名 年 月 日 时 分 秒
+
+121. 设置每日增加资金上限		[web]
+格式: SetCapitalMonitorMaxVal 货币类型 警界值 最大值
+
+122. 拉取制定玩家离线登陆(被删了)			[web]
+格式: offline_player_login 玩家名 账号 时长
+
+123. 强制指定帐号的玩家下线				[web]
+格式: breakbyaccount 账号
+
+124. 锻造装备						[web]
+格式: forge_equip 装备配置id
+
+125. 进入帮会驻地(参数未使用)				[web]		
+格式: EntryGS param
+
+126. 设置任务完成次数reset_task_num 次数			[web]
+格式: reset_task_num num
+
+127. 设置当前场景指定分线的人数				[web]
+格式: reset_branch_num 第几个分线 重置后数量
+
+128. 启动答题								[web]
+格式：start_answer 类型（1：任务答题 2：帮会答题）
+
+129. 重置玩家位置到本国皇城(/ssplayer 场景ID 玩家昵称)						[web]
+格式：ssplayer 场景ID 玩家昵称
+
+130. 重置试炼塔						[web]
+格式：reset_tower
+
+131. 挑战试炼塔
+格式：challenge_tower 塔层	
+
+132. 扫荡试炼塔
+格式：sweep_tower
+
+133. 重置洗炼次数				[web]
+格式：refresh_baptise_nums
+
+134. 重置活动互斥标识
+格式：reset_action_mutex
+
+135. 添加等级排行榜数据
+格式：addlrdata 需插入数量,不填默认30条
+
+136. 添加时装					[web]
+格式：add_fashion configid
+
+137. 穿上时装					[web]
+格式：puton_fashion configid
+
+138. 脱下时装					[web]
+格式：takeoff_fashion configid
+
+139. 锁定时装					[web]
+格式：lock_fashion configid
+
+140. 获取全服排行榜排名
+格式： query_global_rank 属性所属类型 排行榜名称 key值(根据类型定义)
+
+141. 获取全服排行榜范围
+格式： query_global_range 排行榜名称 起始索引 结束索引
+
+142. 删除排行榜					[web]
+格式： remove_global_rank_list 排行榜名称
+
+143. 删除排行榜某一条记录
+格式： remove_global_rank_row 属性所属类型 排行榜名称 key值(根据类型定义)
+
+144. 添加印记				[web]
+格式：add_marker 印记id
+
+144. 移除印记				[web]
+格式：remove_marker 印记id
+
+145. 重置印记				[web]
+格式：reset_marker 印记id
+
+146. 物品合成
+格式：compose_item  消耗的物品id
+
+147. 挑战生死擂
+格式：revenge_challenge
+
+148. 回复生死擂挑战 0不应战 1应战
+格式：answer_re_challenge result
+
+149. 参加阵营战
+格式：join_battle
+
+150. 开启阵营战				[web]
+格式：set_battle_state 状态（1：战场初始化，2：准备（参战按钮弹出），3：正式开始，4：结束倒计时开始，5：结束）
+
+151. 发布悬赏任务			[web]
+格式：issue_or_task 赏金金额
+
+152. 接取悬赏任务			[web]
+格式：accept_or_task 索引行号
+
+153. 开始押送				[web]
+格式：start_escort 囚车id
+
+154. 结束押送				[web]
+格式：end_escort 结果（2：超时失败 3：被劫 4：释放 5：成功）
+
+155. 输出地形数据
+格式：floor_info
+
+156. 增加边境积分			[web]
+格式：inc_frontier_score score
+
+157. 结束边境排行榜 结算	[web]
+格式：calc_frontier_result
+
+158. 查询场景左上和右下的坐标
+格式： query_map_bound
+
+159. 重置爵位俸禄		[web]
+格式: reset_daily_wage
+
+160. 领取悬赏日常任务奖励	
+格式: take_offer_reward
+
+161. 重置签到			[web]
+格式: reset_signin
+
+162. 兑换cdkey礼包		[web]
+格式: exchange_gift key
+
+163. 开启所有功能		[web]
+格式: open_all_function
+
+164. 关闭所有功能		[web]
+格式: close_all_function
+
+165. 移除称号			[web]
+格式: remove_title 称号ID
+
+166. 设置称号			[web]
+格式: set_title 称号ID 时间(秒)
+
+167. 称号资源重载		[web]
+格式: reload_title_resource
+
+168. 增加囚犯			
+格式: add_prisoner
+
+169. 为囚犯求情			
+格式: plead_prisoner 囚犯名称
+
+170. 侮辱囚犯
+格式: insult_prisoner 囚犯名称
+
+171. 阵营求助
+格式: call_help 类型
+
+172. 成为正式徒弟
+格式: become_official
+
+173. 重置师徒冷却时间	[web]
+格式: reset_master_cool
+
+174. 为所有下属加情义值	[web]
+格式: add_friendship 情义值
+
+175. 重置下属次数(技能点购买次数重置/重置月卡拜访次数/重置拜访次数)	[web]
+格式: nx_reset_pet
+
+176. 增加边境囚犯
+格式: add_fro_prisoner
+
+177. 选择阵营			[web]
+格式：select_nation 阵营
+
+178. 边境箭塔攻防战开关	[web]	
+格式：frotower 开关标志(0 开启 1 结束)
+
+179. 装备砭石
+格式：wear_bianstone 砭石id 经脉类型
+
+180. 卸下砭石
+格式：take_off_bianstone 位置
+
+181. 升级砭石
+格式: level_up_bianstone 位置 数量
+
+182. 发红包				[web]
+格式: send_red_packet 类型 金额 数量
+
+183. 抢红包
+格式: take_red_packet 红包索引
+
+184. 充值系统发红包			[web]
+格式: send_charge_red_packet 充值金额
+
+185. 增加组织数值			[web]
+格式: nx_guild_add_value 类型(1:组织资金 2 组织贡献 3 组织经验 4 boss经验) 值
+
+186. 触发组织计时器
+格式: nx_tigger_guild_timer
+
+187. 创建boss入侵关卡npc		[web]
+格式:  create_bi_stage_npc nStageId
+
+188. 印记洗练
+格式: marker_baptise 次数
+
+189. 开启限时福利场景			[web]
+格式: time_limit_scene sceneid time
+
+190. 发起缉盗
+格式: launch_teamoffer
+
+191. 进入缉盗副本
+格式:entry_teamoffer
+
+192. 训练boss
+格式: train_invade_boss 货币类型
+
+193. 填充玩家数据 
+格式: fill_player_data [物品id]
+
+194. 创建队伍
+格式: create_team
+
+195. 设置七日活动的所有条件数量		[web]
+格式: seven_obj value
+
+196. 重新载入当前属性操作对象的配置文件		[web]
+格式: reload
+
+197. 重新加载某个配置文件			[web]
+格式: reload_config configname

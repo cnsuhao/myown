@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!--ID:活动类型-->
+<Object>
+	{% for cfg in configs %}
+	<Property ID="{$cfg.id}" StartDate="{$cfg.startAt}" EndDate="{$cfg.endAt}" Enbale="{$cfg.state}" ExtendString="{$cfg.param}" Cron="{$cfg.cron}" />
+	{% endfor %}
+</Object>

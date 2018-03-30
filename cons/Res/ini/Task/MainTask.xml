@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Object>
+<Property ID="100001" Rule="3" AcceptMinLevel="1" AcceptMaxLevel="0" CalculateMode="0" PostTaskList="100002" IsGroup="0" AutoPathFinding="1" IsAutoSubmit="1" IsSwitchPosition="0" IsShowReward="0" SceneList="1001" PositionList="-160.6,50,37.9,0" AddInfo="70005"></Property>
+<Property ID="100002" Rule="4" AcceptMinLevel="1" AcceptMaxLevel="0" CalculateMode="0" PrevTaskList="100001" PostTaskList="100003" IsGroup="0" AutoPathFinding="1" IsAutoSubmit="1" IsSwitchPosition="0" IsShowReward="0" SceneList="1001" PositionList="-163.8,50,-6.5,0"></Property>
+<Property ID="100003" Rule="3" AcceptMinLevel="1" AcceptMaxLevel="0" CalculateMode="0" PrevTaskList="100002" PostTaskList="100004" IsGroup="0" AutoPathFinding="1" IsAutoSubmit="1" IsSwitchPosition="0" IsShowReward="0" SceneList="1001" PositionList="-160.6,50,37.9,0" AddInfo="70005"></Property>
+<Property ID="100004" Rule="6" AcceptMinLevel="1" AcceptMaxLevel="0" Count="1" CalculateMode="0" PrevTaskList="100003" IsGroup="0" AutoPathFinding="1" IsAutoSubmit="0" IsSwitchPosition="0" IsShowReward="0" SceneList="1001" PositionList="-38.5,50,-20.1,0" AddInfo="70006"></Property>
+</Object>

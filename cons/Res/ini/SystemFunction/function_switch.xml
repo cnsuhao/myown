@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 被2011 rel. 2 sp1 (Lonely Knight) 使用XMLSpy vLK编辑的 (http://www.altova.com) by -->
+<!-- 功能开关初始配置(与switchmanagerdefine.h相同) -->
+<!--ID			功能ID(唯一)-->
+<!--CurState	当前状态(1 开启；0 关闭)-->
+<!--desc		功能描述-->
+<!--GM命令格式 set_function id <0/1> -->
+<Object>
+	<Property ID="switch_1" CurState="1" desc="货币限额监控"/>
+	<Property ID="switch_2" CurState="1" desc="外挂检测"/>
+</Object>

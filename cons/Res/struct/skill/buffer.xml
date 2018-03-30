@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!--每项Buffer的属性数据，附加IDMATCH.xml-->
+<object>
+	<internals>
+		<property name="Config" type="string" public="false" private="true" save="false" desc="编号"/>
+		<property name="LifeTime" type="int" public="false" private="true" save="true" desc="持续时间(ms) 如果为0,则持久有效"/>
+	</internals>
+	<!-- 基本属性 -->
+	<properties>
+		<!-- BUFFER的固定属性 -->
+		<property name="Sender" type="object" public="false" private="false" save="false" desc="BUFFER的施加者"/>
+		<property name="Skill" type="object" public="false" private="false" save="false" desc="产生BUFFER的技能"/>
+		<property name="AddTime" type="int64" public="false" private="true" save="true" desc="BUFFER添加的时间 单位s(time_t)"/>
+		<property name="Active" type="int" public="false" private="false" save="true" desc="BUFFER是否有效"/>
+		<property name="Counter" type="int" public="false" private="false" save="true" desc="BUFFER已计次的次数"/>
+		<property name="Timer" type="int" public="false" private="false" save="true" desc="BUFFER已存在的时间 单位ms"/>
+	</properties>
+</object>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="gb2312"?>
+<object>
+	<properties/>
+	<records>
+	</records>
+	<includes>
+		<path name="struct\rule\commonfighter.xml" desc="战斗相关属性"/>
+		<path name="struct\rule\fight\fightpropdefined.xml" desc="通用战斗属性"/>
+		<path name="struct\rule\modifybase.xml" desc="属性 技能 buff修正表"/>
+	</includes>
+</object>

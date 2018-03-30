@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Object>	
+	<Property ID="Weapon" 		Show="true" 	Position ="1"	Desc="武器"/>
+	<Property ID="Cloth" 		Show="true" 	Position ="2"	Desc="衣服"/>
+	<Property ID="Helmet" 		Show="false"	Position ="3"	Desc="头盔"/>
+	<Property ID="Necklace" 	Show="false"	Position ="4"	Desc="项链"/>
+	<Property ID="Ring" 		Show="false"	Position ="5"	Desc="戒指"/>
+	<Property ID="Charm" 		Show="false" 	Position ="6"	Desc="护符"/>	
+</Object>

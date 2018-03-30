@@ -1,0 +1,13 @@
+1.Campaign	--	玩法类功能配置
+2.Item		--  	物品配置
+3.ModifyPackage	--	属性包配置
+4.npc		-- 	npc配置
+5.Scene		--	场景配置
+6.Skill		-- 	战斗技能配置
+7.SocialSystem	--	社交系统配置
+8.Task		--	任务配置
+
+9.env.xml	--	常量配置文件
+
+增加配置文件时,要放到对应的文件夹中。
+常量增加到env.xml中

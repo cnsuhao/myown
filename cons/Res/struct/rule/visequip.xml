@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!--装备系统相关的属性-->
+
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		
+		<property name="Weapon" type="int" public="true" private="true" save="true" 	desc="武器"/>
+		<property name="Cloth" type="int" public="true" private="true" save="true" 		Desc="衣服"/>	
+		<property name="Hair" type="int" public="true" private="true" save="true" 		Desc="头"/>	
+		<property name="Wing" type="int" public="true" private="true" save="true" 		Desc="翅膀"/>	
+				
+	</properties>
+	<records>
+		<record name="fashion_unlock_rec" cols="4" maxrows="100" save="true" public="false" private="true" desc="已解锁时装表">
+			<column type="word" name="id" desc="时装id"/>
+			<column type="word" name="type" desc="时装类型"/>
+			<column type="int64" name="unlock_time" desc="解锁时间"/>
+			<column type="int64" name="valid_time" desc="时效时间"/>
+		</record>
+		
+		<!-- 外观管理表 -->
+		<record name="ApperanceRec" cols="3" maxrows="20" save="true" public="false" private="false" desc="外观管理">
+			<column type="WORD" name="id" desc="外观id"/>
+			<column type="BYTE" name="source" desc="外观来源"/>
+			<column type="WORD" name="type" desc="外观类型（装备部位）"/>			
+		</record>
+	</records>
+</object>

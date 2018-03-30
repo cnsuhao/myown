@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<object>
+	<properties>
+		<property name="Str" type="int" public="false" private="true" save="false" desc="力量"/>
+		<property name="Dex" type="int" public="false" private="true" save="false" desc="敏捷"/>
+		<property name="Sta" type="int" public="false" private="true" save="false" desc="体力"/>
+		<property name="Ing" type="int" public="false" private="true" save="false" desc="智力"/>
+		<property name="Spi" type="int" public="false" private="true" save="false" desc="精神"/>
+		<property name="TempHP" type="int64" public="false" private="false" save="true" desc="临时保存HP当前值"/>
+		<property name="TempMP" type="int64" public="false" private="false" save="true" desc="临时保存MP当前值"/>
+		<property name="HPAdd" type="int" public="false" private="true" save="false" desc="附加气血"/>
+		<property name="HPRate" type="int" public="false" private="true" save="false" desc="气血增幅 2级属性"/>
+		<property name="MPAdd" type="int" public="false" private="true" save="false" desc="附加MP"/>
+		<property name="MPRate" type="int" public="false" private="true" save="false" desc="附加MP百分比"/>
+		<property name="PhysAttackAdd" type="int" public="false" private="true" save="false" desc="附加 物理攻击"/>
+		<property name="MagicttackAdd" type="int" public="false" private="true" save="false" desc="附加 法术攻击"/>
+		<property name="PhysAttackRate" type="int" public="false" private="true" save="false" desc="物理攻击强度 2级属性"/>
+		<property name="MagicAttackRate" type="int" public="false" private="true" save="false" desc="法术攻击强度 2级属性"/>
+		<property name="PhysDefendAdd" type="int" public="false" private="true" save="false" desc="附加 物理防御"/>
+		<property name="MagicDefendAdd" type="int" public="false" private="true" save="false" desc="附加 法术防御"/>
+		<property name="PhysDefendRate" type="int" public="false" private="true" save="false" desc="物理防御强度 2级属性"/>
+		<property name="MagicDefendRate" type="int" public="false" private="true" save="false" desc="法术防御强度 2级属性"/>
+		<property name="PhysPenetrateAdd" type="int" public="false" private="false" save="false" desc="物理穿透值"/>
+		<property name="PhysPenetrateRate" type="int" public="false" private="false" save="false" desc="物理穿透率"/>
+		<property name="MagicPenetrateAdd" type="int" public="false" private="false" save="false" desc="法术穿透值"/>
+		<property name="MagicPenetrateRate" type="int" public="false" private="false" save="false" desc="法术穿透率"/>
+		<property name="HitAdd" type="int" public="false" private="true" save="false" desc="附加 命中"/>
+		<property name="HitRate" type="int" public="false" private="true" save="false" desc="命中率"/>
+		<property name="MissAdd" type="int" public="false" private="true" save="false" desc="附加 回避"/>
+		<property name="MissRate" type="int" public="false" private="true" save="false" desc="回避率"/>
+		<property name="CritAdd" type="int" public="false" private="true" save="false" desc="附加 会心(暴击)"/>
+		<property name="TougAdd" type="int" public="false" private="true" save="false" desc="附加 会心抵抗"/>
+	</properties>
+</object>

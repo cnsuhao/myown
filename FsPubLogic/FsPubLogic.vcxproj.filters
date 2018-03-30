@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Public">
+      <UniqueIdentifier>{e21b3a92-d4d2-48cb-b06f-cd9d8ae3ce4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{d616d4bb-29a2-4284-8ec4-b99ea7ed9b0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\xml">
+      <UniqueIdentifier>{29232f82-8d34-47e6-bc6b-febdd0ec7e85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\dumpstack">
+      <UniqueIdentifier>{de6ad60c-8f41-48a0-b61d-d9b37aee4e32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain">
+      <UniqueIdentifier>{d76d227a-0dc6-483a-ad29-c8205f06bd98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain\SceneList">
+      <UniqueIdentifier>{930a3d5c-317a-4c38-8a77-05017e47cbfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain\RankList">
+      <UniqueIdentifier>{210fbe7b-a2f5-4e3f-bd7a-612e0f7cd9e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain\EnvirValue">
+      <UniqueIdentifier>{5564b073-dca0-45ef-8aac-3ba7dfe13a92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Define">
+      <UniqueIdentifier>{6616fcbb-134b-49e4-ac66-177eb148d728}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain\Task">
+      <UniqueIdentifier>{7a30d4c8-a120-471d-9561-9ae481ee4c4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\Cache">
+      <UniqueIdentifier>{5a06d181-88dd-4026-9692-7ce90a478a59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Guild">
+      <UniqueIdentifier>{3913dc97-d13f-47cb-a222-057fadac2b19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain\Look">
+      <UniqueIdentifier>{ec6f91a5-c216-4847-839b-3f35598e3210}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain\Friend">
+      <UniqueIdentifier>{9cbe7a1f-ec80-4600-bc77-934157f2ad66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain\Team">
+      <UniqueIdentifier>{05c4842a-fa78-4097-ae3a-0072d8f416fe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Public\IPubLogic.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\arraypod.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\custom_func.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\enum.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\EnvirDefine.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\extend_func.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\flexstring.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\geometry_func.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\json-forwards.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\json.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\LeakChecker.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\pub_share.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\QuickHash.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\record.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\string_util.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\util.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\util_func.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\util_ini.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\XmlFile.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\tinyxml\tinystr.h">
+      <Filter>utils\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\tinyxml\tinyxml.h">
+      <Filter>utils\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\dumpstack\DumpStack.h">
+      <Filter>utils\dumpstack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\dumpstack\StackWalker.h">
+      <Filter>utils\dumpstack</Filter>
+    </ClInclude>
+    <ClInclude Include="Domain\DomainManager.h">
+      <Filter>Domain</Filter>
+    </ClInclude>
+    <ClInclude Include="Domain\IDomainData.h">
+      <Filter>Domain</Filter>
+    </ClInclude>
+    <ClInclude Include="Domain\Domain_SceneList.h">
+      <Filter>Domain\SceneList</Filter>
+    </ClInclude>
+    <ClInclude Include="Domain\DomainRankList.h">
+      <Filter>Domain\RankList</Filter>
+    </ClInclude>
+    <ClInclude Include="Domain\EnvirValue.h">
+      <Filter>Domain\EnvirValue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FsGame\Define\LogDefine.h">
+      <Filter>Define</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FsGame\Define\PubDefine.h">
+      <Filter>Define</Filter>
+    </ClInclude>
+    <ClInclude Include="Domain\Domain_Task.h">
+      <Filter>Domain\Task</Filter>
+    </ClInclude>
+    <ClInclude Include="FsPubLogic.h">
+      <Filter>Domain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FsGame\Define\PubCmdDefine.h">
+      <Filter>Define</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\cache\CacheHelper.hpp">
+      <Filter>utils\Cache</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\cache\CacheString.hpp">
+      <Filter>utils\Cache</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\cache\CacheTimer.hpp">
+      <Filter>utils\Cache</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\cache\ICacheString.h">
+      <Filter>utils\Cache</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\item_helper.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\IniFile.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Guild\GuildBase.h">
+      <Filter>Guild</Filter>
+    </ClInclude>
+    <ClInclude Include="FsBindLogic.h">
+      <Filter>Domain</Filter>
+    </ClInclude>
+    <ClInclude Include="Domain\Domain_Look.h">
+      <Filter>Domain\Look</Filter>
+    </ClInclude>
+    <ClInclude Include="Domain\Domain_Friend.h">
+      <Filter>Domain\Friend</Filter>
+    </ClInclude>
+    <ClInclude Include="Domain\Domain_Team.h">
+      <Filter>Domain\Team</Filter>
+    </ClInclude>
+    <ClInclude Include="Guild\GuildBaseManager.h">
+      <Filter>Guild</Filter>
+    </ClInclude>
+    <ClInclude Include="Guild\GuildManager.h">
+      <Filter>Guild</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FsGame\SocialSystemModule\GuildLoadResource.h">
+      <Filter>Guild</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FsGame\SocialSystemModule\GuildHelper.h">
+      <Filter>Guild</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\utils\custom_func.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\extend_func.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\flexstring.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\geometry_func.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\jsoncpp.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\pub_share.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\record.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\string_util.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\util.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\util_func.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\util_ini.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\XmlFile.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\tinyxml\tinystr.cpp">
+      <Filter>utils\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\tinyxml\tinyxml.cpp">
+      <Filter>utils\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\tinyxml\tinyxmlerror.cpp">
+      <Filter>utils\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\tinyxml\tinyxmlparser.cpp">
+      <Filter>utils\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\dumpstack\DumpStack.cpp">
+      <Filter>utils\dumpstack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\dumpstack\StackWalker.cpp">
+      <Filter>utils\dumpstack</Filter>
+    </ClCompile>
+    <ClCompile Include="Domain\DomainManager.cpp">
+      <Filter>Domain</Filter>
+    </ClCompile>
+    <ClCompile Include="Domain\Domain_SceneList.cpp">
+      <Filter>Domain\SceneList</Filter>
+    </ClCompile>
+    <ClCompile Include="Domain\DomainRankList.cpp">
+      <Filter>Domain\RankList</Filter>
+    </ClCompile>
+    <ClCompile Include="Domain\EnvirValue.cpp">
+      <Filter>Domain\EnvirValue</Filter>
+    </ClCompile>
+    <ClCompile Include="Domain\Domain_Task.cpp">
+      <Filter>Domain\Task</Filter>
+    </ClCompile>
+    <ClCompile Include="FsPubLogic.cpp">
+      <Filter>Domain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\IniFile.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="FsBindLogic.cpp">
+      <Filter>Domain</Filter>
+    </ClCompile>
+    <ClCompile Include="Domain\Domain_Look.cpp">
+      <Filter>Domain\Look</Filter>
+    </ClCompile>
+    <ClCompile Include="Domain\Domain_Friend.cpp">
+      <Filter>Domain\Friend</Filter>
+    </ClCompile>
+    <ClCompile Include="Domain\Domain_Team.cpp">
+      <Filter>Domain\Team</Filter>
+    </ClCompile>
+    <ClCompile Include="Guild\GuildBaseManager.cpp">
+      <Filter>Guild</Filter>
+    </ClCompile>
+    <ClCompile Include="Guild\GuildManager.cpp">
+      <Filter>Guild</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FsGame\SocialSystemModule\GuildLoadResource.cpp">
+      <Filter>Guild</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FsGame\SocialSystemModule\GuildHelper.cpp">
+      <Filter>Guild</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<property name="ArenaFlag" type="int" public="false" private="false" save="false" desc="竞技场标识"/>
+		<property name="ArenaChanceResetDate" type="string" public="false" private="false" save="true" desc="竞技场次数的重置日期(YYYY-MM-DD)"/>
+		<property name="ArenaChance" type="int" public="false" private="false" save="true" desc="当日竞技场次数"/>
+		<property name="ArenaChanceUsed" type="int" public="false" private="false" save="true" desc="当日竞技场已经挑战次数"/>
+		<property name="ArenaChallengeeObj" type="Object" public="false" private="false" save="false" desc="挑战对象"/>
+		<property name="ArenaChallengeeInfo" type="string" public="false" private="false" save="false" desc="挑战对象信息"/>
+		<property name="ArenaCurvRankList" type="string" public="false" private="false" save="true" desc="上一次的竞技场榜"/>
+		<property name="ArenaSN" type="string" public="false" private="false" save="false" desc="当前竞技场的流水号，每场战斗都会有新的编号生成"/>
+		<property name="HighestArenaRank" type="int" public="false" private="false" save="true" desc="获得的最高排名"/>
+	</properties>
+	<!-- 表属性 -->
+	<records>
+		<record name="arena_fight_result" cols="5" maxrows="20" save="true" public="false" private="false" desc="竞技场战斗结果">
+			<column type="int" name="result" desc="战斗结果"/>
+			<column type="widestr" name="name" desc="敌方名字"/>
+			<column type="int" name="oldrank" desc="战斗前排名"/>
+			<column type="int" name="currank" desc="战斗后排名"/>
+			<column type="int64" name="time" desc="战斗时间"/>
+		</record>
+	</records>
+</object>

@@ -1,0 +1,114 @@
+=======================
+创建机器人
+=======================
+
+1. 数据库
+--------------------------------
+	
+	1) 在表 nx_district.dc_accounts 中创建机器人的账号。
+		
+	****
+	****  注意修改机器人名字的前缀， 现在是 srobot, 根据需要进行修改
+	****  注意修改机器人的数量
+	****
+	
+	//////////////////////////////////////////////////////////////////
+	
+		use nx_district;
+
+		drop procedure  CreateArenaRot;
+
+		create procedure CreateArenaRot()
+		begin
+
+			 declare i int;
+			 declare t_acc varchar(32);
+			 
+			 set i=1;
+			 set t_acc='';
+			 
+			 while i<50 do
+				   
+				   set t_acc = concat('srobot', i);
+				   
+				   insert into dc_accounts values(t_acc, t_acc, '2015-06-29 16:00:03', '2015-06-29 16:00:03', '', '2020-07-31 12:00:03', 51,1,0,0,0,0,'');
+				   
+				   set i=i+1;
+				   set t_acc='';
+				   
+			 end while;
+
+		end;
+
+		call CreateArenaRot();
+		
+	//////////////////////////////////////////////////////////////////
+	
+	2) 清空必要的表
+	
+	//////////////////////////////////////////////////////////////////
+	
+		use nx_base;
+		
+		truncate table nx_domains;
+		
+		truncate table nx_sns;
+		
+		truncate table nx_roles;
+		
+	//////////////////////////////////////////////////////////////////
+		
+2. 服务器的配置文件
+--------------------------------
+
+	1) 修改竞技场排行榜的配置 \ini\RankList\rank_list_record.xml
+	
+	   中 <Property ID="arena_rank_list_xxxxx  .... /> 的条目， 临时加入一列 SortColumns="player_fight_power"
+	
+		<Property ID="arena_rank_list_xxxxx  ... SortColumns="player_fight_power" ... />
+	
+		这一步是为了确保竞技场的机器人是按照战斗力排名的。
+		
+		************************************************************************
+		**** 注意，在实际运行中不需要 SortColumns="player_fight_power" 这一列的。
+		************************************************************************
+		
+	2) 临时修改  Res\struct\scene\scene.xml
+	   
+	   临时注释 name="OffLinePlayerNum" 条目， 不拉离线玩家上线
+	   <!--
+		<property name="OffLinePlayerNum" type="int" public="false" private="false" save="false" desc="离线玩家人数"/>
+       -->
+
+3. 修改服务器代码 (不放在全局宏定义是为了节约编译时间)
+--------------------------------
+
+把 ArenaModuel.cpp ， CreateRoleModuel.cpp 里面的 下面的宏定义放开
+
+	// 当创建机器人的时候需要此宏
+    #define CREATE_ROBOT
+	
+4. 编译并启动服务器等待客户端创建
+--------------------------------
+
+5. 创建完成后的数据检查
+--------------------------------
+    
+	1). nx_domains 表中要有 Domain_RankingList_xxxx 的记录。
+	2). nx_roles 和 nx_sns 的数据条目要相同
+	3)select count(*) from nx_roles;
+	4)select count(*) from nx_sns;
+   
+6. 数据导出
+--------------------------------
+
+	完成后，使用正常关服命令 quit，在服务器关闭后从数据库中导出数据 。
+	
+	导出 nx_base 中 nx_domains, nx_roles, nx_sns 的数据。
+
+	***
+	*** 注意：nx_domains 中的数据只需要导出 Domain_RankingList_xxxx
+	*** 删除nx_domains 中除Domain_RankingList_xxxx以外的数据
+	***
+	
+	

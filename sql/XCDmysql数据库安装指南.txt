@@ -1,0 +1,50 @@
+﻿mysql数据库安装指指南
+
+1、安装mysql数据库，执行mysql-5.1.54-win32.msi或mysql-5.5.12-winx64.msi，完成安装过程
+2、如果找不到mysql-5.1.54-win32.msi或mysql-5.5.12-winx64.msi可以用当前目录 数据库 目录下的mysql-5.5.20-win32.msi或mysql-5.5.20-winx64.msi代替(未测试)
+3、运行MySQL Command Line Client，输入密码进入命令行界面，依次单步执行如下步骤操作
+
+4、create database nx_district;
+5、create database nx_base;
+6、create database nx_log;
+
+//使用Mysql-Front.exe 导入对应的数据表
+7、use nx_district;
+8、source C:/sql/mysql_district.sql;
+9、use nx_base;
+10、source C:/sql/mysql_database.sql;
+11、source C:/sql/mysql_public.sql;
+12、source C:/sql/mysql_sns.sql;
+13、source C:/sql/mysql_sns_relation.sql;
+14、source C:/sql/mysql_trade.sql;
+15、source C:/sql/mysql_config.sql;
+15.1 source nx_role_dumpinfo.sql
+15.2 use nx_log;
+15.3 source nx_res_dumpinfo.sql
+15.4 source game_config.sql
+15.5 source game_config_type.sql
+
+//日志库脚本会自动生成
+//16、use nx_log;
+//17、source C:/sql/mysql_log.sql;
+
+//创建账号
+16、GRANT ALL PRIVILEGES ON *.* TO sa@localhost IDENTIFIED BY 'abc' WITH GRANT OPTION;
+17、GRANT ALL PRIVILEGES ON *.* TO sa@"%" IDENTIFIED BY 'abc' WITH GRANT OPTION;
+
+16、GRANT select,insert,update,delete,create,drop,index ON *.* TO sa@localhost IDENTIFIED BY 'abc' WITH GRANT OPTION;
+17、GRANT select,insert,update,delete,create,drop,index ON *.* TO sa@"%" IDENTIFIED BY 'abc' WITH GRANT OPTION;
+
+18、修改或添加game_unite.ini或game_store.ini [main]字段键值：UseMysql=true
+
+19、创建测试用的游戏帐号
+启动游戏服务器
+运行telnet 127.0.0.1 15001
+在telnet中输入：method SoloWorld AddAccount wx wx 0 1000 51
+
+或者找同事拷贝数据，可跳过3~15步骤
+
+
+20、备注：不会命序行的就用 数据库 目录下的MySQL-Front_Setup工具吧
+
+

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Object>
+<Property ID="1" PackageName="500000002" ItemType="item" ItemID="105010001" Weight="20"></Property>
+<Property ID="2" PackageName="500000002" ItemType="item" ItemID="105020001" Weight="30"></Property>
+<Property ID="3" PackageName="500000002" ItemType="item" ItemID="105030001" Weight="10"></Property>
+</Object>

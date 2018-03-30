@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="gb2312"?>
+<object>
+	<internals/>
+	<properties>
+		<property name="Level" type="int" public="true" private="true" save="true" desc="等级"/>
+		<property name="PlayerExp" type="int64" public="false" private="true" save="true" desc="经验"/>
+		<property name="PlayerUpgradeExp" type="int64" public="false" private="true" save="false" desc="升级需要经验"/>
+		<property name="ItemKNExpRate" type="byte" public="false" private="false" save="true" desc="物品附加的杀怪多倍经验"/>
+		<property name="KNExpRate" type="float" public="false" private="false" save="false" desc="杀怪经验比率"/>
+		<property name="WorldLevelAddExp" type="int" public="false" private="true" save="true" desc="世界等级当前附加经验值"/>
+		<property name="WorldLevelTotalExp" type="int" public="false" private="true" save="true" desc="世界等级附加总经验值"/>
+	</properties>
+</object>

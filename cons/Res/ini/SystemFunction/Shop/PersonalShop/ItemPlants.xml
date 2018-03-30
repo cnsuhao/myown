@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Object>
+<Property ID="10610001_1" ItemConfigID="10610001" ItemColor="1" CapitalType="1" ItemPrice="50"></Property>
+<Property ID="105010001_1" ItemConfigID="105010001" ItemColor="2" CapitalType="1" ItemPrice="51"></Property>
+<Property ID="105020001_1" ItemConfigID="105020001" ItemColor="3" CapitalType="1" ItemPrice="52"></Property>
+<Property ID="105030001_1" ItemConfigID="105030001" ItemColor="4" CapitalType="1" ItemPrice="53"></Property>
+<Property ID="105040001_1" ItemConfigID="105040001" ItemColor="5" CapitalType="1" ItemPrice="54"></Property>
+<Property ID="102010001_1" ItemConfigID="102010001" ItemColor="1" CapitalType="1" ItemPrice="55"></Property>
+</Object>

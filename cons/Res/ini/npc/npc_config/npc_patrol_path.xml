@@ -1,0 +1,2912 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<Object>
+	<Property ID="Monster_52001">
+		<Step x="-27" z="-27" resettime="1500"/>
+		<Step x="-2" z="-27" resettime="1500"/>
+	</Property>
+	<Property ID="Monster_52002">
+		<Step x="27" z="-27" resettime="1500"/>
+		<Step x="2" z="-27" resettime="1500"/>
+	</Property>
+	<Property ID="Monster_52003">
+		<Step x="16" z="33" resettime="1500"/>
+		<Step x="2" z="33" resettime="1500"/>
+	</Property>
+	<Property ID="Monster_52004">
+		<Step x="-16" z="33" resettime="1500"/>
+		<Step x="-2" z="33" resettime="1500"/>
+	</Property>
+	<Property ID="Monster_52005">
+		<Step x="25" z="72" resettime="1500"/>
+		<Step x="2" z="72" resettime="1500"/>
+	</Property>
+	<Property ID="Monster_52006">
+		<Step x="-25" z="72" resettime="1500"/>
+		<Step x="-2" z="72" resettime="1500"/>
+	</Property>
+	<Property ID="Monster_52007">
+		<Step x="25" z="200" resettime="1500"/>
+		<Step x="2" z="200" resettime="1500"/>
+	</Property>
+	<Property ID="Monster_52008">
+		<Step x="-25" z="200" resettime="1500"/>
+		<Step x="-2" z="200" resettime="1500"/>
+	</Property>
+	<Property ID="Monster_52009">
+		<Step x="-110" z="-46" resettime="500"/>
+		<Step x="-110" z="-61.5" resettime="500"/>
+	</Property>
+	<Property ID="Monster_52010">
+		<Step x="-110" z="-83" resettime="500"/>
+		<Step x="-110" z="-65.5" resettime="500"/>
+	</Property>
+	<Property ID="Monster_52011">
+		<Step x="110" z="-83" resettime="500"/>
+		<Step x="110" z="-65.5" resettime="500"/>
+	</Property>
+	<Property ID="Monster_52012">
+		<Step x="110" z="-46" resettime="500"/>
+		<Step x="110" z="-61.5" resettime="500"/>
+	</Property>
+	<Property ID="Monster_52013">
+		<Step x="160" z="-136" resettime="500"/>
+		<Step x="160" z="-154" resettime="500"/>
+	</Property>
+	<Property ID="Monster_52014">
+		<Step x="160" z="-176" resettime="500"/>
+		<Step x="160" z="-158" resettime="500"/>
+	</Property>
+	<Property ID="Monster_52015">
+		<Step x="-275" z="5" resettime="500"/>
+		<Step x="-275" z="25.5" resettime="500"/>
+	</Property>
+	<Property ID="Monster_52016">
+		<Step x="-275" z="50" resettime="500"/>
+		<Step x="-275" z="29.5" resettime="500"/>
+	</Property>
+	<Property ID="Monster_52017">
+		<Step x="45" z="-180" resettime="500"/>
+		<Step x="2" z="-180" resettime="500"/>
+	</Property>
+	<Property ID="Monster_52018">
+		<Step x="100" z="43" resettime="500"/>
+		<Step x="100" z="61" resettime="500"/>
+	</Property>
+	<Property ID="Monster_52019">
+		<Step x="100" z="83" resettime="500"/>
+		<Step x="100" z="65" resettime="500"/>
+	</Property>
+	<Property ID="Monster_52020">
+		<Step x="-275" z="-147" resettime="500"/>
+		<Step x="-275" z="-167" resettime="500"/>
+	</Property>
+	<Property ID="Monster_52021">
+		<Step x="-275" z="-191" resettime="500"/>
+		<Step x="-275" z="-171" resettime="500"/>
+	</Property>
+	<Property ID="Monster_52022">
+		<Step x="-45" z="-180" resettime="500"/>
+		<Step x="-2" z="-180" resettime="500"/>
+	</Property>
+	<Property ID="Monster_52023">
+		<Step x="20" z="315" resettime="500"/>
+		<Step x="2" z="315" resettime="500"/>
+	</Property>
+	<Property ID="Monster_52024">
+		<Step x="-20" z="315" resettime="500"/>
+		<Step x="-2" z="315" resettime="500"/>
+	</Property>
+	<Property ID="Monster_52025">
+		<Step x="58" z="183" resettime="500"/>
+		<Step x="58" z="203" resettime="500"/>
+	</Property>
+	<Property ID="Monster_52026">
+		<Step x="58" z="227" resettime="500"/>
+		<Step x="58" z="207" resettime="500"/>
+	</Property>
+	<Property ID="Monster_52027">
+		<Step x="-58" z="183" resettime="500"/>
+		<Step x="-58" z="203" resettime="500"/>
+	</Property>
+	<Property ID="Monster_52028">
+		<Step x="-58" z="227" resettime="500"/>
+		<Step x="-58" z="207" resettime="500"/>
+	</Property>
+	<Property ID="monster1211003">
+		<Step x="-62.46473" z="16.43683" resettime="500"/>
+		<Step x="0" z="13.64292" resettime="500"/>
+		<Step x="0" z="65.21189" resettime="500"/>
+	</Property>
+	<Property ID="monster1211100">
+		<Step x="0" z="65.21189" resettime="500"/>
+		<Step x="0" z="13.64292" resettime="500"/>
+		<Step x="70.7887" z="16.65183" resettime="500"/>
+		<Step x="72.07637" z="33.86394" resettime="500"/>
+	</Property>
+	<Property ID="monster1211101">
+		<Step x="0" z="-118.7264" resettime="500"/>
+		<Step x="0" z="65.21189" resettime="500"/>
+	</Property>
+	<Property ID="monster1211103">
+		<Step x="-61.92398" z="-119.80351" resettime="500"/>
+		<Step x="-61.92398" z="-39.32437" resettime="500"/>
+		<Step x="63.47562" z="2.33018" resettime="500"/>
+		<Step x="62.63724" z="4.625" resettime="500"/>
+	</Property>
+	<Property ID="monster1211104">
+		<Step x="62.63724" z="4.625" resettime="500"/>
+		<Step x="63.47562" z="2.33018" resettime="500"/>
+		<Step x="-61.92398" z="-39.32437" resettime="500"/>
+		<Step x="-61.92398" z="-119.80351" resettime="500"/>
+	</Property>
+	<Property ID="monster1211105">
+		<Step x="-27.73162" z="-10.62071" resettime="500"/>
+		<Step x="29.88162" z="-10.62071" resettime="500"/>
+		<Step x="29.88162" z="-68.53334" resettime="500"/>
+		<Step x="-27.73162" z="-68.53334" resettime="500"/>
+	</Property>
+	<Property ID="monster1211106">
+		<Step x="35.00931" z="-74.40287" resettime="500"/>
+		<Step x="35.00931" z="-39.69332" resettime="500"/>
+		<Step x="-32.45917" z="-39.69332" resettime="500"/>
+		<Step x="-32.45917" z="-74.40287" resettime="500"/>
+	</Property>
+	<Property ID="monster1211200">
+		<Step x="34.26772" z="-12.0949" resettime="500"/>
+		<Step x="-32.45917" z="-39.69332" resettime="500"/>
+		<Step x="35.00931" z="-39.69332" resettime="500"/>
+		<Step x="35.00931" z="-15.32509" resettime="500"/>
+	</Property>
+	<Property ID="monster1211201">
+		<Step x="0" z="14.37148" resettime="500"/>
+		<Step x="0" z="64.46047" resettime="500"/>
+		<Step x="26.79532" z="75.53305" resettime="500"/>
+	</Property>
+	<Property ID="monster1211203">
+		<Step x="0" z="14.37148" resettime="500"/>
+		<Step x="0" z="-118.40605" resettime="500"/>
+		<Step x="0" z="-165.31613" resettime="500"/>
+		<Step x="-9.34789" z="-183.20149" resettime="500"/>
+	</Property>
+	<Property ID="monster1211204">
+		<Step x="-9.34789" z="-183.20149" resettime="500"/>
+		<Step x="0" z="-165.31613" resettime="500"/>
+		<Step x="0" z="-118.40605" resettime="500"/>
+		<Step x="0" z="14.37148" resettime="500"/>
+	</Property>
+	<Property ID="monster1211205">
+		<Step x="0" z="64.46047" resettime="500"/>
+		<Step x="0" z="-9.18711" resettime="500"/>
+		<Step x="29.88162" z="-10.62071" resettime="500"/>
+	</Property>
+	<Property ID="monster1211206">
+		<Step x="72.07637" z="33.86394" resettime="500"/>
+		<Step x="70.7887" z="16.65183" resettime="500"/>
+		<Step x="0" z="14.37148" resettime="500"/>
+		<Step x="0" z="64.46047" resettime="500"/>
+	</Property>
+	<Property ID="monster1212100">
+		<Step x="0" z="64.46047" resettime="500"/>
+		<Step x="0" z="14.37148" resettime="500"/>
+		<Step x="70.7887" z="16.65183" resettime="500"/>
+		<Step x="72.07637" z="33.86394" resettime="500"/>
+	</Property>
+	<Property ID="monster1212101">
+		<Step x="74.93557" z="-38.02696" resettime="500"/>
+		<Step x="0" z="-38.02696" resettime="500"/>
+		<Step x="0" z="14.18711" resettime="500"/>
+		<Step x="0" z="64.46047" resettime="500"/>
+	</Property>
+	<Property ID="monster1212103">
+		<Step x="-74.93557" z="-38.02696" resettime="500"/>
+		<Step x="0" z="-38.02696" resettime="500"/>
+		<Step x="0" z="-73.74825" resettime="500"/>
+	</Property>
+	<Property ID="monster1212104">
+		<Step x="-62.46473" z="16.43683" resettime="500"/>
+		<Step x="0" z="16.43683" resettime="500"/>
+		<Step x="69.25252" z="16.43683" resettime="500"/>
+	</Property>
+	<Property ID="monster1212105">
+		<Step x="42.28781" z="23.16748" resettime="500"/>
+		<Step x="0" z="23.16748" resettime="500"/>
+		<Step x="0" z="-38.02696" resettime="500"/>
+		<Step x="-49.60484" z="-46.41068" resettime="500"/>
+	</Property>
+	<Property ID="monster1212106">
+		<Step x="-49.60484" z="-46.41068" resettime="500"/>
+		<Step x="0" z="-38.02696" resettime="500"/>
+		<Step x="0" z="23.16748" resettime="500"/>
+		<Step x="42.28781" z="23.16748" resettime="500"/>
+	</Property>
+	<Property ID="monster1212200">
+		<Step x="74.93557" z="-38.02696" resettime="500"/>
+		<Step x="63.66655" z="-63.51218" resettime="500"/>
+		<Step x="63.66655" z="-118.40605" resettime="500"/>
+	</Property>
+	<Property ID="monster1212201">
+		<Step x="74.93557" z="-38.02696" resettime="500"/>
+		<Step x="0" z="-38.02696" resettime="500"/>
+		<Step x="-74.93557" z="-38.02696" resettime="500"/>
+	</Property>
+	<Property ID="monster1212203">
+		<Step x="0" z="-38.02696" resettime="500"/>
+		<Step x="-3.23945" z="56.62781" resettime="500"/>
+		<Step x="26.82055" z="75.47718" resettime="500"/>
+	</Property>
+	<Property ID="monster1212204">
+		<Step x="26.82055" z="75.47718" resettime="500"/>
+		<Step x="-3.23945" z="56.62781" resettime="500"/>
+	</Property>
+	<Property ID="monster1212205">
+		<Step x="0" z="-38.02696" resettime="500"/>
+		<Step x="6.68946" z="51.70232" resettime="500"/>
+		<Step x="-3.23945" z="56.62781" resettime="500"/>
+		<Step x="0" z="16.43683" resettime="500"/>
+		<Step x="70.7887" z="16.65183" resettime="500"/>
+		<Step x="72.07637" z="33.86394" resettime="500"/>
+	</Property>
+	<Property ID="monster1212206">
+		<Step x="-65.7887" z="16.65183" resettime="500"/>
+		<Step x="0" z="16.43683" resettime="500"/>
+		<Step x="0" z="-38.02696" resettime="500"/>
+		<Step x="-63.17325" z="-38.02696" resettime="500"/>
+		<Step x="-63.17325" z="-118.40605" resettime="500"/>
+	</Property>
+	<Property ID="monster1221300">
+		<Step x="0" z="-118.40605" resettime="500"/>
+		<Step x="0" z="64.46047" resettime="500"/>
+	</Property>
+	<Property ID="monster1221301">
+		<Step x="0" z="-38.02696" resettime="500"/>
+		<Step x="-32.86476" z="-38.02696" resettime="500"/>
+		<Step x="-32.86476" z="-12.58408" resettime="500"/>
+		<Step x="0" z="-8.41739" resettime="500"/>
+		<Step x="0" z="64.46047" resettime="500"/>
+	</Property>
+	<Property ID="monster1221302">
+		<Step x="-65.7887" z="16.65183" resettime="500"/>
+		<Step x="0" z="16.65183" resettime="500"/>
+		<Step x="0" z="-38.02696" resettime="500"/>
+		<Step x="-49.60484" z="-38.02696" resettime="500"/>
+		<Step x="-49.60484" z="-46.41068" resettime="500"/>
+	</Property>
+	<Property ID="monster1221303">
+		<Step x="74.45223" z="-38.02696" resettime="500"/>
+		<Step x="-74.45223" z="-38.02696" resettime="500"/>
+	</Property>
+	<Property ID="monster1221304">
+		<Step x="26.84806" z="-11.00476" resettime="500"/>
+		<Step x="0" z="-8.41739" resettime="500"/>
+		<Step x="0" z="-38.02696" resettime="500"/>
+	</Property>
+	<Property ID="monster111111">
+		<Step x="32.5" z="25" resettime="500"/>
+		<Step x="32.5" z="11" resettime="500"/>
+		<Step x="53" z="11" resettime="500"/>
+		<Step x="53" z="25" resettime="500"/>
+		<Step x="32.5" z="25" resettime="500"/>
+		<Step x="32.5" z="11" resettime="500"/>
+		<Step x="53" z="11" resettime="500"/>
+		<Step x="53" z="25" resettime="500"/>
+		<Step x="50" z="14.5" resettime="500"/>
+		<Step x="36" z="14.5" resettime="500"/>
+		<Step x="43" z="24" resettime="500"/>
+	</Property>
+	<Property ID="monster111112">
+		<Step x="32.5" z="25" resettime="500"/>
+		<Step x="32.5" z="11" resettime="500"/>
+		<Step x="53" z="11" resettime="500"/>
+		<Step x="53" z="25" resettime="500"/>
+		<Step x="32.5" z="25" resettime="500"/>
+		<Step x="32.5" z="11" resettime="500"/>
+		<Step x="53" z="11" resettime="500"/>
+		<Step x="53" z="25" resettime="500"/>
+		<Step x="50" z="14.5" resettime="500"/>
+		<Step x="36" z="14.5" resettime="500"/>
+		<Step x="43" z="24" resettime="500"/>
+	</Property>
+	<Property ID="monster111113">
+		<Step x="32.5" z="25" resettime="500"/>
+		<Step x="32.5" z="11" resettime="500"/>
+		<Step x="53" z="11" resettime="500"/>
+		<Step x="53" z="25" resettime="500"/>
+		<Step x="32.5" z="25" resettime="500"/>
+		<Step x="32.5" z="11" resettime="500"/>
+		<Step x="53" z="11" resettime="500"/>
+		<Step x="53" z="25" resettime="500"/>
+		<Step x="50" z="14.5" resettime="500"/>
+		<Step x="36" z="14.5" resettime="500"/>
+		<Step x="43" z="24" resettime="500"/>
+	</Property>
+	<Property ID="monster111114">
+		<Step x="47" z="24" resettime="500"/>
+		<Step x="45" z="20" resettime="500"/>
+		<Step x="38" z="26" resettime="500"/>
+		<Step x="37" z="21" resettime="500"/>
+		<Step x="42" z="21" resettime="500"/>
+		<Step x="42" z="21" resettime="500"/>
+	</Property>
+	<Property ID="monster111115">
+		<Step x="32.5" z="25" resettime="500"/>
+		<Step x="32.5" z="11" resettime="500"/>
+		<Step x="53" z="11" resettime="500"/>
+		<Step x="53" z="25" resettime="500"/>
+		<Step x="32.5" z="25" resettime="500"/>
+		<Step x="32.5" z="11" resettime="500"/>
+		<Step x="53" z="11" resettime="500"/>
+		<Step x="53" z="25" resettime="500"/>
+		<Step x="50" z="14.5" resettime="500"/>
+		<Step x="36" z="14.5" resettime="500"/>
+		<Step x="43" z="24" resettime="500"/>
+	</Property>
+	<Property ID="monster1221305">
+		<Step x="35" z="-40" resettime="500"/>
+		<Step x="29" z="-10" resettime="500"/>
+		<Step x="-27" z="-10" resettime="500"/>
+		<Step x="-37" z="-39" resettime="500"/>
+		<Step x="-61" z="-39" resettime="500"/>
+	</Property>
+	<Property ID="monster1221306">
+		<Step x="-62" z="-46" resettime="500"/>
+		<Step x="-62" z="-121" resettime="500"/>
+		<Step x="-51" z="-149" resettime="500"/>
+		<Step x="0" z="-141" resettime="500"/>
+		<Step x="0" z="0" resettime="500"/>
+	</Property>
+	<Property ID="monster1221307">
+		<Step x="0" z="0" resettime="500"/>
+		<Step x="0" z="-73" resettime="500"/>
+		<Step x="34" z="73" resettime="500"/>
+		<Step x="34" z="-40" resettime="500"/>
+	</Property>
+	<Property ID="monster1221308">
+		<Step x="0" z="0" resettime="500"/>
+		<Step x="0" z="-73" resettime="500"/>
+		<Step x="-32" z="-73" resettime="500"/>
+		<Step x="-34" z="40" resettime="500"/>
+	</Property>
+	<Property ID="monster1221309">
+		<Step x="26" z="74" resettime="500"/>
+		<Step x="0" z="58" resettime="500"/>
+		<Step x="0" z="-40" resettime="500"/>
+		<Step x="35" z="-40" resettime="500"/>
+	</Property>
+	<Property ID="monster1221310">
+		<Step x="74" z="-38" resettime="500"/>
+		<Step x="0" z="-38" resettime="500"/>
+		<Step x="0" z="14" resettime="500"/>
+		<Step x="43" z="23" resettime="500"/>
+	</Property>
+	<Property ID="monster1221311">
+		<Step x="0" z="58" resettime="500"/>
+		<Step x="0" z="14" resettime="500"/>
+		<Step x="43" z="23" resettime="500"/>
+		<Step x="70" z="23" resettime="500"/>
+		<Step x="72" z="33" resettime="500"/>
+	</Property>
+	<Property ID="monster1221312">
+		<Step x="26" z="-10" resettime="500"/>
+		<Step x="0" z="-6" resettime="500"/>
+		<Step x="0" z="14" resettime="500"/>
+		<Step x="-35" z="21" resettime="500"/>
+	</Property>
+	<Property ID="monster1221313">
+		<Step x="-35" z="21" resettime="500"/>
+		<Step x="0" z="14" resettime="500"/>
+		<Step x="0" z="58" resettime="500"/>
+		<Step x="26" z="74" resettime="500"/>
+	</Property>
+	<Property ID="monster1221314">
+		<Step x="43" z="68" resettime="500"/>
+		<Step x="0" z="68" resettime="500"/>
+		<Step x="0" z="14" resettime="500"/>
+		<Step x="-35" z="21" resettime="500"/>
+	</Property>
+	<Property ID="monster1221315">
+		<Step x="0" z="-8" resettime="500"/>
+		<Step x="0" z="-73" resettime="500"/>
+		<Step x="-32" z="-72" resettime="500"/>
+		<Step x="-35" z="-13" resettime="500"/>
+	</Property>
+	<Property ID="monster1221316">
+		<Step x="0" z="-73" resettime="500"/>
+		<Step x="0" z="-8" resettime="500"/>
+		<Step x="-35" z="-13" resettime="500"/>
+		<Step x="-35" z="-40" resettime="500"/>
+		<Step x="-61" z="-38" resettime="500"/>
+	</Property>
+	<Property ID="monster1221317">
+		<Step x="-61" z="-38" resettime="500"/>
+		<Step x="0" z="-38" resettime="500"/>
+		<Step x="0" z="14" resettime="500"/>
+		<Step x="43" z="23" resettime="500"/>
+	</Property>
+	<Property ID="monster1221318">
+		<Step x="0" z="14" resettime="500"/>
+		<Step x="0" z="-40" resettime="500"/>
+		<Step x="-61" z="-38" resettime="500"/>
+	</Property>
+	<Property ID="monster1221319">
+		<Step x="0" z="14" resettime="500"/>
+		<Step x="0" z="-72" resettime="500"/>
+		<Step x="32" z="-71" resettime="500"/>
+		<Step x="35" z="-16" resettime="500"/>
+	</Property>
+	<Property ID="monster1221320">
+		<Step x="5" z="-71" resettime="500"/>
+		<Step x="32" z="-72" resettime="500"/>
+		<Step x="36" z="-38" resettime="500"/>
+		<Step x="61" z="-38" resettime="500"/>
+		<Step x="64" z="-74" resettime="500"/>
+	</Property>
+	<Property ID="monster1221321">
+		<Step x="65" z="-49" resettime="500"/>
+		<Step x="3" z="-38" resettime="500"/>
+		<Step x="0" z="-9" resettime="500"/>
+		<Step x="2" z="14" resettime="500"/>
+		<Step x="67" z="16" resettime="500"/>
+	</Property>
+	<Property ID="monster1221322">
+		<Step x="-62" z="16" resettime="500"/>
+		<Step x="-1" z="15" resettime="500"/>
+		<Step x="0" z="74" resettime="500"/>
+		<Step x="19" z="72" resettime="500"/>
+		<Step x="24" z="90" resettime="500"/>
+	</Property>
+	<Property ID="monster1221323">
+		<Step x="28" z="92" resettime="500"/>
+		<Step x="17" z="75" resettime="500"/>
+		<Step x="-1" z="80" resettime="500"/>
+		<Step x="-1" z="107" resettime="500"/>
+	</Property>
+	<Property ID="monster1221324">
+		<Step x="-33" z="107" resettime="500"/>
+		<Step x="0" z="102" resettime="500"/>
+		<Step x="-2" z="76" resettime="500"/>
+		<Step x="-20" z="77" resettime="500"/>
+		<Step x="-24" z="92" resettime="500"/>
+	</Property>
+	<Property ID="monster1221325">
+		<Step x="-36" z="64" resettime="500"/>
+		<Step x="-19" z="66" resettime="500"/>
+		<Step x="-1" z="68" resettime="500"/>
+		<Step x="0" z="12" resettime="500"/>
+		<Step x="1" z="-10" resettime="500"/>
+		<Step x="25" z="-10" resettime="500"/>
+	</Property>
+	<Property ID="monster1221326">
+		<Step x="32" z="-16" resettime="500"/>
+		<Step x="34" z="-38" resettime="500"/>
+		<Step x="-29" z="-39" resettime="500"/>
+		<Step x="-29" z="-12" resettime="500"/>
+		<Step x="0" z="-10" resettime="500"/>
+	</Property>
+	<Property ID="monster1221327">
+		<Step x="-30" z="-20" resettime="500"/>
+		<Step x="-33" z="-40" resettime="500"/>
+		<Step x="-62" z="-38" resettime="500"/>
+		<Step x="-62" z="-74" resettime="500"/>
+		<Step x="-62" z="-124" resettime="500"/>
+	</Property>
+	<Property ID="monster1221328">
+		<Step x="-1" z="-138" resettime="500"/>
+		<Step x="-1" z="-100" resettime="500"/>
+		<Step x="1" z="-72" resettime="500"/>
+		<Step x="-29" z="-72" resettime="500"/>
+		<Step x="-31" z="-40" resettime="500"/>
+		<Step x="-2" z="-38" resettime="500"/>
+	</Property>
+	<Property ID="monster1221329">
+		<Step x="35" z="-40" resettime="500"/>
+		<Step x="34" z="-75" resettime="500"/>
+		<Step x="34" z="-13" resettime="500"/>
+		<Step x="0" z="-12" resettime="500"/>
+	</Property>
+	<Property ID="monster1221330">
+		<Step x="65" z="-49" resettime="500"/>
+		<Step x="3" z="-38" resettime="500"/>
+		<Step x="0" z="-9" resettime="500"/>
+		<Step x="2" z="14" resettime="500"/>
+		<Step x="67" z="16" resettime="500"/>
+	</Property>
+	<Property ID="monster1221331">
+		<Step x="-62" z="16" resettime="500"/>
+		<Step x="-1" z="15" resettime="500"/>
+		<Step x="0" z="74" resettime="500"/>
+		<Step x="19" z="72" resettime="500"/>
+		<Step x="24" z="90" resettime="500"/>
+	</Property>
+	<Property ID="monster1221332">
+		<Step x="28" z="92" resettime="500"/>
+		<Step x="17" z="75" resettime="500"/>
+		<Step x="-1" z="80" resettime="500"/>
+		<Step x="-1" z="107" resettime="500"/>
+	</Property>
+	<Property ID="monster1221333">
+		<Step x="-33" z="107" resettime="500"/>
+		<Step x="0" z="102" resettime="500"/>
+		<Step x="-2" z="76" resettime="500"/>
+		<Step x="-20" z="77" resettime="500"/>
+		<Step x="-24" z="92" resettime="500"/>
+	</Property>
+	<Property ID="monster1221334">
+		<Step x="-36" z="64" resettime="500"/>
+		<Step x="-19" z="66" resettime="500"/>
+		<Step x="-1" z="68" resettime="500"/>
+		<Step x="0" z="12" resettime="500"/>
+		<Step x="1" z="-10" resettime="500"/>
+		<Step x="25" z="-10" resettime="500"/>
+	</Property>
+	<!--A阵营上路-->
+	<Property ID="Test001">
+		<Step x="-81" z="7" resettime="1"/>
+		<Step x="-71" z="32" resettime="1"/>
+		<Step x="0" z="38" resettime="1"/>
+		<Step x="71" z="32" resettime="1"/>
+		<Step x="86" z="0" resettime="1"/>
+	</Property>
+	<Property ID="Test002">
+		<Step x="-81" z="7" resettime="1"/>
+		<Step x="-71" z="32" resettime="1"/>
+		<Step x="0" z="38" resettime="1"/>
+		<Step x="71" z="32" resettime="1"/>
+		<Step x="86" z="0" resettime="1"/>
+	</Property>
+	<!--A阵营下路-->
+	<Property ID="Test003">
+		<Step x="-81" z="-7" resettime="0"/>
+		<Step x="-71" z="-32" resettime="0"/>
+		<Step x="0" z="-38" resettime="0"/>
+		<Step x="71" z="-32" resettime="0"/>
+		<Step x="86" z="0" resettime="0"/>
+	</Property>
+	<Property ID="Test004">
+		<Step x="-81" z="-7" resettime="0"/>
+		<Step x="-71" z="-32" resettime="0"/>
+		<Step x="0" z="-38" resettime="0"/>
+		<Step x="71" z="-32" resettime="0"/>
+		<Step x="86" z="0" resettime="0"/>
+	</Property>
+	<!--B阵营上路-->
+	<Property ID="Test005">
+		<Step x="81" z="7" resettime="0"/>
+		<Step x="71" z="32" resettime="0"/>
+		<Step x="0" z="38" resettime="0"/>
+		<Step x="-71" z="32" resettime="0"/>
+		<Step x="-86" z="0" resettime="0"/>
+	</Property>
+	<Property ID="Test006">
+		<Step x="81" z="7" resettime="0"/>
+		<Step x="71" z="32" resettime="0"/>
+		<Step x="0" z="38" resettime="0"/>
+		<Step x="-71" z="32" resettime="0"/>
+		<Step x="-86" z="0" resettime="0"/>
+	</Property>
+	<!--B阵营下路-->
+	<Property ID="Test007">
+		<Step x="81" z="-7" resettime="0"/>
+		<Step x="71" z="-32" resettime="0"/>
+		<Step x="0" z="-38" resettime="0"/>
+		<Step x="-71" z="-32" resettime="0"/>
+		<Step x="-86" z="0" resettime="0"/>
+	</Property>
+	<Property ID="Test008">
+		<Step x="81" z="-7" resettime="0"/>
+		<Step x="71" z="-32" resettime="0"/>
+		<Step x="0" z="-38" resettime="0"/>
+		<Step x="-71" z="-32" resettime="0"/>
+		<Step x="-86" z="0" resettime="0"/>
+	</Property>
+	<!--剑州城墙-->
+	<Property ID="Monster_750601">
+		<Step x="-129.02" z="-182.12" resettime="0"/>
+		<Step x="-129.02" z="-204.25" resettime="0"/>
+	</Property>
+	<Property ID="Monster_750602">
+		<Step x="-112.55" z="-199.51" resettime="0"/>
+		<Step x="-112.55" z="-177.4" resettime="0"/>
+	</Property>
+	<Property ID="Monster_750603">
+		<Step x="-93.89" z="-181.36" resettime="0"/>
+		<Step x="-93.89" z="-204.15" resettime="0"/>
+	</Property>
+	<Property ID="Monster_750604">
+		<Step x="-63.91" z="-199.38" resettime="0"/>
+		<Step x="-63.91" z="-178.4" resettime="0"/>
+	</Property>
+	<Property ID="Monster_750605">
+		<Step x="-35.77" z="-176.31" resettime="0"/>
+		<Step x="-35.77" z="-189.16" resettime="0"/>
+		<Step x="-63.29" z="-189.16" resettime="0"/>
+		<Step x="-11.1" z="-189.16" resettime="0"/>
+		<Step x="-11.1" z="-173.3" resettime="0"/>
+		<Step x="-36.8" z="-173.3" resettime="0"/>
+		<Step x="-35.77" z="-206.88" resettime="0"/>
+	</Property>
+	<Property ID="Monster_750606">
+		<Step x="-36.8" z="-172.5" resettime="0"/>
+		<Step x="-36.8" z="-206.1" resettime="0"/>
+		<Step x="-21.8" z="-206.1" resettime="0"/>
+		<Step x="-21.8" z="-173.6" resettime="0"/>
+		<Step x="-9.46" z="-172.5" resettime="0"/>
+	</Property>
+	<Property ID="Monster_750607">
+		<Step x="-33.6" z="-163.1" resettime="0"/>
+		<Step x="-33.6" z="-124.4" resettime="0"/>
+	</Property>
+	<Property ID="Monster_750608">
+		<Step x="-32.6" z="-32.6" resettime="0"/>
+		<Step x="-12.6" z="-32.6" resettime="0"/>
+		<Step x="-32.6" z="-68.7" resettime="0"/>
+	</Property>
+	<Property ID="Monster_750609">
+		<Step x="-37.6" z="-37.6" resettime="0"/>
+		<Step x="-8.1" z="-37.6" resettime="0"/>
+		<Step x="-8.1" z="-8.4" resettime="0"/>
+		<Step x="-8.1" z="-37.6" resettime="0"/>
+		<Step x="-37.6" z="-8.5" resettime="0"/>
+	</Property>
+	<Property ID="Monster_750610">
+		<Step x="-35.5" z="-40.2" resettime="0"/>
+		<Step x="-35.5" z="-70" resettime="0"/>
+		<Step x="-28.3" z="-70" resettime="0"/>
+		<Step x="-10.4" z="-40.2" resettime="0"/>
+	</Property>
+	<Property ID="Monster_750611">
+		<Step x="9.8" z="-27.1" resettime="0"/>
+		<Step x="9.8" z="-16.3" resettime="0"/>
+	</Property>
+	<Property ID="Monster_750612">
+		<Step x="61.03" z="-27.4" resettime="0"/>
+		<Step x="28.9" z="-27.4" resettime="0"/>
+	</Property>
+	<Property ID="Monster_750613">
+		<Step x="40.9" z="-15.4" resettime="0"/>
+		<Step x="64.6" z="-15.4" resettime="0"/>
+	</Property>
+	<Property ID="Monster_750614">
+		<Step x="132.9" z="-8.694" resettime="0"/>
+		<Step x="160.57" z="-8.69" resettime="0"/>
+	</Property>
+	<Property ID="Monster_750615">
+		<Step x="169.3" z="-29.4" resettime="0"/>
+		<Step x="169.3" z="-8.5" resettime="0"/>
+		<Step x="130.4" z="-29.4" resettime="0"/>
+	</Property>
+	<Property ID="Monster_750616">
+		<Step x="133.2" z="-8.8" resettime="0"/>
+		<Step x="162.2" z="-36.8" resettime="0"/>
+	</Property>
+	<Property ID="Monster_750617">
+		<Step x="-139.7" z="-182.8" resettime="0"/>
+		<Step x="-40" z="-182.8" resettime="0"/>
+	</Property>
+	<Property ID="Monster_750618">
+		<Step x="-140.5" z="-198.7" resettime="0"/>
+		<Step x="-40.78" z="-198.7" resettime="0"/>
+	</Property>
+	<Property ID="Monster_750619">
+		<Step x="181.7" z="233.7" resettime="0"/>
+	</Property>
+	<Property ID="Monster_750620">
+		<Step x="180.6" z="248.6" resettime="0"/>
+	</Property>
+	<Property ID="Monster_750621">
+		<Step x="59.5" z="248.3" resettime="0"/>
+	</Property>
+	<Property ID="Monster_750622">
+		<Step x="35.6" z="227.3" resettime="0"/>
+	</Property>
+	<!-- 坐骑副本 -->
+	<Property ID="Monster_760501">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_760502">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_760503">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_760504">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_760505">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_760506">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_760507">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_760508">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_760901">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_760902">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_760903">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_760904">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_760905">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_760906">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_760907">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_760908">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761001_1">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761002_1">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761003_1">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761004_1">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761005_1">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761006_1">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761007_1">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761008_1">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761001_2">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761002_2">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761003_2">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761004_2">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761005_2">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761006_2">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761007_2">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761008_2">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761001_3">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761002_3">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761003_3">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761004_3">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761005_3">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761006_3">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761007_3">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761008_3">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761001_4">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761002_4">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761003_4">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761004_4">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761005_4">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761006_4">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761007_4">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761008_4">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761001_5">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761002_5">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761003_5">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761004_5">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761005_5">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761006_5">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761007_5">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761008_5">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761001_6">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761002_6">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761003_6">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761004_6">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761005_6">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761006_6">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761007_6">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761008_6">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761001_7">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761002_7">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761003_7">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761004_7">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761005_7">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761006_7">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761007_7">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761008_7">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761001_8">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761002_8">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761003_8">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761004_8">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761005_8">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761006_8">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761007_8">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761008_8">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761001_9">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761002_9">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761003_9">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761004_9">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761005_9">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761006_9">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761007_9">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761008_9">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761001_10">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761002_10">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761003_10">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761004_10">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761005_10">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761006_10">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761007_10">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_761008_10">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_960501">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_960901">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_961001_1">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_961001_2">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_961001_3">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_961001_4">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_961001_5">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_961001_6">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_961001_7">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_961001_8">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_961001_9">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_961001_10">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_960501">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_960901">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_961001">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<Property ID="Monster_961101">
+		<Step x="78.16" z="-97.49178" resettime="0"/>
+	</Property>
+	<!-- 边境分割线 -->
+	<!-- 	<Property ID="Monster_140101">
+		<Step x="151.99" z="119.06" resettime="0"/>
+	</Property>
+	<Property ID="Monster_140102">
+		<Step x="119.06" z="122.45" resettime="0"/>
+	</Property>
+    <Property ID="Monster_140103">
+		<Step x="154.45" z="116.03" resettime="0"/>
+	</Property>
+	<Property ID="Monster_140104">
+		<Step x="194.89" z="126.03" resettime="0"/>
+	</Property>
+	<Property ID="Monster_140105">
+		<Step x="197.49" z="123.18" resettime="0"/>
+	</Property>
+    <Property ID="Monster_140106">
+		<Step x="192.62" z="129.39" resettime="0"/>
+	</Property>	
+	<Property ID="Monster_140107">
+		<Step x="188.9" z="131.9" resettime="0"/>
+	</Property>
+	<Property ID="Monster_140108">
+		<Step x="191.51" z="128.96" resettime="0"/>
+	</Property>
+    <Property ID="Monster_140109">
+		<Step x="187.1" z="135.61" resettime="0"/>
+	</Property>	
+	<Property ID="Monster_140115">
+		<Step x="-171.11" z="-117.8" resettime="0"/>
+	</Property>
+	<Property ID="Monster_140116">
+		<Step x="-172.1" z="-113.89" resettime="0"/>
+	</Property>
+    <Property ID="Monster_140117">
+		<Step x="-167.7" z="-113.97" resettime="0"/>
+	</Property>	
+	<Property ID="Monster_140118">
+		<Step x="-160.44" z="-127.21" resettime="0"/>
+	</Property>
+	<Property ID="Monster_140119">
+		<Step x="-164.19" z="-126.06" resettime="0"/>
+	</Property>
+    <Property ID="Monster_140120">
+		<Step x="-162.48" z="-122.5" resettime="0"/>
+	</Property>		
+	<Property ID="Monster_140124">
+		<Step x="-18.4" z="70" resettime="0"/>
+		<Step x="-13.9" z="105.2" resettime="0"/>
+	</Property>	
+	<Property ID="Monster_140125">
+		<Step x="-40.4" z="72.9" resettime="0"/>
+		<Step x="-27.7" z="99.2" resettime="0"/>
+	</Property>	
+	<Property ID="Monster_140126">
+		<Step x="-22.21" z="71.75" resettime="0"/>
+		<Step x="-17.2" z="94.98" resettime="0"/>
+	</Property>	
+	<Property ID="Monster_140127">
+		<Step x="22.2" z="-63.9" resettime="0"/>
+		<Step x="16.5" z="-89.7" resettime="0"/>
+	</Property>	
+	<Property ID="Monster_140128">
+		<Step x="14" z="-68" resettime="0"/>
+		<Step x="10" z="-91.8" resettime="0"/>
+	</Property>	
+	<Property ID="Monster_140129">
+		<Step x="24.4" z="24.4" resettime="0"/>
+		<Step x="12.3" z="12.3" resettime="0"/>
+	</Property>		
+	<Property ID="Monster_140130">
+		<Step x="-101.4" z="-59.4" resettime="0"/>
+	</Property>	
+	<Property ID="Monster_140131">
+		<Step x="-93.4" z="-64.7" resettime="0"/>
+	</Property>	
+	<Property ID="Monster_140132">
+		<Step x="-100.7" z="-53" resettime="0"/>
+	</Property>	
+	<Property ID="Monster_140133">
+		<Step x="106.8" z="63" resettime="0"/>
+	</Property>	
+	<Property ID="Monster_140133">
+		<Step x="106.8" z="63" resettime="0"/>
+	</Property>	
+	<Property ID="Monster_140134">
+		<Step x="102.1" z="71" resettime="0"/>
+	</Property>	
+	<Property ID="Monster_140135">
+		<Step x="103.1" z="59.1" resettime="0"/>
+	</Property>	 -->
+	<!-- 黄金城分割线 -->
+	<Property ID="Monster_750901">
+		<Step x="-12.99" z="18" resettime="0"/>
+	</Property>
+	<Property ID="Monster_750902">
+		<Step x="-8.14" z="18" resettime="0"/>
+	</Property>
+	<Property ID="Monster_750903">
+		<Step x="9.2" z="18" resettime="0"/>
+	</Property>
+	<Property ID="Monster_750904">
+		<Step x="4.23" z="18" resettime="0"/>
+	</Property>
+	<Property ID="Monster_750905">
+		<Step x="9.2" z="10.32" resettime="0"/>
+	</Property>
+	<Property ID="Monster_750906">
+		<Step x="9.2" z="15.51" resettime="0"/>
+	</Property>
+	<Property ID="Monster_750907">
+		<Step x="-11" z="16.7" resettime="0"/>
+	</Property>
+	<Property ID="Monster_750907">
+		<Step x="-11" z="16.7" resettime="0"/>
+	</Property>
+	<Property ID="Monster_750908">
+		<Step x="-11" z="11.7" resettime="0"/>
+	</Property>
+	<Property ID="Monster_750909">
+		<Step x="17.4" z="11.2" resettime="0"/>
+	</Property>
+	<Property ID="Monster_750910">
+		<Step x="-20.1" z="16.4" resettime="0"/>
+	</Property>
+	<Property ID="Monster_750911">
+		<Step x="-18.7" z="12.5" resettime="0"/>
+	</Property>
+	<Property ID="Monster_750912">
+		<Step x="19.6" z="11.6" resettime="0"/>
+	</Property>
+	<!-- <Property ID="Monster_750913">
+		<Step x="52.09" z="-29.97" resettime="0"/>
+		<Step x="51" z="-13.85" resettime="0"/>
+	</Property>		
+	<Property ID="Monster_750914">
+		<Step x="45.62" z="-30.5" resettime="0"/>
+		<Step x="47.16" z="-13.85" resettime="0"/>
+	</Property>	
+	<Property ID="Monster_750915">
+		<Step x="11.01" z="-62.2" resettime="0"/>
+	</Property>	
+	<Property ID="Monster_750916">
+		<Step x="11.01" z="-56.43" resettime="0"/>
+	</Property>	
+	<Property ID="Monster_750917">
+		<Step x="11.01" z="-56.43" resettime="0"/>
+	</Property>	
+	<Property ID="Monster_750918">
+		<Step x="11.01" z="-62.2" resettime="0"/>
+	</Property>	
+	<Property ID="Monster_750919">
+		<Step x="11.01" z="-56.43" resettime="0"/>
+	</Property>	
+	<Property ID="Monster_750920">
+		<Step x="11.01" z="-62.2" resettime="0"/>
+	</Property>	 -->
+	<!-- 剑州2分割线 -->
+	<Property ID="Monster_751101">
+		<Step x="30.6" z="-101.8" resettime="10000"/>
+		<Step x="-14.5" z="-95.1" resettime="8000"/>
+		<Step x="-26.93" z="-105.75" resettime="8000"/>
+		<Step x="-46.67" z="-98.57" resettime="1000"/>
+		<Step x="-91.9" z="-93.76" resettime="7000"/>
+		<Step x="-123.4" z="-103.42" resettime="8000"/>
+		<Step x="-162.07" z="-98.2" resettime="60000"/>
+	</Property>
+	<!-- 九曲廊桥 -->
+	<Property ID="Monster_751601">
+		<Step x="83.2" z="58.9" resettime="10000"/>
+		<Step x="67" z="25.9" resettime="8000"/>
+		<Step x="58.71" z="33.74" resettime="8000"/>
+		<Step x="7.52" z="3.42" resettime="1000"/>
+		<Step x="-25.8" z="-19.13" resettime="7000"/>
+		<Step x="-35.3" z="-66" resettime="8000"/>
+		<Step x="-61.2" z="-111.9" resettime="8000"/>
+		<Step x="-45" z="-111.9" resettime="8000"/>
+	</Property>
+	<!-- 九曲廊桥2 -->
+	<Property ID="Monster_751701">
+		<!-- 第一区域 -->
+		<Step x="-26.71" z="-34.6" resettime="5000"/>
+		<Step x="-21.95" z="-51.42" resettime="6000"/>
+		<Step x="-34.39" z="-51.06" resettime="6000"/>
+		<Step x="-39.22" z="-41.38" resettime="8000"/>
+		<Step x="-26.6" z="-26.8" resettime="8000"/>
+		<!-- 第二区域 -->
+		<Step x="-8" z="-0.6" resettime="3000"/>
+		<Step x="-4.12" z="4.43" resettime="6000"/>
+		<Step x="-4.26" z="3.7" resettime="5000"/>
+		<Step x="-9.61" z="0.5" resettime="4000"/>
+		<!-- 第三区域 -->
+		<Step x="27" z="14.5" resettime="7000"/>
+		<Step x="61.5" z="35.2" resettime="6000"/>
+		<Step x="57.9" z="46.7" resettime="8000"/>
+		<Step x="84.9" z="41.4" resettime="8000"/>
+		<Step x="67.6" z="27.7" resettime="8000"/>
+	</Property>
+	<!--帮会小怪寻路点，ID至Monster_30168-->
+	<Property ID="Monster_30151">
+		<Step x="2.6" z="97" resettime="1500"/>
+		<Step x="3.44" z="83.31" resettime="1500"/>
+		<Step x="4.28" z="66.77" resettime="1500"/>
+		<Step x="11.317" z="56.3247" resettime="1500"/>
+		<Step x="16.02639" z="39.925" resettime="1500"/>
+		<Step x="2.023357" z="33.15274" resettime="1500"/>
+	</Property>
+	<Property ID="Monster_30152">
+		<Step x="-2.07277" z="93.79467" resettime="1500"/>
+		<Step x="2.539651" z="87.55881" resettime="1500"/>
+		<Step x="2.381235" z="72.64203" resettime="1500"/>
+		<Step x="-0.4620598" z="58.79805" resettime="1500"/>
+		<Step x="0.8937203" z="45.70377" resettime="1500"/>
+		<Step x="6.964951" z="36.08879" resettime="1500"/>
+	</Property>
+	<Property ID="Monster_30153">
+		<Step x="-1.494968" z="92.70316" resettime="1500"/>
+		<Step x="3.606347" z="84.80009" resettime="1500"/>
+		<Step x="-0.7551053" z="70.99313" resettime="1500"/>
+		<Step x="-1.829946" z="61.08255" resettime="1500"/>
+		<Step x="1.428113" z="49.28666" resettime="1500"/>
+		<Step x="-0.9739984" z="37.28614" resettime="1500"/>
+	</Property>
+	<Property ID="Monster_30154">
+		<Step x="-3.119089" z="96.0344" resettime="1500"/>
+		<Step x="-7.509065" z="87.12227" resettime="1500"/>
+		<Step x="-7.138657" z="74.86105" resettime="1500"/>
+		<Step x="-8.076816" z="61.76" resettime="1500"/>
+		<Step x="-7.0422" z="49.11774" resettime="1500"/>
+		<Step x="-5.214" z="36.356" resettime="1500"/>
+	</Property>
+	<Property ID="Monster_30155">
+		<Step x="-7.077" z="94.094" resettime="1500"/>
+		<Step x="-12.71" z="97.14" resettime="1500"/>
+		<Step x="-8.204" z="76.88" resettime="1500"/>
+		<Step x="-10.76" z="61.12" resettime="1500"/>
+		<Step x="-11.16" z="45.69" resettime="1500"/>
+		<Step x="-9.975" z="31.75" resettime="1500"/>
+	</Property>
+	<Property ID="Monster_30156">
+		<Step x="-4.07" z="90.42" resettime="1500"/>
+		<Step x="-10" z="81.71" resettime="1500"/>
+		<Step x="-3.88" z="71.11" resettime="1500"/>
+		<Step x="-11.7" z="57.3" resettime="1500"/>
+		<Step x="-18.5" z="44" resettime="1500"/>
+		<Step x="-7.35" z="37.19" resettime="1500"/>
+	</Property>
+	<Property ID="Monster_30157">
+		<Step x="2.6" z="97" resettime="1500"/>
+		<Step x="3.44" z="83.31" resettime="1500"/>
+		<Step x="4.28" z="66.77" resettime="1500"/>
+		<Step x="11.317" z="56.3247" resettime="1500"/>
+		<Step x="16.02639" z="39.925" resettime="1500"/>
+		<Step x="2.023357" z="33.15274" resettime="1500"/>
+	</Property>
+	<Property ID="Monster_30158">
+		<Step x="-2.07277" z="93.79467" resettime="1500"/>
+		<Step x="2.539651" z="87.55881" resettime="1500"/>
+		<Step x="2.381235" z="72.64203" resettime="1500"/>
+		<Step x="-0.4620598" z="58.79805" resettime="1500"/>
+		<Step x="0.8937203" z="45.70377" resettime="1500"/>
+		<Step x="6.964951" z="36.08879" resettime="1500"/>
+	</Property>
+	<Property ID="Monster_30159">
+		<Step x="-1.494968" z="92.70316" resettime="1500"/>
+		<Step x="3.606347" z="84.80009" resettime="1500"/>
+		<Step x="-0.7551053" z="70.99313" resettime="1500"/>
+		<Step x="-1.829946" z="61.08255" resettime="1500"/>
+		<Step x="1.428113" z="49.28666" resettime="1500"/>
+		<Step x="-0.9739984" z="37.28614" resettime="1500"/>
+	</Property>
+	<Property ID="Monster_30160">
+		<Step x="-3.119089" z="96.0344" resettime="1500"/>
+		<Step x="-7.509065" z="87.12227" resettime="1500"/>
+		<Step x="-7.138657" z="74.86105" resettime="1500"/>
+		<Step x="-8.076816" z="61.76" resettime="1500"/>
+		<Step x="-7.0422" z="49.11774" resettime="1500"/>
+		<Step x="-5.214" z="36.356" resettime="1500"/>
+	</Property>
+	<Property ID="Monster_30161">
+		<Step x="-7.077" z="94.094" resettime="1500"/>
+		<Step x="-12.71" z="97.14" resettime="1500"/>
+		<Step x="-8.204" z="76.88" resettime="1500"/>
+		<Step x="-10.76" z="61.12" resettime="1500"/>
+		<Step x="-11.16" z="45.69" resettime="1500"/>
+		<Step x="-9.975" z="31.75" resettime="1500"/>
+	</Property>
+	<Property ID="Monster_30162">
+		<Step x="-4.07" z="90.42" resettime="1500"/>
+		<Step x="-10" z="81.71" resettime="1500"/>
+		<Step x="-3.88" z="71.11" resettime="1500"/>
+		<Step x="-11.7" z="57.3" resettime="1500"/>
+		<Step x="-18.5" z="44" resettime="1500"/>
+		<Step x="-7.35" z="37.19" resettime="1500"/>
+	</Property>
+	<Property ID="Monster_30163">
+		<Step x="2.6" z="97" resettime="1500"/>
+		<Step x="3.44" z="83.31" resettime="1500"/>
+		<Step x="4.28" z="66.77" resettime="1500"/>
+		<Step x="11.317" z="56.3247" resettime="1500"/>
+		<Step x="16.02639" z="39.925" resettime="1500"/>
+		<Step x="2.023357" z="33.15274" resettime="1500"/>
+	</Property>
+	<Property ID="Monster_30164">
+		<Step x="-2.07277" z="93.79467" resettime="1500"/>
+		<Step x="2.539651" z="87.55881" resettime="1500"/>
+		<Step x="2.381235" z="72.64203" resettime="1500"/>
+		<Step x="-0.4620598" z="58.79805" resettime="1500"/>
+		<Step x="0.8937203" z="45.70377" resettime="1500"/>
+		<Step x="6.964951" z="36.08879" resettime="1500"/>
+	</Property>
+	<Property ID="Monster_30165">
+		<Step x="-1.494968" z="92.70316" resettime="1500"/>
+		<Step x="3.606347" z="84.80009" resettime="1500"/>
+		<Step x="-0.7551053" z="70.99313" resettime="1500"/>
+		<Step x="-1.829946" z="61.08255" resettime="1500"/>
+		<Step x="1.428113" z="49.28666" resettime="1500"/>
+		<Step x="-0.9739984" z="37.28614" resettime="1500"/>
+	</Property>
+	<Property ID="Monster_30166">
+		<Step x="-3.119089" z="96.0344" resettime="1500"/>
+		<Step x="-7.509065" z="87.12227" resettime="1500"/>
+		<Step x="-7.138657" z="74.86105" resettime="1500"/>
+		<Step x="-8.076816" z="61.76" resettime="1500"/>
+		<Step x="-7.0422" z="49.11774" resettime="1500"/>
+		<Step x="-5.214" z="36.356" resettime="1500"/>
+	</Property>
+	<Property ID="Monster_30167">
+		<Step x="-7.077" z="94.094" resettime="1500"/>
+		<Step x="-12.71" z="97.14" resettime="1500"/>
+		<Step x="-8.204" z="76.88" resettime="1500"/>
+		<Step x="-10.76" z="61.12" resettime="1500"/>
+		<Step x="-11.16" z="45.69" resettime="1500"/>
+		<Step x="-9.975" z="31.75" resettime="1500"/>
+	</Property>
+	<Property ID="Monster_30168">
+		<Step x="-4.07" z="90.42" resettime="1500"/>
+		<Step x="-10" z="81.71" resettime="1500"/>
+		<Step x="-3.88" z="71.11" resettime="1500"/>
+		<Step x="-11.7" z="57.3" resettime="1500"/>
+		<Step x="-18.5" z="44" resettime="1500"/>
+		<Step x="-7.35" z="37.19" resettime="1500"/>
+	</Property>
+	<!--帮会BOSS寻路点-->
+	<Property ID="Monster_30101">
+		<Step x="-2.81" z="99.57" resettime="1500"/>
+		<Step x="2.99" z="83.27" resettime="1500"/>
+		<Step x="-2.08" z="71.3" resettime="1500"/>
+		<Step x="-2.19" z="59.23" resettime="1500"/>
+		<Step x="-2.53" z="50.28" resettime="1500"/>
+	</Property>
+	<Property ID="Monster_30102">
+		<Step x="-2.81" z="99.57" resettime="1500"/>
+		<Step x="2.99" z="83.27" resettime="1500"/>
+		<Step x="-2.08" z="71.3" resettime="1500"/>
+		<Step x="-2.19" z="59.23" resettime="1500"/>
+		<Step x="-2.53" z="50.28" resettime="1500"/>
+	</Property>
+	<Property ID="Monster_30103">
+		<Step x="-2.81" z="99.57" resettime="1500"/>
+		<Step x="2.99" z="83.27" resettime="1500"/>
+		<Step x="-2.08" z="71.3" resettime="1500"/>
+		<Step x="-2.19" z="59.23" resettime="1500"/>
+		<Step x="-2.53" z="50.28" resettime="1500"/>
+	</Property>
+	<Property ID="Monster_30104">
+		<Step x="-2.81" z="99.57" resettime="1500"/>
+		<Step x="2.99" z="83.27" resettime="1500"/>
+		<Step x="-2.08" z="71.3" resettime="1500"/>
+		<Step x="-2.19" z="59.23" resettime="1500"/>
+		<Step x="-2.53" z="50.28" resettime="1500"/>
+	</Property>
+	<Property ID="Monster_30105">
+		<Step x="-2.81" z="99.57" resettime="1500"/>
+		<Step x="2.99" z="83.27" resettime="1500"/>
+		<Step x="-2.08" z="71.3" resettime="1500"/>
+		<Step x="-2.19" z="59.23" resettime="1500"/>
+		<Step x="-2.53" z="50.28" resettime="1500"/>
+	</Property>
+	<Property ID="Monster_30106">
+		<Step x="-2.81" z="99.57" resettime="1500"/>
+		<Step x="2.99" z="83.27" resettime="1500"/>
+		<Step x="-2.08" z="71.3" resettime="1500"/>
+		<Step x="-2.19" z="59.23" resettime="1500"/>
+		<Step x="-2.53" z="50.28" resettime="1500"/>
+	</Property>
+	<Property ID="Monster_30107">
+		<Step x="-2.81" z="99.57" resettime="1500"/>
+		<Step x="2.99" z="83.27" resettime="1500"/>
+		<Step x="-2.08" z="71.3" resettime="1500"/>
+		<Step x="-2.19" z="59.23" resettime="1500"/>
+		<Step x="-2.53" z="50.28" resettime="1500"/>
+	</Property>
+	<Property ID="Monster_30108">
+		<Step x="-2.81" z="99.57" resettime="1500"/>
+		<Step x="2.99" z="83.27" resettime="1500"/>
+		<Step x="-2.08" z="71.3" resettime="1500"/>
+		<Step x="-2.19" z="59.23" resettime="1500"/>
+		<Step x="-2.53" z="50.28" resettime="1500"/>
+	</Property>
+	<Property ID="Monster_30109">
+		<Step x="-2.81" z="99.57" resettime="1500"/>
+		<Step x="2.99" z="83.27" resettime="1500"/>
+		<Step x="-2.08" z="71.3" resettime="1500"/>
+		<Step x="-2.19" z="59.23" resettime="1500"/>
+		<Step x="-2.53" z="50.28" resettime="1500"/>
+	</Property>
+	<Property ID="Monster_340201">
+		<Step x="-27" z="139" resettime="3000"/>
+		<Step x="-25" z="106" resettime="3000"/>
+		<Step x="-25" z="81.6" resettime="3000"/>
+		<Step x="-34" z="65" resettime="3000"/>
+		<Step x="-24.5" z="47.6" resettime="3000"/>
+		<Step x="-24.5" z="26.4" resettime="3000"/>
+		<Step x="-24" z="13.3" resettime="3000"/>
+		<Step x="-24.7" z="2.7" resettime="3000"/>
+		<Step x="-10.7" z="-35.2" resettime="3000"/>
+		<Step x="-0.6" z="-48" resettime="3000"/>
+		<Step x="18.6" z="-67.6" resettime="3000"/>
+		<Step x="42.4" z="-87.3" resettime="3000"/>
+		<Step x="60.4" z="-102.6" resettime="3000"/>
+		<Step x="4.3" z="-132" resettime="3000"/>
+		<Step x="-45.2" z="-145.3" resettime="3000"/>
+	</Property>
+	<Property ID="Monster_340206">
+		<Step x="0" z="120" resettime="3500"/>
+		<Step x="0" z="95" resettime="3500"/>
+		<Step x="0" z="85" resettime="3500"/>
+		<Step x="0" z="26" resettime="3500"/>
+		<Step x="0" z="0" resettime="3500"/>
+		<Step x="0" z="-52" resettime="3500"/>
+		<Step x="0" z="-94" resettime="3500"/>
+		<Step x="0" z="-110" resettime="3500"/>
+		<Step x="0" z="-118" resettime="3500"/>
+		<Step x="0" z="-130" resettime="3500"/>
+		<Step x="0" z="-145" resettime="3500"/>
+		<Step x="0" z="-160" resettime="3500"/>
+		<Step x="0" z="-175" resettime="3500"/>
+		<Step x="0" z="-190" resettime="3500"/>
+		<Step x="0" z="-212.9" resettime="3500"/>
+	</Property>
+	<Property ID="Player_40310001">
+		<Step x="231.9" z="-308.1" resettime="2000"/>
+		<Step x="204.73" z="-293.9" resettime="2000"/>
+		<Step x="223" z="-281.9" resettime="2000"/>
+		<Step x="209.3" z="-305.6" resettime="0"/>
+		<Step x="167" z="-303.8" resettime="0"/>
+		<Step x="77.64" z="-303" resettime="2000"/>
+		<Step x="84.94" z="-227.4" resettime="2000"/>
+		<Step x="39.13" z="-240" resettime="0"/>
+		<Step x="-32.74" z="-330.3" resettime="2000"/>
+		<Step x="-1.62" z="-354.9" resettime="2000"/>
+		<Step x="23.16" z="-355.9" resettime="2000"/>
+		<Step x="-1.62" z="-354.9" resettime="2000"/>
+		<Step x="-32.74" z="-330.3" resettime="2000"/>
+		<Step x="39.13" z="-240" resettime="0"/>
+		<Step x="84.94" z="-227.4" resettime="2000"/>
+		<Step x="77.64" z="-303" resettime="2000"/>
+		<Step x="167" z="-303.8" resettime="0"/>
+		<Step x="209.3" z="-305.6" resettime="0"/>
+		<Step x="223" z="-281.9" resettime="2000"/>
+		<Step x="204.73" z="-293.9" resettime="2000"/>
+		<Step x="231.9" z="-308.1" resettime="2000"/>
+	</Property>
+	<Property ID="Player_40310002">
+		<Step x="204.73" z="-293.9" resettime="2000"/>
+		<Step x="223" z="-281.9" resettime="2000"/>
+		<Step x="209.3" z="-305.6" resettime="0"/>
+		<Step x="167" z="-303.8" resettime="0"/>
+		<Step x="77.64" z="-303" resettime="2000"/>
+		<Step x="84.94" z="-227.4" resettime="2000"/>
+		<Step x="39.13" z="-240" resettime="0"/>
+		<Step x="-32.74" z="-330.3" resettime="2000"/>
+		<Step x="-1.62" z="-354.9" resettime="2000"/>
+		<Step x="23.16" z="-355.9" resettime="2000"/>
+		<Step x="-1.62" z="-354.9" resettime="2000"/>
+		<Step x="-32.74" z="-330.3" resettime="2000"/>
+		<Step x="39.13" z="-240" resettime="0"/>
+		<Step x="84.94" z="-227.4" resettime="2000"/>
+		<Step x="77.64" z="-303" resettime="2000"/>
+		<Step x="167" z="-303.8" resettime="0"/>
+		<Step x="209.3" z="-305.6" resettime="0"/>
+		<Step x="223" z="-281.9" resettime="2000"/>
+		<Step x="204.73" z="-293.9" resettime="2000"/>
+		<Step x="231.9" z="-308.1" resettime="2000"/>
+		<Step x="204.73" z="-293.9" resettime="2000"/>
+	</Property>
+	<Property ID="Player_40310003">
+		<Step x="223" z="-281.9" resettime="2000"/>
+		<Step x="209.3" z="-305.6" resettime="0"/>
+		<Step x="167" z="-303.8" resettime="0"/>
+		<Step x="77.64" z="-303" resettime="2000"/>
+		<Step x="84.94" z="-227.4" resettime="2000"/>
+		<Step x="39.13" z="-240" resettime="0"/>
+		<Step x="-32.74" z="-330.3" resettime="2000"/>
+		<Step x="-1.62" z="-354.9" resettime="2000"/>
+		<Step x="23.16" z="-355.9" resettime="2000"/>
+		<Step x="-1.62" z="-354.9" resettime="2000"/>
+		<Step x="-32.74" z="-330.3" resettime="2000"/>
+		<Step x="39.13" z="-240" resettime="0"/>
+		<Step x="84.94" z="-227.4" resettime="2000"/>
+		<Step x="77.64" z="-303" resettime="2000"/>
+		<Step x="167" z="-303.8" resettime="0"/>
+		<Step x="209.3" z="-305.6" resettime="0"/>
+		<Step x="223" z="-281.9" resettime="2000"/>
+		<Step x="204.73" z="-293.9" resettime="2000"/>
+		<Step x="231.9" z="-308.1" resettime="2000"/>
+		<Step x="204.73" z="-293.9" resettime="2000"/>
+		<Step x="223" z="-281.9" resettime="2000"/>
+	</Property>
+	<Property ID="Player_40310004">
+		<Step x="209.3" z="-305.6" resettime="0"/>
+		<Step x="167" z="-303.8" resettime="0"/>
+		<Step x="77.64" z="-303" resettime="2000"/>
+		<Step x="84.94" z="-227.4" resettime="2000"/>
+		<Step x="39.13" z="-240" resettime="0"/>
+		<Step x="-32.74" z="-330.3" resettime="2000"/>
+		<Step x="-1.62" z="-354.9" resettime="2000"/>
+		<Step x="23.16" z="-355.9" resettime="2000"/>
+		<Step x="-1.62" z="-354.9" resettime="2000"/>
+		<Step x="-32.74" z="-330.3" resettime="2000"/>
+		<Step x="39.13" z="-240" resettime="0"/>
+		<Step x="84.94" z="-227.4" resettime="2000"/>
+		<Step x="77.64" z="-303" resettime="2000"/>
+		<Step x="167" z="-303.8" resettime="0"/>
+		<Step x="209.3" z="-305.6" resettime="0"/>
+		<Step x="223" z="-281.9" resettime="2000"/>
+		<Step x="204.73" z="-293.9" resettime="2000"/>
+		<Step x="231.9" z="-308.1" resettime="2000"/>
+		<Step x="204.73" z="-293.9" resettime="2000"/>
+		<Step x="223" z="-281.9" resettime="2000"/>
+		<Step x="209.3" z="-305.6" resettime="0"/>
+	</Property>
+	<Property ID="Player_40310005">
+		<Step x="167" z="-303.8" resettime="0"/>
+		<Step x="77.64" z="-303" resettime="2000"/>
+		<Step x="84.94" z="-227.4" resettime="2000"/>
+		<Step x="39.13" z="-240" resettime="0"/>
+		<Step x="-32.74" z="-330.3" resettime="2000"/>
+		<Step x="-1.62" z="-354.9" resettime="2000"/>
+		<Step x="23.16" z="-355.9" resettime="2000"/>
+		<Step x="-1.62" z="-354.9" resettime="2000"/>
+		<Step x="-32.74" z="-330.3" resettime="2000"/>
+		<Step x="39.13" z="-240" resettime="0"/>
+		<Step x="84.94" z="-227.4" resettime="2000"/>
+		<Step x="77.64" z="-303" resettime="2000"/>
+		<Step x="167" z="-303.8" resettime="0"/>
+		<Step x="209.3" z="-305.6" resettime="0"/>
+		<Step x="223" z="-281.9" resettime="2000"/>
+		<Step x="204.73" z="-293.9" resettime="2000"/>
+		<Step x="231.9" z="-308.1" resettime="2000"/>
+		<Step x="204.73" z="-293.9" resettime="2000"/>
+		<Step x="223" z="-281.9" resettime="2000"/>
+		<Step x="209.3" z="-305.6" resettime="0"/>
+		<Step x="167" z="-303.8" resettime="0"/>
+	</Property>
+	<Property ID="Player_40310006">
+		<Step x="77.64" z="-303" resettime="2000"/>
+		<Step x="84.94" z="-227.4" resettime="2000"/>
+		<Step x="39.13" z="-240" resettime="0"/>
+		<Step x="-32.74" z="-330.3" resettime="2000"/>
+		<Step x="-1.62" z="-354.9" resettime="2000"/>
+		<Step x="23.16" z="-355.9" resettime="2000"/>
+		<Step x="-1.62" z="-354.9" resettime="2000"/>
+		<Step x="-32.74" z="-330.3" resettime="2000"/>
+		<Step x="39.13" z="-240" resettime="0"/>
+		<Step x="84.94" z="-227.4" resettime="2000"/>
+		<Step x="77.64" z="-303" resettime="2000"/>
+		<Step x="167" z="-303.8" resettime="0"/>
+		<Step x="209.3" z="-305.6" resettime="0"/>
+		<Step x="223" z="-281.9" resettime="2000"/>
+		<Step x="204.73" z="-293.9" resettime="2000"/>
+		<Step x="231.9" z="-308.1" resettime="2000"/>
+		<Step x="204.73" z="-293.9" resettime="2000"/>
+		<Step x="223" z="-281.9" resettime="2000"/>
+		<Step x="209.3" z="-305.6" resettime="0"/>
+		<Step x="167" z="-303.8" resettime="0"/>
+		<Step x="77.64" z="-303" resettime="2000"/>
+	</Property>
+	<Property ID="Player_40310007">
+		<Step x="84.94" z="-227.4" resettime="2000"/>
+		<Step x="39.13" z="-240" resettime="0"/>
+		<Step x="-32.74" z="-330.3" resettime="2000"/>
+		<Step x="-1.62" z="-354.9" resettime="2000"/>
+		<Step x="23.16" z="-355.9" resettime="2000"/>
+		<Step x="-1.62" z="-354.9" resettime="2000"/>
+		<Step x="-32.74" z="-330.3" resettime="2000"/>
+		<Step x="39.13" z="-240" resettime="0"/>
+		<Step x="84.94" z="-227.4" resettime="2000"/>
+		<Step x="77.64" z="-303" resettime="2000"/>
+		<Step x="167" z="-303.8" resettime="0"/>
+		<Step x="209.3" z="-305.6" resettime="0"/>
+		<Step x="223" z="-281.9" resettime="2000"/>
+		<Step x="204.73" z="-293.9" resettime="2000"/>
+		<Step x="231.9" z="-308.1" resettime="2000"/>
+		<Step x="204.73" z="-293.9" resettime="2000"/>
+		<Step x="223" z="-281.9" resettime="2000"/>
+		<Step x="209.3" z="-305.6" resettime="0"/>
+		<Step x="167" z="-303.8" resettime="0"/>
+		<Step x="77.64" z="-303" resettime="2000"/>
+		<Step x="84.94" z="-227.4" resettime="2000"/>
+	</Property>
+	<Property ID="Player_40310008">
+		<Step x="39.13" z="-240" resettime="0"/>
+		<Step x="-32.74" z="-330.3" resettime="2000"/>
+		<Step x="-1.62" z="-354.9" resettime="2000"/>
+		<Step x="23.16" z="-355.9" resettime="2000"/>
+		<Step x="-1.62" z="-354.9" resettime="2000"/>
+		<Step x="-32.74" z="-330.3" resettime="2000"/>
+		<Step x="39.13" z="-240" resettime="0"/>
+		<Step x="84.94" z="-227.4" resettime="2000"/>
+		<Step x="77.64" z="-303" resettime="2000"/>
+		<Step x="167" z="-303.8" resettime="0"/>
+		<Step x="209.3" z="-305.6" resettime="0"/>
+		<Step x="223" z="-281.9" resettime="2000"/>
+		<Step x="204.73" z="-293.9" resettime="2000"/>
+		<Step x="231.9" z="-308.1" resettime="2000"/>
+		<Step x="204.73" z="-293.9" resettime="2000"/>
+		<Step x="223" z="-281.9" resettime="2000"/>
+		<Step x="209.3" z="-305.6" resettime="0"/>
+		<Step x="167" z="-303.8" resettime="0"/>
+		<Step x="77.64" z="-303" resettime="2000"/>
+		<Step x="84.94" z="-227.4" resettime="2000"/>
+		<Step x="39.13" z="-240" resettime="0"/>
+	</Property>
+	<Property ID="Player_40310009">
+		<Step x="-32.74" z="-330.3" resettime="2000"/>
+		<Step x="-1.62" z="-354.9" resettime="2000"/>
+		<Step x="23.16" z="-355.9" resettime="2000"/>
+		<Step x="-1.62" z="-354.9" resettime="2000"/>
+		<Step x="-32.74" z="-330.3" resettime="2000"/>
+		<Step x="39.13" z="-240" resettime="0"/>
+		<Step x="84.94" z="-227.4" resettime="2000"/>
+		<Step x="77.64" z="-303" resettime="2000"/>
+		<Step x="167" z="-303.8" resettime="0"/>
+		<Step x="209.3" z="-305.6" resettime="0"/>
+		<Step x="223" z="-281.9" resettime="2000"/>
+		<Step x="204.73" z="-293.9" resettime="2000"/>
+		<Step x="231.9" z="-308.1" resettime="2000"/>
+		<Step x="204.73" z="-293.9" resettime="2000"/>
+		<Step x="223" z="-281.9" resettime="2000"/>
+		<Step x="209.3" z="-305.6" resettime="0"/>
+		<Step x="167" z="-303.8" resettime="0"/>
+		<Step x="77.64" z="-303" resettime="2000"/>
+		<Step x="84.94" z="-227.4" resettime="2000"/>
+		<Step x="39.13" z="-240" resettime="0"/>
+		<Step x="-32.74" z="-330.3" resettime="2000"/>
+	</Property>
+	<Property ID="Player_40310010">
+		<Step x="-1.62" z="-354.9" resettime="2000"/>
+		<Step x="23.16" z="-355.9" resettime="2000"/>
+		<Step x="-1.62" z="-354.9" resettime="2000"/>
+		<Step x="-32.74" z="-330.3" resettime="2000"/>
+		<Step x="39.13" z="-240" resettime="0"/>
+		<Step x="84.94" z="-227.4" resettime="2000"/>
+		<Step x="77.64" z="-303" resettime="2000"/>
+		<Step x="167" z="-303.8" resettime="0"/>
+		<Step x="209.3" z="-305.6" resettime="0"/>
+		<Step x="223" z="-281.9" resettime="2000"/>
+		<Step x="204.73" z="-293.9" resettime="2000"/>
+		<Step x="231.9" z="-308.1" resettime="2000"/>
+		<Step x="204.73" z="-293.9" resettime="2000"/>
+		<Step x="223" z="-281.9" resettime="2000"/>
+		<Step x="209.3" z="-305.6" resettime="0"/>
+		<Step x="167" z="-303.8" resettime="0"/>
+		<Step x="77.64" z="-303" resettime="2000"/>
+		<Step x="84.94" z="-227.4" resettime="2000"/>
+		<Step x="39.13" z="-240" resettime="0"/>
+		<Step x="-32.74" z="-330.3" resettime="2000"/>
+		<Step x="-1.62" z="-354.9" resettime="2000"/>
+	</Property>
+	<Property ID="Player_00210001">
+		<Step x="11.11783" z="245.6249" resettime="2000"/>
+		<Step x="195" z="195.3386" resettime="2000"/>
+		<Step x="63.62645" z="181.9508" resettime="2000"/>
+		<Step x="103.8579" z="183.6374" resettime="2000"/>
+		<Step x="132.8267" z="206.326" resettime="0"/>
+		<Step x="164.8" z="210.6476" resettime="2000"/>
+		<Step x="219.2018" z="229.9036" resettime="2000"/>
+	</Property>
+	<Property ID="Player_00210002">
+		<Step x="11.11783" z="245.6249" resettime="2000"/>
+		<Step x="195" z="195.3386" resettime="2000"/>
+		<Step x="63.62645" z="181.9508" resettime="2000"/>
+		<Step x="103.8579" z="183.6374" resettime="2000"/>
+		<Step x="132.8267" z="206.326" resettime="0"/>
+		<Step x="164.8" z="210.6476" resettime="2000"/>
+		<Step x="219.2018" z="229.9036" resettime="2000"/>
+	</Property>
+	<Property ID="Player_00210003">
+		<Step x="11.11783" z="245.6249" resettime="2000"/>
+		<Step x="195" z="195.3386" resettime="2000"/>
+		<Step x="63.62645" z="181.9508" resettime="2000"/>
+		<Step x="103.8579" z="183.6374" resettime="2000"/>
+		<Step x="132.8267" z="206.326" resettime="0"/>
+		<Step x="164.8" z="210.6476" resettime="2000"/>
+		<Step x="219.2018" z="229.9036" resettime="2000"/>
+	</Property>
+	<Property ID="Player_00210004">
+		<Step x="11.11783" z="245.6249" resettime="2000"/>
+		<Step x="195" z="195.3386" resettime="2000"/>
+		<Step x="63.62645" z="181.9508" resettime="2000"/>
+		<Step x="103.8579" z="183.6374" resettime="2000"/>
+		<Step x="132.8267" z="206.326" resettime="0"/>
+		<Step x="164.8" z="210.6476" resettime="2000"/>
+		<Step x="219.2018" z="229.9036" resettime="2000"/>
+	</Property>
+	<Property ID="Player_00210005">
+		<Step x="11.11783" z="245.6249" resettime="2000"/>
+		<Step x="195" z="195.3386" resettime="2000"/>
+		<Step x="63.62645" z="181.9508" resettime="2000"/>
+		<Step x="103.8579" z="183.6374" resettime="2000"/>
+		<Step x="132.8267" z="206.326" resettime="0"/>
+		<Step x="164.8" z="210.6476" resettime="2000"/>
+		<Step x="219.2018" z="229.9036" resettime="2000"/>
+	</Property>
+	<Property ID="Player_00210006">
+		<Step x="11.11783" z="245.6249" resettime="2000"/>
+		<Step x="195" z="195.3386" resettime="2000"/>
+		<Step x="63.62645" z="181.9508" resettime="2000"/>
+		<Step x="103.8579" z="183.6374" resettime="2000"/>
+		<Step x="132.8267" z="206.326" resettime="0"/>
+		<Step x="164.8" z="210.6476" resettime="2000"/>
+		<Step x="219.2018" z="229.9036" resettime="2000"/>
+	</Property>
+	<Property ID="Player_00210007">
+		<Step x="11.11783" z="245.6249" resettime="2000"/>
+		<Step x="195" z="195.3386" resettime="2000"/>
+		<Step x="63.62645" z="181.9508" resettime="2000"/>
+		<Step x="103.8579" z="183.6374" resettime="2000"/>
+		<Step x="132.8267" z="206.326" resettime="0"/>
+		<Step x="164.8" z="210.6476" resettime="2000"/>
+		<Step x="219.2018" z="229.9036" resettime="2000"/>
+	</Property>
+	<Property ID="Player_00210008">
+		<Step x="11.11783" z="245.6249" resettime="2000"/>
+		<Step x="195" z="195.3386" resettime="2000"/>
+		<Step x="63.62645" z="181.9508" resettime="2000"/>
+		<Step x="103.8579" z="183.6374" resettime="2000"/>
+		<Step x="132.8267" z="206.326" resettime="0"/>
+		<Step x="164.8" z="210.6476" resettime="2000"/>
+		<Step x="219.2018" z="229.9036" resettime="2000"/>
+	</Property>
+	<Property ID="Player_00210009">
+		<Step x="11.11783" z="245.6249" resettime="2000"/>
+		<Step x="195" z="195.3386" resettime="2000"/>
+		<Step x="63.62645" z="181.9508" resettime="2000"/>
+		<Step x="103.8579" z="183.6374" resettime="2000"/>
+		<Step x="132.8267" z="206.326" resettime="0"/>
+		<Step x="164.8" z="210.6476" resettime="2000"/>
+		<Step x="219.2018" z="229.9036" resettime="2000"/>
+	</Property>
+	<Property ID="Player_00210010">
+		<Step x="11.11783" z="245.6249" resettime="2000"/>
+		<Step x="195" z="195.3386" resettime="2000"/>
+		<Step x="63.62645" z="181.9508" resettime="2000"/>
+		<Step x="103.8579" z="183.6374" resettime="2000"/>
+		<Step x="132.8267" z="206.326" resettime="0"/>
+		<Step x="164.8" z="210.6476" resettime="2000"/>
+		<Step x="219.2018" z="229.9036" resettime="2000"/>
+	</Property>
+	<Property ID="Player_00210011">
+		<Step x="11.11783" z="245.6249" resettime="2000"/>
+		<Step x="195" z="195.3386" resettime="2000"/>
+		<Step x="63.62645" z="181.9508" resettime="2000"/>
+		<Step x="103.8579" z="183.6374" resettime="2000"/>
+		<Step x="132.8267" z="206.326" resettime="0"/>
+		<Step x="164.8" z="210.6476" resettime="2000"/>
+		<Step x="219.2018" z="229.9036" resettime="2000"/>
+	</Property>
+	<Property ID="Player_00210012">
+		<Step x="11.11783" z="245.6249" resettime="2000"/>
+		<Step x="195" z="195.3386" resettime="2000"/>
+		<Step x="63.62645" z="181.9508" resettime="2000"/>
+		<Step x="103.8579" z="183.6374" resettime="2000"/>
+		<Step x="132.8267" z="206.326" resettime="0"/>
+		<Step x="164.8" z="210.6476" resettime="2000"/>
+		<Step x="219.2018" z="229.9036" resettime="2000"/>
+	</Property>
+	<Property ID="Player_00210013">
+		<Step x="11.11783" z="245.6249" resettime="2000"/>
+		<Step x="195" z="195.3386" resettime="2000"/>
+		<Step x="63.62645" z="181.9508" resettime="2000"/>
+		<Step x="103.8579" z="183.6374" resettime="2000"/>
+		<Step x="132.8267" z="206.326" resettime="0"/>
+		<Step x="164.8" z="210.6476" resettime="2000"/>
+		<Step x="219.2018" z="229.9036" resettime="2000"/>
+	</Property>
+	<Property ID="Player_00210014">
+		<Step x="11.11783" z="245.6249" resettime="2000"/>
+		<Step x="195" z="195.3386" resettime="2000"/>
+		<Step x="63.62645" z="181.9508" resettime="2000"/>
+		<Step x="103.8579" z="183.6374" resettime="2000"/>
+		<Step x="132.8267" z="206.326" resettime="0"/>
+		<Step x="164.8" z="210.6476" resettime="2000"/>
+		<Step x="219.2018" z="229.9036" resettime="2000"/>
+	</Property>
+	<Property ID="Player_00210015">
+		<Step x="11.11783" z="245.6249" resettime="2000"/>
+		<Step x="195" z="195.3386" resettime="2000"/>
+		<Step x="63.62645" z="181.9508" resettime="2000"/>
+		<Step x="103.8579" z="183.6374" resettime="2000"/>
+		<Step x="132.8267" z="206.326" resettime="0"/>
+		<Step x="164.8" z="210.6476" resettime="2000"/>
+		<Step x="219.2018" z="229.9036" resettime="2000"/>
+	</Property>
+	<Property ID="Player_00210016">
+		<Step x="-82.65052" z="182.9675" resettime="2000"/>
+		<Step x="-156.4774" z="182.6874" resettime="2000"/>
+		<Step x="-193.0485" z="171.5388" resettime="2000"/>
+		<Step x="-200.8793" z="151.4085" resettime="2000"/>
+		<Step x="-219.4082" z="209.1832" resettime="2000"/>
+		<Step x="-257.3129" z="116.7752" resettime="2000"/>
+		<Step x="-258.6153" z="32.50198" resettime="2000"/>
+		<Step x="-347.7506" z="13.34866" resettime="2000"/>
+		<Step x="-362.8149" z="-19.32843" resettime="2000"/>
+		<Step x="-383.8456" z="-76.03566" resettime="2000"/>
+		<Step x="-362.2207" z="-140.5059" resettime="2000"/>
+	</Property>
+	<Property ID="Player_00210017">
+		<Step x="-82.65052" z="182.9675" resettime="2000"/>
+		<Step x="-156.4774" z="182.6874" resettime="2000"/>
+		<Step x="-193.0485" z="171.5388" resettime="2000"/>
+		<Step x="-200.8793" z="151.4085" resettime="2000"/>
+		<Step x="-219.4082" z="209.1832" resettime="2000"/>
+		<Step x="-257.3129" z="116.7752" resettime="2000"/>
+		<Step x="-258.6153" z="32.50198" resettime="2000"/>
+		<Step x="-347.7506" z="13.34866" resettime="2000"/>
+		<Step x="-362.8149" z="-19.32843" resettime="2000"/>
+		<Step x="-383.8456" z="-76.03566" resettime="2000"/>
+		<Step x="-362.2207" z="-140.5059" resettime="2000"/>
+	</Property>
+	<Property ID="Player_00210018">
+		<Step x="-82.65052" z="182.9675" resettime="2000"/>
+		<Step x="-156.4774" z="182.6874" resettime="2000"/>
+		<Step x="-193.0485" z="171.5388" resettime="2000"/>
+		<Step x="-200.8793" z="151.4085" resettime="2000"/>
+		<Step x="-219.4082" z="209.1832" resettime="2000"/>
+		<Step x="-257.3129" z="116.7752" resettime="2000"/>
+		<Step x="-258.6153" z="32.50198" resettime="2000"/>
+		<Step x="-347.7506" z="13.34866" resettime="2000"/>
+		<Step x="-362.8149" z="-19.32843" resettime="2000"/>
+		<Step x="-383.8456" z="-76.03566" resettime="2000"/>
+		<Step x="-362.2207" z="-140.5059" resettime="2000"/>
+	</Property>
+	<Property ID="Player_00210019">
+		<Step x="-82.65052" z="182.9675" resettime="2000"/>
+		<Step x="-156.4774" z="182.6874" resettime="2000"/>
+		<Step x="-193.0485" z="171.5388" resettime="2000"/>
+		<Step x="-200.8793" z="151.4085" resettime="2000"/>
+		<Step x="-219.4082" z="209.1832" resettime="2000"/>
+		<Step x="-257.3129" z="116.7752" resettime="2000"/>
+		<Step x="-258.6153" z="32.50198" resettime="2000"/>
+		<Step x="-347.7506" z="13.34866" resettime="2000"/>
+		<Step x="-362.8149" z="-19.32843" resettime="2000"/>
+		<Step x="-383.8456" z="-76.03566" resettime="2000"/>
+		<Step x="-362.2207" z="-140.5059" resettime="2000"/>
+	</Property>
+	<Property ID="Player_00210020">
+		<Step x="-82.65052" z="182.9675" resettime="2000"/>
+		<Step x="-156.4774" z="182.6874" resettime="2000"/>
+		<Step x="-193.0485" z="171.5388" resettime="2000"/>
+		<Step x="-200.8793" z="151.4085" resettime="2000"/>
+		<Step x="-219.4082" z="209.1832" resettime="2000"/>
+		<Step x="-257.3129" z="116.7752" resettime="2000"/>
+		<Step x="-258.6153" z="32.50198" resettime="2000"/>
+		<Step x="-347.7506" z="13.34866" resettime="2000"/>
+		<Step x="-362.8149" z="-19.32843" resettime="2000"/>
+		<Step x="-383.8456" z="-76.03566" resettime="2000"/>
+		<Step x="-362.2207" z="-140.5059" resettime="2000"/>
+	</Property>
+	<Property ID="Player_00210021">
+		<Step x="-82.65052" z="182.9675" resettime="2000"/>
+		<Step x="-156.4774" z="182.6874" resettime="2000"/>
+		<Step x="-193.0485" z="171.5388" resettime="2000"/>
+		<Step x="-200.8793" z="151.4085" resettime="2000"/>
+		<Step x="-219.4082" z="209.1832" resettime="2000"/>
+		<Step x="-257.3129" z="116.7752" resettime="2000"/>
+		<Step x="-258.6153" z="32.50198" resettime="2000"/>
+		<Step x="-347.7506" z="13.34866" resettime="2000"/>
+		<Step x="-362.8149" z="-19.32843" resettime="2000"/>
+		<Step x="-383.8456" z="-76.03566" resettime="2000"/>
+		<Step x="-362.2207" z="-140.5059" resettime="2000"/>
+	</Property>
+	<Property ID="Player_00210022">
+		<Step x="-82.65052" z="182.9675" resettime="2000"/>
+		<Step x="-156.4774" z="182.6874" resettime="2000"/>
+		<Step x="-193.0485" z="171.5388" resettime="2000"/>
+		<Step x="-200.8793" z="151.4085" resettime="2000"/>
+		<Step x="-219.4082" z="209.1832" resettime="2000"/>
+		<Step x="-257.3129" z="116.7752" resettime="2000"/>
+		<Step x="-258.6153" z="32.50198" resettime="2000"/>
+		<Step x="-347.7506" z="13.34866" resettime="2000"/>
+		<Step x="-362.8149" z="-19.32843" resettime="2000"/>
+		<Step x="-383.8456" z="-76.03566" resettime="2000"/>
+		<Step x="-362.2207" z="-140.5059" resettime="2000"/>
+	</Property>
+	<Property ID="Player_00210023">
+		<Step x="-82.65052" z="182.9675" resettime="2000"/>
+		<Step x="-156.4774" z="182.6874" resettime="2000"/>
+		<Step x="-193.0485" z="171.5388" resettime="2000"/>
+		<Step x="-200.8793" z="151.4085" resettime="2000"/>
+		<Step x="-219.4082" z="209.1832" resettime="2000"/>
+		<Step x="-257.3129" z="116.7752" resettime="2000"/>
+		<Step x="-258.6153" z="32.50198" resettime="2000"/>
+		<Step x="-347.7506" z="13.34866" resettime="2000"/>
+		<Step x="-362.8149" z="-19.32843" resettime="2000"/>
+		<Step x="-383.8456" z="-76.03566" resettime="2000"/>
+		<Step x="-362.2207" z="-140.5059" resettime="2000"/>
+	</Property>
+	<Property ID="Player_00210024">
+		<Step x="-82.65052" z="182.9675" resettime="2000"/>
+		<Step x="-156.4774" z="182.6874" resettime="2000"/>
+		<Step x="-193.0485" z="171.5388" resettime="2000"/>
+		<Step x="-200.8793" z="151.4085" resettime="2000"/>
+		<Step x="-219.4082" z="209.1832" resettime="2000"/>
+		<Step x="-257.3129" z="116.7752" resettime="2000"/>
+		<Step x="-258.6153" z="32.50198" resettime="2000"/>
+		<Step x="-347.7506" z="13.34866" resettime="2000"/>
+		<Step x="-362.8149" z="-19.32843" resettime="2000"/>
+		<Step x="-383.8456" z="-76.03566" resettime="2000"/>
+		<Step x="-362.2207" z="-140.5059" resettime="2000"/>
+	</Property>
+	<Property ID="Player_00210025">
+		<Step x="-82.65052" z="182.9675" resettime="2000"/>
+		<Step x="-156.4774" z="182.6874" resettime="2000"/>
+		<Step x="-193.0485" z="171.5388" resettime="2000"/>
+		<Step x="-200.8793" z="151.4085" resettime="2000"/>
+		<Step x="-219.4082" z="209.1832" resettime="2000"/>
+		<Step x="-257.3129" z="116.7752" resettime="2000"/>
+		<Step x="-258.6153" z="32.50198" resettime="2000"/>
+		<Step x="-347.7506" z="13.34866" resettime="2000"/>
+		<Step x="-362.8149" z="-19.32843" resettime="2000"/>
+		<Step x="-383.8456" z="-76.03566" resettime="2000"/>
+		<Step x="-362.2207" z="-140.5059" resettime="2000"/>
+	</Property>
+	<Property ID="Player_00210026">
+		<Step x="-82.65052" z="182.9675" resettime="2000"/>
+		<Step x="-156.4774" z="182.6874" resettime="2000"/>
+		<Step x="-193.0485" z="171.5388" resettime="2000"/>
+		<Step x="-200.8793" z="151.4085" resettime="2000"/>
+		<Step x="-219.4082" z="209.1832" resettime="2000"/>
+		<Step x="-257.3129" z="116.7752" resettime="2000"/>
+		<Step x="-258.6153" z="32.50198" resettime="2000"/>
+		<Step x="-347.7506" z="13.34866" resettime="2000"/>
+		<Step x="-362.8149" z="-19.32843" resettime="2000"/>
+		<Step x="-383.8456" z="-76.03566" resettime="2000"/>
+		<Step x="-362.2207" z="-140.5059" resettime="2000"/>
+	</Property>
+	<Property ID="Player_00210027">
+		<Step x="-82.65052" z="182.9675" resettime="2000"/>
+		<Step x="-156.4774" z="182.6874" resettime="2000"/>
+		<Step x="-193.0485" z="171.5388" resettime="2000"/>
+		<Step x="-200.8793" z="151.4085" resettime="2000"/>
+		<Step x="-219.4082" z="209.1832" resettime="2000"/>
+		<Step x="-257.3129" z="116.7752" resettime="2000"/>
+		<Step x="-258.6153" z="32.50198" resettime="2000"/>
+		<Step x="-347.7506" z="13.34866" resettime="2000"/>
+		<Step x="-362.8149" z="-19.32843" resettime="2000"/>
+		<Step x="-383.8456" z="-76.03566" resettime="2000"/>
+		<Step x="-362.2207" z="-140.5059" resettime="2000"/>
+	</Property>
+	<Property ID="Player_00210028">
+		<Step x="-82.65052" z="182.9675" resettime="2000"/>
+		<Step x="-156.4774" z="182.6874" resettime="2000"/>
+		<Step x="-193.0485" z="171.5388" resettime="2000"/>
+		<Step x="-200.8793" z="151.4085" resettime="2000"/>
+		<Step x="-219.4082" z="209.1832" resettime="2000"/>
+		<Step x="-257.3129" z="116.7752" resettime="2000"/>
+		<Step x="-258.6153" z="32.50198" resettime="2000"/>
+		<Step x="-347.7506" z="13.34866" resettime="2000"/>
+		<Step x="-362.8149" z="-19.32843" resettime="2000"/>
+		<Step x="-383.8456" z="-76.03566" resettime="2000"/>
+		<Step x="-362.2207" z="-140.5059" resettime="2000"/>
+	</Property>
+	<Property ID="Player_00210029">
+		<Step x="-82.65052" z="182.9675" resettime="2000"/>
+		<Step x="-156.4774" z="182.6874" resettime="2000"/>
+		<Step x="-193.0485" z="171.5388" resettime="2000"/>
+		<Step x="-200.8793" z="151.4085" resettime="2000"/>
+		<Step x="-219.4082" z="209.1832" resettime="2000"/>
+		<Step x="-257.3129" z="116.7752" resettime="2000"/>
+		<Step x="-258.6153" z="32.50198" resettime="2000"/>
+		<Step x="-347.7506" z="13.34866" resettime="2000"/>
+		<Step x="-362.8149" z="-19.32843" resettime="2000"/>
+		<Step x="-383.8456" z="-76.03566" resettime="2000"/>
+		<Step x="-362.2207" z="-140.5059" resettime="2000"/>
+	</Property>
+	<Property ID="Player_00210030">
+		<Step x="11.11783" z="245.6249" resettime="2000"/>
+		<Step x="27.71584" z="77.55885" resettime="2000"/>
+		<Step x="186.6115" z="62.66868" resettime="2000"/>
+		<Step x="113.8372" z="63.57602" resettime="2000"/>
+		<Step x="110.6552" z="-155.334" resettime="2000"/>
+		<Step x="179.9021" z="-158.0551" resettime="2000"/>
+		<Step x="110.6552" z="-155.334" resettime="0"/>
+		<Step x="180.8332" z="180.8332" resettime="0"/>
+		<Step x="-113.4558" z="-208.7775" resettime="2000"/>
+		<Step x="-195.7084" z="-175.9532" resettime="0"/>
+		<Step x="-235.302" z="-176.4048" resettime="0"/>
+		<Step x="-229.185" z="-129.1731" resettime="2000"/>
+	</Property>
+	<Property ID="Player_00210031">
+		<Step x="11.11783" z="245.6249" resettime="2000"/>
+		<Step x="27.71584" z="77.55885" resettime="2000"/>
+		<Step x="186.6115" z="62.66868" resettime="2000"/>
+		<Step x="113.8372" z="63.57602" resettime="2000"/>
+		<Step x="110.6552" z="-155.334" resettime="2000"/>
+		<Step x="179.9021" z="-158.0551" resettime="2000"/>
+		<Step x="110.6552" z="-155.334" resettime="0"/>
+		<Step x="180.8332" z="180.8332" resettime="0"/>
+		<Step x="-113.4558" z="-208.7775" resettime="2000"/>
+		<Step x="-195.7084" z="-175.9532" resettime="0"/>
+		<Step x="-235.302" z="-176.4048" resettime="0"/>
+		<Step x="-229.185" z="-129.1731" resettime="2000"/>
+	</Property>
+	<Property ID="Player_00210032">
+		<Step x="11.11783" z="245.6249" resettime="2000"/>
+		<Step x="27.71584" z="77.55885" resettime="2000"/>
+		<Step x="186.6115" z="62.66868" resettime="2000"/>
+		<Step x="113.8372" z="63.57602" resettime="2000"/>
+		<Step x="110.6552" z="-155.334" resettime="2000"/>
+		<Step x="179.9021" z="-158.0551" resettime="2000"/>
+		<Step x="110.6552" z="-155.334" resettime="0"/>
+		<Step x="180.8332" z="180.8332" resettime="0"/>
+		<Step x="-113.4558" z="-208.7775" resettime="2000"/>
+		<Step x="-195.7084" z="-175.9532" resettime="0"/>
+		<Step x="-235.302" z="-176.4048" resettime="0"/>
+		<Step x="-229.185" z="-129.1731" resettime="2000"/>
+	</Property>
+	<Property ID="Player_00210033">
+		<Step x="11.11783" z="245.6249" resettime="2000"/>
+		<Step x="27.71584" z="77.55885" resettime="2000"/>
+		<Step x="186.6115" z="62.66868" resettime="2000"/>
+		<Step x="113.8372" z="63.57602" resettime="2000"/>
+		<Step x="110.6552" z="-155.334" resettime="2000"/>
+		<Step x="179.9021" z="-158.0551" resettime="2000"/>
+		<Step x="110.6552" z="-155.334" resettime="0"/>
+		<Step x="180.8332" z="180.8332" resettime="0"/>
+		<Step x="-113.4558" z="-208.7775" resettime="2000"/>
+		<Step x="-195.7084" z="-175.9532" resettime="0"/>
+		<Step x="-235.302" z="-176.4048" resettime="0"/>
+		<Step x="-229.185" z="-129.1731" resettime="2000"/>
+	</Property>
+	<Property ID="Player_00210034">
+		<Step x="11.11783" z="245.6249" resettime="2000"/>
+		<Step x="27.71584" z="77.55885" resettime="2000"/>
+		<Step x="186.6115" z="62.66868" resettime="2000"/>
+		<Step x="113.8372" z="63.57602" resettime="2000"/>
+		<Step x="110.6552" z="-155.334" resettime="2000"/>
+		<Step x="179.9021" z="-158.0551" resettime="2000"/>
+		<Step x="110.6552" z="-155.334" resettime="0"/>
+		<Step x="180.8332" z="180.8332" resettime="0"/>
+		<Step x="-113.4558" z="-208.7775" resettime="2000"/>
+		<Step x="-195.7084" z="-175.9532" resettime="0"/>
+		<Step x="-235.302" z="-176.4048" resettime="0"/>
+		<Step x="-229.185" z="-129.1731" resettime="2000"/>
+	</Property>
+	<Property ID="Player_00210035">
+		<Step x="11.11783" z="245.6249" resettime="2000"/>
+		<Step x="27.71584" z="77.55885" resettime="2000"/>
+		<Step x="186.6115" z="62.66868" resettime="2000"/>
+		<Step x="113.8372" z="63.57602" resettime="2000"/>
+		<Step x="110.6552" z="-155.334" resettime="2000"/>
+		<Step x="179.9021" z="-158.0551" resettime="2000"/>
+		<Step x="110.6552" z="-155.334" resettime="0"/>
+		<Step x="180.8332" z="180.8332" resettime="0"/>
+		<Step x="-113.4558" z="-208.7775" resettime="2000"/>
+		<Step x="-195.7084" z="-175.9532" resettime="0"/>
+		<Step x="-235.302" z="-176.4048" resettime="0"/>
+		<Step x="-229.185" z="-129.1731" resettime="2000"/>
+	</Property>
+	<Property ID="Player_00210036">
+		<Step x="11.11783" z="245.6249" resettime="2000"/>
+		<Step x="27.71584" z="77.55885" resettime="2000"/>
+		<Step x="186.6115" z="62.66868" resettime="2000"/>
+		<Step x="113.8372" z="63.57602" resettime="2000"/>
+		<Step x="110.6552" z="-155.334" resettime="2000"/>
+		<Step x="179.9021" z="-158.0551" resettime="2000"/>
+		<Step x="110.6552" z="-155.334" resettime="0"/>
+		<Step x="180.8332" z="180.8332" resettime="0"/>
+		<Step x="-113.4558" z="-208.7775" resettime="2000"/>
+		<Step x="-195.7084" z="-175.9532" resettime="0"/>
+		<Step x="-235.302" z="-176.4048" resettime="0"/>
+		<Step x="-229.185" z="-129.1731" resettime="2000"/>
+	</Property>
+	<Property ID="Player_00210037">
+		<Step x="11.11783" z="245.6249" resettime="2000"/>
+		<Step x="27.71584" z="77.55885" resettime="2000"/>
+		<Step x="186.6115" z="62.66868" resettime="2000"/>
+		<Step x="113.8372" z="63.57602" resettime="2000"/>
+		<Step x="110.6552" z="-155.334" resettime="2000"/>
+		<Step x="179.9021" z="-158.0551" resettime="2000"/>
+		<Step x="110.6552" z="-155.334" resettime="0"/>
+		<Step x="180.8332" z="180.8332" resettime="0"/>
+		<Step x="-113.4558" z="-208.7775" resettime="2000"/>
+		<Step x="-195.7084" z="-175.9532" resettime="0"/>
+		<Step x="-235.302" z="-176.4048" resettime="0"/>
+		<Step x="-229.185" z="-129.1731" resettime="2000"/>
+	</Property>
+	<Property ID="Player_00210038">
+		<Step x="11.11783" z="245.6249" resettime="2000"/>
+		<Step x="27.71584" z="77.55885" resettime="2000"/>
+		<Step x="186.6115" z="62.66868" resettime="2000"/>
+		<Step x="113.8372" z="63.57602" resettime="2000"/>
+		<Step x="110.6552" z="-155.334" resettime="2000"/>
+		<Step x="179.9021" z="-158.0551" resettime="2000"/>
+		<Step x="110.6552" z="-155.334" resettime="0"/>
+		<Step x="180.8332" z="180.8332" resettime="0"/>
+		<Step x="-113.4558" z="-208.7775" resettime="2000"/>
+		<Step x="-195.7084" z="-175.9532" resettime="0"/>
+		<Step x="-235.302" z="-176.4048" resettime="0"/>
+		<Step x="-229.185" z="-129.1731" resettime="2000"/>
+	</Property>
+	<Property ID="Player_00210039">
+		<Step x="11.11783" z="245.6249" resettime="2000"/>
+		<Step x="27.71584" z="77.55885" resettime="2000"/>
+		<Step x="186.6115" z="62.66868" resettime="2000"/>
+		<Step x="113.8372" z="63.57602" resettime="2000"/>
+		<Step x="110.6552" z="-155.334" resettime="2000"/>
+		<Step x="179.9021" z="-158.0551" resettime="2000"/>
+		<Step x="110.6552" z="-155.334" resettime="0"/>
+		<Step x="180.8332" z="180.8332" resettime="0"/>
+		<Step x="-113.4558" z="-208.7775" resettime="2000"/>
+		<Step x="-195.7084" z="-175.9532" resettime="0"/>
+		<Step x="-235.302" z="-176.4048" resettime="0"/>
+		<Step x="-229.185" z="-129.1731" resettime="2000"/>
+	</Property>
+	<Property ID="Player_00210040">
+		<Step x="11.11783" z="245.6249" resettime="2000"/>
+		<Step x="27.71584" z="77.55885" resettime="2000"/>
+		<Step x="186.6115" z="62.66868" resettime="2000"/>
+		<Step x="113.8372" z="63.57602" resettime="2000"/>
+		<Step x="110.6552" z="-155.334" resettime="2000"/>
+		<Step x="179.9021" z="-158.0551" resettime="2000"/>
+		<Step x="110.6552" z="-155.334" resettime="0"/>
+		<Step x="180.8332" z="180.8332" resettime="0"/>
+		<Step x="-113.4558" z="-208.7775" resettime="2000"/>
+		<Step x="-195.7084" z="-175.9532" resettime="0"/>
+		<Step x="-235.302" z="-176.4048" resettime="0"/>
+		<Step x="-229.185" z="-129.1731" resettime="2000"/>
+	</Property>
+	<Property ID="Player_05210001">
+		<Step x="-7.06" z="107" resettime="2000"/>
+		<Step x="31.93" z="75.92" resettime="2000"/>
+		<Step x="182.49" z="65.77" resettime="2000"/>
+		<Step x="-107.74" z="49.71" resettime="2000"/>
+		<Step x="35.1" z="-50.12" resettime="2000"/>
+	</Property>
+	<Property ID="Player_05210002">
+		<Step x="-7.06" z="107" resettime="2000"/>
+		<Step x="31.93" z="75.92" resettime="2000"/>
+		<Step x="182.49" z="65.77" resettime="2000"/>
+		<Step x="-107.74" z="49.71" resettime="2000"/>
+		<Step x="35.1" z="-50.12" resettime="2000"/>
+	</Property>
+	<Property ID="Player_05210003">
+		<Step x="-7.06" z="107" resettime="2000"/>
+		<Step x="31.93" z="75.92" resettime="2000"/>
+		<Step x="182.49" z="65.77" resettime="2000"/>
+		<Step x="-107.74" z="49.71" resettime="2000"/>
+		<Step x="35.1" z="-50.12" resettime="2000"/>
+	</Property>
+	<Property ID="Player_05210004">
+		<Step x="-7.06" z="107" resettime="2000"/>
+		<Step x="31.93" z="75.92" resettime="2000"/>
+		<Step x="182.49" z="65.77" resettime="2000"/>
+		<Step x="-107.74" z="49.71" resettime="2000"/>
+		<Step x="35.1" z="-50.12" resettime="2000"/>
+	</Property>
+	<Property ID="Player_05210005">
+		<Step x="-7.06" z="107" resettime="2000"/>
+		<Step x="31.93" z="75.92" resettime="2000"/>
+		<Step x="182.49" z="65.77" resettime="2000"/>
+		<Step x="-107.74" z="49.71" resettime="2000"/>
+		<Step x="35.1" z="-50.12" resettime="2000"/>
+	</Property>
+	<Property ID="Player_05210006">
+		<Step x="-332.47" z="35.85" resettime="2000"/>
+		<Step x="-355.18" z="4.23" resettime="2000"/>
+		<Step x="-372.11" z="-49.97" resettime="2000"/>
+		<Step x="-386.57" z="-80.43" resettime="2000"/>
+		<Step x="-232.14" z="-122.71" resettime="2000"/>
+	</Property>
+	<Property ID="Player_05210007">
+		<Step x="-332.47" z="35.85" resettime="2000"/>
+		<Step x="-355.18" z="4.23" resettime="2000"/>
+		<Step x="-372.11" z="-49.97" resettime="2000"/>
+		<Step x="-386.57" z="-80.43" resettime="2000"/>
+		<Step x="-232.14" z="-122.71" resettime="2000"/>
+	</Property>
+	<Property ID="Player_05210008">
+		<Step x="-332.47" z="35.85" resettime="2000"/>
+		<Step x="-355.18" z="4.23" resettime="2000"/>
+		<Step x="-372.11" z="-49.97" resettime="2000"/>
+		<Step x="-386.57" z="-80.43" resettime="2000"/>
+		<Step x="-232.14" z="-122.71" resettime="2000"/>
+	</Property>
+	<Property ID="Player_05210009">
+		<Step x="-332.47" z="35.85" resettime="2000"/>
+		<Step x="-355.18" z="4.23" resettime="2000"/>
+		<Step x="-372.11" z="-49.97" resettime="2000"/>
+		<Step x="-386.57" z="-80.43" resettime="2000"/>
+		<Step x="-232.14" z="-122.71" resettime="2000"/>
+	</Property>
+	<Property ID="Player_05210010">
+		<Step x="-332.47" z="35.85" resettime="2000"/>
+		<Step x="-355.18" z="4.23" resettime="2000"/>
+		<Step x="-372.11" z="-49.97" resettime="2000"/>
+		<Step x="-386.57" z="-80.43" resettime="2000"/>
+		<Step x="-232.14" z="-122.71" resettime="2000"/>
+	</Property>
+	<Property ID="Player_05210011">
+		<Step x="-269.1" z="70.42" resettime="2000"/>
+		<Step x="-254.45" z="113.55" resettime="2000"/>
+		<Step x="-197.36" z="151.61" resettime="2000"/>
+		<Step x="-223.77" z="210" resettime="2000"/>
+		<Step x="-132.6" z="184.43" resettime="2000"/>
+	</Property>
+	<Property ID="Player_05210012">
+		<Step x="-269.1" z="70.42" resettime="2000"/>
+		<Step x="-254.45" z="113.55" resettime="2000"/>
+		<Step x="-197.36" z="151.61" resettime="2000"/>
+		<Step x="-223.77" z="210" resettime="2000"/>
+		<Step x="-132.6" z="184.43" resettime="2000"/>
+	</Property>
+	<Property ID="Player_05210013">
+		<Step x="-269.1" z="70.42" resettime="2000"/>
+		<Step x="-254.45" z="113.55" resettime="2000"/>
+		<Step x="-197.36" z="151.61" resettime="2000"/>
+		<Step x="-223.77" z="210" resettime="2000"/>
+		<Step x="-132.6" z="184.43" resettime="2000"/>
+	</Property>
+	<Property ID="Player_05210014">
+		<Step x="-269.1" z="70.42" resettime="2000"/>
+		<Step x="-254.45" z="113.55" resettime="2000"/>
+		<Step x="-197.36" z="151.61" resettime="2000"/>
+		<Step x="-223.77" z="210" resettime="2000"/>
+		<Step x="-132.6" z="184.43" resettime="2000"/>
+	</Property>
+	<Property ID="Player_05210015">
+		<Step x="-269.1" z="70.42" resettime="2000"/>
+		<Step x="-254.45" z="113.55" resettime="2000"/>
+		<Step x="-197.36" z="151.61" resettime="2000"/>
+		<Step x="-223.77" z="210" resettime="2000"/>
+		<Step x="-132.6" z="184.43" resettime="2000"/>
+	</Property>
+	<Property ID="Player_05210016">
+		<Step x="-6.8" z="351.36" resettime="2000"/>
+		<Step x="35.03" z="391.5" resettime="2000"/>
+		<Step x="85.92" z="233.75" resettime="2000"/>
+		<Step x="167.29" z="207.6" resettime="2000"/>
+		<Step x="217.93" z="240.43" resettime="2000"/>
+	</Property>
+	<Property ID="Player_05210017">
+		<Step x="-6.8" z="351.36" resettime="2000"/>
+		<Step x="35.03" z="391.5" resettime="2000"/>
+		<Step x="85.92" z="233.75" resettime="2000"/>
+		<Step x="167.29" z="207.6" resettime="2000"/>
+		<Step x="217.93" z="240.43" resettime="2000"/>
+	</Property>
+	<Property ID="Player_05210018">
+		<Step x="-6.8" z="351.36" resettime="2000"/>
+		<Step x="35.03" z="391.5" resettime="2000"/>
+		<Step x="85.92" z="233.75" resettime="2000"/>
+		<Step x="167.29" z="207.6" resettime="2000"/>
+		<Step x="217.93" z="240.43" resettime="2000"/>
+	</Property>
+	<Property ID="Player_05210019">
+		<Step x="-6.8" z="351.36" resettime="2000"/>
+		<Step x="35.03" z="391.5" resettime="2000"/>
+		<Step x="85.92" z="233.75" resettime="2000"/>
+		<Step x="167.29" z="207.6" resettime="2000"/>
+		<Step x="217.93" z="240.43" resettime="2000"/>
+	</Property>
+	<Property ID="Player_05210020">
+		<Step x="-6.8" z="351.36" resettime="2000"/>
+		<Step x="35.03" z="391.5" resettime="2000"/>
+		<Step x="85.92" z="233.75" resettime="2000"/>
+		<Step x="167.29" z="207.6" resettime="2000"/>
+		<Step x="217.93" z="240.43" resettime="2000"/>
+	</Property>
+	<Property ID="Player_40910001">
+		<Step x="-9.42" z="-21.42" resettime="2000"/>
+		<Step x="12.11" z="-59.47" resettime="200"/>
+		<Step x="56.73" z="-141.3" resettime="2000"/>
+		<Step x="-8.6" z="-131.5" resettime="200"/>
+		<Step x="-43.88" z="-162" resettime="2000"/>
+		<Step x="105" z="-99.83" resettime="2000"/>
+		<Step x="-9.11" z="100.44" resettime="2000"/>
+		<Step x="-18.51" z="68.97" resettime="200"/>
+		<Step x="-83.25" z="77.69" resettime="200"/>
+	</Property>
+	<Property ID="Player_40910002">
+		<Step x="-9.42" z="-21.42" resettime="2000"/>
+		<Step x="12.11" z="-59.47" resettime="200"/>
+		<Step x="56.73" z="-141.3" resettime="2000"/>
+		<Step x="-8.6" z="-131.5" resettime="200"/>
+		<Step x="-43.88" z="-162" resettime="2000"/>
+		<Step x="105" z="-99.83" resettime="2000"/>
+		<Step x="-9.11" z="100.44" resettime="2000"/>
+		<Step x="-18.51" z="68.97" resettime="200"/>
+		<Step x="-83.25" z="77.69" resettime="200"/>
+	</Property>
+	<Property ID="Player_40910003">
+		<Step x="-9.42" z="-21.42" resettime="2000"/>
+		<Step x="12.11" z="-59.47" resettime="200"/>
+		<Step x="56.73" z="-141.3" resettime="2000"/>
+		<Step x="-8.6" z="-131.5" resettime="200"/>
+		<Step x="-43.88" z="-162" resettime="2000"/>
+		<Step x="105" z="-99.83" resettime="2000"/>
+		<Step x="-9.11" z="100.44" resettime="2000"/>
+		<Step x="-18.51" z="68.97" resettime="200"/>
+		<Step x="-83.25" z="77.69" resettime="200"/>
+	</Property>
+	<Property ID="Player_40910004">
+		<Step x="-9.42" z="-21.42" resettime="2000"/>
+		<Step x="12.11" z="-59.47" resettime="200"/>
+		<Step x="56.73" z="-141.3" resettime="2000"/>
+		<Step x="-8.6" z="-131.5" resettime="200"/>
+		<Step x="-43.88" z="-162" resettime="2000"/>
+		<Step x="105" z="-99.83" resettime="2000"/>
+		<Step x="-9.11" z="100.44" resettime="2000"/>
+		<Step x="-18.51" z="68.97" resettime="200"/>
+		<Step x="-83.25" z="77.69" resettime="200"/>
+	</Property>
+	<Property ID="Player_40910005">
+		<Step x="-9.42" z="-21.42" resettime="2000"/>
+		<Step x="12.11" z="-59.47" resettime="200"/>
+		<Step x="56.73" z="-141.3" resettime="2000"/>
+		<Step x="-8.6" z="-131.5" resettime="200"/>
+		<Step x="-43.88" z="-162" resettime="2000"/>
+		<Step x="105" z="-99.83" resettime="2000"/>
+		<Step x="-9.11" z="100.44" resettime="2000"/>
+		<Step x="-18.51" z="68.97" resettime="200"/>
+		<Step x="-83.25" z="77.69" resettime="200"/>
+	</Property>
+	<Property ID="Player_40910006">
+		<Step x="-9.42" z="-21.42" resettime="2000"/>
+		<Step x="12.11" z="-59.47" resettime="200"/>
+		<Step x="56.73" z="-141.3" resettime="2000"/>
+		<Step x="-8.6" z="-131.5" resettime="200"/>
+		<Step x="-43.88" z="-162" resettime="2000"/>
+		<Step x="105" z="-99.83" resettime="2000"/>
+		<Step x="-9.11" z="100.44" resettime="2000"/>
+		<Step x="-18.51" z="68.97" resettime="200"/>
+		<Step x="-83.25" z="77.69" resettime="200"/>
+	</Property>
+	<Property ID="Player_40910007">
+		<Step x="-9.42" z="-21.42" resettime="2000"/>
+		<Step x="12.11" z="-59.47" resettime="200"/>
+		<Step x="56.73" z="-141.3" resettime="2000"/>
+		<Step x="-8.6" z="-131.5" resettime="200"/>
+		<Step x="-43.88" z="-162" resettime="2000"/>
+		<Step x="105" z="-99.83" resettime="2000"/>
+		<Step x="-9.11" z="100.44" resettime="2000"/>
+		<Step x="-18.51" z="68.97" resettime="200"/>
+		<Step x="-83.25" z="77.69" resettime="200"/>
+	</Property>
+	<Property ID="Player_40910008">
+		<Step x="-9.42" z="-21.42" resettime="2000"/>
+		<Step x="12.11" z="-59.47" resettime="200"/>
+		<Step x="56.73" z="-141.3" resettime="2000"/>
+		<Step x="-8.6" z="-131.5" resettime="200"/>
+		<Step x="-43.88" z="-162" resettime="2000"/>
+		<Step x="105" z="-99.83" resettime="2000"/>
+		<Step x="-9.11" z="100.44" resettime="2000"/>
+		<Step x="-18.51" z="68.97" resettime="200"/>
+		<Step x="-83.25" z="77.69" resettime="200"/>
+	</Property>
+	<Property ID="Player_40910009">
+		<Step x="-9.42" z="-21.42" resettime="2000"/>
+		<Step x="12.11" z="-59.47" resettime="200"/>
+		<Step x="56.73" z="-141.3" resettime="2000"/>
+		<Step x="-8.6" z="-131.5" resettime="200"/>
+		<Step x="-43.88" z="-162" resettime="2000"/>
+		<Step x="105" z="-99.83" resettime="2000"/>
+		<Step x="-9.11" z="100.44" resettime="2000"/>
+		<Step x="-18.51" z="68.97" resettime="200"/>
+		<Step x="-83.25" z="77.69" resettime="200"/>
+	</Property>
+	<Property ID="Player_40910010">
+		<Step x="-9.42" z="-21.42" resettime="2000"/>
+		<Step x="12.11" z="-59.47" resettime="200"/>
+		<Step x="56.73" z="-141.3" resettime="2000"/>
+		<Step x="-8.6" z="-131.5" resettime="200"/>
+		<Step x="-43.88" z="-162" resettime="2000"/>
+		<Step x="105" z="-99.83" resettime="2000"/>
+		<Step x="-9.11" z="100.44" resettime="2000"/>
+		<Step x="-18.51" z="68.97" resettime="200"/>
+		<Step x="-83.25" z="77.69" resettime="200"/>
+	</Property>
+	<Property ID="Player_40910011">
+		<Step x="-9.42" z="-21.42" resettime="2000"/>
+		<Step x="12.11" z="-59.47" resettime="200"/>
+		<Step x="56.73" z="-141.3" resettime="2000"/>
+		<Step x="-8.6" z="-131.5" resettime="200"/>
+		<Step x="-43.88" z="-162" resettime="2000"/>
+		<Step x="105" z="-99.83" resettime="2000"/>
+		<Step x="-9.11" z="100.44" resettime="2000"/>
+		<Step x="-18.51" z="68.97" resettime="200"/>
+		<Step x="-83.25" z="77.69" resettime="200"/>
+	</Property>
+	<Property ID="Player_40910012">
+		<Step x="-9.42" z="-21.42" resettime="2000"/>
+		<Step x="12.11" z="-59.47" resettime="200"/>
+		<Step x="56.73" z="-141.3" resettime="2000"/>
+		<Step x="-8.6" z="-131.5" resettime="200"/>
+		<Step x="-43.88" z="-162" resettime="2000"/>
+		<Step x="105" z="-99.83" resettime="2000"/>
+		<Step x="-9.11" z="100.44" resettime="2000"/>
+		<Step x="-18.51" z="68.97" resettime="200"/>
+		<Step x="-83.25" z="77.69" resettime="200"/>
+	</Property>
+	<Property ID="Player_40910013">
+		<Step x="-9.42" z="-21.42" resettime="2000"/>
+		<Step x="12.11" z="-59.47" resettime="200"/>
+		<Step x="56.73" z="-141.3" resettime="2000"/>
+		<Step x="-8.6" z="-131.5" resettime="200"/>
+		<Step x="-43.88" z="-162" resettime="2000"/>
+		<Step x="105" z="-99.83" resettime="2000"/>
+		<Step x="-9.11" z="100.44" resettime="2000"/>
+		<Step x="-18.51" z="68.97" resettime="200"/>
+		<Step x="-83.25" z="77.69" resettime="200"/>
+	</Property>
+	<Property ID="Player_40910014">
+		<Step x="-9.42" z="-21.42" resettime="2000"/>
+		<Step x="12.11" z="-59.47" resettime="200"/>
+		<Step x="56.73" z="-141.3" resettime="2000"/>
+		<Step x="-8.6" z="-131.5" resettime="200"/>
+		<Step x="-43.88" z="-162" resettime="2000"/>
+		<Step x="105" z="-99.83" resettime="2000"/>
+		<Step x="-9.11" z="100.44" resettime="2000"/>
+		<Step x="-18.51" z="68.97" resettime="200"/>
+		<Step x="-83.25" z="77.69" resettime="200"/>
+	</Property>
+	<Property ID="Player_40910015">
+		<Step x="-9.42" z="-21.42" resettime="2000"/>
+		<Step x="12.11" z="-59.47" resettime="200"/>
+		<Step x="56.73" z="-141.3" resettime="2000"/>
+		<Step x="-8.6" z="-131.5" resettime="200"/>
+		<Step x="-43.88" z="-162" resettime="2000"/>
+		<Step x="105" z="-99.83" resettime="2000"/>
+		<Step x="-9.11" z="100.44" resettime="2000"/>
+		<Step x="-18.51" z="68.97" resettime="200"/>
+		<Step x="-83.25" z="77.69" resettime="200"/>
+	</Property>
+	<Property ID="Player_40910016">
+		<Step x="-9.42" z="-21.42" resettime="2000"/>
+		<Step x="12.11" z="-59.47" resettime="200"/>
+		<Step x="56.73" z="-141.3" resettime="2000"/>
+		<Step x="-8.6" z="-131.5" resettime="200"/>
+		<Step x="-43.88" z="-162" resettime="2000"/>
+		<Step x="105" z="-99.83" resettime="2000"/>
+		<Step x="-9.11" z="100.44" resettime="2000"/>
+		<Step x="-18.51" z="68.97" resettime="200"/>
+		<Step x="-83.25" z="77.69" resettime="200"/>
+	</Property>
+	<Property ID="Player_40910017">
+		<Step x="-9.42" z="-21.42" resettime="2000"/>
+		<Step x="12.11" z="-59.47" resettime="200"/>
+		<Step x="56.73" z="-141.3" resettime="2000"/>
+		<Step x="-8.6" z="-131.5" resettime="200"/>
+		<Step x="-43.88" z="-162" resettime="2000"/>
+		<Step x="105" z="-99.83" resettime="2000"/>
+		<Step x="-9.11" z="100.44" resettime="2000"/>
+		<Step x="-18.51" z="68.97" resettime="200"/>
+		<Step x="-83.25" z="77.69" resettime="200"/>
+	</Property>
+	<Property ID="Player_40910018">
+		<Step x="-9.42" z="-21.42" resettime="2000"/>
+		<Step x="12.11" z="-59.47" resettime="200"/>
+		<Step x="56.73" z="-141.3" resettime="2000"/>
+		<Step x="-8.6" z="-131.5" resettime="200"/>
+		<Step x="-43.88" z="-162" resettime="2000"/>
+		<Step x="105" z="-99.83" resettime="2000"/>
+		<Step x="-9.11" z="100.44" resettime="2000"/>
+		<Step x="-18.51" z="68.97" resettime="200"/>
+		<Step x="-83.25" z="77.69" resettime="200"/>
+	</Property>
+	<Property ID="Player_41010001">
+		<Step x="-13.41" z="141.38" resettime="2000"/>
+		<Step x="1.77" z="26.47" resettime="200"/>
+		<Step x="15.27" z="-87.45" resettime="2000"/>
+		<Step x="-26.31" z="-102.5" resettime="2000"/>
+		<Step x="52" z="-164.7" resettime="2000"/>
+		<Step x="-51.96" z="-146.3" resettime="2000"/>
+		<Step x="-40.1" z="-198.6" resettime="2000"/>
+		<Step x="2.22" z="-215.45" resettime="2000"/>
+		<Step x="-2" z="-161.8" resettime="200"/>
+		<Step x="2.96" z="-112.6" resettime="2000"/>
+	</Property>
+	<Property ID="Player_41010002">
+		<Step x="-13.41" z="141.38" resettime="2000"/>
+		<Step x="1.77" z="26.47" resettime="200"/>
+		<Step x="15.27" z="-87.45" resettime="2000"/>
+		<Step x="-26.31" z="-102.5" resettime="2000"/>
+		<Step x="52" z="-164.7" resettime="2000"/>
+		<Step x="-51.96" z="-146.3" resettime="2000"/>
+		<Step x="-40.1" z="-198.6" resettime="2000"/>
+		<Step x="2.22" z="-215.45" resettime="2000"/>
+		<Step x="-2" z="-161.8" resettime="200"/>
+		<Step x="2.96" z="-112.6" resettime="2000"/>
+	</Property>
+	<Property ID="Player_41010003">
+		<Step x="-13.41" z="141.38" resettime="2000"/>
+		<Step x="1.77" z="26.47" resettime="200"/>
+		<Step x="15.27" z="-87.45" resettime="2000"/>
+		<Step x="-26.31" z="-102.5" resettime="2000"/>
+		<Step x="52" z="-164.7" resettime="2000"/>
+		<Step x="-51.96" z="-146.3" resettime="2000"/>
+		<Step x="-40.1" z="-198.6" resettime="2000"/>
+		<Step x="2.22" z="-215.45" resettime="2000"/>
+		<Step x="-2" z="-161.8" resettime="200"/>
+		<Step x="2.96" z="-112.6" resettime="2000"/>
+	</Property>
+	<Property ID="Player_41010004">
+		<Step x="-13.41" z="141.38" resettime="2000"/>
+		<Step x="1.77" z="26.47" resettime="200"/>
+		<Step x="15.27" z="-87.45" resettime="2000"/>
+		<Step x="-26.31" z="-102.5" resettime="2000"/>
+		<Step x="52" z="-164.7" resettime="2000"/>
+		<Step x="-51.96" z="-146.3" resettime="2000"/>
+		<Step x="-40.1" z="-198.6" resettime="2000"/>
+		<Step x="2.22" z="-215.45" resettime="2000"/>
+		<Step x="-2" z="-161.8" resettime="200"/>
+		<Step x="2.96" z="-112.6" resettime="2000"/>
+	</Property>
+	<Property ID="Player_41010005">
+		<Step x="-13.41" z="141.38" resettime="2000"/>
+		<Step x="1.77" z="26.47" resettime="200"/>
+		<Step x="15.27" z="-87.45" resettime="2000"/>
+		<Step x="-26.31" z="-102.5" resettime="2000"/>
+		<Step x="52" z="-164.7" resettime="2000"/>
+		<Step x="-51.96" z="-146.3" resettime="2000"/>
+		<Step x="-40.1" z="-198.6" resettime="2000"/>
+		<Step x="2.22" z="-215.45" resettime="2000"/>
+		<Step x="-2" z="-161.8" resettime="200"/>
+		<Step x="2.96" z="-112.6" resettime="2000"/>
+	</Property>
+	<Property ID="Player_41010006">
+		<Step x="-13.41" z="141.38" resettime="2000"/>
+		<Step x="1.77" z="26.47" resettime="200"/>
+		<Step x="15.27" z="-87.45" resettime="2000"/>
+		<Step x="-26.31" z="-102.5" resettime="2000"/>
+		<Step x="52" z="-164.7" resettime="2000"/>
+		<Step x="-51.96" z="-146.3" resettime="2000"/>
+		<Step x="-40.1" z="-198.6" resettime="2000"/>
+		<Step x="2.22" z="-215.45" resettime="2000"/>
+		<Step x="-2" z="-161.8" resettime="200"/>
+		<Step x="2.96" z="-112.6" resettime="2000"/>
+	</Property>
+	<Property ID="Player_41010007">
+		<Step x="-13.41" z="141.38" resettime="2000"/>
+		<Step x="1.77" z="26.47" resettime="200"/>
+		<Step x="15.27" z="-87.45" resettime="2000"/>
+		<Step x="-26.31" z="-102.5" resettime="2000"/>
+		<Step x="52" z="-164.7" resettime="2000"/>
+		<Step x="-51.96" z="-146.3" resettime="2000"/>
+		<Step x="-40.1" z="-198.6" resettime="2000"/>
+		<Step x="2.22" z="-215.45" resettime="2000"/>
+		<Step x="-2" z="-161.8" resettime="200"/>
+		<Step x="2.96" z="-112.6" resettime="2000"/>
+	</Property>
+	<Property ID="Player_41010008">
+		<Step x="-13.41" z="141.38" resettime="2000"/>
+		<Step x="1.77" z="26.47" resettime="200"/>
+		<Step x="15.27" z="-87.45" resettime="2000"/>
+		<Step x="-26.31" z="-102.5" resettime="2000"/>
+		<Step x="52" z="-164.7" resettime="2000"/>
+		<Step x="-51.96" z="-146.3" resettime="2000"/>
+		<Step x="-40.1" z="-198.6" resettime="2000"/>
+		<Step x="2.22" z="-215.45" resettime="2000"/>
+		<Step x="-2" z="-161.8" resettime="200"/>
+		<Step x="2.96" z="-112.6" resettime="2000"/>
+	</Property>
+	<Property ID="Player_41010009">
+		<Step x="-13.41" z="141.38" resettime="2000"/>
+		<Step x="1.77" z="26.47" resettime="200"/>
+		<Step x="15.27" z="-87.45" resettime="2000"/>
+		<Step x="-26.31" z="-102.5" resettime="2000"/>
+		<Step x="52" z="-164.7" resettime="2000"/>
+		<Step x="-51.96" z="-146.3" resettime="2000"/>
+		<Step x="-40.1" z="-198.6" resettime="2000"/>
+		<Step x="2.22" z="-215.45" resettime="2000"/>
+		<Step x="-2" z="-161.8" resettime="200"/>
+		<Step x="2.96" z="-112.6" resettime="2000"/>
+	</Property>
+	<Property ID="Player_41010010">
+		<Step x="-13.41" z="141.38" resettime="2000"/>
+		<Step x="1.77" z="26.47" resettime="200"/>
+		<Step x="15.27" z="-87.45" resettime="2000"/>
+		<Step x="-26.31" z="-102.5" resettime="2000"/>
+		<Step x="52" z="-164.7" resettime="2000"/>
+		<Step x="-51.96" z="-146.3" resettime="2000"/>
+		<Step x="-40.1" z="-198.6" resettime="2000"/>
+		<Step x="2.22" z="-215.45" resettime="2000"/>
+		<Step x="-2" z="-161.8" resettime="200"/>
+		<Step x="2.96" z="-112.6" resettime="2000"/>
+	</Property>
+	<Property ID="Player_41010011">
+		<Step x="-13.41" z="141.38" resettime="2000"/>
+		<Step x="1.77" z="26.47" resettime="200"/>
+		<Step x="15.27" z="-87.45" resettime="2000"/>
+		<Step x="-26.31" z="-102.5" resettime="2000"/>
+		<Step x="52" z="-164.7" resettime="2000"/>
+		<Step x="-51.96" z="-146.3" resettime="2000"/>
+		<Step x="-40.1" z="-198.6" resettime="2000"/>
+		<Step x="2.22" z="-215.45" resettime="2000"/>
+		<Step x="-2" z="-161.8" resettime="200"/>
+		<Step x="2.96" z="-112.6" resettime="2000"/>
+	</Property>
+	<Property ID="Player_41010012">
+		<Step x="-13.41" z="141.38" resettime="2000"/>
+		<Step x="1.77" z="26.47" resettime="200"/>
+		<Step x="15.27" z="-87.45" resettime="2000"/>
+		<Step x="-26.31" z="-102.5" resettime="2000"/>
+		<Step x="52" z="-164.7" resettime="2000"/>
+		<Step x="-51.96" z="-146.3" resettime="2000"/>
+		<Step x="-40.1" z="-198.6" resettime="2000"/>
+		<Step x="2.22" z="-215.45" resettime="2000"/>
+		<Step x="-2" z="-161.8" resettime="200"/>
+		<Step x="2.96" z="-112.6" resettime="2000"/>
+	</Property>
+	<Property ID="Player_41010013">
+		<Step x="-13.41" z="141.38" resettime="2000"/>
+		<Step x="1.77" z="26.47" resettime="200"/>
+		<Step x="15.27" z="-87.45" resettime="2000"/>
+		<Step x="-26.31" z="-102.5" resettime="2000"/>
+		<Step x="52" z="-164.7" resettime="2000"/>
+		<Step x="-51.96" z="-146.3" resettime="2000"/>
+		<Step x="-40.1" z="-198.6" resettime="2000"/>
+		<Step x="2.22" z="-215.45" resettime="2000"/>
+		<Step x="-2" z="-161.8" resettime="200"/>
+		<Step x="2.96" z="-112.6" resettime="2000"/>
+	</Property>
+	<Property ID="Player_41010014">
+		<Step x="-13.41" z="141.38" resettime="2000"/>
+		<Step x="1.77" z="26.47" resettime="200"/>
+		<Step x="15.27" z="-87.45" resettime="2000"/>
+		<Step x="-26.31" z="-102.5" resettime="2000"/>
+		<Step x="52" z="-164.7" resettime="2000"/>
+		<Step x="-51.96" z="-146.3" resettime="2000"/>
+		<Step x="-40.1" z="-198.6" resettime="2000"/>
+		<Step x="2.22" z="-215.45" resettime="2000"/>
+		<Step x="-2" z="-161.8" resettime="200"/>
+		<Step x="2.96" z="-112.6" resettime="2000"/>
+	</Property>
+	<Property ID="Player_41010015">
+		<Step x="-13.41" z="141.38" resettime="2000"/>
+		<Step x="1.77" z="26.47" resettime="200"/>
+		<Step x="15.27" z="-87.45" resettime="2000"/>
+		<Step x="-26.31" z="-102.5" resettime="2000"/>
+		<Step x="52" z="-164.7" resettime="2000"/>
+		<Step x="-51.96" z="-146.3" resettime="2000"/>
+		<Step x="-40.1" z="-198.6" resettime="2000"/>
+		<Step x="2.22" z="-215.45" resettime="2000"/>
+		<Step x="-2" z="-161.8" resettime="200"/>
+		<Step x="2.96" z="-112.6" resettime="2000"/>
+	</Property>
+	<Property ID="Player_41010016">
+		<Step x="-13.41" z="141.38" resettime="2000"/>
+		<Step x="1.77" z="26.47" resettime="200"/>
+		<Step x="15.27" z="-87.45" resettime="2000"/>
+		<Step x="-26.31" z="-102.5" resettime="2000"/>
+		<Step x="52" z="-164.7" resettime="2000"/>
+		<Step x="-51.96" z="-146.3" resettime="2000"/>
+		<Step x="-40.1" z="-198.6" resettime="2000"/>
+		<Step x="2.22" z="-215.45" resettime="2000"/>
+		<Step x="-2" z="-161.8" resettime="200"/>
+		<Step x="2.96" z="-112.6" resettime="2000"/>
+	</Property>
+	<Property ID="Player_41010017">
+		<Step x="-13.41" z="141.38" resettime="2000"/>
+		<Step x="1.77" z="26.47" resettime="200"/>
+		<Step x="15.27" z="-87.45" resettime="2000"/>
+		<Step x="-26.31" z="-102.5" resettime="2000"/>
+		<Step x="52" z="-164.7" resettime="2000"/>
+		<Step x="-51.96" z="-146.3" resettime="2000"/>
+		<Step x="-40.1" z="-198.6" resettime="2000"/>
+		<Step x="2.22" z="-215.45" resettime="2000"/>
+		<Step x="-2" z="-161.8" resettime="200"/>
+		<Step x="2.96" z="-112.6" resettime="2000"/>
+	</Property>
+	<Property ID="Player_41010018">
+		<Step x="-13.41" z="141.38" resettime="2000"/>
+		<Step x="1.77" z="26.47" resettime="200"/>
+		<Step x="15.27" z="-87.45" resettime="2000"/>
+		<Step x="-26.31" z="-102.5" resettime="2000"/>
+		<Step x="52" z="-164.7" resettime="2000"/>
+		<Step x="-51.96" z="-146.3" resettime="2000"/>
+		<Step x="-40.1" z="-198.6" resettime="2000"/>
+		<Step x="2.22" z="-215.45" resettime="2000"/>
+		<Step x="-2" z="-161.8" resettime="200"/>
+		<Step x="2.96" z="-112.6" resettime="2000"/>
+	</Property>
+	<Property ID="Player_41010019">
+		<Step x="-13.41" z="141.38" resettime="2000"/>
+		<Step x="1.77" z="26.47" resettime="200"/>
+		<Step x="15.27" z="-87.45" resettime="2000"/>
+		<Step x="-26.31" z="-102.5" resettime="2000"/>
+		<Step x="52" z="-164.7" resettime="2000"/>
+		<Step x="-51.96" z="-146.3" resettime="2000"/>
+		<Step x="-40.1" z="-198.6" resettime="2000"/>
+		<Step x="2.22" z="-215.45" resettime="2000"/>
+		<Step x="-2" z="-161.8" resettime="200"/>
+		<Step x="2.96" z="-112.6" resettime="2000"/>
+	</Property>
+	<Property ID="Player_41010020">
+		<Step x="-13.41" z="141.38" resettime="2000"/>
+		<Step x="1.77" z="26.47" resettime="200"/>
+		<Step x="15.27" z="-87.45" resettime="2000"/>
+		<Step x="-26.31" z="-102.5" resettime="2000"/>
+		<Step x="52" z="-164.7" resettime="2000"/>
+		<Step x="-51.96" z="-146.3" resettime="2000"/>
+		<Step x="-40.1" z="-198.6" resettime="2000"/>
+		<Step x="2.22" z="-215.45" resettime="2000"/>
+		<Step x="-2" z="-161.8" resettime="200"/>
+		<Step x="2.96" z="-112.6" resettime="2000"/>
+	</Property>
+	<Property ID="Monster_558031">
+		<Step x="-9" z="-8" resettime="2000"/>
+		<Step x="-36" z="-9" resettime="2000"/>
+	</Property>
+	<Property ID="Monster_558032">
+		<Step x="62" z="-31" resettime="2000"/>
+		<Step x="54" z="35" resettime="2000"/>
+	</Property>
+	<Property ID="Monster_558033">
+		<Step x="-94" z="65" resettime="2000"/>
+		<Step x="-64" z="-4" resettime="2000"/>
+	</Property>
+	<Property ID="Monster_558034">
+		<Step x="-19" z="106" resettime="2000"/>
+		<Step x="25" z="83" resettime="2000"/>
+	</Property>
+	<Property ID="Monster_558035">
+		<Step x="-94" z="59" resettime="2000"/>
+		<Step x="-46" z="106" resettime="2000"/>
+	</Property>
+	<Property ID="Monster_580031">
+		<Step x="-4" z="31" resettime="2000"/>
+		<Step x="-33" z="31" resettime="2000"/>
+	</Property>
+	<Property ID="Monster_580032">
+		<Step x="8" z="31" resettime="2000"/>
+		<Step x="37" z="31" resettime="2000"/>
+	</Property>
+	<Property ID="Monster_580033">
+		<Step x="163" z="-32" resettime="2000"/>
+		<Step x="163" z="-89" resettime="2000"/>
+	</Property>
+	<Property ID="Monster_580034">
+		<Step x="-175" z="-32" resettime="2000"/>
+		<Step x="-175" z="-89" resettime="2000"/>
+	</Property>
+	<Property ID="Monster_580035">
+		<Step x="-4" z="-162" resettime="2000"/>
+		<Step x="-23" z="-162" resettime="2000"/>
+	</Property>
+	<Property ID="Monster_580036">
+		<Step x="5" z="-162" resettime="2000"/>
+		<Step x="24" z="-162" resettime="2000"/>
+	</Property>
+	<Property ID="Monster_100606">
+		<Step x="381.11" z="173.96" resettime="5000"/>
+		<Step x="402.53" z="156.01" resettime="5000"/>
+	</Property>
+	<Property ID="Monster_100605">
+		<Step x="402.53" z="156.01" resettime="5000"/>
+		<Step x="381.11" z="173.96" resettime="5000"/>
+	</Property>
+	<Property ID="Monster_100604">
+		<Step x="418.26" z="222.82" resettime="5000"/>
+		<Step x="399.08" z="255.78" resettime="5000"/>
+	</Property>
+	<Property ID="Monster_100603">
+		<Step x="399.08" z="255.78" resettime="5000"/>
+		<Step x="418.26" z="222.82" resettime="5000"/>
+	</Property>
+	<Property ID="Monster_100602">
+		<Step x="465.51" z="212.2" resettime="5000"/>
+		<Step x="456.67" z="178.6" resettime="5000"/>
+	</Property>
+	<Property ID="Monster_100601">
+		<Step x="456.67" z="178.6" resettime="5000"/>
+		<Step x="465.51" z="212.2" resettime="5000"/>
+	</Property>
+	<Property ID="Monster_100607">
+		<Step x="-20.3" z="-245.63" resettime="5000"/>
+		<Step x="20.2" z="-246.67" resettime="5000"/>
+	</Property>
+	<Property ID="Monster_100608">
+		<Step x="59.63" z="-275.89" resettime="5000"/>
+		<Step x="57.47" z="-320.32" resettime="5000"/>
+	</Property>
+	<Property ID="Monster_100609">
+		<Step x="-54.89" z="-272.38" resettime="5000"/>
+		<Step x="-54.35" z="-316.63" resettime="5000"/>
+	</Property>
+	<Property ID="Monster_100612">
+		<Step x="-63.32401" z="238.074" resettime="5000"/>
+		<Step x="-101.9333" z="231.2959" resettime="5000"/>
+	</Property>
+	<Property ID="Monster_100613">
+		<Step x="-63.32401" z="238.074" resettime="5000"/>
+		<Step x="-101.9333" z="231.2959" resettime="5000"/>
+	</Property>
+	<Property ID="Monster_100614">
+		<Step x="101.2891" z="258.6896" resettime="2000"/>
+		<Step x="195.7626" z="259.8325" resettime="2000"/>
+		<Step x="193.5517" z="202.5748" resettime="2000"/>
+		<Step x="112.0068" z="202.2026" resettime="2000"/>
+		<Step x="101.2891" z="258.6896" resettime="2000"/>
+	</Property>
+	<Property ID="Monster_100615">
+		<Step x="95.43056" z="258.6896" resettime="2000"/>
+		<Step x="191.7758" z="259.5091" resettime="2000"/>
+		<Step x="193.7045" z="208.1728" resettime="2000"/>
+		<Step x="117.8699" z="201.8168" resettime="2000"/>
+		<Step x="95.43056" z="258.6896" resettime="2000"/>
+	</Property>
+	<Property ID="Monster_100616">
+		<Step x="60.5098" z="-182.449" resettime="2000"/>
+		<Step x="124.4367" z="-66.54755" resettime="2000"/>
+		<Step x="112.4934" z="111.1306" resettime="2000"/>
+		<Step x="-17.57644" z="111.5835" resettime="2000"/>
+		<Step x="-17.26922" z="204.0081" resettime="2000"/>
+		<Step x="-112.7403" z="204.0081" resettime="2000"/>
+		<Step x="-242.6981" z="175.6953" resettime="2000"/>
+		<Step x="-242.1749" z="27.27696" resettime="2000"/>
+		<Step x="-241.2113" z="-178.5349" resettime="2000"/>
+		<Step x="60.5098" z="-182.449" resettime="2000"/>
+	</Property>
+	<Property ID="Monster_100617">
+		<Step x="60.5098" z="-182.449" resettime="2000"/>
+		<Step x="124.4367" z="-66.54755" resettime="2000"/>
+		<Step x="112.4934" z="111.1306" resettime="2000"/>
+		<Step x="-17.57644" z="111.5835" resettime="2000"/>
+		<Step x="-17.26922" z="204.0081" resettime="2000"/>
+		<Step x="-112.7403" z="204.0081" resettime="2000"/>
+		<Step x="-242.6981" z="175.6953" resettime="2000"/>
+		<Step x="-242.1749" z="27.27696" resettime="2000"/>
+		<Step x="-241.2113" z="-178.5349" resettime="2000"/>
+		<Step x="60.5098" z="-182.449" resettime="2000"/>
+	</Property>
+	<Property ID="Monster_100618">
+		<Step x="60.5098" z="-182.449" resettime="2000"/>
+		<Step x="124.4367" z="-66.54755" resettime="2000"/>
+		<Step x="112.4934" z="111.1306" resettime="2000"/>
+		<Step x="-17.57644" z="111.5835" resettime="2000"/>
+		<Step x="-17.26922" z="204.0081" resettime="2000"/>
+		<Step x="-112.7403" z="204.0081" resettime="2000"/>
+		<Step x="-242.6981" z="175.6953" resettime="2000"/>
+		<Step x="-242.1749" z="27.27696" resettime="2000"/>
+		<Step x="-241.2113" z="-178.5349" resettime="2000"/>
+		<Step x="60.5098" z="-182.449" resettime="2000"/>
+		<Step/>
+	</Property>
+	<Property ID="Monster_100619">
+		<Step x="60.5098" z="-182.449" resettime="2000"/>
+		<Step x="124.4367" z="-66.54755" resettime="2000"/>
+		<Step x="112.4934" z="111.1306" resettime="2000"/>
+		<Step x="-17.57644" z="111.5835" resettime="2000"/>
+		<Step x="-17.26922" z="204.0081" resettime="2000"/>
+		<Step x="-112.7403" z="204.0081" resettime="2000"/>
+		<Step x="-242.6981" z="175.6953" resettime="2000"/>
+		<Step x="-242.1749" z="27.27696" resettime="2000"/>
+		<Step x="-241.2113" z="-178.5349" resettime="2000"/>
+		<Step x="60.5098" z="-182.449" resettime="2000"/>
+		<Step/>
+	</Property>
+</Object>

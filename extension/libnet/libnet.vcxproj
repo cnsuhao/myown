@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{42577EEF-1DA5-48E4-8CF9-A28368F03525}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>libnet</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(ProjectDir)bin\$(Configuration)\$(PlatformTarget)\</OutDir>
+    <IntDir>$(Configuration)\$(PlatformTarget)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(ProjectDir)bin\$(Configuration)\$(PlatformTarget)\</OutDir>
+    <IntDir>$(Configuration)\$(PlatformTarget)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(ProjectDir)bin\$(Configuration)\$(PlatformTarget)\</OutDir>
+    <IntDir>$(Configuration)\$(PlatformTarget)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(ProjectDir)bin\$(Configuration)\$(PlatformTarget)\</OutDir>
+    <IntDir>$(Configuration)\$(PlatformTarget)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32; _DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>./;../../;$(LIB_EVENT_HOME)\include;$(LIB_EVENT_HOME)\WIN32-Code\nmake;$(OPEN_SSL_HOME)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy $(TargetDir)$(TargetName).* $(SolutionDir)\common\libs\$(Configuration)\$(PlatformTarget)\ /y
+del $(SolutionDir)common\net\*.* /S /Y
+xcopy $(ProjectDir)action\*.h $(SolutionDir)common\net\action\ /Y /S
+xcopy $(ProjectDir)base\*.h $(SolutionDir)common\net\base\ /Y /S
+xcopy $(ProjectDir)utils\*.h $(SolutionDir)common\net\utils\ /Y /S
+xcopy $(ProjectDir)protocols\*.h $(SolutionDir)common\net\protocols\ /Y /S</Command>
+    </PostBuildEvent>
+    <Lib>
+      <AdditionalDependencies>libevent.lib;libevent_openssl.lib;ws2_32.lib;libssl.lib;libcrypto.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(OPEN_SSL_HOME)\lib\$(PlatformTarget)\$(Configuration);$(LIB_EVENT_HOME)\libs\$(PlatformTarget)\$(Configuration)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32; _DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>./;../../;$(LIB_EVENT_HOME)\include;$(LIB_EVENT_HOME)\WIN32-Code\nmake;$(OPEN_SSL_HOME)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy $(TargetDir)$(TargetName).* $(SolutionDir)\common\libs\$(Configuration)\$(PlatformTarget)\ /y
+del $(SolutionDir)common\net\*.* /S /Y
+xcopy $(ProjectDir)action\*.h $(SolutionDir)common\net\action\ /Y /S
+xcopy $(ProjectDir)base\*.h $(SolutionDir)common\net\base\ /Y /S
+xcopy $(ProjectDir)utils\*.h $(SolutionDir)common\net\utils\ /Y /S
+xcopy $(ProjectDir)protocols\*.h $(SolutionDir)common\net\protocols\ /Y /S</Command>
+    </PostBuildEvent>
+    <Lib>
+      <AdditionalDependencies>libevent.lib;libevent_openssl.lib;ws2_32.lib;libssl.lib;libcrypto.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(OPEN_SSL_HOME)\lib\$(PlatformTarget)\$(Configuration);$(LIB_EVENT_HOME)\libs\$(PlatformTarget)\$(Configuration)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32; NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>./;../../;$(LIB_EVENT_HOME)\include;$(LIB_EVENT_HOME)\WIN32-Code\nmake;$(OPEN_SSL_HOME)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy $(TargetDir)$(TargetName).* $(SolutionDir)\common\libs\$(Configuration)\$(PlatformTarget)\ /y
+del $(SolutionDir)common\net\*.* /S /Y
+xcopy $(ProjectDir)action\*.h $(SolutionDir)common\net\action\ /Y /S
+xcopy $(ProjectDir)base\*.h $(SolutionDir)common\net\base\ /Y /S
+xcopy $(ProjectDir)utils\*.h $(SolutionDir)common\net\utils\ /Y /S
+xcopy $(ProjectDir)protocols\*.h $(SolutionDir)common\net\protocols\ /Y /S</Command>
+    </PostBuildEvent>
+    <Lib>
+      <AdditionalDependencies>libevent.lib;libevent_openssl.lib;ws2_32.lib;libssl.lib;libcrypto.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(OPEN_SSL_HOME)\lib\$(PlatformTarget)\$(Configuration);$(LIB_EVENT_HOME)\libs\$(PlatformTarget)\$(Configuration)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32; NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>./;../../;$(LIB_EVENT_HOME)\include;$(LIB_EVENT_HOME)\WIN32-Code\nmake;$(OPEN_SSL_HOME)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy $(TargetDir)$(TargetName).* $(SolutionDir)\common\libs\$(Configuration)\$(PlatformTarget)\ /y
+del $(SolutionDir)common\net\*.* /S /Y
+xcopy $(ProjectDir)action\*.h $(SolutionDir)common\net\action\ /Y /S
+xcopy $(ProjectDir)base\*.h $(SolutionDir)common\net\base\ /Y /S
+xcopy $(ProjectDir)utils\*.h $(SolutionDir)common\net\utils\ /Y /S
+xcopy $(ProjectDir)protocols\*.h $(SolutionDir)common\net\protocols\ /Y /S</Command>
+    </PostBuildEvent>
+    <Lib>
+      <AdditionalLibraryDirectories>$(OPEN_SSL_HOME)\lib\$(PlatformTarget)\$(Configuration);$(LIB_EVENT_HOME)\libs\$(PlatformTarget)\$(Configuration)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libevent.lib;libevent_openssl.lib;ws2_32.lib;libssl.lib;libcrypto.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="action\ActionFactoryManager.h" />
+    <ClInclude Include="action\HttpDataFormater.h" />
+    <ClInclude Include="action\HttpJsonFormater.h" />
+    <ClInclude Include="action\HttpData.h" />
+    <ClInclude Include="action\IAction.h" />
+    <ClInclude Include="action\IActionBinder.h" />
+    <ClInclude Include="action\IActionFactory.h" />
+    <ClInclude Include="action\IActionHandler.h" />
+    <ClInclude Include="action\IActionLinkManager.h" />
+    <ClInclude Include="action\IActionManager.h" />
+    <ClInclude Include="action\IHttpAction.h" />
+    <ClInclude Include="action\INetAction.h" />
+    <ClInclude Include="base\DataBuffer.h" />
+    <ClInclude Include="base\INetConnection.h" />
+    <ClInclude Include="base\INetService.h" />
+    <ClInclude Include="base\INetType.h" />
+    <ClInclude Include="base\NetConnection.h" />
+    <ClInclude Include="base\NetConnectionFactory.h" />
+    <ClInclude Include="base\NetManager.h" />
+    <ClInclude Include="base\NetService.h" />
+    <ClInclude Include="base\NetCreator.h" />
+    <ClInclude Include="base\NetServiceCreator.h" />
+    <ClInclude Include="libevent\LibEventConnection.h" />
+    <ClInclude Include="libevent\LibEventConnectionFactory.h" />
+    <ClInclude Include="libevent\LibEventHttpConnection.h" />
+    <ClInclude Include="libevent\LibEventHttpConnectionFactory.h" />
+    <ClInclude Include="libevent\LibEventHttpService.h" />
+    <ClInclude Include="libevent\LibEventService.h" />
+    <ClInclude Include="libevent\LibEventServiceCreator.h" />
+    <ClInclude Include="openssl\my_ssl.h" />
+    <ClInclude Include="openssl\ssl_env.h" />
+    <ClInclude Include="protocols\SysAction.h" />
+    <ClInclude Include="utils\Binder.h" />
+    <ClInclude Include="utils\FsLockedQueue.h" />
+    <ClInclude Include="utils\FsSingleton.h" />
+    <ClInclude Include="utils\FsSpinLock.h" />
+    <ClInclude Include="utils\FsStream.h" />
+    <ClInclude Include="utils\FsTimer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="base\NetConnection.cpp" />
+    <ClCompile Include="base\NetCreator.cpp" />
+    <ClCompile Include="base\NetService.cpp" />
+    <ClCompile Include="libevent\LibEventConnection.cpp" />
+    <ClCompile Include="libevent\LibEventHttpConnection.cpp" />
+    <ClCompile Include="libevent\LibEventHttpService.cpp" />
+    <ClCompile Include="libevent\LibEventService.cpp" />
+    <ClCompile Include="openssl\my_ssl.cpp" />
+    <ClCompile Include="openssl\ssl_env.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

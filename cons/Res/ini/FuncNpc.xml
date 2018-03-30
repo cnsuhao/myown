@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Object>
+<Property ID="70005" Script="FunctionNpc" NpcType="201" Nation="99" SpringRange="4" Springer="0" CollideRadius="1"></Property>
+<Property ID="70006" Script="FunctionNpc" NpcType="203" Nation="99" SpringRange="4" Springer="0" CollideRadius="3"></Property>
+</Object>

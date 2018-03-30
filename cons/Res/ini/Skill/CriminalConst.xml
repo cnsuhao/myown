@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--GrayToNormalTime 灰名变正常的时间单位(s)
+RedCrimeValue 红名显示所需的罪恶值
+KillCrimerErrantry:杀红名增加的侠义值
+ClearCrimeCostRate 清除1点罪恶值消耗的货币
+JailClearCrimeCostRate:清楚1点罪恶值消耗的货币（坐牢中）
+ClearCrimeMoneyType 清楚1点罪恶值消耗的货币类型
+ScroeToCrimeRate 杀怪总积分减少1点罪恶值
+TimeToCrimeRate 在线多久减1点罪恶值 单位(m)
+MaxChivalry	每天杀人最多获得的侠义值MaxCrimeValue 最大罪恶值
+ForceBeJailCrimeVal:强制坐牢的罪恶值-->
+<Object>
+	<Property ID="0" GrayToNormalTime="30" RedCrimeValue="5" KillCrimerChivalry="50" ClearCrimeCostRate="5" JailClearCrimeCostRate="10" ClearCrimeMoneyType="1" ScroeToCrimeRate="300" TimeToCrimeRate="10" MaxChivalry="500" MaxCrimeValue="500" ForceBeJailCrimeVal = "200"/>
+</Object>

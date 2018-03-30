@@ -1,0 +1,6 @@
+有个指令打出所有调用的消耗和次数
+telnet 到 world 维护端口
+ method SoloWorld DumpPerformance xxx.txt
+
+// 设置服务器最大人数
+setp SoloWorld MaxPlayers 2

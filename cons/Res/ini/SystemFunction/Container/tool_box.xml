@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Object>
+<Property ID="ItemBox" Capacity="144" MaxCapacity="144" TemporayBoxCapacity="999"  FreeCellCount="144" GoldTypeToUnlock="1" GoldToUnlockCell="10" ArrangeCoolDown="10000" ThresholdFreeCell="0" ReminderInterval="10"/>
+</Object>

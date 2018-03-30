@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!--LevelMinDiff 最小等级差 LevelMaxDiff 最大等级差 CriminalValue 增加的罪恶值-->
+<Object>
+	<Property ID="0" NpcType="1" DecCrimeScore="1"/>
+	<Property ID="1" NpcType="2" DecCrimeScore="10"/>
+	<Property ID="2" NpcType="3" DecCrimeScore="50"/>
+</Object>

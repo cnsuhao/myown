@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2010 (http://www.altova.com) by MESMERiZE (MiZE) -->
+<Object>
+	<!-- NewChar -->
+	<Property ID="50" Type="BuffNew" Path="Skill/Char/Buff.xml"/>
+	<Property ID="51" Type="BuffReg" Path="Skill/Char/BuffReg.xml"/>	
+	<Property ID="52" Type="BuffEffect" Path="Skill/Char/BuffEffect.xml"/>	
+</Object>

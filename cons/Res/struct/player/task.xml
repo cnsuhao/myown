@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--游戏对象属性定义模版文件-->
+<!--数据类型说明：
+	布尔（VTYPE_BOOL）:BOOL
+	32位整数（VTYPE_INT）：INT、BYTE、WORD、DWORD
+	64位整数（VTYPE_INT64）：INT64
+	单精度浮点数（VTYPE_FLOAT）:FLOAT
+	双精度浮点数（VTYPE_DOUBLE）:DOUBLE
+	字符串（VTYPE_STRING）:STRING
+	宽字符串（VTYPE_WIDESTR）:WIDESTR
+	对象号（VTYPE_OBJECT）:OBJECT
+	指针（VTYPE_POINTER）:POINTER
+	用户数据（VTYPE_USERDATA）:USERDATA
+	表（VTYPE_TABLE）:TABLE
+-->
+<object>
+	<properties>
+		<property name="CurMainTask" type="dword" public="false" private="true" save="true" desc="当前正在进行的主线任务ID"/>
+	</properties>
+	<records>
+		<!-- 任务表，凡是接到的任务均在此注册 -->
+		<record name="TaskProgressRec" cols="3" maxrows="512" save="true" public="false" private="true" desc="任务进度表">
+			<column type="dword" name="id" desc="任务编号"/>
+			<column type="word" name="status" desc="任务状态"/>
+			<column type="string" name="progress" desc="当前进度"/>  <!--任务目标类型为Npc时，Npc为多个时进度条也为多个，当前进度和总进度存储方式为:“NpcId1,进度1;NpcId12,进度2"-->	
+		</record>
+		
+		<!-- 任务提交记录表，按位操作 -->
+		<record name="TaskSubmitRec" cols="1" maxrows="5000" save="true" public="false" private="true" desc="已提交任务表">
+			<column type="dword" name="id" desc="任务编号"/>
+		</record>
+		
+		<!-- 任务NPC记录表 -->
+		<record name="TaskNpcRec" cols="1" maxrows="512" save="true" public="false" private="false" desc="任务NPC记录表">
+			<column type="object" name="object" desc="任务NPC对象"/>
+		</record>
+		
+		<!-- 任务配置表，记录每种任务类型的配置 -->
+		<record name="TaskConfigRec" cols="2" maxrows="50" save="true" public="false" private="true" desc="任务配置表">
+			<column type="word" name="type" desc="任务类型"/>
+			<column type="word" name="count" desc="已完成次数"/>
+		</record>		
+	</records>
+</object>

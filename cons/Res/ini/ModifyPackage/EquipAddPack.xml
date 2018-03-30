@@ -1,0 +1,1445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Object>
+<Property ID="-1" HPAdd="0" MPAdd="1" Str="2" Dex="3" Sta="4" Ing="5" Spi="6" PhysAttackAdd="7" MagicttackAdd="8" PhysDefendAdd="9" MagicDefendAdd="10" HitAdd="11" MissAdd="12" CritAdd="13" TougAdd="14" PhysPenetrateAdd="15" MagicPenetrateAdd="16" AddHurtRate="17" DecHurtRate="18" MaxGaintVal="19"></Property>
+<Property ID="0" HPAdd="2" MPAdd="2" Str="2" Dex="2" Sta="2" Ing="2" Spi="2" PhysAttackAdd="2" MagicttackAdd="2" PhysDefendAdd="2" MagicDefendAdd="2" HitAdd="2" MissAdd="2" CritAdd="2" TougAdd="2" PhysPenetrateAdd="2" MagicPenetrateAdd="2" AddHurtRate="2" DecHurtRate="2" MaxGaintVal="2"></Property>
+<Property ID="210112101" Sta="1"></Property>
+<Property ID="210112102" Sta="2"></Property>
+<Property ID="210112103" Sta="3"></Property>
+<Property ID="210112104" Sta="4"></Property>
+<Property ID="210112105" Sta="5"></Property>
+<Property ID="210112106" Sta="6"></Property>
+<Property ID="210112107" Sta="7"></Property>
+<Property ID="210112108" Sta="8"></Property>
+<Property ID="210112109" Sta="9"></Property>
+<Property ID="210112110" Sta="10"></Property>
+<Property ID="210112111" Sta="11"></Property>
+<Property ID="210112112" Sta="12"></Property>
+<Property ID="210113101" Str="1" Sta="13"></Property>
+<Property ID="210113102" Str="2" Sta="14"></Property>
+<Property ID="210113103" Str="3" Sta="15"></Property>
+<Property ID="210113104" Str="4" Sta="16"></Property>
+<Property ID="210113105" Str="5" Sta="17"></Property>
+<Property ID="210113106" Str="6" Sta="18"></Property>
+<Property ID="210113107" Str="7" Sta="19"></Property>
+<Property ID="210113108" Str="8" Sta="20"></Property>
+<Property ID="210113109" Str="9" Sta="21"></Property>
+<Property ID="210113110" Str="10" Sta="22"></Property>
+<Property ID="210113111" Str="11" Sta="23"></Property>
+<Property ID="210113112" Str="12" Sta="24"></Property>
+<Property ID="210114101" Str="13" Sta="25" Spi="1"></Property>
+<Property ID="210114102" Str="14" Sta="26" Spi="2"></Property>
+<Property ID="210114103" Str="15" Sta="27" Spi="3"></Property>
+<Property ID="210114104" Str="16" Sta="28" Spi="4"></Property>
+<Property ID="210114105" Str="17" Sta="29" Spi="5"></Property>
+<Property ID="210114106" Str="18" Sta="30" Spi="6"></Property>
+<Property ID="210114107" Str="19" Sta="31" Spi="7"></Property>
+<Property ID="210114108" Str="20" Sta="32" Spi="8"></Property>
+<Property ID="210114109" Str="21" Sta="33" Spi="9"></Property>
+<Property ID="210114110" Str="22" Sta="34" Spi="10"></Property>
+<Property ID="210114111" Str="23" Sta="35" Spi="11"></Property>
+<Property ID="210114112" Str="24" Sta="36" Spi="12"></Property>
+<Property ID="210115101" Str="25" Sta="37" Spi="13" DecHurtRate="1"></Property>
+<Property ID="210115102" Str="26" Sta="38" Spi="14" DecHurtRate="2"></Property>
+<Property ID="210115103" Str="27" Sta="39" Spi="15" DecHurtRate="3"></Property>
+<Property ID="210115104" Str="28" Sta="40" Spi="16" DecHurtRate="4"></Property>
+<Property ID="210115105" Str="29" Sta="41" Spi="17" DecHurtRate="5"></Property>
+<Property ID="210115106" Str="30" Sta="42" Spi="18" DecHurtRate="6"></Property>
+<Property ID="210115107" Str="31" Sta="43" Spi="19" DecHurtRate="7"></Property>
+<Property ID="210115108" Str="32" Sta="44" Spi="20" DecHurtRate="8"></Property>
+<Property ID="210115109" Str="33" Sta="45" Spi="21" DecHurtRate="9"></Property>
+<Property ID="210115110" Str="34" Sta="46" Spi="22" DecHurtRate="10"></Property>
+<Property ID="210115111" Str="35" Sta="47" Spi="23" DecHurtRate="11"></Property>
+<Property ID="210115112" Str="36" Sta="48" Spi="24" DecHurtRate="12"></Property>
+<Property ID="210122101" Sta="1"></Property>
+<Property ID="210122102" Sta="2"></Property>
+<Property ID="210122103" Sta="3"></Property>
+<Property ID="210122104" Sta="4"></Property>
+<Property ID="210122105" Sta="5"></Property>
+<Property ID="210122106" Sta="6"></Property>
+<Property ID="210122107" Sta="7"></Property>
+<Property ID="210122108" Sta="8"></Property>
+<Property ID="210122109" Sta="9"></Property>
+<Property ID="210122110" Sta="10"></Property>
+<Property ID="210122111" Sta="11"></Property>
+<Property ID="210122112" Sta="12"></Property>
+<Property ID="210123101" Dex="1" Sta="13"></Property>
+<Property ID="210123102" Dex="2" Sta="14"></Property>
+<Property ID="210123103" Dex="3" Sta="15"></Property>
+<Property ID="210123104" Dex="4" Sta="16"></Property>
+<Property ID="210123105" Dex="5" Sta="17"></Property>
+<Property ID="210123106" Dex="6" Sta="18"></Property>
+<Property ID="210123107" Dex="7" Sta="19"></Property>
+<Property ID="210123108" Dex="8" Sta="20"></Property>
+<Property ID="210123109" Dex="9" Sta="21"></Property>
+<Property ID="210123110" Dex="10" Sta="22"></Property>
+<Property ID="210123111" Dex="11" Sta="23"></Property>
+<Property ID="210123112" Dex="12" Sta="24"></Property>
+<Property ID="210124101" Dex="13" Sta="25" Spi="1"></Property>
+<Property ID="210124102" Dex="14" Sta="26" Spi="2"></Property>
+<Property ID="210124103" Dex="15" Sta="27" Spi="3"></Property>
+<Property ID="210124104" Dex="16" Sta="28" Spi="4"></Property>
+<Property ID="210124105" Dex="17" Sta="29" Spi="5"></Property>
+<Property ID="210124106" Dex="18" Sta="30" Spi="6"></Property>
+<Property ID="210124107" Dex="19" Sta="31" Spi="7"></Property>
+<Property ID="210124108" Dex="20" Sta="32" Spi="8"></Property>
+<Property ID="210124109" Dex="21" Sta="33" Spi="9"></Property>
+<Property ID="210124110" Dex="22" Sta="34" Spi="10"></Property>
+<Property ID="210124111" Dex="23" Sta="35" Spi="11"></Property>
+<Property ID="210124112" Dex="24" Sta="36" Spi="12"></Property>
+<Property ID="210125101" Dex="25" Sta="37" Spi="13" DecHurtRate="1"></Property>
+<Property ID="210125102" Dex="26" Sta="38" Spi="14" DecHurtRate="2"></Property>
+<Property ID="210125103" Dex="27" Sta="39" Spi="15" DecHurtRate="3"></Property>
+<Property ID="210125104" Dex="28" Sta="40" Spi="16" DecHurtRate="4"></Property>
+<Property ID="210125105" Dex="29" Sta="41" Spi="17" DecHurtRate="5"></Property>
+<Property ID="210125106" Dex="30" Sta="42" Spi="18" DecHurtRate="6"></Property>
+<Property ID="210125107" Dex="31" Sta="43" Spi="19" DecHurtRate="7"></Property>
+<Property ID="210125108" Dex="32" Sta="44" Spi="20" DecHurtRate="8"></Property>
+<Property ID="210125109" Dex="33" Sta="45" Spi="21" DecHurtRate="9"></Property>
+<Property ID="210125110" Dex="34" Sta="46" Spi="22" DecHurtRate="10"></Property>
+<Property ID="210125111" Dex="35" Sta="47" Spi="23" DecHurtRate="11"></Property>
+<Property ID="210125112" Dex="36" Sta="48" Spi="24" DecHurtRate="12"></Property>
+<Property ID="210132101" Sta="1"></Property>
+<Property ID="210132102" Sta="2"></Property>
+<Property ID="210132103" Sta="3"></Property>
+<Property ID="210132104" Sta="4"></Property>
+<Property ID="210132105" Sta="5"></Property>
+<Property ID="210132106" Sta="6"></Property>
+<Property ID="210132107" Sta="7"></Property>
+<Property ID="210132108" Sta="8"></Property>
+<Property ID="210132109" Sta="9"></Property>
+<Property ID="210132110" Sta="10"></Property>
+<Property ID="210132111" Sta="11"></Property>
+<Property ID="210132112" Sta="12"></Property>
+<Property ID="210133101" Dex="1" Sta="13"></Property>
+<Property ID="210133102" Dex="2" Sta="14"></Property>
+<Property ID="210133103" Dex="3" Sta="15"></Property>
+<Property ID="210133104" Dex="4" Sta="16"></Property>
+<Property ID="210133105" Dex="5" Sta="17"></Property>
+<Property ID="210133106" Dex="6" Sta="18"></Property>
+<Property ID="210133107" Dex="7" Sta="19"></Property>
+<Property ID="210133108" Dex="8" Sta="20"></Property>
+<Property ID="210133109" Dex="9" Sta="21"></Property>
+<Property ID="210133110" Dex="10" Sta="22"></Property>
+<Property ID="210133111" Dex="11" Sta="23"></Property>
+<Property ID="210133112" Dex="12" Sta="24"></Property>
+<Property ID="210134101" Dex="13" Sta="25" Spi="1"></Property>
+<Property ID="210134102" Dex="14" Sta="26" Spi="2"></Property>
+<Property ID="210134103" Dex="15" Sta="27" Spi="3"></Property>
+<Property ID="210134104" Dex="16" Sta="28" Spi="4"></Property>
+<Property ID="210134105" Dex="17" Sta="29" Spi="5"></Property>
+<Property ID="210134106" Dex="18" Sta="30" Spi="6"></Property>
+<Property ID="210134107" Dex="19" Sta="31" Spi="7"></Property>
+<Property ID="210134108" Dex="20" Sta="32" Spi="8"></Property>
+<Property ID="210134109" Dex="21" Sta="33" Spi="9"></Property>
+<Property ID="210134110" Dex="22" Sta="34" Spi="10"></Property>
+<Property ID="210134111" Dex="23" Sta="35" Spi="11"></Property>
+<Property ID="210134112" Dex="24" Sta="36" Spi="12"></Property>
+<Property ID="210135101" Dex="25" Sta="37" Spi="13" DecHurtRate="1"></Property>
+<Property ID="210135102" Dex="26" Sta="38" Spi="14" DecHurtRate="2"></Property>
+<Property ID="210135103" Dex="27" Sta="39" Spi="15" DecHurtRate="3"></Property>
+<Property ID="210135104" Dex="28" Sta="40" Spi="16" DecHurtRate="4"></Property>
+<Property ID="210135105" Dex="29" Sta="41" Spi="17" DecHurtRate="5"></Property>
+<Property ID="210135106" Dex="30" Sta="42" Spi="18" DecHurtRate="6"></Property>
+<Property ID="210135107" Dex="31" Sta="43" Spi="19" DecHurtRate="7"></Property>
+<Property ID="210135108" Dex="32" Sta="44" Spi="20" DecHurtRate="8"></Property>
+<Property ID="210135109" Dex="33" Sta="45" Spi="21" DecHurtRate="9"></Property>
+<Property ID="210135110" Dex="34" Sta="46" Spi="22" DecHurtRate="10"></Property>
+<Property ID="210135111" Dex="35" Sta="47" Spi="23" DecHurtRate="11"></Property>
+<Property ID="210135112" Dex="36" Sta="48" Spi="24" DecHurtRate="12"></Property>
+<Property ID="210142101" Sta="1"></Property>
+<Property ID="210142102" Sta="2"></Property>
+<Property ID="210142103" Sta="3"></Property>
+<Property ID="210142104" Sta="4"></Property>
+<Property ID="210142105" Sta="5"></Property>
+<Property ID="210142106" Sta="6"></Property>
+<Property ID="210142107" Sta="7"></Property>
+<Property ID="210142108" Sta="8"></Property>
+<Property ID="210142109" Sta="9"></Property>
+<Property ID="210142110" Sta="10"></Property>
+<Property ID="210142111" Sta="11"></Property>
+<Property ID="210142112" Sta="12"></Property>
+<Property ID="210143101" Sta="13" Ing="1"></Property>
+<Property ID="210143102" Sta="14" Ing="2"></Property>
+<Property ID="210143103" Sta="15" Ing="3"></Property>
+<Property ID="210143104" Sta="16" Ing="4"></Property>
+<Property ID="210143105" Sta="17" Ing="5"></Property>
+<Property ID="210143106" Sta="18" Ing="6"></Property>
+<Property ID="210143107" Sta="19" Ing="7"></Property>
+<Property ID="210143108" Sta="20" Ing="8"></Property>
+<Property ID="210143109" Sta="21" Ing="9"></Property>
+<Property ID="210143110" Sta="22" Ing="10"></Property>
+<Property ID="210143111" Sta="23" Ing="11"></Property>
+<Property ID="210143112" Sta="24" Ing="12"></Property>
+<Property ID="210144101" Sta="25" Ing="13" Spi="1"></Property>
+<Property ID="210144102" Sta="26" Ing="14" Spi="2"></Property>
+<Property ID="210144103" Sta="27" Ing="15" Spi="3"></Property>
+<Property ID="210144104" Sta="28" Ing="16" Spi="4"></Property>
+<Property ID="210144105" Sta="29" Ing="17" Spi="5"></Property>
+<Property ID="210144106" Sta="30" Ing="18" Spi="6"></Property>
+<Property ID="210144107" Sta="31" Ing="19" Spi="7"></Property>
+<Property ID="210144108" Sta="32" Ing="20" Spi="8"></Property>
+<Property ID="210144109" Sta="33" Ing="21" Spi="9"></Property>
+<Property ID="210144110" Sta="34" Ing="22" Spi="10"></Property>
+<Property ID="210144111" Sta="35" Ing="23" Spi="11"></Property>
+<Property ID="210144112" Sta="36" Ing="24" Spi="12"></Property>
+<Property ID="210145101" Sta="37" Ing="25" Spi="13" DecHurtRate="1"></Property>
+<Property ID="210145102" Sta="38" Ing="26" Spi="14" DecHurtRate="2"></Property>
+<Property ID="210145103" Sta="39" Ing="27" Spi="15" DecHurtRate="3"></Property>
+<Property ID="210145104" Sta="40" Ing="28" Spi="16" DecHurtRate="4"></Property>
+<Property ID="210145105" Sta="41" Ing="29" Spi="17" DecHurtRate="5"></Property>
+<Property ID="210145106" Sta="42" Ing="30" Spi="18" DecHurtRate="6"></Property>
+<Property ID="210145107" Sta="43" Ing="31" Spi="19" DecHurtRate="7"></Property>
+<Property ID="210145108" Sta="44" Ing="32" Spi="20" DecHurtRate="8"></Property>
+<Property ID="210145109" Sta="45" Ing="33" Spi="21" DecHurtRate="9"></Property>
+<Property ID="210145110" Sta="46" Ing="34" Spi="22" DecHurtRate="10"></Property>
+<Property ID="210145111" Sta="47" Ing="35" Spi="23" DecHurtRate="11"></Property>
+<Property ID="210145112" Sta="48" Ing="36" Spi="24" DecHurtRate="12"></Property>
+<Property ID="210152101" Sta="1"></Property>
+<Property ID="210152102" Sta="2"></Property>
+<Property ID="210152103" Sta="3"></Property>
+<Property ID="210152104" Sta="4"></Property>
+<Property ID="210152105" Sta="5"></Property>
+<Property ID="210152106" Sta="6"></Property>
+<Property ID="210152107" Sta="7"></Property>
+<Property ID="210152108" Sta="8"></Property>
+<Property ID="210152109" Sta="9"></Property>
+<Property ID="210152110" Sta="10"></Property>
+<Property ID="210152111" Sta="11"></Property>
+<Property ID="210152112" Sta="12"></Property>
+<Property ID="210153101" Sta="13" Ing="1"></Property>
+<Property ID="210153102" Sta="14" Ing="2"></Property>
+<Property ID="210153103" Sta="15" Ing="3"></Property>
+<Property ID="210153104" Sta="16" Ing="4"></Property>
+<Property ID="210153105" Sta="17" Ing="5"></Property>
+<Property ID="210153106" Sta="18" Ing="6"></Property>
+<Property ID="210153107" Sta="19" Ing="7"></Property>
+<Property ID="210153108" Sta="20" Ing="8"></Property>
+<Property ID="210153109" Sta="21" Ing="9"></Property>
+<Property ID="210153110" Sta="22" Ing="10"></Property>
+<Property ID="210153111" Sta="23" Ing="11"></Property>
+<Property ID="210153112" Sta="24" Ing="12"></Property>
+<Property ID="210154101" Sta="25" Ing="13" Spi="1"></Property>
+<Property ID="210154102" Sta="26" Ing="14" Spi="2"></Property>
+<Property ID="210154103" Sta="27" Ing="15" Spi="3"></Property>
+<Property ID="210154104" Sta="28" Ing="16" Spi="4"></Property>
+<Property ID="210154105" Sta="29" Ing="17" Spi="5"></Property>
+<Property ID="210154106" Sta="30" Ing="18" Spi="6"></Property>
+<Property ID="210154107" Sta="31" Ing="19" Spi="7"></Property>
+<Property ID="210154108" Sta="32" Ing="20" Spi="8"></Property>
+<Property ID="210154109" Sta="33" Ing="21" Spi="9"></Property>
+<Property ID="210154110" Sta="34" Ing="22" Spi="10"></Property>
+<Property ID="210154111" Sta="35" Ing="23" Spi="11"></Property>
+<Property ID="210154112" Sta="36" Ing="24" Spi="12"></Property>
+<Property ID="210155101" Sta="37" Ing="25" Spi="13" DecHurtRate="1"></Property>
+<Property ID="210155102" Sta="38" Ing="26" Spi="14" DecHurtRate="2"></Property>
+<Property ID="210155103" Sta="39" Ing="27" Spi="15" DecHurtRate="3"></Property>
+<Property ID="210155104" Sta="40" Ing="28" Spi="16" DecHurtRate="4"></Property>
+<Property ID="210155105" Sta="41" Ing="29" Spi="17" DecHurtRate="5"></Property>
+<Property ID="210155106" Sta="42" Ing="30" Spi="18" DecHurtRate="6"></Property>
+<Property ID="210155107" Sta="43" Ing="31" Spi="19" DecHurtRate="7"></Property>
+<Property ID="210155108" Sta="44" Ing="32" Spi="20" DecHurtRate="8"></Property>
+<Property ID="210155109" Sta="45" Ing="33" Spi="21" DecHurtRate="9"></Property>
+<Property ID="210155110" Sta="46" Ing="34" Spi="22" DecHurtRate="10"></Property>
+<Property ID="210155111" Sta="47" Ing="35" Spi="23" DecHurtRate="11"></Property>
+<Property ID="210155112" Sta="48" Ing="36" Spi="24" DecHurtRate="12"></Property>
+<Property ID="210212101" Sta="1"></Property>
+<Property ID="210212102" Sta="2"></Property>
+<Property ID="210212103" Sta="3"></Property>
+<Property ID="210212104" Sta="4"></Property>
+<Property ID="210212105" Sta="5"></Property>
+<Property ID="210212106" Sta="6"></Property>
+<Property ID="210212107" Sta="7"></Property>
+<Property ID="210212108" Sta="8"></Property>
+<Property ID="210212109" Sta="9"></Property>
+<Property ID="210212110" Sta="10"></Property>
+<Property ID="210212111" Sta="11"></Property>
+<Property ID="210212112" Sta="12"></Property>
+<Property ID="210213101" Sta="13" Spi="1"></Property>
+<Property ID="210213102" Sta="14" Spi="2"></Property>
+<Property ID="210213103" Sta="15" Spi="3"></Property>
+<Property ID="210213104" Sta="16" Spi="4"></Property>
+<Property ID="210213105" Sta="17" Spi="5"></Property>
+<Property ID="210213106" Sta="18" Spi="6"></Property>
+<Property ID="210213107" Sta="19" Spi="7"></Property>
+<Property ID="210213108" Sta="20" Spi="8"></Property>
+<Property ID="210213109" Sta="21" Spi="9"></Property>
+<Property ID="210213110" Sta="22" Spi="10"></Property>
+<Property ID="210213111" Sta="23" Spi="11"></Property>
+<Property ID="210213112" Sta="24" Spi="12"></Property>
+<Property ID="210214101" Str="1" Sta="25" Spi="13"></Property>
+<Property ID="210214102" Str="2" Sta="26" Spi="14"></Property>
+<Property ID="210214103" Str="3" Sta="27" Spi="15"></Property>
+<Property ID="210214104" Str="4" Sta="28" Spi="16"></Property>
+<Property ID="210214105" Str="5" Sta="29" Spi="17"></Property>
+<Property ID="210214106" Str="6" Sta="30" Spi="18"></Property>
+<Property ID="210214107" Str="7" Sta="31" Spi="19"></Property>
+<Property ID="210214108" Str="8" Sta="32" Spi="20"></Property>
+<Property ID="210214109" Str="9" Sta="33" Spi="21"></Property>
+<Property ID="210214110" Str="10" Sta="34" Spi="22"></Property>
+<Property ID="210214111" Str="11" Sta="35" Spi="23"></Property>
+<Property ID="210214112" Str="12" Sta="36" Spi="24"></Property>
+<Property ID="210215101" Str="13" Sta="37" Spi="25" MaxGaintVal="1"></Property>
+<Property ID="210215102" Str="14" Sta="38" Spi="26" MaxGaintVal="2"></Property>
+<Property ID="210215103" Str="15" Sta="39" Spi="27" MaxGaintVal="3"></Property>
+<Property ID="210215104" Str="16" Sta="40" Spi="28" MaxGaintVal="4"></Property>
+<Property ID="210215105" Str="17" Sta="41" Spi="29" MaxGaintVal="5"></Property>
+<Property ID="210215106" Str="18" Sta="42" Spi="30" MaxGaintVal="6"></Property>
+<Property ID="210215107" Str="19" Sta="43" Spi="31" MaxGaintVal="7"></Property>
+<Property ID="210215108" Str="20" Sta="44" Spi="32" MaxGaintVal="8"></Property>
+<Property ID="210215109" Str="21" Sta="45" Spi="33" MaxGaintVal="9"></Property>
+<Property ID="210215110" Str="22" Sta="46" Spi="34" MaxGaintVal="10"></Property>
+<Property ID="210215111" Str="23" Sta="47" Spi="35" MaxGaintVal="11"></Property>
+<Property ID="210215112" Str="24" Sta="48" Spi="36" MaxGaintVal="12"></Property>
+<Property ID="210222101" Sta="1"></Property>
+<Property ID="210222102" Sta="2"></Property>
+<Property ID="210222103" Sta="3"></Property>
+<Property ID="210222104" Sta="4"></Property>
+<Property ID="210222105" Sta="5"></Property>
+<Property ID="210222106" Sta="6"></Property>
+<Property ID="210222107" Sta="7"></Property>
+<Property ID="210222108" Sta="8"></Property>
+<Property ID="210222109" Sta="9"></Property>
+<Property ID="210222110" Sta="10"></Property>
+<Property ID="210222111" Sta="11"></Property>
+<Property ID="210222112" Sta="12"></Property>
+<Property ID="210223101" Sta="13" Spi="1"></Property>
+<Property ID="210223102" Sta="14" Spi="2"></Property>
+<Property ID="210223103" Sta="15" Spi="3"></Property>
+<Property ID="210223104" Sta="16" Spi="4"></Property>
+<Property ID="210223105" Sta="17" Spi="5"></Property>
+<Property ID="210223106" Sta="18" Spi="6"></Property>
+<Property ID="210223107" Sta="19" Spi="7"></Property>
+<Property ID="210223108" Sta="20" Spi="8"></Property>
+<Property ID="210223109" Sta="21" Spi="9"></Property>
+<Property ID="210223110" Sta="22" Spi="10"></Property>
+<Property ID="210223111" Sta="23" Spi="11"></Property>
+<Property ID="210223112" Sta="24" Spi="12"></Property>
+<Property ID="210224101" Dex="1" Sta="25" Spi="13"></Property>
+<Property ID="210224102" Dex="2" Sta="26" Spi="14"></Property>
+<Property ID="210224103" Dex="3" Sta="27" Spi="15"></Property>
+<Property ID="210224104" Dex="4" Sta="28" Spi="16"></Property>
+<Property ID="210224105" Dex="5" Sta="29" Spi="17"></Property>
+<Property ID="210224106" Dex="6" Sta="30" Spi="18"></Property>
+<Property ID="210224107" Dex="7" Sta="31" Spi="19"></Property>
+<Property ID="210224108" Dex="8" Sta="32" Spi="20"></Property>
+<Property ID="210224109" Dex="9" Sta="33" Spi="21"></Property>
+<Property ID="210224110" Dex="10" Sta="34" Spi="22"></Property>
+<Property ID="210224111" Dex="11" Sta="35" Spi="23"></Property>
+<Property ID="210224112" Dex="12" Sta="36" Spi="24"></Property>
+<Property ID="210225101" Dex="13" Sta="37" Spi="25" MaxGaintVal="1"></Property>
+<Property ID="210225102" Dex="14" Sta="38" Spi="26" MaxGaintVal="2"></Property>
+<Property ID="210225103" Dex="15" Sta="39" Spi="27" MaxGaintVal="3"></Property>
+<Property ID="210225104" Dex="16" Sta="40" Spi="28" MaxGaintVal="4"></Property>
+<Property ID="210225105" Dex="17" Sta="41" Spi="29" MaxGaintVal="5"></Property>
+<Property ID="210225106" Dex="18" Sta="42" Spi="30" MaxGaintVal="6"></Property>
+<Property ID="210225107" Dex="19" Sta="43" Spi="31" MaxGaintVal="7"></Property>
+<Property ID="210225108" Dex="20" Sta="44" Spi="32" MaxGaintVal="8"></Property>
+<Property ID="210225109" Dex="21" Sta="45" Spi="33" MaxGaintVal="9"></Property>
+<Property ID="210225110" Dex="22" Sta="46" Spi="34" MaxGaintVal="10"></Property>
+<Property ID="210225111" Dex="23" Sta="47" Spi="35" MaxGaintVal="11"></Property>
+<Property ID="210225112" Dex="24" Sta="48" Spi="36" MaxGaintVal="12"></Property>
+<Property ID="210232101" Sta="1"></Property>
+<Property ID="210232102" Sta="2"></Property>
+<Property ID="210232103" Sta="3"></Property>
+<Property ID="210232104" Sta="4"></Property>
+<Property ID="210232105" Sta="5"></Property>
+<Property ID="210232106" Sta="6"></Property>
+<Property ID="210232107" Sta="7"></Property>
+<Property ID="210232108" Sta="8"></Property>
+<Property ID="210232109" Sta="9"></Property>
+<Property ID="210232110" Sta="10"></Property>
+<Property ID="210232111" Sta="11"></Property>
+<Property ID="210232112" Sta="12"></Property>
+<Property ID="210233101" Sta="13" Spi="1"></Property>
+<Property ID="210233102" Sta="14" Spi="2"></Property>
+<Property ID="210233103" Sta="15" Spi="3"></Property>
+<Property ID="210233104" Sta="16" Spi="4"></Property>
+<Property ID="210233105" Sta="17" Spi="5"></Property>
+<Property ID="210233106" Sta="18" Spi="6"></Property>
+<Property ID="210233107" Sta="19" Spi="7"></Property>
+<Property ID="210233108" Sta="20" Spi="8"></Property>
+<Property ID="210233109" Sta="21" Spi="9"></Property>
+<Property ID="210233110" Sta="22" Spi="10"></Property>
+<Property ID="210233111" Sta="23" Spi="11"></Property>
+<Property ID="210233112" Sta="24" Spi="12"></Property>
+<Property ID="210234101" Dex="1" Sta="25" Spi="13"></Property>
+<Property ID="210234102" Dex="2" Sta="26" Spi="14"></Property>
+<Property ID="210234103" Dex="3" Sta="27" Spi="15"></Property>
+<Property ID="210234104" Dex="4" Sta="28" Spi="16"></Property>
+<Property ID="210234105" Dex="5" Sta="29" Spi="17"></Property>
+<Property ID="210234106" Dex="6" Sta="30" Spi="18"></Property>
+<Property ID="210234107" Dex="7" Sta="31" Spi="19"></Property>
+<Property ID="210234108" Dex="8" Sta="32" Spi="20"></Property>
+<Property ID="210234109" Dex="9" Sta="33" Spi="21"></Property>
+<Property ID="210234110" Dex="10" Sta="34" Spi="22"></Property>
+<Property ID="210234111" Dex="11" Sta="35" Spi="23"></Property>
+<Property ID="210234112" Dex="12" Sta="36" Spi="24"></Property>
+<Property ID="210235101" Dex="13" Sta="37" Spi="25" MaxGaintVal="1"></Property>
+<Property ID="210235102" Dex="14" Sta="38" Spi="26" MaxGaintVal="2"></Property>
+<Property ID="210235103" Dex="15" Sta="39" Spi="27" MaxGaintVal="3"></Property>
+<Property ID="210235104" Dex="16" Sta="40" Spi="28" MaxGaintVal="4"></Property>
+<Property ID="210235105" Dex="17" Sta="41" Spi="29" MaxGaintVal="5"></Property>
+<Property ID="210235106" Dex="18" Sta="42" Spi="30" MaxGaintVal="6"></Property>
+<Property ID="210235107" Dex="19" Sta="43" Spi="31" MaxGaintVal="7"></Property>
+<Property ID="210235108" Dex="20" Sta="44" Spi="32" MaxGaintVal="8"></Property>
+<Property ID="210235109" Dex="21" Sta="45" Spi="33" MaxGaintVal="9"></Property>
+<Property ID="210235110" Dex="22" Sta="46" Spi="34" MaxGaintVal="10"></Property>
+<Property ID="210235111" Dex="23" Sta="47" Spi="35" MaxGaintVal="11"></Property>
+<Property ID="210235112" Dex="24" Sta="48" Spi="36" MaxGaintVal="12"></Property>
+<Property ID="210242101" Sta="1"></Property>
+<Property ID="210242102" Sta="2"></Property>
+<Property ID="210242103" Sta="3"></Property>
+<Property ID="210242104" Sta="4"></Property>
+<Property ID="210242105" Sta="5"></Property>
+<Property ID="210242106" Sta="6"></Property>
+<Property ID="210242107" Sta="7"></Property>
+<Property ID="210242108" Sta="8"></Property>
+<Property ID="210242109" Sta="9"></Property>
+<Property ID="210242110" Sta="10"></Property>
+<Property ID="210242111" Sta="11"></Property>
+<Property ID="210242112" Sta="12"></Property>
+<Property ID="210243101" Sta="13" Spi="1"></Property>
+<Property ID="210243102" Sta="14" Spi="2"></Property>
+<Property ID="210243103" Sta="15" Spi="3"></Property>
+<Property ID="210243104" Sta="16" Spi="4"></Property>
+<Property ID="210243105" Sta="17" Spi="5"></Property>
+<Property ID="210243106" Sta="18" Spi="6"></Property>
+<Property ID="210243107" Sta="19" Spi="7"></Property>
+<Property ID="210243108" Sta="20" Spi="8"></Property>
+<Property ID="210243109" Sta="21" Spi="9"></Property>
+<Property ID="210243110" Sta="22" Spi="10"></Property>
+<Property ID="210243111" Sta="23" Spi="11"></Property>
+<Property ID="210243112" Sta="24" Spi="12"></Property>
+<Property ID="210244101" Sta="25" Ing="1" Spi="13"></Property>
+<Property ID="210244102" Sta="26" Ing="2" Spi="14"></Property>
+<Property ID="210244103" Sta="27" Ing="3" Spi="15"></Property>
+<Property ID="210244104" Sta="28" Ing="4" Spi="16"></Property>
+<Property ID="210244105" Sta="29" Ing="5" Spi="17"></Property>
+<Property ID="210244106" Sta="30" Ing="6" Spi="18"></Property>
+<Property ID="210244107" Sta="31" Ing="7" Spi="19"></Property>
+<Property ID="210244108" Sta="32" Ing="8" Spi="20"></Property>
+<Property ID="210244109" Sta="33" Ing="9" Spi="21"></Property>
+<Property ID="210244110" Sta="34" Ing="10" Spi="22"></Property>
+<Property ID="210244111" Sta="35" Ing="11" Spi="23"></Property>
+<Property ID="210244112" Sta="36" Ing="12" Spi="24"></Property>
+<Property ID="210245101" Sta="37" Ing="13" Spi="25" MaxGaintVal="1"></Property>
+<Property ID="210245102" Sta="38" Ing="14" Spi="26" MaxGaintVal="2"></Property>
+<Property ID="210245103" Sta="39" Ing="15" Spi="27" MaxGaintVal="3"></Property>
+<Property ID="210245104" Sta="40" Ing="16" Spi="28" MaxGaintVal="4"></Property>
+<Property ID="210245105" Sta="41" Ing="17" Spi="29" MaxGaintVal="5"></Property>
+<Property ID="210245106" Sta="42" Ing="18" Spi="30" MaxGaintVal="6"></Property>
+<Property ID="210245107" Sta="43" Ing="19" Spi="31" MaxGaintVal="7"></Property>
+<Property ID="210245108" Sta="44" Ing="20" Spi="32" MaxGaintVal="8"></Property>
+<Property ID="210245109" Sta="45" Ing="21" Spi="33" MaxGaintVal="9"></Property>
+<Property ID="210245110" Sta="46" Ing="22" Spi="34" MaxGaintVal="10"></Property>
+<Property ID="210245111" Sta="47" Ing="23" Spi="35" MaxGaintVal="11"></Property>
+<Property ID="210245112" Sta="48" Ing="24" Spi="36" MaxGaintVal="12"></Property>
+<Property ID="210252101" Sta="1"></Property>
+<Property ID="210252102" Sta="2"></Property>
+<Property ID="210252103" Sta="3"></Property>
+<Property ID="210252104" Sta="4"></Property>
+<Property ID="210252105" Sta="5"></Property>
+<Property ID="210252106" Sta="6"></Property>
+<Property ID="210252107" Sta="7"></Property>
+<Property ID="210252108" Sta="8"></Property>
+<Property ID="210252109" Sta="9"></Property>
+<Property ID="210252110" Sta="10"></Property>
+<Property ID="210252111" Sta="11"></Property>
+<Property ID="210252112" Sta="12"></Property>
+<Property ID="210253101" Sta="13" Spi="1"></Property>
+<Property ID="210253102" Sta="14" Spi="2"></Property>
+<Property ID="210253103" Sta="15" Spi="3"></Property>
+<Property ID="210253104" Sta="16" Spi="4"></Property>
+<Property ID="210253105" Sta="17" Spi="5"></Property>
+<Property ID="210253106" Sta="18" Spi="6"></Property>
+<Property ID="210253107" Sta="19" Spi="7"></Property>
+<Property ID="210253108" Sta="20" Spi="8"></Property>
+<Property ID="210253109" Sta="21" Spi="9"></Property>
+<Property ID="210253110" Sta="22" Spi="10"></Property>
+<Property ID="210253111" Sta="23" Spi="11"></Property>
+<Property ID="210253112" Sta="24" Spi="12"></Property>
+<Property ID="210254101" Sta="25" Ing="1" Spi="13"></Property>
+<Property ID="210254102" Sta="26" Ing="2" Spi="14"></Property>
+<Property ID="210254103" Sta="27" Ing="3" Spi="15"></Property>
+<Property ID="210254104" Sta="28" Ing="4" Spi="16"></Property>
+<Property ID="210254105" Sta="29" Ing="5" Spi="17"></Property>
+<Property ID="210254106" Sta="30" Ing="6" Spi="18"></Property>
+<Property ID="210254107" Sta="31" Ing="7" Spi="19"></Property>
+<Property ID="210254108" Sta="32" Ing="8" Spi="20"></Property>
+<Property ID="210254109" Sta="33" Ing="9" Spi="21"></Property>
+<Property ID="210254110" Sta="34" Ing="10" Spi="22"></Property>
+<Property ID="210254111" Sta="35" Ing="11" Spi="23"></Property>
+<Property ID="210254112" Sta="36" Ing="12" Spi="24"></Property>
+<Property ID="210255101" Sta="37" Ing="13" Spi="25" MaxGaintVal="1"></Property>
+<Property ID="210255102" Sta="38" Ing="14" Spi="26" MaxGaintVal="2"></Property>
+<Property ID="210255103" Sta="39" Ing="15" Spi="27" MaxGaintVal="3"></Property>
+<Property ID="210255104" Sta="40" Ing="16" Spi="28" MaxGaintVal="4"></Property>
+<Property ID="210255105" Sta="41" Ing="17" Spi="29" MaxGaintVal="5"></Property>
+<Property ID="210255106" Sta="42" Ing="18" Spi="30" MaxGaintVal="6"></Property>
+<Property ID="210255107" Sta="43" Ing="19" Spi="31" MaxGaintVal="7"></Property>
+<Property ID="210255108" Sta="44" Ing="20" Spi="32" MaxGaintVal="8"></Property>
+<Property ID="210255109" Sta="45" Ing="21" Spi="33" MaxGaintVal="9"></Property>
+<Property ID="210255110" Sta="46" Ing="22" Spi="34" MaxGaintVal="10"></Property>
+<Property ID="210255111" Sta="47" Ing="23" Spi="35" MaxGaintVal="11"></Property>
+<Property ID="210255112" Sta="48" Ing="24" Spi="36" MaxGaintVal="12"></Property>
+<Property ID="210312101" Str="1"></Property>
+<Property ID="210312102" Str="2"></Property>
+<Property ID="210312103" Str="3"></Property>
+<Property ID="210312104" Str="4"></Property>
+<Property ID="210312105" Str="5"></Property>
+<Property ID="210312106" Str="6"></Property>
+<Property ID="210312107" Str="7"></Property>
+<Property ID="210312108" Str="8"></Property>
+<Property ID="210312109" Str="9"></Property>
+<Property ID="210312110" Str="10"></Property>
+<Property ID="210312111" Str="11"></Property>
+<Property ID="210312112" Str="12"></Property>
+<Property ID="210313101" Str="13" Sta="1"></Property>
+<Property ID="210313102" Str="14" Sta="2"></Property>
+<Property ID="210313103" Str="15" Sta="3"></Property>
+<Property ID="210313104" Str="16" Sta="4"></Property>
+<Property ID="210313105" Str="17" Sta="5"></Property>
+<Property ID="210313106" Str="18" Sta="6"></Property>
+<Property ID="210313107" Str="19" Sta="7"></Property>
+<Property ID="210313108" Str="20" Sta="8"></Property>
+<Property ID="210313109" Str="21" Sta="9"></Property>
+<Property ID="210313110" Str="22" Sta="10"></Property>
+<Property ID="210313111" Str="23" Sta="11"></Property>
+<Property ID="210313112" Str="24" Sta="12"></Property>
+<Property ID="210314101" Str="25" Sta="13" Spi="1"></Property>
+<Property ID="210314102" Str="26" Sta="14" Spi="2"></Property>
+<Property ID="210314103" Str="27" Sta="15" Spi="3"></Property>
+<Property ID="210314104" Str="28" Sta="16" Spi="4"></Property>
+<Property ID="210314105" Str="29" Sta="17" Spi="5"></Property>
+<Property ID="210314106" Str="30" Sta="18" Spi="6"></Property>
+<Property ID="210314107" Str="31" Sta="19" Spi="7"></Property>
+<Property ID="210314108" Str="32" Sta="20" Spi="8"></Property>
+<Property ID="210314109" Str="33" Sta="21" Spi="9"></Property>
+<Property ID="210314110" Str="34" Sta="22" Spi="10"></Property>
+<Property ID="210314111" Str="35" Sta="23" Spi="11"></Property>
+<Property ID="210314112" Str="36" Sta="24" Spi="12"></Property>
+<Property ID="210315101" Str="37" Sta="25" Spi="13" AddHurtRate="1"></Property>
+<Property ID="210315102" Str="38" Sta="26" Spi="14" AddHurtRate="2"></Property>
+<Property ID="210315103" Str="39" Sta="27" Spi="15" AddHurtRate="3"></Property>
+<Property ID="210315104" Str="40" Sta="28" Spi="16" AddHurtRate="4"></Property>
+<Property ID="210315105" Str="41" Sta="29" Spi="17" AddHurtRate="5"></Property>
+<Property ID="210315106" Str="42" Sta="30" Spi="18" AddHurtRate="6"></Property>
+<Property ID="210315107" Str="43" Sta="31" Spi="19" AddHurtRate="7"></Property>
+<Property ID="210315108" Str="44" Sta="32" Spi="20" AddHurtRate="8"></Property>
+<Property ID="210315109" Str="45" Sta="33" Spi="21" AddHurtRate="9"></Property>
+<Property ID="210315110" Str="46" Sta="34" Spi="22" AddHurtRate="10"></Property>
+<Property ID="210315111" Str="47" Sta="35" Spi="23" AddHurtRate="11"></Property>
+<Property ID="210315112" Str="48" Sta="36" Spi="24" AddHurtRate="12"></Property>
+<Property ID="210322101" Dex="1"></Property>
+<Property ID="210322102" Dex="2"></Property>
+<Property ID="210322103" Dex="3"></Property>
+<Property ID="210322104" Dex="4"></Property>
+<Property ID="210322105" Dex="5"></Property>
+<Property ID="210322106" Dex="6"></Property>
+<Property ID="210322107" Dex="7"></Property>
+<Property ID="210322108" Dex="8"></Property>
+<Property ID="210322109" Dex="9"></Property>
+<Property ID="210322110" Dex="10"></Property>
+<Property ID="210322111" Dex="11"></Property>
+<Property ID="210322112" Dex="12"></Property>
+<Property ID="210323101" Dex="13" Sta="1"></Property>
+<Property ID="210323102" Dex="14" Sta="2"></Property>
+<Property ID="210323103" Dex="15" Sta="3"></Property>
+<Property ID="210323104" Dex="16" Sta="4"></Property>
+<Property ID="210323105" Dex="17" Sta="5"></Property>
+<Property ID="210323106" Dex="18" Sta="6"></Property>
+<Property ID="210323107" Dex="19" Sta="7"></Property>
+<Property ID="210323108" Dex="20" Sta="8"></Property>
+<Property ID="210323109" Dex="21" Sta="9"></Property>
+<Property ID="210323110" Dex="22" Sta="10"></Property>
+<Property ID="210323111" Dex="23" Sta="11"></Property>
+<Property ID="210323112" Dex="24" Sta="12"></Property>
+<Property ID="210324101" Dex="25" Sta="13" Spi="1"></Property>
+<Property ID="210324102" Dex="26" Sta="14" Spi="2"></Property>
+<Property ID="210324103" Dex="27" Sta="15" Spi="3"></Property>
+<Property ID="210324104" Dex="28" Sta="16" Spi="4"></Property>
+<Property ID="210324105" Dex="29" Sta="17" Spi="5"></Property>
+<Property ID="210324106" Dex="30" Sta="18" Spi="6"></Property>
+<Property ID="210324107" Dex="31" Sta="19" Spi="7"></Property>
+<Property ID="210324108" Dex="32" Sta="20" Spi="8"></Property>
+<Property ID="210324109" Dex="33" Sta="21" Spi="9"></Property>
+<Property ID="210324110" Dex="34" Sta="22" Spi="10"></Property>
+<Property ID="210324111" Dex="35" Sta="23" Spi="11"></Property>
+<Property ID="210324112" Dex="36" Sta="24" Spi="12"></Property>
+<Property ID="210325101" Dex="37" Sta="25" Spi="13" AddHurtRate="1"></Property>
+<Property ID="210325102" Dex="38" Sta="26" Spi="14" AddHurtRate="2"></Property>
+<Property ID="210325103" Dex="39" Sta="27" Spi="15" AddHurtRate="3"></Property>
+<Property ID="210325104" Dex="40" Sta="28" Spi="16" AddHurtRate="4"></Property>
+<Property ID="210325105" Dex="41" Sta="29" Spi="17" AddHurtRate="5"></Property>
+<Property ID="210325106" Dex="42" Sta="30" Spi="18" AddHurtRate="6"></Property>
+<Property ID="210325107" Dex="43" Sta="31" Spi="19" AddHurtRate="7"></Property>
+<Property ID="210325108" Dex="44" Sta="32" Spi="20" AddHurtRate="8"></Property>
+<Property ID="210325109" Dex="45" Sta="33" Spi="21" AddHurtRate="9"></Property>
+<Property ID="210325110" Dex="46" Sta="34" Spi="22" AddHurtRate="10"></Property>
+<Property ID="210325111" Dex="47" Sta="35" Spi="23" AddHurtRate="11"></Property>
+<Property ID="210325112" Dex="48" Sta="36" Spi="24" AddHurtRate="12"></Property>
+<Property ID="210332101" Dex="1"></Property>
+<Property ID="210332102" Dex="2"></Property>
+<Property ID="210332103" Dex="3"></Property>
+<Property ID="210332104" Dex="4"></Property>
+<Property ID="210332105" Dex="5"></Property>
+<Property ID="210332106" Dex="6"></Property>
+<Property ID="210332107" Dex="7"></Property>
+<Property ID="210332108" Dex="8"></Property>
+<Property ID="210332109" Dex="9"></Property>
+<Property ID="210332110" Dex="10"></Property>
+<Property ID="210332111" Dex="11"></Property>
+<Property ID="210332112" Dex="12"></Property>
+<Property ID="210333101" Dex="13" Sta="1"></Property>
+<Property ID="210333102" Dex="14" Sta="2"></Property>
+<Property ID="210333103" Dex="15" Sta="3"></Property>
+<Property ID="210333104" Dex="16" Sta="4"></Property>
+<Property ID="210333105" Dex="17" Sta="5"></Property>
+<Property ID="210333106" Dex="18" Sta="6"></Property>
+<Property ID="210333107" Dex="19" Sta="7"></Property>
+<Property ID="210333108" Dex="20" Sta="8"></Property>
+<Property ID="210333109" Dex="21" Sta="9"></Property>
+<Property ID="210333110" Dex="22" Sta="10"></Property>
+<Property ID="210333111" Dex="23" Sta="11"></Property>
+<Property ID="210333112" Dex="24" Sta="12"></Property>
+<Property ID="210334101" Dex="25" Sta="13" Spi="1"></Property>
+<Property ID="210334102" Dex="26" Sta="14" Spi="2"></Property>
+<Property ID="210334103" Dex="27" Sta="15" Spi="3"></Property>
+<Property ID="210334104" Dex="28" Sta="16" Spi="4"></Property>
+<Property ID="210334105" Dex="29" Sta="17" Spi="5"></Property>
+<Property ID="210334106" Dex="30" Sta="18" Spi="6"></Property>
+<Property ID="210334107" Dex="31" Sta="19" Spi="7"></Property>
+<Property ID="210334108" Dex="32" Sta="20" Spi="8"></Property>
+<Property ID="210334109" Dex="33" Sta="21" Spi="9"></Property>
+<Property ID="210334110" Dex="34" Sta="22" Spi="10"></Property>
+<Property ID="210334111" Dex="35" Sta="23" Spi="11"></Property>
+<Property ID="210334112" Dex="36" Sta="24" Spi="12"></Property>
+<Property ID="210335101" Dex="37" Sta="25" Spi="13" AddHurtRate="1"></Property>
+<Property ID="210335102" Dex="38" Sta="26" Spi="14" AddHurtRate="2"></Property>
+<Property ID="210335103" Dex="39" Sta="27" Spi="15" AddHurtRate="3"></Property>
+<Property ID="210335104" Dex="40" Sta="28" Spi="16" AddHurtRate="4"></Property>
+<Property ID="210335105" Dex="41" Sta="29" Spi="17" AddHurtRate="5"></Property>
+<Property ID="210335106" Dex="42" Sta="30" Spi="18" AddHurtRate="6"></Property>
+<Property ID="210335107" Dex="43" Sta="31" Spi="19" AddHurtRate="7"></Property>
+<Property ID="210335108" Dex="44" Sta="32" Spi="20" AddHurtRate="8"></Property>
+<Property ID="210335109" Dex="45" Sta="33" Spi="21" AddHurtRate="9"></Property>
+<Property ID="210335110" Dex="46" Sta="34" Spi="22" AddHurtRate="10"></Property>
+<Property ID="210335111" Dex="47" Sta="35" Spi="23" AddHurtRate="11"></Property>
+<Property ID="210335112" Dex="48" Sta="36" Spi="24" AddHurtRate="12"></Property>
+<Property ID="210342101" Ing="1"></Property>
+<Property ID="210342102" Ing="2"></Property>
+<Property ID="210342103" Ing="3"></Property>
+<Property ID="210342104" Ing="4"></Property>
+<Property ID="210342105" Ing="5"></Property>
+<Property ID="210342106" Ing="6"></Property>
+<Property ID="210342107" Ing="7"></Property>
+<Property ID="210342108" Ing="8"></Property>
+<Property ID="210342109" Ing="9"></Property>
+<Property ID="210342110" Ing="10"></Property>
+<Property ID="210342111" Ing="11"></Property>
+<Property ID="210342112" Ing="12"></Property>
+<Property ID="210343101" Sta="1" Ing="13"></Property>
+<Property ID="210343102" Sta="2" Ing="14"></Property>
+<Property ID="210343103" Sta="3" Ing="15"></Property>
+<Property ID="210343104" Sta="4" Ing="16"></Property>
+<Property ID="210343105" Sta="5" Ing="17"></Property>
+<Property ID="210343106" Sta="6" Ing="18"></Property>
+<Property ID="210343107" Sta="7" Ing="19"></Property>
+<Property ID="210343108" Sta="8" Ing="20"></Property>
+<Property ID="210343109" Sta="9" Ing="21"></Property>
+<Property ID="210343110" Sta="10" Ing="22"></Property>
+<Property ID="210343111" Sta="11" Ing="23"></Property>
+<Property ID="210343112" Sta="12" Ing="24"></Property>
+<Property ID="210344101" Sta="13" Ing="25" Spi="1"></Property>
+<Property ID="210344102" Sta="14" Ing="26" Spi="2"></Property>
+<Property ID="210344103" Sta="15" Ing="27" Spi="3"></Property>
+<Property ID="210344104" Sta="16" Ing="28" Spi="4"></Property>
+<Property ID="210344105" Sta="17" Ing="29" Spi="5"></Property>
+<Property ID="210344106" Sta="18" Ing="30" Spi="6"></Property>
+<Property ID="210344107" Sta="19" Ing="31" Spi="7"></Property>
+<Property ID="210344108" Sta="20" Ing="32" Spi="8"></Property>
+<Property ID="210344109" Sta="21" Ing="33" Spi="9"></Property>
+<Property ID="210344110" Sta="22" Ing="34" Spi="10"></Property>
+<Property ID="210344111" Sta="23" Ing="35" Spi="11"></Property>
+<Property ID="210344112" Sta="24" Ing="36" Spi="12"></Property>
+<Property ID="210345101" Sta="25" Ing="37" Spi="13" AddHurtRate="1"></Property>
+<Property ID="210345102" Sta="26" Ing="38" Spi="14" AddHurtRate="2"></Property>
+<Property ID="210345103" Sta="27" Ing="39" Spi="15" AddHurtRate="3"></Property>
+<Property ID="210345104" Sta="28" Ing="40" Spi="16" AddHurtRate="4"></Property>
+<Property ID="210345105" Sta="29" Ing="41" Spi="17" AddHurtRate="5"></Property>
+<Property ID="210345106" Sta="30" Ing="42" Spi="18" AddHurtRate="6"></Property>
+<Property ID="210345107" Sta="31" Ing="43" Spi="19" AddHurtRate="7"></Property>
+<Property ID="210345108" Sta="32" Ing="44" Spi="20" AddHurtRate="8"></Property>
+<Property ID="210345109" Sta="33" Ing="45" Spi="21" AddHurtRate="9"></Property>
+<Property ID="210345110" Sta="34" Ing="46" Spi="22" AddHurtRate="10"></Property>
+<Property ID="210345111" Sta="35" Ing="47" Spi="23" AddHurtRate="11"></Property>
+<Property ID="210345112" Sta="36" Ing="48" Spi="24" AddHurtRate="12"></Property>
+<Property ID="210352101" Ing="1"></Property>
+<Property ID="210352102" Ing="2"></Property>
+<Property ID="210352103" Ing="3"></Property>
+<Property ID="210352104" Ing="4"></Property>
+<Property ID="210352105" Ing="5"></Property>
+<Property ID="210352106" Ing="6"></Property>
+<Property ID="210352107" Ing="7"></Property>
+<Property ID="210352108" Ing="8"></Property>
+<Property ID="210352109" Ing="9"></Property>
+<Property ID="210352110" Ing="10"></Property>
+<Property ID="210352111" Ing="11"></Property>
+<Property ID="210352112" Ing="12"></Property>
+<Property ID="210353101" Sta="1" Ing="13"></Property>
+<Property ID="210353102" Sta="2" Ing="14"></Property>
+<Property ID="210353103" Sta="3" Ing="15"></Property>
+<Property ID="210353104" Sta="4" Ing="16"></Property>
+<Property ID="210353105" Sta="5" Ing="17"></Property>
+<Property ID="210353106" Sta="6" Ing="18"></Property>
+<Property ID="210353107" Sta="7" Ing="19"></Property>
+<Property ID="210353108" Sta="8" Ing="20"></Property>
+<Property ID="210353109" Sta="9" Ing="21"></Property>
+<Property ID="210353110" Sta="10" Ing="22"></Property>
+<Property ID="210353111" Sta="11" Ing="23"></Property>
+<Property ID="210353112" Sta="12" Ing="24"></Property>
+<Property ID="210354101" Sta="13" Ing="25" Spi="1"></Property>
+<Property ID="210354102" Sta="14" Ing="26" Spi="2"></Property>
+<Property ID="210354103" Sta="15" Ing="27" Spi="3"></Property>
+<Property ID="210354104" Sta="16" Ing="28" Spi="4"></Property>
+<Property ID="210354105" Sta="17" Ing="29" Spi="5"></Property>
+<Property ID="210354106" Sta="18" Ing="30" Spi="6"></Property>
+<Property ID="210354107" Sta="19" Ing="31" Spi="7"></Property>
+<Property ID="210354108" Sta="20" Ing="32" Spi="8"></Property>
+<Property ID="210354109" Sta="21" Ing="33" Spi="9"></Property>
+<Property ID="210354110" Sta="22" Ing="34" Spi="10"></Property>
+<Property ID="210354111" Sta="23" Ing="35" Spi="11"></Property>
+<Property ID="210354112" Sta="24" Ing="36" Spi="12"></Property>
+<Property ID="210355101" Sta="25" Ing="37" Spi="13" AddHurtRate="1"></Property>
+<Property ID="210355102" Sta="26" Ing="38" Spi="14" AddHurtRate="2"></Property>
+<Property ID="210355103" Sta="27" Ing="39" Spi="15" AddHurtRate="3"></Property>
+<Property ID="210355104" Sta="28" Ing="40" Spi="16" AddHurtRate="4"></Property>
+<Property ID="210355105" Sta="29" Ing="41" Spi="17" AddHurtRate="5"></Property>
+<Property ID="210355106" Sta="30" Ing="42" Spi="18" AddHurtRate="6"></Property>
+<Property ID="210355107" Sta="31" Ing="43" Spi="19" AddHurtRate="7"></Property>
+<Property ID="210355108" Sta="32" Ing="44" Spi="20" AddHurtRate="8"></Property>
+<Property ID="210355109" Sta="33" Ing="45" Spi="21" AddHurtRate="9"></Property>
+<Property ID="210355110" Sta="34" Ing="46" Spi="22" AddHurtRate="10"></Property>
+<Property ID="210355111" Sta="35" Ing="47" Spi="23" AddHurtRate="11"></Property>
+<Property ID="210355112" Sta="36" Ing="48" Spi="24" AddHurtRate="12"></Property>
+<Property ID="210412101" Spi="1"></Property>
+<Property ID="210412102" Spi="2"></Property>
+<Property ID="210412103" Spi="3"></Property>
+<Property ID="210412104" Spi="4"></Property>
+<Property ID="210412105" Spi="5"></Property>
+<Property ID="210412106" Spi="6"></Property>
+<Property ID="210412107" Spi="7"></Property>
+<Property ID="210412108" Spi="8"></Property>
+<Property ID="210412109" Spi="9"></Property>
+<Property ID="210412110" Spi="10"></Property>
+<Property ID="210412111" Spi="11"></Property>
+<Property ID="210412112" Spi="12"></Property>
+<Property ID="210413101" Sta="1" Spi="13"></Property>
+<Property ID="210413102" Sta="2" Spi="14"></Property>
+<Property ID="210413103" Sta="3" Spi="15"></Property>
+<Property ID="210413104" Sta="4" Spi="16"></Property>
+<Property ID="210413105" Sta="5" Spi="17"></Property>
+<Property ID="210413106" Sta="6" Spi="18"></Property>
+<Property ID="210413107" Sta="7" Spi="19"></Property>
+<Property ID="210413108" Sta="8" Spi="20"></Property>
+<Property ID="210413109" Sta="9" Spi="21"></Property>
+<Property ID="210413110" Sta="10" Spi="22"></Property>
+<Property ID="210413111" Sta="11" Spi="23"></Property>
+<Property ID="210413112" Sta="12" Spi="24"></Property>
+<Property ID="210414101" Str="1" Sta="13" Spi="25"></Property>
+<Property ID="210414102" Str="2" Sta="14" Spi="26"></Property>
+<Property ID="210414103" Str="3" Sta="15" Spi="27"></Property>
+<Property ID="210414104" Str="4" Sta="16" Spi="28"></Property>
+<Property ID="210414105" Str="5" Sta="17" Spi="29"></Property>
+<Property ID="210414106" Str="6" Sta="18" Spi="30"></Property>
+<Property ID="210414107" Str="7" Sta="19" Spi="31"></Property>
+<Property ID="210414108" Str="8" Sta="20" Spi="32"></Property>
+<Property ID="210414109" Str="9" Sta="21" Spi="33"></Property>
+<Property ID="210414110" Str="10" Sta="22" Spi="34"></Property>
+<Property ID="210414111" Str="11" Sta="23" Spi="35"></Property>
+<Property ID="210414112" Str="12" Sta="24" Spi="36"></Property>
+<Property ID="210415101" Str="13" Sta="25" Spi="37" DecHurtRate="1"></Property>
+<Property ID="210415102" Str="14" Sta="26" Spi="38" DecHurtRate="2"></Property>
+<Property ID="210415103" Str="15" Sta="27" Spi="39" DecHurtRate="3"></Property>
+<Property ID="210415104" Str="16" Sta="28" Spi="40" DecHurtRate="4"></Property>
+<Property ID="210415105" Str="17" Sta="29" Spi="41" DecHurtRate="5"></Property>
+<Property ID="210415106" Str="18" Sta="30" Spi="42" DecHurtRate="6"></Property>
+<Property ID="210415107" Str="19" Sta="31" Spi="43" DecHurtRate="7"></Property>
+<Property ID="210415108" Str="20" Sta="32" Spi="44" DecHurtRate="8"></Property>
+<Property ID="210415109" Str="21" Sta="33" Spi="45" DecHurtRate="9"></Property>
+<Property ID="210415110" Str="22" Sta="34" Spi="46" DecHurtRate="10"></Property>
+<Property ID="210415111" Str="23" Sta="35" Spi="47" DecHurtRate="11"></Property>
+<Property ID="210415112" Str="24" Sta="36" Spi="48" DecHurtRate="12"></Property>
+<Property ID="210422101" Spi="1"></Property>
+<Property ID="210422102" Spi="2"></Property>
+<Property ID="210422103" Spi="3"></Property>
+<Property ID="210422104" Spi="4"></Property>
+<Property ID="210422105" Spi="5"></Property>
+<Property ID="210422106" Spi="6"></Property>
+<Property ID="210422107" Spi="7"></Property>
+<Property ID="210422108" Spi="8"></Property>
+<Property ID="210422109" Spi="9"></Property>
+<Property ID="210422110" Spi="10"></Property>
+<Property ID="210422111" Spi="11"></Property>
+<Property ID="210422112" Spi="12"></Property>
+<Property ID="210423101" Sta="1" Spi="13"></Property>
+<Property ID="210423102" Sta="2" Spi="14"></Property>
+<Property ID="210423103" Sta="3" Spi="15"></Property>
+<Property ID="210423104" Sta="4" Spi="16"></Property>
+<Property ID="210423105" Sta="5" Spi="17"></Property>
+<Property ID="210423106" Sta="6" Spi="18"></Property>
+<Property ID="210423107" Sta="7" Spi="19"></Property>
+<Property ID="210423108" Sta="8" Spi="20"></Property>
+<Property ID="210423109" Sta="9" Spi="21"></Property>
+<Property ID="210423110" Sta="10" Spi="22"></Property>
+<Property ID="210423111" Sta="11" Spi="23"></Property>
+<Property ID="210423112" Sta="12" Spi="24"></Property>
+<Property ID="210424101" Dex="1" Sta="13" Spi="25"></Property>
+<Property ID="210424102" Dex="2" Sta="14" Spi="26"></Property>
+<Property ID="210424103" Dex="3" Sta="15" Spi="27"></Property>
+<Property ID="210424104" Dex="4" Sta="16" Spi="28"></Property>
+<Property ID="210424105" Dex="5" Sta="17" Spi="29"></Property>
+<Property ID="210424106" Dex="6" Sta="18" Spi="30"></Property>
+<Property ID="210424107" Dex="7" Sta="19" Spi="31"></Property>
+<Property ID="210424108" Dex="8" Sta="20" Spi="32"></Property>
+<Property ID="210424109" Dex="9" Sta="21" Spi="33"></Property>
+<Property ID="210424110" Dex="10" Sta="22" Spi="34"></Property>
+<Property ID="210424111" Dex="11" Sta="23" Spi="35"></Property>
+<Property ID="210424112" Dex="12" Sta="24" Spi="36"></Property>
+<Property ID="210425101" Dex="13" Sta="25" Spi="37" DecHurtRate="1"></Property>
+<Property ID="210425102" Dex="14" Sta="26" Spi="38" DecHurtRate="2"></Property>
+<Property ID="210425103" Dex="15" Sta="27" Spi="39" DecHurtRate="3"></Property>
+<Property ID="210425104" Dex="16" Sta="28" Spi="40" DecHurtRate="4"></Property>
+<Property ID="210425105" Dex="17" Sta="29" Spi="41" DecHurtRate="5"></Property>
+<Property ID="210425106" Dex="18" Sta="30" Spi="42" DecHurtRate="6"></Property>
+<Property ID="210425107" Dex="19" Sta="31" Spi="43" DecHurtRate="7"></Property>
+<Property ID="210425108" Dex="20" Sta="32" Spi="44" DecHurtRate="8"></Property>
+<Property ID="210425109" Dex="21" Sta="33" Spi="45" DecHurtRate="9"></Property>
+<Property ID="210425110" Dex="22" Sta="34" Spi="46" DecHurtRate="10"></Property>
+<Property ID="210425111" Dex="23" Sta="35" Spi="47" DecHurtRate="11"></Property>
+<Property ID="210425112" Dex="24" Sta="36" Spi="48" DecHurtRate="12"></Property>
+<Property ID="210432101" Spi="1"></Property>
+<Property ID="210432102" Spi="2"></Property>
+<Property ID="210432103" Spi="3"></Property>
+<Property ID="210432104" Spi="4"></Property>
+<Property ID="210432105" Spi="5"></Property>
+<Property ID="210432106" Spi="6"></Property>
+<Property ID="210432107" Spi="7"></Property>
+<Property ID="210432108" Spi="8"></Property>
+<Property ID="210432109" Spi="9"></Property>
+<Property ID="210432110" Spi="10"></Property>
+<Property ID="210432111" Spi="11"></Property>
+<Property ID="210432112" Spi="12"></Property>
+<Property ID="210433101" Sta="1" Spi="13"></Property>
+<Property ID="210433102" Sta="2" Spi="14"></Property>
+<Property ID="210433103" Sta="3" Spi="15"></Property>
+<Property ID="210433104" Sta="4" Spi="16"></Property>
+<Property ID="210433105" Sta="5" Spi="17"></Property>
+<Property ID="210433106" Sta="6" Spi="18"></Property>
+<Property ID="210433107" Sta="7" Spi="19"></Property>
+<Property ID="210433108" Sta="8" Spi="20"></Property>
+<Property ID="210433109" Sta="9" Spi="21"></Property>
+<Property ID="210433110" Sta="10" Spi="22"></Property>
+<Property ID="210433111" Sta="11" Spi="23"></Property>
+<Property ID="210433112" Sta="12" Spi="24"></Property>
+<Property ID="210434101" Dex="1" Sta="13" Spi="25"></Property>
+<Property ID="210434102" Dex="2" Sta="14" Spi="26"></Property>
+<Property ID="210434103" Dex="3" Sta="15" Spi="27"></Property>
+<Property ID="210434104" Dex="4" Sta="16" Spi="28"></Property>
+<Property ID="210434105" Dex="5" Sta="17" Spi="29"></Property>
+<Property ID="210434106" Dex="6" Sta="18" Spi="30"></Property>
+<Property ID="210434107" Dex="7" Sta="19" Spi="31"></Property>
+<Property ID="210434108" Dex="8" Sta="20" Spi="32"></Property>
+<Property ID="210434109" Dex="9" Sta="21" Spi="33"></Property>
+<Property ID="210434110" Dex="10" Sta="22" Spi="34"></Property>
+<Property ID="210434111" Dex="11" Sta="23" Spi="35"></Property>
+<Property ID="210434112" Dex="12" Sta="24" Spi="36"></Property>
+<Property ID="210435101" Dex="13" Sta="25" Spi="37" DecHurtRate="1"></Property>
+<Property ID="210435102" Dex="14" Sta="26" Spi="38" DecHurtRate="2"></Property>
+<Property ID="210435103" Dex="15" Sta="27" Spi="39" DecHurtRate="3"></Property>
+<Property ID="210435104" Dex="16" Sta="28" Spi="40" DecHurtRate="4"></Property>
+<Property ID="210435105" Dex="17" Sta="29" Spi="41" DecHurtRate="5"></Property>
+<Property ID="210435106" Dex="18" Sta="30" Spi="42" DecHurtRate="6"></Property>
+<Property ID="210435107" Dex="19" Sta="31" Spi="43" DecHurtRate="7"></Property>
+<Property ID="210435108" Dex="20" Sta="32" Spi="44" DecHurtRate="8"></Property>
+<Property ID="210435109" Dex="21" Sta="33" Spi="45" DecHurtRate="9"></Property>
+<Property ID="210435110" Dex="22" Sta="34" Spi="46" DecHurtRate="10"></Property>
+<Property ID="210435111" Dex="23" Sta="35" Spi="47" DecHurtRate="11"></Property>
+<Property ID="210435112" Dex="24" Sta="36" Spi="48" DecHurtRate="12"></Property>
+<Property ID="210442101" Spi="1"></Property>
+<Property ID="210442102" Spi="2"></Property>
+<Property ID="210442103" Spi="3"></Property>
+<Property ID="210442104" Spi="4"></Property>
+<Property ID="210442105" Spi="5"></Property>
+<Property ID="210442106" Spi="6"></Property>
+<Property ID="210442107" Spi="7"></Property>
+<Property ID="210442108" Spi="8"></Property>
+<Property ID="210442109" Spi="9"></Property>
+<Property ID="210442110" Spi="10"></Property>
+<Property ID="210442111" Spi="11"></Property>
+<Property ID="210442112" Spi="12"></Property>
+<Property ID="210443101" Sta="1" Spi="13"></Property>
+<Property ID="210443102" Sta="2" Spi="14"></Property>
+<Property ID="210443103" Sta="3" Spi="15"></Property>
+<Property ID="210443104" Sta="4" Spi="16"></Property>
+<Property ID="210443105" Sta="5" Spi="17"></Property>
+<Property ID="210443106" Sta="6" Spi="18"></Property>
+<Property ID="210443107" Sta="7" Spi="19"></Property>
+<Property ID="210443108" Sta="8" Spi="20"></Property>
+<Property ID="210443109" Sta="9" Spi="21"></Property>
+<Property ID="210443110" Sta="10" Spi="22"></Property>
+<Property ID="210443111" Sta="11" Spi="23"></Property>
+<Property ID="210443112" Sta="12" Spi="24"></Property>
+<Property ID="210444101" Sta="13" Ing="1" Spi="25"></Property>
+<Property ID="210444102" Sta="14" Ing="2" Spi="26"></Property>
+<Property ID="210444103" Sta="15" Ing="3" Spi="27"></Property>
+<Property ID="210444104" Sta="16" Ing="4" Spi="28"></Property>
+<Property ID="210444105" Sta="17" Ing="5" Spi="29"></Property>
+<Property ID="210444106" Sta="18" Ing="6" Spi="30"></Property>
+<Property ID="210444107" Sta="19" Ing="7" Spi="31"></Property>
+<Property ID="210444108" Sta="20" Ing="8" Spi="32"></Property>
+<Property ID="210444109" Sta="21" Ing="9" Spi="33"></Property>
+<Property ID="210444110" Sta="22" Ing="10" Spi="34"></Property>
+<Property ID="210444111" Sta="23" Ing="11" Spi="35"></Property>
+<Property ID="210444112" Sta="24" Ing="12" Spi="36"></Property>
+<Property ID="210445101" Sta="25" Ing="13" Spi="37" DecHurtRate="1"></Property>
+<Property ID="210445102" Sta="26" Ing="14" Spi="38" DecHurtRate="2"></Property>
+<Property ID="210445103" Sta="27" Ing="15" Spi="39" DecHurtRate="3"></Property>
+<Property ID="210445104" Sta="28" Ing="16" Spi="40" DecHurtRate="4"></Property>
+<Property ID="210445105" Sta="29" Ing="17" Spi="41" DecHurtRate="5"></Property>
+<Property ID="210445106" Sta="30" Ing="18" Spi="42" DecHurtRate="6"></Property>
+<Property ID="210445107" Sta="31" Ing="19" Spi="43" DecHurtRate="7"></Property>
+<Property ID="210445108" Sta="32" Ing="20" Spi="44" DecHurtRate="8"></Property>
+<Property ID="210445109" Sta="33" Ing="21" Spi="45" DecHurtRate="9"></Property>
+<Property ID="210445110" Sta="34" Ing="22" Spi="46" DecHurtRate="10"></Property>
+<Property ID="210445111" Sta="35" Ing="23" Spi="47" DecHurtRate="11"></Property>
+<Property ID="210445112" Sta="36" Ing="24" Spi="48" DecHurtRate="12"></Property>
+<Property ID="210452101" Spi="1"></Property>
+<Property ID="210452102" Spi="2"></Property>
+<Property ID="210452103" Spi="3"></Property>
+<Property ID="210452104" Spi="4"></Property>
+<Property ID="210452105" Spi="5"></Property>
+<Property ID="210452106" Spi="6"></Property>
+<Property ID="210452107" Spi="7"></Property>
+<Property ID="210452108" Spi="8"></Property>
+<Property ID="210452109" Spi="9"></Property>
+<Property ID="210452110" Spi="10"></Property>
+<Property ID="210452111" Spi="11"></Property>
+<Property ID="210452112" Spi="12"></Property>
+<Property ID="210453101" Sta="1" Spi="13"></Property>
+<Property ID="210453102" Sta="2" Spi="14"></Property>
+<Property ID="210453103" Sta="3" Spi="15"></Property>
+<Property ID="210453104" Sta="4" Spi="16"></Property>
+<Property ID="210453105" Sta="5" Spi="17"></Property>
+<Property ID="210453106" Sta="6" Spi="18"></Property>
+<Property ID="210453107" Sta="7" Spi="19"></Property>
+<Property ID="210453108" Sta="8" Spi="20"></Property>
+<Property ID="210453109" Sta="9" Spi="21"></Property>
+<Property ID="210453110" Sta="10" Spi="22"></Property>
+<Property ID="210453111" Sta="11" Spi="23"></Property>
+<Property ID="210453112" Sta="12" Spi="24"></Property>
+<Property ID="210454101" Sta="13" Ing="1" Spi="25"></Property>
+<Property ID="210454102" Sta="14" Ing="2" Spi="26"></Property>
+<Property ID="210454103" Sta="15" Ing="3" Spi="27"></Property>
+<Property ID="210454104" Sta="16" Ing="4" Spi="28"></Property>
+<Property ID="210454105" Sta="17" Ing="5" Spi="29"></Property>
+<Property ID="210454106" Sta="18" Ing="6" Spi="30"></Property>
+<Property ID="210454107" Sta="19" Ing="7" Spi="31"></Property>
+<Property ID="210454108" Sta="20" Ing="8" Spi="32"></Property>
+<Property ID="210454109" Sta="21" Ing="9" Spi="33"></Property>
+<Property ID="210454110" Sta="22" Ing="10" Spi="34"></Property>
+<Property ID="210454111" Sta="23" Ing="11" Spi="35"></Property>
+<Property ID="210454112" Sta="24" Ing="12" Spi="36"></Property>
+<Property ID="210455101" Sta="25" Ing="13" Spi="37" DecHurtRate="1"></Property>
+<Property ID="210455102" Sta="26" Ing="14" Spi="38" DecHurtRate="2"></Property>
+<Property ID="210455103" Sta="27" Ing="15" Spi="39" DecHurtRate="3"></Property>
+<Property ID="210455104" Sta="28" Ing="16" Spi="40" DecHurtRate="4"></Property>
+<Property ID="210455105" Sta="29" Ing="17" Spi="41" DecHurtRate="5"></Property>
+<Property ID="210455106" Sta="30" Ing="18" Spi="42" DecHurtRate="6"></Property>
+<Property ID="210455107" Sta="31" Ing="19" Spi="43" DecHurtRate="7"></Property>
+<Property ID="210455108" Sta="32" Ing="20" Spi="44" DecHurtRate="8"></Property>
+<Property ID="210455109" Sta="33" Ing="21" Spi="45" DecHurtRate="9"></Property>
+<Property ID="210455110" Sta="34" Ing="22" Spi="46" DecHurtRate="10"></Property>
+<Property ID="210455111" Sta="35" Ing="23" Spi="47" DecHurtRate="11"></Property>
+<Property ID="210455112" Sta="36" Ing="24" Spi="48" DecHurtRate="12"></Property>
+<Property ID="210512101" Spi="1"></Property>
+<Property ID="210512102" Spi="2"></Property>
+<Property ID="210512103" Spi="3"></Property>
+<Property ID="210512104" Spi="4"></Property>
+<Property ID="210512105" Spi="5"></Property>
+<Property ID="210512106" Spi="6"></Property>
+<Property ID="210512107" Spi="7"></Property>
+<Property ID="210512108" Spi="8"></Property>
+<Property ID="210512109" Spi="9"></Property>
+<Property ID="210512110" Spi="10"></Property>
+<Property ID="210512111" Spi="11"></Property>
+<Property ID="210512112" Spi="12"></Property>
+<Property ID="210513101" Sta="1" Spi="13"></Property>
+<Property ID="210513102" Sta="2" Spi="14"></Property>
+<Property ID="210513103" Sta="3" Spi="15"></Property>
+<Property ID="210513104" Sta="4" Spi="16"></Property>
+<Property ID="210513105" Sta="5" Spi="17"></Property>
+<Property ID="210513106" Sta="6" Spi="18"></Property>
+<Property ID="210513107" Sta="7" Spi="19"></Property>
+<Property ID="210513108" Sta="8" Spi="20"></Property>
+<Property ID="210513109" Sta="9" Spi="21"></Property>
+<Property ID="210513110" Sta="10" Spi="22"></Property>
+<Property ID="210513111" Sta="11" Spi="23"></Property>
+<Property ID="210513112" Sta="12" Spi="24"></Property>
+<Property ID="210514101" Sta="13" Spi="25" TougAdd="1"></Property>
+<Property ID="210514102" Sta="14" Spi="26" TougAdd="2"></Property>
+<Property ID="210514103" Sta="15" Spi="27" TougAdd="3"></Property>
+<Property ID="210514104" Sta="16" Spi="28" TougAdd="4"></Property>
+<Property ID="210514105" Sta="17" Spi="29" TougAdd="5"></Property>
+<Property ID="210514106" Sta="18" Spi="30" TougAdd="6"></Property>
+<Property ID="210514107" Sta="19" Spi="31" TougAdd="7"></Property>
+<Property ID="210514108" Sta="20" Spi="32" TougAdd="8"></Property>
+<Property ID="210514109" Sta="21" Spi="33" TougAdd="9"></Property>
+<Property ID="210514110" Sta="22" Spi="34" TougAdd="10"></Property>
+<Property ID="210514111" Sta="23" Spi="35" TougAdd="11"></Property>
+<Property ID="210514112" Sta="24" Spi="36" TougAdd="12"></Property>
+<Property ID="210515101" Sta="25" Spi="37" TougAdd="13" MaxGaintVal="1"></Property>
+<Property ID="210515102" Sta="26" Spi="38" TougAdd="14" MaxGaintVal="2"></Property>
+<Property ID="210515103" Sta="27" Spi="39" TougAdd="15" MaxGaintVal="3"></Property>
+<Property ID="210515104" Sta="28" Spi="40" TougAdd="16" MaxGaintVal="4"></Property>
+<Property ID="210515105" Sta="29" Spi="41" TougAdd="17" MaxGaintVal="5"></Property>
+<Property ID="210515106" Sta="30" Spi="42" TougAdd="18" MaxGaintVal="6"></Property>
+<Property ID="210515107" Sta="31" Spi="43" TougAdd="19" MaxGaintVal="7"></Property>
+<Property ID="210515108" Sta="32" Spi="44" TougAdd="20" MaxGaintVal="8"></Property>
+<Property ID="210515109" Sta="33" Spi="45" TougAdd="21" MaxGaintVal="9"></Property>
+<Property ID="210515110" Sta="34" Spi="46" TougAdd="22" MaxGaintVal="10"></Property>
+<Property ID="210515111" Sta="35" Spi="47" TougAdd="23" MaxGaintVal="11"></Property>
+<Property ID="210515112" Sta="36" Spi="48" TougAdd="24" MaxGaintVal="12"></Property>
+<Property ID="210522101" Spi="1"></Property>
+<Property ID="210522102" Spi="2"></Property>
+<Property ID="210522103" Spi="3"></Property>
+<Property ID="210522104" Spi="4"></Property>
+<Property ID="210522105" Spi="5"></Property>
+<Property ID="210522106" Spi="6"></Property>
+<Property ID="210522107" Spi="7"></Property>
+<Property ID="210522108" Spi="8"></Property>
+<Property ID="210522109" Spi="9"></Property>
+<Property ID="210522110" Spi="10"></Property>
+<Property ID="210522111" Spi="11"></Property>
+<Property ID="210522112" Spi="12"></Property>
+<Property ID="210523101" Sta="1" Spi="13"></Property>
+<Property ID="210523102" Sta="2" Spi="14"></Property>
+<Property ID="210523103" Sta="3" Spi="15"></Property>
+<Property ID="210523104" Sta="4" Spi="16"></Property>
+<Property ID="210523105" Sta="5" Spi="17"></Property>
+<Property ID="210523106" Sta="6" Spi="18"></Property>
+<Property ID="210523107" Sta="7" Spi="19"></Property>
+<Property ID="210523108" Sta="8" Spi="20"></Property>
+<Property ID="210523109" Sta="9" Spi="21"></Property>
+<Property ID="210523110" Sta="10" Spi="22"></Property>
+<Property ID="210523111" Sta="11" Spi="23"></Property>
+<Property ID="210523112" Sta="12" Spi="24"></Property>
+<Property ID="210524101" Sta="13" Spi="25" TougAdd="1"></Property>
+<Property ID="210524102" Sta="14" Spi="26" TougAdd="2"></Property>
+<Property ID="210524103" Sta="15" Spi="27" TougAdd="3"></Property>
+<Property ID="210524104" Sta="16" Spi="28" TougAdd="4"></Property>
+<Property ID="210524105" Sta="17" Spi="29" TougAdd="5"></Property>
+<Property ID="210524106" Sta="18" Spi="30" TougAdd="6"></Property>
+<Property ID="210524107" Sta="19" Spi="31" TougAdd="7"></Property>
+<Property ID="210524108" Sta="20" Spi="32" TougAdd="8"></Property>
+<Property ID="210524109" Sta="21" Spi="33" TougAdd="9"></Property>
+<Property ID="210524110" Sta="22" Spi="34" TougAdd="10"></Property>
+<Property ID="210524111" Sta="23" Spi="35" TougAdd="11"></Property>
+<Property ID="210524112" Sta="24" Spi="36" TougAdd="12"></Property>
+<Property ID="210525101" Sta="25" Spi="37" TougAdd="13" MaxGaintVal="1"></Property>
+<Property ID="210525102" Sta="26" Spi="38" TougAdd="14" MaxGaintVal="2"></Property>
+<Property ID="210525103" Sta="27" Spi="39" TougAdd="15" MaxGaintVal="3"></Property>
+<Property ID="210525104" Sta="28" Spi="40" TougAdd="16" MaxGaintVal="4"></Property>
+<Property ID="210525105" Sta="29" Spi="41" TougAdd="17" MaxGaintVal="5"></Property>
+<Property ID="210525106" Sta="30" Spi="42" TougAdd="18" MaxGaintVal="6"></Property>
+<Property ID="210525107" Sta="31" Spi="43" TougAdd="19" MaxGaintVal="7"></Property>
+<Property ID="210525108" Sta="32" Spi="44" TougAdd="20" MaxGaintVal="8"></Property>
+<Property ID="210525109" Sta="33" Spi="45" TougAdd="21" MaxGaintVal="9"></Property>
+<Property ID="210525110" Sta="34" Spi="46" TougAdd="22" MaxGaintVal="10"></Property>
+<Property ID="210525111" Sta="35" Spi="47" TougAdd="23" MaxGaintVal="11"></Property>
+<Property ID="210525112" Sta="36" Spi="48" TougAdd="24" MaxGaintVal="12"></Property>
+<Property ID="210532101" Spi="1"></Property>
+<Property ID="210532102" Spi="2"></Property>
+<Property ID="210532103" Spi="3"></Property>
+<Property ID="210532104" Spi="4"></Property>
+<Property ID="210532105" Spi="5"></Property>
+<Property ID="210532106" Spi="6"></Property>
+<Property ID="210532107" Spi="7"></Property>
+<Property ID="210532108" Spi="8"></Property>
+<Property ID="210532109" Spi="9"></Property>
+<Property ID="210532110" Spi="10"></Property>
+<Property ID="210532111" Spi="11"></Property>
+<Property ID="210532112" Spi="12"></Property>
+<Property ID="210533101" Sta="1" Spi="13"></Property>
+<Property ID="210533102" Sta="2" Spi="14"></Property>
+<Property ID="210533103" Sta="3" Spi="15"></Property>
+<Property ID="210533104" Sta="4" Spi="16"></Property>
+<Property ID="210533105" Sta="5" Spi="17"></Property>
+<Property ID="210533106" Sta="6" Spi="18"></Property>
+<Property ID="210533107" Sta="7" Spi="19"></Property>
+<Property ID="210533108" Sta="8" Spi="20"></Property>
+<Property ID="210533109" Sta="9" Spi="21"></Property>
+<Property ID="210533110" Sta="10" Spi="22"></Property>
+<Property ID="210533111" Sta="11" Spi="23"></Property>
+<Property ID="210533112" Sta="12" Spi="24"></Property>
+<Property ID="210534101" Sta="13" Spi="25" TougAdd="1"></Property>
+<Property ID="210534102" Sta="14" Spi="26" TougAdd="2"></Property>
+<Property ID="210534103" Sta="15" Spi="27" TougAdd="3"></Property>
+<Property ID="210534104" Sta="16" Spi="28" TougAdd="4"></Property>
+<Property ID="210534105" Sta="17" Spi="29" TougAdd="5"></Property>
+<Property ID="210534106" Sta="18" Spi="30" TougAdd="6"></Property>
+<Property ID="210534107" Sta="19" Spi="31" TougAdd="7"></Property>
+<Property ID="210534108" Sta="20" Spi="32" TougAdd="8"></Property>
+<Property ID="210534109" Sta="21" Spi="33" TougAdd="9"></Property>
+<Property ID="210534110" Sta="22" Spi="34" TougAdd="10"></Property>
+<Property ID="210534111" Sta="23" Spi="35" TougAdd="11"></Property>
+<Property ID="210534112" Sta="24" Spi="36" TougAdd="12"></Property>
+<Property ID="210535101" Sta="25" Spi="37" TougAdd="13" MaxGaintVal="1"></Property>
+<Property ID="210535102" Sta="26" Spi="38" TougAdd="14" MaxGaintVal="2"></Property>
+<Property ID="210535103" Sta="27" Spi="39" TougAdd="15" MaxGaintVal="3"></Property>
+<Property ID="210535104" Sta="28" Spi="40" TougAdd="16" MaxGaintVal="4"></Property>
+<Property ID="210535105" Sta="29" Spi="41" TougAdd="17" MaxGaintVal="5"></Property>
+<Property ID="210535106" Sta="30" Spi="42" TougAdd="18" MaxGaintVal="6"></Property>
+<Property ID="210535107" Sta="31" Spi="43" TougAdd="19" MaxGaintVal="7"></Property>
+<Property ID="210535108" Sta="32" Spi="44" TougAdd="20" MaxGaintVal="8"></Property>
+<Property ID="210535109" Sta="33" Spi="45" TougAdd="21" MaxGaintVal="9"></Property>
+<Property ID="210535110" Sta="34" Spi="46" TougAdd="22" MaxGaintVal="10"></Property>
+<Property ID="210535111" Sta="35" Spi="47" TougAdd="23" MaxGaintVal="11"></Property>
+<Property ID="210535112" Sta="36" Spi="48" TougAdd="24" MaxGaintVal="12"></Property>
+<Property ID="210542101" Spi="1"></Property>
+<Property ID="210542102" Spi="2"></Property>
+<Property ID="210542103" Spi="3"></Property>
+<Property ID="210542104" Spi="4"></Property>
+<Property ID="210542105" Spi="5"></Property>
+<Property ID="210542106" Spi="6"></Property>
+<Property ID="210542107" Spi="7"></Property>
+<Property ID="210542108" Spi="8"></Property>
+<Property ID="210542109" Spi="9"></Property>
+<Property ID="210542110" Spi="10"></Property>
+<Property ID="210542111" Spi="11"></Property>
+<Property ID="210542112" Spi="12"></Property>
+<Property ID="210543101" Sta="1" Spi="13"></Property>
+<Property ID="210543102" Sta="2" Spi="14"></Property>
+<Property ID="210543103" Sta="3" Spi="15"></Property>
+<Property ID="210543104" Sta="4" Spi="16"></Property>
+<Property ID="210543105" Sta="5" Spi="17"></Property>
+<Property ID="210543106" Sta="6" Spi="18"></Property>
+<Property ID="210543107" Sta="7" Spi="19"></Property>
+<Property ID="210543108" Sta="8" Spi="20"></Property>
+<Property ID="210543109" Sta="9" Spi="21"></Property>
+<Property ID="210543110" Sta="10" Spi="22"></Property>
+<Property ID="210543111" Sta="11" Spi="23"></Property>
+<Property ID="210543112" Sta="12" Spi="24"></Property>
+<Property ID="210544101" Sta="13" Spi="25" TougAdd="1"></Property>
+<Property ID="210544102" Sta="14" Spi="26" TougAdd="2"></Property>
+<Property ID="210544103" Sta="15" Spi="27" TougAdd="3"></Property>
+<Property ID="210544104" Sta="16" Spi="28" TougAdd="4"></Property>
+<Property ID="210544105" Sta="17" Spi="29" TougAdd="5"></Property>
+<Property ID="210544106" Sta="18" Spi="30" TougAdd="6"></Property>
+<Property ID="210544107" Sta="19" Spi="31" TougAdd="7"></Property>
+<Property ID="210544108" Sta="20" Spi="32" TougAdd="8"></Property>
+<Property ID="210544109" Sta="21" Spi="33" TougAdd="9"></Property>
+<Property ID="210544110" Sta="22" Spi="34" TougAdd="10"></Property>
+<Property ID="210544111" Sta="23" Spi="35" TougAdd="11"></Property>
+<Property ID="210544112" Sta="24" Spi="36" TougAdd="12"></Property>
+<Property ID="210545101" Sta="25" Spi="37" TougAdd="13" MaxGaintVal="1"></Property>
+<Property ID="210545102" Sta="26" Spi="38" TougAdd="14" MaxGaintVal="2"></Property>
+<Property ID="210545103" Sta="27" Spi="39" TougAdd="15" MaxGaintVal="3"></Property>
+<Property ID="210545104" Sta="28" Spi="40" TougAdd="16" MaxGaintVal="4"></Property>
+<Property ID="210545105" Sta="29" Spi="41" TougAdd="17" MaxGaintVal="5"></Property>
+<Property ID="210545106" Sta="30" Spi="42" TougAdd="18" MaxGaintVal="6"></Property>
+<Property ID="210545107" Sta="31" Spi="43" TougAdd="19" MaxGaintVal="7"></Property>
+<Property ID="210545108" Sta="32" Spi="44" TougAdd="20" MaxGaintVal="8"></Property>
+<Property ID="210545109" Sta="33" Spi="45" TougAdd="21" MaxGaintVal="9"></Property>
+<Property ID="210545110" Sta="34" Spi="46" TougAdd="22" MaxGaintVal="10"></Property>
+<Property ID="210545111" Sta="35" Spi="47" TougAdd="23" MaxGaintVal="11"></Property>
+<Property ID="210545112" Sta="36" Spi="48" TougAdd="24" MaxGaintVal="12"></Property>
+<Property ID="210552101" Spi="1"></Property>
+<Property ID="210552102" Spi="2"></Property>
+<Property ID="210552103" Spi="3"></Property>
+<Property ID="210552104" Spi="4"></Property>
+<Property ID="210552105" Spi="5"></Property>
+<Property ID="210552106" Spi="6"></Property>
+<Property ID="210552107" Spi="7"></Property>
+<Property ID="210552108" Spi="8"></Property>
+<Property ID="210552109" Spi="9"></Property>
+<Property ID="210552110" Spi="10"></Property>
+<Property ID="210552111" Spi="11"></Property>
+<Property ID="210552112" Spi="12"></Property>
+<Property ID="210553101" Sta="1" Spi="13"></Property>
+<Property ID="210553102" Sta="2" Spi="14"></Property>
+<Property ID="210553103" Sta="3" Spi="15"></Property>
+<Property ID="210553104" Sta="4" Spi="16"></Property>
+<Property ID="210553105" Sta="5" Spi="17"></Property>
+<Property ID="210553106" Sta="6" Spi="18"></Property>
+<Property ID="210553107" Sta="7" Spi="19"></Property>
+<Property ID="210553108" Sta="8" Spi="20"></Property>
+<Property ID="210553109" Sta="9" Spi="21"></Property>
+<Property ID="210553110" Sta="10" Spi="22"></Property>
+<Property ID="210553111" Sta="11" Spi="23"></Property>
+<Property ID="210553112" Sta="12" Spi="24"></Property>
+<Property ID="210554101" Sta="13" Spi="25" TougAdd="1"></Property>
+<Property ID="210554102" Sta="14" Spi="26" TougAdd="2"></Property>
+<Property ID="210554103" Sta="15" Spi="27" TougAdd="3"></Property>
+<Property ID="210554104" Sta="16" Spi="28" TougAdd="4"></Property>
+<Property ID="210554105" Sta="17" Spi="29" TougAdd="5"></Property>
+<Property ID="210554106" Sta="18" Spi="30" TougAdd="6"></Property>
+<Property ID="210554107" Sta="19" Spi="31" TougAdd="7"></Property>
+<Property ID="210554108" Sta="20" Spi="32" TougAdd="8"></Property>
+<Property ID="210554109" Sta="21" Spi="33" TougAdd="9"></Property>
+<Property ID="210554110" Sta="22" Spi="34" TougAdd="10"></Property>
+<Property ID="210554111" Sta="23" Spi="35" TougAdd="11"></Property>
+<Property ID="210554112" Sta="24" Spi="36" TougAdd="12"></Property>
+<Property ID="210555101" Sta="25" Spi="37" TougAdd="13" MaxGaintVal="1"></Property>
+<Property ID="210555102" Sta="26" Spi="38" TougAdd="14" MaxGaintVal="2"></Property>
+<Property ID="210555103" Sta="27" Spi="39" TougAdd="15" MaxGaintVal="3"></Property>
+<Property ID="210555104" Sta="28" Spi="40" TougAdd="16" MaxGaintVal="4"></Property>
+<Property ID="210555105" Sta="29" Spi="41" TougAdd="17" MaxGaintVal="5"></Property>
+<Property ID="210555106" Sta="30" Spi="42" TougAdd="18" MaxGaintVal="6"></Property>
+<Property ID="210555107" Sta="31" Spi="43" TougAdd="19" MaxGaintVal="7"></Property>
+<Property ID="210555108" Sta="32" Spi="44" TougAdd="20" MaxGaintVal="8"></Property>
+<Property ID="210555109" Sta="33" Spi="45" TougAdd="21" MaxGaintVal="9"></Property>
+<Property ID="210555110" Sta="34" Spi="46" TougAdd="22" MaxGaintVal="10"></Property>
+<Property ID="210555111" Sta="35" Spi="47" TougAdd="23" MaxGaintVal="11"></Property>
+<Property ID="210555112" Sta="36" Spi="48" TougAdd="24" MaxGaintVal="12"></Property>
+<Property ID="210612101" Str="1"></Property>
+<Property ID="210612102" Str="2"></Property>
+<Property ID="210612103" Str="3"></Property>
+<Property ID="210612104" Str="4"></Property>
+<Property ID="210612105" Str="5"></Property>
+<Property ID="210612106" Str="6"></Property>
+<Property ID="210612107" Str="7"></Property>
+<Property ID="210612108" Str="8"></Property>
+<Property ID="210612109" Str="9"></Property>
+<Property ID="210612110" Str="10"></Property>
+<Property ID="210612111" Str="11"></Property>
+<Property ID="210612112" Str="12"></Property>
+<Property ID="210613101" Str="13" HitAdd="1"></Property>
+<Property ID="210613102" Str="14" HitAdd="2"></Property>
+<Property ID="210613103" Str="15" HitAdd="3"></Property>
+<Property ID="210613104" Str="16" HitAdd="4"></Property>
+<Property ID="210613105" Str="17" HitAdd="5"></Property>
+<Property ID="210613106" Str="18" HitAdd="6"></Property>
+<Property ID="210613107" Str="19" HitAdd="7"></Property>
+<Property ID="210613108" Str="20" HitAdd="8"></Property>
+<Property ID="210613109" Str="21" HitAdd="9"></Property>
+<Property ID="210613110" Str="22" HitAdd="10"></Property>
+<Property ID="210613111" Str="23" HitAdd="11"></Property>
+<Property ID="210613112" Str="24" HitAdd="12"></Property>
+<Property ID="210614101" Str="25" HitAdd="13" CritAdd="1"></Property>
+<Property ID="210614102" Str="26" HitAdd="14" CritAdd="2"></Property>
+<Property ID="210614103" Str="27" HitAdd="15" CritAdd="3"></Property>
+<Property ID="210614104" Str="28" HitAdd="16" CritAdd="4"></Property>
+<Property ID="210614105" Str="29" HitAdd="17" CritAdd="5"></Property>
+<Property ID="210614106" Str="30" HitAdd="18" CritAdd="6"></Property>
+<Property ID="210614107" Str="31" HitAdd="19" CritAdd="7"></Property>
+<Property ID="210614108" Str="32" HitAdd="20" CritAdd="8"></Property>
+<Property ID="210614109" Str="33" HitAdd="21" CritAdd="9"></Property>
+<Property ID="210614110" Str="34" HitAdd="22" CritAdd="10"></Property>
+<Property ID="210614111" Str="35" HitAdd="23" CritAdd="11"></Property>
+<Property ID="210614112" Str="36" HitAdd="24" CritAdd="12"></Property>
+<Property ID="210615101" Str="37" HitAdd="25" CritAdd="13" AddHurtRate="1"></Property>
+<Property ID="210615102" Str="38" HitAdd="26" CritAdd="14" AddHurtRate="2"></Property>
+<Property ID="210615103" Str="39" HitAdd="27" CritAdd="15" AddHurtRate="3"></Property>
+<Property ID="210615104" Str="40" HitAdd="28" CritAdd="16" AddHurtRate="4"></Property>
+<Property ID="210615105" Str="41" HitAdd="29" CritAdd="17" AddHurtRate="5"></Property>
+<Property ID="210615106" Str="42" HitAdd="30" CritAdd="18" AddHurtRate="6"></Property>
+<Property ID="210615107" Str="43" HitAdd="31" CritAdd="19" AddHurtRate="7"></Property>
+<Property ID="210615108" Str="44" HitAdd="32" CritAdd="20" AddHurtRate="8"></Property>
+<Property ID="210615109" Str="45" HitAdd="33" CritAdd="21" AddHurtRate="9"></Property>
+<Property ID="210615110" Str="46" HitAdd="34" CritAdd="22" AddHurtRate="10"></Property>
+<Property ID="210615111" Str="47" HitAdd="35" CritAdd="23" AddHurtRate="11"></Property>
+<Property ID="210615112" Str="48" HitAdd="36" CritAdd="24" AddHurtRate="12"></Property>
+<Property ID="210622101" Dex="1"></Property>
+<Property ID="210622102" Dex="2"></Property>
+<Property ID="210622103" Dex="3"></Property>
+<Property ID="210622104" Dex="4"></Property>
+<Property ID="210622105" Dex="5"></Property>
+<Property ID="210622106" Dex="6"></Property>
+<Property ID="210622107" Dex="7"></Property>
+<Property ID="210622108" Dex="8"></Property>
+<Property ID="210622109" Dex="9"></Property>
+<Property ID="210622110" Dex="10"></Property>
+<Property ID="210622111" Dex="11"></Property>
+<Property ID="210622112" Dex="12"></Property>
+<Property ID="210623101" Dex="13" HitAdd="1"></Property>
+<Property ID="210623102" Dex="14" HitAdd="2"></Property>
+<Property ID="210623103" Dex="15" HitAdd="3"></Property>
+<Property ID="210623104" Dex="16" HitAdd="4"></Property>
+<Property ID="210623105" Dex="17" HitAdd="5"></Property>
+<Property ID="210623106" Dex="18" HitAdd="6"></Property>
+<Property ID="210623107" Dex="19" HitAdd="7"></Property>
+<Property ID="210623108" Dex="20" HitAdd="8"></Property>
+<Property ID="210623109" Dex="21" HitAdd="9"></Property>
+<Property ID="210623110" Dex="22" HitAdd="10"></Property>
+<Property ID="210623111" Dex="23" HitAdd="11"></Property>
+<Property ID="210623112" Dex="24" HitAdd="12"></Property>
+<Property ID="210624101" Dex="25" HitAdd="13" CritAdd="1"></Property>
+<Property ID="210624102" Dex="26" HitAdd="14" CritAdd="2"></Property>
+<Property ID="210624103" Dex="27" HitAdd="15" CritAdd="3"></Property>
+<Property ID="210624104" Dex="28" HitAdd="16" CritAdd="4"></Property>
+<Property ID="210624105" Dex="29" HitAdd="17" CritAdd="5"></Property>
+<Property ID="210624106" Dex="30" HitAdd="18" CritAdd="6"></Property>
+<Property ID="210624107" Dex="31" HitAdd="19" CritAdd="7"></Property>
+<Property ID="210624108" Dex="32" HitAdd="20" CritAdd="8"></Property>
+<Property ID="210624109" Dex="33" HitAdd="21" CritAdd="9"></Property>
+<Property ID="210624110" Dex="34" HitAdd="22" CritAdd="10"></Property>
+<Property ID="210624111" Dex="35" HitAdd="23" CritAdd="11"></Property>
+<Property ID="210624112" Dex="36" HitAdd="24" CritAdd="12"></Property>
+<Property ID="210625101" Dex="37" HitAdd="25" CritAdd="13" AddHurtRate="1"></Property>
+<Property ID="210625102" Dex="38" HitAdd="26" CritAdd="14" AddHurtRate="2"></Property>
+<Property ID="210625103" Dex="39" HitAdd="27" CritAdd="15" AddHurtRate="3"></Property>
+<Property ID="210625104" Dex="40" HitAdd="28" CritAdd="16" AddHurtRate="4"></Property>
+<Property ID="210625105" Dex="41" HitAdd="29" CritAdd="17" AddHurtRate="5"></Property>
+<Property ID="210625106" Dex="42" HitAdd="30" CritAdd="18" AddHurtRate="6"></Property>
+<Property ID="210625107" Dex="43" HitAdd="31" CritAdd="19" AddHurtRate="7"></Property>
+<Property ID="210625108" Dex="44" HitAdd="32" CritAdd="20" AddHurtRate="8"></Property>
+<Property ID="210625109" Dex="45" HitAdd="33" CritAdd="21" AddHurtRate="9"></Property>
+<Property ID="210625110" Dex="46" HitAdd="34" CritAdd="22" AddHurtRate="10"></Property>
+<Property ID="210625111" Dex="47" HitAdd="35" CritAdd="23" AddHurtRate="11"></Property>
+<Property ID="210625112" Dex="48" HitAdd="36" CritAdd="24" AddHurtRate="12"></Property>
+<Property ID="210632101" Dex="1"></Property>
+<Property ID="210632102" Dex="2"></Property>
+<Property ID="210632103" Dex="3"></Property>
+<Property ID="210632104" Dex="4"></Property>
+<Property ID="210632105" Dex="5"></Property>
+<Property ID="210632106" Dex="6"></Property>
+<Property ID="210632107" Dex="7"></Property>
+<Property ID="210632108" Dex="8"></Property>
+<Property ID="210632109" Dex="9"></Property>
+<Property ID="210632110" Dex="10"></Property>
+<Property ID="210632111" Dex="11"></Property>
+<Property ID="210632112" Dex="12"></Property>
+<Property ID="210633101" Dex="13" HitAdd="1"></Property>
+<Property ID="210633102" Dex="14" HitAdd="2"></Property>
+<Property ID="210633103" Dex="15" HitAdd="3"></Property>
+<Property ID="210633104" Dex="16" HitAdd="4"></Property>
+<Property ID="210633105" Dex="17" HitAdd="5"></Property>
+<Property ID="210633106" Dex="18" HitAdd="6"></Property>
+<Property ID="210633107" Dex="19" HitAdd="7"></Property>
+<Property ID="210633108" Dex="20" HitAdd="8"></Property>
+<Property ID="210633109" Dex="21" HitAdd="9"></Property>
+<Property ID="210633110" Dex="22" HitAdd="10"></Property>
+<Property ID="210633111" Dex="23" HitAdd="11"></Property>
+<Property ID="210633112" Dex="24" HitAdd="12"></Property>
+<Property ID="210634101" Dex="25" HitAdd="13" CritAdd="1"></Property>
+<Property ID="210634102" Dex="26" HitAdd="14" CritAdd="2"></Property>
+<Property ID="210634103" Dex="27" HitAdd="15" CritAdd="3"></Property>
+<Property ID="210634104" Dex="28" HitAdd="16" CritAdd="4"></Property>
+<Property ID="210634105" Dex="29" HitAdd="17" CritAdd="5"></Property>
+<Property ID="210634106" Dex="30" HitAdd="18" CritAdd="6"></Property>
+<Property ID="210634107" Dex="31" HitAdd="19" CritAdd="7"></Property>
+<Property ID="210634108" Dex="32" HitAdd="20" CritAdd="8"></Property>
+<Property ID="210634109" Dex="33" HitAdd="21" CritAdd="9"></Property>
+<Property ID="210634110" Dex="34" HitAdd="22" CritAdd="10"></Property>
+<Property ID="210634111" Dex="35" HitAdd="23" CritAdd="11"></Property>
+<Property ID="210634112" Dex="36" HitAdd="24" CritAdd="12"></Property>
+<Property ID="210635101" Dex="37" HitAdd="25" CritAdd="13" AddHurtRate="1"></Property>
+<Property ID="210635102" Dex="38" HitAdd="26" CritAdd="14" AddHurtRate="2"></Property>
+<Property ID="210635103" Dex="39" HitAdd="27" CritAdd="15" AddHurtRate="3"></Property>
+<Property ID="210635104" Dex="40" HitAdd="28" CritAdd="16" AddHurtRate="4"></Property>
+<Property ID="210635105" Dex="41" HitAdd="29" CritAdd="17" AddHurtRate="5"></Property>
+<Property ID="210635106" Dex="42" HitAdd="30" CritAdd="18" AddHurtRate="6"></Property>
+<Property ID="210635107" Dex="43" HitAdd="31" CritAdd="19" AddHurtRate="7"></Property>
+<Property ID="210635108" Dex="44" HitAdd="32" CritAdd="20" AddHurtRate="8"></Property>
+<Property ID="210635109" Dex="45" HitAdd="33" CritAdd="21" AddHurtRate="9"></Property>
+<Property ID="210635110" Dex="46" HitAdd="34" CritAdd="22" AddHurtRate="10"></Property>
+<Property ID="210635111" Dex="47" HitAdd="35" CritAdd="23" AddHurtRate="11"></Property>
+<Property ID="210635112" Dex="48" HitAdd="36" CritAdd="24" AddHurtRate="12"></Property>
+<Property ID="210642101" Ing="1"></Property>
+<Property ID="210642102" Ing="2"></Property>
+<Property ID="210642103" Ing="3"></Property>
+<Property ID="210642104" Ing="4"></Property>
+<Property ID="210642105" Ing="5"></Property>
+<Property ID="210642106" Ing="6"></Property>
+<Property ID="210642107" Ing="7"></Property>
+<Property ID="210642108" Ing="8"></Property>
+<Property ID="210642109" Ing="9"></Property>
+<Property ID="210642110" Ing="10"></Property>
+<Property ID="210642111" Ing="11"></Property>
+<Property ID="210642112" Ing="12"></Property>
+<Property ID="210643101" Ing="13" HitAdd="1"></Property>
+<Property ID="210643102" Ing="14" HitAdd="2"></Property>
+<Property ID="210643103" Ing="15" HitAdd="3"></Property>
+<Property ID="210643104" Ing="16" HitAdd="4"></Property>
+<Property ID="210643105" Ing="17" HitAdd="5"></Property>
+<Property ID="210643106" Ing="18" HitAdd="6"></Property>
+<Property ID="210643107" Ing="19" HitAdd="7"></Property>
+<Property ID="210643108" Ing="20" HitAdd="8"></Property>
+<Property ID="210643109" Ing="21" HitAdd="9"></Property>
+<Property ID="210643110" Ing="22" HitAdd="10"></Property>
+<Property ID="210643111" Ing="23" HitAdd="11"></Property>
+<Property ID="210643112" Ing="24" HitAdd="12"></Property>
+<Property ID="210644101" Ing="25" HitAdd="13" CritAdd="1"></Property>
+<Property ID="210644102" Ing="26" HitAdd="14" CritAdd="2"></Property>
+<Property ID="210644103" Ing="27" HitAdd="15" CritAdd="3"></Property>
+<Property ID="210644104" Ing="28" HitAdd="16" CritAdd="4"></Property>
+<Property ID="210644105" Ing="29" HitAdd="17" CritAdd="5"></Property>
+<Property ID="210644106" Ing="30" HitAdd="18" CritAdd="6"></Property>
+<Property ID="210644107" Ing="31" HitAdd="19" CritAdd="7"></Property>
+<Property ID="210644108" Ing="32" HitAdd="20" CritAdd="8"></Property>
+<Property ID="210644109" Ing="33" HitAdd="21" CritAdd="9"></Property>
+<Property ID="210644110" Ing="34" HitAdd="22" CritAdd="10"></Property>
+<Property ID="210644111" Ing="35" HitAdd="23" CritAdd="11"></Property>
+<Property ID="210644112" Ing="36" HitAdd="24" CritAdd="12"></Property>
+<Property ID="210645101" Ing="37" HitAdd="25" CritAdd="13" AddHurtRate="1"></Property>
+<Property ID="210645102" Ing="38" HitAdd="26" CritAdd="14" AddHurtRate="2"></Property>
+<Property ID="210645103" Ing="39" HitAdd="27" CritAdd="15" AddHurtRate="3"></Property>
+<Property ID="210645104" Ing="40" HitAdd="28" CritAdd="16" AddHurtRate="4"></Property>
+<Property ID="210645105" Ing="41" HitAdd="29" CritAdd="17" AddHurtRate="5"></Property>
+<Property ID="210645106" Ing="42" HitAdd="30" CritAdd="18" AddHurtRate="6"></Property>
+<Property ID="210645107" Ing="43" HitAdd="31" CritAdd="19" AddHurtRate="7"></Property>
+<Property ID="210645108" Ing="44" HitAdd="32" CritAdd="20" AddHurtRate="8"></Property>
+<Property ID="210645109" Ing="45" HitAdd="33" CritAdd="21" AddHurtRate="9"></Property>
+<Property ID="210645110" Ing="46" HitAdd="34" CritAdd="22" AddHurtRate="10"></Property>
+<Property ID="210645111" Ing="47" HitAdd="35" CritAdd="23" AddHurtRate="11"></Property>
+<Property ID="210645112" Ing="48" HitAdd="36" CritAdd="24" AddHurtRate="12"></Property>
+<Property ID="210652101" Ing="1"></Property>
+<Property ID="210652102" Ing="2"></Property>
+<Property ID="210652103" Ing="3"></Property>
+<Property ID="210652104" Ing="4"></Property>
+<Property ID="210652105" Ing="5"></Property>
+<Property ID="210652106" Ing="6"></Property>
+<Property ID="210652107" Ing="7"></Property>
+<Property ID="210652108" Ing="8"></Property>
+<Property ID="210652109" Ing="9"></Property>
+<Property ID="210652110" Ing="10"></Property>
+<Property ID="210652111" Ing="11"></Property>
+<Property ID="210652112" Ing="12"></Property>
+<Property ID="210653101" Ing="13" HitAdd="1"></Property>
+<Property ID="210653102" Ing="14" HitAdd="2"></Property>
+<Property ID="210653103" Ing="15" HitAdd="3"></Property>
+<Property ID="210653104" Ing="16" HitAdd="4"></Property>
+<Property ID="210653105" Ing="17" HitAdd="5"></Property>
+<Property ID="210653106" Ing="18" HitAdd="6"></Property>
+<Property ID="210653107" Ing="19" HitAdd="7"></Property>
+<Property ID="210653108" Ing="20" HitAdd="8"></Property>
+<Property ID="210653109" Ing="21" HitAdd="9"></Property>
+<Property ID="210653110" Ing="22" HitAdd="10"></Property>
+<Property ID="210653111" Ing="23" HitAdd="11"></Property>
+<Property ID="210653112" Ing="24" HitAdd="12"></Property>
+<Property ID="210654101" Ing="25" HitAdd="13" CritAdd="1"></Property>
+<Property ID="210654102" Ing="26" HitAdd="14" CritAdd="2"></Property>
+<Property ID="210654103" Ing="27" HitAdd="15" CritAdd="3"></Property>
+<Property ID="210654104" Ing="28" HitAdd="16" CritAdd="4"></Property>
+<Property ID="210654105" Ing="29" HitAdd="17" CritAdd="5"></Property>
+<Property ID="210654106" Ing="30" HitAdd="18" CritAdd="6"></Property>
+<Property ID="210654107" Ing="31" HitAdd="19" CritAdd="7"></Property>
+<Property ID="210654108" Ing="32" HitAdd="20" CritAdd="8"></Property>
+<Property ID="210654109" Ing="33" HitAdd="21" CritAdd="9"></Property>
+<Property ID="210654110" Ing="34" HitAdd="22" CritAdd="10"></Property>
+<Property ID="210654111" Ing="35" HitAdd="23" CritAdd="11"></Property>
+<Property ID="210654112" Ing="36" HitAdd="24" CritAdd="12"></Property>
+<Property ID="210655101" Ing="37" HitAdd="25" CritAdd="13" AddHurtRate="1"></Property>
+<Property ID="210655102" Ing="38" HitAdd="26" CritAdd="14" AddHurtRate="2"></Property>
+<Property ID="210655103" Ing="39" HitAdd="27" CritAdd="15" AddHurtRate="3"></Property>
+<Property ID="210655104" Ing="40" HitAdd="28" CritAdd="16" AddHurtRate="4"></Property>
+<Property ID="210655105" Ing="41" HitAdd="29" CritAdd="17" AddHurtRate="5"></Property>
+<Property ID="210655106" Ing="42" HitAdd="30" CritAdd="18" AddHurtRate="6"></Property>
+<Property ID="210655107" Ing="43" HitAdd="31" CritAdd="19" AddHurtRate="7"></Property>
+<Property ID="210655108" Ing="44" HitAdd="32" CritAdd="20" AddHurtRate="8"></Property>
+<Property ID="210655109" Ing="45" HitAdd="33" CritAdd="21" AddHurtRate="9"></Property>
+<Property ID="210655110" Ing="46" HitAdd="34" CritAdd="22" AddHurtRate="10"></Property>
+<Property ID="210655111" Ing="47" HitAdd="35" CritAdd="23" AddHurtRate="11"></Property>
+<Property ID="210655112" Ing="48" HitAdd="36" CritAdd="24" AddHurtRate="12"></Property>
+</Object>

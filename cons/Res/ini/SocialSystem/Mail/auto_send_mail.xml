@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<!--type 0 任务,1等级-->
+<Object>
+	<Property ID="1" Type="0" ConditionValue="101069" MailName="Task_mail_001"/>
+	<Property ID="2" Type="1" ConditionValue="30" MailName="Level_mail_30"/>
+	<Property ID="3" Type="0" ConditionValue="401083" MailName="Task_mail_002"/>
+	<Property ID="4" Type="0" ConditionValue="501083" MailName="Task_mail_003"/>
+</Object>

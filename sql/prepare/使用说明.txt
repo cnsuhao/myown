@@ -1,0 +1,27 @@
+
+================
+2015-07-29
+================
+
+1.  数据导入
+--------
+选中数据库 点击右键 输入 -> sql 文件
+
+分别导入 nx_roles.sql，nx_sns.sql， nx_domains.sql
+
+
+2. 修改数据库  
+-----------
+
+当数据导入 nx_roles 表之后， 要修改角色的服务器ID
+
+  1） 查看有多少新导入的角色： select * from nx_roles where server_id= '创建机器人的服务器ID';
+  2） 修改角色：  update nx_roles set server_id='你的服务器ID' where server_id='创建机器人的服务器ID';
+
+当数据导入 nx_domains 表之后, 要修改 name 字段。
+
+  例如假如机器人是在服务器ID=7440003 服务器创建的， 现在把数据恢复到7440001 的服务器上，
+  那么要吧 Domain_RankingList_7440003 改为  Domain_RankingList_7440001
+
+
+ 

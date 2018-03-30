@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Object>
-<Property ID="1" Pri="1"></Property>
-<Property ID="2" Pri="2"></Property>
-<Property ID="3" Pri="3"></Property>
+<Property ID="11110" Package="111110"></Property>
+<Property ID="11201" Package="111201"></Property>
+<Property ID="11301" Package="111301"></Property>
+<Property ID="21101" Package="121101"></Property>
+<Property ID="21201" Package="121201"></Property>
+<Property ID="21301" Package="121301"></Property>
 </Object>

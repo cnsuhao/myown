@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="gb2312"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Object>
-	<Property ID="BornScene403" Location="434.79,42.25,184.35,4.54" Scene="ini\scene\scene_403"/>
-	<Property ID="BornScene1001" Location="-184.5,50,161,0" Scene="ini\scene\scene_1001"/>	
+<Property ID="BornScene1001" Location="-184.5,50,161,0" Scene="ini\scene\scene1001"></Property>
+<Property ID="BornScene1006" Location="180,50,-193" Scene="ini\scene\scene1006"></Property>
 </Object>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!--场景基础属性-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<property name="WorldBossVisitFlag" type="int" public="true" private="false" save="false" desc="世界boss活动状态标识"/>
+		<property name="WorldBossCreateTime" type="int64" public="false" private="false" save="false" desc="世界boss创建时间"/>
+		<!-- 表属性 -->
+	</properties>
+	<records>
+		<record name="world_boss_damage_rec" cols="3" maxrows="1024" save="false" public="false" private="false" desc="世界boss伤害排名表">
+			<column type="dword" name="rank" desc="排名"/>
+			<column type="widestr" name="player_name" desc="玩家名字"/>
+			<column type="dword" name="damage" desc="总伤害"/>
+		</record>
+		<record name="world_boss_elite_npc_rec" cols="2" maxrows="1024" save="false" public="false" private="false" desc="世界boss精英怪表">
+			<column type="object" name="npc" desc="精英怪对象号"/>
+			<column type="int" name="index" desc="精英怪序号"/>
+		</record>
+	</records>
+</object>

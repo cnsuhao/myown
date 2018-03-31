@@ -10,5 +10,8 @@
 		<property name="DecCrimeScore" type="dword" public="false" private="true" save="true" desc="减少罪恶值的积分"/>
 	</properties>
 	<records>
+			<record name="pvp_attacker_list" cols="1" maxrows="512" save="false" public="false" private="false" desc="攻击者列表">
+			<column type="object" name="object" desc="玩家对象"/>
+		</record>
 	</records>
 </object>

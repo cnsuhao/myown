@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="gb2312"?>
+<object>
+	<!-- 内部属性 -->
+	<internals>
+	</internals>
+	<!-- 基本属性 -->
+	<properties>
+		<property name="RestBossNpc" type="string" public="false" private="false" save="false" desc="休息状态npc"/>
+	</properties>
+	<!-- 表格属性 -->
+	<records>
+		<!-- 获得奖励记录表 -->
+		<record name="boss_pick_player_rec" cols="1" maxrows="200" save="false" visible="false" desc="获得奖励记录表">
+			<column type="object" name="player"/>
+		</record>
+	</records>
+</object>

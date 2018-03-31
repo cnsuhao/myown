@@ -8,7 +8,8 @@
 	</class>
 	<class id="scene" type="TYPE_SCENE" desc="场景的基类，服务器默认类型">
 		<class id="SecretScene" desc="秘境场景" path=""/>
-		<class id="WorldBossScene" desc="世界boss场景" path=""/>
+		<class id="WorldBossScene" desc="世界boss场景" path="struct\scene\world_boss_scene.xml"/>
+		<class id="AsuraBattleScene" desc="修罗战场" path="struct\scene\asura_battle_scene.xml"/>
 	</class>
 	<class id="npc" type="TYPE_NPC" desc="所有NPC的基类" path="struct\npc\npc.xml">
 		<class id="NormalNpc" desc="普通NPC" path="struct\npc\NormalNpc.xml">
@@ -17,7 +18,9 @@
 			<class id="TrapNpc" desc="陷阱NPC" path="struct\npc\TrapNpc.xml"/>
 			<class id="ManySkillNpc" desc="有多个技能的NPC" path="struct\npc\ManySkillNpc.xml">
 				<class id="EliteNpc" desc="精英NPC"/>
-				<class id="BossNpc" desc="BOSSNPC" path=""/>
+				<class id="BossNpc" desc="BOSSNPC" path="struct\npc\BossNpc.xml"/>
+				<class id="WorldBossNpc" desc="世界boss" path="struct\npc\WorldBossNpc.xml"/>
+				<class id="AsuraBossNpc" desc="修罗战场boss" path="struct\npc\AsuraBossNpc.xml"/>
 			</class>
 		</class>
 		<class id="FunctionNpc" desc="功能NPC">

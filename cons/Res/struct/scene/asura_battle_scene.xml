@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!--场景基础属性-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<!-- 表属性 -->
+		<property name="WinCamp" type="byte" public="false" private="false" save="false" desc="获胜的阵营"/>
+		<property name="AsuraBattleId" type="byte" public="true" private="false" save="false" desc="活动标志(2:中午 3:晚上)"/>
+		<property name="RedMVP" type="widestr" public="true" private="false" save="false" desc="红方mvp"/>
+		<property name="BlueMVP" type="widestr" public="true" private="false" save="false" desc="蓝方mvp"/>
+		<property name="AsuraBoss" type="object" public="false" private="false" save="false" desc="修罗战场boss"/>
+	</properties>
+	<records>
+		<record name="camp_fight_rec" cols="4" maxrows="1024" save="false" public="false" private="false" desc="阵营战斗数据">
+			<column type="dword" name="camp" desc="阵营"/>
+			<column type="dword" name="num" desc="采集总数"/>
+			<column type="dword" name="score" desc="阵营积分"/>
+			<column type="dword" name="state" desc="采集阶段"/>
+		</record>
+		<record name="blue_score_rec" cols="5" maxrows="1024" save="false" public="false" private="false" desc="江湖玩家积分表">
+			<column type="widestr" name="player" desc="玩家名"/>
+			<column type="int" name="score" desc="积分"/>
+			<column type="int" name="kill" desc="杀人数"/>
+			<column type="int" name="dead" desc="死亡数"/>
+			<column type="int" name="assist" desc="助攻数"/>
+		</record>
+		<record name="red_score_rec" cols="5" maxrows="1024" save="false" public="false" private="false" desc="朝廷玩家积分表">
+			<column type="widestr" name="player" desc="玩家名"/>
+			<column type="int" name="score" desc="积分"/>
+			<column type="int" name="kill" desc="杀人数"/>
+			<column type="int" name="dead" desc="死亡数"/>
+			<column type="int" name="assist" desc="助攻数"/>
+		</record>
+	</records>
+</object>

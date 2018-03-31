@@ -70,6 +70,6 @@
 		<path name="struct\player\jade.xml" desc="玉珏"/>
 		<path name="struct\player\guild_data.xml" desc="公会"/>
 		<path name="struct\player\arena.xml" desc="比武场"/>
-
+		<path name="struct\player\campaign.xml" desc="玩法活动"/>
 	</includes>
 </object>

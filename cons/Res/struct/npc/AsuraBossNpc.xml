@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!--陷阱NPC基础属性-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+	</properties>
+	<!-- 表属性 -->
+	<records>
+		<!-- 攻击对象表 -->
+		<record name="asuraboss_attack_list_rec" cols="3" maxrows="1500" save="false" visible="false" desc="攻击对象表">
+			<column type="widestr" name="name" desc="名字"/>
+			<column type="dword" name="camp" desc="阵营"/>
+			<column type="dword" name="damval" desc="伤害"/>
+		</record>
+	</records>
+</object>

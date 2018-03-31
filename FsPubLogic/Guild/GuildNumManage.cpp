@@ -3,15 +3,15 @@
 #include "GuildBaseManager.h"
 #include "utils\XmlFile.h"
 #include "utils\extend_func.h"
-#include "GuildBuildingManage.h"
+//#include "GuildBuildingManage.h"
 #include "utils\record.h"
 #include "FsGame\Define\GuildDefine.h"
 GuildNumManage* GuildNumManage::m_pInstance = NULL;
 
-#define GUILD_NUM_INIT_CONFIG "ini\\rule\\guild\\pub\\guild_num_init_config.xml"
-#define GUILD_BUILD_ADDITION "ini\\rule\\guild\\pub\\guild_building_addition_guild_num_upper_limit.xml"
-#define GUILD_NUM_BUY_CONFIG "ini\\rule\\guild\\pub\\guild_num_buy_cost.xml"
-#define GUILD_JIAN_KANG_DU_CONFIG "ini\\rule\\guild\\pub\\guild_jian_kang_du_config.xml"
+#define GUILD_NUM_INIT_CONFIG "ini\\SocailSystem\\Guild\\GuildNumInitConfig.xml"
+#define GUILD_BUILD_ADDITION "ini\\SocailSystem\\Guild\\GuildBuildingAdditionGuildNumUpperLimit.xml"
+#define GUILD_NUM_BUY_CONFIG "ini\\SocailSystem\\Guild\\GuildNumBuyCost.xml"
+#define GUILD_JIAN_KANG_DU_CONFIG "ini\\SocailSystem\\Guild\\GuildJianKangDuConfig.xml"
 
 
 bool GuildNumManage::Init(IPubKernel* pPubKernel)
@@ -619,7 +619,7 @@ int GuildNumManage::GetGuildBuildingAditionUpperLimit(GUILD_NUM_TYPE type, const
 	if (it != m_guildBuildingAddition.end())
 	{
 		auto buildType = static_cast <GUILD_BUILDING_TYPE>(it->second.m_GuidBuingType);
-		size_t buildLevel = GuildBuildingManage::m_pInstance->GetBuildingLevel(guildName, buildType);
+		size_t buildLevel = 1;// GuildBuildingManage::m_pInstance->GetBuildingLevel(guildName, buildType);
 		if (buildLevel < it->second.m_addition.size())
 		{
 			return it->second.m_addition[buildLevel];
@@ -808,8 +808,7 @@ void GuildNumManage::OnGetJianKangDuGif(IPubKernel* pPubKernel, int sourceId, in
 	}
 
 	CVarList msg;
-	msg << PUBSPACE_GUILD << GUILD_LOGIC << PS_GUILD_JIAN_KANG_DU_GIF <<
-		playerName << award ;
+	msg << PUBSPACE_GUILD << GUILD_LOGIC << PS_GUILD_JIAN_KANG_DU_GIF << playerName << award ;
 	pPubKernel->SendPublicMessage(sourceId, sceneId, msg);
 }
 

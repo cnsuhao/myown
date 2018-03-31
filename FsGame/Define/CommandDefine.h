@@ -80,6 +80,12 @@ enum
 
 	// 第一次进入游戏
 	COMMAND_MSG_FIRST_ENTER,
+
+	// 离线玩家数据拷贝完成
+	COMMAND_OFFLINE_DATA_COPY_FINISH,
+
+	// 活动消息
+	COMMAND_CAMPAIGN_MSG,
 #pragma endregion
 
 #pragma region //SocialSystemModule(201-300)
@@ -154,8 +160,10 @@ enum
 	COMMAND_NPC_AUTO_TRANSFER = 401,
 
 	//NPC技能硬直状态结束
-	COMMAND_NPC_STIFF_OVER = 402,
+	COMMAND_NPC_STIFF_OVER,
 
+	// 世界BOSS相关
+	COMMAND_WORLD_BOSS_ACTIVE,
 #pragma endregion
 
 #pragma region //SceneBaseModule(601-700)
@@ -281,7 +289,12 @@ enum
 
 #pragma endregion
 
-#pragma region //OPActivity运营活动(901-951)
+#pragma region //OPActivity运营活动(901-950)
+#pragma endregion
+
+#pragma region //CampaignModule玩法(951-1000)
+	// 竞技场
+	COMMAND_ARENA_PLAYER = 951,
 #pragma endregion
 
 

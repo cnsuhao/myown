@@ -124,14 +124,6 @@ enum WeekDay
 	EWEEK_SATURDAY,
 };
 
-// 自定义阵营
-enum CampType
-{
-	CAMP_NONE,
-    CAMP_ATTACK,
-	CAMP_DEFEND,
-};
-
 // 能量类型
 enum EnergyType
 {

@@ -234,10 +234,16 @@ enum
 	SERVER_CUSTOMMSG_TASK_MSG = 1301,
 #pragma endregion
 
-#pragma region //ArenaModule(1401-1500)
+#pragma region //CampaignModule(1401-1500)
 
     // 竞技场主消息
     SERVER_CUSTOMMSG_ARENA_MSG = 1401,
+
+	// 世界BOSS活动相关
+	SERVER_CUSTOMMSG_WORLD_BOSS_ACTIVE,
+
+	// 修罗战场逻辑消息
+	SERVER_CUSTOMMSG_ASURA_BATTLE,
 
 #pragma endregion
 

@@ -391,7 +391,7 @@ private:
 	static ChatModule* m_pChatModule;					// 聊天模块
 	static SystemMailModule* m_pMailModule;				// 邮件模块
 
-    GuildCreateConfig_t m_GuildCreateConfig;        // 创建公会配置信息
+   // GuildCreateConfig_t m_GuildCreateConfig;        // 创建公会配置信息
     GuildUpLevelConfigVector m_GuildUpLevelConfig;  // 公会等级配置信息
     GuildDonateConfigVector  m_GuildDonateConfig;   // 公会捐献配置信息
     GuildPositionConfigVector m_GuildPositionConfig;// 公会职位配置

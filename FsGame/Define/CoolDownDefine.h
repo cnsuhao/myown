@@ -24,6 +24,7 @@ enum COOLDOWN_CATEGORY
     COOLDOWN_CAPITAL_MONITOR ,					// 今天加资金上限提示
     COOLDOWN_ARRANGE_ITEMBOX,					// 整理消耗道具背包的冷却时间
 	COOLDOWN_NPC_ESCAPE,						// npc逃跑行为CD
+	COOLDOWN_ARENA_CHALLENGE,					// 比武场CD
 
     // 技能冷却ID
     COOLDOWN_SKILL_BEGIN                = 2000,

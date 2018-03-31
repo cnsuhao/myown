@@ -34,6 +34,7 @@ enum ResetTimerTypes
 
 	RESET_RIDE,												// 坐骑
 	RESET_GUILD_DAILY_RESET,								// 组织每日重置
+	RESET_ARENA_CHANCE_TIMES,								// 重置比武场
 
 	RESET_TYPES_TOTAL,
 };

@@ -328,7 +328,8 @@ int GuildModule::OnCommandCreateGuildResult(IKernel* pKernel, const PERSISTID& s
     }
     else 
     {
-		m_pCapitalModule->IncCapital(pKernel, self, CAPITAL_GOLD, (__int64)m_GuildCreateConfig.Silver, FUNCTION_EVENT_ID_GUILD_CREATE_FAILED_RET, L"Create Guild Failed, Return Capital");
+		int nCostGold = EnvirValueModule::EnvirQueryInt(ENV_VALUE_CREATE_GUILD_GOLD);
+		m_pCapitalModule->IncCapital(pKernel, self, CAPITAL_GOLD, (__int64)nCostGold, FUNCTION_EVENT_ID_GUILD_CREATE_FAILED_RET, L"Create Guild Failed, Return Capital");
     }
     
 	// 通知玩家创建结果

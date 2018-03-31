@@ -5,9 +5,6 @@
 
 class IKernel;
 
-// 加载创建公会配置信息
-bool LoadGuildCreateConfig(const char *resourcePath, GuildCreateConfig_t &config);
-
 // 加载公会升级配置信息
 bool LoadGuildUpLevelConfig(const char *resourcePath, GuildUpLevelConfigVector &configVec);
 
@@ -29,9 +26,5 @@ bool LoadGuildSkill(const char*resourcePath, GuildSkillConfigMap&configVec);
 bool LoadGuildSkillLevelUpConst(const char*resourcePath, GuildSkillLevelUpSpendMap&configVec);
 //技能升级经验
 bool LoadGuildSkillLvUpExp(const char*resourcePath, GuildSkillLvExp&configVec);
-
-//加载预备组织
-
-bool LoadGuildPrepareInfo(const char*resourcePath, GUILDPREPAREINFO& configVec);
 
 #endif // __GuildLoadResource_H__

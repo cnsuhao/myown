@@ -52,9 +52,17 @@
 //<class id="WorldBossScene"  
 //	type=""  
 //	desc="世界boss场景"  
-//	path="" /> 
+//	path="struct\scene\world_boss_scene.xml" /> 
 #ifndef CLASS_NAME_WORLD_BOSS_SCENE 
 #define CLASS_NAME_WORLD_BOSS_SCENE				"WorldBossScene" 
+#endif 
+ 
+//<class id="AsuraBattleScene"  
+//	type=""  
+//	desc="修罗战场"  
+//	path="struct\scene\asura_battle_scene.xml" /> 
+#ifndef CLASS_NAME_ASURA_BATTLE_SCENE 
+#define CLASS_NAME_ASURA_BATTLE_SCENE				"AsuraBattleScene" 
 #endif 
  
 //<class id="npc"  
@@ -116,9 +124,25 @@
 //<class id="BossNpc"  
 //	type=""  
 //	desc="BOSSNPC"  
-//	path="" /> 
+//	path="struct\npc\BossNpc.xml" /> 
 #ifndef CLASS_NAME_BOSS_NPC 
 #define CLASS_NAME_BOSS_NPC				"BossNpc" 
+#endif 
+ 
+//<class id="WorldBossNpc"  
+//	type=""  
+//	desc="世界boss"  
+//	path="struct\npc\WorldBossNpc.xml" /> 
+#ifndef CLASS_NAME_WORLD_BOSS_NPC 
+#define CLASS_NAME_WORLD_BOSS_NPC				"WorldBossNpc" 
+#endif 
+ 
+//<class id="AsuraBossNpc"  
+//	type=""  
+//	desc="修罗战场boss"  
+//	path="struct\npc\AsuraBossNpc.xml" /> 
+#ifndef CLASS_NAME_ASURA_BOSS_NPC 
+#define CLASS_NAME_ASURA_BOSS_NPC				"AsuraBossNpc" 
 #endif 
  
 //<class id="FunctionNpc"  

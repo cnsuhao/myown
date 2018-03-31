@@ -17,7 +17,6 @@
 #include "utils/extend_func.h"
 #include "../Define/GameDefine.h"
 #include "FsGame/Define/FightPropertyDefine.h"
-#include "FsGame/Define/NpcDefine.h" 
 #include "utils/string_buffer.h"
 #include "SkillToSprite.h"
 #include "FsGame/SystemFunctionModule/CoolDownModule.h"

@@ -19,6 +19,7 @@
 #include "utils/XmlFile.h"
 #include "utils/extend_func.h"
 #include "utils/string_util.h"
+#include "PVPRecAttacker.h"
 
 PKModelModule* PKModelModule::m_pPKModelModule = NULL;
 
@@ -34,6 +35,7 @@ bool PKModelModule::Init(IKernel* pKernel)
 
 	SceneAttackManage::Init(pKernel);
 	CriminalSystemSingleton::Instance()->Init(pKernel);
+	PVPRecAttackerSingleton::Instance()->Init(pKernel);
 
 #ifndef FSROOMLOGIC_EXPORTS
 	RELOAD_CONFIG_REG("PKModelConfig", PKModelModule::ReloadConfig);

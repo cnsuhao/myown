@@ -98,6 +98,12 @@ enum
 	SNS_MSG_FRIEND_QUERY_ENEMY,				//获取敌人
 	SNS_MSG_FRIEND_PUSH_ENEMY,				//返回敌人
 
+	//////////////////////////////////////////////////////////////////////////
+	// 竞技场相关
+	SNS_MSG_ARENA_SAVE_FIGHT_RESULT = 2200,					// 竞技场保存战报数据
+	SNS_MSG_ARENA_QUERY_FIGHT_RESULT,					 // 竞技场查询离线战报数据
+	SNS_MSG_ARENA_PUSH_FIGHT_RESULT,					 // 推送离线战报数据
+
 };
 
 #endif // __SnsDefine_h__

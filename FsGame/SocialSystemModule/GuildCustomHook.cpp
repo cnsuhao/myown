@@ -42,6 +42,7 @@
 #include "Define/SnsDefine.h"
 #include "CommonModule/ActionMutex.h"
 #include "Define/SystemInfo_Item.h"
+#include "SystemFunctionModule/ActivateFunctionModule.h"
 
 // 发送帮会成员列表，一次发送成员个数
 const int SEND_MEMBER_COUNT = 10;
@@ -487,8 +488,8 @@ int GuildModule::OnCustomCreateGuild(IKernel* pKernel, const PERSISTID& self, co
 	int vipLv = pPlayer->QueryInt(FIELD_PROP_VIP_LEVEL);
 
 	// 减铜币，如果创建失败的话在结果处理函数中再加钱
-	int rc = m_pCapitalModule->DecCapital(pKernel, self, CAPITAL_GOLD, (__int64)m_GuildCreateConfig.Silver,
-												FUNCTION_EVENT_ID_GUILD_CREATE);
+	int nCostGold = EnvirValueModule::EnvirQueryInt(ENV_VALUE_CREATE_GUILD_GOLD);
+	int rc = m_pCapitalModule->DecCapital(pKernel, self, CAPITAL_GOLD, (__int64)nCostGold, FUNCTION_EVENT_ID_GUILD_CREATE);
 	if (rc != DC_SUCCESS)
 	{
 		return 0;
@@ -532,10 +533,9 @@ int GuildModule::OnCustomGetGuildList(IKernel* pKernel, const PERSISTID& self, c
 	}
 
 	// 检测玩家等级是否符合限制
-	int level = pSelfObj->QueryInt("Level");
-	if (level < m_GuildCreateConfig.m_LevelLimit)
+	if (ActivateFunctionModule::CheckActivateFunction(pKernel, self, AFM_GUILD_FUNCTION))
 	{
-		CustomSysInfo(pKernel, self, SYSTEM_INFO_ID_17604, CVarList() << m_GuildCreateConfig.m_LevelLimit);
+		CustomSysInfo(pKernel, self, SYSTEM_INFO_ID_17604, CVarList());
 		return false;
 	}
 
@@ -567,13 +567,6 @@ int GuildModule::OnCustomGetGuildList(IKernel* pKernel, const PERSISTID& self, c
 		{
 			pSelfObj->SetInt("GuildListBeginRow", i);
 			break;
-		}
-
-		// 只发送本国家帮会
-		int guildNation = pGuildSortRecord->QueryInt(i, GUILD_SORT_REC_COL_NATION);
-		if (nation != guildNation)
-		{
-			continue;
 		}
 
 		const wchar_t *guildName = pGuildSortRecord->QueryWideStr(i, GUILD_SORT_REC_COL_NAME);
@@ -614,10 +607,9 @@ int GuildModule::OnCustomFindGuild(IKernel* pKernel, const PERSISTID& self, cons
 	}
 
 	// 检测玩家等级是否符合限制
-	int level = pSelfObj->QueryInt("Level");
-	if (level < m_GuildCreateConfig.m_LevelLimit)
+	if (ActivateFunctionModule::CheckActivateFunction(pKernel, self, AFM_GUILD_FUNCTION))
 	{
-		CustomSysInfo(pKernel, self, SYSTEM_INFO_ID_17604, CVarList() << m_GuildCreateConfig.m_LevelLimit);
+		CustomSysInfo(pKernel, self, SYSTEM_INFO_ID_17604, CVarList());
 		return false;
 	}
 
@@ -639,18 +631,12 @@ int GuildModule::OnCustomFindGuild(IKernel* pKernel, const PERSISTID& self, cons
 	int rankVal = 0;
 	int guildCount = 0;
 	GuildNameVec guildNameVector;
-	int nation = pSelfObj->QueryInt("Nation");
+
 	// 循环保护
 	LoopBeginCheck(di);
 	for (int i = 0; i < iGuildListRow; i++)
 	{
 		LoopDoCheck(di);
-		int nationRes = pGuildListRecord->QueryInt(i, GUILD_SORT_REC_COL_NATION);
-		if (nation != nationRes)
-		{
-			continue;
-		}
-
 		rankVal++;
 
 		const wchar_t* pGuildName = pGuildListRecord->QueryWideStr(i, GUILD_SORT_REC_COL_NAME);
@@ -761,19 +747,11 @@ int GuildModule::OnCustomApplyJoinGuild(IKernel* pKernel, const PERSISTID& self,
 		return 0;
 	}
 
-	IGameObj* pSelfObj = pKernel->GetGameObj(self);
-	if (pSelfObj == NULL)
-	{
-		return 0;
-	}
-
 	IGameObj * pPlayer = pKernel->GetGameObj(self); 
 	if(pPlayer == NULL)
 	{
 		return 0;
 	}
-
-	
 
 	//申请加入帮会开关是否开启
 	if (!SwitchManagerModule::CheckFunctionEnable(pKernel, SWITCH_FUNCTION_GUILD_JOIN, self))
@@ -803,11 +781,10 @@ int GuildModule::OnCustomApplyJoinGuild(IKernel* pKernel, const PERSISTID& self,
 	}
 
 	// 检测玩家等级是否符合限制
-	int level = pSelfObj->QueryInt("Level");
-	if (level < m_GuildCreateConfig.m_LevelLimit)
+	if (ActivateFunctionModule::CheckActivateFunction(pKernel, self, AFM_GUILD_FUNCTION))
 	{
-		CustomSysInfo(pKernel, self, SYSTEM_INFO_ID_17604, CVarList() << m_GuildCreateConfig.m_LevelLimit);
-		return false;
+		CustomSysInfo(pKernel, self, SYSTEM_INFO_ID_17604, CVarList());
+		return 0;
 	}
 
 	// 查找申请者列表是否有记录
@@ -972,10 +949,9 @@ int GuildModule::OnCustomOneKeyApplyJoinGuild(IKernel* pKernel, const PERSISTID&
 		return 0;
 	}
 	// 检测玩家等级是否符合限制
-	int level = pPlayer->QueryInt("Level");
-	if (level < m_GuildCreateConfig.m_LevelLimit)
+	if (ActivateFunctionModule::CheckActivateFunction(pKernel, self, AFM_GUILD_FUNCTION))
 	{
-		CustomSysInfo(pKernel, self, SYSTEM_INFO_ID_17604, CVarList() << m_GuildCreateConfig.m_LevelLimit);
+		CustomSysInfo(pKernel, self, SYSTEM_INFO_ID_17604, CVarList());
 		return false;
 	}
 	
@@ -1022,7 +998,6 @@ int GuildModule::OnCustomOneKeyApplyJoinGuild(IKernel* pKernel, const PERSISTID&
 		return 0;
 	}
 	
-	int nation = pPlayer->QueryInt("Nation");
 	const char* pPlayerUid = pKernel->SeekRoleUid(playerName);
 	int playerSex = pPlayer->QueryInt("Sex");
 	int playerLevel = pPlayer->QueryInt("Level");
@@ -1052,12 +1027,6 @@ int GuildModule::OnCustomOneKeyApplyJoinGuild(IKernel* pKernel, const PERSISTID&
 	for (int i = 0; i < rowTotal; i++)
 	{
 		LoopDoCheck(dh);
-		int guildNation = pGuildSortRecord->QueryInt(i, GUILD_SORT_REC_COL_NATION);
-		if (nation != guildNation)
-		{
-			continue;
-		}
-
 		const wchar_t *guildName = pGuildSortRecord->QueryWideStr(i, GUILD_SORT_REC_COL_NAME);
 		if (StringUtil::CharIsNull(guildName))
 		{
@@ -1212,8 +1181,7 @@ int GuildModule::OnCustomGetGuildInfo(IKernel* pKernel, const PERSISTID& self)
 	}
 
 	// 检测玩家等级是否符合限制
-	int playerLevel = pSelfObj->QueryInt("Level");
-	if (playerLevel < m_GuildCreateConfig.m_LevelLimit)
+	if (ActivateFunctionModule::CheckActivateFunction(pKernel, self, AFM_GUILD_FUNCTION))
 	{
 		CustomSysInfo(pKernel, self, SYSTEM_INFO_ID_17604, CVarList());
 		return false;
@@ -1255,19 +1223,12 @@ int GuildModule::OnCustomGetGuildInfo(IKernel* pKernel, const PERSISTID& self)
 	int rank = 0;
 	int tempNationId = 0;
 	std::wstring tempName = L"";
-	int nationId = pSelfObj->QueryInt("Nation");
 	int sortCount = pSortRecord->GetRows();
 	// 循环保护
 	LoopBeginCheck(dn);
 	for (int i = 0; i < sortCount; ++i)
 	{
 		LoopDoCheck(dn);
-		tempNationId = pSortRecord->QueryInt(i, GUILD_SORT_REC_COL_NATION);
-		if (tempNationId != nationId)
-		{
-			continue;
-		}
-
 		++rank;
 		tempName = pSortRecord->QueryWideStr(i, GUILD_SORT_REC_COL_NAME);
 		if (tempName == guildName)

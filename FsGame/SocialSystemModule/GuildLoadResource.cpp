@@ -3,48 +3,15 @@
 #include "server/LoopCheck.h"
 #include "utils/XmlFile.h"
 #include "utils/string_util.h"
-const char * GUILD_SKILL = "ini/rule/guild/guild_skill_config.xml";
-const char * GUILD_SKILL_LEVEL_UP = "ini/rule/guild/guild_skill_level_up_cost.xml";
-const char * GUILD_SKILL_STUDY = "ini/rule/guild/pub/guild_skill_study.xml";
-
-
-#define GUILD_PREPARE_CONFIG "ini\\rule\\guild\\pub\\guild_prepare_config.xml"
-// 加载创建公会配置信息
-bool LoadGuildCreateConfig(const char *resourcePath, GuildCreateConfig_t &config)
-{
-    std::string pathname = std::string(resourcePath) + "ini/rule/guild/guild_create_config.xml";
-    TiXmlDocument xmlDocument(pathname.c_str());
-    if (!xmlDocument.LoadFile())
-    {
-		extend_warning(LOG_ERROR, "LoadGuildCreateConfig: load %s ERROR !!", pathname.c_str());
-        return false;
-    }
-
-    TiXmlElement* objectEle = xmlDocument.RootElement();
-	if (objectEle == NULL)
-	{
-		return false;
-	}
-
-    TiXmlElement* groupEle = objectEle->FirstChildElement("Property");
-    if (groupEle == NULL)
-    {
-		extend_warning(LOG_ERROR, "GuildModule::LoadCreateGuildConfig: Get Element ERROR !!");
-        return false;
-    }
-
-    config.m_LevelLimit = convert_int(groupEle->Attribute("LevelLimit"), 30);
-	config.Silver = convert_int(groupEle->Attribute("Silver"), 10000);
-	config.m_nFireLimit = convert_int(groupEle->Attribute("FireLimit"), 5);
-
-    return true;
-}
+const char * GUILD_SKILL = "ini/SocialSystem/Guild/GuildSkillConfig.xml";
+const char * GUILD_SKILL_LEVEL_UP = "ini/SocialSystem/Guild/GuildSkillLevelUpCost.xml";
+const char * GUILD_SKILL_STUDY = "ini/SocialSystem/Guild/GuildSkillStudy.xml";
 
 bool LoadGuildUpLevelConfig(const char *resourcePath, GuildUpLevelConfigVector &configVec)
 {
     configVec.clear();
 
-    std::string pathname = std::string(resourcePath) + "ini/rule/guild/pub/guild_member_config.xml";
+    std::string pathname = std::string(resourcePath) + "ini/SocialSystem/Guild/GuildMemberConfig.xml";
     TiXmlDocument xmlDocument(pathname.c_str());
     if (!xmlDocument.LoadFile())
     {
@@ -84,7 +51,7 @@ bool LoadGuildDonateConfig(const char *resourcePath, GuildDonateConfigVector &co
 {
     configVec.clear();
 
-    std::string pathname = std::string(resourcePath) + "ini/rule/guild/guild_donate_config.xml";
+    std::string pathname = std::string(resourcePath) + "ini/SocialSystem/Guild/GuildDonateConfig.xml";
     TiXmlDocument xmlDocument(pathname.c_str());
     if (!xmlDocument.LoadFile())
     {
@@ -124,7 +91,7 @@ bool LoadGuildPositionConfig(const char *resourcePath, GuildPositionConfigVector
 {
     configVec.clear();
 
-    std::string pathname = std::string(resourcePath) + "ini/rule/guild/guild_position_config.xml";
+	std::string pathname = std::string(resourcePath) + "ini/SocialSystem/Guild/GuildPositionConfig.xml";
 
 	CXmlFile ini(pathname.c_str());
 	std::string log;
@@ -176,7 +143,7 @@ bool LoadGuildShopConfig(const char *resourcePath, GuildShopConfigVector &config
 {
     configVec.clear();
 
-    std::string pathname = std::string(resourcePath) + "ini/rule/guild/guild_shop_config.xml";
+	std::string pathname = std::string(resourcePath) + "ini/SocialSystem/Guild/GuildShopConfig.xml";
     TiXmlDocument xmlDocument(pathname.c_str());
     if (!xmlDocument.LoadFile())
     {
@@ -233,7 +200,7 @@ bool LoadGuildTimer(const char *resourcePath, GuildTimerCallbackVector &configVe
 {
     configVec.clear();
 
-    std::string pathname = std::string(resourcePath) + "ini/rule/guild/guild_timer.xml";
+    std::string pathname = std::string(resourcePath) + "ini/SocialSystem/Guild/GuildTimer.xml";
     TiXmlDocument xmlDocument(pathname.c_str());
     if (!xmlDocument.LoadFile())
     {
@@ -305,8 +272,6 @@ bool LoadGuildSkill(const char*resourcePath, GuildSkillConfigMap&configVec)
 	}
 
 	return true;
-
-
 }
 
 bool LoadGuildSkillLevelUpConst(const char*resourcePath, GuildSkillLevelUpSpendMap&configVec)
@@ -371,9 +336,6 @@ bool LoadGuildSkillLevelUpConst(const char*resourcePath, GuildSkillLevelUpSpendM
 	return true;
 }
 
-
-
-
 bool LoadGuildSkillLvUpExp(const char*resourcePath, GuildSkillLvExp&configVec)
 {
 	configVec.clear();
@@ -410,45 +372,3 @@ bool LoadGuildSkillLvUpExp(const char*resourcePath, GuildSkillLvExp&configVec)
 
 	return true;
 }
-
-bool LoadGuildPrepareInfo(const char*resourcePath, GUILDPREPAREINFO& configVec)
-{
-
-	configVec.clear();
-	std::string pathname = std::string(resourcePath) + GUILD_PREPARE_CONFIG;
-	TiXmlDocument xmlDocument(pathname.c_str());
-	if (!xmlDocument.LoadFile())
-	{
-		extend_warning(LOG_ERROR, "LoadGuildUpLevelConfig: load %s ERROR !!", pathname.c_str());
-		return false;
-	}
-
-	TiXmlElement* objectEle = xmlDocument.RootElement();
-	if (objectEle == NULL)
-	{
-		return false;
-	}
-
-	TiXmlElement* groupEle = objectEle->FirstChildElement("Property");
-	// 循环保护
-	LoopBeginCheck(bl);
-	for (int i = 0; groupEle != NULL; i++)
-	{
-		LoopDoCheck(bl);
-		GuildPrepareInfo info;
-		info.m_nation = convert_int(groupEle->Attribute("Nation"), 0);
-		info.m_guildIdentifying = convert_int(groupEle->Attribute("GuildIdentifying"), 0);
-		info.m_shortName = StringUtil::StringAsWideStr(groupEle->Attribute("ShortName"));
-		std::wstring guildName = StringUtil::StringAsWideStr(groupEle->Attribute("GuildName"));
-		configVec[guildName] = info;
-		groupEle = groupEle->NextSiblingElement("Property");
-	}
-
-
-
-
-	return true;
-
-
-}
-

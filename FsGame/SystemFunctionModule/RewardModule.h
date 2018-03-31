@@ -69,12 +69,12 @@ public:
 	typedef std::map<int, AwardEx*> AwardMap;
 public:
 	// 尝试发奖励发给玩家
-	bool TryRewardPlayer(IKernel *pKernel, const PERSISTID &player, int nAwardId, int operation_on_full);
+	static bool TryRewardPlayer(IKernel *pKernel, const PERSISTID &player, int nAwardId, int operation_on_full);
 
     // 发奖励发给玩家
     // 当 @operation_on_full = REWARD_MAIL_ON_FULL 的时候, 会通过使用预定义的邮件发给玩家.
     // 如果邮件模板中有参数，则通过@mail_param 传送
-	bool RewardPlayerById(IKernel *pKernel, const PERSISTID &player, 
+	static bool RewardPlayerById(IKernel *pKernel, const PERSISTID &player, 
 		int nAwardId, int operation_on_full = REWARD_MAIL_ON_FULL, const IVarList &mail_param = CVarList());
 
 	// 通过角色名发放奖励, 直接通过邮件发给角色
@@ -82,7 +82,7 @@ public:
 	//bool RewardByRoleName(IKernel *pKernel, const wchar_t *role_name, int nAwardId, const IVarList &mail_param = CVarList());
 
     // 通过邮件发奖励给玩家
-	bool RewardViaMail(IKernel *pKernel, const wchar_t *role_name, int nAwardId, const IVarList &mail_param, const wchar_t *sender_name = L"");
+	static bool RewardViaMail(IKernel *pKernel, const wchar_t *role_name, int nAwardId, const IVarList &mail_param, const wchar_t *sender_name = L"");
 
 
 	// 用于生成动态奖励,然后发放给玩家
@@ -94,7 +94,7 @@ public:
 	// 发奖励发给玩家
 	// 当 @operation_on_full = REWARD_MAIL_ON_FULL 的时候, 会通过使用预定义的邮件发给玩家.
 	// 其中, @award.name 是邮件模板的名字, 如果邮件模板中有参数，则通过@mail_param 传送
-	bool RewardPlayer(IKernel *pKernel, const PERSISTID &player, const AwardEx *award, const IVarList &mail_param, int operation_on_full = REWARD_MAIL_ON_FULL);
+	static bool RewardPlayer(IKernel *pKernel, const PERSISTID &player, const AwardEx *award, const IVarList &mail_param, int operation_on_full = REWARD_MAIL_ON_FULL);
 
 	//展示物品
 	static void ShowItem(IKernel*pKernel,const PERSISTID &player,const std::string& awardStr);

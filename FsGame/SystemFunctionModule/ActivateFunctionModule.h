@@ -36,6 +36,7 @@ enum AFMFunction
 	AFM_DAILY_TASK,			// 日常任务
 	AFM_JADE_FUNCTION,		// 玉珏功能
 	AFM_RIDE,				// 坐骑功能
+	AFM_GUILD_FUNCTION,		// 公会功能
 };
 
 class ActivateFunctionModule:public ILogicModule

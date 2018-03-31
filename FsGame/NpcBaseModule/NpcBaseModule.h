@@ -30,9 +30,6 @@ public:
 	static int OnLoad(IKernel* pKernel, const PERSISTID& self, 
 		const PERSISTID& sender, const IVarList& args);
 
-	//¾«Ó¢NPCÎ»ÖÃ
-	/*static int QueryElitePos(IKernel* pKernel, const PERSISTID& player, 
-		const PERSISTID& sender, const IVarList& args);*/
 public:
 	static NpcBaseModule* m_pNpcBaseModule;
 };

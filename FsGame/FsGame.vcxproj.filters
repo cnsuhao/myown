@@ -352,6 +352,21 @@
     <Filter Include="EquipmentModule\Fashion">
       <UniqueIdentifier>{736de304-ad50-4548-b6cf-4d7efd0ac08f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="CampaignModule\Arena">
+      <UniqueIdentifier>{4ea971ab-8879-4333-8dbb-ec5efe251c12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NpcBaseModule\BossRefresh">
+      <UniqueIdentifier>{1472df4e-9536-4bcb-b5b7-cfdf8a16c6ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CampaignModule\WorldBoss">
+      <UniqueIdentifier>{d852f450-4cb6-45bc-8197-199f77beda7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SystemFunctionModule\Offline">
+      <UniqueIdentifier>{47862e56-e0d2-456d-8036-a9712631268a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CampaignModule\Campaign">
+      <UniqueIdentifier>{bfc95bd1-aa1f-4689-a631-fccd2b513566}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Define\Classes.h">
@@ -1164,14 +1179,50 @@
     <ClInclude Include="SocialSystemModule\GuildModule.h">
       <Filter>SocialSystemModule\Guild</Filter>
     </ClInclude>
+    <ClInclude Include="Campaign\ArenaModule.h">
+      <Filter>CampaignModule\Arena</Filter>
+    </ClInclude>
+    <ClInclude Include="NpcBaseModule\BossRefreshModule.h">
+      <Filter>NpcBaseModule\BossRefresh</Filter>
+    </ClInclude>
+    <ClInclude Include="Define\ArenaModuleDefine.h">
+      <Filter>Define\ModuleDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="Define\FightNpcDefine.h">
+      <Filter>Define\ModuleDefine</Filter>
+    </ClInclude>
     <ClInclude Include="Define\GuildMsgDefine.h">
-      <Filter>Define</Filter>
+      <Filter>Define\ModuleDefine</Filter>
     </ClInclude>
     <ClInclude Include="EquipmentModule\FashionDefine.h">
       <Filter>EquipmentModule\Fashion</Filter>
     </ClInclude>
     <ClInclude Include="EquipmentModule\FashionModule.h">
       <Filter>EquipmentModule\Fashion</Filter>
+    </ClInclude>
+    <ClInclude Include="Define\WorldBossNpcDefine.h">
+      <Filter>Define\ModuleDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="Campaign\WorldBossNpc.h">
+      <Filter>CampaignModule\WorldBoss</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemFunctionModule\CopyOffLineModule.h">
+      <Filter>SystemFunctionModule\Offline</Filter>
+    </ClInclude>
+    <ClInclude Include="Define\OffLineDefine.h">
+      <Filter>Define\ModuleDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="Campaign\CampaignAsuraBattle.h">
+      <Filter>CampaignModule\Campaign</Filter>
+    </ClInclude>
+    <ClInclude Include="Campaign\CampaignBase.h">
+      <Filter>CampaignModule\Campaign</Filter>
+    </ClInclude>
+    <ClInclude Include="Campaign\CampaignModule.h">
+      <Filter>CampaignModule\Campaign</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillModule\PVPRecAttacker.h">
+      <Filter>SkillModule\PKModule</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -1733,6 +1784,30 @@
     </ClCompile>
     <ClCompile Include="EquipmentModule\FashionModule.cpp">
       <Filter>EquipmentModule\Fashion</Filter>
+    </ClCompile>
+    <ClCompile Include="Campaign\ArenaModule.cpp">
+      <Filter>CampaignModule\Arena</Filter>
+    </ClCompile>
+    <ClCompile Include="NpcBaseModule\BossRefreshModule.cpp">
+      <Filter>NpcBaseModule\BossRefresh</Filter>
+    </ClCompile>
+    <ClCompile Include="Campaign\WorldBossNpc.cpp">
+      <Filter>CampaignModule\WorldBoss</Filter>
+    </ClCompile>
+    <ClCompile Include="Campaign\WorldBossNpcConfig.cpp">
+      <Filter>CampaignModule\WorldBoss</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemFunctionModule\CopyOffLineModule.cpp">
+      <Filter>SystemFunctionModule\Offline</Filter>
+    </ClCompile>
+    <ClCompile Include="Campaign\CampaignAsuraBattle.cpp">
+      <Filter>CampaignModule\Campaign</Filter>
+    </ClCompile>
+    <ClCompile Include="Campaign\CampaignModule.cpp">
+      <Filter>CampaignModule\Campaign</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillModule\PVPRecAttacker.cpp">
+      <Filter>SkillModule\PKModule</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

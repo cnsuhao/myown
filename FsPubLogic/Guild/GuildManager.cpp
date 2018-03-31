@@ -27,6 +27,7 @@
 #include <list>
 #include "GuildBaseManager.h"
 #include "FsGame/Define/PubCmdDefine.h"
+#include "GuildNumManage.h"
  
 
 // 一天的小时数
@@ -124,7 +125,7 @@ int PubGuildManager::OnPubSpaceLoaded(IPubKernel* pPubKernel)
 
 	AddGuildSub(new GuildBaseManager());
 	//AddGuildSub(new GuildBuildingManage());
-	//AddGuildSub(new GuildNumManage());
+	AddGuildSub(new GuildNumManage());
 	//AddGuildSub(new GuildSkillManage());
 	//AddGuildSub(new PrepareGuildManage());
 	//AddGuildSub(new GuildRareTreasure());
@@ -620,12 +621,12 @@ int PubGuildManager::OnBuyShopItem(IPubKernel* pPubKernel, const wchar_t* guildN
 		SendBuyItemResult(pPubKernel, sourceId, sceneId, guildName, playerName, GUILD_MSG_REQ_FAIL, index, itemId, buyNum, consume);
 		return 0;
 	}
-// 	int curDonate = GuildNumManage::m_pInstance->GetGuildNumValue(guildName, GUILD_NUM_TYPE::GUILD_NUM_CAPITAL);
-// 	if (curDonate < consume)
-// 	{
-// 		SendBuyItemResult(pPubKernel, sourceId, sceneId, guildName, playerName, GUILD_MSG_REQ_FAIL, index, itemId, buyNum, consume);
-// 		return 0;
-// 	}
+	int curDonate = GuildNumManage::m_pInstance->GetGuildNumValue(guildName, GUILD_NUM_TYPE::GUILD_NUM_CAPITAL);
+	if (curDonate < consume)
+	{
+		SendBuyItemResult(pPubKernel, sourceId, sceneId, guildName, playerName, GUILD_MSG_REQ_FAIL, index, itemId, buyNum, consume);
+		return 0;
+	}
 
 	// 检查剩余道具数量是否足够
 	IRecord *shopBuyRecord = m_pGuildPubData->GetRecord(GUILD_SHOP_BUY_REC);
@@ -704,17 +705,17 @@ int PubGuildManager::OnBuyShopItem(IPubKernel* pPubKernel, const wchar_t* guildN
 		}
 	}
 
-// 	if (addGuildCapital != 0)
-// 	{
-// 		GuildNumManage::m_pInstance->AddGuildNumValue(guildName, GUILD_NUM_TYPE::GUILD_NUM_CAPITAL, addGuildCapital, GUILD_NUM_CHANGE::GUILD_NUM_CHANGE_SHOP);
-// 	}
-// 
-// 	// 发送结果
-// 	CVarList msg;
-// 	msg << PUBSPACE_GUILD << GUILD_LOGIC << PS_GUILD_MSG_BUY_ITEM << GUILD_MSG_REQ_SUCC 
-// 		<< playerName << index << itemId << buyNum << consume << (shopBuyTotal-shopBuyCount-buyNum) 
-// 		<< (memberBuyTotal-memberBuyCount-buyNum) << (curDonate-consume);
-// 	pPubKernel->SendPublicMessage(sourceId, sceneId, msg);
+	if (addGuildCapital != 0)
+	{
+		GuildNumManage::m_pInstance->AddGuildNumValue(guildName, GUILD_NUM_TYPE::GUILD_NUM_CAPITAL, addGuildCapital, GUILD_NUM_CHANGE::GUILD_NUM_CHANGE_SHOP);
+	}
+
+	// 发送结果
+	CVarList msg;
+	msg << PUBSPACE_GUILD << GUILD_LOGIC << PS_GUILD_MSG_BUY_ITEM << GUILD_MSG_REQ_SUCC 
+		<< playerName << index << itemId << buyNum << consume << (shopBuyTotal-shopBuyCount-buyNum) 
+		<< (memberBuyTotal-memberBuyCount-buyNum) << (curDonate-consume);
+	pPubKernel->SendPublicMessage(sourceId, sceneId, msg);
 
 	return 0;
 }
@@ -758,9 +759,9 @@ void PubGuildManager::GuildPubReset(IPubKernel* pPubKernel, const char* space_na
 	PubGuildManager::ShopResetTimerCb(pPubKernel, space_name,data_name);
 	GuildBaseManager::FireNumResetTimerCb(pPubKernel, space_name, data_name);
 	GuildBaseManager::m_pInstance->OnZeroClock(pPubKernel);
-	GuildBaseManager::DancingGirlReset(pPubKernel, space_name, data_name);
+	//GuildBaseManager::DancingGirlReset(pPubKernel, space_name, data_name);
 	//GuildBaseManager::AutoImpeachTimer(pPubKernel, space_name, data_name);
-	//GuildNumManage::m_pInstance->GuildNumDailyReset(pPubKernel);
+	GuildNumManage::m_pInstance->GuildNumDailyReset(pPubKernel);
 }
 
 

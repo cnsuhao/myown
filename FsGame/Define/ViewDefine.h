@@ -15,8 +15,6 @@ enum   EViewDef
 // 	VIEWPORT_TEMP_BAG       = 13,   //临时背包
 //     VIEWPORT_PET_SKILL      = 14,   //宠物技能
  	
-// 	VIEWPORT_WING_BAG       = 16,   //翅膀背包
     VIEWPORT_ITEM_BOX       = 17,   //消耗类道具背包
-	//VIEWPORT_MARKER		= 21,	//印记背包
 };
 #endif

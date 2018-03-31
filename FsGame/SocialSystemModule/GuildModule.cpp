@@ -42,6 +42,7 @@
 #include "CommonModule/EnvirValueModule.h"
 #include "Define/PlayerBaseDefine.h"
 #include "CommonModule/ActionMutex.h"
+#include "SystemFunctionModule/ActivateFunctionModule.h"
 
 GuildModule* GuildModule::m_pGuildModule = NULL;
 CapitalModule* GuildModule::m_pCapitalModule = NULL;
@@ -657,13 +658,6 @@ void GuildModule::SendPropsChangeToPub(IKernel* pKernel, const PERSISTID& self)
 bool GuildModule::LoadResource(IKernel* pKernel)
 {
 	const char* path = pKernel->GetResourcePath();
-
-
-	if (!LoadGuildCreateConfig(path, m_GuildCreateConfig))
-    {
-        return false;
-    }
-
 	if (!LoadGuildUpLevelConfig(path, m_GuildUpLevelConfig))
     {
         return false;
@@ -688,23 +682,6 @@ bool GuildModule::LoadResource(IKernel* pKernel)
 	{
 		return false;
 	}
-	
-	if (!LoadGuildPrepareInfo(path, m_guildPrepareInfo)){
-		return false;
-	}
-	
-
-	//if (!LoadGuildUpLevelConfig(pKernel->GetResourcePath(), m_GuildUpLevelConfig))
-	//{
-	//	return false;
-	//}
-	std::string strTeachConfig_ = path;
-	strTeachConfig_ += CONFIG_PATH_TECAH_REWARD;
-	if (!Configure<CfgTeachReward>::LoadXml(strTeachConfig_.c_str(), OnConfigError))
-	{
-		return false;
-	}
-
     return true;
 }
 
@@ -743,10 +720,9 @@ bool GuildModule::CheckCanCreateGuild(IKernel* pKernel, const PERSISTID& self, c
 
 
     // 检测玩家等级是否符合限制
-    int level = pSelfObj->QueryInt("Level");
-    if (level < m_GuildCreateConfig.m_LevelLimit)
+    if (ActivateFunctionModule::CheckActivateFunction(pKernel, self, AFM_GUILD_FUNCTION))
     {
-		CustomSysInfo(pKernel, self, SYSTEM_INFO_ID_17604, CVarList() << m_GuildCreateConfig.m_LevelLimit);
+		CustomSysInfo(pKernel, self, SYSTEM_INFO_ID_17604, CVarList());
         return false;
     }
 
@@ -783,8 +759,8 @@ bool GuildModule::CheckCanCreateGuild(IKernel* pKernel, const PERSISTID& self, c
     }
 
     // 检测是否有足够的金钱
-	__int64 currentMoney = m_pCapitalModule->GetCapital(pKernel, self, CAPITAL_GOLD);
-	if (currentMoney < (__int64)m_GuildCreateConfig.Silver)
+	int nCostGold = EnvirValueModule::EnvirQueryInt(ENV_VALUE_CREATE_GUILD_GOLD);
+	if (!CapitalModule::m_pCapitalModule->CanDecCapital(pKernel, self, CAPITAL_GOLD, (__int64)nCostGold))
     {
 		CustomSysInfo(pKernel, self, SYSTEM_INFO_ID_17607, CVarList());
         return false;
@@ -1597,7 +1573,8 @@ bool GuildModule::CheckFireLimit(IKernel* pKernel, const PERSISTID& self)
 
 	// 检查是否已到踢人的最大限制
 	int nFireNum = pPubDate->QueryAttrInt("FireNum");
-	if (nFireNum >= m_GuildCreateConfig.m_nFireLimit)
+	int nMaxFireNum = EnvirValueModule::EnvirQueryInt(ENV_VALUE_MAX_FIRE_NUM);
+	if (nFireNum >= nMaxFireNum)
 	{
 		return false;
 	}

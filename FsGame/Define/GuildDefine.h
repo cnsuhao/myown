@@ -247,7 +247,7 @@ enum
 enum
 {
 	GUILD_SORT_REC_COL_NAME = 0,                      // 公会名称 VTYPE_WIDESTR
-	GUILD_SORT_REC_COL_NATION,                        // 公会所属国家 VTYPE_INT
+	//GUILD_SORT_REC_COL_NATION,                        // 公会所属国家 VTYPE_INT
 	GUILD_SORT_REC_COL_COUNT,
 };
 

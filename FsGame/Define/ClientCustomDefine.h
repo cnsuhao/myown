@@ -183,6 +183,8 @@ enum
 	//使用道具进入副本
 	CLIENT_CUSTOMMSG_ITEM_SCENE = 801,
 
+	// 查询boss数据
+	CLIENT_CUSTOMMSG_QUERY_BOSS_INFO,
 #pragma endregion
 
 #pragma region //SceneBaseModule(1001-1100)
@@ -288,6 +290,16 @@ enum
 #pragma region //OPActivity运营活动(1501-1600)
 #pragma endregion
 
+#pragma region //CampaignModule玩法(1601-1800)
+	// 比武场消息
+	CLIENT_CUSTOMMSG_ARENA_MSG = 1601,
+
+	// 世界BOSS活动相关消息
+	CLIENT_CUSTOMMSG_WORLD_BOSS_ACTIVE,
+
+	// 修罗战场活动
+	CLIENT_CUSTOMMSG_ASURA_BATTLE,
+#pragma endregion
 // 消息不能超过2048
 };
 

@@ -17,6 +17,8 @@
 #include "Domain_Look.h"
 #include "Domain_Friend.h"
 #include "Domain_Team.h"
+#include "Domain_Boss.h"
+#include "Domain_WorldBoss.h"
 
 DomainManager* DomainManager::m_pInstance = NULL;
 
@@ -72,6 +74,12 @@ int DomainManager::OnPublicStart(IPubKernel* pPubKernel)
 	m_mapDataList[pDomainData->GetDomainName(pPubKernel)] = pDomainData;
 
 	pDomainData = NEW Domain_Team();
+	m_mapDataList[pDomainData->GetDomainName(pPubKernel)] = pDomainData;
+
+	pDomainData = NEW Domain_Boss();
+	m_mapDataList[pDomainData->GetDomainName(pPubKernel)] = pDomainData;
+
+	pDomainData = NEW Domain_WorldBoss();
 	m_mapDataList[pDomainData->GetDomainName(pPubKernel)] = pDomainData;
 
 	EnvirValue::Init(pPubKernel);

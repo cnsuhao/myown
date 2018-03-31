@@ -131,7 +131,7 @@ bool RewardModule::TryRewardPlayer(IKernel *pKernel, const PERSISTID &player, in
 		return true;
 	}
 
-	const AwardEx *award = QueryAwardById(nAwardId);
+	const AwardEx *award = m_pRewardInstance->QueryAwardById(nAwardId);
 	if (NULL == award)
 	{
 		return false;
@@ -139,7 +139,7 @@ bool RewardModule::TryRewardPlayer(IKernel *pKernel, const PERSISTID &player, in
 	// 看看背包能否放下
 	int nBindState = FunctionEventModule::GetItemBindState(award->srcFunctionId);
 	// 背包放不下,直接失败
-	if (!CanPutInToolBox(pKernel, player, award->items, nBindState) && operation_on_full == REWARD_FAILED_ON_FULL)
+	if (!m_pRewardInstance->CanPutInToolBox(pKernel, player, award->items, nBindState) && operation_on_full == REWARD_FAILED_ON_FULL)
 	{
 		return false;
 	}
@@ -155,7 +155,7 @@ bool RewardModule::RewardPlayerById(IKernel *pKernel, const PERSISTID &player,
 {
 	// 直接发邮件
 	IGameObj* pDcObj = pKernel->GetGameObj(player);
-	const AwardEx* award = QueryAwardById(nRewardId);
+	const AwardEx* award = m_pRewardInstance->QueryAwardById(nRewardId);
 	if (NULL == pDcObj || NULL == award)
 	{
 		return false;
@@ -196,13 +196,13 @@ bool RewardModule::RewardPlayerById(IKernel *pKernel, const PERSISTID &player,
 // 通过邮件发奖励给玩家
 bool RewardModule::RewardViaMail(IKernel *pKernel, const wchar_t *role_name, int nAwardId, const IVarList &mail_param, const wchar_t *sender_name /*= L""*/)
 {
-	const AwardEx* pAwardData = QueryAwardById(nAwardId);
+	const AwardEx* pAwardData = m_pRewardInstance->QueryAwardById(nAwardId);
 	if (NULL == pAwardData)
 	{
 		return false;
 	}
 
-	return InnerRewardViaMail(pKernel, role_name, pAwardData, mail_param, sender_name);
+	return m_pRewardInstance->InnerRewardViaMail(pKernel, role_name, pAwardData, mail_param, sender_name);
 }
 
 // 将奖励物品串解析为奖励数据
@@ -279,12 +279,12 @@ bool RewardModule::RewardPlayer(IKernel *pKernel, const PERSISTID &player, const
 	if (REWARD_MAIL == operation_on_full)
 	{
 		// 通过邮件发给玩家
-		return InnerRewardViaMail(pKernel, pDcObj->QueryWideStr("Name"), award, mail_param);
+		return m_pRewardInstance->InnerRewardViaMail(pKernel, pDcObj->QueryWideStr("Name"), award, mail_param);
 	}
 
 	// 看看背包能否放下
 	int nBindState = FunctionEventModule::GetItemBindState(award->srcFunctionId);
-	if (!CanPutInToolBox(pKernel, player, award->items, nBindState))
+	if (!m_pRewardInstance->CanPutInToolBox(pKernel, player, award->items, nBindState))
 	{
 		// 背包放不下,直接失败
 		if (operation_on_full == REWARD_FAILED_ON_FULL)
@@ -298,17 +298,17 @@ bool RewardModule::RewardPlayer(IKernel *pKernel, const PERSISTID &player, const
 		::CustomSysInfo(pKernel, player, SYSTEM_INFO_ID_7010, CVarList());
 
 		// 背包无法放下, 只能通过邮件发给玩家
-		InnerRewardViaMail(pKernel, pDcObj->QueryWideStr("Name"), award, mail_param);
+		m_pRewardInstance->InnerRewardViaMail(pKernel, pDcObj->QueryWideStr("Name"), award, mail_param);
 		// 把经验加给玩家
 		if (!award->exps.empty())
 		{
-			AddExp(pKernel, player, award->exps, award->srcFunctionId);
+			m_pRewardInstance->AddExp(pKernel, player, award->exps, award->srcFunctionId);
 		}
 	}
 	else
 	{
 		// 直接奖励给玩家
-		InnerRewardDirectly(pKernel, player, award);
+		m_pRewardInstance->InnerRewardDirectly(pKernel, player, award);
 	}
 
 	return true;

@@ -319,7 +319,7 @@ public:
 	* @param	killer 击杀者(为空时,返回的列表中带有击杀者)
 	* @return	bool 是否查询成功
 	*/
-//	bool GetAttackerList(IKernel* pKernel, IVarList& outAttackerList, const PERSISTID& self, const PERSISTID& killer);
+	bool GetAttackerList(IKernel* pKernel, IVarList& outAttackerList, const PERSISTID& self, const PERSISTID& killer);
 	#pragma endregion
 protected:
 private:

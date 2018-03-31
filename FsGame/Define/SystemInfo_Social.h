@@ -111,7 +111,7 @@ enum SystemInfo_Social
 	SYSTEM_INFO_ID_17601 = 17601,	// 该帮会人数已达上限
 	SYSTEM_INFO_ID_17602,			// 该职位人数已达上限，职位变动失败
 	SYSTEM_INFO_ID_17603,			// 帮会名称包含特殊符号或非法字符
-	SYSTEM_INFO_ID_17604,			// 此功能{0}级开放
+	SYSTEM_INFO_ID_17604,			// 公会未开启
 	SYSTEM_INFO_ID_17605,			// 玩家已加入帮会
 	SYSTEM_INFO_ID_17606,			// 帮会名称字符超限
 	SYSTEM_INFO_ID_17607,			// 元宝不足

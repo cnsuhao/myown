@@ -164,15 +164,22 @@
     <ClInclude Include="Analytics\IGameAnalyticsCollector.h" />
     <ClInclude Include="Analytics\SensorsAnalyticsCollectorEx.h" />
     <ClInclude Include="Analytics\SensorsAnalyticsDef.h" />
+    <ClInclude Include="Campaign\ArenaModule.h" />
+    <ClInclude Include="Campaign\CampaignAsuraBattle.h" />
+    <ClInclude Include="Campaign\CampaignBase.h" />
+    <ClInclude Include="Campaign\CampaignModule.h" />
+    <ClInclude Include="Campaign\WorldBossNpc.h" />
     <ClInclude Include="CommonModule\CommRuleDefine.h" />
     <ClInclude Include="CommonModule\CommRuleModule.h" />
     <ClInclude Include="CommonModule\FunctionEventModule.h" />
     <ClInclude Include="CommonModule\ReLoadConfigModule.h" />
     <ClInclude Include="CommonModule\SwitchManagerModule.h" />
+    <ClInclude Include="Define\ArenaModuleDefine.h" />
     <ClInclude Include="Define\BattleAbilityDefine.h" />
     <ClInclude Include="Define\Classes.h" />
     <ClInclude Include="Define\ExtraServerDefine.h" />
     <ClInclude Include="Define\Fields.h" />
+    <ClInclude Include="Define\FightNpcDefine.h" />
     <ClInclude Include="Define\FriendDefine.h" />
     <ClInclude Include="Define\FriendMsgDefine.h" />
     <ClInclude Include="Define\FunctionEventDefine.h" />
@@ -180,6 +187,7 @@
     <ClInclude Include="Define\GuildMsgDefine.h" />
     <ClInclude Include="Define\InternalFields.h" />
     <ClInclude Include="Define\JadeDefine.h" />
+    <ClInclude Include="Define\OffLineDefine.h" />
     <ClInclude Include="Define\PKModelDefine.h" />
     <ClInclude Include="Define\PlayerBaseDefine.h" />
     <ClInclude Include="Define\RequestDefine.h" />
@@ -265,6 +273,7 @@
     <ClInclude Include="..\SDK\dumpstack\DumpStack.h" />
     <ClInclude Include="..\SDK\dumpstack\StackWalker.h" />
     <ClInclude Include="Define\WingDefine.h" />
+    <ClInclude Include="Define\WorldBossNpcDefine.h" />
     <ClInclude Include="EquipmentModule\ApperanceDefine.h" />
     <ClInclude Include="EquipmentModule\ApperanceModule.h" />
     <ClInclude Include="EquipmentModule\EquipBaptiseDefine.h" />
@@ -285,6 +294,7 @@
     <ClInclude Include="ItemModule\JadeModule.h" />
     <ClInclude Include="NpcBaseModule\AI\Rule\Escape\AIREscapeBase.h" />
     <ClInclude Include="NpcBaseModule\AI\Template\AITNormalFight.h" />
+    <ClInclude Include="NpcBaseModule\BossRefreshModule.h" />
     <ClInclude Include="NpcBaseModule\NpcBaseModule.h" />
     <ClInclude Include="NpcBaseModule\NpcCreatorModule.h" />
     <ClInclude Include="NpcBaseModule\AI\AIDefine.h" />
@@ -349,6 +359,7 @@
     <ClInclude Include="SkillModule\PassiveSkillModifyPack.h" />
     <ClInclude Include="SkillModule\PassiveSkillSystem.h" />
     <ClInclude Include="SkillModule\PKModelModule.h" />
+    <ClInclude Include="SkillModule\PVPRecAttacker.h" />
     <ClInclude Include="SkillModule\SceneAttackManage.h" />
     <ClInclude Include="SkillModule\Skillmodule.h" />
     <ClInclude Include="SkillModule\Impl\SkillStage.h" />
@@ -383,6 +394,7 @@
     <ClInclude Include="SystemFunctionModule\CapitalModule.h" />
     <ClInclude Include="SystemFunctionModule\ChannelModule.h" />
     <ClInclude Include="SystemFunctionModule\CoolDownModule.h" />
+    <ClInclude Include="SystemFunctionModule\CopyOffLineModule.h" />
     <ClInclude Include="SystemFunctionModule\CreateRoleModule.h" />
     <ClInclude Include="SystemFunctionModule\DropModule.h" />
     <ClInclude Include="SystemFunctionModule\EnergyModule.h" />
@@ -452,6 +464,11 @@
     <ClCompile Include="..\SDK\dumpstack\DumpStack.cpp" />
     <ClCompile Include="..\SDK\dumpstack\StackWalker.cpp" />
     <ClCompile Include="Analytics\SensorsAnalyticsCollectorEx.cpp" />
+    <ClCompile Include="Campaign\ArenaModule.cpp" />
+    <ClCompile Include="Campaign\CampaignAsuraBattle.cpp" />
+    <ClCompile Include="Campaign\CampaignModule.cpp" />
+    <ClCompile Include="Campaign\WorldBossNpc.cpp" />
+    <ClCompile Include="Campaign\WorldBossNpcConfig.cpp" />
     <ClCompile Include="CommonModule\CommRuleModule.cpp" />
     <ClCompile Include="CommonModule\FunctionEventModule.cpp" />
     <ClCompile Include="CommonModule\ReLoadConfigModule.cpp" />
@@ -469,6 +486,7 @@
     <ClCompile Include="ItemModule\JadeModule.cpp" />
     <ClCompile Include="NpcBaseModule\AI\Rule\Escape\AIREscapeBase.cpp" />
     <ClCompile Include="NpcBaseModule\AI\Template\AITNormalFight.cpp" />
+    <ClCompile Include="NpcBaseModule\BossRefreshModule.cpp" />
     <ClCompile Include="NpcBaseModule\NpcBaseModule.cpp" />
     <ClCompile Include="NpcBaseModule\NpcCreatorModule.cpp" />
     <ClCompile Include="NpcBaseModule\AI\AIFunction.cpp" />
@@ -536,6 +554,7 @@
     <ClCompile Include="SkillModule\PassiveSkillModifyPack.cpp" />
     <ClCompile Include="SkillModule\PassiveSkillSystem.cpp" />
     <ClCompile Include="SkillModule\PKModelModule.cpp" />
+    <ClCompile Include="SkillModule\PVPRecAttacker.cpp" />
     <ClCompile Include="SkillModule\SceneAttackManage.cpp" />
     <ClCompile Include="SkillModule\Skillmodule.cpp" />
     <ClCompile Include="SkillModule\Impl\SkillStage.cpp" />
@@ -577,6 +596,7 @@
     <ClCompile Include="SystemFunctionModule\CapitalModule.cpp" />
     <ClCompile Include="SystemFunctionModule\ChannelModule.cpp" />
     <ClCompile Include="SystemFunctionModule\CoolDownModule.cpp" />
+    <ClCompile Include="SystemFunctionModule\CopyOffLineModule.cpp" />
     <ClCompile Include="SystemFunctionModule\CreateRoleModule.cpp" />
     <ClCompile Include="SystemFunctionModule\DropModule.cpp" />
     <ClCompile Include="SystemFunctionModule\EnergyModule.cpp" />

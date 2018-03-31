@@ -46,6 +46,15 @@
     <Filter Include="Domain\Team">
       <UniqueIdentifier>{05c4842a-fa78-4097-ae3a-0072d8f416fe}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Domain\Boss">
+      <UniqueIdentifier>{a523e80e-f2db-4929-8eea-160d442c2a9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain\WorldBoss">
+      <UniqueIdentifier>{59e1cb3b-35e4-4e74-b5bf-686b50e45c0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain\Campaign">
+      <UniqueIdentifier>{24f70a2c-9cb2-45ee-a281-2b11019ad15f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Public\IPubLogic.h">
@@ -192,6 +201,21 @@
     <ClInclude Include="..\FsGame\SocialSystemModule\GuildHelper.h">
       <Filter>Guild</Filter>
     </ClInclude>
+    <ClInclude Include="Guild\GuildNumManage.h">
+      <Filter>Guild</Filter>
+    </ClInclude>
+    <ClInclude Include="Domain\Domain_Boss.h">
+      <Filter>Domain\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Domain\Domain_WorldBoss.h">
+      <Filter>Domain\WorldBoss</Filter>
+    </ClInclude>
+    <ClInclude Include="Domain\Campaign\DomainCampaign.h">
+      <Filter>Domain\Campaign</Filter>
+    </ClInclude>
+    <ClInclude Include="Domain\Campaign\DomainCampaignBase.h">
+      <Filter>Domain\Campaign</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\utils\custom_func.cpp">
@@ -292,6 +316,21 @@
     </ClCompile>
     <ClCompile Include="..\FsGame\SocialSystemModule\GuildHelper.cpp">
       <Filter>Guild</Filter>
+    </ClCompile>
+    <ClCompile Include="Guild\GuildNumManage.cpp">
+      <Filter>Guild</Filter>
+    </ClCompile>
+    <ClCompile Include="Domain\Domain_Boss.cpp">
+      <Filter>Domain\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Domain\Domain_WorldBoss.cpp">
+      <Filter>Domain\WorldBoss</Filter>
+    </ClCompile>
+    <ClCompile Include="Domain\Campaign\DomainCampaign.cpp">
+      <Filter>Domain\Campaign</Filter>
+    </ClCompile>
+    <ClCompile Include="Domain\Campaign\DomainCampaignBase.cpp">
+      <Filter>Domain\Campaign</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

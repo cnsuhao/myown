@@ -103,6 +103,22 @@ enum //Scene->Pub
 	SP_DOMAIN_MSG_TEAM_MATCH_INFO,
 	//玩家下线
 	SP_DOMAIN_MSG_TEAM_PLAYER_STORE,
+	// 比武场
+	SP_DOMAIN_MSG_ARENA,
+	// 野外boss状态改变 格式：string "domain", wstring L"Domain_SceneInfo_serverid", int msgid, string bossid, int nState (为1,表示boss存在)
+	SP_DOMAIN_MSG_SCENE_BOSS_STATE,
+	// 世界BOSS相关
+	SP_WORLD_BOSS_MSG_STATUS,
+	// 查询加载数据所属玩家的uid 格式：string "domain", wstring L"Domain_Offline_serverid", int msgid, int nLevel, int nSceneId, PERSISTID npc, int nGroupId, int nNation
+	SP_OFFLINE_MSG_QUERY_PLAYER_UID,
+	// 清除副本离线玩家数据记录表 格式：string "domain", wstring L"Domain_Offline_serverid", int msgid, int nSceneId, int nGroupId
+	SP_OFFLINE_MSG_CLEAR_GROUP_REC,
+	// 清除某一条离线玩家数据记录表的数据 格式：string "domain", wstring L"Domain_Offline_serverid", int msgid, int nSceneId, int nGroupId,PERSISTID obj
+	SP_OFFLINE_MSG_CLEAR_GROUP_REC_ONE_ROW,
+	// 活动状态改变消息 string "domain", wstring L"Domain_Campaign_serverid", int msgid, int nCampaignId,int nState
+	SP_DOMAIN_MSG_CAMPAIGN_GM_CHANGE_STATE,
+	// 活动提前结束 string "domain", wstring L"Domain_Campaign_serverid", int msgid, int nCampaignType
+	SP_DOMAIN_MSG_CAMPAIGN_END,
 };
 
 // 公会相关消息（场景服与公共服间的通讯消息）
@@ -144,7 +160,8 @@ enum
 	SP_GUILD_BUILDING_LEVEL_ADD_EXP,		//建筑增加经验
 	SP_GUILD_NUM_BUY,						//购买公会数值
 	SP_GUILD_SKILL_LVUP_OPERATE,				//开始研究技能
-
+	SP_GUILD_GET_JIAN_KANG_DU_GIF,			//领取健康度礼包
+									
 	///////////////////////////////////////////////////////////////////////////
 	// pub_server -> scene_server  300~399
 	///////////////////////////////////////////////////////////////////////////
@@ -170,6 +187,8 @@ enum
 	PS_GUILD_MSG_MODIFY_DEVOTE,             // 通知修改了个人剩余贡献值
 	PS_GUILD_MSG_BUY_ITEM,                  // 通知购买商品扣除贡献值结果
 	PS_GUILD_NUM_CHANGE,				    // 帮会资金变动
+	PS_GUILD_JIAN_KANG_DU_GIF,				//健康度礼包
+	PS_GUILD_NUM_BUY,						//组织数值购买
 };
 
 //DOMAIN服务器下传消息定义 400~499
@@ -209,6 +228,15 @@ enum //Pub->Scene
 
 	//通知队伍增加成员  格式： string "domain", wstring L"Domain_Team", int msgid, wstring member_name, wstring player_name, int nTeamID(加入的member_name角色需要此信息)
 	PS_DOMAIN_SERVERMSG_TEAM_ADD_MEMBER,
+
+	// 竞技场消息
+	PS_DOMAIN_MSG_ARENA,
+
+	// 返回找到的playeruid
+	PS_OFFLINE_MSG_FINDED_PLAYER_UID,
+
+	// 活动状态改变  格式:wstring L"Domain_Prisoner_serverid", int msgid, int state, int gametype, int scenenum, int scene1,int scene2..
+	PS_DOMAIN_MSG_CAMPAIGN_STATE,
 };
 
 // 公会相关操作结果

@@ -429,7 +429,7 @@ void GuildBaseManager::DancingGirlReset(IPubKernel* pPubKernel, const char* spac
 		int girlSate = pGuildSetList->QueryInt(i, GUILD_SET_REC_COL_DANCING_GIRL);
 		if (girlSate == 0)
 		{
-			//GuildNumManage::m_pInstance->DecJianKangDu(guildName.c_str(), GUILD_NUM_CHANGE_NOT_OPEN_GUILD_ACTIVITY);
+			GuildNumManage::m_pInstance->DecJianKangDu(guildName.c_str(), GUILD_NUM_CHANGE_NOT_OPEN_GUILD_ACTIVITY);
 		}
 
 		pGuildSetList->SetInt(i, GUILD_SET_REC_COL_DANCING_GIRL, 0);
@@ -1253,11 +1253,11 @@ int GuildBaseManager::OnChangeNotice(IPubKernel* pPubKernel, const wchar_t* guil
 	const wchar_t* text = args.WideStrVal(5);
 
 	int spend = EnvirValue::EnvirQueryInt(ENV_VALUE_CHANGE_ANNOUNCEMENT);
-// 	if (!GuildNumManage::m_pInstance->CanDecGuildNumValue(guildName, GUILD_NUM_TYPE::GUILD_NUM_CAPITAL, spend))
-// 	{
-// 		SendRequestResult(pPubKernel, sourceId, sceneId, guildName, playerName, PS_GUILD_MSG_CHANGE_NOTICE, GUILD_MSG_REQ_FAIL);
-// 		return 0;
-// 	}
+	if (!GuildNumManage::m_pInstance->CanDecGuildNumValue(guildName, GUILD_NUM_TYPE::GUILD_NUM_CAPITAL, spend))
+	{
+		SendRequestResult(pPubKernel, sourceId, sceneId, guildName, playerName, PS_GUILD_MSG_CHANGE_NOTICE, GUILD_MSG_REQ_FAIL);
+		return 0;
+	}
 
 
 	CVarList notice;
@@ -1269,7 +1269,7 @@ int GuildBaseManager::OnChangeNotice(IPubKernel* pPubKernel, const wchar_t* guil
 		return 0;
 	}
 
-	//GuildNumManage::m_pInstance->DecGuildNumValue(guildName, GUILD_NUM_TYPE::GUILD_NUM_CAPITAL, spend, GUILD_NUM_CHANGE::GUILD_NUM_CHANGE_CHANGE_GUILD_NOTIFY, playerName);
+	GuildNumManage::m_pInstance->DecGuildNumValue(guildName, GUILD_NUM_TYPE::GUILD_NUM_CAPITAL, spend, GUILD_NUM_CHANGE::GUILD_NUM_CHANGE_CHANGE_GUILD_NOTIFY, playerName);
 
 	CVarList msg;
 	msg << PUBSPACE_GUILD << GUILD_LOGIC << PS_GUILD_MSG_CHANGE_NOTICE
@@ -1571,12 +1571,12 @@ int GuildBaseManager::OnDonate(IPubKernel* pPubKernel, const wchar_t* guildName,
 	}
 
 	// 策划要求去除捐献最大值判断， 超出在AddGuildNumValue会自动取最大值 [12/1/2017 lihailuo]
-	//if (!GuildNumManage::m_pInstance->CanAddGuildNumValue(guildName, GUILD_NUM_TYPE::GUILD_NUM_CAPITAL))
-	//{
-	//
-	//	SendGuildDonate(pPubKernel, sourceId, sceneId, guildName, playerName, GUILD_MSG_REQ_FAIL, CVarList() << donateValue << addSelfGuildCurrency);
-	//	return 0;
-	//}
+	if (!GuildNumManage::m_pInstance->CanAddGuildNumValue(guildName, GUILD_NUM_TYPE::GUILD_NUM_CAPITAL))
+	{
+
+		SendGuildDonate(pPubKernel, sourceId, sceneId, guildName, playerName, GUILD_MSG_REQ_FAIL, CVarList() << donateValue << addSelfGuildCurrency);
+		return 0;
+	}
 
 
 
@@ -1614,7 +1614,7 @@ int GuildBaseManager::OnDonate(IPubKernel* pPubKernel, const wchar_t* guildName,
 		return 0;
 	}
 	
-	//GuildNumManage::m_pInstance->AddGuildNumValue(guildName, GUILD_NUM_TYPE::GUILD_NUM_CAPITAL, guildCaptial, GUILD_NUM_CHANGE_DONATE, playerName);
+	GuildNumManage::m_pInstance->AddGuildNumValue(guildName, GUILD_NUM_TYPE::GUILD_NUM_CAPITAL, guildCaptial, GUILD_NUM_CHANGE_DONATE, playerName);
 
 	
 	
@@ -1622,10 +1622,10 @@ int GuildBaseManager::OnDonate(IPubKernel* pPubKernel, const wchar_t* guildName,
 	maxDevoteSilver += donateValue;
 	guildMemberRecord->SetInt(memberRow, GUILD_MEMBER_REC_COL_DEVOTE_SILVER, maxDevoteSilver);
 
-	/*CVarList msg;
+	CVarList msg;
 	msg << PUBSPACE_GUILD << GUILD_LOGIC << PS_GUILD_NUM_CHANGE
 		<< playerName << GUILD_NUM_TYPE::GUILD_NUM_CAPITAL << GuildNumManage::m_pInstance->GetGuildNumValue(guildName, GUILD_NUM_TYPE::GUILD_NUM_CAPITAL);
-	pPubKernel->SendPublicMessage(sourceId, sceneId, msg);*/
+	pPubKernel->SendPublicMessage(sourceId, sceneId, msg);
 
 	SendGuildDonate(pPubKernel, sourceId, sceneId, guildName, playerName, GUILD_MSG_REQ_SUCC, CVarList() << donateValue << addSelfGuildCurrency);
 
@@ -2221,7 +2221,7 @@ void GuildBaseManager::OnSetGuildShortName(IPubKernel* pPubKernel, const wchar_t
 	const wchar_t* guildShortName = args.WideStrVal(3);
 	const wchar_t* playerName = args.WideStrVal(4);
 	int spend = 0;// EnvirValue::EnvirQueryInt(ENV_VALUE_CHANGE_SHORT_NAME);
-	bool ret = true;//GuildNumManage::m_pInstance->CanDecGuildNumValue(guildName, GUILD_NUM_TYPE::GUILD_NUM_CAPITAL, spend);
+	bool ret = GuildNumManage::m_pInstance->CanDecGuildNumValue(guildName, GUILD_NUM_TYPE::GUILD_NUM_CAPITAL, spend);
 
 	if (!ret)
 	{
@@ -2249,7 +2249,7 @@ void GuildBaseManager::OnSetGuildShortName(IPubKernel* pPubKernel, const wchar_t
 	}
 	
 	pGuildSymbol->SetWideStr(row, GUILD_SYSMBOL_REC_COL_SHORT_NAME, guildShortName);
-	//GuildNumManage::m_pInstance->DecGuildNumValue(guildName, GUILD_NUM_TYPE::GUILD_NUM_CAPITAL, spend, GUILD_NUM_CHANGE::GUILD_NUM_CHANGE_CHANGE_SHORT_NAME, playerName);
+	GuildNumManage::m_pInstance->DecGuildNumValue(guildName, GUILD_NUM_TYPE::GUILD_NUM_CAPITAL, spend, GUILD_NUM_CHANGE::GUILD_NUM_CHANGE_CHANGE_SHORT_NAME, playerName);
 	SendChangeGuildShortNameResult(pPubKernel, sourceId, sceneId, guildName,playerName, GUILD_MSG_REQ_SUCC);
 
 }
@@ -3597,7 +3597,7 @@ void GuildBaseManager::RefreshGuildFightAbility(IPubKernel * pPubKernel, const w
 	
 	CVarList update_msg;
 				    
-	int nBoom = 1;// GuildNumManage::m_pInstance->GetGuildNumValue(guildName, GUILD_NUM_FANRONGDU);
+	int nBoom = GuildNumManage::m_pInstance->GetGuildNumValue(guildName, GUILD_NUM_FANRONGDU);
 	int nLevel = 1;// GuildBuildingManage::m_pInstance->GetBuildingLevel(guildName, GUILD_BUILDING_TYPE::BUILD_BUILDING_TYPE_SHU_YUAN);
 
 	int target_ident = 0;

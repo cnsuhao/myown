@@ -30,6 +30,7 @@
 #include "Define/Classes.h"
 #include "Define/BattleAbilityDefine.h"
 #include "SkillModule/PassiveSkillSystem.h"
+#include "SkillModule/PVPRecAttacker.h"
 
 const char* const NPC_PROPERTY_NORMAL_ATTACK_ID = "NormalAttackID";	//临时定义
 
@@ -512,12 +513,11 @@ bool FightInterface::RemoveSkill(IKernel* pKernel, const PERSISTID& self, const 
 * @param	killer 击杀者(为空时,返回的列表中带有击杀者)
 * @return	bool 是否查询成功
 */
-//bool FightInterface::GetAttackerList(IKernel* pKernel, IVarList& outAttackerList, const PERSISTID& self, const PERSISTID& killer)
-// {
-// 	if (!pKernel->Exists(self))
-// 	{
-// 		return false;
-// 	}
-// 	return true;
-// 	return PVPRecAttackerSingleton::Instance()->GetAttackerList(pKernel, outAttackerList, self, killer);
-// }
+bool FightInterface::GetAttackerList(IKernel* pKernel, IVarList& outAttackerList, const PERSISTID& self, const PERSISTID& killer)
+{
+	if (!pKernel->Exists(self))
+	{
+		return false;
+	}
+	return PVPRecAttackerSingleton::Instance()->GetAttackerList(pKernel, outAttackerList, self, killer);
+}

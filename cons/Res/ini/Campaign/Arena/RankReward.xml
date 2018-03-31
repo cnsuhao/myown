@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<Object>
+	<Property ID="1" RankList="arena_rank_list" LowerLevel="15" UpperLevel="999" Title="UI230025" LowerRank="1" UpperRank="1" Capital="CapitalCopper:100000,CapitalBattleSoul:800" Item="Item2010001:20,Item9020011:1"/>
+	<Property ID="2" RankList="arena_rank_list" LowerLevel="15" UpperLevel="999" Title="UI230026" LowerRank="10" UpperRank="2" Capital="CapitalCopper:65000,CapitalBattleSoul:500" Item="Item2010001:15"/>
+	<Property ID="3" RankList="arena_rank_list" LowerLevel="15" UpperLevel="999" Title="UI230027" LowerRank="100" UpperRank="11" Capital="CapitalCopper:40000,CapitalBattleSoul:300" Item="Item2010001:12"/>
+	<Property ID="4" RankList="arena_rank_list" LowerLevel="15" UpperLevel="999" Title="UI230028" LowerRank="500" UpperRank="101" Capital="CapitalCopper:25000,CapitalBattleSoul:200" Item="Item2010001:10"/>
+	<Property ID="5" RankList="arena_rank_list" LowerLevel="15" UpperLevel="999" Title="UI230029" LowerRank="1000" UpperRank="501" Capital="CapitalCopper:22000,CapitalBattleSoul:100" Item="Item2010001:8"/>
+	<Property ID="6" RankList="arena_rank_list" LowerLevel="15" UpperLevel="999" Title="UI230030" LowerRank="5000" UpperRank="1001" Capital="CapitalCopper:10000,CapitalBattleSoul:80" Item="Item2010001:5"/>
+	<Property ID="7" RankList="arena_rank_list" LowerLevel="15" UpperLevel="999" Title="UI230031" LowerRank="99999" UpperRank="5001" Capital="CapitalCopper:5000,CapitalBattleSoul:50" Item="Item2010001:5"/>
+</Object>

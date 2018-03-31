@@ -1,0 +1,8 @@
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!--MinNum:最小人数 MaxNum:最大人数 AddScore:增加的积分-->
+<Object>
+	<Property ID="1" MinNum="1" MaxNum="3" AddScore="2000"/>
+	<Property ID="2" MinNum="4" MaxNum="10" AddScore="1000"/>
+	<Property ID="3" MinNum="11" MaxNum="25" AddScore="400"/>
+	<Property ID="4" MinNum="26" MaxNum="9999" AddScore="300"/>
+</Object>

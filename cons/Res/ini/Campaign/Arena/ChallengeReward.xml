@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Object>
+<Property ID="1" LowerLevel="15" UpperLevel="999" WinnerExp="2376+144*@Level" WinnerCapital="CapitalBattleSoul:10" LoserExp="1188+72*@Level" LoserCapital="CapitalBattleSoul:5"/>
+</Object>

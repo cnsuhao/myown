@@ -1,0 +1,8 @@
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!--BuffId:购买的buff CapitalNum:货币数量 CapitalType:货币类型-->
+<Object>
+	<Property ID="1" BuffId="Buff_ShuraPVP_004" CapitalNum="500" CapitalType="7"/>
+	<Property ID="2" BuffId="Buff_ShuraPVP_006" CapitalNum="500" CapitalType="7"/>
+	<Property ID="3" BuffId="Buff_ShuraPVP_003" CapitalNum="1000" CapitalType="7"/>
+	<Property ID="4" BuffId="Buff_ShuraPVP_005" CapitalNum="1000" CapitalType="7"/>
+</Object>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!--EndRankLNum：结束时排名最大显示玩家数 ReadyTime 准备时间 BornCGTime：出生后播放CG时间 LeaveSceneDelay：结束后离开场景延迟时间 ActiveRankNum:活动中实时排行人数 （时间单位都是秒）-->
+<Object>
+	<Property EndRankLNum="20" ReadyTime="20" BornCGTime="10" LeaveSceneDelay="60" ActiveRankNum="5"/>
+</Object>

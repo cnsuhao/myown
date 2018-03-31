@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 世界BOSS配置 -->
+<!-- Week-星期日-星期六 0 1 2 3 4 5 6-->
+<!-- 大于等于，小于 -->
+<Object>
+	<ActiveModel>
+		<Property BossID="Monster_WB_02">
+			<LastHurtAward>
+				<Property Copper="1000000" Silver="" Smelt="" Exp="" ItemList="" desc="最后一刀"/>
+			</LastHurtAward>
+			<WinRankAward>
+				<Property MinRank="1" MaxRank="1" Copper="87500" Silver="0" Smelt="0" Exp="0" ItemList="Item8850001:5,Item_petskill_low:3,Item_xiake_baoxiang:2" desc="击杀排名"/>
+				<Property MinRank="2" MaxRank="3" Copper="65500" Silver="0" Smelt="0" Exp="0" ItemList="Item8850001:4,Item_petskill_low:2,Item_xiake_baoxiang:2" desc="击杀排名"/>
+				<Property MinRank="4" MaxRank="10" Copper="44000" Silver="0" Smelt="0" Exp="0" ItemList="Item8850001:3,Item_petskill_low:2,Item_xiake_baoxiang:1" desc="击杀排名"/>
+				<Property MinRank="11" MaxRank="100" Copper="35000" Silver="0" Smelt="0" Exp="0" ItemList="Item8850001:2,Item_petskill_low:1,Item_xiake_baoxiang:1" desc="击杀排名"/>
+				<Property MinRank="101" MaxRank="9999" Copper="22000" Silver="0" Smelt="0" Exp="0" ItemList="Item8850001:1,Item_petskill_low:1" desc="击杀排名"/>
+			</WinRankAward>
+			<FailRankAward>
+				<Property MinRank="1" MaxRank="1" Copper="43750" Silver="0" Smelt="0" Exp="0" ItemList="Item8850001:5,Item_petskill_low:3" desc="未击杀排名"/>
+				<Property MinRank="2" MaxRank="3" Copper="32750" Silver="0" Smelt="0" Exp="0" ItemList="Item8850001:4,Item_petskill_low:2" desc="未击杀排名"/>
+				<Property MinRank="4" MaxRank="10" Copper="22000" Silver="0" Smelt="0" Exp="0" ItemList="Item8850001:3,Item_petskill_low:2" desc="未击杀排名"/>
+				<Property MinRank="11" MaxRank="100" Copper="17500" Silver="0" Smelt="0" Exp="0" ItemList="Item8850001:2,Item_petskill_low:1" desc="未击杀排名"/>
+				<Property MinRank="101" MaxRank="9999" Copper="11000" Silver="0" Smelt="0" Exp="0" ItemList="Item8850001:1,Item_petskill_low:1" desc="未击杀排名"/>
+			</FailRankAward>
+		</Property>
+		<Property BossID="Monster_WB_01">
+			<LastHurtAward>
+				<Property Copper="1000000" Silver="" Smelt="" Exp="" ItemList="" desc="最后一刀"/>
+			</LastHurtAward>
+			<WinRankAward>
+				<Property MinRank="1" MaxRank="1" Copper="87500" Silver="0" Smelt="0" Exp="0" ItemList="Item8850001:5,Item_petskill_low:3,Item_xiake_baoxiang:2" desc="击杀排名"/>
+				<Property MinRank="2" MaxRank="3" Copper="65500" Silver="0" Smelt="0" Exp="0" ItemList="Item8850001:4,Item_petskill_low:2,Item_xiake_baoxiang:2" desc="击杀排名"/>
+				<Property MinRank="4" MaxRank="10" Copper="44000" Silver="0" Smelt="0" Exp="0" ItemList="Item8850001:3,Item_petskill_low:2,Item_xiake_baoxiang:1" desc="击杀排名"/>
+				<Property MinRank="11" MaxRank="100" Copper="35000" Silver="0" Smelt="0" Exp="0" ItemList="Item8850001:2,Item_petskill_low:1,Item_xiake_baoxiang:1" desc="击杀排名"/>
+				<Property MinRank="101" MaxRank="9999" Copper="22000" Silver="0" Smelt="0" Exp="0" ItemList="Item8850001:1,Item_petskill_low:1" desc="击杀排名"/>
+			</WinRankAward>
+			<FailRankAward>
+				<Property MinRank="1" MaxRank="1" Copper="43750" Silver="0" Smelt="0" Exp="0" ItemList="Item8850001:5,Item_petskill_low:3" desc="未击杀排名"/>
+				<Property MinRank="2" MaxRank="3" Copper="32750" Silver="0" Smelt="0" Exp="0" ItemList="Item8850001:4,Item_petskill_low:2" desc="未击杀排名"/>
+				<Property MinRank="4" MaxRank="10" Copper="22000" Silver="0" Smelt="0" Exp="0" ItemList="Item8850001:3,Item_petskill_low:2" desc="未击杀排名"/>
+				<Property MinRank="11" MaxRank="100" Copper="17500" Silver="0" Smelt="0" Exp="0" ItemList="Item8850001:2,Item_petskill_low:1" desc="未击杀排名"/>
+				<Property MinRank="101" MaxRank="9999" Copper="11000" Silver="0" Smelt="0" Exp="0" ItemList="Item8850001:1,Item_petskill_low:1" desc="未击杀排名"/>
+			</FailRankAward>
+		</Property>
+		<Property BossID="Monster_WB_03">
+			<LastHurtAward>
+				<Property Copper="1000000" Silver="" Smelt="" Exp="" ItemList="" desc="最后一刀"/>
+			</LastHurtAward>
+			<WinRankAward>
+				<Property MinRank="1" MaxRank="1" Copper="87500" Silver="0" Smelt="0" Exp="0" ItemList="Item8850001:5,Item_petskill_low:3,Item_xiake_baoxiang:2" desc="击杀排名"/>
+				<Property MinRank="2" MaxRank="3" Copper="65500" Silver="0" Smelt="0" Exp="0" ItemList="Item8850001:4,Item_petskill_low:2,Item_xiake_baoxiang:2" desc="击杀排名"/>
+				<Property MinRank="4" MaxRank="10" Copper="44000" Silver="0" Smelt="0" Exp="0" ItemList="Item8850001:3,Item_petskill_low:2,Item_xiake_baoxiang:1" desc="击杀排名"/>
+				<Property MinRank="11" MaxRank="100" Copper="35000" Silver="0" Smelt="0" Exp="0" ItemList="Item8850001:2,Item_petskill_low:1,Item_xiake_baoxiang:1" desc="击杀排名"/>
+				<Property MinRank="101" MaxRank="9999" Copper="22000" Silver="0" Smelt="0" Exp="0" ItemList="Item8850001:1,Item_petskill_low:1" desc="击杀排名"/>
+			</WinRankAward>
+			<FailRankAward>
+				<Property MinRank="1" MaxRank="1" Copper="43750" Silver="0" Smelt="0" Exp="0" ItemList="Item8850001:5,Item_petskill_low:3" desc="未击杀排名"/>
+				<Property MinRank="2" MaxRank="3" Copper="32750" Silver="0" Smelt="0" Exp="0" ItemList="Item8850001:4,Item_petskill_low:2" desc="未击杀排名"/>
+				<Property MinRank="4" MaxRank="10" Copper="22000" Silver="0" Smelt="0" Exp="0" ItemList="Item8850001:3,Item_petskill_low:2" desc="未击杀排名"/>
+				<Property MinRank="11" MaxRank="100" Copper="17500" Silver="0" Smelt="0" Exp="0" ItemList="Item8850001:2,Item_petskill_low:1" desc="未击杀排名"/>
+				<Property MinRank="101" MaxRank="9999" Copper="11000" Silver="0" Smelt="0" Exp="0" ItemList="Item8850001:1,Item_petskill_low:1" desc="未击杀排名"/>
+			</FailRankAward>
+		</Property>
+	</ActiveModel>
+</Object>

@@ -1,0 +1,9 @@
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!--LowRank-HighRank:排名区间 RankReward:名次奖励-->
+<Object>
+	<Property ID="0" HighRank="1" LowRank="1" RankReward="CapitalExploit:400,Item3110001:8,Item_tianming_baoxiang:5"/>
+	<Property ID="1" HighRank="2" LowRank="5" RankReward="CapitalExploit:300,Item3110001:7,Item_tianming_baoxiang:4"/>
+	<Property ID="2" HighRank="6" LowRank="10" RankReward="CapitalExploit:200,Item3110001:6,Item_tianming_baoxiang:3"/>
+	<Property ID="3" HighRank="11" LowRank="50" RankReward="CapitalExploit:150,Item3110001:5,Item_tianming_baoxiang:2"/>
+	<Property ID="4" HighRank="51" LowRank="9999" RankReward="CapitalExploit:100,Item3110001:4,Item_tianming_baoxiang:1"/>
+</Object>

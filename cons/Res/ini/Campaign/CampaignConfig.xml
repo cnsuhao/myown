@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--活动时间配置 -->
+<!--ID:活动id;GameType:玩法类型(0Boss入侵1修炼秘境2修罗战场3公会乱斗);SceneID-活动场景(多个场景用","隔开);Week-星期日-星期六 0 1 2 3 4 5 6;CampaignState 活动某状态的时间范围-->
+<Object>
+	<Property ID="1" GameType="2" SceneID="612" Week="0,1,2,3,4,5,6" CampaignState1="14:58:00,15:00:00" CampaignState2="15:00:00,15:30:00"/>
+	<Property ID="2" GameType="2" SceneID="612" Week="0,1,2,3,4,5,6" CampaignState1="17:58:00,18:00:00" CampaignState2="18:00:00,18:30:00"/>
+	<Property ID="3" GameType="3" SceneID="613" Week="1,5" CampaignState1="19:00:00,19:02:00" CampaignState2="19:02:00,19:05:00" CampaignState3="19:05:00,19:30:00"/>
+</Object>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 世界BOSS成长配置 ID:场景id KillDurationTime:boss升级的条件(在此时间内杀死boss,则等级提升) Increment 每次增加的等级 BasePackageID 初始属性id MaxLevel 最大等级-->
+<Object>
+	<Property ID="801" KillDurationTime="900" Increment="1" BasePackageID="10003001" MaxLevel="100"/>
+</Object>

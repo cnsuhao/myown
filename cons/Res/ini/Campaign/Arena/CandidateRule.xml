@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Object>
+<Property ID="1" LowerRank="1" UpperRank="31" CandidateCount="30"/>
+<Property ID="2" LowerRank="32" UpperRank="50" CandidateCount="30"/>
+<Property ID="3" LowerRank="51" UpperRank="100" CandidateCount="40"/>
+<Property ID="4" LowerRank="101" UpperRank="150" CandidateCount="50"/>
+<Property ID="5" LowerRank="151" UpperRank="200" CandidateCount="50"/>
+<Property ID="6" LowerRank="201" UpperRank="400" CandidateCount="100"/>
+<Property ID="7" LowerRank="401" UpperRank="900" CandidateCount="200"/>
+<Property ID="8" LowerRank="901" UpperRank="1800" CandidateCount="400"/>
+<Property ID="9" LowerRank="1801" UpperRank="4000" CandidateCount="800"/>
+<Property ID="10" LowerRank="4001" UpperRank="6500" CandidateCount="1500"/>
+<Property ID="11" LowerRank="6501" UpperRank="20000" CandidateCount="2500"/>
+</Object>

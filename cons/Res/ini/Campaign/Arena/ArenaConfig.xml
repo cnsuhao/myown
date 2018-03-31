@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Object>
+	<Property ID="1" OpenLevel="15" BuyChanceLimit="5" ChosenCount="3" FreeChance="10" ChallengeCD="300" ClearCDFee="500" ChanceFee="1000,1000,1000,1000,1000" SceneID="604" NpcConfig="Monster_50002" ChallengerBorn="-0.12,-14.95,0" ChallengeeBorn="-0.12,14.95,3.63" Countdown="3" RoundTime="600" WaitBeforeClose="8" RankReward="ArenaRankReward" RankRewardTime="22" ChallengerWin="ArenaChallengerWin" ChallengerFailed="ArenaChallengerFailed" ChallengeeWin="ArenaChallengeeWin" ChallengeeFailed="ArenaChallengeeFailed" BroadRank="10"/>
+</Object>

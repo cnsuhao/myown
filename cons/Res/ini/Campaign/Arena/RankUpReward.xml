@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Object>
+<Property ID="1" RankListName="arena_rank_list" LowerRank="1" UpperRank="1" ItemReward="Item_jingjichang_baoxiang:10,Item_Meridian_Best_1:1" CapitalReward="CapitalCopper:500000"/>
+<Property ID="2" RankListName="arena_rank_list" LowerRank="10" UpperRank="2" ItemReward="Item_jingjichang_baoxiang:9,Item_fumo_baoxiang:3" CapitalReward="CapitalCopper:400000"/>
+<Property ID="3" RankListName="arena_rank_list" LowerRank="50" UpperRank="11" ItemReward="Item_jingjichang_baoxiang:8,Item3130001:5" CapitalReward="CapitalCopper:350000"/>
+<Property ID="4" RankListName="arena_rank_list" LowerRank="100" UpperRank="51" ItemReward="Item_jingjichang_baoxiang:7,Soul9010001:3" CapitalReward="CapitalCopper:300000"/>
+<Property ID="5" RankListName="arena_rank_list" LowerRank="200" UpperRank="101" ItemReward="Item_jingjichang_baoxiang:6,Item2210001:2" CapitalReward="CapitalCopper:250000"/>
+<Property ID="6" RankListName="arena_rank_list" LowerRank="500" UpperRank="201" ItemReward="Item_jingjichang_baoxiang:5,Item2020001:10" CapitalReward="CapitalCopper:200000"/>
+<Property ID="7" RankListName="arena_rank_list" LowerRank="1000" UpperRank="501" ItemReward="Item_jingjichang_baoxiang:4,Item2020002:10" CapitalReward="CapitalCopper:150000"/>
+<Property ID="8" RankListName="arena_rank_list" LowerRank="2500" UpperRank="1001" ItemReward="Item_jingjichang_baoxiang:3,Item2010001:30" CapitalReward="CapitalCopper:100000"/>
+<Property ID="9" RankListName="arena_rank_list" LowerRank="4000" UpperRank="2501" ItemReward="Item_jingjichang_baoxiang:2,Item2010001:20" CapitalReward="CapitalCopper:80000"/>
+<Property ID="10" RankListName="arena_rank_list" LowerRank="7000" UpperRank="4001" ItemReward="Item_jingjichang_baoxiang:1,Item2010001:10" CapitalReward="CapitalCopper:50000"/>
+</Object>

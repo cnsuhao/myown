@@ -36,6 +36,7 @@
 #include "CommonModule/CommRuleModule.h"
 #include "EquipmentModule.h"
 #include "ApperanceModule.h"
+#include "SystemFunctionModule/WingModule.h"
 
 FashionModule *FashionModule::m_pFashionModule = NULL;
 
@@ -554,6 +555,14 @@ void FashionModule::TakeOff(IKernel* pKernel, const PERSISTID& self,
 	}
 
 	ApperanceModule::m_pThis->Remove(pKernel, self, ApperanceType(cfg->type), APPERANCE_SOURCE_FASHION);
+
+	// 翅膀处理
+	if (cfg->type == APPERANCE_TYPE_WING)
+	{
+		const int wing_default = WingModule::m_pWingModule->GetWingDefaultModel(pKernel, self);
+		ApperanceModule::m_pThis->Add(pKernel, self, APPERANCE_TYPE_WING, APPERANCE_SOURCE_FASHION, wing_default);
+	}
+	
 }
 
 // 是否适用

@@ -52,6 +52,7 @@ private:
 		int				nMaxWingLv;			// 解锁翅膀的最大等级
 		int				nStepUpBlessVal;	// 升阶需要最低祝福值
 		int				nWingModel;			// 翅膀外形
+		int				nMaxLevelAddBless;	// 满级后增加的祝福值
 	};
 
 	typedef std::vector<StepData> StepDataVec;

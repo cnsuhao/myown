@@ -245,9 +245,8 @@ void WingModule::OnCustomLevelUp(IKernel* pKernel, const PERSISTID& self, const 
 	// 升满级了,奖励祝福值
 	if (nWingLv == pStepData->nMaxWingLv)
 	{
-		int nAwardBless = EnvirValueModule::EnvirQueryInt(ENV_VALUE_WING_LEVEL_BLESS_AWWARD);
 		int nBlessVal = pSelfObj->QueryInt(FIELD_PROP_WING_STEP_BLESS);
-		nBlessVal = __min(nBlessVal + nAwardBless, MAX_BLESS_VALUE);
+		nBlessVal = __min(nBlessVal + pStepData->nMaxLevelAddBless, MAX_BLESS_VALUE);
 		pSelfObj->SetInt(FIELD_PROP_WING_STEP_BLESS, nBlessVal);
 	}
 
@@ -290,7 +289,7 @@ void WingModule::OnCustomStepUp(IKernel* pKernel, const PERSISTID& self, const I
 	int nWingLevel = pSelfObj->QueryInt(FIELD_PROP_WING_LEVEL);
 
 	// 升级的阶级
-	int nRequestStep = ++nCurStep;
+	int nRequestStep = nCurStep + 1;
 	const StepData* pCurData = QueryStepData(nCurStep);
 	const StepData* pReData = QueryStepData(nRequestStep);
 	// 阶级升满了, pReData为空
@@ -329,7 +328,12 @@ void WingModule::OnCustomStepUp(IKernel* pKernel, const PERSISTID& self, const I
 	{
 		pSelfObj->SetInt(FIELD_PROP_WING_STEP_BLESS, 0);
 		pSelfObj->SetInt(FIELD_PROP_WING_STEP, nRequestStep);
-		pSelfObj->SetInt(FIELD_PROP_WING, pCurData->nWingModel);
+		// 显示默认外观时更新高阶的翅膀外观
+		int nCurWingModel = pSelfObj->QueryInt(FIELD_PROP_WING);
+		if (nCurWingModel == pCurData->nWingModel)
+		{
+			pSelfObj->SetInt(FIELD_PROP_WING, pReData->nWingModel);
+		}
 
 		msg << WING_STEP_UP_SUC << 0;
 	}
@@ -495,6 +499,7 @@ bool WingModule::LoadStepResource(IKernel* pKernel)
 		data.nMaxWingLv = xmlfile.ReadInteger(section, "MaxWingLevel", 0);
 		data.nStepUpBlessVal = xmlfile.ReadInteger(section, "StepUpBlessVal", 0);
 		data.nWingModel = xmlfile.ReadInteger(section, "WingModel", 0);
+		data.nMaxLevelAddBless = xmlfile.ReadInteger(section, "MaxLevelAddBless", 0);
 
 		m_vecStepData.push_back(data);
 	}

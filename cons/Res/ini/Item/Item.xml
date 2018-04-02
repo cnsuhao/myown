@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Object>
-<Property ID="100000001" Script="MoneyItem" ItemType="0" ColorLevel="3" Amount="1" MaxAmount="999999998" LimitLevel="1" SellPrice="0"></Property>
+<Property ID="100000001" Script="MoneyItem" ItemType="0" ColorLevel="3" Amount="1" MaxAmount="999999999" LimitLevel="1" SellPrice="0"></Property>
+<Property ID="110000000" Script="Client" ItemType="9999" ColorLevel="4" Amount="1" MaxAmount="999999999" LimitLevel="1" SellPrice="0"></Property>
+<Property ID="110000001" Script="Client" ItemType="9999" ColorLevel="4" Amount="1" MaxAmount="999999999" LimitLevel="1" SellPrice="0"></Property>
 <Property ID="100020001" Script="MoneyItem" ItemType="2" ColorLevel="5" Amount="1" MaxAmount="999999999" LimitLevel="1" SellPrice="0"></Property>
 <Property ID="100010001" Script="MoneyItem" ItemType="1" ColorLevel="6" Amount="1" MaxAmount="999999999" LimitLevel="1" SellPrice="0" SpecialItem="1"></Property>
 <Property ID="100030001" Script="MoneyItem" ItemType="3" ColorLevel="6" Amount="1" MaxAmount="999999999" LimitLevel="1" SellPrice="0" SpecialItem="1"></Property>

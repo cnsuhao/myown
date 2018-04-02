@@ -290,29 +290,4 @@ enum C2S_TeamOffer_Sub_Msg
 	C2S_TEAMOFFER_SUB_MSG_DAMAGE_DATA,
 };
 
-
-// 系统消息定义
-#define  STR_TEAMOFFER_SYSINFO_NUM_NOT_ENOUGH "str_teamoffer_sysinfo_num_not_enough"	// 悬赏次数不足
-#define  STR_TEAMOFFER_SYSINFO_TOO_FAR "str_teamoffer_sysinfo_too_far"	// 距离悬赏引导Npc太远
-#define  STR_TEAMOFFER_SYSINFO_OFFLINE "str_teamoffer_sysinfo_offline"	// 队员{@0:name}离线
-#define  STR_TEAMOFFER_SYSINFO_NOT_IN_OFFERSCENE "str_teamoffer_sysinfo_not_in_offerscene"	// 队员{@0:name}不在悬赏场景
-#define  STR_TEAMOFFER_SYSINFO_LEVEL "str_teamoffer_sysinfo_level"	// 队员{@0:name}等级不足
-#define  STR_TEAMOFFER_SYSINFO_NOT_TEAMCAPTAIN "str_teamoffer_sysinfo_not_teamcap"	// 不是队长，无法发起
-#define  STR_TEAMOFFER_SYSINFO_PEOPLE_NOENOUGH "str_teamoffer_sysinfo_people_notenough"	// 队伍人数不足
-
-#define  STR_TEAMOFFER_SYSINFO_001 "str_teamoffer_sysinfo_001"	// 悬赏未开启
-#define  STR_TEAMOFFER_SYSINFO_002 "str_teamoffer_sysinfo_002"	// 悬赏任务已存在
-#define  STR_TEAMOFFER_SYSINFO_003 "str_teamoffer_sysinfo_003"	// 队员{0:name}在进行其他活动
-#define  STR_TEAMOFFER_SYSINFO_004 "str_teamoffer_sysinfo_004"	// 队员{0:name}悬赏次数不足
-#define  STR_TEAMOFFER_SYSINFO_005 "str_teamoffer_sysinfo_005"	// 无悬赏任务
-#define  STR_TEAMOFFER_SYSINFO_006 "str_teamoffer_sysinfo_006"	// 不在悬赏场景
-#define  STR_TEAMOFFER_SYSINFO_007 "str_teamoffer_sysinfo_007"	// 已在副本中
-#define  STR_TEAMOFFER_SYSINFO_008 "str_teamoffer_sysinfo_008"	// 组队悬赏未开始
-#define  STR_TEAMOFFER_SYSINFO_009 "str_teamoffer_sysinfo_009"	// 组队悬赏结算中
-#define  STR_TEAMOFFER_SYSINFO_010 "str_teamoffer_sysinfo_010"	// 您已退出组队悬赏
-#define  STR_TEAMOFFER_SYSINFO_011 "str_teamoffer_sysinfo_011"	// 队员{0:name}没有匹配的悬赏任务
-#define  STR_TEAMOFFER_SYSINFO_012 "str_teamoffer_sysinfo_012"	// 队员{0:name}在副本中
-#define  STR_TEAMOFFER_SYSINFO_013 "str_teamoffer_sysinfo_013"	// 悬赏已结束
-#define  STR_TEAMOFFER_SYSINFO_014 "str_teamoffer_sysinfo_014"	// 组队悬赏进行中
-
 #endif	// _TEAM_OFFER_DEFINE_H_

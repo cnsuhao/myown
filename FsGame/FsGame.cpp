@@ -78,6 +78,9 @@
 #include "SystemFunctionModule/RideModule.h"
 #include "SystemFunctionModule/MapModule.h"
 
+// CampaignModule
+#include "Campaign/TeamOfferModule.h"
+
 //CommonMoudle
 #include "CommonModule/GMModule.h"
 #include "CommonModule/LogicClassModule.h"
@@ -185,6 +188,9 @@ LOGIC_MODULE_CREATOR(FriendModule);
 LOGIC_MODULE_CREATOR(TeamModule);
 LOGIC_MODULE_CREATOR(RequestModule);
 LOGIC_MODULE_CREATOR(ChatModule);
+
+// Campaign
+LOGIC_MODULE_CREATOR(TeamOfferModule);
 
 // TaskModule
 LOGIC_MODULE_CREATOR(TaskManager)

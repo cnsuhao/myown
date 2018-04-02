@@ -370,6 +370,9 @@
     <Filter Include="SystemFunctionModule\Map">
       <UniqueIdentifier>{8f1176b2-632c-4da8-8eb6-9f0c6d68a51d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="CampaignModule\Teamoffer">
+      <UniqueIdentifier>{9d391edc-402a-4bed-b4f3-79d1a04fe92f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Define\Classes.h">
@@ -1233,6 +1236,15 @@
     <ClInclude Include="Define\MapDefine.h">
       <Filter>Define\ModuleDefine</Filter>
     </ClInclude>
+    <ClInclude Include="Campaign\TeamOfferDefine.h">
+      <Filter>CampaignModule\Teamoffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Campaign\TeamOfferModule.h">
+      <Filter>CampaignModule\Teamoffer</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskModule\Template\TeamofferTask.h">
+      <Filter>TaskModule\Template</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\utils\cau.cpp">
@@ -1820,6 +1832,12 @@
     </ClCompile>
     <ClCompile Include="SystemFunctionModule\MapModule.cpp">
       <Filter>SystemFunctionModule\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Campaign\TeamOfferModule.cpp">
+      <Filter>CampaignModule\Teamoffer</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskModule\Template\TeamofferTask.cpp">
+      <Filter>TaskModule\Template</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

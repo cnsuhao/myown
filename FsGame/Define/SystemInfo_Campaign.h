@@ -50,6 +50,32 @@ enum SystemInfo_Campaign
 	SYSTEM_INFO_ID_114,				// 平局结果
 	SYSTEM_INFO_ID_115,				// {0}胜利了
 #pragma endregion
+
+#pragma region 	// TeamOfferModule 组队缉盗	(151 - 200)
+	SYSTEM_INFO_ID_151 = 151,		// 缉盗未开启
+	SYSTEM_INFO_ID_152,				// 缉盗次数不足
+	SYSTEM_INFO_ID_153,				// 缉盗任务已存在
+	SYSTEM_INFO_ID_154,				// 队伍人数不足
+	SYSTEM_INFO_ID_155,				// 队员{0}不在缉盗场景
+	SYSTEM_INFO_ID_156,				// 队员{0}在进行其他活动
+	SYSTEM_INFO_ID_157,				// 队员{0}等级不足
+	SYSTEM_INFO_ID_158,				// 队员{0}缉盗次数不足
+	SYSTEM_INFO_ID_159,				// 队员{0}离线
+	SYSTEM_INFO_ID_160,				// 队员{0}没有匹配的缉盗任务
+	SYSTEM_INFO_ID_161,				// 队员{0}在副本中
+	SYSTEM_INFO_ID_162,				// 不是队长，无法发起
+	SYSTEM_INFO_ID_163,				// 距离缉盗入口Npc太远
+	SYSTEM_INFO_ID_164,				// 组队缉盗进行中
+	SYSTEM_INFO_ID_165,				// 缉盗已结束
+	SYSTEM_INFO_ID_166,				// 已在副本中
+	SYSTEM_INFO_ID_167,				// 无缉盗任务
+	SYSTEM_INFO_ID_168,				// 不在缉盗场景
+	SYSTEM_INFO_ID_169,				// 缉盗未开始
+	SYSTEM_INFO_ID_170,				// 缉盗结算中
+	SYSTEM_INFO_ID_171,				// 您已退出缉盗
+
+	
+#pragma endregion
 };
 
 

@@ -23,6 +23,13 @@ public:
 	const TaskStatus QueryTaskStatus(IKernel *pKernel, const PERSISTID &self,
 		const int task_id);
 
+	// 查询当前任务次数
+	const int QueryTaskNum(IKernel *pKernel, const PERSISTID &self,
+		const int task_type);
+
+	// 查询任务总次数
+	const int QueryTaskTotalNum(const int task_type);
+
 	// 前置任务是否已提交
 	bool IsPrevTaskSubmit(IKernel *pKernel, const PERSISTID &self,
 		const int task_id);
@@ -51,9 +58,17 @@ public:
 	void RecordTaskNum(IKernel *pKernel, const PERSISTID &self,
 		const int task_type);
 
+	// 接取任务
+	bool AcceptTask(IKernel *pKernel, const PERSISTID &self,
+		const int task_id);
+
 	// 接取后置任务
 	void AcceptPostTask(IKernel *pKernel, const PERSISTID &self,
 		const int task_id);
+
+	// 清除指定类型的任务
+	bool CleanTaskByType(IKernel* pKernel, const PERSISTID& self,
+		const int task_type);
 
 	// 当前主线任务安全检查
 	void MainTaskSafeCheck(IKernel *pKernel, const PERSISTID &self);

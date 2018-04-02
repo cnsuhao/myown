@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<Object>
+	<Property ID="1" TeamofferNum="10" CaptainBox="Item_teamoffer_leader_baoxiang:1"/>
+	<Property ID="2" TeamofferNum="20" CaptainBox="Item_teamoffer_leader_baoxiang:1"/>
+</Object>

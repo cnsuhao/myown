@@ -210,6 +210,7 @@
     <ClInclude Include="Domain\Domain_Friend.h" />
     <ClInclude Include="Domain\Domain_Look.h" />
     <ClInclude Include="Domain\Domain_Team.h" />
+    <ClInclude Include="Domain\Domain_Teamoffer.h" />
     <ClInclude Include="Domain\Domain_WorldBoss.h" />
     <ClInclude Include="FsBindLogic.h" />
     <ClInclude Include="Guild\GuildBase.h" />
@@ -280,6 +281,7 @@
     <ClCompile Include="Domain\Domain_SceneList.cpp" />
     <ClCompile Include="Domain\DomainRankList.cpp" />
     <ClCompile Include="Domain\Domain_Team.cpp" />
+    <ClCompile Include="Domain\Domain_Teamoffer.cpp" />
     <ClCompile Include="Domain\Domain_WorldBoss.cpp" />
     <ClCompile Include="Domain\EnvirValue.cpp" />
     <ClCompile Include="Domain\Domain_Task.cpp" />

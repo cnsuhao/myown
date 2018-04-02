@@ -55,6 +55,9 @@
     <Filter Include="Domain\Campaign">
       <UniqueIdentifier>{24f70a2c-9cb2-45ee-a281-2b11019ad15f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Domain\Teamoffer">
+      <UniqueIdentifier>{242a9a17-c541-4c55-81c8-3f53b5c254a1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Public\IPubLogic.h">
@@ -216,6 +219,9 @@
     <ClInclude Include="Domain\Campaign\DomainCampaignBase.h">
       <Filter>Domain\Campaign</Filter>
     </ClInclude>
+    <ClInclude Include="Domain\Domain_Teamoffer.h">
+      <Filter>Domain\Teamoffer</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\utils\custom_func.cpp">
@@ -331,6 +337,9 @@
     </ClCompile>
     <ClCompile Include="Domain\Campaign\DomainCampaignBase.cpp">
       <Filter>Domain\Campaign</Filter>
+    </ClCompile>
+    <ClCompile Include="Domain\Domain_Teamoffer.cpp">
+      <Filter>Domain\Teamoffer</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

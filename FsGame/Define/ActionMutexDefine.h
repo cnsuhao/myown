@@ -25,7 +25,7 @@ enum
 	ACTION_CONVOY,				// 护送
 	ACTION_TEAM_SECRET,			// 组队秘境
 	ACTION_PLUNDER_BATTLE,		// 掠夺战
-	ACTION_TEAMOFFER,			// 组队悬赏
+	ACTION_TEAMOFFER,			// 组队缉盗
 	ACTION_TOWER,				// 试炼塔
 	ACTION_INFORMAL_PVP,		// 切磋
 	ACTION_KIDNAP,				// 绑票

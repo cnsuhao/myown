@@ -5105,7 +5105,7 @@ enum COLUMNS_OF_APPERANCE_REC
 	// <column type="BYTE" desc="外观来源"/> 
 	COLUMN_APPERANCE_REC_SOURCE, 
  
-	// <column type="WORD" desc="外观类型（装备部位）"/> 
+	// <column type="WORD" desc="外观类型"/> 
 	COLUMN_APPERANCE_REC_TYPE, 
  
 }; 

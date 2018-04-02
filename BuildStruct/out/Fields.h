@@ -802,6 +802,14 @@
 //	desc="触发逃跑的CD"/> 
 #define FIELD_PROP_ESCAPE_CD			"EscapeCD" 
  
+//<property name="RestBossNpc"  
+// 	type="string"  
+//	public="false"  
+//	private="false"  
+//	save="false"  
+//	desc="休息状态npc"/> 
+#define FIELD_PROP_REST_BOSS_NPC			"RestBossNpc" 
+ 
 //<property name="GlobalStep"  
 // 	type="int"  
 //	public="false"  
@@ -1401,6 +1409,62 @@
 //	save="true"  
 //	desc="历史最高战斗力"/> 
 #define FIELD_PROP_HIGHEST_BATTLE_ABILITY			"HighestBattleAbility" 
+ 
+//<property name="BossTrainNum"  
+// 	type="int"  
+//	public="false"  
+//	private="true"  
+//	save="true"  
+//	desc="Boss训练次数"/> 
+#define FIELD_PROP_BOSS_TRAIN_NUM			"BossTrainNum" 
+ 
+//<property name="AsuraAddRate"  
+// 	type="float"  
+//	public="false"  
+//	private="false"  
+//	save="false"  
+//	desc="修罗战场积分附加率"/> 
+#define FIELD_PROP_ASURA_ADD_RATE			"AsuraAddRate" 
+ 
+//<property name="AsuraCollectScore"  
+// 	type="word"  
+//	public="false"  
+//	private="true"  
+//	save="false"  
+//	desc="采集后,未提交的积分"/> 
+#define FIELD_PROP_ASURA_COLLECT_SCORE			"AsuraCollectScore" 
+ 
+//<property name="AsuraDeadNum"  
+// 	type="byte"  
+//	public="false"  
+//	private="false"  
+//	save="false"  
+//	desc="修罗战场死亡次数"/> 
+#define FIELD_PROP_ASURA_DEAD_NUM			"AsuraDeadNum" 
+ 
+//<property name="AsuraScore"  
+// 	type="dword"  
+//	public="true"  
+//	private="true"  
+//	save="true"  
+//	desc="修罗战场积分"/> 
+#define FIELD_PROP_ASURA_SCORE			"AsuraScore" 
+ 
+//<property name="GcfGuardDamVal"  
+// 	type="dword"  
+//	public="false"  
+//	private="false"  
+//	save="true"  
+//	desc="公会乱斗守卫总伤害"/> 
+#define FIELD_PROP_GCF_GUARD_DAM_VAL			"GcfGuardDamVal" 
+ 
+//<property name="GcfGuardScoreStage"  
+// 	type="dword"  
+//	public="false"  
+//	private="false"  
+//	save="true"  
+//	desc="公会乱斗守卫积分阶段"/> 
+#define FIELD_PROP_GCF_GUARD_SCORE_STAGE			"GcfGuardScoreStage" 
  
 //<property name="BeforeGroup"  
 // 	type="word"  
@@ -2826,6 +2890,46 @@
 //	desc=""/> 
 #define FIELD_PROP_WING			"Wing" 
  
+//<property name="WinCamp"  
+// 	type="byte"  
+//	public="false"  
+//	private="false"  
+//	save="false"  
+//	desc="获胜的阵营"/> 
+#define FIELD_PROP_WIN_CAMP			"WinCamp" 
+ 
+//<property name="AsuraBattleId"  
+// 	type="byte"  
+//	public="true"  
+//	private="false"  
+//	save="false"  
+//	desc="活动标志(2:中午 3:晚上)"/> 
+#define FIELD_PROP_ASURA_BATTLE_ID			"AsuraBattleId" 
+ 
+//<property name="RedMVP"  
+// 	type="widestr"  
+//	public="true"  
+//	private="false"  
+//	save="false"  
+//	desc="红方mvp"/> 
+#define FIELD_PROP_RED_MVP			"RedMVP" 
+ 
+//<property name="BlueMVP"  
+// 	type="widestr"  
+//	public="true"  
+//	private="false"  
+//	save="false"  
+//	desc="蓝方mvp"/> 
+#define FIELD_PROP_BLUE_MVP			"BlueMVP" 
+ 
+//<property name="AsuraBoss"  
+// 	type="object"  
+//	public="false"  
+//	private="false"  
+//	save="false"  
+//	desc="修罗战场boss"/> 
+#define FIELD_PROP_ASURA_BOSS			"AsuraBoss" 
+ 
 //<property name="ID"  
 // 	type="int"  
 //	public="true"  
@@ -2881,6 +2985,22 @@
 //	save="false"  
 //	desc="可否飞行 0不可飞行 1可飞行"/> 
 #define FIELD_PROP_CAN_FLY			"CanFly" 
+ 
+//<property name="WorldBossVisitFlag"  
+// 	type="int"  
+//	public="true"  
+//	private="false"  
+//	save="false"  
+//	desc="世界boss活动状态标识"/> 
+#define FIELD_PROP_WORLD_BOSS_VISIT_FLAG			"WorldBossVisitFlag" 
+ 
+//<property name="WorldBossCreateTime"  
+// 	type="int64"  
+//	public="false"  
+//	private="false"  
+//	save="false"  
+//	desc="世界boss创建时间"/> 
+#define FIELD_PROP_WORLD_BOSS_CREATE_TIME			"WorldBossCreateTime" 
  
 //<property name="LifeTime"  
 // 	type="int"  
@@ -3205,6 +3325,50 @@ enum COLUMNS_OF_BOSS_SKILL_REC
 }; 
  
  
+//<record name="asuraboss_attack_list_rec" 
+//	cols="3"  
+//	maxrows="1500"  
+//	public=""  
+//	private=""  
+//	save="false"  
+//	desc="攻击对象表"/> 
+ 
+#define FIELD_RECORD_ASURABOSS_ATTACK_LIST_REC			"asuraboss_attack_list_rec" 
+// asuraboss_attack_list_rec column index define 
+enum COLUMNS_OF_ASURABOSS_ATTACK_LIST_REC 
+{ 
+ 
+	// <column type="widestr" desc="名字"/> 
+	COLUMN_ASURABOSS_ATTACK_LIST_REC_NAME, 
+ 
+	// <column type="dword" desc="阵营"/> 
+	COLUMN_ASURABOSS_ATTACK_LIST_REC_CAMP, 
+ 
+	// <column type="dword" desc="伤害"/> 
+	COLUMN_ASURABOSS_ATTACK_LIST_REC_DAMVAL, 
+ 
+}; 
+ 
+ 
+//<record name="boss_pick_player_rec" 
+//	cols="1"  
+//	maxrows="200"  
+//	public=""  
+//	private=""  
+//	save="false"  
+//	desc="获得奖励记录表"/> 
+ 
+#define FIELD_RECORD_BOSS_PICK_PLAYER_REC			"boss_pick_player_rec" 
+// boss_pick_player_rec column index define 
+enum COLUMNS_OF_BOSS_PICK_PLAYER_REC 
+{ 
+ 
+	// <column type="object" desc=""/> 
+	COLUMN_BOSS_PICK_PLAYER_REC_PLAYER, 
+ 
+}; 
+ 
+ 
 //<record name="object_list_rec" 
 //	cols="1"  
 //	maxrows="256"  
@@ -3308,6 +3472,28 @@ enum COLUMNS_OF_SPRING_INFO_REC
 }; 
  
  
+//<record name="worldboss_attack_list_rec" 
+//	cols="2"  
+//	maxrows="1500"  
+//	public=""  
+//	private=""  
+//	save="false"  
+//	desc="攻击对象表"/> 
+ 
+#define FIELD_RECORD_WORLDBOSS_ATTACK_LIST_REC			"worldboss_attack_list_rec" 
+// worldboss_attack_list_rec column index define 
+enum COLUMNS_OF_WORLDBOSS_ATTACK_LIST_REC 
+{ 
+ 
+	// <column type="widestr" desc=""/> 
+	COLUMN_WORLDBOSS_ATTACK_LIST_REC_对象名字, 
+ 
+	// <column type="dword" desc=""/> 
+	COLUMN_WORLDBOSS_ATTACK_LIST_REC_总伤害值, 
+ 
+}; 
+ 
+ 
 //<record name="activate_function_rec" 
 //	cols="1"  
 //	maxrows="500"  
@@ -3376,6 +3562,65 @@ enum COLUMNS_OF_BATTLLE_ABILITY_REC
  
 	// <column type="float" desc="战斗力数值"/> 
 	COLUMN_BATTLLE_ABILITY_REC_BABVALUE, 
+ 
+}; 
+ 
+ 
+//<record name="asura_fight_rec" 
+//	cols="4"  
+//	maxrows="1024"  
+//	public="false"  
+//	private="true"  
+//	save="true"  
+//	desc="阵营战斗数据"/> 
+ 
+#define FIELD_RECORD_ASURA_FIGHT_REC			"asura_fight_rec" 
+// asura_fight_rec column index define 
+enum COLUMNS_OF_ASURA_FIGHT_REC 
+{ 
+ 
+	// <column type="dword" desc="积分"/> 
+	COLUMN_ASURA_FIGHT_REC_SCORE, 
+ 
+	// <column type="dword" desc="杀人数"/> 
+	COLUMN_ASURA_FIGHT_REC_KILL, 
+ 
+	// <column type="dword" desc="死亡数"/> 
+	COLUMN_ASURA_FIGHT_REC_DEAD, 
+ 
+	// <column type="dword" desc="助攻数"/> 
+	COLUMN_ASURA_FIGHT_REC_ASSIST, 
+ 
+}; 
+ 
+ 
+//<record name="gcf_score_rec" 
+//	cols="5"  
+//	maxrows="1024"  
+//	public="false"  
+//	private="true"  
+//	save="true"  
+//	desc="公会乱斗积分表"/> 
+ 
+#define FIELD_RECORD_GCF_SCORE_REC			"gcf_score_rec" 
+// gcf_score_rec column index define 
+enum COLUMNS_OF_GCF_SCORE_REC 
+{ 
+ 
+	// <column type="byte" desc="标识"/> 
+	COLUMN_GCF_SCORE_REC_KEY, 
+ 
+	// <column type="dword" desc="积分"/> 
+	COLUMN_GCF_SCORE_REC_SCORE, 
+ 
+	// <column type="dword" desc="杀人数"/> 
+	COLUMN_GCF_SCORE_REC_KILL, 
+ 
+	// <column type="dword" desc="死亡数"/> 
+	COLUMN_GCF_SCORE_REC_DEAD, 
+ 
+	// <column type="dword" desc="助攻数"/> 
+	COLUMN_GCF_SCORE_REC_ASSIST, 
  
 }; 
  
@@ -4342,6 +4587,25 @@ enum COLUMNS_OF_SYSTEM_MAIL_REC
 }; 
  
  
+//<record name="pvp_attacker_list" 
+//	cols="1"  
+//	maxrows="512"  
+//	public="false"  
+//	private="false"  
+//	save="false"  
+//	desc="攻击者列表"/> 
+ 
+#define FIELD_RECORD_PVP_ATTACKER_LIST			"pvp_attacker_list" 
+// pvp_attacker_list column index define 
+enum COLUMNS_OF_PVP_ATTACKER_LIST 
+{ 
+ 
+	// <column type="object" desc="玩家对象"/> 
+	COLUMN_PVP_ATTACKER_LIST_OBJECT, 
+ 
+}; 
+ 
+ 
 //<record name="reset_timer_rec" 
 //	cols="4"  
 //	maxrows="250"  
@@ -4833,8 +5097,98 @@ enum COLUMNS_OF_APPERANCE_REC
 	// <column type="BYTE" desc="外观来源"/> 
 	COLUMN_APPERANCE_REC_SOURCE, 
  
-	// <column type="WORD" desc="外观类型（装备部位）"/> 
+	// <column type="WORD" desc="外观类型"/> 
 	COLUMN_APPERANCE_REC_TYPE, 
+ 
+}; 
+ 
+ 
+//<record name="camp_fight_rec" 
+//	cols="4"  
+//	maxrows="1024"  
+//	public="false"  
+//	private="false"  
+//	save="false"  
+//	desc="阵营战斗数据"/> 
+ 
+#define FIELD_RECORD_CAMP_FIGHT_REC			"camp_fight_rec" 
+// camp_fight_rec column index define 
+enum COLUMNS_OF_CAMP_FIGHT_REC 
+{ 
+ 
+	// <column type="dword" desc="阵营"/> 
+	COLUMN_CAMP_FIGHT_REC_CAMP, 
+ 
+	// <column type="dword" desc="采集总数"/> 
+	COLUMN_CAMP_FIGHT_REC_NUM, 
+ 
+	// <column type="dword" desc="阵营积分"/> 
+	COLUMN_CAMP_FIGHT_REC_SCORE, 
+ 
+	// <column type="dword" desc="采集阶段"/> 
+	COLUMN_CAMP_FIGHT_REC_STATE, 
+ 
+}; 
+ 
+ 
+//<record name="blue_score_rec" 
+//	cols="5"  
+//	maxrows="1024"  
+//	public="false"  
+//	private="false"  
+//	save="false"  
+//	desc="江湖玩家积分表"/> 
+ 
+#define FIELD_RECORD_BLUE_SCORE_REC			"blue_score_rec" 
+// blue_score_rec column index define 
+enum COLUMNS_OF_BLUE_SCORE_REC 
+{ 
+ 
+	// <column type="widestr" desc="玩家名"/> 
+	COLUMN_BLUE_SCORE_REC_PLAYER, 
+ 
+	// <column type="int" desc="积分"/> 
+	COLUMN_BLUE_SCORE_REC_SCORE, 
+ 
+	// <column type="int" desc="杀人数"/> 
+	COLUMN_BLUE_SCORE_REC_KILL, 
+ 
+	// <column type="int" desc="死亡数"/> 
+	COLUMN_BLUE_SCORE_REC_DEAD, 
+ 
+	// <column type="int" desc="助攻数"/> 
+	COLUMN_BLUE_SCORE_REC_ASSIST, 
+ 
+}; 
+ 
+ 
+//<record name="red_score_rec" 
+//	cols="5"  
+//	maxrows="1024"  
+//	public="false"  
+//	private="false"  
+//	save="false"  
+//	desc="朝廷玩家积分表"/> 
+ 
+#define FIELD_RECORD_RED_SCORE_REC			"red_score_rec" 
+// red_score_rec column index define 
+enum COLUMNS_OF_RED_SCORE_REC 
+{ 
+ 
+	// <column type="widestr" desc="玩家名"/> 
+	COLUMN_RED_SCORE_REC_PLAYER, 
+ 
+	// <column type="int" desc="积分"/> 
+	COLUMN_RED_SCORE_REC_SCORE, 
+ 
+	// <column type="int" desc="杀人数"/> 
+	COLUMN_RED_SCORE_REC_KILL, 
+ 
+	// <column type="int" desc="死亡数"/> 
+	COLUMN_RED_SCORE_REC_DEAD, 
+ 
+	// <column type="int" desc="助攻数"/> 
+	COLUMN_RED_SCORE_REC_ASSIST, 
  
 }; 
  
@@ -4913,6 +5267,53 @@ enum COLUMNS_OF_CREATE_GROUP_RANDOM_FLOW
  
 	// <column type="word" desc="正在创建的npc索引"/> 
 	COLUMN_CREATE_GROUP_RANDOM_FLOW_0003, 
+ 
+}; 
+ 
+ 
+//<record name="world_boss_damage_rec" 
+//	cols="3"  
+//	maxrows="1024"  
+//	public="false"  
+//	private="false"  
+//	save="false"  
+//	desc="世界boss伤害排名表"/> 
+ 
+#define FIELD_RECORD_WORLD_BOSS_DAMAGE_REC			"world_boss_damage_rec" 
+// world_boss_damage_rec column index define 
+enum COLUMNS_OF_WORLD_BOSS_DAMAGE_REC 
+{ 
+ 
+	// <column type="dword" desc="排名"/> 
+	COLUMN_WORLD_BOSS_DAMAGE_REC_RANK, 
+ 
+	// <column type="widestr" desc="玩家名字"/> 
+	COLUMN_WORLD_BOSS_DAMAGE_REC_PLAYER_NAME, 
+ 
+	// <column type="dword" desc="总伤害"/> 
+	COLUMN_WORLD_BOSS_DAMAGE_REC_DAMAGE, 
+ 
+}; 
+ 
+ 
+//<record name="world_boss_elite_npc_rec" 
+//	cols="2"  
+//	maxrows="1024"  
+//	public="false"  
+//	private="false"  
+//	save="false"  
+//	desc="世界boss精英怪表"/> 
+ 
+#define FIELD_RECORD_WORLD_BOSS_ELITE_NPC_REC			"world_boss_elite_npc_rec" 
+// world_boss_elite_npc_rec column index define 
+enum COLUMNS_OF_WORLD_BOSS_ELITE_NPC_REC 
+{ 
+ 
+	// <column type="object" desc="精英怪对象号"/> 
+	COLUMN_WORLD_BOSS_ELITE_NPC_REC_NPC, 
+ 
+	// <column type="int" desc="精英怪序号"/> 
+	COLUMN_WORLD_BOSS_ELITE_NPC_REC_INDEX, 
  
 }; 
  

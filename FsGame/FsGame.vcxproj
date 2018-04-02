@@ -168,6 +168,8 @@
     <ClInclude Include="Campaign\CampaignAsuraBattle.h" />
     <ClInclude Include="Campaign\CampaignBase.h" />
     <ClInclude Include="Campaign\CampaignModule.h" />
+    <ClInclude Include="Campaign\TeamOfferDefine.h" />
+    <ClInclude Include="Campaign\TeamOfferModule.h" />
     <ClInclude Include="Campaign\WorldBossNpc.h" />
     <ClInclude Include="CommonModule\CommRuleDefine.h" />
     <ClInclude Include="CommonModule\CommRuleModule.h" />
@@ -439,6 +441,7 @@
     <ClInclude Include="TaskModule\Template\DailyTask.h" />
     <ClInclude Include="TaskModule\Template\MainTask.h" />
     <ClInclude Include="TaskModule\Template\TaskTemplate.h" />
+    <ClInclude Include="TaskModule\Template\TeamofferTask.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\utils\cau.cpp" />
@@ -469,6 +472,7 @@
     <ClCompile Include="Campaign\ArenaModule.cpp" />
     <ClCompile Include="Campaign\CampaignAsuraBattle.cpp" />
     <ClCompile Include="Campaign\CampaignModule.cpp" />
+    <ClCompile Include="Campaign\TeamOfferModule.cpp" />
     <ClCompile Include="Campaign\WorldBossNpc.cpp" />
     <ClCompile Include="Campaign\WorldBossNpcConfig.cpp" />
     <ClCompile Include="CommonModule\CommRuleModule.cpp" />
@@ -637,6 +641,7 @@
     <ClCompile Include="TaskModule\Template\DailyTask.cpp" />
     <ClCompile Include="TaskModule\Template\MainTask.cpp" />
     <ClCompile Include="TaskModule\Template\TaskTemplate.cpp" />
+    <ClCompile Include="TaskModule\Template\TeamofferTask.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

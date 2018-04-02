@@ -16,6 +16,7 @@
 			<class id="SecretNpc" desc="秘境NPC"/>
 			<class id="SummonNpc" desc="召唤NPC"/>
 			<class id="TrapNpc" desc="陷阱NPC" path="struct\npc\TrapNpc.xml"/>
+			<class id="TeamOfferNpc" desc="组队悬赏npc"/>
 			<class id="ManySkillNpc" desc="有多个技能的NPC" path="struct\npc\ManySkillNpc.xml">
 				<class id="EliteNpc" desc="精英NPC"/>
 				<class id="BossNpc" desc="BOSSNPC" path="struct\npc\BossNpc.xml"/>

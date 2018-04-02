@@ -176,7 +176,7 @@ void TaskTemplate::OnComplete(IKernel *pKernel, const PERSISTID &self,
 	{
 		return;
 	}
-
+	
 	// 任务数据
 	const TaskBaseData *pData = TaskLoader::instance().GetTaskBase(task_id);
 	if (NULL == pData)
@@ -200,9 +200,18 @@ void TaskTemplate::OnComplete(IKernel *pKernel, const PERSISTID &self,
 	// 记录任务完成日志
 	// TODO
 
-	// 记录已完成次数
-	TaskUtilS::Instance()->RecordTaskNum(pKernel, self, pData->type);
+	const TaskConfig *pConfig = TaskLoader::instance().GetTaskConfig(pData->type);
+	if (NULL == pConfig)
+	{
+		return;
+	}
 
+	// 记录已完成次数
+	if (pConfig->record_rule == TASK_RECORD_RULE_DONE)
+	{
+		TaskUtilS::Instance()->RecordTaskNum(pKernel, self, pData->type);
+	}
+	
 	// 可否自动提交
 	if (!pData->IsAutoSubmit())
 	{
@@ -245,6 +254,18 @@ void TaskTemplate::OnAccept(IKernel *pKernel, const PERSISTID &self,
 	if (pData->type == TASK_TYPE_MAIN)
 	{
 		pSelf->SetInt(FIELD_PROP_CUR_MAIN_TASK, task_id);
+	}
+
+	const TaskConfig *pConfig = TaskLoader::instance().GetTaskConfig(pData->type);
+	if (NULL == pConfig)
+	{
+		return;
+	}
+
+	// 记录已完成次数
+	if (pConfig->record_rule == TASK_RECORD_RULE_ACCEPT)
+	{
+		TaskUtilS::Instance()->RecordTaskNum(pKernel, self, pData->type);
 	}
 
 	// 自动寻路

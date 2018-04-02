@@ -302,6 +302,9 @@ enum
 
 	// 修罗战场活动
 	CLIENT_CUSTOMMSG_ASURA_BATTLE,
+
+	// 组队悬赏
+	CLIENT_CUSTOMMSG_TEAMOFFER,
 #pragma endregion
 // 消息不能超过2048
 };

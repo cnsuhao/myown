@@ -68,6 +68,44 @@ const TaskStatus TaskUtil::QueryTaskStatus(IKernel *pKernel, const PERSISTID &se
 	return TASK_STATUS_MAX;
 }
 
+// 查询当前任务次数
+const int TaskUtil::QueryTaskNum(IKernel *pKernel, const PERSISTID &self, 
+	const int task_type)
+{
+	IGameObj *pSelf = pKernel->GetGameObj(self);
+	if (NULL == pSelf)
+	{
+		return 0;
+	}
+
+	// 配置表
+	IRecord *pConfRec = pSelf->GetRecord(FIELD_RECORD_TASK_CONFIG_REC);
+	if (NULL == pConfRec)
+	{
+		return 0;
+	}
+
+	const int exist_row = pConfRec->FindInt(COLUMN_TASK_CONFIG_REC_TYPE, task_type);
+	if (exist_row < 0)
+	{
+		return 0;
+	}
+
+	return pConfRec->QueryInt(exist_row, COLUMN_TASK_CONFIG_REC_COUNT);
+}
+
+// 查询任务总次数
+const int TaskUtil::QueryTaskTotalNum(const int task_type)
+{
+	const TaskConfig *pConfig = TaskLoader::instance().GetTaskConfig(task_type);
+	if (NULL == pConfig)
+	{
+		return 0;
+	}
+
+	return pConfig->limit_num;
+}
+
 // 前置任务是否已提交
 bool TaskUtil::IsPrevTaskSubmit(IKernel *pKernel, const PERSISTID &self, 
 	const int task_id)
@@ -306,6 +344,36 @@ void TaskUtil::RecordTaskNum(IKernel *pKernel, const PERSISTID &self,
 	pConfRec->SetInt(exist_row, COLUMN_TASK_CONFIG_REC_COUNT, cur_count);
 }
 
+// 接取任务
+bool TaskUtil::AcceptTask(IKernel *pKernel, const PERSISTID &self, const int task_id)
+{
+	IGameObj *pSelf = pKernel->GetGameObj(self);
+	if (NULL == pSelf)
+	{
+		return false;
+	}
+
+	// 任务数据
+	const TaskBaseData *pData = TaskLoader::instance().GetTaskBase(task_id);
+	if (NULL == pData)
+	{
+		return false;
+	}
+
+	TaskTemplate *pTemplate = TaskManager::m_pThis->GetTemplate(TaskTypes(pData->type));
+	if (NULL == pTemplate)
+	{
+		return false;
+	}
+
+	if (pTemplate->CanAccept(pKernel, self, task_id))
+	{
+		return pTemplate->DoAccept(pKernel, self, task_id);
+	}
+
+	return false;
+}
+
 // 接取后置任务
 void TaskUtil::AcceptPostTask(IKernel *pKernel, const PERSISTID &self, 
 	const int task_id)
@@ -350,6 +418,43 @@ void TaskUtil::AcceptPostTask(IKernel *pKernel, const PERSISTID &self,
 			pTemplate->DoAccept(pKernel, self, post_task_id);
 		}
 	}
+}
+
+// 清除指定类型的任务
+bool TaskUtil::CleanTaskByType(IKernel* pKernel, const PERSISTID& self, 
+	const int task_type)
+{
+	IGameObj *pSelf = pKernel->GetGameObj(self);
+	if (NULL == pSelf)
+	{
+		return false;
+	}
+
+	// 进度表
+	IRecord *pPrgRec = pSelf->GetRecord(FIELD_RECORD_TASK_PROGRESS_REC);
+	if (NULL == pPrgRec)
+	{
+		return false;
+	}
+
+	LoopBeginCheck(a);
+	for (int row = pPrgRec->GetRows() - 1; row >= 0; --row)
+	{
+		LoopDoCheck(a);
+		const int task_id = pPrgRec->QueryInt(row, COLUMN_TASK_PROGRESS_REC_ID);
+		const TaskBaseData *pData = TaskLoader::instance().GetTaskBase(task_id);
+		if (NULL == pData)
+		{
+			continue;
+		}
+
+		if (pData->type == task_type)
+		{
+			pPrgRec->RemoveRow(row);
+		}
+	}
+
+	return true;
 }
 
 // 当前主线任务安全检查

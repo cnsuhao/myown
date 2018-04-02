@@ -54,10 +54,11 @@ public:
 #define DefineReloadFunc(funcname) \
 	static void Reload##funcname(IKernel *pKernel)
 
-	DefineReloadFunc(Task_All);		// 所有任务重载
-	DefineReloadFunc(Task_Main);	// 主线任务重载
-	DefineReloadFunc(Task_Branch);	// 支线任务重载
-	DefineReloadFunc(Task_Daily);	// 日常任务重载
+	DefineReloadFunc(Task_All);			// 所有任务重载
+	DefineReloadFunc(Task_Main);		// 主线任务重载
+	DefineReloadFunc(Task_Branch);		// 支线任务重载
+	DefineReloadFunc(Task_Daily);		// 日常任务重载
+	DefineReloadFunc(Task_Teamoffer);	// 缉盗任务重载
 
 private:
 	// 任务动作

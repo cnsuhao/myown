@@ -295,6 +295,9 @@ enum
 #pragma region //CampaignModule玩法(951-1000)
 	// 竞技场
 	COMMAND_ARENA_PLAYER = 951,
+
+	// 组队悬赏
+	COMMAND_TEAMOFFER_MSG,
 #pragma endregion
 
 

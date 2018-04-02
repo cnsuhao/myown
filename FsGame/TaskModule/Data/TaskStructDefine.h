@@ -50,12 +50,14 @@ struct TaskConfig
 	int limit_num;
 	bool in_use;
 	int first_task;
+	int record_rule;
 
 	TaskConfig(int _type) :
 		type(_type),
 		limit_num(0), 
 		in_use(true), 
-		first_task(0)
+		first_task(0), 
+		record_rule(0)
 	{}
 
 	bool operator == (const TaskConfig& config) const

@@ -155,6 +155,9 @@ bool CommRuleModule::ChangeGroup(IKernel* pKernel, const PERSISTID& self,
 
 		pSelfObj->SetInt(FIELD_PROP_BEFORE_GROUP, pSelfObj->QueryInt(FIELD_PROP_GROUP_ID));
 		pSelfObj->SetInt(FIELD_PROP_GROUP_ID, new_group);
+
+		// 宠物进入分组
+		// TODO
 	}
 	else// 离开分组
 	{		
@@ -166,10 +169,13 @@ bool CommRuleModule::ChangeGroup(IKernel* pKernel, const PERSISTID& self,
 		{
 			before_group = new_group;
 		}
-
+		
 		before_group = before_group == 0 ? -1 : before_group;
 		pSelfObj->SetInt(FIELD_PROP_GROUP_ID, before_group);
 		pSelfObj->SetInt(FIELD_PROP_BEFORE_GROUP, 0);
+
+		// 宠物离开分组
+		// TODO
 	}
 
 	// 通知客户端切分组表现

@@ -21,6 +21,7 @@
 #include "Rule/GatherRule.h"
 #include "Rule/PathfindRule.h"
 #include "Rule/EntrySceneRule.h"
+#include "Template/TeamofferTask.h"
 
 std::wstring TaskManager::m_domainName = L"";
 TaskManager *TaskManager::m_pThis = NULL;
@@ -83,6 +84,7 @@ bool TaskManager::Init(IKernel *pKernel)
 	RELOAD_CONFIG_REG("MainTask", TaskManager::ReloadTask_Main);
 	RELOAD_CONFIG_REG("BranchTask", TaskManager::ReloadTask_Branch);
 	RELOAD_CONFIG_REG("DailyTask", TaskManager::ReloadTask_Daily);
+	RELOAD_CONFIG_REG("TeamofferTask", TaskManager::ReloadTask_Teamoffer);
 #endif
 
 	return true;
@@ -156,6 +158,12 @@ bool TaskManager::InitTemplates(IKernel *pKernel)
 
 	// 日常任务
 	if (!RegistTemplate(pKernel, NEW DailyTask()))
+	{
+		return false;
+	}
+
+	// 缉盗任务
+	if (!RegistTemplate(pKernel, NEW TeamofferTask()))
 	{
 		return false;
 	}
@@ -578,4 +586,8 @@ void TaskManager::ReloadTask_Daily(IKernel* pKernel)
 	TaskLoader::instance().ReloadRes(pKernel, TASK_TYPE_DAILY);
 }
 
-
+// 重新加载缉盗任务
+void TaskManager::ReloadTask_Teamoffer(IKernel* pKernel)
+{
+	TaskLoader::instance().ReloadRes(pKernel, TASK_TYPE_TEAMOFFER);
+}

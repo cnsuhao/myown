@@ -22,7 +22,8 @@ enum TaskTypes
 
 	TASK_TYPE_MAIN,			// 主线任务
 	TASK_TYPE_BRANCH,		// 支线任务
-	TASK_TYPE_DAILY,		// 日常任务				
+	TASK_TYPE_DAILY,		// 日常任务	
+	TASK_TYPE_TEAMOFFER,	// 组队缉盗任务
 
 	TASK_TYPE_TOTAL,		// 总类型
 };
@@ -89,6 +90,14 @@ enum AutoPathFinding
 {
 	AUTO_PATHFINDING_NO = 0,	// 不在自动寻路
 	AUTO_PATHFINDING_YES,		// 自动寻路中
+};
+
+// 任务记录规则
+enum TaskRecordRule
+{
+	TASK_RECORD_RULE_DONE = 0,	// 完成时记录
+	TASK_RECORD_RULE_ACCEPT,	// 接取时记录
+	TASK_RECORD_RULE_CONDITION,	// 有条件记录
 };
 
 ///////////////////////////////////二级消息定义///////////////////////////////////////

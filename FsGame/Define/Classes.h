@@ -105,6 +105,14 @@
 #define CLASS_NAME_TRAP_NPC				"TrapNpc" 
 #endif 
  
+//<class id="TeamOfferNpc"  
+//	type=""  
+//	desc="组队悬赏npc"  
+//	path="" /> 
+#ifndef CLASS_NAME_TEAM_OFFER_NPC 
+#define CLASS_NAME_TEAM_OFFER_NPC				"TeamOfferNpc" 
+#endif 
+ 
 //<class id="ManySkillNpc"  
 //	type=""  
 //	desc="有多个技能的NPC"  

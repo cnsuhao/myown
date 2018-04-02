@@ -245,6 +245,9 @@ enum
 	// 修罗战场逻辑消息
 	SERVER_CUSTOMMSG_ASURA_BATTLE,
 
+	// 组队悬赏消息
+	SERVER_CUSTOMMSG_TEAMOFFER,
+
 #pragma endregion
 
 #pragma region //PayModule(1501-1600)

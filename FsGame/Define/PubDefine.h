@@ -119,6 +119,8 @@ enum //Scene->Pub
 	SP_DOMAIN_MSG_CAMPAIGN_GM_CHANGE_STATE,
 	// 活动提前结束 string "domain", wstring L"Domain_Campaign_serverid", int msgid, int nCampaignType
 	SP_DOMAIN_MSG_CAMPAIGN_END,
+	// 组队悬赏
+	SP_DOMAIN_MSG_TEAMOFFER,
 };
 
 // 公会相关消息（场景服与公共服间的通讯消息）
@@ -237,6 +239,9 @@ enum //Pub->Scene
 
 	// 活动状态改变  格式:wstring L"Domain_Prisoner_serverid", int msgid, int state, int gametype, int scenenum, int scene1,int scene2..
 	PS_DOMAIN_MSG_CAMPAIGN_STATE,
+
+	// 组队悬赏
+	PS_DOMAIN_MSG_TEAMOFFER,
 };
 
 // 公会相关操作结果

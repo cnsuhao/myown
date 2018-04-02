@@ -141,6 +141,7 @@ bool TaskLoader::LoadTaskConfig(IKernel *pKernel, const int task_type/* = 0*/)
 		const int limit_num = xml.ReadInteger(sec_name, "LimitNum", 0);
 		config.limit_num = limit_num < 0 ? INT_MAX : limit_num;
 		config.first_task = xml.ReadInteger(sec_name, "FirstTaskID", 0);
+		config.record_rule = xml.ReadInteger(sec_name, "RecordRule", 0);
 	
 		m_TaskConfig.push_back(config);
 	}

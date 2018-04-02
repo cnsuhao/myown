@@ -17,6 +17,19 @@ enum ApperanceSource
 	APPERANCE_SOURCE_MAX,
 };
 
+// 外观类型
+enum ApperanceType
+{
+	APPERANCE_TYPE_NONE = 0,
+
+	APPERANCE_TYPE_WEAPON,		// 武器
+	APPERANCE_TYPE_CLOTH,		// 衣服
+	APPERANCE_TYPE_HAIR,		// 头
+	APPERANCE_TYPE_WING,		// 翅膀
+
+	APPERANCE_TYPE_MAX,
+};
+
 // 外观显示优先级
 struct ApperancePri 
 {

@@ -509,18 +509,11 @@ void FashionModule::PutOn(IKernel* pKernel, const PERSISTID& self,
 		return;
 	}
 
-	// 无装备不得穿戴
-	const char *equip = EquipmentModule::GetEquipConfig(pKernel, self, cfg->type);
-	if (StringUtil::CharIsNull(equip))
-	{
-		return;
-	}
-
 	// 移除同类型同来源外观
-	ApperanceModule::m_pThis->Remove(pKernel, self, EQUIP_POS(cfg->type), APPERANCE_SOURCE_FASHION);
+	ApperanceModule::m_pThis->Remove(pKernel, self, ApperanceType(cfg->type), APPERANCE_SOURCE_FASHION);
 
 	// 添加要穿戴的外观
-	ApperanceModule::m_pThis->Add(pKernel, self, EQUIP_POS(cfg->type), APPERANCE_SOURCE_FASHION, fashion_id);	
+	ApperanceModule::m_pThis->Add(pKernel, self, ApperanceType(cfg->type), APPERANCE_SOURCE_FASHION, fashion_id);
 }
 
 // 脱
@@ -555,12 +548,12 @@ void FashionModule::TakeOff(IKernel* pKernel, const PERSISTID& self,
 	}
 
 	// 当前外观是否穿戴
-	if (ApperanceModule::m_pThis->GetApperanceByEquipPos(pKernel, self, EQUIP_POS(cfg->type)) != fashion_id)
+	if (ApperanceModule::m_pThis->GetApperanceByType(pKernel, self, ApperanceType(cfg->type)) != fashion_id)
 	{
 		return;
 	}
 
-	ApperanceModule::m_pThis->Remove(pKernel, self, EQUIP_POS(cfg->type), APPERANCE_SOURCE_FASHION);
+	ApperanceModule::m_pThis->Remove(pKernel, self, ApperanceType(cfg->type), APPERANCE_SOURCE_FASHION);
 }
 
 // 是否适用
@@ -714,12 +707,12 @@ void FashionModule::GMLock(IKernel* pKernel, const PERSISTID& self,
 	pUnlockRec->RemoveRow(exist_row);
 
 	// 未穿戴
-	if (ApperanceModule::m_pThis->GetApperanceByEquipPos(pKernel, self, EQUIP_POS(cfg->type)) != fashion_id)
+	if (ApperanceModule::m_pThis->GetApperanceByType(pKernel, self, ApperanceType(cfg->type)) != fashion_id)
 	{
 		return;
 	}
 
-	ApperanceModule::m_pThis->Remove(pKernel, self, EQUIP_POS(cfg->type), APPERANCE_SOURCE_FASHION);
+	ApperanceModule::m_pThis->Remove(pKernel, self, ApperanceType(cfg->type), APPERANCE_SOURCE_FASHION);
 }
 
 // 无条件解锁指定时装

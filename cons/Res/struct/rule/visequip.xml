@@ -23,7 +23,7 @@
 		<record name="ApperanceRec" cols="3" maxrows="20" save="true" public="false" private="false" desc="外观管理">
 			<column type="WORD" name="id" desc="外观id"/>
 			<column type="BYTE" name="source" desc="外观来源"/>
-			<column type="WORD" name="type" desc="外观类型（装备部位）"/>			
+			<column type="WORD" name="type" desc="外观类型"/>			
 		</record>
 	</records>
 </object>

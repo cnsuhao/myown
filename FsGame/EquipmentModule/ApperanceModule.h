@@ -36,16 +36,16 @@ private:
 
 	// 改变外观
 	void Change(IKernel *pKernel, const PERSISTID &self,
-		const EQUIP_POS equip_pos);
+		const ApperanceType type);
 
 public:
     // 增加一个外观
 	void Add(IKernel *pKernel, const PERSISTID &self, 
-		const EQUIP_POS equip_pos, const ApperanceSource src, const int apperance_id);
+		const ApperanceType type, const ApperanceSource src, const int apperance_id);
 
-	// 根据装备部位和来源删除一个外观
+	// 根据外观类型和来源删除一个外观
 	void Remove(IKernel *pKernel, const PERSISTID &self,
-		const EQUIP_POS equip_pos, const ApperanceSource src);
+		const ApperanceType type, const ApperanceSource src);
 
 public:
 	// 根据性别取得装备外观
@@ -56,12 +56,18 @@ public:
 	const int GetEquipFashion(IKernel *pKernel, const PERSISTID &self,
 		const PERSISTID &equip);
 
-	// 取得指定位置的外观ID
-	const int GetApperanceByEquipPos(IKernel *pKernel, const PERSISTID &self,
-		const EQUIP_POS equip_pos);
+	// 取得指定类型的外观ID
+	const int GetApperanceByType(IKernel *pKernel, const PERSISTID &self,
+		const ApperanceType type);
 
-	// 取得指定部位外观属性
-	const char *GetApperanceProp(const EQUIP_POS equip_pos);
+	// 取得指定类型外观属性
+	const char *GetApperanceProp(const ApperanceType type);
+
+	// 外观类型是否合法
+	bool IsValidAppearance(const ApperanceType type);
+
+	// 根据装备位置取得外观类型
+	const ApperanceType GetApperanceType(const EQUIP_POS pos);
 
 	// 初始化穿戴属性包
 	void InitPackage(IKernel *pKernel, const PERSISTID &self);

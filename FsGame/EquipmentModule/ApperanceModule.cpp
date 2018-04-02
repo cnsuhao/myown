@@ -164,7 +164,7 @@ const int ApperanceModule::GetApperancePkg(const int apperance_id)
 
 // 改变外观
 void ApperanceModule::Change(IKernel *pKernel, const PERSISTID &self, 
-	const EQUIP_POS equip_pos)
+	const ApperanceType type)
 {
 	IGameObj *pSelf = pKernel->GetGameObj(self);
 	if (NULL == pSelf)
@@ -179,12 +179,12 @@ void ApperanceModule::Change(IKernel *pKernel, const PERSISTID &self,
 		return;
 	}
 
-	if (!CommRuleModule::m_pThis->IsValidEquipPos(equip_pos))
+	if (!IsValidAppearance(type))
 	{
 		return;
 	}
 
-	const char *apperance_prop = GetApperanceProp(EQUIP_POS(equip_pos));
+	const char *apperance_prop = GetApperanceProp(type);
 	if (StringUtil::CharIsNull(apperance_prop))
 	{
 		return;
@@ -211,7 +211,7 @@ void ApperanceModule::Change(IKernel *pKernel, const PERSISTID &self,
 	for (int row = pAppRec->GetRows() - 1; row >= 0; --row)
 	{
 		LoopDoCheck(a);
-		if (pAppRec->QueryInt(row, COLUMN_APPERANCE_REC_TYPE) != equip_pos)
+		if (pAppRec->QueryInt(row, COLUMN_APPERANCE_REC_TYPE) != type)
 		{
 			continue;
 		}
@@ -229,18 +229,20 @@ void ApperanceModule::Change(IKernel *pKernel, const PERSISTID &self,
 
 	// 新外观属性包
 	const int new_pkg = GetApperancePkg(show_id);
-
-	// 属性包更新
-	CVarList s2s_msg;
-	s2s_msg << COMMAND_APPERANCE_PKG
-			<< EQUIP_STRPROP_OPTION_ADD
-			<< new_pkg;
-	pKernel->Command(self, self, s2s_msg);
+	if (new_pkg != 0)
+	{
+		// 属性包更新
+		CVarList s2s_msg;
+		s2s_msg << COMMAND_APPERANCE_PKG
+				<< EQUIP_STRPROP_OPTION_ADD
+				<< new_pkg;
+		pKernel->Command(self, self, s2s_msg);
+	}	
 }
 
 // 增加一个外观
 void ApperanceModule::Add(IKernel *pKernel, const PERSISTID &self, 
-	const EQUIP_POS equip_pos, const ApperanceSource src, const int apperance_id)
+	const ApperanceType type, const ApperanceSource src, const int apperance_id)
 {
 	IGameObj *pSelf = pKernel->GetGameObj(self);
 	if (NULL == pSelf)
@@ -260,7 +262,7 @@ void ApperanceModule::Add(IKernel *pKernel, const PERSISTID &self,
 		return;
 	}
 
-	if (!CommRuleModule::m_pThis->IsValidEquipPos(equip_pos))
+	if (!IsValidAppearance(type))
 	{
 		return;
 	}
@@ -274,16 +276,16 @@ void ApperanceModule::Add(IKernel *pKernel, const PERSISTID &self,
 	CVarList row_value;
 	row_value << apperance_id
 			  << src
-			  << equip_pos;
+			  << type;
 	pAppRec->AddRowValue(-1, row_value);
 
 	// 外观变化
-	Change(pKernel, self, equip_pos);
+	Change(pKernel, self, type);
 }
 
 // 根据装备部位和来源删除一个外观
 void ApperanceModule::Remove(IKernel *pKernel, const PERSISTID &self, 
-	const EQUIP_POS equip_pos, const ApperanceSource src)
+	const ApperanceType type, const ApperanceSource src)
 {
 	IGameObj *pSelf = pKernel->GetGameObj(self);
 	if (NULL == pSelf)
@@ -302,7 +304,7 @@ void ApperanceModule::Remove(IKernel *pKernel, const PERSISTID &self,
 	for (int row = pAppRec->GetRows() - 1; row >= 0; --row)
 	{
 		LoopDoCheck(a);
-		if (pAppRec->QueryInt(row, COLUMN_APPERANCE_REC_TYPE) != equip_pos)
+		if (pAppRec->QueryInt(row, COLUMN_APPERANCE_REC_TYPE) != type)
 		{
 			continue;
 		}
@@ -316,7 +318,7 @@ void ApperanceModule::Remove(IKernel *pKernel, const PERSISTID &self,
 	}
 
 	// 外观变化
-	Change(pKernel, self, equip_pos);
+	Change(pKernel, self, type);
 }
 
 // 根据性别取得装备外观
@@ -383,9 +385,9 @@ const int ApperanceModule::GetEquipFashion(IKernel *pKernel, const PERSISTID &se
 	return 0;
 }
 
-// 取得指定位置的外观ID
-const int ApperanceModule::GetApperanceByEquipPos(IKernel *pKernel, const PERSISTID &self, 
-	const EQUIP_POS equip_pos)
+// 取得指定类型的外观ID
+const int ApperanceModule::GetApperanceByType(IKernel *pKernel, const PERSISTID &self, 
+	const ApperanceType type)
 {
 	IGameObj *pSelf = pKernel->GetGameObj(self);
 	if (NULL == pSelf)
@@ -393,12 +395,12 @@ const int ApperanceModule::GetApperanceByEquipPos(IKernel *pKernel, const PERSIS
 		return 0;
 	}
 
-	if (!CommRuleModule::m_pThis->IsValidEquipPos(equip_pos))
+	if (!IsValidAppearance(type))
 	{
 		return 0;
 	}
 
-	const char *apperance_prop = GetApperanceProp(EQUIP_POS(equip_pos));
+	const char *apperance_prop = GetApperanceProp(type);
 	if (StringUtil::CharIsNull(apperance_prop))
 	{
 		return 0;
@@ -407,24 +409,53 @@ const int ApperanceModule::GetApperanceByEquipPos(IKernel *pKernel, const PERSIS
 	return pSelf->QueryInt(apperance_prop);
 }
 
-// 取得指定部位外观属性
-const char * ApperanceModule::GetApperanceProp(const EQUIP_POS equip_pos)
+// 取得指定类型外观属性
+const char * ApperanceModule::GetApperanceProp(const ApperanceType type)
 {
 	// 衣服
-	if (EQUIP_POS_CLOTH == equip_pos)
+	if (APPERANCE_TYPE_CLOTH == type)
 	{
 		return FIELD_PROP_CLOTH;
 	}
-	else if (EQUIP_POS_WEAPON == equip_pos)
+	else if (APPERANCE_TYPE_WEAPON == type)
 	{
 		return FIELD_PROP_WEAPON;
 	}
-	else if (EQUIP_POS_HELMET == equip_pos)
+	else if (APPERANCE_TYPE_HAIR == type)
 	{
 		return FIELD_PROP_HAIR;
 	}
+	else if (APPERANCE_TYPE_WING == type)
+	{
+		return FIELD_PROP_WING;
+	}
 
 	return "";
+}
+
+// 外观类型是否合法
+bool ApperanceModule::IsValidAppearance(const ApperanceType type)
+{
+	return type > APPERANCE_TYPE_NONE && type < APPERANCE_TYPE_MAX;
+}
+
+// 根据装备位置取得外观类型
+const ApperanceType ApperanceModule::GetApperanceType(const EQUIP_POS pos)
+{
+	if (pos == EQUIP_POS_WEAPON)
+	{
+		return APPERANCE_TYPE_WEAPON;
+	}
+	else if (pos == EQUIP_POS_CLOTH)
+	{
+		return APPERANCE_TYPE_CLOTH;
+	}
+	else if (pos == EQUIP_POS_HELMET)
+	{
+		return APPERANCE_TYPE_HAIR;
+	}
+	
+	return APPERANCE_TYPE_NONE;
 }
 
 // 初始化穿戴属性包
@@ -436,9 +467,9 @@ void ApperanceModule::InitPackage(IKernel *pKernel, const PERSISTID &self)
 		return;
 	}
 
-	for (int pos = EQUIP_POS_STR_MIN; pos <= EQUIP_POS_STR_MAX; ++pos)
+	for (int type = APPERANCE_TYPE_NONE; type < APPERANCE_TYPE_MAX; ++type)
 	{
-		const int apperance_id = GetApperanceByEquipPos(pKernel, self, EQUIP_POS(pos));
+		const int apperance_id = GetApperanceByType(pKernel, self, ApperanceType(type));
 		if (apperance_id == 0)
 		{
 			continue;
@@ -489,12 +520,17 @@ int ApperanceModule::OnEquipBoxAfterAdd(IKernel* pKernel, const PERSISTID& equip
 
 	// 装备部位
 	const int equip_pos = EquipmentModule::m_pEquipmentModule->GetEquipIndex(equip_type);
+	const ApperanceType type = m_pThis->GetApperanceType(EQUIP_POS(equip_pos));
+	if (!m_pThis->IsValidAppearance(type))
+	{
+		return 0;
+	}
 
 	// 增加装备外观
 	const int equip_apper = m_pThis->GetEquipApperance(pKernel, owner, sender);
 	if (equip_apper > 0)
 	{
-		ApperanceModule::m_pThis->Add(pKernel, owner, EQUIP_POS(equip_pos), APPERANCE_SOURCE_EQUIP, equip_apper);
+		ApperanceModule::m_pThis->Add(pKernel, owner, type, APPERANCE_SOURCE_EQUIP, equip_apper);
 	}
 
 	// 增加强化外观
@@ -502,7 +538,7 @@ int ApperanceModule::OnEquipBoxAfterAdd(IKernel* pKernel, const PERSISTID& equip
 	const int strengthen_apper = EquipStrengthenModule::m_pInstance->GetStrApperance(pEquip->GetConfig(), str_lvl);
 	if (strengthen_apper > 0)
 	{
-		ApperanceModule::m_pThis->Add(pKernel, owner, EQUIP_POS(equip_pos), APPERANCE_SOURCE_STRENGTHEN, strengthen_apper);
+		ApperanceModule::m_pThis->Add(pKernel, owner, type, APPERANCE_SOURCE_STRENGTHEN, strengthen_apper);
 	}
 
 	return 0;
@@ -538,12 +574,17 @@ int ApperanceModule::OnEquipBoxRemove(IKernel* pKernel, const PERSISTID& equipbo
 
 	// 装备部位
 	const int equip_pos = EquipmentModule::m_pEquipmentModule->GetEquipIndex(equip_type);
+	const ApperanceType type = m_pThis->GetApperanceType(EQUIP_POS(equip_pos));
+	if (!m_pThis->IsValidAppearance(type))
+	{
+		return 0;
+	}
 
 	// 去除装备外观
-	ApperanceModule::m_pThis->Remove(pKernel, owner, EQUIP_POS(equip_pos), APPERANCE_SOURCE_EQUIP);
+	ApperanceModule::m_pThis->Remove(pKernel, owner, type, APPERANCE_SOURCE_EQUIP);
 
 	// 去除强化外观
-	ApperanceModule::m_pThis->Remove(pKernel, owner, EQUIP_POS(equip_pos), APPERANCE_SOURCE_STRENGTHEN);
+	ApperanceModule::m_pThis->Remove(pKernel, owner, type, APPERANCE_SOURCE_STRENGTHEN);
 
 	return 0;
 }
@@ -615,16 +656,22 @@ int ApperanceModule::OnStrLvlChanged(IKernel *pKernel, const PERSISTID &self,
 		return 0;// 无装备
 	}
 
+	const ApperanceType type = m_pThis->GetApperanceType(EQUIP_POS(equip_pos));
+	if (!m_pThis->IsValidAppearance(type))
+	{
+		return 0;
+	}
+
 	// 取出新强化等级对应的外观
 	const int str_lvl = EquipStrengthenModule::m_pInstance->GetStrLvlByPos(pKernel, self, equip_pos);
 	const int strengthen_apper = EquipStrengthenModule::m_pInstance->GetStrApperance(pEquip->GetConfig(), str_lvl);
 	if (strengthen_apper > 0)
 	{
 		// 去除旧强化外观
-		ApperanceModule::m_pThis->Remove(pKernel, self, EQUIP_POS(equip_pos), APPERANCE_SOURCE_STRENGTHEN);
+		ApperanceModule::m_pThis->Remove(pKernel, self, type, APPERANCE_SOURCE_STRENGTHEN);
 
 		// 增加新强化外观
-		ApperanceModule::m_pThis->Add(pKernel, self, EQUIP_POS(equip_pos), APPERANCE_SOURCE_STRENGTHEN, strengthen_apper);
+		ApperanceModule::m_pThis->Add(pKernel, self, type, APPERANCE_SOURCE_STRENGTHEN, strengthen_apper);
 	}
 
 	return 0;

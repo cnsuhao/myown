@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Object>
+<Property ID="1" Level="0" MaxMember="50" DeputyCaptainNum="1" GeneralNum="2" ElderNum="10"/>
+<Property ID="2" Level="1" MaxMember="51" DeputyCaptainNum="1" GeneralNum="2" ElderNum="10"/>
+<Property ID="3" Level="2" MaxMember="52" DeputyCaptainNum="1" GeneralNum="2" ElderNum="10"/>
+<Property ID="4" Level="3" MaxMember="53" DeputyCaptainNum="1" GeneralNum="2" ElderNum="10"/>
+<Property ID="5" Level="4" MaxMember="54" DeputyCaptainNum="1" GeneralNum="2" ElderNum="10"/>
+<Property ID="6" Level="5" MaxMember="55" DeputyCaptainNum="1" GeneralNum="2" ElderNum="10"/>
+<Property ID="7" Level="6" MaxMember="56" DeputyCaptainNum="1" GeneralNum="2" ElderNum="10"/>
+<Property ID="8" Level="7" MaxMember="57" DeputyCaptainNum="1" GeneralNum="2" ElderNum="10"/>
+<Property ID="9" Level="8" MaxMember="58" DeputyCaptainNum="1" GeneralNum="2" ElderNum="10"/>
+<Property ID="10" Level="9" MaxMember="59" DeputyCaptainNum="1" GeneralNum="2" ElderNum="10"/>
+<Property ID="11" Level="10" MaxMember="60" DeputyCaptainNum="1" GeneralNum="2" ElderNum="10"/>
+<Property ID="12" Level="11" MaxMember="61" DeputyCaptainNum="1" GeneralNum="4" ElderNum="15"/>
+<Property ID="13" Level="12" MaxMember="62" DeputyCaptainNum="1" GeneralNum="4" ElderNum="15"/>
+<Property ID="14" Level="13" MaxMember="63" DeputyCaptainNum="1" GeneralNum="4" ElderNum="15"/>
+<Property ID="15" Level="14" MaxMember="64" DeputyCaptainNum="1" GeneralNum="4" ElderNum="15"/>
+<Property ID="16" Level="15" MaxMember="65" DeputyCaptainNum="1" GeneralNum="4" ElderNum="15"/>
+<Property ID="17" Level="16" MaxMember="66" DeputyCaptainNum="1" GeneralNum="6" ElderNum="20"/>
+<Property ID="18" Level="17" MaxMember="67" DeputyCaptainNum="1" GeneralNum="6" ElderNum="20"/>
+<Property ID="19" Level="18" MaxMember="68" DeputyCaptainNum="1" GeneralNum="6" ElderNum="20"/>
+<Property ID="20" Level="19" MaxMember="69" DeputyCaptainNum="1" GeneralNum="6" ElderNum="20"/>
+<Property ID="21" Level="20" MaxMember="70" DeputyCaptainNum="1" GeneralNum="6" ElderNum="20"/>
+</Object>

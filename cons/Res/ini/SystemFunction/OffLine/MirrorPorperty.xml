@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!--Key:属性或容器名 Type:0 属性 1 容器-->
+<!--LevelDiff:镜像NPC的Level - 玩家的Level ModifyRatio:大于LevelDiff修正系数,小于等于LevelDiff修正系数,LevelDiff为负数的修正系数;DCMaxChangeRatio默认属变化范围比率-->
+<!--IsModify是否对属性进行削弱，削弱比例参考ModifyRatio-->
+<!--IsLoadConfig新手任务时 是否从配置读取的数据-->
+<Object>
+	<Property ID="0" ArenaModifyRatio="1" LevelDiff="5" ModifyRatio="0.1,0.1,0.1" DCChangeRatio="0.8,1.2"/>
+	<Property ID="1" DataName="Name" Type="0"/>
+	<Property ID="2" DataName="Resource" Type="0"/>
+	<Property ID="3" DataName="Level" Type="0"/>
+	<Property ID="4" DataName="Job" Type="0"/>
+	<Property ID="5" DataName="Sex" Type="0"/>
+	<Property ID="6" DataName="Weapon" Type="0"/>
+	<Property ID="7" DataName="Cloth" Type="0"/>
+	<Property ID="8" DataName="MaxHP" Type="0" IsModify="1" IsLoadConfig="1"/>
+	<Property ID="9" DataName="Str" Type="0" IsLoadConfig="1"/>
+	<Property ID="11" DataName="Dex" Type="0" IsLoadConfig="1"/>
+	<Property ID="12" DataName="Sta" Type="0" IsLoadConfig="1"/>
+	<Property ID="13" DataName="MinAttack" Type="0" IsModify="1" IsLoadConfig="1"/>
+	<Property ID="14" DataName="MaxAttack" Type="0" IsModify="1" IsLoadConfig="1"/>
+	<Property ID="15" DataName="Defend" Type="0" IsModify="1" IsLoadConfig="1"/>
+	<Property ID="16" DataName="Hit" Type="0" IsModify="1" IsLoadConfig="1"/>
+	<Property ID="17" DataName="Miss" Type="0" IsModify="1" IsLoadConfig="1"/>
+	<Property ID="18" DataName="Crit" Type="0" IsLoadConfig="1"/>
+	<Property ID="19" DataName="Toug" Type="0" IsLoadConfig="1"/>
+	<Property ID="20" DataName="GuildName" Type="0"/>
+	<Property ID="21" DataName="PeerageLevel" Type="0"/>
+	<Property ID="22" DataName="Nation" Type="0"/>
+	<Property ID="23" DataName="NationPost" Type="0"/>
+	<Property ID="24" DataName="KillValue" Type="0"/>
+	<Property ID="25" DataName="MaxGaintVal" Type="0"/>
+	<Property ID="26" DataName="SkillContainer" Type="1" SnsTable="PlayerSkill"/>
+	<Property ID="27" DataName="PetBox" Type="1" SnsTable="PlayerPet"/>
+	<Property ID="28" DataName="passive_skill_rec" Type="2" SnsTable="PlayerPassiveSkill"/>
+</Object>

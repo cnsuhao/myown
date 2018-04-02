@@ -187,6 +187,7 @@
     <ClInclude Include="Define\GuildMsgDefine.h" />
     <ClInclude Include="Define\InternalFields.h" />
     <ClInclude Include="Define\JadeDefine.h" />
+    <ClInclude Include="Define\MapDefine.h" />
     <ClInclude Include="Define\OffLineDefine.h" />
     <ClInclude Include="Define\PKModelDefine.h" />
     <ClInclude Include="Define\PlayerBaseDefine.h" />
@@ -400,6 +401,7 @@
     <ClInclude Include="SystemFunctionModule\EnergyModule.h" />
     <ClInclude Include="SystemFunctionModule\LookDefine.h" />
     <ClInclude Include="SystemFunctionModule\LookModule.h" />
+    <ClInclude Include="SystemFunctionModule\MapModule.h" />
     <ClInclude Include="SystemFunctionModule\MotionHelper.h" />
     <ClInclude Include="SystemFunctionModule\MotionModule.h" />
     <ClInclude Include="SystemFunctionModule\PlayerBaseModule.h" />
@@ -601,6 +603,7 @@
     <ClCompile Include="SystemFunctionModule\DropModule.cpp" />
     <ClCompile Include="SystemFunctionModule\EnergyModule.cpp" />
     <ClCompile Include="SystemFunctionModule\LookModule.cpp" />
+    <ClCompile Include="SystemFunctionModule\MapModule.cpp" />
     <ClCompile Include="SystemFunctionModule\MotionHelper.cpp" />
     <ClCompile Include="SystemFunctionModule\MotionModule.cpp" />
     <ClCompile Include="SystemFunctionModule\MotionModuleFunc.cpp" />

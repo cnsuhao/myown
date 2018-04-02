@@ -48,7 +48,7 @@
 
 #define DISTANCE_ADJUST_MAX 15.0f
 
-#define OUTDOOR_SCENE_MAX  500    //野外最大场景编号-500
+#define OUTDOOR_SCENE_MAX  1500    //野外最大场景编号-500
 
 
 

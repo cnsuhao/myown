@@ -1759,22 +1759,6 @@ int WorldBossNpc::HB_SendCustomMsg(IKernel* pKernel, const PERSISTID& self, int 
 		return 0;
 	}
 
-	// 统计前n名的数据
-// 	int nRows = __min(pDamRec->GetRows(), m_kConstConfig.nEndRankNum);
-// 	CVarList ranklist;
-// 	ranklist << nRows;
-// 	LoopBeginCheck(a);
-// 	for (int i = 0; i < nRows; ++i)
-// 	{
-// 		LoopDoCheck(a);
-// 		const wchar_t* wsName = pDamRec->QueryWideStr(i, WBD_COL_PLAYER_NAME);
-// 		int nRank = pDamRec->QueryInt(i, WBD_COL_PLAYER_RANK);
-// 		int nNation = pDamRec->QueryInt(i, WBD_COL_PLAYER_NATION);
-// 		int nDamVal = pDamRec->QueryInt(i, WBD_COL_PLAYER_TOTAL_DAMAGE);
-// 
-// 		ranklist << wsName << nRank << nNation << nDamVal;
-// 	}
-
 	CVarList ShowMsg;
 	int iRowCount = pDamRec->GetRows();
 	// 向玩家推送结算界面数据
@@ -1800,14 +1784,6 @@ int WorldBossNpc::HB_SendCustomMsg(IKernel* pKernel, const PERSISTID& self, int 
 
 		// 通知成就模块更新世界boss相关成就[2015.08.03 tongzt]
 		int iRank = i + 1;	// 排名
-// 		if (m_pWorldBossNpc->GetModel() == ACTIVE_MODEL_TYPE_WORLDBOSS)
-// 		{
-// 			AchievementModule::m_pAchievementModule->UpdateAchievement(pKernel, Attacker, 
-// 				SUBTYPE_FIGHT_WORLD_BOSS_RANK, CVarList() << 1 << iRank);
-// 
-// 			AchievementModule::m_pAchievementModule->UpdateAchievement(pKernel, Attacker, 
-// 				SUBTYPE_FIGHT_WORLD_BOSS_DAMAGE, CVarList() << 1 << iHurt);
-// 		}
 
 		ShowMsg.Clear();
 		ShowMsg << SERVER_CUSTOMMSG_WORLD_BOSS_ACTIVE

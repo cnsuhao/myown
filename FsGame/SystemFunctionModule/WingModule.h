@@ -30,6 +30,9 @@ public:
 
 	// 查询玩家的属性包
 	int QueryWingLvPropId(IKernel* pKernel, const PERSISTID& self);
+
+	// 查询当前翅膀的默认外观
+	int GetWingDefaultModel(IKernel* pKernel, const PERSISTID& self);
 private:
 	struct LevelData 
 	{
@@ -77,6 +80,12 @@ private:
 
 	// 响应翅膀升阶
 	void OnCustomStepUp(IKernel* pKernel, const PERSISTID& self, const IVarList& args);
+
+	// 响应开启翅膀
+	void OnCustomWear(IKernel* pKernel, const PERSISTID& self, const IVarList& args);
+
+	// 响应隐藏翅膀
+	void OnCustomHide(IKernel* pKernel, const PERSISTID& self, const IVarList& args);
 
 	// 读取配置
 	bool LoadResource(IKernel* pKernel);

@@ -17,7 +17,9 @@ enum WingC2SMsg
 {
 	WING_C2S_LEVEL_UP,		// ³á°òÉý¼¶
 	WING_C2S_STEP_UP,		// ³á°òÉý½×
-	WING_C2S_RIDE,			// Æï³Ë³á°ò
+	WING_C2S_WEAR,			// ´©´÷³á°ò
+	WING_C2S_HIDE,			// Òþ²Ø³á°ò
+	WING_C2S_CHANGE_MODEL,	// ¸Ä±äÍâ¹Û int nWingModel 
 };
 
 
@@ -32,6 +34,13 @@ enum
 {
 	WING_STEP_UP_FAILED,	// Éý½×Ê§°Ü ¼Ó×£¸£Öµ	
 	WING_STEP_UP_SUC,		// Éý½×³É¹¦
+};
+
+// ³á°òÍâ¹Û
+enum 
+{
+	NO_WEAR_WING,			
+	WEAR_WING,				
 };
 
 

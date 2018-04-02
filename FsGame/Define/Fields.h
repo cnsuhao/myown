@@ -2106,6 +2106,14 @@
 //	desc="³á°òÉý½××£¸£Öµ"/> 
 #define FIELD_PROP_WING_STEP_BLESS			"WingStepBless" 
  
+//<property name="IsWearWing"  
+// 	type="byte"  
+//	public="true"  
+//	private="true"  
+//	save="true"  
+//	desc="ÊÇ·ñ´©´÷³á°ò"/> 
+#define FIELD_PROP_IS_WEAR_WING			"IsWearWing" 
+ 
 //<property name="CantMove"  
 // 	type="byte"  
 //	public="true"  
@@ -2783,7 +2791,7 @@
 //	public="false"  
 //	private="true"  
 //	save="false"  
-//	desc="æœ€å¤§è½»åŠŸç²¾åŠ›å€¼"/> 
+//	desc="æœ€å¤§è½»åŠŸç²¾åŠ›å€?/> 
 #define FIELD_PROP_MAX_FLY_ENERGY			"MaxFlyEnergy" 
  
 //<property name="FlyEnergyRestore"  
@@ -2799,7 +2807,7 @@
 //	public="false"  
 //	private="true"  
 //	save="false"  
-//	desc="è½»åŠŸç²¾åŠ›å€¼"/> 
+//	desc="è½»åŠŸç²¾åŠ›å€?/> 
 #define FIELD_PROP_FLY_ENERGY			"FlyEnergy" 
  
 //<property name="JumpSec"  

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<!--DailyRecoverValue 每日恢复 NeedGuildCapital 恢复需要 MaintainFailed 维护失败扣除健康度 GuildActivityFailed组织活动未开启扣除健康度 GuildRecoverFailed 每日恢复失败扣除健康度 DailyExtraNeedGainCapital每日获取额外礼包需要的组织贡献-->
+<Object>
+	<Property ID="0" DailyRecoverValue="100" NeedGuildCapital="40000" Gift1="0,400;CapitalGuild:50" Gift2="401,800;CapitalGuild:100" Gift3="801,1200;CapitalGuild:100,Item9010001:5" Gift4="1201,1600;CapitalGuild:100,Item9010001:5,Item_zuzhi_baoxiang_1:1" Gift5="1601,2000;CapitalGuild:100,Item9010001:5,Item_zuzhi_baoxiang_1:1,Item8850001:1" Gift6="2001,2400;CapitalGuild:100,Item9010001:5,Item_zuzhi_baoxiang_1:1,Item8850001:1,Item_zuzhi_baoxiang_2:1" MaintainFailed="200" GuildActivityFailed="200" GuildRecoverFailed="200" DailyExtraNeedGainCapital="1250" ExtraAward="CapitalGuild:100"/>
+</Object>

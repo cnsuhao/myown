@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<!--不需要按照时间顺序填写，内部会进行自动排序-->
+<Object>
+	<Property TimerName="GuildPubReset" CallbackName="guild_pub_reset" ResetHour="5" ResetMinute="0"/>
+</Object>

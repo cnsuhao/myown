@@ -367,6 +367,9 @@
     <Filter Include="CampaignModule\Campaign">
       <UniqueIdentifier>{bfc95bd1-aa1f-4689-a631-fccd2b513566}</UniqueIdentifier>
     </Filter>
+    <Filter Include="SystemFunctionModule\Map">
+      <UniqueIdentifier>{8f1176b2-632c-4da8-8eb6-9f0c6d68a51d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Define\Classes.h">
@@ -1224,6 +1227,12 @@
     <ClInclude Include="SkillModule\PVPRecAttacker.h">
       <Filter>SkillModule\PKModule</Filter>
     </ClInclude>
+    <ClInclude Include="SystemFunctionModule\MapModule.h">
+      <Filter>SystemFunctionModule\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Define\MapDefine.h">
+      <Filter>Define\ModuleDefine</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\utils\cau.cpp">
@@ -1808,6 +1817,9 @@
     </ClCompile>
     <ClCompile Include="SkillModule\PVPRecAttacker.cpp">
       <Filter>SkillModule\PKModule</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemFunctionModule\MapModule.cpp">
+      <Filter>SystemFunctionModule\Map</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

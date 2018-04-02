@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<!--RecoverValue 每日恢复数值-->
+<!--GuildNumType 购买的组织数值-->
+<!--BuyMaxTimes 每日购买次数-->
+<!--BuyCost 购买花费-->
+<!--BuyValue 购买获得数值-->
+<!--GuildNumType 1组织资金2安定度3繁荣度4行动力5健康度-->
+<Object>
+	<Property ID="1" GuildNumType="4" RecoverValue="200" BuyMaxTimes="10" BuyCost="10000,12000,14000,16000,18000,20000,22000,24000,26000,28000" BuyValue="100"/>
+</Object>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<!--
+Interval   间隔（秒）
+Opend	  是否开启时间段内不刷新
+
+-->
+<Object>
+	<Property ID="5" Open="1" BeginTime="23:59:59" EndTime="00:00:00">
+		<Item Boss="OutdoorBoss_001" Interval="60">
+			<Position x="-185" z="102" ay="0"/>
+		</Item>
+		<Item Boss="OutdoorBoss_003" Interval="60">
+			<Position x="-70" z="67" ay="0"/>
+		</Item>
+	</Property>
+	<Property ID="7" Open="1" BeginTime="23:59:59" EndTime="00:00:00">
+		<Item Boss="OutdoorBoss_005" Interval="5400">
+			<Position x="202" z="300" ay="0"/>
+		</Item>
+		<Item Boss="OutdoorBoss_006" Interval="7200">
+			<Position x="-202" z="333" ay="5.73"/>
+		</Item>
+	</Property>
+	<Property ID="3" Open="1" BeginTime="23:59:59" EndTime="00:00:00">
+		<Item Boss="OutdoorBoss_007" Interval="7200">
+			<Position x="-43" z="196" ay="0"/>
+		</Item>
+		<Item Boss="OutdoorBoss_008" Interval="7200">
+			<Position x="132" z="-118" ay="0"/>
+		</Item>
+	</Property>
+</Object>

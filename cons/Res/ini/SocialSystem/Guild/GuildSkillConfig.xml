@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<!--UnlockGuildLevel 解锁技能需要组织等级-->
+<!--SkillType 0 普通技能 1高级技能-->
+<!--AutoUnlock 是否自动解锁 0 不自动解锁 1 自动解锁-->
+<!--UnlockCost 解锁消耗-->
+<!--StartStudyCost研究消耗-->
+<Object>
+	<Property ID="1" SkillID="80001" InitLevel="10" UnlockShuYuanLevel="0" AutoUnlock="1" SkillType="0" StartStudyCost="10000"/>
+	<Property ID="2" SkillID="80002" InitLevel="10" UnlockShuYuanLevel="0" AutoUnlock="1" SkillType="0" StartStudyCost="10000"/>
+	<Property ID="3" SkillID="80003" InitLevel="10" UnlockShuYuanLevel="3" AutoUnlock="1" SkillType="0" StartStudyCost="10000"/>
+	<Property ID="4" SkillID="80004" InitLevel="10" UnlockShuYuanLevel="3" AutoUnlock="1" SkillType="0" StartStudyCost="10000"/>
+	<Property ID="5" SkillID="80005" InitLevel="10" UnlockShuYuanLevel="3" AutoUnlock="1" SkillType="0" StartStudyCost="10000"/>
+	<Property ID="6" SkillID="80006" InitLevel="10" UnlockShuYuanLevel="10" AutoUnlock="1" SkillType="0" StartStudyCost="10000"/>
+</Object>

@@ -123,6 +123,9 @@ enum
 
 	// 翅膀
 	CLIENT_CUSTOMMSG_WING,
+
+	// 地图相关消息
+	CLIENT_CUSTOMMSG_MAP,
 #pragma endregion
 
 

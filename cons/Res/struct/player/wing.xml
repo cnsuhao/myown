@@ -6,6 +6,7 @@
 		<property name="WingLevel" type="byte" public="false" private="true" save="true" desc="³á°òµÈ¼¶"/>
 		<property name="WingStep" type="byte" public="false" private="true" save="true" desc="³á°ò½×¼¶"/>
 		<property name="WingStepBless" type="byte" public="false" private="true" save="true" desc="³á°òÉý½××£¸£Öµ"/>
+		<property name="IsWearWing" type="byte" public="true" private="true" save="true" desc="ÊÇ·ñ´©´÷³á°ò"/>
 	</properties>
 	<records>
 	</records>

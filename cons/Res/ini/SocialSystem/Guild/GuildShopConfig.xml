@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Object>
+<Property ID="1" ItemID="Item9020002" MemberLimit="10" GuildTotal="9999" UnlockLevel="0" DecCapital="10:500"/>
+<Property ID="2" ItemID="Item2120007" MemberLimit="10" GuildTotal="9999" UnlockLevel="0" DecCapital="10:10"/>
+<Property ID="3" ItemID="Item2010001" MemberLimit="20" GuildTotal="9999" UnlockLevel="0" DecCapital="10:30"/>
+<Property ID="4" ItemID="Item9010001" MemberLimit="10" GuildTotal="9999" UnlockLevel="1" DecCapital="10:20"/>
+<Property ID="5" ItemID="Item9010002" MemberLimit="5" GuildTotal="9999" UnlockLevel="2" DecCapital="10:120"/>
+<Property ID="6" ItemID="Item2020001" MemberLimit="5" GuildTotal="9999" UnlockLevel="3" DecCapital="10:100"/>
+<Property ID="7" ItemID="Item2020002" MemberLimit="5" GuildTotal="9999" UnlockLevel="4" DecCapital="10:100"/>
+<Property ID="8" ItemID="Item3130003" MemberLimit="1" GuildTotal="9999" UnlockLevel="5" DecCapital="10:150"/>
+<Property ID="9" ItemID="Item2120008" MemberLimit="5" GuildTotal="9999" UnlockLevel="6" DecCapital="10:50"/>
+<Property ID="10" ItemID="Item8740001" MemberLimit="2" GuildTotal="9999" UnlockLevel="7" DecCapital="10:150"/>
+<Property ID="11" ItemID="Item3110002" MemberLimit="2" GuildTotal="9999" UnlockLevel="8" DecCapital="10:250"/>
+<Property ID="12" ItemID="Item2090002" MemberLimit="2" GuildTotal="9999" UnlockLevel="9" DecCapital="10:250"/>
+<Property ID="13" ItemID="Item2210001" MemberLimit="2" GuildTotal="9999" UnlockLevel="10" DecCapital="10:500"/>
+<Property ID="14" ItemID="Item2120009" MemberLimit="2" GuildTotal="9999" UnlockLevel="11" DecCapital="10:250"/>
+<Property ID="15" ItemID="Soul9010001" MemberLimit="5" GuildTotal="9999" UnlockLevel="12" DecCapital="10:150"/>
+<Property ID="16" ItemID="Item8830000" MemberLimit="5" GuildTotal="9999" UnlockLevel="13" DecCapital="10:250"/>
+<Property ID="17" ItemID="Item8920002" MemberLimit="2" GuildTotal="9999" UnlockLevel="14" DecCapital="10:250"/>
+<Property ID="18" ItemID="Item8060001" MemberLimit="1" GuildTotal="9999" UnlockLevel="15" DecCapital="10:300"/>
+<Property ID="19" ItemID="Item2120010" MemberLimit="1" GuildTotal="9999" UnlockLevel="16" DecCapital="10:1250"/>
+<Property ID="20" ItemID="Item8920003" MemberLimit="1" GuildTotal="9999" UnlockLevel="17" DecCapital="10:1250"/>
+<Property ID="21" ItemID="Item3110003" MemberLimit="1" GuildTotal="9999" UnlockLevel="18" DecCapital="10:1250"/>
+<Property ID="22" ItemID="Item2090003" MemberLimit="1" GuildTotal="9999" UnlockLevel="19" DecCapital="10:1250"/>
+<Property ID="23" ItemID="Item8880001" MemberLimit="1" GuildTotal="9999" UnlockLevel="20" DecCapital="10:500"/>
+</Object>

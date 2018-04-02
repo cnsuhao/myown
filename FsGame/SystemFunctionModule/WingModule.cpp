@@ -89,6 +89,25 @@ int WingModule::QueryWingLvPropId(IKernel* pKernel, const PERSISTID& self)
 	return pData->nPropertyPak;
 }
 
+// 查询当前翅膀的默认外观
+int WingModule::GetWingDefaultModel(IKernel* pKernel, const PERSISTID& self)
+{
+	IGameObj* pSelfObj = pKernel->GetGameObj(self);
+	if (NULL == pSelfObj)
+	{
+		return 0;
+	}
+	// 当前的阶级和翅膀等级
+	int nCurStep = pSelfObj->QueryInt(FIELD_PROP_WING_STEP);
+	const StepData* pCurData = QueryStepData(nCurStep);
+	if (NULL == pCurData)
+	{
+		return 0;
+	}
+
+	return pCurData->nWingModel;
+}
+
 // 客户端相关消息
 int WingModule::OnCustomWingMsg(IKernel* pKernel, const PERSISTID& self, const PERSISTID& sender, const IVarList& args)
 {
@@ -106,7 +125,11 @@ int WingModule::OnCustomWingMsg(IKernel* pKernel, const PERSISTID& self, const P
 	case WING_C2S_STEP_UP:
 		m_pWingModule->OnCustomStepUp(pKernel, self, args);
 		break;
-	case WING_C2S_RIDE:
+	case WING_C2S_WEAR:
+		m_pWingModule->OnCustomWear(pKernel, self, args);
+		break;
+	case WING_C2S_HIDE:
+		m_pWingModule->OnCustomHide(pKernel, self, args);
 		break;
 	}
 	return 0;
@@ -298,7 +321,7 @@ void WingModule::OnCustomStepUp(IKernel* pKernel, const PERSISTID& self, const I
 	ExpTree exp;
 	int nProbability = (int)exp.CalculateEvent(pKernel, self, PERSISTID(), PERSISTID(), PERSISTID(), pReData->strProbability.c_str());
 	int nRanNum = util_random_int(MAX_BLESS_VALUE);
-
+																							
 	CVarList msg;
 	msg << SERVER_CUSTOMMSG_WING << WING_S2C_STEP_UP_RESULT;
 	// 祝福值大于升阶阀值, 升阶成功
@@ -329,6 +352,52 @@ void WingModule::OnCustomStepUp(IKernel* pKernel, const PERSISTID& self, const I
 // 	log.levelBefore = nRequestLevel - 1;
 // 	log.levelAfter = nRequestLevel;
 // 	LogModule::m_pLogModule->SaveRoleUpgradeLog(pKernel, self, log);
+}
+
+// 响应开启翅膀
+void WingModule::OnCustomWear(IKernel* pKernel, const PERSISTID& self, const IVarList& args)
+{
+	//翅膀功能开关
+	if (!SwitchManagerModule::CheckFunctionEnable(pKernel, SWITCH_FUNCTION_WING, self))
+	{
+		return;
+	}
+	IGameObj* pSelfObj = pKernel->GetGameObj(self);
+	if (NULL == pSelfObj)
+	{
+		return;
+	}
+
+// 	int nStep = pSelfObj->QueryInt(FIELD_PROP_WING_STEP);
+// 	const StepData* pStepData = QueryStepData(nStep);
+// 	if (NULL == pStepData)
+// 	{
+// 		return;
+// 	}
+
+	// 设置翅膀外观
+	pSelfObj->SetInt(FIELD_PROP_IS_WEAR_WING, WEAR_WING);
+
+	// 开始起飞
+}
+
+// 响应隐藏翅膀
+void WingModule::OnCustomHide(IKernel* pKernel, const PERSISTID& self, const IVarList& args)
+{
+	//翅膀功能开关
+	if (!SwitchManagerModule::CheckFunctionEnable(pKernel, SWITCH_FUNCTION_WING, self))
+	{
+		return;
+	}
+	IGameObj* pSelfObj = pKernel->GetGameObj(self);
+	if (NULL == pSelfObj)
+	{
+		return;
+	}
+
+	pSelfObj->SetInt(FIELD_PROP_IS_WEAR_WING, NO_WEAR_WING);
+
+	// 落地
 }
 
 // 读取配置

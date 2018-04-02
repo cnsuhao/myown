@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<!--1组织资金2安定度3繁荣度4行动力5健康度 6秘宝天宫7秘宝息兵 -->
+<Object>
+	<Property ID="1" Type="1" InitNum="10000" UpperLimit="500000"/>
+	<Property ID="2" Type="2" InitNum="500" UpperLimit="1000"/>
+	<Property ID="3" Type="3" InitNum="100" UpperLimit="1000000"/>
+	<Property ID="4" Type="4" InitNum="0" UpperLimit="2400"/>
+	<Property ID="5" Type="5" InitNum="0" UpperLimit="2400"/>
+	<Property ID="6" Type="6" InitNum="0" UpperLimit="99999999"/>
+	<Property ID="7" Type="7" InitNum="0" UpperLimit="99999999"/>
+</Object>

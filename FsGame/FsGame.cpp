@@ -76,6 +76,7 @@
 #include "SystemFunctionModule/BattleAbilityModule.h"
 #include "SystemFunctionModule/ActivateFunctionModule.h"
 #include "SystemFunctionModule/RideModule.h"
+#include "SystemFunctionModule/MapModule.h"
 
 //CommonMoudle
 #include "CommonModule/GMModule.h"
@@ -159,6 +160,7 @@ LOGIC_MODULE_CREATOR(WingModule);
 LOGIC_MODULE_CREATOR(BattleAbilityModule);
 LOGIC_MODULE_CREATOR(ActivateFunctionModule);
 LOGIC_MODULE_CREATOR(RideModule);
+LOGIC_MODULE_CREATOR(MapModule);
 
 //ItemModule
 LOGIC_MODULE_CREATOR(ItemBaseModule);

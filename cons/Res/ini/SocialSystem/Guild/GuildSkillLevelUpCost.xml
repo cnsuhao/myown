@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<!--CurrencyCost 货币消耗-->
+<Object>
+	<Property ID="1" SkillType="0" Level="1" CurrencyCost="10,116"/>
+	<Property ID="2" SkillType="0" Level="2" CurrencyCost="10,124"/>
+	<Property ID="3" SkillType="0" Level="3" CurrencyCost="10,132"/>
+	<Property ID="4" SkillType="0" Level="4" CurrencyCost="10,140"/>
+	<Property ID="5" SkillType="0" Level="5" CurrencyCost="10,148"/>
+	<Property ID="6" SkillType="0" Level="6" CurrencyCost="10,156"/>
+	<Property ID="7" SkillType="0" Level="7" CurrencyCost="10,164"/>
+	<Property ID="8" SkillType="0" Level="8" CurrencyCost="10,172"/>
+	<Property ID="9" SkillType="0" Level="9" CurrencyCost="10,180"/>
+	<Property ID="10" SkillType="0" Level="10" CurrencyCost="10,188"/>
+	<Property ID="11" SkillType="0" Level="11" CurrencyCost="10,196" ConsumeItem="Item8940001:1"/>
+	<Property ID="12" SkillType="0" Level="12" CurrencyCost="10,204" ConsumeItem="Item8940001:1"/>
+	<Property ID="13" SkillType="0" Level="13" CurrencyCost="10,212" ConsumeItem="Item8940001:1"/>
+	<Property ID="14" SkillType="0" Level="14" CurrencyCost="10,220" ConsumeItem="Item8940001:1"/>
+	<Property ID="15" SkillType="0" Level="15" CurrencyCost="10,228" ConsumeItem="Item8940001:1"/>
+	<Property ID="16" SkillType="0" Level="16" CurrencyCost="10,236" ConsumeItem="Item8940001:1"/>
+	<Property ID="17" SkillType="0" Level="17" CurrencyCost="10,244" ConsumeItem="Item8940001:1"/>
+	<Property ID="18" SkillType="0" Level="18" CurrencyCost="10,252" ConsumeItem="Item8940001:1"/>
+	<Property ID="19" SkillType="0" Level="19" CurrencyCost="10,260" ConsumeItem="Item8940001:1"/>
+	<Property ID="20" SkillType="0" Level="20" CurrencyCost="10,268" ConsumeItem="Item8940001:1"/>
+	<Property ID="21" SkillType="0" Level="21" CurrencyCost="10,276" ConsumeItem="Item8940001:1"/>
+	<Property ID="22" SkillType="0" Level="22" CurrencyCost="10,284" ConsumeItem="Item8940001:1"/>
+	<Property ID="23" SkillType="0" Level="23" CurrencyCost="10,292" ConsumeItem="Item8940001:1"/>
+	<Property ID="24" SkillType="0" Level="24" CurrencyCost="10,300" ConsumeItem="Item8940001:1"/>
+	<Property ID="25" SkillType="0" Level="25" CurrencyCost="10,308" ConsumeItem="Item8940001:1"/>
+	<Property ID="26" SkillType="0" Level="26" CurrencyCost="10,316" ConsumeItem="Item8940001:1"/>
+	<Property ID="27" SkillType="0" Level="27" CurrencyCost="10,324" ConsumeItem="Item8940001:1"/>
+	<Property ID="28" SkillType="0" Level="28" CurrencyCost="10,332" ConsumeItem="Item8940001:1"/>
+	<Property ID="29" SkillType="0" Level="29" CurrencyCost="10,340" ConsumeItem="Item8940001:1"/>
+	<Property ID="30" SkillType="0" Level="30" CurrencyCost="10,348" ConsumeItem="Item8940001:1"/>
+	<Property ID="31" SkillType="0" Level="31" CurrencyCost="10,356" ConsumeItem="Item8940001:1"/>
+	<Property ID="32" SkillType="0" Level="32" CurrencyCost="10,364" ConsumeItem="Item8940001:1"/>
+	<Property ID="33" SkillType="0" Level="33" CurrencyCost="10,372" ConsumeItem="Item8940001:1"/>
+	<Property ID="34" SkillType="0" Level="34" CurrencyCost="10,380" ConsumeItem="Item8940001:1"/>
+	<Property ID="35" SkillType="0" Level="35" CurrencyCost="10,388" ConsumeItem="Item8940001:1"/>
+	<Property ID="36" SkillType="0" Level="36" CurrencyCost="10,396" ConsumeItem="Item8940001:1"/>
+	<Property ID="37" SkillType="0" Level="37" CurrencyCost="10,404" ConsumeItem="Item8940001:1"/>
+	<Property ID="38" SkillType="0" Level="38" CurrencyCost="10,412" ConsumeItem="Item8940001:1"/>
+	<Property ID="39" SkillType="0" Level="39" CurrencyCost="10,420" ConsumeItem="Item8940001:1"/>
+	<Property ID="40" SkillType="0" Level="40" CurrencyCost="10,428" ConsumeItem="Item8940001:1"/>
+	<Property ID="41" SkillType="0" Level="41" CurrencyCost="10,436" ConsumeItem="Item8940001:1"/>
+	<Property ID="42" SkillType="0" Level="42" CurrencyCost="10,444" ConsumeItem="Item8940001:1"/>
+	<Property ID="43" SkillType="0" Level="43" CurrencyCost="10,452" ConsumeItem="Item8940001:1"/>
+	<Property ID="44" SkillType="0" Level="44" CurrencyCost="10,460" ConsumeItem="Item8940001:1"/>
+	<Property ID="45" SkillType="0" Level="45" CurrencyCost="10,468" ConsumeItem="Item8940001:1"/>
+	<Property ID="46" SkillType="0" Level="46" CurrencyCost="10,476" ConsumeItem="Item8940001:1"/>
+	<Property ID="47" SkillType="0" Level="47" CurrencyCost="10,484" ConsumeItem="Item8940001:1"/>
+	<Property ID="48" SkillType="0" Level="48" CurrencyCost="10,492" ConsumeItem="Item8940001:1"/>
+	<Property ID="49" SkillType="0" Level="49" CurrencyCost="10,500" ConsumeItem="Item8940001:1"/>
+	<Property ID="50" SkillType="0" Level="50" CurrencyCost="10,508" ConsumeItem="Item8940001:1"/>
+</Object>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<!--GuildBuildType: 1,聚义厅 2,金库 3,厢房 4,仓库 5,书院6,商店-->
+<!--GuildNumType:1组织资金2安定度3繁荣度4行动力5健康度-->
+<Object>
+	<Property ID="1" GuildNumType="1" GuildBuildType="2" GuildBuildingLevel="1" UpperLimit="20000"/>
+	<Property ID="2" GuildNumType="1" GuildBuildType="2" GuildBuildingLevel="2" UpperLimit="50000"/>
+	<Property ID="3" GuildNumType="1" GuildBuildType="2" GuildBuildingLevel="3" UpperLimit="100000"/>
+	<Property ID="4" GuildNumType="1" GuildBuildType="2" GuildBuildingLevel="4" UpperLimit="160000"/>
+	<Property ID="5" GuildNumType="1" GuildBuildType="2" GuildBuildingLevel="5" UpperLimit="240000"/>
+	<Property ID="6" GuildNumType="1" GuildBuildType="2" GuildBuildingLevel="6" UpperLimit="330000"/>
+	<Property ID="7" GuildNumType="1" GuildBuildType="2" GuildBuildingLevel="7" UpperLimit="440000"/>
+	<Property ID="8" GuildNumType="1" GuildBuildType="2" GuildBuildingLevel="8" UpperLimit="560000"/>
+	<Property ID="9" GuildNumType="1" GuildBuildType="2" GuildBuildingLevel="9" UpperLimit="700000"/>
+	<Property ID="10" GuildNumType="1" GuildBuildType="2" GuildBuildingLevel="10" UpperLimit="850000"/>
+	<Property ID="11" GuildNumType="1" GuildBuildType="2" GuildBuildingLevel="11" UpperLimit="1020000"/>
+	<Property ID="12" GuildNumType="1" GuildBuildType="2" GuildBuildingLevel="12" UpperLimit="1200000"/>
+	<Property ID="13" GuildNumType="1" GuildBuildType="2" GuildBuildingLevel="13" UpperLimit="1400000"/>
+	<Property ID="14" GuildNumType="1" GuildBuildType="2" GuildBuildingLevel="14" UpperLimit="1610000"/>
+	<Property ID="15" GuildNumType="1" GuildBuildType="2" GuildBuildingLevel="15" UpperLimit="1840000"/>
+	<Property ID="16" GuildNumType="1" GuildBuildType="2" GuildBuildingLevel="16" UpperLimit="2080000"/>
+	<Property ID="17" GuildNumType="1" GuildBuildType="2" GuildBuildingLevel="17" UpperLimit="2340000"/>
+	<Property ID="18" GuildNumType="1" GuildBuildType="2" GuildBuildingLevel="18" UpperLimit="2610000"/>
+	<Property ID="19" GuildNumType="1" GuildBuildType="2" GuildBuildingLevel="19" UpperLimit="2900000"/>
+	<Property ID="20" GuildNumType="1" GuildBuildType="2" GuildBuildingLevel="20" UpperLimit="3200000"/>
+	<Property/>
+</Object>

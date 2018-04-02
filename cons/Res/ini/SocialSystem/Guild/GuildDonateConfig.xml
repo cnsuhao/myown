@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<!-- 组织捐献配置,这里的配置必须从0级开始填，方便程序代码处理,不要删除-->
+<!-- DonateType 捐献类型，0代表组织捐献，1代表组织BOSS捐献-->
+<!-- RewardGuildExp组织建设度   RewardPlayerDonate个人贡献 GuildDonate组织资金-->
+<!-- CapitalNumber-表示捐献的货币数量-->
+<!-- RewardPlayerDonate-表示玩家获得的组织贡献值-->
+<!-- BossExp 表示组织BOSS捐献后组织BOSS获得的经验-->
+<Object>
+	<Property ID="0" CapitalNumber="100" RewardPlayerDonate="10" GuildDonate="100" Desc="捐献"/>
+</Object>

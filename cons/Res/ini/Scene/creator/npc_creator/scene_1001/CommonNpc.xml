@@ -5,6 +5,6 @@
 <!-- item NO规则:1000+三位场景编号+二位序号  -->
 <object>
 	<staticcreator>
-		<item No="1000100101" x="-160.6" y="50" z="32.7" ay="0" id="70005" desc="测试NPC"/>		
+		<item No="1000100101" x="-160.6" y="50" z="32.7" ay="0" id="700005" desc="测试NPC"/>		
 	</staticcreator>
 </object>

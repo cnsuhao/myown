@@ -2,7 +2,7 @@
 <object>
   <randomcreator>
     <creator No="140203" x="80" y="50" z="-133" MaxScope="6" MinScope="1" SpringRange="30" createtype="0" totalstep="1" IsDestroy="0" SceneAction="0">
-      <item No="1" id="70001" ay="0" amount="5" refreshtime="1000" step="1" limit="0" desc="强盗 " />
+      <item No="1" id="700001" ay="0" amount="5" refreshtime="1000" step="1" limit="0" desc="强盗 " />
     </creator>
   </randomcreator>
 </object>

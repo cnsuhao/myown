@@ -3,5 +3,5 @@
 <Property ID="1" FileName="MainTask.xml" StartLevel="1" LimitNum="-1" RecordRule="0" FirstTaskID="100001" InUse="0"></Property>
 <Property ID="2" FileName="NormalTask.xml" StartLevel="1" LimitNum="1" RecordRule="1" InUse="1"></Property>
 <Property ID="3" FileName="DailyTask.xml" StartLevel="10" LimitNum="-1" RecordRule="1" InUse="1"></Property>
-<Property ID="4" FileName="OfferTask" StartLevel="1" LimitNum="100" RecordRule="2" InUse="0"></Property>
+<Property ID="4" FileName="OfferTask.xml" StartLevel="1" LimitNum="100" RecordRule="2" InUse="0"></Property>
 </Object>

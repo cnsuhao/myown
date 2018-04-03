@@ -42,6 +42,6 @@
 <Property ID="ENV_VALUE_STRENGTHEN_MAX_LEVEL" Value="100" ValueTye="2" desc="强化最大等级"></Property>
 <Property ID="ENV_VALUE_STRENGTHEN_AUTO_COUNT" Value="10" ValueTye="2" desc="一键强化最大次数"></Property>
 <Property ID="ENV_VALUE_TEAMOFFER_LIMIT_PEOPLE" Value="1" ValueTye="2" desc="缉盗组队最小人数"></Property>
-<Property ID="ENV_VALUE_TEAMOFFER_ENTRY_NPC" Value="750001" ValueTye="2" desc="缉盗接取Npc"></Property>
+<Property ID="ENV_VALUE_TEAMOFFER_ENTRY_NPC" Value="750001" ValueTye="6" desc="缉盗接取Npc"></Property>
 <Property ID="ENV_VALUE_TEAMOFFER_TIME" Value="10" ValueTye="2" desc="缉盗时长(MIN)"></Property>
 </Object>

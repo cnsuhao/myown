@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Object>
-<Property ID="400001" Rule="1" AcceptMinLevel="1" AcceptMaxLevel="0" Count="1" CalculateMode="0" IsGroup="0" AutoPathFinding="1" IsAutoSubmit="0" IsShowReward="1" SceneList="1006" PositionList="7,12.8,-44.7,0" KillWay="0" AddInfo="700003:1"></Property>
+<Property ID="400001" Rule="1" AcceptMinLevel="1" AcceptMaxLevel="0" Count="1" CalculateMode="0" IsGroup="0" AutoPathFinding="1" IsAutoSubmit="0" IsShowReward="1" SceneList="1006" PositionList="174,50,-196,0" KillWay="0" AddInfo="700003:1"></Property>
 </Object>

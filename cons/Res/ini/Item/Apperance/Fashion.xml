@@ -7,5 +7,5 @@
 <Property ID="21201" Type="1" SexLimit="12" ClassLimit="12345" UnlockFee="0:200000" UnlockItems="105010001:2" SpecialItem="2"></Property>
 <Property ID="21301" Type="1" SexLimit="12" ClassLimit="12345" UnlockFee="0:200000" UnlockItems="105010001:2" SpecialItem="2"></Property>
 <Property ID="22001" Type="7" SexLimit="12" ClassLimit="12345" UnlockFee="0:200000" UnlockItems="105010001:2" SpecialItem="2"></Property>
-<Property ID="22002" Type="7" SexLimit="12" ClassLimit="12345" UnlockFee="0:200000" UnlockItems="105010001:2" SpecialItem="2"></Property>
+<Property ID="22002" Type="7" SexLimit="12" ClassLimit="12345" UnlockFee="0:200000" UnlockItems="105010001:2" SpecialItem="0"></Property>
 </Object>

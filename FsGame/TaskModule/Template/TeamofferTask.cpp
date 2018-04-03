@@ -52,7 +52,7 @@ bool TeamofferTask::Start(IKernel *pKernel, const PERSISTID &self)
 		return false;
 	}
 
-	// 已开启
+	// 功能未开启
 	if (!ActivateFunctionModule::m_pInstance->CheckActivateFunction(pKernel, self, AFM_TEAMOFFER_TASK))
 	{
 		return false;

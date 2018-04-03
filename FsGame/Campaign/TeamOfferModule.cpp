@@ -126,9 +126,6 @@ bool TeamOfferModule::Init(IKernel* pKernel)
 	// 悬赏怪物死亡
 	pKernel->AddIntCommandHook(CLASS_NAME_TEAM_OFFER_NPC, COMMAND_BEKILL, TeamOfferModule::OnOfferNpcBeKilled);
 
-	// 悬赏怪物受伤害
-	pKernel->AddIntCommandHook(CLASS_NAME_TEAM_OFFER_NPC, COMMAND_BEDAMAGE, TeamOfferModule::OnOfferNpcBeDamaged);
-
 	// 任务进度回调
 	pKernel->AddIntCommandHook(CLASS_NAME_PLAYER, COMMAND_TASK_ACTION_MSG, TeamOfferModule::OnCommandTaskProc);
 
@@ -690,47 +687,6 @@ const int TeamOfferModule::GetAverageLvl(IKernel* pKernel, const PERSISTID &self
 	return (int)(sum_level / rows);
 }
 
-// 加入伤害表
-void TeamOfferModule::AddDamageRec(IKernel* pKernel, const PERSISTID &creator, 
-	const wchar_t *name, const int job)
-{
-	// 玩家名
-	if (StringUtil::CharIsNull(name))
-	{
-		return;
-	}
-
-	// 刷怪器对象
-	IGameObj *pCreator = pKernel->GetGameObj(creator);
-	if (NULL == pCreator)
-	{
-		return;
-	}
-
-	// 伤害表
-	IRecord *pDamageRec = pCreator->GetRecord(FIELD_RECORD_DAMAGE_REC);
-	if (NULL == pDamageRec)
-	{
-		return;
-	}
-
-	// 查找玩家
-	const int exist_row = pDamageRec->FindWideStr(COLUMN_DAMAGE_REC_PLAYER_NAME, name);
-	if (exist_row >= 0)
-	{
-		return;
-	}
-	
-	CVarList row_value;
-	row_value << name
-			  << job
-			  << 0;
-	pDamageRec->AddRowValue(-1, row_value);
-
-	// 推送伤害表
-	PushDamageRec(pKernel, creator);
-}
-
 // 玩家准备就绪
 void TeamOfferModule::PlayerReady(IKernel* pKernel, const PERSISTID &self, 
 	const IVarList& args)
@@ -1146,9 +1102,6 @@ void TeamOfferModule::EntryGroup(IKernel* pKernel, const PERSISTID &self,
 			// 进入分组
 			CommRuleModule::ChangeGroup(pKernel, self, GROUP_CHANGE_TYPE_ENTRY, new_group_id);
 
-			// 加入伤害表
-			AddDamageRec(pKernel, creator, pSelfObj->GetName(), pSelfObj->QueryInt(FIELD_PROP_JOB));
-
 			// 通知客户端倒计时
 			const int offer_time = EnvirValueModule::EnvirQueryInt(ENV_VALUE_TEAMOFFER_TIME) * 60 * 1000;
 			CVarList s2c_msg;
@@ -1179,9 +1132,6 @@ void TeamOfferModule::EntryGroup(IKernel* pKernel, const PERSISTID &self,
 			if (group_id > 0)
 			{
 				CommRuleModule::ChangeGroup(pKernel, self, GROUP_CHANGE_TYPE_ENTRY, group_id);
-
-				// 加入伤害表
-				AddDamageRec(pKernel, creator, pSelfObj->GetName(), pSelfObj->QueryInt(FIELD_PROP_JOB));
 
 				// 通知客户端倒计时
 				const int offer_time = EnvirValueModule::EnvirQueryInt(ENV_VALUE_TEAMOFFER_TIME) * 60 * 1000;
@@ -1320,9 +1270,6 @@ void TeamOfferModule::FollowEntry(IKernel* pKernel, const PERSISTID &self)
 		if (group_id > 0)
 		{
 			CommRuleModule::ChangeGroup(pKernel, self, GROUP_CHANGE_TYPE_ENTRY, group_id);
-
-			// 加入伤害表
-			AddDamageRec(pKernel, creator, pSelfObj->GetName(), pSelfObj->QueryInt(FIELD_PROP_JOB));
 
 			// 通知客户端倒计时
 			const int offer_time = EnvirValueModule::EnvirQueryInt(ENV_VALUE_TEAMOFFER_TIME) * 60 * 1000;
@@ -1846,143 +1793,6 @@ void TeamOfferModule::RewardTeamOffer(IKernel* pKernel, const PERSISTID &self,
 	pKernel->Custom(self, s2c_msg);
 }
 
-// 玩家请求伤害表数据
-void TeamOfferModule::RequestDamageRec(IKernel* pKernel, const PERSISTID &self)
-{
-	IGameObj *pSelfObj = pKernel->GetGameObj(self);
-	if (NULL == pSelfObj)
-	{
-		return;
-	}
-
-	// 伤害者不在队伍中
-	if (!TeamModule::m_pTeamModule->IsInTeam(pKernel, self))
-	{
-		return;
-	}
-
-	IPubData *pPubData = m_pTeamOfferModule->GetPubData(pKernel);
-	if (NULL == pPubData)
-	{
-		return;
-	}
-
-	// 组队悬赏记录表
-	IRecord *pRec = pPubData->GetRecord(TEAMOFFER_REC);
-	if (NULL == pRec)
-	{
-		return;
-	}
-
-	// 玩家信息
-	const int team_id = pSelfObj->QueryInt(FIELD_PROP_TEAM_ID);
-	const int cur_group_id = pSelfObj->QueryInt(FIELD_PROP_GROUP_ID);
-
-	// 异常
-	const int exist_row = pRec->FindInt(TEAMOFFER_REC_COL_TEAM_ID, team_id);
-	if (exist_row < 0)
-	{
-		return;
-	}
-
-	// 悬赏信息
-	CVarList row_value;
-	pRec->QueryRowValue(exist_row, row_value);
-	const int group_id = row_value.IntVal(TEAMOFFER_REC_COL_GROUP_ID);
-	PERSISTID creator = row_value.ObjectVal(TEAMOFFER_REC_COL_CREATOR);
-
-	// 不在副本中
-	if (cur_group_id != group_id)
-	{
-		return;
-	}
-
-	// 刷怪器对象
-	IGameObj *pCreator = pKernel->GetGameObj(creator);
-	if (NULL == pCreator)
-	{
-		return;
-	}
-
-	// 推送伤害表
-	PushDamageRec(pKernel, creator, self);
-}
-
-// 推送伤害表
-void TeamOfferModule::PushDamageRec(IKernel* pKernel, const PERSISTID &creator, 
-	const PERSISTID &self/* = PERSISTID()*/)
-{
-	// 刷怪器对象
-	IGameObj *pCreator = pKernel->GetGameObj(creator);
-	if (NULL == pCreator)
-	{
-		return;
-	}
-
-	// 伤害表
-	IRecord *pDamageRec = pCreator->GetRecord(FIELD_RECORD_DAMAGE_REC);
-	if (NULL == pDamageRec)
-	{
-		return;
-	}
-
-	// 刷怪器分组
-	const int group_id = pCreator->QueryInt(FIELD_PROP_GROUP_ID);
-
-	// 推送对象
-	CVarList player_list;
-	pKernel->GroupChildList(group_id, TYPE_PLAYER, player_list);
-	if (player_list.IsEmpty())
-	{
-		return;
-	}
-	
-	// 数据
-	const int rows = pDamageRec->GetRows();
-	CVarList data;
-	LoopBeginCheck(a);
-	for (int row = 0; row < rows; ++row)
-	{
-		LoopDoCheck(a);
-		CVarList row_value;
-		pDamageRec->QueryRowValue(row, row_value);
-		data.Concat(row_value);
-	}
-
-	if (data.IsEmpty())
-	{
-		return;
-	}
-
-	// 推送数据
-	CVarList s2c_msg;
-	s2c_msg << SERVER_CUSTOMMSG_TEAMOFFER
-			<< S2C_TEAMOFFER_SUB_MSG_DAMAGE_INFO
-			<< rows;
-	s2c_msg.Concat(data);
-	
-	// 推送
-	if (pKernel->Exists(self))
-	{
-		pKernel->Custom(self, s2c_msg);
-	}
-	else
-	{
-		LoopBeginCheck(b);
-		for (int i = 0; i < (int)player_list.GetCount(); ++i)
-		{
-			LoopDoCheck(b);
-			PERSISTID player = player_list.ObjectVal(i);
-			if (!pKernel->Exists(player))
-			{
-				continue;
-			}
-
-			pKernel->Custom(player, s2c_msg);
-		}
-	}
-}
-
 // 重新加载组队悬赏活动配置
 void TeamOfferModule::ReloadTeamofferConfig(IKernel* pKernel)
 {
@@ -2025,11 +1835,6 @@ int TeamOfferModule::OnCustomMsg(IKernel* pKernel, const PERSISTID &self,
 	case C2S_TEAMOFFER_SUB_MSG_LEAVE:	// 退出组队悬赏
 		{
 			m_pTeamOfferModule->LeaveGroup(pKernel, self);
-		}
-		break;
-	case C2S_TEAMOFFER_SUB_MSG_DAMAGE_DATA: // 请求组队悬赏伤害数据
-		{
-			m_pTeamOfferModule->RequestDamageRec(pKernel, self);
 		}
 		break;
 	default:
@@ -2201,140 +2006,8 @@ int TeamOfferModule::OnOfferNpcBeKilled(IKernel* pKernel, const PERSISTID& offer
 		return 0;
 	}
 
-	//if (!pOfferNpc->FindData("Creator") 
-	//	|| !pOfferNpc->FindData("CreatorItem"))
-	//{
-	//	return 0;
-	//}
-
-	//PERSISTID creator = pOfferNpc->QueryDataObject("Creator");
-	//IGameObj* pCreatorObj = pKernel->GetGameObj(creator);
-	//if (pCreatorObj == NULL)
-	//{
-	//	return 0;
-	//}
-
-	//// 不属于组队悬赏刷怪器，不记录击杀
-	//if (!pCreatorObj->FindData("OfferTeam"))
-	//{
-	//	return 0;
-	//}
-
 	// 记录杀死NPC信息
 	NpcCreatorModule::m_pNpcCreatorModule->RecordKillNpc(pKernel, offer_npc);
-
-	return 0;
-}
-
-// 被伤害回调
-int TeamOfferModule::OnOfferNpcBeDamaged(IKernel* pKernel, const PERSISTID& self, 
-	const PERSISTID& sender, const IVarList& args)
-{
-	// 被伤害者
-	IGameObj *pSelfObj = pKernel->GetGameObj(self);
-	if (NULL == pSelfObj)
-	{
-		return 0;
-	}
-
-	// 伤害值
-	const int damage_value = args.IntVal(1);
-
-	// 攻击者，宠物的话，找到它的主人
-	PERSISTID damager = get_pet_master(pKernel, sender);
-	IGameObj* pDamager = pKernel->GetGameObj(damager);
-	if (NULL == pDamager)
-	{
-		return 0;
-	}
-
-	// 非玩家
-	if (pDamager->GetClassType() != TYPE_PLAYER)
-	{
-		return 0;
-	}
-
-	// 伤害者不在队伍中
-	if (!TeamModule::m_pTeamModule->IsInTeam(pKernel, damager))
-	{
-		return 0;
-	}
-
-	IPubData *pPubData = m_pTeamOfferModule->GetPubData(pKernel);
-	if (NULL == pPubData)
-	{
-		return 0;
-	}
-
-	// 组队悬赏记录表
-	IRecord *pRec = pPubData->GetRecord(TEAMOFFER_REC);
-	if (NULL == pRec)
-	{
-		return 0;
-	}
-
-	// 玩家信息
-	const int team_id = pDamager->QueryInt(FIELD_PROP_TEAM_ID);
-	const int cur_group_id = pDamager->QueryInt(FIELD_PROP_GROUP_ID);
-
-	// 异常
-	const int exist_row = pRec->FindInt(TEAMOFFER_REC_COL_TEAM_ID, team_id);
-	if (exist_row < 0)
-	{		
-		return 0;
-	}
-
-	// 悬赏信息
-	CVarList row_value;
-	pRec->QueryRowValue(exist_row, row_value);
-	const int group_id = row_value.IntVal(TEAMOFFER_REC_COL_GROUP_ID);
-	PERSISTID creator = row_value.ObjectVal(TEAMOFFER_REC_COL_CREATOR);
-
-	// 不在副本中
-	if (cur_group_id != group_id)
-	{
-		return 0;
-	}
-
-	// 刷怪器对象
-	IGameObj *pCreator = pKernel->GetGameObj(creator);
-	if (NULL == pCreator)
-	{
-		return 0;
-	}
-
-	// 伤害表
-	IRecord *pDamageRec = pCreator->GetRecord(FIELD_RECORD_DAMAGE_REC);
-	if (NULL == pDamageRec)
-	{
-		return 0;
-	}
-
-	// 查找玩家名
-	const wchar_t *damage_name = pDamager->GetName();
-	if (StringUtil::CharIsNull(damage_name))
-	{
-		return 0;
-	}
-
-	const int row = pDamageRec->FindWideStr(COLUMN_DAMAGE_REC_PLAYER_NAME, damage_name);
-	if (row < 0)
-	{
-		CVarList row_value;
-		row_value << damage_name
-				  << pDamager->QueryInt(FIELD_PROP_JOB)
-				  << damage_value;
-		pDamageRec->AddRowValue(-1, row_value);
-	}
-	else
-	{
-		int cur_damage = pDamageRec->QueryInt(row, COLUMN_DAMAGE_REC_DAMAGE);
-		cur_damage += damage_value;
-		pDamageRec->SetInt(row, COLUMN_DAMAGE_REC_DAMAGE, cur_damage);
-	}
-
-	// 推送伤害值
-	m_pTeamOfferModule->PushDamageRec(pKernel, creator);
 
 	return 0;
 }

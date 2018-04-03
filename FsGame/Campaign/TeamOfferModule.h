@@ -60,10 +60,6 @@ private:
 	// 计算队伍平均等级
 	const int GetAverageLvl(IKernel* pKernel, const PERSISTID &self);
 
-	// 加入伤害表
-	void AddDamageRec(IKernel* pKernel, const PERSISTID &creator, 
-		const wchar_t *name, const int job);
-
 public:
 	// 玩家准备就绪
 	void PlayerReady(IKernel* pKernel, const PERSISTID &self, 
@@ -118,12 +114,6 @@ public:
 	void RewardTeamOffer(IKernel* pKernel, const PERSISTID &self, 
 		const int pass_time);
 
-	// 玩家请求伤害表数据
-	void RequestDamageRec(IKernel* pKernel, const PERSISTID &self);
-
-	// 推送伤害表
-	void PushDamageRec(IKernel* pKernel, const PERSISTID &creator, const PERSISTID &self = PERSISTID());
-
 	// 发送消息到公共区间
 	void SendS2PMsg(IKernel* pKernel, const IVarList& s2p_sub_msg);
 
@@ -141,10 +131,6 @@ private:
 	// 组队悬赏Npc被杀回调
 	static int OnOfferNpcBeKilled(IKernel* pKernel, const PERSISTID& offer_npc,
 		const PERSISTID& killer, const IVarList& args);
-
-	// 被伤害回调
-	static int OnOfferNpcBeDamaged(IKernel* pKernel, const PERSISTID& self,
-		const PERSISTID& sender, const IVarList& args);
 
 	// 玩家上线
 	static int OnPlayerRecover(IKernel* pKernel, const PERSISTID& self, 

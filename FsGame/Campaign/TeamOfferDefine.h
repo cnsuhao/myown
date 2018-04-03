@@ -283,11 +283,6 @@ enum C2S_TeamOffer_Sub_Msg
 	 * @brief	退出组队悬赏
 	 */
 	C2S_TEAMOFFER_SUB_MSG_LEAVE,	
-
-	/*!
-	* @brief	请求组队悬赏伤害数据
-	*/
-	C2S_TEAMOFFER_SUB_MSG_DAMAGE_DATA,
 };
 
 #endif	// _TEAM_OFFER_DEFINE_H_

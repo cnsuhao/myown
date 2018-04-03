@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Object>
+<Property ID="151" DisplayModel="1" Content="缉盗未开启" SortIdx="1"></Property>
+<Property ID="152" DisplayModel="1" Content="缉盗剩余次数不足" SortIdx="1"></Property>
+<Property ID="153" DisplayModel="1" Content="任务已接取" SortIdx="1"></Property>
+<Property ID="154" DisplayModel="1" Content="队伍人数不足" SortIdx="1"></Property>
+<Property ID="155" DisplayModel="1" Content="队员{0}不在缉盗场景" SortIdx="1"></Property>
+<Property ID="156" DisplayModel="1" Content="队员{0}在进行其他活动" SortIdx="1"></Property>
+<Property ID="157" DisplayModel="1" Content="队员{0}等级不足" SortIdx="1"></Property>
+<Property ID="158" DisplayModel="1" Content="队员{0}缉盗次数不足" SortIdx="1"></Property>
+<Property ID="159" DisplayModel="1" Content="队员{0}离线" SortIdx="1"></Property>
+<Property ID="160" DisplayModel="1" Content="队员{0}未领取缉拿任务" SortIdx="1"></Property>
+<Property ID="161" DisplayModel="1" Content="队员{0}在副本中" SortIdx="1"></Property>
+<Property ID="162" DisplayModel="1" Content="仅队长可接取，缉盗任务" SortIdx="1"></Property>
+<Property ID="163" DisplayModel="1" Content="距离太远，无法接取任务" SortIdx="1"></Property>
+<Property ID="164" DisplayModel="1" Content="组队缉盗进行中" SortIdx="1"></Property>
+<Property ID="165" DisplayModel="1" Content="缉盗已结束" SortIdx="1"></Property>
+<Property ID="166" DisplayModel="1" Content="已在副本中" SortIdx="1"></Property>
+<Property ID="167" DisplayModel="1" Content="尚未接取缉盗任务" SortIdx="1"></Property>
+<Property ID="168" DisplayModel="1" Content="不在缉盗场景" SortIdx="1"></Property>
+<Property ID="169" DisplayModel="1" Content="缉盗未开始" SortIdx="1"></Property>
+<Property ID="170" DisplayModel="1" Content="缉盗结算中" SortIdx="1"></Property>
+<Property ID="171" DisplayModel="1" Content="您已退出缉盗" SortIdx="1"></Property>
+</Object>

@@ -5,12 +5,12 @@ No命名规则：task_任务ID
 -->
 <object>
 	<randomcreator>
-		<creator No="Task_400001" x="7" y="12.8" z="-44.7" MaxScope="5" MinScope="1" SpringRange="15" createtype="0" totalstep="2" IsDestroy="0" SceneAction="0">
+		<creator No="Task_400001" x="174" y="50" z="-196" MaxScope="5" MinScope="1" SpringRange="15" createtype="0" totalstep="2" IsDestroy="0" SceneAction="0">
 			<item No="1" id="700001" ay="0" amount="1" refreshtime="-1" step="1" limit="1">
-				<position x="7" z="12.8" ay="0"/>
+				<position x="174" z="-196" ay="0"/>
 			</item>
 			<item No="2" id="700003" ay="1.81" amount="1" refreshtime="-1" step="2" limit="1">
-				<position x="7" z="12.8" ay="0"/>
+				<position x="174" z="-196" ay="0"/>
 			</item>
 		</creator>
 	</randomcreator>

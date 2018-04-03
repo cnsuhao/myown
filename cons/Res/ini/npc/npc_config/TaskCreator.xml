@@ -5,15 +5,12 @@ No命名规则：task_任务ID
 -->
 <object>
 	<randomcreator>
-		<creator No="task_601001" x="406" y="44.4" z="166" MaxScope="5" MinScope="1" SpringRange="15" createtype="0" totalstep="2" IsDestroy="0" SceneAction="0">
-			<item No="1" id="TeamOffer_Monster_10001" ay="0" amount="4" refreshtime="-1" step="1" limit="4">
-				<position x="402.2" z="166" ay="0.64"/>
-				<position x="410.76" z="166" ay="0.18"/>
-				<position x="406.8" z="162.8" ay="5.66"/>
-				<position x="406.26" z="170.9" ay="4.36"/>
+		<creator No="Task_200001" x="7" y="12.8" z="-44.7" MaxScope="5" MinScope="1" SpringRange="15" createtype="0" totalstep="2" IsDestroy="0" SceneAction="0">
+			<item No="1" id="700001" ay="0" amount="1" refreshtime="-1" step="1" limit="1">
+				<position x="7" z="12.8" ay="0"/>
 			</item>
-			<item No="2" id="TeamOffer_BOSS_10001" ay="1.81" amount="1" refreshtime="-1" step="2" limit="1">
-				<position x="406" z="166" ay="1.81"/>
+			<item No="2" id="700003" ay="1.81" amount="1" refreshtime="-1" step="2" limit="1">
+				<position x="7" z="12.8" ay="0"/>
 			</item>
 		</creator>
 	</randomcreator>

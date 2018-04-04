@@ -2,8 +2,6 @@
 <!-- 世界BOSS配置 -->
 <!-- Week-星期日-星期六 0 1 2 3 4 5 6-->
 <Object>
-	<ActiveModel>
-		<Property ID="1" SceneID="801" Week="0,1,2,3,4,5,6" NoticeBeginTime="11:58:00" NoticeEndTime="11:59:00" ActiveBeginTime="12:00:00" ActiveEndTime="12:30:00" BossId="Monster_WB_02" BossPos="16.4,13.8,0" PlayerPos="-38,105;102,-53" PlayerLevel="30" ReturnLocation="0,-128,0" ReturnScene="2"/>
-		<Property ID="2" SceneID="801" Week="0,1,2,3,4,5,6" NoticeBeginTime="20:58:00" NoticeEndTime="20:59:00" ActiveBeginTime="21:00:00" ActiveEndTime="21:30:00" BossId="Monster_WB_01" BossPos="16.4,13.8,0" PlayerPos="-38,105;102,-53" PlayerLevel="30" ReturnLocation="0,-128,0" ReturnScene="2"/>
-	</ActiveModel>
+	<Property ID="1" SceneID="801" Week="0,1,2,3,4,5,6" NoticeBeginTime="11:58:00" NoticeEndTime="11:59:00" ActiveBeginTime="12:00:00" ActiveEndTime="12:30:00" BossId="Monster_WB_02" BossPos="16.4,13.8,0" PlayerPos="-38,105;102,-53" PlayerLevel="30"/>
+	<Property ID="2" SceneID="802" Week="0,1,2,3,4,5,6" NoticeBeginTime="20:58:00" NoticeEndTime="20:59:00" ActiveBeginTime="21:00:00" ActiveEndTime="21:30:00" BossId="Monster_WB_01" BossPos="16.4,13.8,0" PlayerPos="-38,105;102,-53" PlayerLevel="30"/>
 </Object>

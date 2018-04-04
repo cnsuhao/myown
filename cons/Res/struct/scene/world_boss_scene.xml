@@ -13,9 +13,9 @@
 			<column type="widestr" name="player_name" desc="玩家名字"/>
 			<column type="dword" name="damage" desc="总伤害"/>
 		</record>
-		<record name="world_boss_elite_npc_rec" cols="2" maxrows="1024" save="false" public="false" private="false" desc="世界boss精英怪表">
-			<column type="object" name="npc" desc="精英怪对象号"/>
-			<column type="int" name="index" desc="精英怪序号"/>
+		<record name="world_boss_buy_buff_rec" cols="2" maxrows="1024" save="false" public="false" private="false" desc="世界boss购买buff记录">
+			<column type="widestr" name="player_name" desc="玩家名字"/>
+			<column type="int" name="num" desc="购买次数"/>
 		</record>
 	</records>
 </object>

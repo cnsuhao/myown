@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
-<!--EndRankLNum：结束时排名最大显示玩家数 ReadyTime 准备时间 BornCGTime：出生后播放CG时间 LeaveSceneDelay：结束后离开场景延迟时间 ActiveRankNum:活动中实时排行人数 （时间单位都是秒）-->
+<!--EndRankLNum：结束时排名最大显示玩家数 ReadyTime 准备时间 BornCGTime：出生后播放CG时间 LeaveSceneDelay：结束后离开场景延迟时间 ActiveRankNum:活动中实时排行人数 （时间单位都是秒）EncourageBuff:激励buff BuffPrice:buff价格BuffCapitalType:货币类型 MaxBuyNum:最多购买次数-->
 <Object>
-	<Property EndRankLNum="20" ReadyTime="20" BornCGTime="10" LeaveSceneDelay="60" ActiveRankNum="5"/>
+	<Property EndRankLNum="20" ReadyTime="20" BornCGTime="10" LeaveSceneDelay="60" ActiveRankNum="5" EncourageBuff="5" BuffPrice="@WorldBossEncourage*5+10" BuffCapitalType="1" MaxBuyNum="10"/>
 </Object>

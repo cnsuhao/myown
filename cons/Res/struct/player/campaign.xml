@@ -3,24 +3,15 @@
 <object>
 	<!--基本属性-->
 	<properties>
-		<property name="BossTrainNum" type="int" public="false" private="true" save="true" desc="Boss训练次数"/>
 		<property name="AsuraAddRate" type="float" public="false" private="false" save="false" desc="修罗战场积分附加率"/>
 		<property name="AsuraCollectScore" type="word" public="false" private="true" save="false" desc="采集后,未提交的积分"/>
 		<property name="AsuraDeadNum" type="byte" public="false" private="false" save="false" desc="修罗战场死亡次数"/>
 		<property name="AsuraScore" type="dword" public="true" private="true" save="true" desc="修罗战场积分"/>
-		<property name="GcfGuardDamVal" type="dword" public="false" private="false" save="true" desc="公会乱斗守卫总伤害"/>
-		<property name="GcfGuardScoreStage" type="dword" public="false" private="false" save="true" desc="公会乱斗守卫积分阶段"/>
+		<property name="WBEncourage" type="byte" public="false" private="true" save="false" desc="激励次数"/>
 	</properties>
 	<!-- 表属性 -->
 	<records>
 		<record name="asura_fight_rec" cols="4" maxrows="1024" public="false" private="true" save="true" desc="阵营战斗数据">
-			<column type="dword" name="score" desc="积分"/>
-			<column type="dword" name="kill" desc="杀人数"/>
-			<column type="dword" name="dead" desc="死亡数"/>
-			<column type="dword" name="assist" desc="助攻数"/>
-		</record>
-		<record name="gcf_score_rec" cols="5" maxrows="1024" public="false" private="true" save="true" desc="公会乱斗积分表">
-			<column type="byte" name="key" desc="标识"/>
 			<column type="dword" name="score" desc="积分"/>
 			<column type="dword" name="kill" desc="杀人数"/>
 			<column type="dword" name="dead" desc="死亡数"/>

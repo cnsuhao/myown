@@ -2,12 +2,12 @@
 <Object>
 <Property ID="1006" Open="1" BeginTime="0" EndTime="0.99998842592592585">
   <BossItems>
-  	<BossItem Boss="700004" Interval="500" Position="174,50,-196,0" LevelLimit="10" AwardID="1"/>
-  	<BossItem Boss="700005" Interval="500" Position="174,50,-188,0" LevelLimit="20" AwardID="1"/>
+  	<BossItem Boss="700004" Interval="500" Position="174,-196,0" LevelLimit="10" AwardID="1"/>
+  	<BossItem Boss="700005" Interval="500" Position="174,-188,0" LevelLimit="20" AwardID="1"/>
   </BossItems></Property>
 <Property ID="1001" Open="1" BeginTime="0" EndTime="0.99998842592592585">
   <BossItems>
-  	<BossItem Boss="700006" Interval="500" Position="-68,50,-12,0" LevelLimit="30" AwardID="1"/>
-  	<BossItem Boss="700007" Interval="500" Position="99,50,33,0" LevelLimit="40" AwardID="1"/>
+  	<BossItem Boss="700006" Interval="500" Position="-68,-12,0" LevelLimit="30" AwardID="1"/>
+  	<BossItem Boss="700007" Interval="500" Position="99,33,0" LevelLimit="40" AwardID="1"/>
   </BossItems></Property>
 </Object>

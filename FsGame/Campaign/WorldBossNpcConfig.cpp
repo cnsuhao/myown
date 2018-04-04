@@ -202,7 +202,16 @@ bool WorldBossNpc::LoadAwardResource(IKernel* pKernel)
 
 		tAward.m_nLastHurtAward = convert_int(_pElement->Attribute("LastHurtAward"), 0);
 		//ÅÅÃû½±Àø
+		TiXmlElement* pElementPar = _pElement->FirstChildElement("RankAwards");
+		if (NULL == pElementPar)
+		{
+			continue;
+		}
 		TiXmlElement* pElement = _pElement->FirstChildElement("RankAward");
+		if (NULL == pElement)
+		{
+			continue;
+		}
 		LoopBeginCheck(f);
 		while (pElement)
 		{
@@ -265,6 +274,10 @@ bool WorldBossNpc::LoadActiveRuleResource(IKernel* pKernel)
 		m_kConstConfig.nBornCGTime		= convert_int(pGroup->Attribute("BornCGTime"), 0) * 1000;
 		m_kConstConfig.nLeaveSceneDelay = convert_int(pGroup->Attribute("LeaveSceneDelay"), 0) * 1000;
 		m_kConstConfig.nActiveRankNum	= convert_int(pGroup->Attribute("ActiveRankNum"), 0);
+		m_kConstConfig.strEncourageBuff = pGroup->Attribute("EncourageBuff");
+		m_kConstConfig.strBuffPrice		= pGroup->Attribute("EncourageBuffPrice");
+		m_kConstConfig.nCapitalType		= convert_int(pGroup->Attribute("BuffCapitalType"), 0);
+		m_kConstConfig.nMaxBuyNum		= convert_int(pGroup->Attribute("MaxBuyNum"), 0);
 
 		pGroup = pGroup->NextSiblingElement("Property");
 	}

@@ -126,9 +126,7 @@ enum CS_WorldBossSubMsgID
 	CS_WORLD_BOSS_ACTIVE_BACK_TO_LAST_SCENE,		// 活动中途退出  返回上一个场景,找不到就回皇城
 	CS_WORLD_BOSS_ACTIVE_QUERY_ACTIVE_STATUS,		// 查询当前活动状态
 	CS_WORLD_BOSS_ACTIVE_QUERY_BASE_INFO,			// 查询世界boss击杀的基本数据
-// 	CS_WORLD_BOSS_ACTIVE_QUERY_CURR_DAY_TYPE,		//  暂时不用 查询当天的活动类型
-// 	CS_YEAR_BOSS_BUY_BUFF,							// 暂时不用 年兽活动购买buff int-购买货币类型 
-// 	CS_YEAR_BOSS_QUERY_COOLDOWN_TIME,				// 暂时不用 年兽活动查询购买buff CD时间	
+	CS_WORLD_BOSS_ACTIVE_BUY_ENCOURAGE_BUFF,		// 购买激励buff
 
 };
 // 服务端子消息定义

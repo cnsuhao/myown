@@ -157,18 +157,18 @@ int SkillFlow::DoSkillHitByClient(IKernel* pKernel, const PERSISTID& self, const
 
 	const char* strSkillId = pKernel->GetConfig(skill);
 	// 1.技能持续时间验证
-	if (!pSelfObj->FindData("SkillBeginTime"))
-	{
-		return false;
-	}
-
-	if(pSkillMain->GetValidTime() < util_get_time_64() - pSelfObj->QueryDataInt64("SkillBeginTime"))
-	{
-		extend_warning(LOG_INFO, "Skill is %s, InValid is ValidTime,ValidTime is %d, Time Diff is %d",
-			strSkillId, pSkillMain->GetValidTime(), util_get_time_64() - pSelfObj->QueryDataInt64("SkillBeginTime"));
-		//SkillStageSingleton::Instance()->CustomSkillClientHitFailed(pKernel, self, strSkillId, VALID_TIME_FAILED, CVarList());
-		return false;
-	}
+// 	if (!pSelfObj->FindData("SkillBeginTime"))
+// 	{
+// 		return false;
+// 	}
+// 
+// 	if(pSkillMain->GetValidTime() < util_get_time_64() - pSelfObj->QueryDataInt64("SkillBeginTime"))
+// 	{
+// 		extend_warning(LOG_INFO, "Skill is %s, InValid is ValidTime,ValidTime is %d, Time Diff is %d",
+// 			strSkillId, pSkillMain->GetValidTime(), util_get_time_64() - pSelfObj->QueryDataInt64("SkillBeginTime"));
+// 		//SkillStageSingleton::Instance()->CustomSkillClientHitFailed(pKernel, self, strSkillId, VALID_TIME_FAILED, CVarList());
+// 		return false;
+// 	}
 	
 	// 2.命中次数索引验证
 	if (!pSkillObj->FindData("ClientHitsIndex"))
@@ -928,20 +928,20 @@ void SkillFlow::OnHitOneTarget(IKernel* pKernel, PERSISTID target, const PERSIST
 	pSelfObj->SetObject(FIGHTER_CUR_SKILL_TARGET, target);
 	// 施法距离验证
 	// 与释放者的最大距离
-	int nValidDis = pSkillMain->GetValidDistance();
-
-	float fValidDis = (float)(nValidDis * nValidDis);
-	// 计算施法者与目标的距离
-	float fRealDis2 = util_dot_distance2(pTarget->GetPosiX(), pTarget->GetPosiZ(), pSelfObj->GetPosiX(), pSelfObj->GetPosiZ());
-
-	// 验证通过进行命中
-	if (fRealDis2 <= fValidDis)
-	{
+// 	int nValidDis = pSkillMain->GetValidDistance();
+// 
+// 	float fValidDis = (float)(nValidDis * nValidDis);
+// 	// 计算施法者与目标的距离
+// 	float fRealDis2 = util_dot_distance2(pTarget->GetPosiX(), pTarget->GetPosiZ(), pSelfObj->GetPosiX(), pSelfObj->GetPosiZ());
+// 
+// 	// 验证通过进行命中
+// 	if (fRealDis2 <= fValidDis)
+// 	{
 		SkillEventManager::SkillAfterHit(pKernel, self, skill, nSkilluid, target);
 		FightModule::m_pInstance->SkillDamageTarget(pKernel, self, target, skill, nSkilluid);
-	}
-	else
-	{
-		extend_warning(LOG_INFO, "Skill is %s, InValid is Distance, RealDis2:%f, ValidDis:%f", pSkillMain->GetID(), fRealDis2, fValidDis);
-	}
+// 	}
+// 	else
+// 	{
+// 		extend_warning(LOG_INFO, "Skill is %s, InValid is Distance, RealDis2:%f, ValidDis:%f", pSkillMain->GetID(), fRealDis2, fValidDis);
+// 	}
 }

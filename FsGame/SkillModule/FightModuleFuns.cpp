@@ -132,7 +132,7 @@ void FightModule::CustomSkillDamageMsg(IKernel* pKernel, const PERSISTID& self,
 	// 获取受击类型
 	int nHitStartIndex = 0;
 	nHitStartIndex = SkillAccessSingleton::Instance()->GetHitIndex(pKernel, pSelfObj, pSkillObj);
-	vEffectParams << util_compress_int2(nHitStartIndex, 1);
+	vEffectParams << nHitStartIndex+1;
 	
     // 通知客户端技能阶段
     SkillStageSingleton::Instance()->CustomSkillEffectStageRealTime(pKernel, self, iSkillUUID,

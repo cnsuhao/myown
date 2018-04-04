@@ -14,6 +14,7 @@
 //#include "../../Define/SceretSceneDefine.h"
 #include "../../NpcBaseModule/AI/AIDefine.h"
 #include "CommonModule/EnvirValueModule.h"
+#include "../PKModelModule.h"
 //#include "../PKModelModule.h"
 
 
@@ -362,14 +363,14 @@ ETargetFilterResult TargetFilter::SatisfyRelation(IKernel* pKernel, const PERSIS
 	bool bSameGroup = CheckGroupID(pKernel, pSelfObj, pTargetObj);
 
 	// 去掉新手保护检查
-	bool bLevelLim = CheckLevelLimit(pKernel, pSelfObj, pTargetObj);
+	//bool bLevelLim = CheckLevelLimit(pKernel, pSelfObj, pTargetObj);
 
     // 检查技能作用对象关系
     int result1 = CheckHitTargetRelationType(pKernel, pSelfObj, pTargetObj, iRelationType);
     // 检查技能作用对象类型
     int result2 = CheckHitTargetType(pKernel, pSelfObj, pTargetObj, iHitTargetType);
 
-    if (TARGETFILTER_RESULT_SUCCEED == result1 && TARGETFILTER_RESULT_SUCCEED == result2 && bSameGroup && bLevelLim)
+    if (TARGETFILTER_RESULT_SUCCEED == result1 && TARGETFILTER_RESULT_SUCCEED == result2 && bSameGroup)
     {
         return TARGETFILTER_RESULT_SUCCEED;
     }
@@ -393,19 +394,19 @@ ETargetFilterResult TargetFilter::CheckHitTargetRelationType(IKernel* pKernel, I
     // 友好方
     if ((iRelationType & HIT_TARGET_RELATION_TYPE_FRIEND) != 0)
     {
-// 		if (PKModelModule::IsFriendly(pKernel, pSelfObj->GetObjectId(), pTargetObj->GetObjectId()))
-//         {
-//             return TARGETFILTER_RESULT_SUCCEED;
-//         }
+		if (PKModelModule::IsFriendly(pKernel, pSelfObj->GetObjectId(), pTargetObj->GetObjectId()))
+        {
+            return TARGETFILTER_RESULT_SUCCEED;
+        }
     }
 
     // 敌对方
     if ((iRelationType & HIT_TARGET_RELATION_TYPE_ENIMY) != 0)
     {
-// 		if (PKModelModule::IsBeAttacked(pKernel, pSelfObj->GetObjectId(), pTargetObj->GetObjectId()))
-//         {
-//             return TARGETFILTER_RESULT_SUCCEED;
-//         }
+		if (PKModelModule::IsBeAttacked(pKernel, pSelfObj->GetObjectId(), pTargetObj->GetObjectId()))
+        {
+            return TARGETFILTER_RESULT_SUCCEED;
+        }
     }
 
 

@@ -31,6 +31,8 @@ enum SystemInfo_Campaign
 	SYSTEM_INFO_ID_52,			    // 时间到活动结束！
 	SYSTEM_INFO_ID_53,			    // 世界BOSS3分钟后出现 请大家做好准备！
 	SYSTEM_INFO_ID_54,			    // 恭喜{0}击杀了世界BOSS{1}，获得了{2}！
+	SYSTEM_INFO_ID_55,			    // 钱不够,不能买激励buff
+	SYSTEM_INFO_ID_56,			    // 购买次数已达上限
 #pragma endregion
 
 #pragma region 	// CampaignAsuraBattle 修罗战场	(101 - 150)

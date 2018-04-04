@@ -393,6 +393,8 @@ bool CommRuleModule::ParsePosInfo(PosInfo& outPos, const char* strPos, const cha
 	outPos.fPosX = pos.FloatVal(0);
 	outPos.fPosZ = pos.FloatVal(1);
 	outPos.fOrient = pos.FloatVal(2);
+
+	return true;
 }
 
 // 是否合法装备部位

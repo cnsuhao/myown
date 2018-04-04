@@ -1410,14 +1410,6 @@
 //	desc="历史最高战斗力"/> 
 #define FIELD_PROP_HIGHEST_BATTLE_ABILITY			"HighestBattleAbility" 
  
-//<property name="BossTrainNum"  
-// 	type="int"  
-//	public="false"  
-//	private="true"  
-//	save="true"  
-//	desc="Boss训练次数"/> 
-#define FIELD_PROP_BOSS_TRAIN_NUM			"BossTrainNum" 
- 
 //<property name="AsuraAddRate"  
 // 	type="float"  
 //	public="false"  
@@ -1450,21 +1442,21 @@
 //	desc="修罗战场积分"/> 
 #define FIELD_PROP_ASURA_SCORE			"AsuraScore" 
  
-//<property name="GcfGuardDamVal"  
-// 	type="dword"  
+//<property name="WBEncourage"  
+// 	type="byte"  
 //	public="false"  
-//	private="false"  
+//	private="true"  
 //	save="true"  
-//	desc="公会乱斗守卫总伤害"/> 
-#define FIELD_PROP_GCF_GUARD_DAM_VAL			"GcfGuardDamVal" 
+//	desc="激励次数"/> 
+#define FIELD_PROP_WBENCOURAGE			"WBEncourage" 
  
-//<property name="GcfGuardScoreStage"  
-// 	type="dword"  
+//<property name="WBEncourageTime"  
+// 	type="int64"  
 //	public="false"  
-//	private="false"  
+//	private="true"  
 //	save="true"  
-//	desc="公会乱斗守卫积分阶段"/> 
-#define FIELD_PROP_GCF_GUARD_SCORE_STAGE			"GcfGuardScoreStage" 
+//	desc="购买时间"/> 
+#define FIELD_PROP_WBENCOURAGE_TIME			"WBEncourageTime" 
  
 //<property name="BeforeGroup"  
 // 	type="word"  
@@ -2194,6 +2186,14 @@
 //	desc="受击硬直状态"/> 
 #define FIELD_PROP_STIFF_STATE			"StiffState" 
  
+//<property name="CantNormalAttack"  
+// 	type="byte"  
+//	public="false"  
+//	private="true"  
+//	save="false"  
+//	desc="是否不能普通攻击"/> 
+#define FIELD_PROP_CANT_NORMAL_ATTACK			"CantNormalAttack" 
+ 
 //<property name="Dead"  
 // 	type="byte"  
 //	public="true"  
@@ -2721,6 +2721,14 @@
 //	save="false"  
 //	desc="附加 会心抵抗"/> 
 #define FIELD_PROP_TOUG_ADD			"TougAdd" 
+ 
+//<property name="SkillMotion"  
+// 	type="byte"  
+//	public="false"  
+//	private="false"  
+//	save="false"  
+//	desc="使用技能位移"/> 
+#define FIELD_PROP_SKILL_MOTION			"SkillMotion" 
  
 //<property name="CurSkill"  
 // 	type="object"  
@@ -3598,37 +3606,6 @@ enum COLUMNS_OF_ASURA_FIGHT_REC
  
 	// <column type="dword" desc="助攻数"/> 
 	COLUMN_ASURA_FIGHT_REC_ASSIST, 
- 
-}; 
- 
- 
-//<record name="gcf_score_rec" 
-//	cols="5"  
-//	maxrows="1024"  
-//	public="false"  
-//	private="true"  
-//	save="true"  
-//	desc="公会乱斗积分表"/> 
- 
-#define FIELD_RECORD_GCF_SCORE_REC			"gcf_score_rec" 
-// gcf_score_rec column index define 
-enum COLUMNS_OF_GCF_SCORE_REC 
-{ 
- 
-	// <column type="byte" desc="标识"/> 
-	COLUMN_GCF_SCORE_REC_KEY, 
- 
-	// <column type="dword" desc="积分"/> 
-	COLUMN_GCF_SCORE_REC_SCORE, 
- 
-	// <column type="dword" desc="杀人数"/> 
-	COLUMN_GCF_SCORE_REC_KILL, 
- 
-	// <column type="dword" desc="死亡数"/> 
-	COLUMN_GCF_SCORE_REC_DEAD, 
- 
-	// <column type="dword" desc="助攻数"/> 
-	COLUMN_GCF_SCORE_REC_ASSIST, 
  
 }; 
  
@@ -5279,6 +5256,37 @@ enum COLUMNS_OF_CREATE_GROUP_RANDOM_FLOW
 }; 
  
  
+//<record name="scene_boss_rec" 
+//	cols="5"  
+//	maxrows="128"  
+//	public="false"  
+//	private="false"  
+//	save="false"  
+//	desc="场景BOSS信息表"/> 
+ 
+#define FIELD_RECORD_SCENE_BOSS_REC			"scene_boss_rec" 
+// scene_boss_rec column index define 
+enum COLUMNS_OF_SCENE_BOSS_REC 
+{ 
+ 
+	// <column type="string" desc="BOSS编号"/> 
+	COLUMN_SCENE_BOSS_REC_0000, 
+ 
+	// <column type="object" desc="BOSS对象"/> 
+	COLUMN_SCENE_BOSS_REC_0001, 
+ 
+	// <column type="float" desc="出生坐标X"/> 
+	COLUMN_SCENE_BOSS_REC_0002, 
+ 
+	// <column type="float" desc="出生坐标Z"/> 
+	COLUMN_SCENE_BOSS_REC_0003, 
+ 
+	// <column type="float" desc="出生朝向"/> 
+	COLUMN_SCENE_BOSS_REC_0004, 
+ 
+}; 
+ 
+ 
 //<record name="world_boss_damage_rec" 
 //	cols="3"  
 //	maxrows="1024"  
@@ -5304,24 +5312,24 @@ enum COLUMNS_OF_WORLD_BOSS_DAMAGE_REC
 }; 
  
  
-//<record name="world_boss_elite_npc_rec" 
+//<record name="world_boss_buy_buff_rec" 
 //	cols="2"  
 //	maxrows="1024"  
 //	public="false"  
 //	private="false"  
 //	save="false"  
-//	desc="世界boss精英怪表"/> 
+//	desc="世界boss购买buff记录"/> 
  
-#define FIELD_RECORD_WORLD_BOSS_ELITE_NPC_REC			"world_boss_elite_npc_rec" 
-// world_boss_elite_npc_rec column index define 
-enum COLUMNS_OF_WORLD_BOSS_ELITE_NPC_REC 
+#define FIELD_RECORD_WORLD_BOSS_BUY_BUFF_REC			"world_boss_buy_buff_rec" 
+// world_boss_buy_buff_rec column index define 
+enum COLUMNS_OF_WORLD_BOSS_BUY_BUFF_REC 
 { 
  
-	// <column type="object" desc="精英怪对象号"/> 
-	COLUMN_WORLD_BOSS_ELITE_NPC_REC_NPC, 
+	// <column type="widestr" desc="玩家名字"/> 
+	COLUMN_WORLD_BOSS_BUY_BUFF_REC_PLAYER_NAME, 
  
-	// <column type="int" desc="精英怪序号"/> 
-	COLUMN_WORLD_BOSS_ELITE_NPC_REC_INDEX, 
+	// <column type="int" desc="购买次数"/> 
+	COLUMN_WORLD_BOSS_BUY_BUFF_REC_NUM, 
  
 }; 
  

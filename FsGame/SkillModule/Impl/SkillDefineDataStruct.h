@@ -172,6 +172,7 @@ struct SkillMainData
 	DECLARE_INLINE_BOOL_PROP_VARIANT(IsClientHit);//是否有客户端主导击中
 	DECLARE_INLINE_CVARLIST_PROP_VARIANT(PassiveSkill);//影响技能的被动技能
 	DECLARE_INLINE_BOOL_PROP_VARIANT(IsUnSilent);//是否对沉默无效的技能
+	DECLARE_INLINE_BOOL_PROP_VARIANT(IsNormalAttack);//是否为普通攻击
 public:
 	void SetPropData(CXmlFile &xml, const char* szSectionName, StringBuffer& stringBuffer)
 	{
@@ -221,6 +222,7 @@ public:
 		SetIsClientHit(xml.ReadInteger(szSectionName,"IsClientHit",0));
 		SetPassiveSkill(xml.ReadString(szSectionName,"PassiveSkill",""), ",");
 		SetIsUnSilent(xml.ReadInteger(szSectionName,"IsUnSilent",0));
+		SetIsNormalAttack(xml.ReadInteger(szSectionName, "IsNormalAttack", 0));
 	}
 }; // end of struct SkillMainData
 

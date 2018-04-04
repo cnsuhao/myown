@@ -141,36 +141,16 @@ struct ConstConfig_t
 
 	}
 
-	int nEndRankNum;				// 排名最大显示玩家数
-	int nReadyTime;					// 准备时间
-	int nBornCGTime;				// 出生后播放CG时间
-	int nLeaveSceneDelay;			// 结束后离开场景延迟时间
-	int nActiveRankNum;				// 活动中实时排行人数
+	int				nEndRankNum;				// 排名最大显示玩家数
+	int				nReadyTime;					// 准备时间
+	int				nBornCGTime;				// 出生后播放CG时间
+	int				nLeaveSceneDelay;			// 结束后离开场景延迟时间
+	int				nActiveRankNum;				// 活动中实时排行人数
+	std::string		strEncourageBuff;			// 激励buff
+	std::string		strBuffPrice;				// buff价格
+	int				nCapitalType;				// 货币类型
+	int				nMaxBuyNum;					// 最大购买次数
 };
-
-// buff配置信息
-struct BuffConfig
-{
-	BuffConfig():
-		index(0),
-		buffId(""),
-		buffPrice(0),
-		moneyType(0),
-		limitBuy(0),
-		coolDownBuy(0),
-		buyRatio(0.0),
-		addFight(0.0){}
-
-	int         index;             // buff层级
-	std::string buffId;            // buff ID
-	int         buffPrice;         // buff 价格
-	int         moneyType;         // 购买钱币类型
-	int         limitBuy;          // 限制购买次数
-	int         coolDownBuy;       // 冷却时间
-	double      buyRatio;          // 购买概率
-	double      addFight;          // 增加攻击百分比
-};
-
 
 // 世界boss成长配置
 struct WorldBossGrowUp 
@@ -203,7 +183,7 @@ public:
 	bool LoadWorldBossGrowUpConfig(IKernel* pKernel);
 
 	// 判定世界boss场景是否可进入
-	bool IsSceneEnter(IKernel* pKernel, const PERSISTID& self, int nSceneId);
+	//bool IsSceneEnter(IKernel* pKernel, const PERSISTID& self, int nSceneId);
 public:
 	// 场景创建
 	static int OnCreateScene(IKernel* pKernel, const PERSISTID& self, 
@@ -291,6 +271,9 @@ private:
 
 	// 回复世界boss基本数据查询
 	int OnQueryBaseInfo(IKernel* pKernel, const PERSISTID& self);
+
+	// 响应购买激励buff
+	int OnBuyEncourageBuff(IKernel* pKernel, const PERSISTID& self);
 private:
 	// 获取当前场景活动信息
 	static WorldBossActive_t* GetActiveInfoCfg(IKernel* pKernel, const int iID);

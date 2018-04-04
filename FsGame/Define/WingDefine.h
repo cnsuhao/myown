@@ -19,7 +19,6 @@ enum WingC2SMsg
 	WING_C2S_STEP_UP,		// ³á°òÉý½×
 	WING_C2S_WEAR,			// ´©´÷³á°ò
 	WING_C2S_HIDE,			// Òþ²Ø³á°ò
-	WING_C2S_CHANGE_MODEL,	// ¸Ä±äÍâ¹Û int nWingModel 
 };
 
 

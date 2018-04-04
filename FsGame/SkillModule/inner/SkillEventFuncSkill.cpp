@@ -71,11 +71,11 @@ bool SkillEventFlickerMove::Execute(IKernel* pKernel, const IVarList& vEventPara
 	// 玩家闪烁,位置由客户端来选择后发给服务器,服务器做验证
 	if (TYPE_PLAYER == pSelfObj->GetClassType())
 	{
-		float fPosX = params.FloatVal(0);
-		float fPosY = params.FloatVal(1);
-		float fPosZ = params.FloatVal(2);
-
-		SkillEventExecuteUtil::MotionObject(pKernel, pSelfObj, fSpeed, fPosX, fPosZ);
+// 		float fPosX = params.FloatVal(0);
+// 		float fPosY = params.FloatVal(1);
+// 		float fPosZ = params.FloatVal(2);
+// 
+// 		SkillEventExecuteUtil::MotionObject(pKernel, pSelfObj, fSpeed, fPosX, fPosZ);
 	}
 	else
 	{

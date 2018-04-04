@@ -21,7 +21,6 @@
 #include "FsGame/Define/ServerCustomDefine.h"
 #include "FsGame/Define/WorldBossNpcDefine.h"
 #include "FsGame/NpcBaseModule/ai/AIDefine.h"
-//#include "FsGame/Define/ToolBoxSysInfoDefine.h"
 
 #include "FsGame/CommonModule/PubModule.h"
 #include "FsGame/SocialSystemModule/ChatModule.h"
@@ -53,6 +52,8 @@
 #include "Define/Fields.h"
 #include "CommonModule/ReLoadConfigModule.h"
 #include "ItemModule/ToolItem/ToolItemModule.h"
+#include "CommonModule/CommRuleModule.h"
+#include "utils/exptree.h"
 
 // boss 临时存储属性名字
 static const char* WORLD_BOSS_ACTIVED                 = "world_boss_actived";
@@ -1174,6 +1175,11 @@ int WorldBossNpc::OnCustomMessage(IKernel* pKernel, const PERSISTID& self, const
 			m_pWorldBossNpc->OnQueryBaseInfo(pKernel, self);
 		}
 		break;
+	case CS_WORLD_BOSS_ACTIVE_BUY_ENCOURAGE_BUFF:
+		{
+			m_pWorldBossNpc->OnBuyEncourageBuff(pKernel, self);
+		}
+		break;
 	}
 
 	return 0;
@@ -1303,6 +1309,78 @@ int WorldBossNpc::OnQueryBaseInfo(IKernel* pKernel, const PERSISTID& self)
 	}
 
 	pKernel->Custom(self, msg);
+	return 0;
+}
+
+// 响应购买激励buff
+int WorldBossNpc::OnBuyEncourageBuff(IKernel* pKernel, const PERSISTID& self)
+{
+	IGameObj* pSelfObj = pKernel->GetGameObj(self);
+	if (NULL == pSelfObj)
+	{
+		return 0;
+	}
+
+	// 只能在世界boss场景购买
+	int nSceneId = pKernel->GetSceneId();
+	if (!IsWorldBossScene(nSceneId))
+	{
+		return 0;
+	}
+
+	int nEncourageNum = pSelfObj->QueryInt(FIELD_PROP_WBENCOURAGE);
+	if (nEncourageNum >= m_kConstConfig.nMaxBuyNum)
+	{
+		// 购买次数达到上限
+		CustomSysInfo(pKernel, self, SYSTEM_INFO_ID_56, CVarList());
+		return 0;
+	}
+
+
+	ExpTree exp;
+	int nCostCapital = exp.CalculateEvent(pKernel, self, PERSISTID(), PERSISTID(), PERSISTID(), m_kConstConfig.strBuffPrice.c_str());
+	if (!m_pCapitalModule->CanDecCapital(pKernel, self, m_kConstConfig.nCapitalType, nCostCapital))
+	{
+		// 钱不够
+		CustomSysInfo(pKernel, self, SYSTEM_INFO_ID_55, CVarList());
+		return 0;
+	}
+
+	if (DC_SUCCESS != m_pCapitalModule->DecCapital(pKernel, self, m_kConstConfig.nCapitalType, nCostCapital, FUNCTION_EVENT_ID_WORLDBOSS_BUY_BUFF))
+	{
+		// 钱不够
+		CustomSysInfo(pKernel, self, SYSTEM_INFO_ID_55, CVarList());
+		return 0;
+	}
+
+	// 更新场景购买buff次数和玩家激励次数
+	IGameObj* pSceneObj = pKernel->GetSceneObj();
+	if (NULL == pSceneObj)
+	{
+		return 0;
+	}
+
+	IRecord* pSceneBuyRec = pSceneObj->GetRecord(FIELD_RECORD_WORLD_BOSS_BUY_BUFF_REC);
+	if (NULL == pSceneBuyRec)
+	{
+		return 0;
+	}
+
+	const wchar_t* wsName = pSelfObj->QueryWideStr(FIELD_PROP_NAME);
+	int nRowIndex = pSceneBuyRec->FindWideStr(COLUMN_WORLD_BOSS_BUY_BUFF_REC_PLAYER_NAME, wsName);
+	if (-1 == nRowIndex)
+	{
+		pSceneBuyRec->AddRowValue(-1, CVarList() << wsName << 1);
+		pSelfObj->SetInt(FIELD_PROP_WBENCOURAGE, 1);
+	}
+	else
+	{
+		int nBuyNum = pSceneBuyRec->QueryInt(nRowIndex, COLUMN_WORLD_BOSS_BUY_BUFF_REC_NUM);
+		pSceneBuyRec->SetInt(nRowIndex, COLUMN_WORLD_BOSS_BUY_BUFF_REC_NUM, ++nBuyNum);
+		pSelfObj->SetInt(FIELD_PROP_WBENCOURAGE, nBuyNum);
+	}
+
+	FightInterfaceInstance->AddBuffer(pKernel, self, self, m_kConstConfig.strEncourageBuff.c_str());
 	return 0;
 }
 
@@ -1826,43 +1904,43 @@ void WorldBossNpc::ReloadConfig(IKernel* pKernel)
 }
 
 // 判定世界boss场景是否可进入
-bool WorldBossNpc::IsSceneEnter(IKernel* pKernel, const PERSISTID& self, int nSceneId)
-{
-	IGameObj* pSelf = pKernel->GetGameObj(self);
-	if (NULL == pSelf)
-	{
-		return false;
-	}
-	WorldBossActive_t* pActiveInfo = m_pWorldBossNpc->GetActiveInfoCfgBySceneId(pKernel, nSceneId);
-	if (NULL == pActiveInfo) // 不是世界boss场景 不需要验证
-	{
-		return true;
-	}
-	bool bEnter = true;
-	do 
-	{
-		// 当前是否有场景正在活动
-		int nStatus = m_pWorldBossNpc->GetActiveStatusFromPUB(pKernel, nSceneId);
-		if (nStatus != STATE_WBOSS_ACTIVE_OPEN)
-		{
-			// 系统提示活动关闭不能进入
-			CustomSysInfo(pKernel, self, SYSTEM_INFO_ID_52, CVarList());
-
-			bEnter = false;
-			break;
-		}
-
-		// 判断等级条件
-		int iLevel = pSelf->QueryInt("Level");
-		if (iLevel < pActiveInfo->m_PlayerLevel)
-		{
-			::CustomSysInfo(pKernel, self, SYSTEM_INFO_ID_51, CVarList() << pActiveInfo->m_PlayerLevel);
-			bEnter = false;
-		}
-	} while (0);
-
-	return bEnter;
-}
+// bool WorldBossNpc::IsSceneEnter(IKernel* pKernel, const PERSISTID& self, int nSceneId)
+// {
+// 	IGameObj* pSelf = pKernel->GetGameObj(self);
+// 	if (NULL == pSelf)
+// 	{
+// 		return false;
+// 	}
+// 	WorldBossActive_t* pActiveInfo = m_pWorldBossNpc->GetActiveInfoCfgBySceneId(pKernel, nSceneId);
+// 	if (NULL == pActiveInfo) // 不是世界boss场景 不需要验证
+// 	{
+// 		return true;
+// 	}
+// 	bool bEnter = true;
+// 	do 
+// 	{
+// 		// 当前是否有场景正在活动
+// 		int nStatus = m_pWorldBossNpc->GetActiveStatusFromPUB(pKernel, nSceneId);
+// 		if (nStatus != STATE_WBOSS_ACTIVE_OPEN)
+// 		{
+// 			// 系统提示活动关闭不能进入
+// 			CustomSysInfo(pKernel, self, SYSTEM_INFO_ID_52, CVarList());
+// 
+// 			bEnter = false;
+// 			break;
+// 		}
+// 
+// 		// 判断等级条件
+// 		int iLevel = pSelf->QueryInt("Level");
+// 		if (iLevel < pActiveInfo->m_PlayerLevel)
+// 		{
+// 			::CustomSysInfo(pKernel, self, SYSTEM_INFO_ID_51, CVarList() << pActiveInfo->m_PlayerLevel);
+// 			bEnter = false;
+// 		}
+// 	} while (0);
+// 
+// 	return bEnter;
+// }
 
 /*!
 * @brief	进入场景之后
@@ -1898,6 +1976,16 @@ int WorldBossNpc::OnPlayerEntryScence(IKernel* pKernel, const PERSISTID& self, c
 		// 玩家进入活动场景,活动结束拉回上一个场景
 		m_pLandPosModule->PlayerReturnLandPosi(pKernel, self);
 	}
+	else if (iState == STATE_WBOSS_ACTIVE_OPEN)
+	{
+		int nBuyNum = m_pWorldBossNpc->QueryBuyBuffNum(pKernel, self);
+		pPlayer->SetInt(FIELD_PROP_WBENCOURAGE, nBuyNum);
+		if (nBuyNum > 0)
+		{
+			FightInterfaceInstance->AddBuffer(pKernel, self, self, m_pWorldBossNpc->m_kConstConfig.strEncourageBuff.c_str());
+		}
+	}
+
 
 	return 0;
 }
@@ -2572,4 +2660,31 @@ void WorldBossNpc::UpdateGrowUpLevel(IKernel* pKernel, bool bBeKilled)
 		<< pGrowData->nMaxLevel;
 
 	SendMsgToPubServer(pKernel, PubMsg);
+}
+
+// 查询玩家购买buff次数
+int WorldBossNpc::QueryBuyBuffNum(IKernel* pKernel, const PERSISTID& self)
+{
+	IGameObj* pSceneObj = pKernel->GetSceneObj();
+	IGameObj* pSelfObj = pKernel->GetGameObj(self);
+	if (NULL == pSceneObj || NULL == pSelfObj)
+	{
+		return 0;
+	}
+
+	IRecord* pSceneBuyRec = pSceneObj->GetRecord(FIELD_RECORD_WORLD_BOSS_BUY_BUFF_REC);
+	if (NULL == pSceneBuyRec)
+	{
+		return 0;
+	}
+
+	const wchar_t* wsName = pSelfObj->QueryWideStr(FIELD_PROP_NAME);
+	int nRowIndex = pSceneBuyRec->FindWideStr(COLUMN_WORLD_BOSS_BUY_BUFF_REC_PLAYER_NAME, wsName);
+	if (-1 == nRowIndex)
+	{
+		return 0;
+	}
+
+	int nBuyNum = pSceneBuyRec->QueryInt(nRowIndex, COLUMN_WORLD_BOSS_BUY_BUFF_REC_NUM);
+	return nBuyNum;
 }

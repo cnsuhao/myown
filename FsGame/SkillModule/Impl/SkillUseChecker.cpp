@@ -102,12 +102,18 @@ int SkillUseChecker::HasPropertyLimit(IKernel* pKernel, const PERSISTID& self, c
 		return USESKILL_RESULT_ERR_MP;
 	}
 
+	// 处于缴械状态,不能普通攻击
+	if (pSelfObj->QueryInt(FIELD_PROP_CANT_NORMAL_ATTACK) > 0 && pSkillMain->GetIsNormalAttack())
+	{
+		return USESKILL_RESULT_ERR_CANT_NORMAL_ATTACK;
+	}
+
 	// 检查沉默状态,沉默中不能释放技能,对沉默无效的技能除外
-// 	int nSilent = 0;
-// 	if (FPropertyInstance->GetSilent(pSelfObj, nSilent) && nSilent > 0 && !pSkillMain->GetIsUnSilent())
-// 	{
-// 		return USESKILL_RESULT_ERR_SILENT;
-// 	}
+	int nSilent = 0;
+	if (FPropertyInstance->GetSilent(pSelfObj, nSilent) && nSilent > 0 && !pSkillMain->GetIsUnSilent())
+	{
+		return USESKILL_RESULT_ERR_SILENT;
+	}
 
 	// 检查蓄力技能的次数
 // 	if (pSkillMain->GetIsStorage() && pSkillObj->QueryInt("StorageNum") <= 0)

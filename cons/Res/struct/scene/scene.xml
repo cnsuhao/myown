@@ -32,6 +32,13 @@
 			<column type="word" desc="正在创建的文件编号"/>
 			<column type="word" desc="正在创建的npc索引"/>
 		</record>
+		<record name="scene_boss_rec" cols="5" maxrows="128" save="false" public="false" private="false" desc="场景BOSS信息表">
+			<column type="string" desc="BOSS编号"/>
+			<column type="object" desc="BOSS对象"/>
+			<column type="float" desc="出生坐标X"/>
+			<column type="float" desc="出生坐标Z"/>
+			<column type="float" desc="出生朝向"/>
+		</record>
 	</records>
 	<!--从其他文件加载属性-->
 	<includes>

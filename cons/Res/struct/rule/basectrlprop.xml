@@ -13,5 +13,6 @@
 		<property name="FixBeDamaged" type="byte" public="false" private="false" save="false" desc="被固定数值伤害"/>
 		<property name="GaintState" type="byte" public="true" private="true" save="false" desc="霸体状态"/>
 		<property name="StiffState" type="byte" public="false" private="true" save="false" realtime="true" desc="受击硬直状态"/>
+		<property name="CantNormalAttack" type="byte" public="false" private="true" save="false" realtime="true" desc="是否不能普通攻击"/>
 	</properties>
 </object>

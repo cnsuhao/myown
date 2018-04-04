@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Object>
-<Property ID="1" ConsumeItem="105030001:20" MinBless="0" MaxBless="1" StepUpBlessVal="1" Probability="1-(3-@WingStepBless)/3*100" MaxWingLevel="10" WingModel="22001"></Property>
-<Property ID="2" ConsumeItem="105030001:20" MinBless="1" MaxBless="2" StepUpBlessVal="2" Probability="1-(3-@WingStepBless)/3*100" MaxWingLevel="20" WingModel="22002"></Property>
-<Property ID="3" ConsumeItem="105030001:20" MinBless="2" MaxBless="3" StepUpBlessVal="3" Probability="1-(3-@WingStepBless)/3*100" MaxWingLevel="30" WingModel="22001"></Property>
-<Property ID="4" ConsumeItem="105030001:20" MinBless="3" MaxBless="4" StepUpBlessVal="4" Probability="1-(3-@WingStepBless)/3*100" MaxWingLevel="40" WingModel="22002"></Property>
-<Property ID="5" ConsumeItem="105030001:20" MinBless="4" MaxBless="5" StepUpBlessVal="5" Probability="1-(3-@WingStepBless)/3*100" MaxWingLevel="50" WingModel="22001"></Property>
-<Property ID="6" ConsumeItem="105030001:20" MinBless="5" MaxBless="6" StepUpBlessVal="6" Probability="1-(3-@WingStepBless)/3*100" MaxWingLevel="60" WingModel="22002"></Property>
-<Property ID="7" ConsumeItem="105030001:20" MinBless="6" MaxBless="7" StepUpBlessVal="7" Probability="1-(3-@WingStepBless)/3*100" MaxWingLevel="70" WingModel="22001"></Property>
-<Property ID="8" ConsumeItem="105030001:20" MinBless="7" MaxBless="8" StepUpBlessVal="8" Probability="1-(3-@WingStepBless)/3*100" MaxWingLevel="80" WingModel="22002"></Property>
-<Property ID="9" ConsumeItem="105030001:20" MinBless="8" MaxBless="9" StepUpBlessVal="9" Probability="1-(3-@WingStepBless)/3*100" MaxWingLevel="90" WingModel="22001"></Property>
-<Property ID="10" ConsumeItem="105030001:20" MinBless="9" MaxBless="10" StepUpBlessVal="10" Probability="1-(3-@WingStepBless)/3*100" MaxWingLevel="100" WingModel="22002"></Property>
-<Property ID="11" ConsumeItem="105030001:20" MinBless="0" MaxBless="11" StepUpBlessVal="11" Probability="1-(3-@WingStepBless)/3*100" MaxWingLevel="110" WingModel="22001"></Property>
-<Property ID="12" ConsumeItem="105030001:20" MinBless="1" MaxBless="12" StepUpBlessVal="12" Probability="1-(3-@WingStepBless)/3*100" MaxWingLevel="120" WingModel="22002"></Property>
-<Property ID="13" ConsumeItem="105030001:20" MinBless="2" MaxBless="13" StepUpBlessVal="13" Probability="1-(3-@WingStepBless)/3*100" MaxWingLevel="130" WingModel="22001"></Property>
-<Property ID="14" ConsumeItem="105030001:20" MinBless="3" MaxBless="14" StepUpBlessVal="14" Probability="1-(3-@WingStepBless)/3*100" MaxWingLevel="140" WingModel="22002"></Property>
-<Property ID="15" ConsumeItem="105030001:20" MinBless="4" MaxBless="15" StepUpBlessVal="15" Probability="1-(3-@WingStepBless)/3*100" MaxWingLevel="150" WingModel="22001"></Property>
-<Property ID="16" ConsumeItem="105030001:20" MinBless="5" MaxBless="16" StepUpBlessVal="16" Probability="1-(3-@WingStepBless)/3*100" MaxWingLevel="160" WingModel="22002"></Property>
-<Property ID="17" ConsumeItem="105030001:20" MinBless="6" MaxBless="17" StepUpBlessVal="17" Probability="1-(3-@WingStepBless)/3*100" MaxWingLevel="170" WingModel="22001"></Property>
-<Property ID="18" ConsumeItem="105030001:20" MinBless="7" MaxBless="18" StepUpBlessVal="18" Probability="1-(3-@WingStepBless)/3*100" MaxWingLevel="180" WingModel="22002"></Property>
-<Property ID="19" ConsumeItem="105030001:20" MinBless="8" MaxBless="19" StepUpBlessVal="19" Probability="1-(3-@WingStepBless)/3*100" MaxWingLevel="190" WingModel="22001"></Property>
-<Property ID="20" ConsumeItem="105030001:20" MinBless="9" MaxBless="20" StepUpBlessVal="20" Probability="1-(3-@WingStepBless)/3*100" MaxWingLevel="200" WingModel="22002"></Property>
+<Property ID="1" ConsumeItem="105030001:20" MinBless="0" MaxBless="3" StepUpBlessVal="1" Probability="(1-(3-@WingStepBless)/3)*100" MaxWingLevel="10" WingModel="22001"></Property>
+<Property ID="2" ConsumeItem="105030001:20" MinBless="1" MaxBless="3" StepUpBlessVal="1" Probability="(1-(3-@WingStepBless)/3)*100" MaxWingLevel="20" WingModel="22002"></Property>
+<Property ID="3" ConsumeItem="105030001:20" MinBless="2" MaxBless="3" StepUpBlessVal="1" Probability="(1-(3-@WingStepBless)/3)*100" MaxWingLevel="30" WingModel="22001"></Property>
+<Property ID="4" ConsumeItem="105030001:20" MinBless="3" MaxBless="3" StepUpBlessVal="1" Probability="(1-(3-@WingStepBless)/3)*100" MaxWingLevel="40" WingModel="22002"></Property>
+<Property ID="5" ConsumeItem="105030001:20" MinBless="3" MaxBless="3" StepUpBlessVal="1" Probability="(1-(3-@WingStepBless)/3)*100" MaxWingLevel="50" WingModel="22001"></Property>
+<Property ID="6" ConsumeItem="105030001:20" MinBless="3" MaxBless="3" StepUpBlessVal="1" Probability="(1-(3-@WingStepBless)/3)*100" MaxWingLevel="60" WingModel="22002"></Property>
+<Property ID="7" ConsumeItem="105030001:20" MinBless="3" MaxBless="3" StepUpBlessVal="1" Probability="(1-(3-@WingStepBless)/3)*100" MaxWingLevel="70" WingModel="22001"></Property>
+<Property ID="8" ConsumeItem="105030001:20" MinBless="3" MaxBless="3" StepUpBlessVal="1" Probability="(1-(3-@WingStepBless)/3)*100" MaxWingLevel="80" WingModel="22002"></Property>
+<Property ID="9" ConsumeItem="105030001:20" MinBless="3" MaxBless="3" StepUpBlessVal="1" Probability="(1-(3-@WingStepBless)/3)*100" MaxWingLevel="90" WingModel="22001"></Property>
+<Property ID="10" ConsumeItem="105030001:20" MinBless="3" MaxBless="3" StepUpBlessVal="1" Probability="(1-(3-@WingStepBless)/3)*100" MaxWingLevel="100" WingModel="22002"></Property>
+<Property ID="11" ConsumeItem="105030001:20" MinBless="3" MaxBless="3" StepUpBlessVal="1" Probability="(1-(3-@WingStepBless)/3)*100" MaxWingLevel="110" WingModel="22001"></Property>
+<Property ID="12" ConsumeItem="105030001:20" MinBless="3" MaxBless="3" StepUpBlessVal="1" Probability="(1-(3-@WingStepBless)/3)*100" MaxWingLevel="120" WingModel="22002"></Property>
+<Property ID="13" ConsumeItem="105030001:20" MinBless="3" MaxBless="3" StepUpBlessVal="1" Probability="(1-(3-@WingStepBless)/3)*100" MaxWingLevel="130" WingModel="22001"></Property>
+<Property ID="14" ConsumeItem="105030001:20" MinBless="3" MaxBless="3" StepUpBlessVal="1" Probability="(1-(3-@WingStepBless)/3)*100" MaxWingLevel="140" WingModel="22002"></Property>
+<Property ID="15" ConsumeItem="105030001:20" MinBless="3" MaxBless="3" StepUpBlessVal="1" Probability="(1-(3-@WingStepBless)/3)*100" MaxWingLevel="150" WingModel="22001"></Property>
+<Property ID="16" ConsumeItem="105030001:20" MinBless="3" MaxBless="3" StepUpBlessVal="1" Probability="(1-(3-@WingStepBless)/3)*100" MaxWingLevel="160" WingModel="22002"></Property>
+<Property ID="17" ConsumeItem="105030001:20" MinBless="3" MaxBless="3" StepUpBlessVal="1" Probability="(1-(3-@WingStepBless)/3)*100" MaxWingLevel="170" WingModel="22001"></Property>
+<Property ID="18" ConsumeItem="105030001:20" MinBless="3" MaxBless="3" StepUpBlessVal="1" Probability="(1-(3-@WingStepBless)/3)*100" MaxWingLevel="180" WingModel="22002"></Property>
+<Property ID="19" ConsumeItem="105030001:20" MinBless="3" MaxBless="3" StepUpBlessVal="1" Probability="(1-(3-@WingStepBless)/3)*100" MaxWingLevel="190" WingModel="22001"></Property>
+<Property ID="20" ConsumeItem="105030001:20" MinBless="3" MaxBless="3" StepUpBlessVal="1" Probability="(1-(3-@WingStepBless)/3)*100" MaxWingLevel="200" WingModel="22002"></Property>
 </Object>

@@ -13,7 +13,8 @@
 #include <map>
 
 // 常量定义
-
+const char* const TEAM_OFFER_CAPTAIN_BOX_FILE = "ini/Campaign/TeamOffer/CaptainBox.xml";	// 队长宝箱
+const char* const TEAM_OFFER_AWARD_RULE_FILE = "ini/Campaign/TeamOffer/AwardRule.xml";	// 个人奖励规则
 
 // 结构定义
 // 队长宝箱

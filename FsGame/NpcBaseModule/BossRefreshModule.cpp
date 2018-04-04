@@ -31,10 +31,10 @@
 #include "CommonModule/PropRefreshModule.h"
 #include "CommonModule/ReLoadConfigModule.h"
 #include "Define/FightNpcDefine.h"
+#include "CommonModule/CommRuleModule.h"
 
 std::wstring	BossRefreshModule::m_domainName = L"";
 BossRefreshModule * BossRefreshModule::m_pBossRefreshModule = NULL;
-SceneInfoModule * BossRefreshModule::m_pSceneInfoModule = NULL;
 NpcCreatorModule * BossRefreshModule::m_pNpcCreatorModule = NULL;
 AsynCtrlModule * BossRefreshModule::m_pAsynCtrlModule = NULL;
 const char* const BOSS_REFRESH_INFO = "ini/npc/BossRefresh/SceneBoss.xml";
@@ -43,12 +43,10 @@ const char* const BOSS_REFRESH_INFO = "ini/npc/BossRefresh/SceneBoss.xml";
 bool BossRefreshModule::Init(IKernel* pKernel)
 {
     m_pBossRefreshModule = this;
-    m_pSceneInfoModule = (SceneInfoModule*)pKernel->GetLogicModule("SceneInfoModule");
     m_pNpcCreatorModule = (NpcCreatorModule*)pKernel->GetLogicModule("NpcCreatorModule");
     m_pAsynCtrlModule = (AsynCtrlModule*)pKernel->GetLogicModule("AsynCtrlModule");
 
-    Assert(m_pBossRefreshModule != NULL && m_pSceneInfoModule != NULL 
-        && m_pNpcCreatorModule != NULL && m_pAsynCtrlModule != NULL);
+    Assert(m_pBossRefreshModule != NULL && m_pNpcCreatorModule != NULL && m_pAsynCtrlModule != NULL);
 
     pKernel->AddEventCallback("scene", "OnCreate", BossRefreshModule::OnCreate);
     pKernel->AddEventCallback("NormalNpc", "OnEntry", OnBossEntry);
@@ -196,33 +194,6 @@ bool BossRefreshModule::LoadResource(IKernel* pKernel)
 	return true;
 }
 
-//获得随机坐标
-int BossRefreshModule::GetRandomPos(IKernel* pKernel, const vector<PosInfo>& VecBossInfo, float& fBornX, float& fBornZ, float& fOrient)
-{
-    IGameObj* pSceneObj = pKernel->GetSceneObj();
-    if (NULL == pSceneObj)
-    {
-        return 0;
-    }
-    IRecord* record = pSceneObj->GetRecord(SCENE_BOSS_REC);
-    if (NULL == record)
-    {
-        return 0;
-    }
-    int size = (int)VecBossInfo.size();
-	if (VecBossInfo.empty())
-    {
-        return 0;
-    }
-
-	int random = util_random_int(size);
-
-	fBornX = VecBossInfo[random].PosX;
-	fBornZ = VecBossInfo[random].PosZ;
-	fOrient = VecBossInfo[random].Orient;
-    return 0;
-}
-
 //是否统计此场景内BOSS数量
 bool BossRefreshModule::ContainSceneID(int sceneID)
 {
@@ -279,10 +250,6 @@ int BossRefreshModule::OnBossEntry(IKernel* pKernel, const PERSISTID& self, cons
 //NPC销毁
 int BossRefreshModule::OnCommandBossBeKilled(IKernel* pKernel, const PERSISTID& self, const PERSISTID& sender, const IVarList& args)
 {
-    if (!pKernel->Exists(self))
-    {
-        return 0;
-    }
     IGameObj* pNpcObj = pKernel->GetGameObj(self);
     if (NULL == pNpcObj)
     {
@@ -318,24 +285,13 @@ int BossRefreshModule::OnCommandBossBeKilled(IKernel* pKernel, const PERSISTID& 
 		return 0;
 	}
 
-	// 如果有休战NPC，则boss死亡时在出生点创建
-	const char*	strRestNpc = pNpcObj->QueryString(FIELD_PROP_REST_BOSS_NPC);
-	if (StringUtil::CharIsNull(strRestNpc))
+	pSceneBossRec->SetObject(nRowsIndex, SCENE_BOSS_OBJ, PERSISTID());
+	IGameObj* pKillerObj = pKernel->GetGameObj(sender);
+	if (NULL == pKillerObj)
 	{
-		pSceneBossRec->SetObject(nRowsIndex, SCENE_BOSS_OBJ, PERSISTID());
+		return 0;
 	}
-	else
-	{
-		float fPosX = pSceneBossRec->QueryFloat(nRowsIndex, SCENE_BOSS_POS_X);
-		float fPosZ = pSceneBossRec->QueryFloat(nRowsIndex, SCENE_BOSS_POS_Z);
-		float fOrient = pSceneBossRec->QueryFloat(nRowsIndex, SCENE_BOSS_POS_ORIENT);
-		float fPosY = pKernel->GetMapHeight(fPosX, fPosZ);
-		PERSISTID restnpc = pKernel->CreateObjectArgs("", strRestNpc, 0, fPosX, fPosY, fPosZ, fOrient, CVarList() << CREATE_TYPE_PROPERTY_VALUE << FIELD_PROP_GROUP_ID << -1);
-		if (pKernel->Exists(restnpc))
-		{
-			pSceneBossRec->SetObject(nRowsIndex, SCENE_BOSS_OBJ, restnpc);
-		}
-	}
+	const wchar_t* wsKiller = pKillerObj->QueryWideStr(FIELD_PROP_NAME);
 
     CVarList msg;
 	msg << PUBSPACE_DOMAIN
@@ -343,7 +299,8 @@ int BossRefreshModule::OnCommandBossBeKilled(IKernel* pKernel, const PERSISTID& 
 		<< SP_DOMAIN_MSG_SCENE_BOSS_STATE
 		<< strBossConfig
 		<< BS_BOSS_DEAD
-		<< sceneID;
+		<< sceneID
+		<< wsKiller;
 
 	pKernel->SendPublicMessage(msg);
 
@@ -424,7 +381,8 @@ int BossRefreshModule::QueryBossInfoInScene(IKernel* pKernel, const PERSISTID& s
 			}
 		}
 
-		data << nSceneId;
+		const wchar_t* wsKiller = pPubBossRec->QueryWideStr(i, SCENE_BOSS_INFO_KILLER);
+		data << nSceneId << wsKiller;
 	}
    
     CVarList list;
@@ -476,28 +434,18 @@ void BossRefreshModule::CreateBoss(IKernel* pKernel, const char* strBossConfig, 
 	{
 		return;
 	}
-	float fBornX = 0.0f;
-	float fBornZ = 0.0f;
-	float fOrient = 0.0f;
-	GetRandomPos(pKernel, pBossInfo->VecBossInfo, fBornX, fBornZ, fOrient);
-	float fBornY = pKernel->GetMapHeight(fBornX, fBornZ);
-	PERSISTID boss = pKernel->CreateObjectArgs("", pBossInfo->sBossConfig.c_str(), 0, fBornX, fBornY, fBornZ, fOrient, CVarList() << CREATE_TYPE_PROPERTY_VALUE << FIELD_PROP_GROUP_ID << -1);
+
+	float fBornY = pKernel->GetMapHeight(pBossInfo->BossPos.fPosX, pBossInfo->BossPos.fPosZ);
+	PERSISTID boss = pKernel->CreateObjectArgs("", pBossInfo->sBossConfig.c_str(), 0, pBossInfo->BossPos.fPosX, fBornY, pBossInfo->BossPos.fPosZ, pBossInfo->BossPos.fOrient, CVarList() << CREATE_TYPE_PROPERTY_VALUE << FIELD_PROP_GROUP_ID << -1);
 	if (!pKernel->Exists(boss))
 	{
 		return;
 	}
 
-	// 有休战npc,先删除
-	PERSISTID restnpc = pBossRecord->QueryObject(nRowIndex, SCENE_BOSS_OBJ);
-	if (pKernel->Exists(restnpc))
-	{
-		pKernel->DestroySelf(restnpc);
-	}
-
 	pBossRecord->SetObject(nRowIndex, SCENE_BOSS_OBJ, boss);
-	pBossRecord->SetFloat(nRowIndex, SCENE_BOSS_POS_X, fBornX);
-	pBossRecord->SetFloat(nRowIndex, SCENE_BOSS_POS_Z, fBornZ);
-	pBossRecord->SetFloat(nRowIndex, SCENE_BOSS_POS_ORIENT, fOrient);
+	pBossRecord->SetFloat(nRowIndex, SCENE_BOSS_POS_X, pBossInfo->BossPos.fPosX);
+	pBossRecord->SetFloat(nRowIndex, SCENE_BOSS_POS_Z, pBossInfo->BossPos.fPosZ);
+	pBossRecord->SetFloat(nRowIndex, SCENE_BOSS_POS_ORIENT, pBossInfo->BossPos.fOrient);
 }
 
 // 读取场景boss数据
@@ -548,7 +496,16 @@ bool BossRefreshModule::LoadSceneBoss(IKernel* pKernel)
 			tempSceneRefreshInfo.beginTime = util_convert_string_to_sec(QueryXmlAttr(pNode, "BeginTime"));
 			tempSceneRefreshInfo.endTime = util_convert_string_to_sec(QueryXmlAttr(pNode, "EndTime"));
 
-			xml_node<>* pItem = pNode->first_node("Item");
+			xml_node<>* pItemPare = pNode->first_node("BossItems");
+			if (NULL == pItemPare)
+			{
+				continue;
+			}
+			xml_node<>* pItem = pItemPare->first_node("BossItem");
+			if (NULL == pItem)
+			{
+				continue;
+			}
 			LoopBeginCheck(e);
 			while (pItem != NULL)
 			{
@@ -557,22 +514,15 @@ bool BossRefreshModule::LoadSceneBoss(IKernel* pKernel)
 				const char* str = QueryXmlAttr(pItem, "Boss");
 				tempBossInfo.sBossConfig = str;
 				tempBossInfo.nInterval = convert_int(QueryXmlAttr(pItem, "Interval"), 0);
-				xml_node<>* pPosition = pItem->first_node("Position");
-				LoopBeginCheck(f);
-				while (pPosition != NULL)
+				const char* strPosInfo = QueryXmlAttr(pItem, "Position");
+				if (!CommRuleModule::ParsePosInfo(tempBossInfo.BossPos, strPosInfo))
 				{
-					LoopDoCheck(f);
-					PosInfo tempPosInfo;
-					tempPosInfo.PosX = convert_float(QueryXmlAttr(pPosition, "x"), 0.0f);
-					tempPosInfo.PosZ = convert_float(QueryXmlAttr(pPosition, "z"), 0.0f);
-					tempPosInfo.Orient = convert_float(QueryXmlAttr(pPosition, "ay"), 0.0f);
-					tempBossInfo.VecBossInfo.push_back(tempPosInfo);
-					pPosition = pPosition->next_sibling("Position");
+					extend_warning(LOG_WARNING, "%s, %d scene, %s boss pos error", BOSS_REFRESH_INFO, sceneID, str);
+					continue;
 				}
 
-
 				tempSceneRefreshInfo.VecSceneBossInfo.push_back(tempBossInfo);
-				pItem = pItem->next_sibling("Item");
+				pItem = pItem->next_sibling("BossItem");
 			}
 
 			m_MapSceneBossInfo.insert(make_pair(sceneID, tempSceneRefreshInfo));

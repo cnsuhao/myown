@@ -35,5 +35,14 @@ typedef std::vector<Consume> Consume_Vec;
 typedef std::vector<int> Integer_Vec;
 typedef std::vector<std::string> String_Vec;
 
+// Î»ÖÃÊý¾Ý
+struct PosInfo
+{
+	PosInfo() :fPosX(0), fPosZ(0), fOrient(0){};
+	float fPosX;
+	float fPosZ;
+	float fOrient;
+};
+
 #endif
 

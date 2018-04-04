@@ -46,6 +46,7 @@
 #include "utils/util.h"
 #include <time.h>
 #include "CommonModule/EnvirValueModule.h"
+#include "CommonModule/CommRuleModule.h"
 
 // 活动配置地址
 static const std::string XML_CONFIG_ACTIVE_INFO_PATH  = "ini/Campaign/WorldBoss/NpcWorldBoss.xml";
@@ -84,88 +85,73 @@ bool WorldBossNpc::LoadActiveInfoResource(IKernel* pKernel)
 		return false;
 	}
 
-	// ActiveModel节点
-	TiXmlElement* pNode = pRoot->FirstChildElement("ActiveModel");
-	if (NULL == pNode)
+	std::vector<int> vecScopeScene;
+	std::vector<WorldBossActive_t>& vecActiveInfo = m_vecActiveInfo;
+
+	// Property节点
+	TiXmlElement* pGroup = pRoot->FirstChildElement("Property");
+	if (NULL == pGroup)
 	{
 		return false;
 	}
-	LoopBeginCheck(az);
-	while (pNode != NULL)
+	LoopBeginCheck(ak);
+	while (pGroup)
 	{
-		LoopDoCheck(az);
-		std::vector<int> vecScopeScene;
-		std::vector<WorldBossActive_t>& vecActiveInfo = m_vecActiveInfo;
+		LoopDoCheck(ak);
+		WorldBossActive_t tActiveInfo;
+		tActiveInfo.m_ID = convert_int(pGroup->Attribute("ID"), 0);
+		tActiveInfo.m_SceneID = convert_int(pGroup->Attribute("SceneID"), 0);
 
-		// Property节点
-		TiXmlElement* pGroup = pNode->FirstChildElement("Property");
-		if (NULL == pGroup)
+		if (0 == m_nCustomSceneId)
+		{
+			m_nCustomSceneId = tActiveInfo.m_SceneID;
+		}
+
+		const char* cWeeks = pGroup->Attribute("Week");
+		const char* strBosses = pGroup->Attribute("BossId");
+		const char* bossPos = pGroup->Attribute("BossPos");
+		const char* playerPos = pGroup->Attribute("PlayerPos");
+		if (StringUtil::CharIsNull(cWeeks)
+			|| StringUtil::CharIsNull(strBosses) 
+			|| StringUtil::CharIsNull(bossPos)
+			|| StringUtil::CharIsNull(playerPos))
 		{
 			return false;
 		}
-		LoopBeginCheck(ak);
-		while (pGroup)
+
+		std::vector<int> vecWeeks;
+		m_pWorldBossNpc->ParseWeek(cWeeks, vecWeeks);
+		tActiveInfo.m_Weeks = vecWeeks;
+
+		// 通知时间
+		tActiveInfo.m_NoticeBeginTime = ParseTime(pGroup->Attribute("NoticeBeginTime"));
+		tActiveInfo.m_NoticeEndTime = ParseTime(pGroup->Attribute("NoticeEndTime"));
+
+		// 活动时间
+		tActiveInfo.m_ActiveBeginTime = ParseTime(pGroup->Attribute("ActiveBeginTime"));
+		tActiveInfo.m_ActiveEndTime = ParseTime(pGroup->Attribute("ActiveEndTime"));
+
+		if (StringUtil::CharIsNull(strBosses))
 		{
-			LoopDoCheck(ak);
-			WorldBossActive_t tActiveInfo;
-			tActiveInfo.m_ID = convert_int(pGroup->Attribute("ID"), 0);
-			tActiveInfo.m_SceneID = convert_int(pGroup->Attribute("SceneID"), 0);
-
-			if (0 == m_nCustomSceneId)
-			{
-				m_nCustomSceneId = tActiveInfo.m_SceneID;
-			}
-
-			const char* cWeeks = pGroup->Attribute("Week");
-			const char* strBosses = pGroup->Attribute("BossId");
-			const char* bossPos = pGroup->Attribute("BossPos");
-			const char* playerPos = pGroup->Attribute("PlayerPos");
-			if (StringUtil::CharIsNull(cWeeks)
-				|| StringUtil::CharIsNull(strBosses) 
-				|| StringUtil::CharIsNull(bossPos)
-				|| StringUtil::CharIsNull(playerPos))
-			{
-				Assert(false);
-				return false;
-			}
-
-			std::vector<int> vecWeeks;
-			m_pWorldBossNpc->ParseWeek(cWeeks, vecWeeks);
-			tActiveInfo.m_Weeks = vecWeeks;
-
-			// 通知时间
-			tActiveInfo.m_NoticeBeginTime = ParseTime(pGroup->Attribute("NoticeBeginTime"));
-			tActiveInfo.m_NoticeEndTime = ParseTime(pGroup->Attribute("NoticeEndTime"));
-
-			// 活动时间
-			tActiveInfo.m_ActiveBeginTime = ParseTime(pGroup->Attribute("ActiveBeginTime"));
-			tActiveInfo.m_ActiveEndTime = ParseTime(pGroup->Attribute("ActiveEndTime"));
-
-			// 世界BOSS ID（根据周几顺序取）
-			
-			if (StringUtil::CharIsNull(strBosses))
-			{
-				extend_warning(LOG_ERROR, " BossId is empty! ");
-				return false;
-			}
-
-			tActiveInfo.m_strBossID = strBosses;
-			m_pWorldBossNpc->ParsePlayerPos(playerPos, tActiveInfo);
-
-			tActiveInfo.m_BossPos = bossPos;
-			tActiveInfo.m_PlayerLevel = convert_int(pGroup->Attribute("PlayerLevel"), 0);
-
-			vecActiveInfo.push_back(tActiveInfo);
-			vecScopeScene.push_back(tActiveInfo.m_SceneID);
-			m_SceneScopeVec.push_back(tActiveInfo.m_SceneID);
-
-			pGroup = pGroup->NextSiblingElement("Property");
+			extend_warning(LOG_ERROR, " BossId is empty! ");
+			return false;
 		}
 
-		pNode = pNode->NextSiblingElement("ActiveModel");
-	}
-	doc.Clear();
+		tActiveInfo.m_strBossID = strBosses;
 
+		CommRuleModule::ParsePosInfo(tActiveInfo.m_PlayerPos, playerPos);
+		CommRuleModule::ParsePosInfo(tActiveInfo.m_BossPos, bossPos);
+
+		tActiveInfo.m_PlayerLevel = convert_int(pGroup->Attribute("PlayerLevel"), 0);
+
+		vecActiveInfo.push_back(tActiveInfo);
+		vecScopeScene.push_back(tActiveInfo.m_SceneID);
+		m_SceneScopeVec.push_back(tActiveInfo.m_SceneID);
+
+		pGroup = pGroup->NextSiblingElement("Property");
+	}
+
+	doc.Clear();
 	return true;
 }
 
@@ -194,13 +180,8 @@ bool WorldBossNpc::LoadAwardResource(IKernel* pKernel)
 		return false;
 	}
 
-	TiXmlElement* pNode = pRoot->FirstChildElement("ActiveModel");
-	if (NULL == pNode)
-	{
-		return false;
-	}
 	std::vector<WorldBossAward_t>& tAwardVector = m_vecBossAward;
-	TiXmlElement* _pElement = pNode->FirstChildElement("Property");
+	TiXmlElement* _pElement = pRoot->FirstChildElement("Property");
 	if (NULL == _pElement)
 	{
 		return false;
@@ -219,39 +200,9 @@ bool WorldBossNpc::LoadAwardResource(IKernel* pKernel)
 			return false;
 		}
 
-		// "最后一刀"
-		TiXmlElement* pGroup = _pElement->FirstChildElement("LastHurtAward");
-		if(NULL == pGroup)
-		{
-			_pElement = _pElement->NextSiblingElement("Property");
-			continue;
-		}
-		TiXmlElement* pElement = pGroup->FirstChildElement("Property");
-		if (NULL == pElement)
-		{
-			continue;
-		}
-
-		LoopBeginCheck(c);
-		while (pElement)
-		{
-			LoopDoCheck(c);
-
-			tAward.m_LastHurtAward.m_Copper = convert_int(pElement->Attribute("Copper"), 0);
-			tAward.m_LastHurtAward.m_Exp = convert_int(pElement->Attribute("Exp"), 0);
-			tAward.m_LastHurtAward.m_Silver = convert_int(pElement->Attribute("Silver"), 0);
-			tAward.m_LastHurtAward.m_Smelt = convert_int(pElement->Attribute("Smelt"), 0);
-
-			const char* strItemList = pElement->Attribute("ItemList");
-			tAward.m_LastHurtAward.m_ItemList =  StringUtil::CharIsNull(strItemList) ? "" : strItemList;
-
-			pElement = pElement->NextSiblingElement("Property");
-
-		}
-		//成功排名奖励
-		pGroup = _pElement->FirstChildElement("WinRankAward");
-		pElement = pGroup->FirstChildElement("Property");
-
+		tAward.m_nLastHurtAward = convert_int(_pElement->Attribute("LastHurtAward"), 0);
+		//排名奖励
+		TiXmlElement* pElement = _pElement->FirstChildElement("RankAward");
 		LoopBeginCheck(f);
 		while (pElement)
 		{
@@ -260,51 +211,16 @@ bool WorldBossNpc::LoadAwardResource(IKernel* pKernel)
 			RankAward_t tRankAward;
 			tRankAward.m_MinRank = convert_int(pElement->Attribute("MinRank"),0);
 			tRankAward.m_MaxRank = convert_int(pElement->Attribute("MaxRank"),0);
-			tRankAward.m_Copper = convert_int(pElement->Attribute("Copper"), 0);
-			tRankAward.m_Exp = convert_int(pElement->Attribute("Exp"), 0);
-			tRankAward.m_Silver = convert_int(pElement->Attribute("Silver"), 0);
-			tRankAward.m_Smelt = convert_int(pElement->Attribute("Smelt"), 0);
+			tRankAward.m_nWinRewardId = convert_int(pElement->Attribute("WinReward"), 0);
+			tRankAward.m_nWinRewardId = convert_int(pElement->Attribute("FailedReward"), 0);
 
-			const char* strItemList = pElement->Attribute("ItemList");
-			tRankAward.m_ItemList =  StringUtil::CharIsNull(strItemList) ? "" : strItemList;
+			tAward.m_vecRankAward.push_back(tRankAward);
 
-			tAward.m_SucRankAward.push_back(tRankAward);
-
-			pElement = pElement->NextSiblingElement("Property");
+			pElement = pElement->NextSiblingElement("RankAward");
 		}
-
-		// 失败排名奖励
-		pGroup = _pElement->FirstChildElement("FailRankAward");
-		pElement = pGroup->FirstChildElement("Property");
-
-		LoopBeginCheck(g);
-		while (pElement)
-		{
-			LoopDoCheck(g);
-
-			RankAward_t tRankAward;
-			tRankAward.m_MinRank = convert_int(pElement->Attribute("MinRank"),0);
-			tRankAward.m_MaxRank = convert_int(pElement->Attribute("MaxRank"),0);
-			tRankAward.m_Copper = convert_int(pElement->Attribute("Copper"), 0);
-			tRankAward.m_Exp = convert_int(pElement->Attribute("Exp"), 0);
-			tRankAward.m_Silver = convert_int(pElement->Attribute("Silver"), 0);
-			tRankAward.m_Smelt = convert_int(pElement->Attribute("Smelt"), 0);
-
-			const char* strItemList = pElement->Attribute("ItemList");
-			tRankAward.m_ItemList =  StringUtil::CharIsNull(strItemList) ? "" : strItemList;
-
-			tAward.m_FailRankAward.push_back(tRankAward);
-
-			pElement = pElement->NextSiblingElement("Property");
-		}
-
-		tAwardVector.push_back(tAward);
-		_pElement = _pElement->NextSiblingElement("Property");
 	}
 
-
 	doc.Clear();
-
 	return true;
 }
 
@@ -354,82 +270,6 @@ bool WorldBossNpc::LoadActiveRuleResource(IKernel* pKernel)
 	}
 
 	doc.Clear();
-
-	return true;
-}
-
-// 加载世界boss小怪配置
-bool WorldBossNpc::LoadOtherNpcConfig(IKernel* pKernel)
-{
-	// 清除缓存
-	m_mapAllOtherNpc.clear();
-
-	//判断文件是否存在
-	std::string xmlPath = pKernel->GetResourcePath() + XML_CONFIG_OTHER_NPC_PATH;
-	TiXmlDocument doc(xmlPath.c_str());
-	if (!doc.LoadFile())
-	{
-		return false;
-	}
-
-	TiXmlElement* pRoot = doc.RootElement();
-	if (NULL == pRoot)
-	{
-		return false;
-	}
-
-	TiXmlElement* _pElement = pRoot->FirstChildElement("Model");
-	if (NULL == _pElement)
-	{
-		return false;
-	}
-
-	LoopBeginCheck(b);
-	while (_pElement)
-	{
-		LoopDoCheck(b);
-
-		int nSceneId = convert_int(_pElement->Attribute("SceneID"));
-
-		// 小怪刷新表
-		TiXmlElement* pGroup = _pElement->FirstChildElement("NpcRefresh");
-		if (NULL == pGroup)
-		{
-			_pElement = _pElement->NextSiblingElement("Model");
-			continue;
-		}
-		TiXmlElement* pElement = pGroup->FirstChildElement("Property");
-		if (NULL == pElement)
-		{
-			_pElement = _pElement->NextSiblingElement("Model");
-			continue;
-		}
-
-		WBOtherNpcVec vecOtherNpc;
-		LoopBeginCheck(c);
-		while (pElement)
-		{
-			LoopDoCheck(c);
-			WBOtherNpc npcdata;
-			npcdata.strNpcId = pElement->Attribute("NpcId");
-			npcdata.nNpcIndex = convert_int(pElement->Attribute("NpcIndex"));
-			npcdata.fPosX = convert_float(pElement->Attribute("PosX"));
-			npcdata.fPosZ = convert_float(pElement->Attribute("PosZ"));
-			npcdata.bIsRec = convert_int(pElement->Attribute("IsRecord")) == 1;
-
-			vecOtherNpc.push_back(npcdata);
-			pElement = pElement->NextSiblingElement("Property");
-		}
-
-		WBAllOtherNpcMap::iterator iter = m_mapAllOtherNpc.find(nSceneId);
-		if (iter == m_mapAllOtherNpc.end())
-		{
-			m_mapAllOtherNpc.insert(std::make_pair(nSceneId, vecOtherNpc));
-		}
-		
-		_pElement = _pElement->NextSiblingElement("Model");
-	}
-
 
 	return true;
 }

@@ -26,14 +26,15 @@
 #include "NpcBaseModule/SafeAreaNpcModule.h"
 #include "NpcBaseModule/TrapNpcModule.h"
 #include "NpcBaseModule/TrapEvent/TrapEventManagerModule.h"
+#include "NpcBaseModule/BossRefreshModule.h"
 //#include "NpcBaseModule/SpyNpc.h"
 
 //ItemModule
 #include "ItemModule/ItemBaseModule.h"
-#include "ItemModule/ToolItem/ToolItemModule.h"
+#include "ItemModule/ToolItem/ToolItemModule.h"																																  
 #include "ItemModule/JadeModule.h"
 
-// #include "ItemModule/SoulModule.h"
+// #include "ItemModule/SoulModule.h"											  
 // #include "ItemModule/SoulEffect.h"
 // #include "ItemModule/FashionModule.h"
 
@@ -80,6 +81,7 @@
 
 // CampaignModule
 #include "Campaign/TeamOfferModule.h"
+#include "Campaign/WorldBossNpc.h"
 
 //CommonMoudle
 #include "CommonModule/GMModule.h"
@@ -191,6 +193,7 @@ LOGIC_MODULE_CREATOR(ChatModule);
 
 // Campaign
 LOGIC_MODULE_CREATOR(TeamOfferModule);
+LOGIC_MODULE_CREATOR(WorldBossNpc);
 
 // TaskModule
 LOGIC_MODULE_CREATOR(TaskManager)
@@ -203,6 +206,7 @@ LOGIC_MODULE_CREATOR(DoorNpcModule);
 LOGIC_MODULE_CREATOR(SafeAreaNpcModule);
 LOGIC_MODULE_CREATOR(TrapNpcModule);
 LOGIC_MODULE_CREATOR(TrapEventManagerModule);
+LOGIC_MODULE_CREATOR(BossRefreshModule);
 
 //PlayerBaseModule
 LOGIC_MODULE_CREATOR(CreateRoleModule);

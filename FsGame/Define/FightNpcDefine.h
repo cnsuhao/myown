@@ -25,6 +25,7 @@ enum
 	SCENE_BOSS_INFO_CONFIG = 0,						// bossid
 	SCENE_BOSS_DEAD_TIME,							// boss死亡时间 1表示boss存在,要刷boss
 	SCENE_BOSS_INFO_SCENEID,						// 所在场景
+	SCENE_BOSS_INFO_KILLER,							// 杀死boss的玩家
 
 	SCENE_BOSS_INFO_MAX,
 };

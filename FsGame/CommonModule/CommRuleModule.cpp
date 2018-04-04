@@ -381,6 +381,20 @@ bool CommRuleModule::ConsumeCapitals(IKernel *pKernel, const PERSISTID &self,
 	return dec_done;
 }
 
+// 解析坐标数据
+bool CommRuleModule::ParsePosInfo(PosInfo& outPos, const char* strPos, const char *delims)
+{
+	CVarList pos;
+	StringUtil::SplitString(pos, strPos, delims);
+	if (pos.GetCount() != 3)
+	{
+		return false;
+	}
+	outPos.fPosX = pos.FloatVal(0);
+	outPos.fPosZ = pos.FloatVal(1);
+	outPos.fOrient = pos.FloatVal(2);
+}
+
 // 是否合法装备部位
 bool CommRuleModule::IsValidEquipPos(const int equip_pos)
 {

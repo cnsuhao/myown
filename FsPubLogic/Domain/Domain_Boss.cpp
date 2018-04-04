@@ -54,7 +54,8 @@ int Domain_Boss::OnCreate(IPubKernel * pPubKernel, IPubSpace * pPubSpace)
 	CVarList col_types;
 	col_types << VTYPE_STRING //boss编号
 		<< VTYPE_INT64//BOSS死亡时间
-		<< VTYPE_INT;	// boss所在场景
+		<< VTYPE_INT	// boss所在场景
+		<< VTYPE_WIDESTR;// 杀死boss的玩家
 	_create_record(pPubKernel, pPubData, SCENE_BOSS_TOTAL_REC, 0, col_types, false);
 
 	return 1;
@@ -88,7 +89,7 @@ int Domain_Boss::OnMessage(IPubKernel * pPubKernel, IPubSpace * pPubSpace, int s
 	const char* strBossConfig = msg.StringVal(3);
 	const int nState = msg.IntVal(4);
 	const int nSceneId = msg.IntVal(5);
-	const int nIsGrow = msg.IntVal(6);
+	const wchar_t* wsKiller = msg.WideStrVal(6);
 
 	IRecord* pRec = pPubData->GetRecord(SCENE_BOSS_TOTAL_REC);
 	if (NULL == pRec)
@@ -99,17 +100,19 @@ int Domain_Boss::OnMessage(IPubKernel * pPubKernel, IPubSpace * pPubSpace, int s
 	// 第一次刷新boss
 	if (-1 == nRowIndex)
 	{
-		pRec->AddRowValue(-1, CVarList() << strBossConfig << (int64_t)nState << nSceneId);
+		pRec->AddRowValue(-1, CVarList() << strBossConfig << (int64_t)nState << nSceneId << wsKiller);
 	}
 	else
 	{
 		if (BS_BOSS_DEAD == nState)
 		{
 			pRec->SetInt64(nRowIndex, SCENE_BOSS_DEAD_TIME, ::util_get_utc_time());
+			pRec->SetWideStr(nRowIndex, SCENE_BOSS_INFO_KILLER, wsKiller);
 		}
 		else
 		{
 			pRec->SetInt64(nRowIndex, SCENE_BOSS_DEAD_TIME, (int64_t)nState);
+			pRec->SetWideStr(nRowIndex, SCENE_BOSS_INFO_KILLER, L"");
 		}
 	}
 	return true;

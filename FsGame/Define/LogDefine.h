@@ -24,6 +24,15 @@ enum LogLevelEnum
 	LOG_CRITICAL			/**< 严重错误(崩溃级别，慎用) */
 };
 
+// $@ 14 = 游戏玩法日志类型 14000-14999
+enum LOG_GAME_ACTION_TYPE
+{
+	LOG_GAME_ACTION_MIN = 14000,		// $ 14000 = 游戏玩法日志类型最小值
+	LOG_GAME_ACTION_WORLDBOSS,			// $ 14001 = 世界BOSS
+
+	LOG_GAME_ACTION_MAX = 14999,		// $ 14999 = 游戏玩法日志类型最大值
+};
+
 // $@ 17 = 玩家升级日志类型 17000-17999
 enum LOG_ROLE_UPGRADE_TYPE
 {

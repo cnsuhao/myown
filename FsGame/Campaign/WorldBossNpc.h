@@ -15,6 +15,7 @@
 #include <map>
 
 #include "FsGame/SystemFunctionModule/RewardModule.h"
+#include "CommonModule/CommRuleDefine.h"
 
 class ChannelModule;
 class RewardModule;
@@ -24,15 +25,6 @@ class CapitalModule;
 class CoolDownModule;
 class ActYearBoss;
 class SnsPushModule;
-
-// 位置类型
-enum WBPosType
-{
-	JIANGHU_POS,
-	CHAOTING_POS,
-
-	MAX_POS_NUM
-};
 
 // 配置时间间隔
 struct TimeInterval_t
@@ -84,8 +76,8 @@ struct WorldBossActive_t
 	int                        m_ActiveBeginTime;     // 活动开始时间(当天秒)
 	int                        m_ActiveEndTime;       // 活动结束时间(当天秒)
 	std::string				   m_strBossID;           // BOSSId
-	std::string                m_BossPos;             // BOSS出生坐标
-	std::string                m_PlayerPos[MAX_POS_NUM]; // 玩家传送坐标 0江湖阵营位置 1朝廷阵营位置
+	PosInfo					   m_BossPos;             // BOSS出生坐标
+	PosInfo					   m_PlayerPos;			 // 玩家传送坐标
 	int                        m_PlayerLevel;         // 玩家参加活动最低等级
 };
 
@@ -110,54 +102,18 @@ struct CopyAIHurt_t
 	}
 };
 
-// "最后一刀"奖励
-struct LastHurtAward_t
-{
-	LastHurtAward_t():
-		m_Copper(0),
-		m_Silver(0),
-		m_Smelt(0),
-		m_Exp(0),
-		m_ItemList(""){}
-
-	int m_Copper;             // 铜币
-	int m_Silver;             // 银元
-	int m_Smelt;              // 熔炼值
-	int m_Exp;                // 经验
-	std::string m_ItemList;   // 物品
-};
-
 // 排名奖励配置
 struct RankAward_t
 {
 	RankAward_t():
 		m_MinRank(0),
 		m_MaxRank(0),
-		m_Copper(0),
-		m_Silver(0),
-		m_Smelt(0),
-		m_Exp(0),
-		m_ItemList(""){}
+		m_nWinRewardId(0),
+		m_nFailRewardId(0){}
 	int m_MinRank;             // 最小排名
 	int m_MaxRank;             // 最大排名
-	int m_Copper;              // 铜币
-	int m_Silver;              // 银元
-	int m_Smelt;               // 熔炼值
-	int m_Exp;                 // 经验
-	std::string m_ItemList;    // 物品
-};
-
-// 抽奖配置
-struct RandomAward_t
-{
-	RandomAward_t():
-		m_Loop(0),
-		m_LimitHurt(0),
-		m_ItemList(""){}
-
-	int m_Loop;              // 轮
-	int m_LimitHurt;         // 参加抽奖最小数值
-	std::string m_ItemList;  // 物品
+	int m_nWinRewardId;        // 胜利奖励id
+	int m_nFailRewardId;       // 失败奖励id
 };
 
 // 奖励
@@ -165,15 +121,12 @@ struct WorldBossAward_t
 {
 	WorldBossAward_t(): m_BossCfgID("")
 		{
-			m_SucRankAward.clear();
-			m_FailRankAward.clear();
+			m_vecRankAward.clear();
 		}
 
 	std::string                m_BossCfgID;      // boss ID
-	LastHurtAward_t            m_LastHurtAward;  // 伤害奖励
-	std::vector<RankAward_t>   m_SucRankAward;   // 成功击杀排名奖 
-	std::vector<RankAward_t>   m_FailRankAward;  // 失败排名奖
-	std::vector<RandomAward_t> m_RandomAward;    // 抽奖
+	int						   m_nLastHurtAward;  // 伤害奖励
+	std::vector<RankAward_t>   m_vecRankAward;   // 排名奖励 
 };
 
 // 活动开启规则
@@ -218,19 +171,6 @@ struct BuffConfig
 	double      addFight;          // 增加攻击百分比
 };
 
-// 世界boss场景中的小怪
-struct WBOtherNpc 
-{
-	std::string		strNpcId;		// npcid
-	int				nNpcIndex;		// npc序号
-	float			fPosX;			
-	float			fPosZ;
-	bool			bIsRec;			// 是否要记录
-};
-
-typedef std::vector<WBOtherNpc> WBOtherNpcVec;
-
-typedef std::map<int, WBOtherNpcVec> WBAllOtherNpcMap;
 
 // 世界boss成长配置
 struct WorldBossGrowUp 
@@ -259,8 +199,6 @@ public:
 	static bool LoadAwardResource(IKernel* pKernel);
 	// 加载活动配置文件
 	static bool LoadActiveRuleResource(IKernel* pKernel);
-	// 加载世界boss小怪配置
-	bool LoadOtherNpcConfig(IKernel* pKernel);
 	// 加载世界boss成长配置
 	bool LoadWorldBossGrowUpConfig(IKernel* pKernel);
 
@@ -339,8 +277,7 @@ public:
 
 private:
 	// 创建BOSS
-	static PERSISTID CreateWorldBoss(IKernel* pKernel, const WorldBossActive_t* pActiveInfo, const int& iCurrSceneID, 
-		std::string& strBossPos, int iActiveTime, int iWeek);
+	static PERSISTID CreateWorldBoss(IKernel* pKernel, const WorldBossActive_t* pActiveInfo, const int& iCurrSceneID,  std::string& strBossPos, int iActiveTime, int iWeek);
 
 	// 从BOSS身上拷贝伤害数据
 	static bool CopyAndSortHurtRecordFromAI(IKernel* pKernel, 
@@ -372,14 +309,8 @@ private:
 
 	static void ParseBossID(const char* strBossIDs, std::map<int, std::string>& mapBossIDs);
 
-	void ParsePlayerPos(const char* strPosInfo, WorldBossActive_t& wbactive);
-
 	// 算出星期几
 	static void ParseWeek(const char* weeksStr,std::vector<int>& weeks);
-
-	// 坐标转换
-	static bool ParseXYZ(IKernel* pKernel, const std::string& bornPos, 
-		float& X, float& Y, float& Z);
 
 	// 获取当前时间活动状态
 	static int GetWorldBossActiveState(IKernel* pKernel, const PERSISTID& self, 
@@ -459,12 +390,6 @@ private:
 	// 离开场景心跳
 	static int HB_LeaveScene(IKernel* pKernel, const PERSISTID& self, int slice);
 
-	// 创建场景其他小怪
-	void CreateSceneOtherNpc(IKernel* pKernel);
-
-	// 精英怪数据同步
-	void CustomEliteNpcData(IKernel* pKernel, const PERSISTID& self);
-
 	// 获取世界boss的属性包 
 	int	QueryCurPackageId(IKernel* pKernel);
 
@@ -498,7 +423,7 @@ private:
 	static BossAwardVec m_vecBossAward;
 	static WorldBossActiveVec m_vecActiveInfo;
 	
-	WBAllOtherNpcMap	m_mapAllOtherNpc;		// 世界boss场景小怪配置
+	//WBAllOtherNpcMap	m_mapAllOtherNpc;		// 世界boss场景小怪配置
 	WorldBossGrowUpVec	m_vecWorldBossGrowUp;	// 世界boss成长配置
 
 	// 活动规则测试

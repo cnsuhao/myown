@@ -57,6 +57,9 @@ public:
 	static bool ConsumeCapitals(IKernel *pKernel, const PERSISTID &self,
 		const Consume_Vec &capitals, const int function_id);
 
+	// 解析坐标数据
+	static bool ParsePosInfo(PosInfo& outPos, const char* strPos, const char *delims = ",");
+
 	// 是否合法装备部位
 	static bool IsValidEquipPos(const int equip_pos);
 

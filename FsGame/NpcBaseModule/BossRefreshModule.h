@@ -14,6 +14,7 @@
 #include "Fsgame/Define/header.h"
 #include <vector>
 #include <map>
+#include "CommonModule/CommRuleDefine.h"
 
 #define SCENE_BOSS_REC "scene_boss_rec"    //场景BOSS信息表
 enum
@@ -34,15 +35,9 @@ enum
 	* @param	string	bossid
 	* @param	int		刷新倒计时(1表示已刷新)
 	* @param	int		场景id
+	* @param	wstring	击杀玩家
 	*/
-    SC_SUBMSG_QUERY_BOSS_IN_SCENE = 1,      //查询BOSS信息
-
-	/*!
-	* @brief	回复带成长Boss属性
-	* @param	string	bossid
-	* @param	int		等级
-	*/
-	SC_SUBMSG_QUERY_GROW_BOSS,     
+    SC_SUBMSG_QUERY_BOSS_IN_SCENE = 1,      //查询BOSS信息  
 
 	/*!
 	* @brief	boss状态改变
@@ -77,30 +72,10 @@ public:
 	// 查询某个场景的野外boss数据 outData 格式:outData << bossid << lefttime << bossid << lefttime..
 	bool QueryBossInfo(IKernel * pKernel, int nSceneId, IVarList& outData);
 private:
-    struct PosInfo
-    {
-		PosInfo() :PosX(0), PosZ(0), Orient(0){};
-        float PosX;
-        float PosZ;
-		float Orient;
-    };
-
-	// boss成长等级数据
-	struct GrowData
-	{
-		GrowData() :nLevel(0)		
-		{}
-		int				nLevel;					// boss等级
-		std::string		strNpcBasePackage;		// boss属性包
-		std::string		strDropID;				// boss掉落包
-	};
-
-	typedef std::vector<GrowData> GrowDataVec;
-
     //boss配置信息
     struct BossInfo
     {
-        std::vector<PosInfo> VecBossInfo;
+        PosInfo BossPos;
 		std::string sBossConfig;
 		int nInterval;	//最小间隔
     };
@@ -152,9 +127,6 @@ private:
 	// 查询boss的刷新间隔
 	int QueryBossInterval(const SceneRefreshInfo& sceneInfo, const char* strBoss);
 
-    //获得随机坐标
-    int GetRandomPos(IKernel* pKernel, const vector<PosInfo>& VecBossInfo, float& fBornX, float& fBornZ, float& fOrient);
-
     //查询场景和BOSS信息
     int QueryBossInfoInScene(IKernel* pKernel, const PERSISTID& self);
 
@@ -181,7 +153,6 @@ private:
 public:
 	static BossRefreshModule * m_pBossRefreshModule;
 private:
-    static SceneInfoModule * m_pSceneInfoModule;
     static NpcCreatorModule * m_pNpcCreatorModule;
     static AsynCtrlModule * m_pAsynCtrlModule;
 private:

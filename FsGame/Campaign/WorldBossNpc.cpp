@@ -200,7 +200,6 @@ bool WorldBossNpc::Init(IKernel* pKernel)
 	LoadAwardResource(pKernel);
 	LoadActiveInfoResource(pKernel);
 	LoadActiveRuleResource(pKernel);
-	LoadOtherNpcConfig(pKernel);
 	LoadWorldBossGrowUpConfig(pKernel);
 
 	// 场景创建回调
@@ -320,28 +319,6 @@ void WorldBossNpc::ParseBossID(const char* strBossIDs, std::map<int, std::string
 	}
 }
 
-void WorldBossNpc::ParsePlayerPos(const char* strPosInfo, WorldBossActive_t& wbactive)
-{
-	if (StringUtil::CharIsNull(strPosInfo))
-	{
-		return;
-	}
-
-	CVarList posinfo;
-	StringUtil::SplitString(posinfo, strPosInfo, ";");
-	if (posinfo.GetCount() != MAX_POS_NUM)
-	{
-		return;
-	}
-
-	LoopBeginCheck(o)
-	for (int i = 0;i < MAX_POS_NUM;++i)
-	{
-		LoopDoCheck(o);
-		wbactive.m_PlayerPos[i] = posinfo.StringVal(i);
-	}
-}
-
 /*!
 * @brief	星期转换
 * @param	星期字符串
@@ -366,28 +343,6 @@ void WorldBossNpc::ParseWeek(const char* weeksStr, std::vector<int>& vecWeeks)
 		LoopDoCheck(m);
 		vecWeeks.push_back(WeekList.IntVal(i));
 	}
-}
-
-/*!
-* @brief	转换ZYZ坐标
-* @param    引擎指针
-* @param    玩家出生点字符串
-* @param    X
-* @param    Y 
-* @param    Z
-* @return	函数执行返回bool
-*/
-bool WorldBossNpc::ParseXYZ(IKernel* pKernel, const std::string& bornPos, float& X, float& Y, float& Z)
-{
-	CVarList tempList;
-	util_split_string(tempList, bornPos, ",");
-
-	// 坐标
-	X = tempList.FloatVal(0);
-	Z = tempList.FloatVal(1);
-	Y = GetWalkHeight(pKernel, X, Z, 0);
-
-	return true;
 }
 
 // 内部命令回调
@@ -736,28 +691,15 @@ PERSISTID WorldBossNpc::CreateWorldBoss(IKernel* pKernel,
 	const std::string& strBossCfgID = pActiveInfo->m_strBossID;
 	pScene->SetDataString("BOSS_CONFIG_ID", strBossCfgID.c_str());
 
-	// BOSS坐标(客户端显示,不用解析)
-	strBossPos = pActiveInfo->m_BossPos; 
-
-	CVarList tempList;
-	util_split_string(tempList, strBossPos, ",");
-	if (tempList.GetCount() < 3)
-	{
-		return PERSISTID();
-	}
-
-	// 坐标解析
-	float fX = tempList.FloatVal(0);
-	float fZ = tempList.FloatVal(1);
-	float fY = pKernel->GetMapHeight(fX, fZ);
-	float fOrient = tempList.FloatVal(2);
+	// BOSS坐标
+	float fY = pKernel->GetMapHeight(pActiveInfo->m_BossPos.fPosX, pActiveInfo->m_BossPos.fPosZ);
 
 	// 创建BOSS	
 	CVarList BossParam;
 	BossParam << CREATE_TYPE_PROPERTY_VALUE 
 			  << "GroupID"
 			  << -1;
-	PERSISTID WorldBoss = pKernel->CreateObjectArgs("", strBossCfgID.c_str(), 0, fX, fY, fZ, fOrient, BossParam);
+	PERSISTID WorldBoss = pKernel->CreateObjectArgs("", strBossCfgID.c_str(), 0, pActiveInfo->m_BossPos.fPosX, fY, pActiveInfo->m_BossPos.fPosZ, pActiveInfo->m_BossPos.fOrient, BossParam);
 	IGameObj* pWorldBossObj = pKernel->GetGameObj(WorldBoss);
 	if (NULL == pWorldBossObj)
 	{
@@ -807,7 +749,6 @@ PERSISTID WorldBossNpc::CreateWorldBoss(IKernel* pKernel,
 		return PERSISTID();
 	}
 	pWorldBoss->SetInt("LifeTime", (iActiveTime + 3) * 1000);
-
 	return WorldBoss;
 }
 
@@ -1202,16 +1143,14 @@ int WorldBossNpc::OnCustomMessage(IKernel* pKernel, const PERSISTID& self, const
 				return 0;
 			}
 			
-			const char* strBornPos = ""; //pActiveInfo->m_PlayerPos[nPosIndex].c_str();
 			// 传送
-			float X, Y, Z;
-			ParseXYZ(pKernel, strBornPos, X, Y, Z);
+			float fPosY = pKernel->GetMapHeight(pActiveInfo->m_PlayerPos.fPosX, pActiveInfo->m_PlayerPos.fPosZ);
 			if (NULL != m_pLandPosModule)
 			{
 				m_pLandPosModule->SetPlayerLandPosi(pKernel, self, pKernel->GetSceneId(), pSelf->GetPosiX(), pSelf->GetPosiY(), pSelf->GetPosiZ());
 			}
 
-			AsynCtrlModule::m_pAsynCtrlModule->SwitchLocate(pKernel, self, iScene, X, Y, Z, 0.0f);
+			AsynCtrlModule::m_pAsynCtrlModule->SwitchLocate(pKernel, self, iScene, pActiveInfo->m_PlayerPos.fPosX, fPosY, pActiveInfo->m_PlayerPos.fPosZ, pActiveInfo->m_PlayerPos.fOrient);
 		}
 		break;
 
@@ -1268,18 +1207,6 @@ int WorldBossNpc::OnPlayerReady(IKernel* pKernel, const PERSISTID& self,const PE
 // 玩家断线重连
 int WorldBossNpc::OnPlayerContinue(IKernel* pKernel, const PERSISTID& self, const PERSISTID& sender, const IVarList& args)
 {
-	IGameObj* pScene = pKernel->GetSceneObj();
-	if (NULL == pScene || !pScene->FindAttr(FLAG_WORLD_BOSS_VISIT))
-	{
-		return 0;
-	}
-	// 在世界boss刷出来
-	int iVisit = pScene->QueryInt(FLAG_WORLD_BOSS_VISIT);
-	if (FLAG_WORLD_BOSS_VISIT_BORNED != iVisit)
-	{
-		return 0;
-	}
-	WorldBossNpc::m_pWorldBossNpc->CustomEliteNpcData(pKernel, self);
 	return 0;
 }
 
@@ -1512,11 +1439,7 @@ int WorldBossNpc::ActiveLastDamageAward(IKernel* pKernel,
 	}
 
 	// 邮件发放奖励
-	RewardModule::AwardEx award;
-	award.srcFunctionId = FUNCTION_EVENT_ID_WORLDBOSS_LAST_ATTACK;
-	
-	bool result = true;//m_pRewardModule->RewardViaMail(pKernel, killerName, &award, CVarList());
-
+	bool result = m_pRewardModule->RewardViaMail(pKernel, killerName, pBossAward->m_nLastHurtAward, CVarList());
 	if (result)
 	{
 		// BOSS名字
@@ -1526,51 +1449,14 @@ int WorldBossNpc::ActiveLastDamageAward(IKernel* pKernel,
 			extend_warning(LOG_ERROR, "[WorldBossNpc::ActiveLastDamageAward] not find boss configID!");
 			npcName = "";
 		}
-		//要公告的物品列表
-		CVarList ShowList;
-		// 奖励字符串
-		std::string& strAward =  pBossAward->m_LastHurtAward.m_ItemList;
-		// 解析物品
-		CVarList Itemlist;
-		util_split_string(Itemlist, strAward, ",");
-		size_t length = Itemlist.GetCount();
-		if(length > 0)
-		{
-			LoopBeginCheck(w);
-			for (size_t i = 0; i < length; ++i )
-			{
-				LoopDoCheck(w);
-				const char* strItem = Itemlist.StringVal(i);
-				if (StringUtil::CharIsNull(strItem))
-				{
-					continue;
-				}
-
-				CVarList ItemInfo;
-				util_split_string(ItemInfo, strItem, ":");
-				const char* strItemID = ItemInfo.StringVal(0);
-				if (StringUtil::CharIsNull(strItemID))
-				{
-					continue;
-				}
-
-				int iCount = ItemInfo.IntVal(1);
-
-				//如果是装备类型，数量就是品质
-				int iShowNum = ToolItemModule::IsCanWearItem(pKernel, strItemID) ? 1 : iCount;
-				ShowList << strItemID 
-					     << iShowNum;
-			}
-		}
 
 		CVarList LastKillMsg;
 		LastKillMsg << killerName 
 					<< npcName 
-					<< ShowList;
+					<< pBossAward->m_nLastHurtAward;
 
 		CustomSysInfoByScene(pKernel, 0, SYSTEM_INFO_ID_54, LastKillMsg);
 	}
-
 	return 0;
 }
 
@@ -1606,7 +1492,7 @@ int WorldBossNpc::ActiveRankAward(IKernel* pKernel, const PERSISTID& CurrScene, 
 	}
 
 	int iRowCount = pWBossDamRecord->GetRows();
-	std::vector<RankAward_t>& vecRankAward = nResult == SUC_KILL_WORLD_BOSS ? pBossAward->m_SucRankAward : pBossAward->m_FailRankAward; 
+	std::vector<RankAward_t>& vecRankAward = pBossAward->m_vecRankAward;// nResult == SUC_KILL_WORLD_BOSS ? : pBossAward->m_FailRankAward;
 	int iRankVecCount = (int)vecRankAward.size();
 	if (iRowCount < 1 || iRankVecCount < 1)
 	{
@@ -1630,34 +1516,27 @@ int WorldBossNpc::ActiveRankAward(IKernel* pKernel, const PERSISTID& CurrScene, 
 					continue;
 				}
 
-				// 奖励( 排行奖，钱币-银元-熔炼值)
-				RewardModule::AwardEx award;  
-				// 功能废弃， 不需要关心 award.srcFunctionId
-				//m_pWorldBossNpc->GetRankAwardWarp(award, tRankAward);
-
+				int nRewardId = nResult == SUC_KILL_WORLD_BOSS ? tRankAward.m_nWinRewardId : tRankAward.m_nFailRewardId;
 				// 玩家对象是否在当前场景存在
 				PERSISTID& Attacker = pKernel->FindPlayer(play_name);
 				if (pKernel->Exists(Attacker))
 				{
-					std::string strItemList = tRankAward.m_ItemList;
 
 					// 结算界面排行奖品信息
-// 					std::string strRankAward;
-// 					RewardModule::AwardToString(award, strRankAward);
-// 					if (!pKernel->FindData(Attacker, "TempRankAward"))
-// 					{
-// 						ADD_DATA(pKernel, Attacker, "TempRankAward", VTYPE_STRING);
-// 						pKernel->SetDataString(Attacker, "TempRankAward", strRankAward.c_str());
-// 					}
+					if (!pKernel->FindData(Attacker, "TempRankAward"))
+					{
+						ADD_DATA(pKernel, Attacker, "TempRankAward", VTYPE_INT);
+						pKernel->SetDataInt(Attacker, "TempRankAward", nRewardId);
+					}
 // 
-// 					// 玩法日志(记录玩家排行名次)
-// 					GamePlayerActionLog log;
-// 					log.actionType = m_pWorldBossNpc->GetActiveLogID();
-// 					log.actionState = iRank;
-// 					LogModule::m_pLogModule->SaveGameActionLog(pKernel, Attacker, log);
+					// 玩法日志(记录玩家排行名次)
+					GamePlayerActionLog log;
+					log.actionType = LOG_GAME_ACTION_WORLDBOSS;
+					log.actionState = iRank;
+					LogModule::m_pLogModule->SaveGameActionLog(pKernel, Attacker, log);
 				}
 
-				//m_pRewardModule->RewardViaMail(pKernel, play_name, &award, CVarList() << iRank << cBossID);
+				m_pRewardModule->RewardViaMail(pKernel, play_name, nRewardId, CVarList() << iRank << cBossID);
 			}
 		}
 	}
@@ -1943,7 +1822,6 @@ void WorldBossNpc::ReloadConfig(IKernel* pKernel)
 	LoadAwardResource(pKernel);
 	LoadActiveInfoResource(pKernel);
 	LoadActiveRuleResource(pKernel);
-	m_pWorldBossNpc->LoadOtherNpcConfig(pKernel);
 	m_pWorldBossNpc->LoadWorldBossGrowUpConfig(pKernel);
 }
 
@@ -2124,7 +2002,6 @@ int WorldBossNpc::HB_BossBorn(IKernel* pKernel, const PERSISTID& self, int slice
 		pSceneObj->SetDataObject(WORLD_BOSS_ACTIVED, WorldBoss);
 	}
 
-	m_pWorldBossNpc->CreateSceneOtherNpc(pKernel);
 	return 0;
 }
 
@@ -2593,88 +2470,6 @@ void WorldBossNpc::ActiveClosed(IKernel* pKernel, const PERSISTID& Scene, int iS
 		// 通知活动结束
 		m_pWorldBossNpc->NoticeActiveFinish(pKernel, Scene, bKilled);
 	}
-}
-
-// 创建场景其他小怪
-void WorldBossNpc::CreateSceneOtherNpc(IKernel* pKernel)
-{
-	IGameObj* pSceneObj = pKernel->GetSceneObj();
-	if (NULL == pSceneObj)
-	{
-		return;
-	}
-
-	int nSceneId = pKernel->GetSceneId();
-	WBAllOtherNpcMap::iterator iter = m_mapAllOtherNpc.find(nSceneId);
-	if (iter == m_mapAllOtherNpc.end())
-	{
-		return;
-	}
-
-	IRecord* pEliteNpcRec = pSceneObj->GetRecord(WORLD_BOSS_ELITE_NPC_REC);
-	if (NULL == pEliteNpcRec)
-	{
-		return;
-	}
-
-	pEliteNpcRec->ClearRow();
-	const WBOtherNpcVec& vecNpc = iter->second;
-	int nSize = vecNpc.size();
-	LoopBeginCheck(q);
-	for (int i = 0; i < nSize;++i)
-	{
-		LoopDoCheck(q);
-		const WBOtherNpc& data = vecNpc[i];
-
-		float fPosY = pKernel->GetMapHeight(data.fPosX, data.fPosZ);
-		PERSISTID npc = pKernel->CreateObjectArgs("", data.strNpcId.c_str(), 0, data.fPosX, fPosY, data.fPosZ, 0, CVarList() << CREATE_TYPE_PROPERTY_VALUE << "GroupID" << -1);
-		if (!pKernel->Exists(npc))
-		{
-			continue;
-		}
-
-		if (data.bIsRec)
-		{
-			pEliteNpcRec->AddRowValue(-1, CVarList() << npc << data.nNpcIndex);
-		}
-	}
-}
-
-// 精英怪数据同步
-void WorldBossNpc::CustomEliteNpcData(IKernel* pKernel, const PERSISTID& self)
-{
-	IGameObj* pSceneObj = pKernel->GetSceneObj();
-	if (NULL == pSceneObj || !pKernel->Exists(self))
-	{
-		return;
-	}
-
-	IRecord* pEliteNpcRec = pSceneObj->GetRecord(WORLD_BOSS_ELITE_NPC_REC);
-	if (NULL == pEliteNpcRec)
-	{
-		return;
-	}
-	
-	CVarList senddata;
-	senddata << SERVER_CUSTOMMSG_WORLD_BOSS_ACTIVE << SC_WORLD_BOSS_LIVE_ELITE_NPC;
-
-	CVarList deadnpc;
-	int nRows = pEliteNpcRec->GetRows();
-	LoopBeginCheck(g);
-	for (int i = 0; i < nRows;++i)
-	{
-		LoopDoCheck(g);
-		PERSISTID npc = pEliteNpcRec->QueryObject(i, WBEN_COL_NPC_OBJECT);
-		if (npc.IsNull())
-		{
-			int nNpcIndex = pEliteNpcRec->QueryInt(i, WBEN_COL_NPC_INDEX);
-			deadnpc << nNpcIndex;
-		}
-	}
-
-	int nLiveCount = (int)deadnpc.GetCount();
-	senddata << nLiveCount << deadnpc;
-	pKernel->Custom(self, senddata);
 }
 
 // 获取世界boss的属性包 

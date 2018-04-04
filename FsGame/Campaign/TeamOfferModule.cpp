@@ -124,7 +124,7 @@ bool TeamOfferModule::Init(IKernel* pKernel)
 	pKernel->AddEventCallback(CLASS_NAME_SCENE, "OnPublicMessage", TeamOfferModule::OnPublicMessage);
 
 	// 悬赏怪物死亡
-	pKernel->AddIntCommandHook(CLASS_NAME_TEAM_OFFER_NPC, COMMAND_BEKILL, TeamOfferModule::OnOfferNpcBeKilled);
+	pKernel->AddIntCommandHook(CLASS_NAME_NPC, COMMAND_BEKILL, TeamOfferModule::OnOfferNpcBeKilled);
 
 	// 任务进度回调
 	pKernel->AddIntCommandHook(CLASS_NAME_PLAYER, COMMAND_TASK_ACTION_MSG, TeamOfferModule::OnCommandTaskProc);
